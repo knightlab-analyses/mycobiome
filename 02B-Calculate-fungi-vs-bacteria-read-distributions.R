@@ -116,6 +116,43 @@ dim(rep200Data_WGS_RNA_Matched_Bacteria) # 15512 11071
 rep200Data_WGS_RNA_Matched_Fungi <- rep200Data_WGS_RNA_Matched[,colnames(rep200Data_WGS_RNA_Matched) %in% rownames(rep200TaxSplit_Fungi)]
 dim(rep200Data_WGS_RNA_Matched_Fungi) # 15512 319
 
+#------------------------------------------------------------------#
+# WGS vs. RNA-Seq norm read counts
+#------------------------------------------------------------------#
+
+metaQiitaWGS_RNA_AllSeqPlatforms_Joined_DNAonly <- metaQiitaWGS_RNA_AllSeqPlatforms_Joined %>% filter(experimental_strategy == "WGS") %>% droplevels()
+metaQiitaWGS_RNA_AllSeqPlatforms_Joined_RNAonly <- metaQiitaWGS_RNA_AllSeqPlatforms_Joined %>% filter(experimental_strategy == "RNA-Seq") %>% droplevels()
+
+wgsData <- rep200Data_WGS_RNA_Matched_Fungi[rownames(metaQiitaWGS_RNA_AllSeqPlatforms_Joined_DNAonly),]
+rnaData <- rep200Data_WGS_RNA_Matched_Fungi[rownames(metaQiitaWGS_RNA_AllSeqPlatforms_Joined_RNAonly),]
+
+wgsSampleCounts <- log10(unname(rowSums(wgsData)))
+rnaSampleCounts <- log10(unname(rowSums(rnaData)))
+summary(wgsSampleCounts)
+summary(rnaSampleCounts)
+
+combinedSampleCountsJoined <- data.frame(sample_counts = c(wgsSampleCounts,rnaSampleCounts),
+                                   data_type = c(rep("WGS",length(wgsSampleCounts)), rep("RNA-Seq",length(rnaSampleCounts))))
+require(EnvStats)
+combinedSampleCountsJoined %>%
+  ggviolin(x = "data_type",
+           y = "sample_counts",
+           fill = "data_type",
+           palette = "nejm",
+           legend = "none",
+           draw_quantiles = c(0.25,0.50,0.75),
+           xlab = "Experimental strategy",
+           ylab = "log10(sample fungi read counts)",
+           add = "mean",
+           add.params = list(color="white",size=1)) +
+  stat_compare_means(label.x.npc = 0.1, label.y = 7) +
+  stat_n_text(y.pos = -1) + ylim(c(-1.1,7)) +
+  ggsave(filename = "Figures/Supplementary_Figures/tcga_read_count_wgs_vs_rna_allSeqPlatforms_04Oct21.jpeg",
+         dpi = "retina",
+         height = 5,
+         width = 3,
+         units = "in")
+
 #----------------------------------------------------------#
 # Construct phyloseq object and summarize counts to domain level
 #----------------------------------------------------------#
@@ -541,7 +578,7 @@ ggplot(aes(x = percent_bacteria_total, y = percent_fungi_total, color=sample_typ
   #               labels = trans_format("log10", math_format(10^.x))) +
   theme_bw() + theme(aspect.ratio=1) + coord_fixed() +
   ggsave(filename = "Figures/Figure_1/corr_fungal_and_bacterial_read_percentages_sample_type.jpeg",
-         dpi = "retina", units = "in", width = 5, height = 5)
+         dpi = "retina", units = "in", width = 7, height = 7)
 
 # Color by experimental strategy
 metaQiitaWGS_RNA_AllSeqPlatforms_Joined_WithBamcounts %>%
@@ -557,4 +594,4 @@ metaQiitaWGS_RNA_AllSeqPlatforms_Joined_WithBamcounts %>%
   #               labels = trans_format("log10", math_format(10^.x))) +
   theme_bw() + theme(aspect.ratio=1) + coord_fixed() +
   ggsave(filename = "Figures/Figure_1/corr_fungal_and_bacterial_read_percentages_experimental_strategy.jpeg",
-         dpi = "retina", units = "in", width = 5, height = 5)
+         dpi = "retina", units = "in", width = 7, height = 7)
