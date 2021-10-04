@@ -1,0 +1,170 @@
+"rowname"	"specimen_id"	"diagnosis"	"disease_type"	"disease_type_consol"	"HvsC"	"host_age"	"host_age_ordered"	"host_age_binned"	"sex"	"tube_id"	"well_description"	"well_conc"
+"12667.X2036767"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	46	"46"	"X4"	"male"	"HNL1"	"HNL1"	0.257
+"12667.X2036793"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	51	"51"	"X5"	"male"	"HNC1"	"HNC1"	0.267
+"12667.X2041787"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	20	"20"	"X1"	"male"	"HNL2"	"HNL2"	0.181
+"12667.X2043129"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	62	"62"	"X6"	"male"	"HNN1"	"HNN1"	0.223
+"12667.X2043400"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	36	"36"	"X3"	"male"	"HNN2"	"HNN2"	0.262
+"12667.X2044156"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	50	"50"	"X4"	"male"	"HNN3"	"HNN3"	0.235
+"12667.X2047268"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	47	"47"	"X4"	"male"	"HNL3"	"HNL3"	0.206
+"12667.X2048152"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	47	"47"	"X4"	"female"	"HNN4"	"HNN4"	0.212
+"12667.X2049520"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	53	"53"	"X5"	"female"	"HNC2"	"HNC2"	0.212
+"12667.X2050079"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	62	"62"	"X6"	"male"	"HNN5"	"HNN5"	0.213
+"12667.X2051123"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	59	"59"	"X5"	"female"	"HNL4"	"HNL4"	0.199
+"12667.X2051138"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	26	"26"	"X2"	"male"	"HNL5"	"HNL5"	0.595
+"12667.X2052632"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	36	"36"	"X3"	"male"	"HNL6"	"HNL6"	0.163
+"12667.X2052835"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	49	"49"	"X4"	"male"	"HNN6"	"HNN6"	0.209
+"12667.X2055755"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	54	"54"	"X5"	"male"	"HNL7"	"HNL7"	0.883
+"12667.X2056691"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	40	"40"	"X3"	"male"	"HNL8"	"HNL8"	0.254
+"12667.X2058733"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	26	"26"	"X2"	"male"	"HNN7"	"HNN7"	0.193
+"12667.X2059586"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	43	"43"	"X4"	"male"	"HNC3"	"HNC3"	0.251
+"12667.X2060998"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	31	"31"	"X3"	"male"	"HNN8"	"HNN8"	0.283
+"12667.X2061208"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	66	"66"	"X6"	"male"	"HNN9"	"HNN9"	0.23
+"12667.X2061316"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	46	"46"	"X4"	"female"	"HNC4"	"HNC4"	0.189
+"12667.X2061359"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	34	"34"	"X3"	"female"	"HNC5"	"HNC5"	0.198
+"12667.X2061574"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	61	"61"	"X6"	"male"	"HNL9"	"HNL9"	0.201
+"12667.X2062455"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	46	"46"	"X4"	"male"	"HNN10"	"HNN10"	0.327
+"12667.X2062809"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	44	"44"	"X4"	"male"	"HNC6"	"HNC6"	0.182
+"12667.X2062843"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	49	"49"	"X4"	"male"	"HNL10"	"HNL10"	0.235
+"12667.X2062971"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	30	"30"	"X2"	"male"	"HNL11"	"HNL11"	0.243
+"12667.X2064352"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	60	"60"	"X5"	"female"	"HNL12"	"HNL12"	0.134
+"12667.X2064367"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	42	"42"	"X4"	"male"	"HNN11"	"HNN11"	0.165
+"12667.X2065210"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	49	"49"	"X4"	"male"	"HNL13"	"HNL13"	0.204
+"12667.X2067131"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	54	"54"	"X5"	"male"	"HNN12"	"HNN12"	0.164
+"12667.X2068559"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	32	"32"	"X3"	"male"	"HNC7"	"HNC7"	0.263
+"12667.X2068760"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	68	"68"	"X6"	"male"	"HNN13"	"HNN13"	0.22
+"12667.X2068980"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	59	"59"	"X5"	"male"	"HNL14"	"HNL14"	0.171
+"12667.X2069281"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	50	"50"	"X4"	"male"	"HNN14"	"HNN14"	0.211
+"12667.X2071711"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	25	"25"	"X2"	"male"	"HNC8"	"HNC8"	0.306
+"12667.X2074003"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	55	"55"	"X5"	"female"	"HNC9"	"HNC9"	0.274
+"12667.X2076870"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	47	"47"	"X4"	"male"	"HNL15"	"HNL15"	0.262
+"12667.X2076954"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	31	"31"	"X3"	"male"	"HNN15"	"HNN15"	0.258
+"12667.X2130028"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	38	"38"	"X3"	"male"	"HNN16"	"HNN16"	0.191
+"12667.X2147547"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	29	"29"	"X2"	"male"	"HNL16"	"HNL16"	0.32
+"12667.X2170593"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	52	"52"	"X5"	"male"	"HNN17"	"HNN17"	0.226
+"12667.X2339235"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	25	"25"	"X2"	"male"	"HNC10"	"HNC10"	0.224
+"12667.X2342267"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	24	"24"	"X2"	"male"	"HNC11"	"HNC11"	0.191
+"12667.X2378267"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	46	"46"	"X4"	"male"	"HNC12"	"HNC12"	0.14
+"12667.X2403412"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	63	"63"	"X6"	"male"	"HNL17"	"HNL17"	0.201
+"12667.X2454843"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	34	"34"	"X3"	"male"	"HNL18"	"HNL18"	0.228
+"12667.X2457964"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	36	"36"	"X3"	"male"	"HNL19"	"HNL19"	0.267
+"12667.X2470952"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	25	"25"	"X2"	"female"	"HNL20"	"HNL20"	0.225
+"12667.X2471017"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	62	"62"	"X6"	"male"	"HNL21"	"HNL21"	0.285
+"12667.X2472337"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	50	"50"	"X4"	"female"	"HNC13"	"HNC13"	0.19
+"12667.X2483184"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	48	"48"	"X4"	"male"	"HNL22"	"HNL22"	0.242
+"12667.X2488000"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	40	"40"	"X3"	"male"	"HNL23"	"HNL23"	0.361
+"12667.X2488349"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	31	"31"	"X3"	"male"	"HNC14"	"HNC14"	0.184
+"12667.X2493385"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	46	"46"	"X4"	"female"	"HNC15"	"HNC15"	0.256
+"12667.X2496221"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	41	"41"	"X4"	"male"	"HNN18"	"HNN18"	0.24
+"12667.X3003105"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	26	"26"	"X2"	"female"	"HNN19"	"HNN19"	0.278
+"12667.X3004746"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	30	"30"	"X2"	"male"	"HNC16"	"HNC16"	0.235
+"12667.X3030973"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	55	"55"	"X5"	"male"	"HNC17"	"HNC17"	0.462
+"12667.X3034050"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	66	"66"	"X6"	"male"	"HNN20"	"HNN20"	0.317
+"12667.X3039009"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	46	"46"	"X4"	"female"	"HNN21"	"HNN21"	0.205
+"12667.X3054832"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	21	"21"	"X2"	"male"	"HNN22"	"HNN22"	0.242
+"12667.X3056486"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	49	"49"	"X4"	"female"	"HNC18"	"HNC18"	0.317
+"12667.X3074166"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	58	"58"	"X5"	"female"	"HNC19"	"HNC19"	0.224
+"12667.X3076646"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	59	"59"	"X5"	"female"	"HNC20"	"HNC20"	0.207
+"12667.X3106774"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	57	"57"	"X5"	"female"	"HNC21"	"HNC21"	0.212
+"12667.X3109641"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	42	"42"	"X4"	"male"	"HNN23"	"HNN23"	0.198
+"12667.X3122336"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	58	"58"	"X5"	"female"	"HNC22"	"HNC22"	0.228
+"12667.X3124859"	"not provided"	"not provided"	"healthy control"	"Control"	"Control"	63	"63"	"X6"	"male"	"HNC23"	"HNC23"	0.186
+"12691.rana01"	"27906270"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	54	"54"	"X5"	"male"	"PC1"	"PC1"	0.232
+"12691.rana02"	"42451247"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	62	"62"	"X6"	"male"	"PC2"	"PC2"	0.2
+"12691.rana03"	"42674064"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	64	"64"	"X6"	"male"	"PC3"	"PC3"	0.299
+"12691.rana04"	"42755292"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	66	"66"	"X6"	"male"	"PC4"	"PC4"	0.287
+"12691.rana05"	"43104465"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	64	"64"	"X6"	"male"	"PC5"	"PC5"	0.19
+"12691.rana06"	"35924882"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	77	"77"	"X7"	"male"	"PC6"	"PC6"	0.239
+"12691.rana07"	"42399166"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	73	"73"	"X7"	"male"	"PC7"	"PC7"	0.324
+"12691.rana08"	"42802908"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	66	"66"	"X6"	"male"	"PC8"	"PC8"	0.298
+"12691.rana09"	"42586484"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	62	"62"	"X6"	"male"	"PC9"	"PC9"	0.228
+"12691.rana10"	"37286800"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	82	"82"	"X8"	"male"	"PC10"	"PC10"	0.367
+"12691.rana11"	"43139409"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	62	"62"	"X6"	"male"	"PC11"	"PC11"	0.222
+"12691.rana12"	"38385223"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	64	"64"	"X6"	"male"	"PC12"	"PC12"	0.181
+"12691.rana13"	"43152217"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	81	"81"	"X8"	"male"	"PC13"	"PC13"	0.281
+"12691.rana14"	"36464607"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	66	"66"	"X6"	"male"	"PC14"	"PC14"	0.251
+"12691.rana15"	"33016221"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	54	"54"	"X5"	"male"	"PC15"	"PC15"	0.203
+"12691.rana16"	"32062941"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	78	"78"	"X7"	"male"	"PC16"	"PC16"	0.307
+"12691.rana17"	"29768271"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	79	"79"	"X7"	"male"	"PC17"	"PC17"	0.169
+"12691.rana18"	"28109064"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	73	"73"	"X7"	"male"	"PC18"	"PC18"	0.209
+"12691.rana19"	"19023330"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	69	"69"	"X6"	"male"	"PC19"	"PC19"	1.039
+"12691.rana20"	"42505974"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	82	"82"	"X8"	"male"	"PC20"	"PC20"	0.262
+"12691.rana21"	"19018702"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	64	"64"	"X6"	"male"	"PC21"	"PC21"	0.193
+"12691.rana22"	"37565229"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	67	"67"	"X6"	"male"	"PC22"	"PC22"	0.197
+"12691.rana23"	"42674467"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	82	"82"	"X8"	"male"	"PC23"	"PC23"	0.145
+"12691.rana24"	"43049725"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	70	"70"	"X6"	"male"	"PC24"	"PC24"	0.196
+"12691.rana25"	"30527040"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	73	"73"	"X7"	"male"	"PC25"	"PC25"	0.829
+"12691.rana26"	"35969019"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	62	"62"	"X6"	"male"	"PC26"	"PC26"	0.219
+"12691.rana27"	"42782238"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	55	"55"	"X5"	"male"	"PC27"	"PC27"	0.191
+"12691.rana28"	"42714270"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	79	"79"	"X7"	"male"	"PC28"	"PC28"	0.213
+"12691.rana29"	"42459232"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	72	"72"	"X7"	"male"	"PC29"	"PC29"	0.211
+"12691.rana30"	"42899846"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	72	"72"	"X7"	"male"	"PC30"	"PC30"	0.121
+"12691.rana31"	"36157639"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	67	"67"	"X6"	"male"	"PC31"	"PC31"	0.182
+"12691.rana32"	"43134088"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	80	"80"	"X7"	"male"	"PC32"	"PC32"	0.227
+"12691.rana33"	"42608782"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	70	"70"	"X6"	"male"	"PC33"	"PC33"	0.495
+"12691.rana34"	"43193107"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	87	"87"	"X8"	"male"	"PC34"	"PC34"	1.973
+"12691.rana35"	"43036496"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	69	"69"	"X6"	"male"	"PC35"	"PC35"	0.181
+"12691.rana36"	"42403940"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	69	"69"	"X6"	"male"	"PC36"	"PC36"	0.193
+"12691.rana37"	"22900936"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	92	"92"	"X9"	"male"	"PC37"	"PC37"	0.285
+"12691.rana38"	"42589186"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	41	"41"	"X4"	"male"	"PC38"	"PC38"	2.326
+"12691.rana39"	"42588557"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	85	"85"	"X8"	"male"	"PC39"	"PC39"	0.349
+"12691.rana40"	"31130429"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	73	"73"	"X7"	"male"	"PC40"	"PC40"	0.229
+"12691.rana41"	"20532883"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	80	"80"	"X7"	"male"	"PC41"	"PC41"	0.255
+"12691.rana42"	"28289953"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	54	"54"	"X5"	"male"	"PC42"	"PC42"	0.197
+"12691.rana43"	"38731352"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	64	"64"	"X6"	"male"	"PC43"	"PC43"	0.209
+"12691.rana44"	"33040715"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	57	"57"	"X5"	"male"	"PC44"	"PC44"	0.373
+"12691.rana45"	"42490749"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	71	"71"	"X7"	"male"	"PC45"	"PC45"	0.234
+"12691.rana46"	"43238603"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	53	"53"	"X5"	"male"	"PC46"	"PC46"	0.317
+"12691.rana47"	"42586293"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	69	"69"	"X6"	"male"	"PC47"	"PC47"	0.272
+"12691.rana48"	"29815520"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	62	"62"	"X6"	"male"	"PC48"	"PC48"	0.209
+"12691.rana49"	"17419102"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	69	"69"	"X6"	"male"	"PC49"	"PC49"	0.262
+"12691.rana50"	"38600358"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	76	"76"	"X7"	"male"	"PC50"	"PC50"	0.277
+"12691.rana51"	"42412302"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	82	"82"	"X8"	"male"	"PC51"	"PC51"	0.238
+"12691.rana52"	"17253482"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	80	"80"	"X7"	"male"	"PC52"	"PC52"	0.35
+"12691.rana53"	"18651915"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	69	"69"	"X6"	"male"	"PC53"	"PC53"	0.174
+"12691.rana54"	"18969426"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	66	"66"	"X6"	"male"	"PC54"	"PC54"	0.234
+"12691.rana55"	"36497598"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	65	"65"	"X6"	"male"	"PC55"	"PC55"	0.239
+"12691.rana56"	"33674175"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	80	"80"	"X7"	"male"	"PC56"	"PC56"	0.275
+"12691.rana59"	"43268578"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	69	"69"	"X6"	"male"	"PC59"	"PC59"	0.217
+"12691.rana60"	"42729496"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	74	"74"	"X7"	"male"	"PC60"	"PC60"	0.697
+"12691.rana61"	"43274795"	"Prostate Cancer"	"Prostate Cancer"	"PRAD"	"Cancer"	67	"67"	"X6"	"male"	"PC61"	"PC61"	0.274
+"12692.150003"	"not provided"	"NSCLC- Squamous"	"Lung Squamous Cell Carcinoma"	"NSCLC"	"Cancer"	46	"46"	"X4"	"female"	"MCC-024.2"	"LC1"	0.28
+"12692.150005"	"not provided"	"NSCLC- Squamous"	"Lung Squamous Cell Carcinoma"	"NSCLC"	"Cancer"	64	"64"	"X6"	"female"	"MCC-024.3"	"MC2"	0.324
+"12692.150006"	"not provided"	"NSCLC- Adeno"	"Lung Adenocarcinoma"	"NSCLC"	"Cancer"	58	"58"	"X5"	"female"	"MCC-024.5"	"MC3"	0.414
+"12692.150007"	"not provided"	"NSCLC- Adeno"	"Lung Adenocarcinoma"	"NSCLC"	"Cancer"	79	"79"	"X7"	"male"	"MCC-024.4"	"LC2"	0.226
+"12692.150011"	"not provided"	"NSCLC- Adeno"	"Lung Adenocarcinoma"	"NSCLC"	"Cancer"	75	"75"	"X7"	"male"	"MCC-024.8"	"LC4"	0.281
+"12692.150013"	"not provided"	"NSCLC- Adeno"	"Lung Adenocarcinoma"	"NSCLC"	"Cancer"	71	"71"	"X7"	"female"	"MCC-024.10"	"LC5"	0.304
+"12692.150022"	"not provided"	"NSCLC- Squamous"	"Lung Squamous Cell Carcinoma"	"NSCLC"	"Cancer"	83	"83"	"X8"	"male"	"MCC-024.12"	"MC6"	0.255
+"12692.150031"	"not provided"	"NSCLC- Adeno"	"Lung Adenocarcinoma"	"NSCLC"	"Cancer"	59	"59"	"X5"	"female"	"MCC-024.14"	"LC6"	0.224
+"12692.150032"	"not provided"	"NSCLC- Adeno"	"Lung Adenocarcinoma"	"NSCLC"	"Cancer"	87	"87"	"X8"	"male"	"MCC-024.7"	"MC4"	0.312
+"12692.150080"	"not provided"	"NSCLC- Large cell"	"not provided"	"NSCLC"	"Cancer"	64	"64"	"X6"	"female"	"MCC-024.17"	"MC7"	0.319
+"12692.150083"	"not provided"	"NSCLC- Adeno"	"Lung Adenocarcinoma"	"NSCLC"	"Cancer"	77	"77"	"X7"	"female"	"MCC-024.18"	"LC7"	0.446
+"12692.150088"	"not provided"	"NSCLC- Adeno"	"Lung Adenocarcinoma"	"NSCLC"	"Cancer"	69	"69"	"X6"	"male"	"MCC-024.20"	"LC8"	0.304
+"12692.150093"	"not provided"	"Melanoma of RU chest wall"	"not provided"	"SKCM"	"Cancer"	55	"55"	"X5"	"female"	"MCC-024.21"	"MC9"	0.357
+"12692.150094"	"not provided"	"NSCLC- Adeno"	"Lung Adenocarcinoma"	"NSCLC"	"Cancer"	64	"64"	"X6"	"female"	"MCC-024.24"	"LC10"	0.288
+"12692.150095"	"not provided"	"Melanoma, unknown primary"	"not provided"	"SKCM"	"Cancer"	28	"28"	"X2"	"male"	"MCC-024.23"	"MC10"	0.314
+"12692.150104"	"not provided"	"NSCLC- Squamous"	"Lung Squamous Cell Carcinoma"	"NSCLC"	"Cancer"	64	"64"	"X6"	"female"	"MCC-024.9"	"MC5"	0.233
+"12692.150108"	"not provided"	"NSCLC"	"nsclc NOS"	"NSCLC"	"Cancer"	63	"63"	"X6"	"female"	"MCC-024.26"	"MC11"	0.883
+"12692.150109"	"not provided"	"Melanoma"	"Skin Cutaneous Melanoma"	"SKCM"	"Cancer"	62	"62"	"X6"	"male"	"MCC-024.27"	"LC11"	0.353
+"12692.150113"	"not provided"	"NSCLC"	"nsclc NOS"	"NSCLC"	"Cancer"	80	"80"	"X7"	"female"	"MCC-024.28"	"MC12"	0.247
+"12692.150117"	"not provided"	"Melanoma"	"Skin Cutaneous Melanoma"	"SKCM"	"Cancer"	60	"60"	"X5"	"male"	"MCC-024.6"	"LC3"	0.343
+"12692.150126"	"not provided"	"Melanoma"	"Skin Cutaneous Melanoma"	"SKCM"	"Cancer"	41	"41"	"X4"	"male"	"MCC-024.29"	"LC12"	0.198
+"12692.150141"	"not provided"	"Melanoma"	"Skin Cutaneous Melanoma"	"SKCM"	"Cancer"	71	"71"	"X7"	"female"	"MCC-024.22"	"LC9"	0.264
+"12692.150143"	"not provided"	"Melanoma"	"Skin Cutaneous Melanoma"	"SKCM"	"Cancer"	58	"58"	"X5"	"male"	"MCC-024.30"	"MC13"	0.335
+"12692.150146"	"not provided"	"Melanoma"	"Skin Cutaneous Melanoma"	"SKCM"	"Cancer"	53	"53"	"X5"	"male"	"MCC-024.31"	"LC13"	0.725
+"12692.150156"	"not provided"	"NSCLC- Adeno"	"Lung Adenocarcinoma"	"NSCLC"	"Cancer"	84	"84"	"X8"	"male"	"MCC-024.32"	"MC14"	0.27
+"12692.150161"	"not provided"	"NSCLC- Adeno"	"Lung Adenocarcinoma"	"NSCLC"	"Cancer"	62	"62"	"X6"	"female"	"MCC-024.33"	"LC14"	0.266
+"12692.150162"	"not provided"	"NSCLC- Adeno"	"Lung Adenocarcinoma"	"NSCLC"	"Cancer"	78	"78"	"X7"	"male"	"MCC-024.34"	"MC15"	0.274
+"12692.150163"	"not provided"	"Melanoma"	"Skin Cutaneous Melanoma"	"SKCM"	"Cancer"	60	"60"	"X5"	"male"	"MCC-024.35"	"LC15"	0.208
+"12692.150166"	"not provided"	"Melanoma"	"Skin Cutaneous Melanoma"	"SKCM"	"Cancer"	70	"70"	"X6"	"male"	"MCC-024.36"	"MC16"	0.544
+"12692.150171"	"not provided"	"NSCLC- Adeno"	"Lung Adenocarcinoma"	"NSCLC"	"Cancer"	56	"56"	"X5"	"female"	"MCC-024.37"	"LC16"	0.16
+"12692.150178"	"not provided"	"NSCLC- Sarcomatoid"	"NSCLC Sarcomatoid"	"NSCLC"	"Cancer"	74	"74"	"X7"	"female"	"MCC-024.38"	"MC17"	0.17
+"12692.150182"	"not provided"	"Melanoma"	"Skin Cutaneous Melanoma"	"SKCM"	"Cancer"	60	"60"	"X5"	"male"	"MCC-024.39"	"LC17"	0.207
+"12692.150186"	"not provided"	"Melanoma"	"Skin Cutaneous Melanoma"	"SKCM"	"Cancer"	74	"74"	"X7"	"male"	"MCC-024.40"	"MC18"	0.272
+"12692.150199"	"not provided"	"NSCLC- Squamous"	"Lung Squamous Cell Carcinoma"	"NSCLC"	"Cancer"	68	"68"	"X6"	"male"	"MCC-024.19"	"MC8"	0.294
+"12692.150209"	"not provided"	"NSCLC- Adeno"	"Lung Adenocarcinoma"	"NSCLC"	"Cancer"	77	"77"	"X7"	"female"	"MCC-024.41"	"LC18"	0.249
+"12692.150215"	"not provided"	"NSCLC- Adeno"	"Lung Adenocarcinoma"	"NSCLC"	"Cancer"	67	"67"	"X6"	"female"	"MCC-024.42"	"MC19"	0.235
+"12692.150224"	"not provided"	"Melanoma"	"Skin Cutaneous Melanoma"	"SKCM"	"Cancer"	52	"52"	"X5"	"male"	"MCC-024.44"	"MC20"	0.207
+"12692.150229"	"not provided"	"NSCLC"	"nsclc NOS"	"NSCLC"	"Cancer"	69	"69"	"X6"	"female"	"MCC-024.45"	"LC20"	0.197
+"12692.150230"	"not provided"	"Melanoma"	"Skin Cutaneous Melanoma"	"SKCM"	"Cancer"	47	"47"	"X4"	"male"	"MCC-024.1"	"MC1"	0.219
+"12692.150238"	"not provided"	"Melanoma"	"Skin Cutaneous Melanoma"	"SKCM"	"Cancer"	64	"64"	"X6"	"male"	"MCC-024.43"	"LC19"	0.354
+"12692.150242"	"not provided"	"Melanoma"	"Skin Cutaneous Melanoma"	"SKCM"	"Cancer"	81	"81"	"X8"	"male"	"MCC-024.46"	"MC21"	0.212

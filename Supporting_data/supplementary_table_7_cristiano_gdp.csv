@@ -1,0 +1,424 @@
+﻿patientID,disease_type,analysis_type,timepoint,stage,median_cfDNA_fragment_size,correlation_fragment_ratio_profile_to_median_fragment_ratio_profile_healthy,correlation_GC_corrected_fragment_ratio_to_median_fragment_ratio_healthy,fraction_reads_mitochondrial,delfi_score,detected_using_delfi_95_specificity,detected_using_delfi_98_specificity,maf_detected_using_targeted_sequencing
+CGCRC291,Colorectal Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,IV,163,0.197159742,0.52679325,0.000484119,0.997606069,Y,Y,0.2285
+CGCRC292,Colorectal Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,IV,166,0.780428585,0.883525409,0.000270409,0.729868536,Y,N,0.0141
+CGCRC293,Colorectal Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,IV,166,0.933521728,0.920598156,0.000748468,0.523402532,N,N,0.0035
+CGCRC294,Colorectal Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,166,0.653123929,0.890421423,0.000187504,0.875660521,Y,Y,0.0017
+CGCRC296,Colorectal Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,166,0.816146664,0.869466854,0.000368828,0.99508535,Y,Y,ND
+CGCRC299,Colorectal Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,162,0.732458931,0.926817268,0.000392096,0.964792657,Y,Y,ND
+CGCRC300,Colorectal Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,167,0.938205548,0.930301134,0.00023468,0.444738171,N,N,ND
+CGCRC301,Colorectal Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,165,0.825172727,0.91510639,0.000310327,0.218978137,N,N,0.0021
+CGCRC302,Colorectal Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,163,0.749937798,0.924295412,0.000111823,0.989738162,Y,Y,0.0012
+CGCRC304,Colorectal Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,162,0.464248732,0.936020331,9.28E-05,0.935840362,Y,Y,0.0027
+CGCRC305,Colorectal Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,165,0.890935318,0.924979936,0.000120076,0.898843468,Y,Y,0.0019
+CGCRC306,Colorectal Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,165,0.8523466,0.818618945,0.000781206,0.946642514,Y,Y,0.0802
+CGCRC307,Colorectal Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,165,0.913957151,0.934164482,0.000181093,0.70415945,Y,N,0.0056
+CGCRC308,Colorectal Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,III,165,0.873378966,0.932442466,7.82E-05,0.908227457,Y,Y,0.0011
+CGCRC311,Colorectal Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,166,0.853526303,0.915626672,0.000172655,0.186674327,N,N,ND
+CGCRC315,Colorectal Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,III,167,0.60833428,0.884561855,0.000241439,0.642238109,Y,N,0.0027
+CGCRC316,Colorectal Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,III,161,0.154608797,0.58791913,0.000315103,0.997064874,Y,Y,0.0652
+CGCRC317,Colorectal Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,III,163,0.624237025,0.894387362,0.000184131,0.985547955,Y,Y,0.0036
+CGCRC318,Colorectal Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,166,0.882373308,0.914000781,0.00015574,0.561543573,N,N,ND
+CGCRC319,Colorectal Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,III,160,0.597935362,0.823012348,0.001259305,0.992538353,Y,Y,0.0011
+CGCRC320,Colorectal Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,167,0.794936634,0.910121721,0.000383029,0.801887726,Y,Y,0.0064
+CGCRC321,Colorectal Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,164,0.780397091,0.909097436,0.000829406,0.975893766,Y,Y,0.002
+CGCRC333,Colorectal Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,IV,163,0.426261775,0.435461451,0.004284053,0.997412859,Y,Y,0.4303
+CGCRC336,Colorectal Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,IV,162,0.646593959,0.685628212,0.001153668,0.988746908,Y,Y,0.8161
+CGCRC338,Colorectal Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,IV,162,0.774038552,0.757349315,0.001436033,0.997591816,Y,Y,0.36
+CGCRC341,Colorectal Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,IV,164,0.89946384,0.919146503,0.00019706,0.967038045,Y,Y,ND
+CGCRC342,Colorectal Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,IV,158,0.252432393,0.184521227,0.001732266,0.998721439,Y,Y,0.3072
+CGPLBR100,Breast Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,III,166,0.943957056,0.894556168,0.001234194,0.866433014,Y,Y,ND
+CGPLBR101,Breast Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,169,0.886423145,0.93044922,0.000709335,0.938497048,Y,Y,ND
+CGPLBR102,Breast Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,169,0.961675954,0.934518474,0.004741677,0.905189086,Y,Y,0.0025
+CGPLBR103,Breast Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,168,0.949792318,0.925121971,0.000775432,0.599400289,N,N,ND
+CGPLBR104,Breast Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,167,0.848958475,0.919161108,0.000531821,0.994954895,Y,Y,0.0013
+CGPLBR12,Breast Cancer,WGS,Preoperative treatment naive,III,164,0.834965634,0.776008446,0.001407253,0.759797143,Y,Y, - 
+CGPLBR18,Breast Cancer,WGS,Preoperative treatment naive,III,163,0.841144935,0.953416822,0.00026711,0.388637428,N,N, - 
+CGPLBR23,Breast Cancer,WGS,Preoperative treatment naive,II,166,0.971353018,0.931180348,0.000143579,0.123508461,N,N, - 
+CGPLBR24,Breast Cancer,WGS,Preoperative treatment naive,II,156,0.840209573,0.876647791,0.000209979,0.747983522,Y,Y, - 
+CGPLBR28,Breast Cancer,WGS,Preoperative treatment naive,III,166,0.958371913,0.911993254,0.001456228,0.96302734,Y,Y, - 
+CGPLBR30,Breast Cancer,WGS,Preoperative treatment naive,II,161,0.695096796,0.661080254,0.000952176,0.995562877,Y,Y, - 
+CGPLBR31,Breast Cancer,WGS,Preoperative treatment naive,II,167,0.971944806,0.955572025,0.000427278,0.222740533,N,N, - 
+CGPLBR32,Breast Cancer,WGS,Preoperative treatment naive,II,166,0.959031175,0.922927971,0.000305704,0.981455614,Y,Y, - 
+CGPLBR33,Breast Cancer,WGS,Preoperative treatment naive,II,166,0.97057683,0.943244791,0.000617194,0.286294035,N,N, - 
+CGPLBR34,Breast Cancer,WGS,Preoperative treatment naive,II,163,0.873525486,0.942530561,0.000114501,0.16368108,N,N, - 
+CGPLBR35,Breast Cancer,WGS,Preoperative treatment naive,II,168,0.965511717,0.934848704,0.001371301,0.505698071,N,N, - 
+CGPLBR36,Breast Cancer,WGS,Preoperative treatment naive,II,169,0.939367857,0.888408036,0.00081257,0.401711292,N,N, - 
+CGPLBR37,Breast Cancer,WGS,Preoperative treatment naive,II,167,0.969141642,0.949583462,0.000517503,0.031351955,N,N, - 
+CGPLBR38,Breast Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,165,0.910523415,0.934927435,0.001351723,0.898281491,Y,Y,0.0053
+CGPLBR40,Breast Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,III,167,0.927280527,0.924389391,0.00092909,0.904598054,Y,Y,ND
+CGPLBR41,Breast Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,III,168,0.96258782,0.934635004,0.000543655,0.941603999,Y,Y,0.0032
+CGPLBR45,Breast Cancer,WGS,Preoperative treatment naive,II,164,0.961501395,0.92860078,0.000295557,0.385971572,N,N, - 
+CGPLBR46,Breast Cancer,WGS,Preoperative treatment naive,III,168,0.9322408,0.900496036,0.000344585,0.72704288,Y,N, - 
+CGPLBR47,Breast Cancer,WGS,Preoperative treatment naive,I,166,0.946140121,0.902802801,0.00059127,0.824657969,Y,Y, - 
+CGPLBR48,Breast Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,169,0.768629948,0.824600887,0.000504225,0.997297385,Y,Y,0.0018
+CGPLBR49,Breast Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,171,0.886726803,0.78869932,0.000377354,0.994642317,Y,Y,ND
+CGPLBR50,Breast Cancer,WGS,Preoperative treatment naive,I,160,0.859312055,0.933191016,0.000137464,0.682049581,Y,N, - 
+CGPLBR51,Breast Cancer,WGS,Preoperative treatment naive,II,165,0.935946657,0.915994355,0.000862697,0.691494631,Y,N, - 
+CGPLBR52,Breast Cancer,WGS,Preoperative treatment naive,III,164,0.868843642,0.919592636,0.000164855,0.638968643,Y,N, - 
+CGPLBR55,Breast Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,III,165,0.963429247,0.934075182,0.000356325,0.949378223,Y,Y,0.0068
+CGPLBR56,Breast Cancer,WGS,Preoperative treatment naive,II,163,0.9469459,0.94281024,0.002025201,0.469980582,N,N, - 
+CGPLBR57,Breast Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,III,166,0.967204557,0.941567075,0.000901997,0.908991451,Y,Y,ND
+CGPLBR59,Breast Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,168,0.94383963,0.913039476,0.000760825,0.582827172,N,N,ND
+CGPLBR60,Breast Cancer,WGS,Preoperative treatment naive,II,167,0.947889123,0.891553715,0.000626122,0.877929638,Y,Y, - 
+CGPLBR61,Breast Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,165,0.961061243,0.942178018,0.000601102,0.441711903,N,N,0.0044
+CGPLBR63,Breast Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,168,0.955479874,0.913150522,0.000513981,0.878820447,Y,Y,ND
+CGPLBR65,Breast Cancer,WGS,Preoperative treatment naive,II,167,0.950589508,0.896984624,0.000264243,0.90482178,Y,Y, - 
+CGPLBR68,Breast Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,III,163,0.915377402,0.953180387,0.000164129,0.786275616,Y,Y,ND
+CGPLBR69,Breast Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,165,0.945984403,0.947390556,0.000278872,0.060041533,N,N,ND
+CGPLBR70,Breast Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,168,0.965117442,0.93875713,0.000171262,0.644711826,Y,N,0.0036
+CGPLBR71,Breast Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,165,0.957742517,0.936828709,0.000270645,0.670555583,Y,N,0.001
+CGPLBR72,Breast Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,167,0.978613248,0.964020112,0.000262962,0.61291844,N,N,ND
+CGPLBR73,Breast Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,167,0.957550156,0.94213036,0.00014214,0.074607414,N,N,0.0027
+CGPLBR76,Breast Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,170,0.940993171,0.925371132,0.000775307,0.933351152,Y,Y,0.0012
+CGPLBR81,Breast Cancer,WGS,Preoperative treatment naive,II,170,0.904342071,0.819302802,0.000240699,0.989874776,Y,Y, - 
+CGPLBR82,Breast Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I ,166,0.92539424,0.928750661,0.001639566,0.983431741,Y,Y,0.0012
+CGPLBR83,Breast Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,169,0.945135729,0.913839488,0.000418967,0.981028975,Y,Y,0.0028
+CGPLBR84,Breast Cancer,WGS,Preoperative treatment naive,III,169,0.931469049,0.865878829,0.000274406,0.990111143,Y,Y, - 
+CGPLBR87,Breast Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,166,0.91541634,0.87971271,0.000293799,0.996761158,Y,Y,0.0045
+CGPLBR88,Breast Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,169,0.937014945,0.854691929,0.000181155,0.998762718,Y,Y,0.0038
+CGPLBR90,Breast Cancer,WGS,Preoperative treatment naive,II,169,0.900246922,0.833030611,0.000417395,0.966677078,Y,Y, - 
+CGPLBR91,Breast Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,III,164,0.795532194,0.94075631,0.00079947,0.870988921,Y,Y,ND
+CGPLBR92,Breast Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,162,0.677381277,0.883474044,0.001041967,0.98663538,Y,Y,0.002
+CGPLBR93,Breast Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,164,0.877264914,0.907169596,0.000352118,0.725349583,Y,N,ND
+CGPLH189,Healthy,WGS,Preoperative treatment naive,NA,168,0.932489145,0.894658421,0.000590895,0.174836058,N,N, - 
+CGPLH190,Healthy,WGS,Preoperative treatment naive,NA,167,0.943327433,0.936918147,0.001192525,0.516790763,N,N, - 
+CGPLH192,Healthy,WGS,Preoperative treatment naive,NA,167,0.964558135,0.94869371,0.000275672,0.017812447,N,N, - 
+CGPLH193,Healthy,WGS,Preoperative treatment naive,NA,167,0.942269013,0.944168519,0.000419908,0.579437209,N,N, - 
+CGPLH194,Healthy,WGS,Preoperative treatment naive,NA,168,0.956733181,0.928920355,0.000406889,0.161619423,N,N, - 
+CGPLH196,Healthy,WGS,Preoperative treatment naive,NA,167,0.970900981,0.951165181,0.000265998,0.099917742,N,N, - 
+CGPLH197,Healthy,WGS,Preoperative treatment naive,NA,166,0.960487827,0.941585574,0.000333999,0.469922289,N,N, - 
+CGPLH198,Healthy,WGS,Preoperative treatment naive,NA,167,0.923818638,0.945718388,0.000302312,0.657133361,Y,N, - 
+CGPLH199,Healthy,WGS,Preoperative treatment naive,NA,165,0.961830008,0.943927916,0.000170083,0.556391311,N,N, - 
+CGPLH200,Healthy,WGS,Preoperative treatment naive,NA,167,0.918252685,0.939094389,0.000362368,0.383297845,N,N, - 
+CGPLH201,Healthy,WGS,Preoperative treatment naive,NA,168,0.95482346,0.917969065,0.000469913,0.83953683,Y,Y, - 
+CGPLH202,Healthy,WGS,Preoperative treatment naive,NA,168,0.94713974,0.943558355,0.00050132,0.108754242,N,N, - 
+CGPLH203,Healthy,WGS,Preoperative treatment naive,NA,167,0.953357376,0.957506197,0.000455355,0.248536571,N,N, - 
+CGPLH205,Healthy,WGS,Preoperative treatment naive,NA,168,0.907485889,0.92833416,0.000409309,0.440060702,N,N, - 
+CGPLH208,Healthy,WGS,Preoperative treatment naive,NA,168,0.942196386,0.940892419,0.000371179,0.270578562,N,N, - 
+CGPLH209,Healthy,WGS,Preoperative treatment naive,NA,169,0.955587924,0.936729968,0.000426917,0.22132602,N,N, - 
+CGPLH210,Healthy,WGS,Preoperative treatment naive,NA,169,0.944725034,0.918075296,0.000279039,0.349955507,N,N, - 
+CGPLH211,Healthy,WGS,Preoperative treatment naive,NA,169,0.953793516,0.941034443,0.000316852,0.175156988,N,N, - 
+CGPLH300,Healthy,WGS,Preoperative treatment naive,NA,168,0.901906747,0.919992155,0.000396781,0.022583655,N,N, - 
+CGPLH307,Healthy,WGS,Preoperative treatment naive,NA,168,0.957560928,0.916672266,0.000387981,0.178919084,N,N, - 
+CGPLH308,Healthy,WGS,Preoperative treatment naive,NA,168,0.948146806,0.935242182,0.000310926,0.018543253,N,N, - 
+CGPLH309,Healthy,WGS,Preoperative treatment naive,NA,168,0.967222073,0.945120484,0.000225979,0.044098591,N,N, - 
+CGPLH310,Healthy,WGS,Preoperative treatment naive,NA,165,0.954702189,0.95267303,0.000145193,0.71353165,Y,N, - 
+CGPLH311,Healthy,WGS,Preoperative treatment naive,NA,167,0.930195742,0.934809148,0.000201743,0.258903616,N,N, - 
+CGPLH314,Healthy,WGS,Preoperative treatment naive,NA,167,0.948183842,0.949065093,0.000212264,0.163185042,N,N, - 
+CGPLH315,Healthy,WGS,Preoperative treatment naive,NA,167,0.865894137,0.942664918,7.05E-05,0.345035635,N,N, - 
+CGPLH316,Healthy,WGS,Preoperative treatment naive,NA,165,0.937420679,0.955225146,0.000191197,0.469739659,N,N, - 
+CGPLH317,Healthy,WGS,Preoperative treatment naive,NA,169,0.954210013,0.935188766,0.000231707,0.13297105,N,N, - 
+CGPLH319,Healthy,WGS,Preoperative treatment naive,NA,167,0.957771852,0.918910968,0.000263009,0.223245264,N,N, - 
+CGPLH320,Healthy,WGS,Preoperative treatment naive,NA,164,0.891285428,0.916620112,0.0002223,0.109485999,N,N, - 
+CGPLH322,Healthy,WGS,Preoperative treatment naive,NA,167,0.875075165,0.94106701,0.000248143,0.074858665,N,N, - 
+CGPLH324,Healthy,WGS,Preoperative treatment naive,NA,169,0.951875203,0.913282944,0.000402,0.01283791,N,N, - 
+CGPLH325,Healthy,WGS,Preoperative treatment naive,NA,167,0.912432851,0.920241776,0.000711167,0.010242636,N,N, - 
+CGPLH326,Healthy,WGS,Preoperative treatment naive,NA,166,0.957391797,0.940771077,0.000213461,0.047492325,N,N, - 
+CGPLH327,Healthy,WGS,Preoperative treatment naive,NA,168,0.95326607,0.907052771,0.001274974,0.489122156,N,N, - 
+CGPLH328,Healthy,WGS,Preoperative treatment naive,NA,166,0.9642686,0.933165663,0.000256223,0.023358794,N,N, - 
+CGPLH329,Healthy,WGS,Preoperative treatment naive,NA,167,0.96094785,0.939628669,0.000268681,0.013947603,N,N, - 
+CGPLH330,Healthy,WGS,Preoperative treatment naive,NA,167,0.911789657,0.940330144,0.00020297,0.264157548,N,N, - 
+CGPLH331,Healthy,WGS,Preoperative treatment naive,NA,166,0.967915272,0.937700656,0.000313715,0.030426191,N,N, - 
+CGPLH333,Healthy,WGS,Preoperative treatment naive,NA,169,0.947392136,0.913195952,0.000349818,0.163331549,N,N, - 
+CGPLH335,Healthy,WGS,Preoperative treatment naive,NA,167,0.890882345,0.933312594,0.0002847,0.009641848,N,N, - 
+CGPLH336,Healthy,WGS,Preoperative treatment naive,NA,169,0.924822309,0.915948821,0.000159117,0.387171809,N,N, - 
+CGPLH337,Healthy,WGS,Preoperative treatment naive,NA,167,0.953325524,0.926236185,0.000366949,0.29759992,N,N, - 
+CGPLH338,Healthy,WGS,Preoperative treatment naive,NA,165,0.938837015,0.930293707,0.000102647,0.043091585,N,N, - 
+CGPLH339,Healthy,WGS,Preoperative treatment naive,NA,167,0.939578238,0.933810086,0.000280021,0.037855397,N,N, - 
+CGPLH340,Healthy,WGS,Preoperative treatment naive,NA,167,0.948796092,0.932144014,0.000210211,0.037864928,N,N, - 
+CGPLH341,Healthy,WGS,Preoperative treatment naive,NA,166,0.953332351,0.918676491,0.00044792,0.177466474,N,N, - 
+CGPLH342,Healthy,WGS,Preoperative treatment naive,NA,166,0.785772658,0.898579181,0.000282519,0.090389745,N,N, - 
+CGPLH343,Healthy,WGS,Preoperative treatment naive,NA,167,0.942134495,0.906667081,0.000631821,0.01597903,N,N, - 
+CGPLH344,Healthy,WGS,Preoperative treatment naive,NA,169,0.919160663,0.899831404,0.000256669,0.011981281,N,N, - 
+CGPLH345,Healthy,WGS,Preoperative treatment naive,NA,169,0.93451408,0.910703459,0.000445181,0.003073436,N,N, - 
+CGPLH346,Healthy,WGS,Preoperative treatment naive,NA,169,0.947505524,0.907355806,0.000208366,0.068585302,N,N, - 
+CGPLH350,Healthy,WGS,Preoperative treatment naive,NA,171,0.956986408,0.928750947,0.00028364,0.00708156,N,N, - 
+CGPLH351,Healthy,WGS,Preoperative treatment naive,NA,168,0.817576005,0.92939077,0.000222639,0.020744855,N,N, - 
+CGPLH352,Healthy,WGS,Preoperative treatment naive,NA,168,0.952129808,0.919043884,0.000612951,0.051240797,N,N, - 
+CGPLH353,Healthy,WGS,Preoperative treatment naive,NA,167,0.943457328,0.912958346,0.000407647,0.013166705,N,N, - 
+CGPLH354,Healthy,WGS,Preoperative treatment naive,NA,168,0.948098799,0.912109461,0.000318341,0.008214931,N,N, - 
+CGPLH355,Healthy,WGS,Preoperative treatment naive,NA,167,0.96125077,0.930782323,0.000399787,0.640663268,Y,N, - 
+CGPLH356,Healthy,WGS,Preoperative treatment naive,NA,168,0.947371485,0.931188454,0.000427327,0.243664179,N,N, - 
+CGPLH357,Healthy,WGS,Preoperative treatment naive,NA,167,0.925454866,0.954015323,0.000216773,0.006971726,N,N, - 
+CGPLH358,Healthy,WGS,Preoperative treatment naive,NA,167,0.777694027,0.937194643,0.000173718,0.145079354,N,N, - 
+CGPLH360,Healthy,WGS,Preoperative treatment naive,NA,168,0.850015112,0.877454978,0.000394854,0.00477634,N,N, - 
+CGPLH361,Healthy,WGS,Preoperative treatment naive,NA,167,0.926123554,0.928335707,0.000267668,0.152382286,N,N, - 
+CGPLH362,Healthy,WGS,Preoperative treatment naive,NA,167,0.923579824,0.950272011,0.000308973,0.483204691,N,N, - 
+CGPLH363,Healthy,WGS,Preoperative treatment naive,NA,167,0.948819234,0.918673609,0.000619511,0.019909289,N,N, - 
+CGPLH364,Healthy,WGS,Preoperative treatment naive,NA,168,0.931109129,0.947964053,0.000281799,0.871917596,Y,Y, - 
+CGPLH365,Healthy,WGS,Preoperative treatment naive,NA,165,0.937055545,0.905148856,0.001740453,0.968262972,Y,Y, - 
+CGPLH366,Healthy,WGS,Preoperative treatment naive,NA,167,0.953587697,0.917031035,0.000344182,0.095223377,N,N, - 
+CGPLH367,Healthy,WGS,Preoperative treatment naive,NA,166,0.874806605,0.918090264,0.000353426,0.123473739,N,N, - 
+CGPLH368,Healthy,WGS,Preoperative treatment naive,NA,169,0.949039495,0.907571706,0.001072685,0.125204687,N,N, - 
+CGPLH369,Healthy,WGS,Preoperative treatment naive,NA,167,0.942776215,0.954077142,0.000245835,0.282060998,N,N, - 
+CGPLH370,Healthy,WGS,Preoperative treatment naive,NA,167,0.964197528,0.942282119,0.000409922,0.098857383,N,N, - 
+CGPLH371,Healthy,WGS,Preoperative treatment naive,NA,168,0.962062913,0.941399523,0.000734096,0.217309005,N,N, - 
+CGPLH380,Healthy,WGS,Preoperative treatment naive,NA,170,0.966242068,0.942367569,0.000522561,0.012817188,N,N, - 
+CGPLH381,Healthy,WGS,Preoperative treatment naive,NA,169,0.954058506,0.950072619,0.000434933,0.015166996,N,N, - 
+CGPLH382,Healthy,WGS,Preoperative treatment naive,NA,167,0.937971234,0.958373492,0.000340477,0.032647634,N,N, - 
+CGPLH383,Healthy,WGS,Preoperative treatment naive,NA,168,0.970041244,0.940677436,0.000388966,0.003480308,N,N, - 
+CGPLH384,Healthy,WGS,Preoperative treatment naive,NA,169,0.806123239,0.904289153,0.000206791,0.025761301,N,N, - 
+CGPLH385,Healthy,WGS,Preoperative treatment naive,NA,167,0.886618457,0.924598786,0.000164731,0.056619521,N,N, - 
+CGPLH386,Healthy,WGS,Preoperative treatment naive,NA,167,0.692027707,0.885899907,0.000501557,0.26773136,N,N, - 
+CGPLH387,Healthy,WGS,Preoperative treatment naive,NA,169,0.958294674,0.922301916,0.000374745,0.008101536,N,N, - 
+CGPLH388,Healthy,WGS,Preoperative treatment naive,NA,167,0.934790073,0.926608567,0.000526714,0.049929484,N,N, - 
+CGPLH389,Healthy,WGS,Preoperative treatment naive,NA,168,0.940939467,0.903476463,0.000667268,0.656475317,Y,N, - 
+CGPLH390,Healthy,WGS,Preoperative treatment naive,NA,167,0.92164404,0.918235339,0.000229125,0.083714399,N,N, - 
+CGPLH391,Healthy,WGS,Preoperative treatment naive,NA,166,0.933359246,0.916158586,0.000223052,0.071571553,N,N, - 
+CGPLH392,Healthy,WGS,Preoperative treatment naive,NA,167,0.91654284,0.901353636,0.000423979,0.130527279,N,N, - 
+CGPLH393,Healthy,WGS,Preoperative treatment naive,NA,169,0.925645769,0.904510883,0.000406565,0.003715259,N,N, - 
+CGPLH394,Healthy,WGS,Preoperative treatment naive,NA,167,0.925696646,0.929222174,0.000521959,0.10726151,N,N, - 
+CGPLH395,Healthy,WGS,Preoperative treatment naive,NA,166,0.86108727,0.925437631,0.000423906,0.017110206,N,N, - 
+CGPLH396,Healthy,WGS,Preoperative treatment naive,NA,167,0.788367894,0.892818904,0.000392648,0.030255601,N,N, - 
+CGPLH398,Healthy,WGS,Preoperative treatment naive,NA,167,0.946283064,0.957763806,0.000242103,0.319523897,N,N, - 
+CGPLH399,Healthy,WGS,Preoperative treatment naive,NA,169,0.87796274,0.91947825,0.000678865,0.068531559,N,N, - 
+CGPLH400,Healthy,WGS,Preoperative treatment naive,NA,168,0.686204806,0.904665002,0.000299594,0.21025271,N,N, - 
+CGPLH401,Healthy,WGS,Preoperative treatment naive,NA,167,0.942783182,0.933932736,0.000146,0.061997888,N,N, - 
+CGPLH402,Healthy,WGS,Preoperative treatment naive,NA,167,0.935307249,0.880021983,0.001516232,0.03949497,N,N, - 
+CGPLH403,Healthy,WGS,Preoperative treatment naive,NA,168,0.932872993,0.882859257,0.000514982,0.022300797,N,N, - 
+CGPLH404,Healthy,WGS,Preoperative treatment naive,NA,169,0.940213367,0.894797614,0.000527733,0.002691449,N,N, - 
+CGPLH405,Healthy,WGS,Preoperative treatment naive,NA,166,0.957882428,0.920360043,0.000358866,0.01877558,N,N, - 
+CGPLH406,Healthy,WGS,Preoperative treatment naive,NA,167,0.818788509,0.85923333,0.000666978,0.020628557,N,N, - 
+CGPLH407,Healthy,WGS,Preoperative treatment naive,NA,169,0.952735985,0.90987619,0.00022902,0.004021971,N,N, - 
+CGPLH408,Healthy,WGS,Preoperative treatment naive,NA,167,0.958388942,0.919246934,0.000415358,0.125713532,N,N, - 
+CGPLH409,Healthy,WGS,Preoperative treatment naive,NA,168,0.922014805,0.894967436,0.000302338,0.005604231,N,N, - 
+CGPLH410,Healthy,WGS,Preoperative treatment naive,NA,168,0.910219307,0.900638132,0.000453341,0.001922914,N,N, - 
+CGPLH411,Healthy,WGS,Preoperative treatment naive,NA,167,0.939237041,0.885696178,0.000620608,0.01875008,N,N, - 
+CGPLH412,Healthy,WGS,Preoperative treatment naive,NA,167,0.956130028,0.91913917,0.00014009,0.041730583,N,N, - 
+CGPLH413,Healthy,WGS,Preoperative treatment naive,NA,167,0.946125884,0.914480657,0.000355093,0.008440656,N,N, - 
+CGPLH414,Healthy,WGS,Preoperative treatment naive,NA,168,0.925839151,0.91267348,0.000290493,0.028354935,N,N, - 
+CGPLH415,Healthy,WGS,Preoperative treatment naive,NA,169,0.92165038,0.902502162,0.000295734,0.013148896,N,N, - 
+CGPLH416,Healthy,WGS,Preoperative treatment naive,NA,167,0.967163033,0.938785088,0.000197664,0.064501149,N,N, - 
+CGPLH417,Healthy,WGS,Preoperative treatment naive,NA,168,0.957780019,0.919201408,0.000241121,0.083618864,N,N, - 
+CGPLH418,Healthy,WGS,Preoperative treatment naive,NA,169,0.937646778,0.923361073,0.000306066,0.005206175,N,N, - 
+CGPLH419,Healthy,WGS,Preoperative treatment naive,NA,167,0.922775414,0.929526451,0.000279632,0.046866275,N,N, - 
+CGPLH420,Healthy,WGS,Preoperative treatment naive,NA,169,0.916380753,0.910832978,0.000186928,0.042001449,N,N, - 
+CGPLH422,Healthy,WGS,Preoperative treatment naive,NA,166,0.906867477,0.900644305,0.000208647,0.032380262,N,N, - 
+CGPLH423,Healthy,WGS,Preoperative treatment naive,NA,169,0.960641964,0.928860439,0.000832105,0.01394363,N,N, - 
+CGPLH424,Healthy,WGS,Preoperative treatment naive,NA,167,0.955300822,0.92650313,0.001118691,0.086392398,N,N, - 
+CGPLH425,Healthy,WGS,Preoperative treatment naive,NA,168,0.972203718,0.948808061,0.0007223,0.015565354,N,N, - 
+CGPLH426,Healthy,WGS,Preoperative treatment naive,NA,168,0.956007989,0.907998148,0.000548345,0.107462013,N,N, - 
+CGPLH427,Healthy,WGS,Preoperative treatment naive,NA,167,0.959354852,0.925735671,0.000182282,0.046973781,N,N, - 
+CGPLH428,Healthy,WGS,Preoperative treatment naive,NA,167,0.959148734,0.927175795,0.00034615,0.018165099,N,N, - 
+CGPLH429,Healthy,WGS,Preoperative treatment naive,NA,168,0.935810297,0.875667586,0.000593405,0.814321533,Y,Y, - 
+CGPLH430,Healthy,WGS,Preoperative treatment naive,NA,167,0.963900126,0.930696639,0.000258165,0.036896883,N,N, - 
+CGPLH431,Healthy,WGS,Preoperative treatment naive,NA,167,0.957019619,0.918473151,0.000234385,0.017418584,N,N, - 
+CGPLH432,Healthy,WGS,Preoperative treatment naive,NA,168,0.948469357,0.908160081,0.00043308,0.018051702,N,N, - 
+CGPLH434,Healthy,WGS,Preoperative treatment naive,NA,168,0.967124425,0.944173761,0.000297284,0.006014677,N,N, - 
+CGPLH435,Healthy,WGS,Preoperative treatment naive,NA,170,0.913270894,0.909683075,0.000178897,0.044076993,N,N, - 
+CGPLH436,Healthy,WGS,Preoperative treatment naive,NA,168,0.935956009,0.915800087,0.000290458,0.095797899,N,N, - 
+CGPLH437,Healthy,WGS,Preoperative treatment naive,NA,170,0.944463216,0.924512977,0.000156236,0.01359076,N,N, - 
+CGPLH438,Healthy,WGS,Preoperative treatment naive,NA,170,0.953660109,0.913803925,0.000169313,0.104057418,N,N, - 
+CGPLH439,Healthy,WGS,Preoperative treatment naive,NA,171,0.954711362,0.902775615,0.000226486,0.007813057,N,N, - 
+CGPLH440,Healthy,WGS,Preoperative treatment naive,NA,169,0.956235817,0.929464564,0.000330164,0.086713429,N,N, - 
+CGPLH441,Healthy,WGS,Preoperative treatment naive,NA,167,0.966012508,0.942976104,0.00017792,0.008476744,N,N, - 
+CGPLH442,Healthy,WGS,Preoperative treatment naive,NA,167,0.956853695,0.940559072,0.000168973,0.05620919,N,N, - 
+CGPLH443,Healthy,WGS,Preoperative treatment naive,NA,170,0.94309022,0.88009279,0.000206665,0.057776737,N,N, - 
+CGPLH444,Healthy,WGS,Preoperative treatment naive,NA,171,0.9428563,0.90662063,0.000464234,0.009686235,N,N, - 
+CGPLH445,Healthy,WGS,Preoperative treatment naive,NA,171,0.944563844,0.875045142,0.000266888,0.193942161,N,N, - 
+CGPLH446,Healthy,WGS,Preoperative treatment naive,NA,167,0.950207879,0.925731503,0.000281403,0.034009336,N,N, - 
+CGPLH447,Healthy,WGS,Preoperative treatment naive,NA,169,0.942122664,0.89678927,0.000167289,0.001701999,N,N, - 
+CGPLH448,Healthy,WGS,Preoperative treatment naive,NA,167,0.95533665,0.919115781,0.000401475,0.038947961,N,N, - 
+CGPLH449,Healthy,WGS,Preoperative treatment naive,NA,167,0.954976897,0.925390401,0.000235965,0.011633022,N,N, - 
+CGPLH450,Healthy,WGS,Preoperative treatment naive,NA,167,0.957236725,0.919524816,0.000330823,0.059667579,N,N, - 
+CGPLH451,Healthy,WGS,Preoperative treatment naive,NA,169,0.954817559,0.916699741,0.000261706,0.010399083,N,N, - 
+CGPLH452,Healthy,WGS,Preoperative treatment naive,NA,167,0.949779664,0.894810203,0.000479795,0.472214795,N,N, - 
+CGPLH453,Healthy,WGS,Preoperative treatment naive,NA,166,0.957248273,0.933881578,0.000185588,0.341943548,N,N, - 
+CGPLH455,Healthy,WGS,Preoperative treatment naive,NA,166,0.962609782,0.932187237,0.000454814,0.453641381,N,N, - 
+CGPLH456,Healthy,WGS,Preoperative treatment naive,NA,168,0.953718083,0.909804872,0.000207095,0.036464552,N,N, - 
+CGPLH457,Healthy,WGS,Preoperative treatment naive,NA,167,0.942947082,0.902246829,0.000297526,0.036357348,N,N, - 
+CGPLH458,Healthy,WGS,Preoperative treatment naive,NA,167,0.951109453,0.927509297,0.000297595,0.189103488,N,N, - 
+CGPLH459,Healthy,WGS,Preoperative treatment naive,NA,168,0.960931828,0.920906337,0.000280568,0.03713372,N,N, - 
+CGPLH460,Healthy,WGS,Preoperative treatment naive,NA,168,0.933132242,0.886311996,0.000226695,0.115659033,N,N, - 
+CGPLH463,Healthy,WGS,Preoperative treatment naive,NA,167,0.950585827,0.9372289,0.000130082,0.08651084,N,N, - 
+CGPLH464,Healthy,WGS,Preoperative treatment naive,NA,170,0.913265626,0.851054784,0.000659282,0.204001115,N,N, - 
+CGPLH465,Healthy,WGS,Preoperative treatment naive,NA,167,0.925089343,0.91641909,0.000324563,0.012401855,N,N, - 
+CGPLH466,Healthy,WGS,Preoperative treatment naive,NA,167,0.96789112,0.940778341,0.000154556,0.173319778,N,N, - 
+CGPLH467,Healthy,WGS,Preoperative treatment naive,NA,168,0.927281076,0.902426116,0.000229027,0.230321378,N,N, - 
+CGPLH468,Healthy,WGS,Preoperative treatment naive,NA,167,0.835311069,0.934470744,0.000246721,0.54273418,N,N, - 
+CGPLH469,Healthy,WGS,Preoperative treatment naive,NA,169,0.822513434,0.879919258,0.000201328,0.5351306,N,N, - 
+CGPLH470,Healthy,WGS,Preoperative treatment naive,NA,168,0.907281549,0.922772444,0.000715124,0.032735421,N,N, - 
+CGPLH471,Healthy,WGS,Preoperative treatment naive,NA,167,0.935419104,0.933337081,0.000149503,0.040564485,N,N, - 
+CGPLH472,Healthy,WGS,Preoperative treatment naive,NA,166,0.850906765,0.891474506,0.00048095,0.615230994,N,N, - 
+CGPLH473,Healthy,WGS,Preoperative treatment naive,NA,167,0.92063899,0.912830368,0.000442884,0.299503103,N,N, - 
+CGPLH474,Healthy,WGS,Preoperative treatment naive,NA,168,0.847388657,0.924521083,0.000316029,0.624578486,Y,N, - 
+CGPLH475,Healthy,WGS,Preoperative treatment naive,NA,167,0.915498272,0.923345905,0.000268608,0.07360231,N,N, - 
+CGPLH476,Healthy,WGS,Preoperative treatment naive,NA,169,0.880651418,0.905852912,0.000235865,0.014278233,N,N, - 
+CGPLH477,Healthy,WGS,Preoperative treatment naive,NA,169,0.912910078,0.937636224,0.000381871,0.111136373,N,N, - 
+CGPLH478,Healthy,WGS,Preoperative treatment naive,NA,167,0.95875351,0.934367032,0.000256439,0.082788603,N,N, - 
+CGPLH479,Healthy,WGS,Preoperative treatment naive,NA,167,0.93034694,0.920650535,0.000220964,0.064751103,N,N, - 
+CGPLH480,Healthy,WGS,Preoperative treatment naive,NA,169,0.952222199,0.904613631,0.000672177,0.747326886,Y,N, - 
+CGPLH481,Healthy,WGS,Preoperative treatment naive,NA,168,0.956805744,0.911268318,0.000311353,0.02818951,N,N, - 
+CGPLH482,Healthy,WGS,Preoperative treatment naive,NA,168,0.937894977,0.933579194,0.000162067,0.005760161,N,N, - 
+CGPLH483,Healthy,WGS,Preoperative treatment naive,NA,168,0.95181916,0.927530403,0.000251016,0.049488714,N,N, - 
+CGPLH484,Healthy,WGS,Preoperative treatment naive,NA,166,0.963043977,0.936594895,0.000261118,0.004802149,N,N, - 
+CGPLH485,Healthy,WGS,Preoperative treatment naive,NA,168,0.954690687,0.912783314,0.00029108,0.106446491,N,N, - 
+CGPLH486,Healthy,WGS,Preoperative treatment naive,NA,169,0.919888664,0.904173736,0.00022037,0.082039997,N,N, - 
+CGPLH487,Healthy,WGS,Preoperative treatment naive,NA,169,0.957465279,0.909754543,0.000594384,0.215382127,N,N, - 
+CGPLH488,Healthy,WGS,Preoperative treatment naive,NA,167,0.961786641,0.929769271,0.00040946,0.090330582,N,N, - 
+CGPLH490,Healthy,WGS,Preoperative treatment naive,NA,167,0.894983826,0.879420486,0.000431566,0.042377312,N,N, - 
+CGPLH491,Healthy,WGS,Preoperative treatment naive,NA,168,0.963052506,0.933178203,0.000144418,0.022275145,N,N, - 
+CGPLH492,Healthy,WGS,Preoperative treatment naive,NA,170,0.933502123,0.879891747,0.000322052,0.031091023,N,N, - 
+CGPLH493,Healthy,WGS,Preoperative treatment naive,NA,168,0.871824933,0.933013478,6.49E-05,0.027952591,N,N, - 
+CGPLH494,Healthy,WGS,Preoperative treatment naive,NA,169,0.962284244,0.930262676,0.000231831,0.082414288,N,N, - 
+CGPLH495,Healthy,WGS,Preoperative treatment naive,NA,166,0.877698435,0.890835827,0.000512989,0.046534232,N,N, - 
+CGPLH496,Healthy,WGS,Preoperative treatment naive,NA,166,0.878785397,0.939812924,0.000207725,0.057232608,N,N, - 
+CGPLH497,Healthy,WGS,Preoperative treatment naive,NA,167,0.957577144,0.933049373,0.00033492,0.040405439,N,N, - 
+CGPLH498,Healthy,WGS,Preoperative treatment naive,NA,167,0.952594196,0.931454928,0.000402746,0.075234166,N,N, - 
+CGPLH499,Healthy,WGS,Preoperative treatment naive,NA,167,0.973273179,0.944152642,0.00019824,0.014931741,N,N, - 
+CGPLH500,Healthy,WGS,Preoperative treatment naive,NA,168,0.954215484,0.924041089,0.000432618,0.075355035,N,N, - 
+CGPLH501,Healthy,WGS,Preoperative treatment naive,NA,169,0.95260157,0.930814689,0.0002995,0.015861953,N,N, - 
+CGPLH502,Healthy,WGS,Preoperative treatment naive,NA,167,0.95123376,0.920009145,0.000351125,0.084130841,N,N, - 
+CGPLH503,Healthy,WGS,Preoperative treatment naive,NA,169,0.894722632,0.893935025,0.000397916,0.064873171,N,N, - 
+CGPLH504,Healthy,WGS,Preoperative treatment naive,NA,167,0.956072569,0.932428504,0.000440444,0.12313846,N,N, - 
+CGPLH505,Healthy,WGS,Preoperative treatment naive,NA,166,0.955357312,0.924254613,0.000604647,0.186858087,N,N, - 
+CGPLH506,Healthy,WGS,Preoperative treatment naive,NA,167,0.973263166,0.949818554,0.000284142,0.018045813,N,N, - 
+CGPLH507,Healthy,WGS,Preoperative treatment naive,NA,168,0.922219255,0.919180548,0.000186186,0.084769975,N,N, - 
+CGPLH508,Healthy,WGS,Preoperative treatment naive,NA,167,0.967373187,0.940970825,0.000149501,0.107693911,N,N, - 
+CGPLH509,Healthy,WGS,Preoperative treatment naive,NA,167,0.947466918,0.932275348,0.00016316,0.082766762,N,N, - 
+CGPLH510,Healthy,WGS,Preoperative treatment naive,NA,167,0.945880396,0.954806208,0.000128488,0.037781146,N,N, - 
+CGPLH511,Healthy,WGS,Preoperative treatment naive,NA,168,0.97135054,0.949260253,0.000224306,0.177890858,N,N, - 
+CGPLH512,Healthy,WGS,Preoperative treatment naive,NA,168,0.944207493,0.924411754,9.42E-05,0.007567838,N,N, - 
+CGPLH513,Healthy,WGS,Preoperative treatment naive,NA,166,0.970506003,0.959502768,0.000440591,0.524995438,N,N, - 
+CGPLH514,Healthy,WGS,Preoperative treatment naive,NA,167,0.968951807,0.93687212,0.000114101,0.313121477,N,N, - 
+CGPLH515,Healthy,WGS,Preoperative treatment naive,NA,167,0.956759832,0.928278424,0.000352028,0.493624924,N,N, - 
+CGPLH516,Healthy,WGS,Preoperative treatment naive,NA,168,0.950846014,0.929849388,0.000174941,0.091569363,N,N, - 
+CGPLH517,Healthy,WGS,Preoperative treatment naive,NA,168,0.963503183,0.949400318,0.000161266,0.005856576,N,N, - 
+CGPLH518,Healthy,WGS,Preoperative treatment naive,NA,168,0.964660633,0.943232245,0.000273897,0.012971825,N,N, - 
+CGPLH519,Healthy,WGS,Preoperative treatment naive,NA,166,0.936621619,0.935124706,0.000170595,0.094882404,N,N, - 
+CGPLH520,Healthy,WGS,Preoperative treatment naive,NA,166,0.964914911,0.947551462,0.000241495,0.094355975,N,N, - 
+CGPLH625,Healthy,WGS,Preoperative treatment naive,NA,166,0.876626063,0.923125979,0.000696985,0.497658575,N,N, - 
+CGPLH626,Healthy,WGS,Preoperative treatment naive,NA,170,0.901067177,0.926942925,0.000230981,0.310019349,N,N, - 
+CGPLH639,Healthy,WGS,Preoperative treatment naive,NA,165,0.948237271,0.940956079,0.000549057,0.077280039,N,N, - 
+CGPLH640,Healthy,WGS,Preoperative treatment naive,NA,166,0.913139682,0.926400477,0.000231593,0.032749184,N,N, - 
+CGPLH642,Healthy,WGS,Preoperative treatment naive,NA,167,0.964119554,0.93757872,0.000768434,0.055486694,N,N, - 
+CGPLH643,Healthy,WGS,Preoperative treatment naive,NA,169,0.945018138,0.927147542,0.000578771,0.13245381,N,N, - 
+CGPLH644,Healthy,WGS,Preoperative treatment naive,NA,170,0.939758164,0.894785106,0.000621498,0.381905939,N,N, - 
+CGPLH646,Healthy,WGS,Preoperative treatment naive,NA,172,0.929635575,0.869055728,0.000462091,0.242328939,N,N, - 
+CGPLLU144,Lung Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,164,0.870184577,0.868138283,0.000422752,0.989184271,Y,Y,0.051
+CGPLLU161,Lung Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,165,0.912773929,0.918678446,0.000273387,0.995501818,Y,Y,0.002
+CGPLLU162,Lung Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,165,0.775301802,0.883612777,0.00140951,0.998635309,Y,Y,0.0022
+CGPLLU163,Lung Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,166,0.477026114,0.303255705,0.000724426,0.993961689,Y,Y,0.0021
+CGPLLU168,Lung Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,163,0.916400053,0.884234312,0.000712172,0.986124121,Y,Y,0.0007
+CGPLLU169,Lung Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,163,0.932568244,0.918873904,0.000846377,0.986646698,Y,Y,0.0013
+CGPLLU176,Lung Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,168,0.957168076,0.908122955,0.000625891,0.876925006,Y,Y,ND
+CGPLLU177,Lung Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,166,0.847163201,0.679020836,0.000564137,0.992427562,Y,Y,0.0322
+CGPLLU203,Lung Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,164,0.911932736,0.874138312,0.000568045,0.917763233,Y,Y,0.0011
+CGPLLU205,Lung Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,163,0.951759987,0.947557032,0.000495078,0.987734764,Y,Y,ND
+CGPLLU207,Lung Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,166,0.934404577,0.9378635,0.000421029,0.990766201,Y,Y,0.0032
+CGPLLU208,Lung Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,164,0.909144312,0.894231502,0.000815209,0.927261814,Y,Y,0.0133
+CGPLOV11,Ovarian Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,IV,166,0.890173141,0.887240802,0.000469091,0.934275584,Y,Y,0.0087
+CGPLOV12,Ovarian Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,167,0.877892491,0.897345979,0.002766818,0.976376767,Y,Y,ND
+CGPLOV13,Ovarian Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,IV,166,0.755986214,0.914611852,0.001017279,0.969038975,Y,Y,0.0035
+CGPLOV15,Ovarian Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,III,165,0.858482842,0.855180057,0.000875726,0.994478265,Y,Y,0.0354
+CGPLOV16,Ovarian Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,III,165,0.905223897,0.904623219,0.000400301,0.998325819,Y,Y,0.0112
+CGPLOV19,Ovarian Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,165,0.785379118,0.757834872,0.001088652,0.998895347,Y,Y,0.4635
+CGPLOV20,Ovarian Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,165,0.87111337,0.915391738,0.000580811,0.974925045,Y,Y,0.0021
+CGPLOV21,Ovarian Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,IV,167,0.894232876,0.888920127,0.00067677,0.996140552,Y,Y,0.1436
+CGPLOV22,Ovarian Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,III,164,0.894356782,0.935475903,0.000250897,0.977520678,Y,Y,0.0049
+CGPLOV23,Ovarian Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,169,0.851002562,0.88495809,0.001519775,0.991608713,Y,Y,0.0139
+CGPLOV24,Ovarian Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,166,0.944937602,0.89951058,0.000303215,0.985578973,Y,Y,ND
+CGPLOV25,Ovarian Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,166,0.959049472,0.922824929,0.000140989,0.854377474,Y,Y,ND
+CGPLOV26,Ovarian Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,161,0.814805044,0.93505496,0.000646411,0.994595947,Y,Y,ND
+CGPLOV28,Ovarian Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,167,0.963522596,0.937819784,0.000647246,0.815959579,Y,Y,ND
+CGPLOV31,Ovarian Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,III,167,0.946119725,0.929338416,0.001605583,0.979475417,Y,Y,ND
+CGPLOV32,Ovarian Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,168,0.958172029,0.933824798,0.001351416,0.860909046,Y,Y,ND
+CGPLOV37,Ovarian Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,170,0.939735617,0.883143555,0.000985511,0.984891743,Y,Y,0.0029
+CGPLOV38,Ovarian Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,166,0.577881515,0.650156074,0.0004901,0.999018339,Y,Y,0.0489
+CGPLOV40,Ovarian Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,IV,170,0.609663354,0.812657367,0.006144997,0.998271576,Y,Y,0.0673
+CGPLOV41,Ovarian Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,IV,167,0.940303182,0.892870905,0.00111047,0.948445421,Y,Y,0.006
+CGPLOV42,Ovarian Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,166,0.926495066,0.908637342,0.000489195,0.997915407,Y,Y,0.0124
+CGPLOV43,Ovarian Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,167,0.962620064,0.934160753,0.000432419,0.60417881,N,N,ND
+CGPLOV44,Ovarian Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,164,0.953565374,0.917274096,0.001945809,0.996185178,Y,Y,0.0037
+CGPLOV46,Ovarian Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,166,0.962237955,0.929063946,0.000800551,0.912774354,Y,Y,ND
+CGPLOV47,Ovarian Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,165,0.970375924,0.946116092,0.000269836,0.340971837,N,N,0.032
+CGPLOV48,Ovarian Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,167,0.967514562,0.942857627,0.000422162,0.487361131,N,N,0.107
+CGPLOV49,Ovarian Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,III,164,0.899807248,0.808290443,0.001526631,0.989654995,Y,Y,0.0203
+CGPLOV50,Ovarian Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,III,165,0.968198784,0.938223628,0.000806603,0.995507889,Y,Y,ND
+CGPLPA112,Pancreatic Cancer,WGS,Preoperative treatment naive,II,164,0.891364431,0.942902958,0.00026835,0.085629851,N,N, - 
+CGPLPA113,Duodenal Cancer,WGS,Preoperative treatment naive,I,170,0.875070643,0.767416707,0.0101162,0.99349763,Y,Y, - 
+CGPLPA114,Bile Duct Cancer,WGS,Preoperative treatment naive,II,166,0.909756471,0.924637941,0.000836237,0.759775154,Y,Y, - 
+CGPLPA115,Bile Duct Cancer,WGS,Preoperative treatment naive,IV,165,0.805268917,0.830967209,0.000762914,0.997399607,Y,Y, - 
+CGPLPA117,Bile Duct Cancer,WGS,Preoperative treatment naive,II,165,0.939460404,0.876694781,0.001083729,0.904942666,Y,Y, - 
+CGPLPA118,Bile Duct Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,167,0.940628011,0.900100734,0.001841554,0.985875376,Y,Y,0.001359
+CGPLPA122,Bile Duct Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,164,0.82313912,0.805831715,0.002046798,0.998257279,Y,Y,0.372212
+CGPLPA124,Bile Duct Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,166,0.910839968,0.923795977,0.001541874,0.879147946,Y,Y,0.006158
+CGPLPA125,Bile Duct Cancer,WGS,Preoperative treatment naive,II,166,0.967483404,0.937325312,0.000273206,0.022794701,N,N, - 
+CGPLPA126,Bile Duct Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,166,0.915542204,0.913890822,0.004348663,0.990833766,Y,Y,ND
+CGPLPA127,Bile Duct Cancer,WGS,Preoperative treatment naive,IV,167,0.891565744,0.81169057,0.004370559,0.97891427,Y,Y, - 
+CGPLPA128,Bile Duct Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,167,0.926172208,0.900270931,0.001316824,0.981203775,Y,Y,ND
+CGPLPA129,Bile Duct Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,166,0.921980061,0.915451926,0.000642498,0.983902248,Y,Y,ND
+CGPLPA130,Bile Duct Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,169,0.85857846,0.849923044,0.001005333,0.989486905,Y,Y,ND
+CGPLPA131,Bile Duct Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,165,0.770670161,0.919542079,0.000780392,0.9885041,Y,Y,0.002133
+CGPLPA134,Bile Duct Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,160,0.750228146,0.884687025,0.000260195,0.989645913,Y,Y,0.009253
+CGPLPA135,Bile Duct Cancer,WGS,Preoperative treatment naive,I,165,0.949452838,0.918358664,0.000558204,0.659419181,Y,N, - 
+CGPLPA136,Bile Duct Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,164,0.928887518,0.904950551,0.000768601,0.959567766,Y,Y,0.001005
+CGPLPA137,Bile Duct Cancer,WGS,Preoperative treatment naive,II,166,0.956804712,0.931954666,0.000499038,0.728236021,Y,N, - 
+CGPLPA139,Bile Duct Cancer,WGS,Preoperative treatment naive,IV,166,0.951075229,0.937427094,0.000464728,0.07429469,N,N, - 
+CGPLPA14,Pancreatic Cancer,WGS,Preoperative treatment naive,II,167,0.871765488,0.906908764,0.000514902,0.982444691,Y,Y, - 
+CGPLPA140,Bile Duct Cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,166,0.921496021,0.954756814,0.000329864,0.976133905,Y,Y,0.002131
+CGPLPA141,Bile Duct Cancer,WGS,Preoperative treatment naive,II,165,0.917177198,0.938101013,0.000919546,0.998801141,Y,Y, - 
+CGPLPA15,Pancreatic Cancer,WGS,Preoperative treatment naive,II,167,0.911137692,0.89272377,0.00015982,0.873721583,Y,Y, - 
+CGPLPA155,Bile Duct Cancer,WGS,Preoperative treatment naive,II,165,0.949595081,0.931298224,0.000260259,0.801325372,Y,Y, - 
+CGPLPA156,Pancreatic Cancer,WGS,Preoperative treatment naive,II,167,0.947947066,0.943213049,0.000289596,0.015917588,N,N, - 
+CGPLPA165,Bile Duct Cancer,WGS,Preoperative treatment naive,I,168,0.959646111,0.930934862,0.000557761,0.215822843,N,N, - 
+CGPLPA168,Bile Duct Cancer,WGS,Preoperative treatment naive,II,162,0.783844072,0.775676475,0.003123255,0.98778079,Y,Y, - 
+CGPLPA17,Pancreatic Cancer,WGS,Preoperative treatment naive,II,166,0.862438691,0.677118451,0.012599579,0.995625861,Y,Y, - 
+CGPLPA184,Bile Duct Cancer,WGS,Preoperative treatment naive,II,165,0.909952403,0.920253752,0.00089737,0.99264103,Y,Y, - 
+CGPLPA187,Bile Duct Cancer,WGS,Preoperative treatment naive,II,165,0.857667167,0.896841823,0.000657573,0.967493301,Y,Y, - 
+CGPLPA23,Pancreatic Cancer,WGS,Preoperative treatment naive,II,165,0.78868212,0.693794082,0.005785389,0.99838801,Y,Y, - 
+CGPLPA25,Pancreatic Cancer,WGS,Preoperative treatment naive,II,166,0.954907904,0.923852009,0.000379896,0.810321724,Y,Y, - 
+CGPLPA26,Pancreatic Cancer,WGS,Preoperative treatment naive,II,166,0.959775221,0.935574029,0.000247482,0.823134461,Y,Y, - 
+CGPLPA28,Pancreatic Cancer,WGS,Preoperative treatment naive,II,165,0.906882379,0.893767951,0.000545564,0.903597725,Y,Y, - 
+CGPLPA33,Pancreatic Cancer,WGS,Preoperative treatment naive,II,166,0.836061389,0.855258984,0.000893675,0.996682766,Y,Y, - 
+CGPLPA34,Pancreatic Cancer,WGS,Preoperative treatment naive,II,168,0.894604861,0.888500511,0.000439067,0.797705464,Y,Y, - 
+CGPLPA37,Pancreatic Cancer,WGS,Preoperative treatment naive,II,165,0.884031771,0.929443414,0.000410292,0.9924004,Y,Y, - 
+CGPLPA38,Pancreatic Cancer,WGS,Preoperative treatment naive,II,167,0.874569334,0.894104833,0.000372358,0.985109214,Y,Y, - 
+CGPLPA39,Pancreatic Cancer,WGS,Preoperative treatment naive,II,167,0.856236861,0.79724976,0.005058337,0.995077349,Y,Y, - 
+CGPLPA40,Pancreatic Cancer,WGS,Preoperative treatment naive,II,165,0.856257422,0.886519497,0.002267571,0.992006744,Y,Y, - 
+CGPLPA42,Pancreatic Cancer,WGS,Preoperative treatment naive,II,167,0.912623429,0.886283213,0.000283356,0.354357943,N,N, - 
+CGPLPA46,Pancreatic Cancer,WGS,Preoperative treatment naive,II,169,0.827360246,0.752515243,0.010981609,0.995212096,Y,Y, - 
+CGPLPA47,Pancreatic Cancer,WGS,Preoperative treatment naive,II,166,0.837628461,0.843887034,0.001596391,0.994646958,Y,Y, - 
+CGPLPA48,Pancreatic Cancer,WGS,Preoperative treatment naive,I,167,0.939090261,0.920748457,0.010231844,0.225115769,N,N, - 
+CGPLPA52,Pancreatic Cancer,WGS,Preoperative treatment naive,II,167,0.945196544,0.886278402,0.000153811,0.09632099,N,N, - 
+CGPLPA53,Pancreatic Cancer,WGS,Preoperative treatment naive,I,163,0.9175104,0.877641684,0.001823793,0.894571734,Y,Y, - 
+CGPLPA58,Pancreatic Cancer,WGS,Preoperative treatment naive,II,165,0.958723083,0.9223765,0.000802553,0.905619716,Y,Y, - 
+CGPLPA59,Pancreatic Cancer,WGS,Preoperative treatment naive,II,163,0.923020673,0.919303386,0.001478834,0.975915452,Y,Y, - 
+CGPLPA67,Pancreatic Cancer,WGS,Preoperative treatment naive,III,166,0.95735033,0.924750994,0.000329037,0.671631458,Y,N, - 
+CGPLPA69,Pancreatic Cancer,WGS,Preoperative treatment naive,I,168,0.917181114,0.859177052,0.000458846,0.124508113,N,N, - 
+CGPLPA71,Pancreatic Cancer,WGS,Preoperative treatment naive,II,167,0.942435204,0.888846826,0.00047856,0.052437569,N,N, - 
+CGPLPA74,Pancreatic Cancer,WGS,Preoperative treatment naive,II,166,0.968847332,0.937167655,0.000292206,0.01075072,N,N, - 
+CGPLPA76,Pancreatic Cancer,WGS,Preoperative treatment naive,II,163,0.968112401,0.944118676,0.000345084,0.089706938,N,N, - 
+CGPLPA85,Pancreatic Cancer,WGS,Preoperative treatment naive,II,165,0.913677542,0.933696699,0.000362655,0.050768115,N,N, - 
+CGPLPA86,Pancreatic Cancer,WGS,Preoperative treatment naive,II,165,0.887499152,0.804161606,0.007563622,0.986371559,Y,Y, - 
+CGPLPA92,Pancreatic Cancer,WGS,Preoperative treatment naive,II,167,0.938917785,0.900266154,0.001457811,0.706064575,Y,N, - 
+CGPLPA93,Pancreatic Cancer,WGS,Preoperative treatment naive,II,166,0.858523538,0.802310028,0.006249696,0.997787502,Y,Y, - 
+CGPLPA94,Pancreatic Cancer,WGS,Preoperative treatment naive,II,162,0.93645886,0.9432682,0.000179877,0.902536663,Y,Y, - 
+CGPLPA95,Pancreatic Cancer,WGS,Preoperative treatment naive,II,163,0.854202508,0.857124454,0.000814692,0.994110659,Y,Y, - 
+CGST102,Gastric cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,167,0.949558552,0.905673978,0.000704348,0.858109999,Y,Y,0.004269
+CGST11,Gastric cancer,WGS,Preoperative treatment naive,IV,169,0.941873415,0.916080894,0.0006511,0.143477364,N,N, - 
+CGST110,Gastric cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,III,167,0.962576207,0.923168742,0.000816723,0.889953447,Y,Y,ND
+CGST114,Gastric cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,III,164,0.95353041,0.903841998,0.000317099,0.589295638,N,N,ND
+CGST13,Gastric cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,166,0.936922565,0.915588583,0.000320655,0.975376443,Y,Y,ND
+CGST131,Gastric cancer,WGS,Preoperative treatment naive,III,171,0.942817519,0.888567576,0.002752049,0.940896883,Y,Y, - 
+CGST141,Gastric cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,III,168,0.962114203,0.920589133,0.000387735,0.200811499,N,N,ND
+CGST16,Gastric cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,III,166,0.780405718,0.835511364,0.001744118,0.997407724,Y,Y,0.009251
+CGST18,Gastric cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,169,0.95229243,0.911148472,0.000299336,0.384188173,N,N,0.001436
+CGST21,Gastric cancer,WGS,Preoperative treatment naive,II,165,-0.477843865,0.268736254,0.002299046,0.990960821,Y,Y, - 
+CGST26,Gastric cancer,WGS,Preoperative treatment naive,IV,166,0.955361442,0.914045976,0.000398691,0.500947392,N,N, - 
+CGST28,Gastric cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,X,169,0.9076129,0.783160931,0.00129514,0.995495023,Y,Y,0.016239
+CGST30,Gastric cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,III,169,0.924597279,0.912060793,0.000338495,0.918280886,Y,Y,0.004225
+CGST32,Gastric cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,169,0.94305953,0.86387114,0.000246571,0.961182836,Y,Y,0.029935
+CGST33,Gastric cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,168,0.799914186,0.776993524,0.000799288,0.980489422,Y,Y,0.023212
+CGST38,Gastric cancer,WGS,Preoperative treatment naive,0,168,0.936812719,0.875751303,0.000640201,0.941575089,Y,Y, - 
+CGST39,Gastric cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,IV,164,0.87416043,0.940088105,0.000287004,0.847985786,Y,Y,ND
+CGST41,Gastric cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,IV,168,0.819429502,0.928354115,0.000397518,0.926313722,Y,Y,ND
+CGST45,Gastric cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,II,168,0.957626157,0.90355205,0.000219962,0.971338799,Y,Y,ND
+CGST47,Gastric cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,168,0.961120078,0.909612461,0.000157258,0.968693613,Y,Y,0.004467
+CGST48,Gastric cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,IV,167,0.746912548,0.544526927,0.000220015,0.997533278,Y,Y,0.042097
+CGST53,Gastric cancer,WGS,Preoperative treatment naive,0,173,-0.00186749,0.788766351,0.001140266,0.991419894,Y,Y, - 
+CGST58,Gastric cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,III,169,0.94702446,0.909438779,0.000696005,0.970549107,Y,Y,ND
+CGST67,Gastric cancer,WGS,Preoperative treatment naive,I,170,0.935158543,0.885310756,0.003245066,0.903157039,Y,Y, - 
+CGST77,Gastric cancer,WGS,Preoperative treatment naive,IV,170,0.004321787,0.829525853,0.001851372,0.998096856,Y,Y, - 
+CGST80,Gastric cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,III,168,0.931257545,0.884644901,0.000490038,0.951325615,Y,Y,0.010367
+CGST81,Gastric cancer,Targeted Mutation Analysis and WGS,Preoperative treatment naive,I,168,0.947959471,0.885057093,0.000138206,0.974766595,Y,Y,0.001995

@@ -1,0 +1,33 @@
+﻿dz,abbrev
+Adrenocortical Carcinoma,ACC
+Bladder Urothelial Carcinoma,BLCA
+Brain Lower Grade Glioma,LGG
+Breast Invasive Carcinoma,BRCA
+Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,CESC
+Cholangiocarcinoma,CHOL
+Colon Adenocarcinoma,COAD
+Esophageal Carcinoma,ESCA
+Glioblastoma Multiforme,GBM
+Head and Neck Squamous Cell Carcinoma,HNSC
+Kidney Chromophobe,KICH
+Kidney Renal Clear Cell Carcinoma,KIRC
+Kidney Renal Papillary Cell Carcinoma,KIRP
+Liver Hepatocellular Carcinoma,LIHC
+Lung Adenocarcinoma,LUAD
+Lung Squamous Cell Carcinoma,LUSC
+Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,DLBC
+Mesothelioma,MESO
+Ovarian Serous Cystadenocarcinoma,OV
+Pancreatic Adenocarcinoma,PAAD
+Pheochromocytoma and Paraganglioma,PCPG
+Prostate Adenocarcinoma,PRAD
+Rectum Adenocarcinoma,READ
+Sarcoma,SARC
+Skin Cutaneous Melanoma,SKCM
+Stomach Adenocarcinoma,STAD
+Testicular Germ Cell Tumors,TGCT
+Thymoma,THYM
+Thyroid Carcinoma,THCA
+Uterine Carcinosarcoma,UCS
+Uterine Corpus Endometrial Carcinoma,UCEC
+Uveal Melanoma,UVM
