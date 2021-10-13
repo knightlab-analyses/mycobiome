@@ -143,7 +143,6 @@ metaQiitaCombined_Nonzero_GenusShared <- droplevels(metaQiitaCombined_Nonzero_Wi
 rep200FungiSpeciesShared_Nonzero <- rep200FungiSpeciesShared[rowSums(rep200FungiSpeciesShared) != 0,]
 metaQiitaCombined_Nonzero_SpeciesShared <- droplevels(metaQiitaCombined_Nonzero_WithBamcounts[rowSums(rep200FungiSpeciesShared) != 0,])
 
-
 save(rep200FungiPhylumShared_Nonzero,
      metaQiitaCombined_Nonzero_PhylumShared,
      rep200FungiClassShared_Nonzero,

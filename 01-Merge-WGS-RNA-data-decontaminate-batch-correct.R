@@ -233,6 +233,17 @@ contaminants <- rownames(contamdf.freq.fungi.plateCenter)[contamdf.freq.fungi.pl
 contaminantsFungiPlateCenterTCGA <- rep200TaxSplit_Fungi[contaminants,]
 save(contaminantsFungiPlateCenterTCGA, file = "Interim_data/contaminantsFungiPlateCenterTCGA_13Sep21.RData")
 
+#------------------------Save all data------------------------#
+# Added later. Goal is to cross-examine decontam results with
+# biological plausibility (from the literature) and WIS results
+load("Interim_data/shared_fungi_features_at_each_taxa_level_13Sep21.RData") ## Load shared features with Weizmann
+rep200TaxSplit_Fungi_Paired_to_Weizmann <- read.csv("Supporting_data/rep200TaxSplit_Fungi_Paired_To_Weizmann_Final.csv", stringsAsFactors = FALSE, row.names = 1)
+decontamResults <- contamdf.freq.fungi.plateCenter
+decontamResults$species <- rep200TaxSplit_Fungi_Paired_to_Weizmann[rownames(decontamResults),"species"]
+decontamResults$sharedWIS <- ifelse(decontamResults$species %in% sharedSpecies, yes = "YES", no = "NO")
+decontamResults %>% write.csv(file = "Interim_data/contaminantsFungiPlateCenterTCGA_updated_annotations_12Oct21.csv")
+#-------------------------------------------------------------#
+
 notContamSumFreq <- colSums(as.matrix(rep200Data_WGS_RNA_HiSeq_Fungi)[,!contamdf.freq.fungi.plateCenter$contaminant])
 contamSumFreq <- colSums(as.matrix(rep200Data_WGS_RNA_HiSeq_Fungi)[,contamdf.freq.fungi.plateCenter$contaminant])
 sum(contamSumFreq)/sum(colSums(as.matrix(rep200Data_WGS_RNA_HiSeq_Fungi))) #--> 0.009430594 (13 Sep 21)

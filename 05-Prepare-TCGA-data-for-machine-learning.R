@@ -1634,6 +1634,32 @@ mlPerfAll10k_Allcancer$datasetName <- factor(mlPerfAll10k_Allcancer$datasetName,
                                                       "Genus (CT)",
                                                       "Species (CT)",
                                                       "OGU (CT)"))
+#-------------------------Regress avg performance vs minority class size-------------------------#
+ptPerfSummarizedMinClassSize <- mlPerfAll10k_Allcancer %>% filter(grepl("Species",datasetName)) %>% 
+                              filter(grepl("Decontam",datasetName)) %>%
+                              filter(sampleType == "Primary Tumor") %>%
+                              group_by(sampleType, diseaseType) %>% 
+                              mutate(avgROC = mean(AUROC), avgPR = mean(AUPR), avgMinClass = mean(minorityClassSize)) %>%
+                              select(sampleType, diseaseType, abbrev, avgROC, avgPR, avgMinClass) %>% 
+                              mutate(logAvgMinClass = log10(avgMinClass)) %>%
+                              unique() %>% data.frame()
+
+summary(lm(avgPR ~ avgMinClass, ptPerfSummarizedMinClassSize))
+summary(lm(avgROC ~ avgMinClass, ptPerfSummarizedMinClassSize))
+
+ptPerfSummarizedMinClassSize %>%
+  ggplot(aes(x=avgMinClass, y=avgPR)) +
+  geom_point(alpha = 0.4) + geom_smooth(method='lm') + stat_cor(method = "pearson", cor.coef.name = "R", show.legend = FALSE) + 
+  theme_bw() + theme(aspect.ratio=1) + coord_fixed() #+
+  ggsave(filename = "Figures/Figure_1/corr_fungal_and_bacterial_read_percentages_sample_type.jpeg",
+         dpi = "retina", units = "in", width = 7, height = 7)
+
+ptPerfSummarizedMinClassSize %>%
+  ggplot(aes(x=logAvgMinClass, y=avgROC)) +
+  geom_point(alpha = 0.4) + geom_smooth(method='lm') + stat_cor(method = "pearson", cor.coef.name = "R", show.legend = FALSE) + 
+  theme_bw()
+
+
 #-------------------------Plot primary tumor 1 vs. all others performance-------------------------#
 # Order level
 mlPerfAll10k_Allcancer %>%
@@ -2085,36 +2111,36 @@ colnames(mlPerfAll10k_Allcancer_Raw)[1:2] <- c("AUROC","AUPR")
 
 # Rename entries in the "datasetName" column
 
-mlPerfAll10k_Allcancer_Raw$datasetName[mlPerfAll10k_Allcancer_Raw$datasetName == "rep200_HiSeq_Fungi_Decontam_HMS"] <- "HMS species (WGS)"
+mlPerfAll10k_Allcancer_Raw$datasetName[mlPerfAll10k_Allcancer_Raw$datasetName == "rep200_HiSeq_Fungi_Decontam_HMS"] <- "HMS species decontam (WGS)"
 mlPerfAll10k_Allcancer_Raw$datasetName[mlPerfAll10k_Allcancer_Raw$datasetName == "rep200_HiSeq_Fungi_Decontam_HMS_Cov_Nonzero"] <- "HMS species high coverage (WGS)"
-mlPerfAll10k_Allcancer_Raw$datasetName[mlPerfAll10k_Allcancer_Raw$datasetName == "rep200_HiSeq_Fungi_Decontam_MDA"] <- "MDA species (WGS)"
+mlPerfAll10k_Allcancer_Raw$datasetName[mlPerfAll10k_Allcancer_Raw$datasetName == "rep200_HiSeq_Fungi_Decontam_MDA"] <- "MDA species decontam (WGS)"
 mlPerfAll10k_Allcancer_Raw$datasetName[mlPerfAll10k_Allcancer_Raw$datasetName == "rep200_HiSeq_Fungi_Decontam_MDA_Cov_Nonzero"] <- "MDA species high coverage (WGS)"
-mlPerfAll10k_Allcancer_Raw$datasetName[mlPerfAll10k_Allcancer_Raw$datasetName == "rep200_HiSeq_Fungi_Decontam_BCM"] <- "BCM species (WGS)"
+mlPerfAll10k_Allcancer_Raw$datasetName[mlPerfAll10k_Allcancer_Raw$datasetName == "rep200_HiSeq_Fungi_Decontam_BCM"] <- "BCM species decontam (WGS)"
 mlPerfAll10k_Allcancer_Raw$datasetName[mlPerfAll10k_Allcancer_Raw$datasetName == "rep200_HiSeq_Fungi_Decontam_BCM_Cov_Nonzero"] <- "BCM species high coverage (WGS)"
-mlPerfAll10k_Allcancer_Raw$datasetName[mlPerfAll10k_Allcancer_Raw$datasetName == "rep200_HiSeq_Fungi_Decontam_WashU"] <- "WashU species (WGS)"
+mlPerfAll10k_Allcancer_Raw$datasetName[mlPerfAll10k_Allcancer_Raw$datasetName == "rep200_HiSeq_Fungi_Decontam_WashU"] <- "WashU species decontam (WGS)"
 mlPerfAll10k_Allcancer_Raw$datasetName[mlPerfAll10k_Allcancer_Raw$datasetName == "rep200_HiSeq_Fungi_Decontam_WashU_Cov_Nonzero"] <- "WashU species high coverage (WGS)"
-mlPerfAll10k_Allcancer_Raw$datasetName[mlPerfAll10k_Allcancer_Raw$datasetName == "rep200_HiSeq_Fungi_Decontam_Broad_WGS"] <- "Broad species (WGS)"
+mlPerfAll10k_Allcancer_Raw$datasetName[mlPerfAll10k_Allcancer_Raw$datasetName == "rep200_HiSeq_Fungi_Decontam_Broad_WGS"] <- "Broad species decontam (WGS)"
 mlPerfAll10k_Allcancer_Raw$datasetName[mlPerfAll10k_Allcancer_Raw$datasetName == "rep200_HiSeq_Fungi_Decontam_Broad_WGS_Cov_Nonzero"] <- "Broad species high coverage (WGS)"
-mlPerfAll10k_Allcancer_Raw$datasetName[mlPerfAll10k_Allcancer_Raw$datasetName == "rep200_HiSeq_Fungi_Decontam_UNC"] <- "UNC species (RNA-Seq)"
+mlPerfAll10k_Allcancer_Raw$datasetName[mlPerfAll10k_Allcancer_Raw$datasetName == "rep200_HiSeq_Fungi_Decontam_UNC"] <- "UNC species decontam (RNA-Seq)"
 mlPerfAll10k_Allcancer_Raw$datasetName[mlPerfAll10k_Allcancer_Raw$datasetName == "rep200_HiSeq_Fungi_Decontam_UNC_Cov_Nonzero"] <- "UNC species high coverage (RNA-Seq)"
-mlPerfAll10k_Allcancer_Raw$datasetName[mlPerfAll10k_Allcancer_Raw$datasetName == "rep200_HiSeq_Fungi_Decontam_CMS"] <- "CMS species (RNA-Seq)"
+mlPerfAll10k_Allcancer_Raw$datasetName[mlPerfAll10k_Allcancer_Raw$datasetName == "rep200_HiSeq_Fungi_Decontam_CMS"] <- "CMS species decontam (RNA-Seq)"
 mlPerfAll10k_Allcancer_Raw$datasetName[mlPerfAll10k_Allcancer_Raw$datasetName == "rep200_HiSeq_Fungi_Decontam_CMS_Cov_Nonzero"] <- "CMS species high coverage (RNA-Seq)"
 ## NOTE: Broad_RNA only included GBM tumors, so no ML comparisons were made
 
 mlPerfAll10k_Allcancer_Raw$datasetName <- factor(mlPerfAll10k_Allcancer_Raw$datasetName,
-                                                    levels = c("HMS species (WGS)",
+                                                    levels = c("HMS species decontam (WGS)",
                                                                "HMS species high coverage (WGS)",
-                                                               "MDA species (WGS)",
+                                                               "MDA species decontam (WGS)",
                                                                "MDA species high coverage (WGS)",
-                                                               "BCM species (WGS)",
+                                                               "BCM species decontam (WGS)",
                                                                "BCM species high coverage (WGS)",
-                                                               "WashU species (WGS)",
+                                                               "WashU species decontam (WGS)",
                                                                "WashU species high coverage (WGS)",
-                                                               "Broad species (WGS)",
+                                                               "Broad species decontam (WGS)",
                                                                "Broad species high coverage (WGS)",
-                                                               "UNC species (RNA-Seq)",
+                                                               "UNC species decontam (RNA-Seq)",
                                                                "UNC species high coverage (RNA-Seq)",
-                                                               "CMS species (RNA-Seq)",
+                                                               "CMS species decontam (RNA-Seq)",
                                                                "CMS species high coverage (RNA-Seq)"))
 #-------------------------Plot primary tumor 1 vs. all others performance-------------------------#
 # HMS
@@ -2397,3 +2423,979 @@ mlPerfAll10k_Allcancer_Raw %>%
          width = 6, height = 4, units = "in")
 # UNC does not have any BDN samples
 # CMS does not have any BDN samples
+
+#----------------------------------------------------------#
+# Plot machine learning performances for all TCGA cancers on raw data split by sequencing center
+# AND aggregated to each taxa level AND intersected with Weizmann data
+#----------------------------------------------------------#
+
+source("Supporting_scripts/S05-SummarySE.R") # Contains a function that calculates std error and 95% confidence intervals
+
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann <- read.csv("Interim_data/rep_perfFungi_10k_rep1_tcga_by_seq_center_taxa_level_and_WIS_intersect_ALL_02Oct21.csv", stringsAsFactors = FALSE)
+abbreviationsTCGA_Allcancer <- read.csv("Supporting_data/tcga_abbreviations.csv", stringsAsFactors = FALSE, row.names = 1)
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$abbrev <- abbreviationsTCGA_Allcancer[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$diseaseType,"abbrev"]
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann <- mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann[,!(colnames(mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann) == "X")]
+colnames(mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann)[1:2] <- c("AUROC","AUPR")
+
+# Rename entries in the "datasetName" column
+
+# HMS - decontam
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_HMS_phylum"] <- "HMS phylum decontam (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_HMS_class"] <- "HMS class decontam (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_HMS_order"] <- "HMS order decontam (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_HMS_family"] <- "HMS family decontam (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_HMS_genus"] <- "HMS genus decontam (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_HMS_species"] <- "HMS species decontam (WGS)"
+# HMS - shared
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_HMS_phylum_Shared_Nonzero"] <- "HMS phylum ∩ WIS (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_HMS_class_Shared_Nonzero"] <- "HMS class ∩ WIS (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_HMS_order_Shared_Nonzero"] <- "HMS order ∩ WIS (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_HMS_family_Shared_Nonzero"] <- "HMS family ∩ WIS (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_HMS_genus_Shared_Nonzero"] <- "HMS genus ∩ WIS (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_HMS_species_Shared_Nonzero"] <- "HMS species ∩ WIS (WGS)"
+# BCM - decontam
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_BCM_phylum"] <- "BCM phylum decontam (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_BCM_class"] <- "BCM class decontam (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_BCM_order"] <- "BCM order decontam (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_BCM_family"] <- "BCM family decontam (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_BCM_genus"] <- "BCM genus decontam (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_BCM_species"] <- "BCM species decontam (WGS)"
+# BCM - shared
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_BCM_phylum_Shared_Nonzero"] <- "BCM phylum ∩ WIS (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_BCM_class_Shared_Nonzero"] <- "BCM class ∩ WIS (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_BCM_order_Shared_Nonzero"] <- "BCM order ∩ WIS (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_BCM_family_Shared_Nonzero"] <- "BCM family ∩ WIS (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_BCM_genus_Shared_Nonzero"] <- "BCM genus ∩ WIS (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_BCM_species_Shared_Nonzero"] <- "BCM species ∩ WIS (WGS)"
+# MDA - decontam
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_MDA_phylum"] <- "MDA phylum decontam (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_MDA_class"] <- "MDA class decontam (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_MDA_order"] <- "MDA order decontam (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_MDA_family"] <- "MDA family decontam (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_MDA_genus"] <- "MDA genus decontam (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_MDA_species"] <- "MDA species decontam (WGS)"
+# MDA - shared
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_MDA_phylum_Shared_Nonzero"] <- "MDA phylum ∩ WIS (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_MDA_class_Shared_Nonzero"] <- "MDA class ∩ WIS (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_MDA_order_Shared_Nonzero"] <- "MDA order ∩ WIS (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_MDA_family_Shared_Nonzero"] <- "MDA family ∩ WIS (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_MDA_genus_Shared_Nonzero"] <- "MDA genus ∩ WIS (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_MDA_species_Shared_Nonzero"] <- "MDA species ∩ WIS (WGS)"
+# WashU - decontam
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_WashU_phylum"] <- "WashU phylum decontam (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_WashU_class"] <- "WashU class decontam (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_WashU_order"] <- "WashU order decontam (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_WashU_family"] <- "WashU family decontam (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_WashU_genus"] <- "WashU genus decontam (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_WashU_species"] <- "WashU species decontam (WGS)"
+# WashU - shared
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_WashU_phylum_Shared_Nonzero"] <- "WashU phylum ∩ WIS (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_WashU_class_Shared_Nonzero"] <- "WashU class ∩ WIS (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_WashU_order_Shared_Nonzero"] <- "WashU order ∩ WIS (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_WashU_family_Shared_Nonzero"] <- "WashU family ∩ WIS (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_WashU_genus_Shared_Nonzero"] <- "WashU genus ∩ WIS (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_WashU_species_Shared_Nonzero"] <- "WashU species ∩ WIS (WGS)"
+# Broad_WGS - decontam
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_Broad_WGS_phylum"] <- "Broad phylum decontam (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_Broad_WGS_class"] <- "Broad class decontam (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_Broad_WGS_order"] <- "Broad order decontam (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_Broad_WGS_family"] <- "Broad family decontam (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_Broad_WGS_genus"] <- "Broad genus decontam (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_Broad_WGS_species"] <- "Broad species decontam (WGS)"
+# Broad_WGS - shared
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_Broad_WGS_phylum_Shared_Nonzero"] <- "Broad phylum ∩ WIS (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_Broad_WGS_class_Shared_Nonzero"] <- "Broad class ∩ WIS (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_Broad_WGS_order_Shared_Nonzero"] <- "Broad order ∩ WIS (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_Broad_WGS_family_Shared_Nonzero"] <- "Broad family ∩ WIS (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_Broad_WGS_genus_Shared_Nonzero"] <- "Broad genus ∩ WIS (WGS)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_Broad_WGS_species_Shared_Nonzero"] <- "Broad species ∩ WIS (WGS)"
+# UNC - decontam
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_UNC_phylum"] <- "UNC phylum decontam (RNA-Seq)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_UNC_class"] <- "UNC class decontam (RNA-Seq)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_UNC_order"] <- "UNC order decontam (RNA-Seq)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_UNC_family"] <- "UNC family decontam (RNA-Seq)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_UNC_genus"] <- "UNC genus decontam (RNA-Seq)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_UNC_species"] <- "UNC species decontam (RNA-Seq)"
+# UNC - shared
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_UNC_phylum_Shared_Nonzero"] <- "UNC phylum ∩ WIS (RNA-Seq)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_UNC_class_Shared_Nonzero"] <- "UNC class ∩ WIS (RNA-Seq)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_UNC_order_Shared_Nonzero"] <- "UNC order ∩ WIS (RNA-Seq)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_UNC_family_Shared_Nonzero"] <- "UNC family ∩ WIS (RNA-Seq)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_UNC_genus_Shared_Nonzero"] <- "UNC genus ∩ WIS (RNA-Seq)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_UNC_species_Shared_Nonzero"] <- "UNC species ∩ WIS (RNA-Seq)"
+# CMS - decontam
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_CMS_phylum"] <- "CMS phylum decontam (RNA-Seq)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_CMS_class"] <- "CMS class decontam (RNA-Seq)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_CMS_order"] <- "CMS order decontam (RNA-Seq)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_CMS_family"] <- "CMS family decontam (RNA-Seq)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_CMS_genus"] <- "CMS genus decontam (RNA-Seq)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_CMS_species"] <- "CMS species decontam (RNA-Seq)"
+# CMS - shared
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_CMS_phylum_Shared_Nonzero"] <- "CMS phylum ∩ WIS (RNA-Seq)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_CMS_class_Shared_Nonzero"] <- "CMS class ∩ WIS (RNA-Seq)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_CMS_order_Shared_Nonzero"] <- "CMS order ∩ WIS (RNA-Seq)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_CMS_family_Shared_Nonzero"] <- "CMS family ∩ WIS (RNA-Seq)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_CMS_genus_Shared_Nonzero"] <- "CMS genus ∩ WIS (RNA-Seq)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_CMS_species_Shared_Nonzero"] <- "CMS species ∩ WIS (RNA-Seq)"
+# Broad_RNA - decontam
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_Broad_RNA_phylum"] <- "Broad phylum decontam (RNA-Seq)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_Broad_RNA_class"] <- "Broad class decontam (RNA-Seq)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_Broad_RNA_order"] <- "Broad order decontam (RNA-Seq)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_Broad_RNA_family"] <- "Broad family decontam (RNA-Seq)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_Broad_RNA_genus"] <- "Broad genus decontam (RNA-Seq)"
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName[mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName == "df_psRep200_HiSeq_Fungi_Decontam_Broad_RNA_species"] <- "Broad species decontam (RNA-Seq)"
+
+## NOTE: Broad_RNA only included GBM tumors, so no ML comparisons were made
+
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName <- factor(mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann$datasetName,
+                                                 levels = c("HMS phylum decontam (WGS)",
+                                                            "HMS class decontam (WGS)",
+                                                            "HMS order decontam (WGS)",
+                                                            "HMS family decontam (WGS)",
+                                                            "HMS genus decontam (WGS)",
+                                                            "HMS species decontam (WGS)",
+                                                            "HMS phylum ∩ WIS (WGS)",
+                                                            "HMS class ∩ WIS (WGS)",
+                                                            "HMS order ∩ WIS (WGS)",
+                                                            "HMS family ∩ WIS (WGS)",
+                                                            "HMS genus ∩ WIS (WGS)",
+                                                            "HMS species ∩ WIS (WGS)",
+                                                            # BCM
+                                                            "BCM phylum decontam (WGS)",
+                                                            "BCM class decontam (WGS)",
+                                                            "BCM order decontam (WGS)",
+                                                            "BCM family decontam (WGS)",
+                                                            "BCM genus decontam (WGS)",
+                                                            "BCM species decontam (WGS)",
+                                                            "BCM phylum ∩ WIS (WGS)",
+                                                            "BCM class ∩ WIS (WGS)",
+                                                            "BCM order ∩ WIS (WGS)",
+                                                            "BCM family ∩ WIS (WGS)",
+                                                            "BCM genus ∩ WIS (WGS)",
+                                                            "BCM species ∩ WIS (WGS)",
+                                                            # MDA
+                                                            "MDA phylum decontam (WGS)",
+                                                            "MDA class decontam (WGS)",
+                                                            "MDA order decontam (WGS)",
+                                                            "MDA family decontam (WGS)",
+                                                            "MDA genus decontam (WGS)",
+                                                            "MDA species decontam (WGS)",
+                                                            "MDA phylum ∩ WIS (WGS)",
+                                                            "MDA class ∩ WIS (WGS)",
+                                                            "MDA order ∩ WIS (WGS)",
+                                                            "MDA family ∩ WIS (WGS)",
+                                                            "MDA genus ∩ WIS (WGS)",
+                                                            "MDA species ∩ WIS (WGS)",
+                                                            # WashU
+                                                            "WashU phylum decontam (WGS)",
+                                                            "WashU class decontam (WGS)",
+                                                            "WashU order decontam (WGS)",
+                                                            "WashU family decontam (WGS)",
+                                                            "WashU genus decontam (WGS)",
+                                                            "WashU species decontam (WGS)",
+                                                            "WashU phylum ∩ WIS (WGS)",
+                                                            "WashU class ∩ WIS (WGS)",
+                                                            "WashU order ∩ WIS (WGS)",
+                                                            "WashU family ∩ WIS (WGS)",
+                                                            "WashU genus ∩ WIS (WGS)",
+                                                            "WashU species ∩ WIS (WGS)",
+                                                            # Broad
+                                                            "Broad phylum decontam (WGS)",
+                                                            "Broad class decontam (WGS)",
+                                                            "Broad order decontam (WGS)",
+                                                            "Broad family decontam (WGS)",
+                                                            "Broad genus decontam (WGS)",
+                                                            "Broad species decontam (WGS)",
+                                                            "Broad phylum ∩ WIS (WGS)",
+                                                            "Broad class ∩ WIS (WGS)",
+                                                            "Broad order ∩ WIS (WGS)",
+                                                            "Broad family ∩ WIS (WGS)",
+                                                            "Broad genus ∩ WIS (WGS)",
+                                                            "Broad species ∩ WIS (WGS)",
+                                                            # UNC
+                                                            "UNC phylum decontam (RNA-Seq)",
+                                                            "UNC class decontam (RNA-Seq)",
+                                                            "UNC order decontam (RNA-Seq)",
+                                                            "UNC family decontam (RNA-Seq)",
+                                                            "UNC genus decontam (RNA-Seq)",
+                                                            "UNC species decontam (RNA-Seq)",
+                                                            "UNC phylum ∩ WIS (RNA-Seq)",
+                                                            "UNC class ∩ WIS (RNA-Seq)",
+                                                            "UNC order ∩ WIS (RNA-Seq)",
+                                                            "UNC family ∩ WIS (RNA-Seq)",
+                                                            "UNC genus ∩ WIS (RNA-Seq)",
+                                                            "UNC species ∩ WIS (RNA-Seq)",
+                                                            # CMS
+                                                            "CMS phylum decontam (RNA-Seq)",
+                                                            "CMS class decontam (RNA-Seq)",
+                                                            "CMS order decontam (RNA-Seq)",
+                                                            "CMS family decontam (RNA-Seq)",
+                                                            "CMS genus decontam (RNA-Seq)",
+                                                            "CMS species decontam (RNA-Seq)",
+                                                            "CMS phylum ∩ WIS (RNA-Seq)",
+                                                            "CMS class ∩ WIS (RNA-Seq)",
+                                                            "CMS order ∩ WIS (RNA-Seq)",
+                                                            "CMS family ∩ WIS (RNA-Seq)",
+                                                            "CMS genus ∩ WIS (RNA-Seq)",
+                                                            "CMS species ∩ WIS (RNA-Seq)",
+                                                            # Broad
+                                                            "Broad phylum decontam (RNA-Seq)",
+                                                            "Broad class decontam (RNA-Seq)",
+                                                            "Broad order decontam (RNA-Seq)",
+                                                            "Broad family decontam (RNA-Seq)",
+                                                            "Broad genus decontam (RNA-Seq)",
+                                                            "Broad species decontam (RNA-Seq)",
+                                                            "Broad phylum ∩ WIS (RNA-Seq)",
+                                                            "Broad class ∩ WIS (RNA-Seq)",
+                                                            "Broad order ∩ WIS (RNA-Seq)",
+                                                            "Broad family ∩ WIS (RNA-Seq)",
+                                                            "Broad genus ∩ WIS (RNA-Seq)",
+                                                            "Broad species ∩ WIS (RNA-Seq)"))
+#-------------------------Plot primary tumor 1 vs. all others performance-------------------------#
+# HMS - decontam
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann %>%
+  filter(sampleType == "Primary Tumor") %>%
+  filter(grepl("HMS",datasetName)) %>%
+  # filter(grepl("species",datasetName)) %>%
+  filter(!grepl("∩",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("Harvard Medical School (WGS) | Raw Data | Primary Tumor | 1 Vs All\n(Phylum, Class, Order, Family, Genus, Species)") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_HMS_PT_taxa_level_decontam.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+# HMS - shared
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann %>%
+  filter(sampleType == "Primary Tumor") %>%
+  filter(grepl("HMS",datasetName)) %>%
+  # filter(grepl("species",datasetName)) %>%
+  filter(grepl("∩",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("Harvard Medical School (WGS) | Raw Data Intersected with WIS Features  | Primary Tumor | 1 Vs All\n(Phylum, Class, Order, Family, Genus, Species)") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_HMS_PT_taxa_level_shared.jpeg", dpi = "retina",
+       width = 8, height = 4, units = "in")
+
+# BCM - decontam
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann %>%
+  filter(sampleType == "Primary Tumor") %>%
+  filter(grepl("BCM",datasetName)) %>%
+  # filter(grepl("species",datasetName)) %>%
+  filter(!grepl("∩",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("Baylor College of Medicine (WGS) | Raw Data | Primary Tumor | 1 Vs All\n(Phylum, Class, Order, Family, Genus, Species)") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_BCM_PT_taxa_level_decontam.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+# BCM - shared
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann %>%
+  filter(sampleType == "Primary Tumor") %>%
+  filter(grepl("BCM",datasetName)) %>%
+  # filter(grepl("species",datasetName)) %>%
+  filter(grepl("∩",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("Baylor College of Medicine (WGS) | Raw Data Intersected with WIS Features  | Primary Tumor | 1 Vs All\n(Phylum, Class, Order, Family, Genus, Species)") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_BCM_PT_taxa_level_shared.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+
+# MDA - decontam
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann %>%
+  filter(sampleType == "Primary Tumor") %>%
+  filter(grepl("MDA",datasetName)) %>%
+  # filter(grepl("species",datasetName)) %>%
+  filter(!grepl("∩",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("MD Anderson (WGS) | Raw Data | Primary Tumor | 1 Vs All\n(Phylum, Class, Order, Family, Genus, Species)") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_MDA_PT_taxa_level_decontam.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+# MDA - shared
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann %>%
+  filter(sampleType == "Primary Tumor") %>%
+  filter(grepl("MDA",datasetName)) %>%
+  # filter(grepl("species",datasetName)) %>%
+  filter(grepl("∩",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("MD Anderson (WGS) | Raw Data Intersected with WIS Features  | Primary Tumor | 1 Vs All\n(Phylum, Class, Order, Family, Genus, Species)") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_MDA_PT_taxa_level_shared.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+
+# WashU - decontam
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann %>%
+  filter(sampleType == "Primary Tumor") %>%
+  filter(grepl("WashU",datasetName)) %>%
+  # filter(grepl("species",datasetName)) %>%
+  filter(!grepl("∩",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("WashU (WGS) | Raw Data | Primary Tumor | 1 Vs All\n(Phylum, Class, Order, Family, Genus, Species)") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_WashU_PT_taxa_level_decontam.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+# WashU - shared
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann %>%
+  filter(sampleType == "Primary Tumor") %>%
+  filter(grepl("WashU",datasetName)) %>%
+  # filter(grepl("species",datasetName)) %>%
+  filter(grepl("∩",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("WashU (WGS) | Raw Data Intersected with WIS Features  | Primary Tumor | 1 Vs All\n(Phylum, Class, Order, Family, Genus, Species)") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_WashU_PT_taxa_level_shared.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+
+# Broad_WGS - decontam
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann %>%
+  filter(sampleType == "Primary Tumor") %>%
+  filter(grepl("Broad",datasetName)) %>%
+  # filter(grepl("species",datasetName)) %>%
+  filter(!grepl("∩",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("Broad Institute (WGS) | Raw Data | Primary Tumor | 1 Vs All\n(Phylum, Class, Order, Family, Genus, Species)") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_Broad_WGS_PT_taxa_level_decontam.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+# Broad_WGS - shared
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann %>%
+  filter(sampleType == "Primary Tumor") %>%
+  filter(grepl("Broad",datasetName)) %>%
+  # filter(grepl("species",datasetName)) %>%
+  filter(grepl("∩",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("Broad Institute (WGS) | Raw Data Intersected with WIS Features  | Primary Tumor | 1 Vs All\n(Phylum, Class, Order, Family, Genus, Species)") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_Broad_WGS_PT_taxa_level_shared.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+
+# UNC - decontam
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann %>%
+  filter(sampleType == "Primary Tumor") %>%
+  filter(grepl("UNC",datasetName)) %>%
+  # filter(grepl("species",datasetName)) %>%
+  filter(!grepl("∩",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("University North Carolina (RNA-Seq) | Raw Data | Primary Tumor | 1 Vs All\n(Phylum, Class, Order, Family, Genus, Species)") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_UNC_PT_taxa_level_decontam.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+# UNC - shared
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann %>%
+  filter(sampleType == "Primary Tumor") %>%
+  filter(grepl("UNC",datasetName)) %>%
+  # filter(grepl("species",datasetName)) %>%
+  filter(grepl("∩",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("University North Carolina (RNA-Seq) | Raw Data Intersected with WIS Features  | Primary Tumor | 1 Vs All\n(Phylum, Class, Order, Family, Genus, Species)") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_UNC_PT_taxa_level_shared.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+
+# CMS - decontam
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann %>%
+  filter(sampleType == "Primary Tumor") %>%
+  filter(grepl("CMS",datasetName)) %>%
+  # filter(grepl("species",datasetName)) %>%
+  filter(!grepl("∩",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("Canada's Michael Smith Genome Sciences Centre (RNA-Seq) | Raw Data | Primary Tumor | 1 Vs All\n(Phylum, Class, Order, Family, Genus, Species)") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_CMS_PT_taxa_level_decontam.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+# CMS - shared
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann %>%
+  filter(sampleType == "Primary Tumor") %>%
+  filter(grepl("CMS",datasetName)) %>%
+  # filter(grepl("species",datasetName)) %>%
+  filter(grepl("∩",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("Canada's Michael Smith Genome Sciences Centre (RNA-Seq) | Raw Data Intersected with WIS Features  | Primary Tumor | 1 Vs All\n(Phylum, Class, Order, Family, Genus, Species)") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_CMS_PT_taxa_level_shared.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+
+#-------------------------Plot primary tumor vs. NAT performance-------------------------#
+# HMS - decontam
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann %>%
+  filter(sampleType == "Primary Tumor vs Solid Tissue Normal") %>%
+  filter(grepl("HMS",datasetName)) %>%
+  # filter(grepl("species",datasetName)) %>%
+  filter(!grepl("∩",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("Harvard Medical School (WGS) | Raw Data | Primary Tumor vs Solid Tissue Normal | 1 Vs All\n(Phylum, Class, Order, Family, Genus, Species)") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_HMS_PT_vs_NAT_taxa_level_decontam.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+# HMS - shared
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann %>%
+  filter(sampleType == "Primary Tumor vs Solid Tissue Normal") %>%
+  filter(grepl("HMS",datasetName)) %>%
+  # filter(grepl("species",datasetName)) %>%
+  filter(grepl("∩",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("Harvard Medical School (WGS) | Raw Data Intersected with WIS Features  | Primary Tumor vs Solid Tissue Normal | 1 Vs All\n(Phylum, Class, Order, Family, Genus, Species)") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_HMS_PT_vs_NAT_taxa_level_shared.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+
+# BCM - decontam
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann %>%
+  filter(sampleType == "Primary Tumor vs Solid Tissue Normal") %>%
+  filter(grepl("BCM",datasetName)) %>%
+  # filter(grepl("species",datasetName)) %>%
+  filter(!grepl("∩",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("Baylor College of Medicine (WGS) | Raw Data | Primary Tumor vs Solid Tissue Normal | 1 Vs All\n(Phylum, Class, Order, Family, Genus, Species)") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_BCM_PT_vs_NAT_taxa_level_decontam.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+# BCM - shared
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann %>%
+  filter(sampleType == "Primary Tumor vs Solid Tissue Normal") %>%
+  filter(grepl("BCM",datasetName)) %>%
+  # filter(grepl("species",datasetName)) %>%
+  filter(grepl("∩",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("Baylor College of Medicine (WGS) | Raw Data Intersected with WIS Features  | Primary Tumor vs Solid Tissue Normal | 1 Vs All\n(Phylum, Class, Order, Family, Genus, Species)") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_BCM_PT_vs_NAT_taxa_level_shared.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+
+## NOTE: Neither MDA nor WashU has enough tumor vs. normal samples to plot
+
+# Broad_WGS - decontam
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann %>%
+  filter(sampleType == "Primary Tumor vs Solid Tissue Normal") %>%
+  filter(grepl("Broad",datasetName)) %>%
+  # filter(grepl("species",datasetName)) %>%
+  filter(!grepl("∩",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("Broad Institute (WGS) | Raw Data | Primary Tumor vs Solid Tissue Normal | 1 Vs All\n(Phylum, Class, Order, Family, Genus, Species)") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_Broad_WGS_PT_vs_NAT_taxa_level_decontam.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+# Broad_WGS - shared
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann %>%
+  filter(sampleType == "Primary Tumor vs Solid Tissue Normal") %>%
+  filter(grepl("Broad",datasetName)) %>%
+  # filter(grepl("species",datasetName)) %>%
+  filter(grepl("∩",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("Broad Institute (WGS) | Raw Data Intersected with WIS Features  | Primary Tumor vs Solid Tissue Normal | 1 Vs All\n(Phylum, Class, Order, Family, Genus, Species)") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_Broad_WGS_PT_vs_NAT_taxa_level_shared.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+
+# UNC - decontam
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann %>%
+  filter(sampleType == "Primary Tumor vs Solid Tissue Normal") %>%
+  filter(grepl("UNC",datasetName)) %>%
+  # filter(grepl("species",datasetName)) %>%
+  filter(!grepl("∩",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("University North Carolina (RNA-Seq) | Raw Data | Primary Tumor vs Solid Tissue Normal | 1 Vs All\n(Phylum, Class, Order, Family, Genus, Species)") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_UNC_PT_vs_NAT_taxa_level_decontam.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+# UNC - shared
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann %>%
+  filter(sampleType == "Primary Tumor vs Solid Tissue Normal") %>%
+  filter(grepl("UNC",datasetName)) %>%
+  # filter(grepl("species",datasetName)) %>%
+  filter(grepl("∩",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("University North Carolina (RNA-Seq) | Raw Data Intersected with WIS Features  | Primary Tumor vs Solid Tissue Normal | 1 Vs All\n(Phylum, Class, Order, Family, Genus, Species)") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_UNC_PT_vs_NAT_taxa_level_shared.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+
+# CMS - decontam
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann %>%
+  filter(sampleType == "Primary Tumor vs Solid Tissue Normal") %>%
+  filter(grepl("CMS",datasetName)) %>%
+  # filter(grepl("species",datasetName)) %>%
+  filter(!grepl("∩",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("Canada's Michael Smith Genome Sciences Centre (RNA-Seq) | Raw Data | Primary Tumor vs Solid Tissue Normal | 1 Vs All\n(Phylum, Class, Order, Family, Genus, Species)") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_CMS_PT_vs_NAT_taxa_level_decontam.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+# CMS - shared
+mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann %>%
+  filter(sampleType == "Primary Tumor vs Solid Tissue Normal") %>%
+  filter(grepl("CMS",datasetName)) %>%
+  # filter(grepl("species",datasetName)) %>%
+  filter(grepl("∩",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("Canada's Michael Smith Genome Sciences Centre (RNA-Seq) | Raw Data Intersected with WIS Features  | Primary Tumor vs Solid Tissue Normal | 1 Vs All\n(Phylum, Class, Order, Family, Genus, Species)") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_CMS_PT_vs_NAT_taxa_level_shared.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+
+#----------------------------------------------------------#
+# Overlay plots machine learning performances for all TCGA cancers
+# using RAW data per seq center:
+# - Decontam species data
+# - High coverage species
+# - Intersected species with WIS
+#----------------------------------------------------------#
+
+source("Supporting_scripts/S05-SummarySE.R") # Contains a function that calculates std error and 95% confidence intervals
+
+# NOTE: There are too many cancer types to include more than two errorbars per cancer type,
+# so the WGS vs. RNA comparison is not included in this overlay. If you would like to include
+# it, you can remove the commented line below.
+mlPerfAll10k_Allcancer_Raw_Overlay <- rbind(mlPerfAll10k_Allcancer_Raw_Taxa_Levels_and_Weizmann,
+                                            mlPerfAll10k_Allcancer_Raw)
+mlPerfAll10k_Allcancer_Raw_Overlay_Filt <- mlPerfAll10k_Allcancer_Raw_Overlay %>%
+  filter(grepl("species",datasetName)) %>% droplevels()
+mlPerfAll10k_Allcancer_Raw_Overlay_Filt$datasetName <- factor(mlPerfAll10k_Allcancer_Raw_Overlay_Filt$datasetName,
+                                                              levels = rev(levels(mlPerfAll10k_Allcancer_Raw_Overlay_Filt$datasetName)))
+
+#-------------------------Plot primary tumor 1 vs. all others performance-------------------------#
+# HMS - overlay
+mlPerfAll10k_Allcancer_Raw_Overlay_Filt %>%
+  filter(sampleType == "Primary Tumor") %>%
+  filter(grepl("HMS",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("Harvard Medical School (WGS) | Raw Data | Primary Tumor | 1 Vs All | Species") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_HMS_PT_species_overlay.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+# BCM - overlay
+mlPerfAll10k_Allcancer_Raw_Overlay_Filt %>%
+  filter(sampleType == "Primary Tumor") %>%
+  filter(grepl("BCM",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("Baylor College of Medicine (WGS) | Raw Data | Primary Tumor | 1 Vs All | Species") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_BCM_PT_species_overlay.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+# MDA - overlay
+mlPerfAll10k_Allcancer_Raw_Overlay_Filt %>%
+  filter(sampleType == "Primary Tumor") %>%
+  filter(grepl("MDA",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("MD Anderson (WGS) | Raw Data | Primary Tumor | 1 Vs All | Species") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_MDA_PT_species_overlay.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+# WashU - overlay
+mlPerfAll10k_Allcancer_Raw_Overlay_Filt %>%
+  filter(sampleType == "Primary Tumor") %>%
+  filter(grepl("WashU",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("WashU (WGS) | Raw Data | Primary Tumor | 1 Vs All | Species") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_WashU_PT_species_overlay.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+# Broad_WGS - overlay
+mlPerfAll10k_Allcancer_Raw_Overlay_Filt %>%
+  filter(sampleType == "Primary Tumor") %>%
+  filter(grepl("Broad",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("Broad Institute (WGS) | Raw Data | Primary Tumor | 1 Vs All | Species") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_Broad_WGS_PT_species_overlay.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+# UNC - overlay
+mlPerfAll10k_Allcancer_Raw_Overlay_Filt %>%
+  filter(sampleType == "Primary Tumor") %>%
+  filter(grepl("UNC",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("University North Carolina (RNA-Seq) | Raw Data | Primary Tumor | 1 Vs All | Species") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_UNC_PT_species_overlay.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+# CMS - overlay
+mlPerfAll10k_Allcancer_Raw_Overlay_Filt %>%
+  filter(sampleType == "Primary Tumor") %>%
+  filter(grepl("CMS",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("Canada's Michael Smith Genome Sciences Centre (RNA-Seq) | Raw Data | Primary Tumor | 1 Vs All | Species") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_CMS_PT_species_overlay.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+
+#-------------------------Plot primary tumor vs. NAT performance-------------------------#
+# HMS - overlay
+mlPerfAll10k_Allcancer_Raw_Overlay_Filt %>%
+  filter(sampleType == "Primary Tumor vs Solid Tissue Normal") %>%
+  filter(grepl("HMS",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("Harvard Medical School (WGS) | Raw Data | Primary Tumor vs Solid Tissue Normal | 1 Vs All | Species") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_HMS_PT_vs_NAT_species_overlay.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+# BCM - overlay
+mlPerfAll10k_Allcancer_Raw_Overlay_Filt %>%
+  filter(sampleType == "Primary Tumor vs Solid Tissue Normal") %>%
+  filter(grepl("BCM",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("Baylor College of Medicine (WGS) | Raw Data | Primary Tumor vs Solid Tissue Normal | 1 Vs All | Species") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_BCM_PT_vs_NAT_species_overlay.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+## NOTE: Neither MDA nor WashU had sufficient samples to plot primary tumor vs. NAT performance
+
+# Broad_WGS - overlay
+mlPerfAll10k_Allcancer_Raw_Overlay_Filt %>%
+  filter(sampleType == "Primary Tumor vs Solid Tissue Normal") %>%
+  filter(grepl("Broad",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("Broad Institute (WGS) | Raw Data | Primary Tumor vs Solid Tissue Normal | 1 Vs All | Species") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_Broad_WGS_PT_vs_NAT_species_overlay.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+# UNC - overlay
+mlPerfAll10k_Allcancer_Raw_Overlay_Filt %>%
+  filter(sampleType == "Primary Tumor vs Solid Tissue Normal") %>%
+  filter(grepl("UNC",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("University North Carolina (RNA-Seq) | Raw Data | Primary Tumor vs Solid Tissue Normal | 1 Vs All | Species") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_UNC_PT_vs_NAT_species_overlay.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+# CMS - overlay
+mlPerfAll10k_Allcancer_Raw_Overlay_Filt %>%
+  filter(sampleType == "Primary Tumor vs Solid Tissue Normal") %>%
+  filter(grepl("CMS",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("Canada's Michael Smith Genome Sciences Centre (RNA-Seq) | Raw Data | Primary Tumor vs Solid Tissue Normal | 1 Vs All | Species") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_CMS_PT_vs_NAT_species_overlay.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+
+#-------------------------Plot blood derived normal 1 vs. all others performance-------------------------#
+# HMS - overlay
+mlPerfAll10k_Allcancer_Raw_Overlay_Filt %>%
+  filter(sampleType == "Blood Derived Normal") %>%
+  filter(grepl("HMS",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("Harvard Medical School (WGS) | Raw Data | Blood Derived Normal | 1 Vs All | Species") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_HMS_BDN_species_overlay.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+# BCM - overlay
+mlPerfAll10k_Allcancer_Raw_Overlay_Filt %>%
+  filter(sampleType == "Blood Derived Normal") %>%
+  filter(grepl("BCM",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("Baylor College of Medicine (WGS) | Raw Data | Blood Derived Normal | 1 Vs All | Species") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_BCM_BDN_species_overlay.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+# MDA - overlay
+mlPerfAll10k_Allcancer_Raw_Overlay_Filt %>%
+  filter(sampleType == "Blood Derived Normal") %>%
+  filter(grepl("MDA",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("MD Anderson (WGS) | Raw Data | Blood Derived Normal | 1 Vs All | Species") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_MDA_BDN_species_overlay.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+# WashU - overlay
+mlPerfAll10k_Allcancer_Raw_Overlay_Filt %>%
+  filter(sampleType == "Blood Derived Normal") %>%
+  filter(grepl("WashU",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("WashU (WGS) | Raw Data | Blood Derived Normal | 1 Vs All | Species") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_WashU_BDN_species_overlay.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+# Broad_WGS - overlay
+mlPerfAll10k_Allcancer_Raw_Overlay_Filt %>%
+  filter(sampleType == "Blood Derived Normal") %>%
+  filter(grepl("Broad",datasetName)) %>%
+  droplevels() %>%
+  reshape2::melt(id.vars = c("rep","abbrev","diseaseType","sampleType","datasetName","metadataName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName")) %>%
+  summarySE(measurevar = "value", groupvars = c("datasetName","metadataName","variable","abbrev")) %>%
+  ggplot(aes(reorder(abbrev, value, FUN=median),value, color=datasetName)) +
+  geom_errorbar(aes(ymin=value-ci, ymax=value+ci), width=0, position = position_dodge(0.9)) +
+  geom_point(position = position_dodge(0.9), size=2) + xlab("Cancer type") + ylab("Area Under Curve") + theme_pubr() +
+  facet_wrap(~variable) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+  ggtitle("Broad Institute (WGS) | Raw Data | Blood Derived Normal | 1 Vs All | Species") + theme(plot.title = element_text(hjust = 0.5)) +
+  rotate_x_text(90) + scale_color_nejm(name = "Features") + geom_hline(yintercept = 1, linetype="dashed") + 
+  ggsave("Figures/Figure_4/figure_4_XX_mlPerfAll10k_rep1_Broad_WGS_BDN_species_overlay.jpeg", dpi = "retina",
+         width = 8, height = 4, units = "in")
+
