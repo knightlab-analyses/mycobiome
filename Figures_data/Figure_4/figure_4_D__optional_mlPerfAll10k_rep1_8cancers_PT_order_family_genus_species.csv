@@ -1,561 +1,321 @@
-"","AUROC","AUPR","rep","diseaseType","sampleType","datasetName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName","abbrev"
-"1",0.984239558707644,0.703654916194441,"Fold1","Bone Cancer","Primary Tumor","Order (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"2",1,1,"Fold2","Bone Cancer","Primary Tumor","Order (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"3",0.997635933806147,0.797267445945918,"Fold3","Bone Cancer","Primary Tumor","Order (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"4",0.954599056603774,0.760866490027769,"Fold4","Bone Cancer","Primary Tumor","Order (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"5",0.997635933806147,0.817678443206045,"Fold5","Bone Cancer","Primary Tumor","Order (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"6",0.998427672955975,0.851237632457194,"Fold6","Bone Cancer","Primary Tumor","Order (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"7",1,1,"Fold7","Bone Cancer","Primary Tumor","Order (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"8",0.996847911741529,0.68252340716999,"Fold8","Bone Cancer","Primary Tumor","Order (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"9",0.997635933806147,0.866468607375477,"Fold9","Bone Cancer","Primary Tumor","Order (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"10",0.997635933806147,0.812466472016611,"Fold10","Bone Cancer","Primary Tumor","Order (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"11",0.809522463173966,0.510552207579383,"Fold1","Breast Cancer","Primary Tumor","Order (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"12",0.812300319488818,0.604270116018191,"Fold2","Breast Cancer","Primary Tumor","Order (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"13",0.816801619433198,0.570102785104376,"Fold3","Breast Cancer","Primary Tumor","Order (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"14",0.831483661229752,0.563639577967851,"Fold4","Breast Cancer","Primary Tumor","Order (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"15",0.785045681295891,0.533787541628048,"Fold5","Breast Cancer","Primary Tumor","Order (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"16",0.819402271704903,0.569135224167656,"Fold6","Breast Cancer","Primary Tumor","Order (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"17",0.830054369149711,0.608099671626444,"Fold7","Breast Cancer","Primary Tumor","Order (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"18",0.837494376968061,0.595268066295016,"Fold8","Breast Cancer","Primary Tumor","Order (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"19",0.794714421837341,0.509308273421405,"Fold9","Breast Cancer","Primary Tumor","Order (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"20",0.840774059750014,0.606128892880611,"Fold10","Breast Cancer","Primary Tumor","Order (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"21",0.846554252199413,0.528191832547518,"Fold1","Colorectal Cancer","Primary Tumor","Order (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"22",0.890395894428152,0.617140934486513,"Fold2","Colorectal Cancer","Primary Tumor","Order (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"23",0.866911045943304,0.489635369285781,"Fold3","Colorectal Cancer","Primary Tumor","Order (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"24",0.858858123009066,0.510024525397987,"Fold4","Colorectal Cancer","Primary Tumor","Order (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"25",0.811412512218964,0.523073415222006,"Fold5","Colorectal Cancer","Primary Tumor","Order (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"26",0.83761333006616,0.489909697058532,"Fold6","Colorectal Cancer","Primary Tumor","Order (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"27",0.870087976539589,0.597177050168372,"Fold7","Colorectal Cancer","Primary Tumor","Order (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"28",0.879661847586376,0.553907532234834,"Fold8","Colorectal Cancer","Primary Tumor","Order (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"29",0.855938416422287,0.528642765609255,"Fold9","Colorectal Cancer","Primary Tumor","Order (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"30",0.86900269541779,0.627386212762001,"Fold10","Colorectal Cancer","Primary Tumor","Order (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"31",0.999097007223942,0.98340080732268,"Fold1","Glioblastoma","Primary Tumor","Order (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"32",1,1,"Fold2","Glioblastoma","Primary Tumor","Order (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"33",0.998065015479876,0.967661119778132,"Fold3","Glioblastoma","Primary Tumor","Order (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"34",0.94749742002064,0.949656727400203,"Fold4","Glioblastoma","Primary Tumor","Order (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"35",0.998065015479876,0.960350891194825,"Fold5","Glioblastoma","Primary Tumor","Order (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"36",0.994827363248416,0.947287387049493,"Fold6","Glioblastoma","Primary Tumor","Order (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"37",0.996896417949049,0.937434745992356,"Fold7","Glioblastoma","Primary Tumor","Order (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"38",0.998065015479876,0.959952806943719,"Fold8","Glioblastoma","Primary Tumor","Order (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"39",0.997672313461787,0.967387120833059,"Fold9","Glioblastoma","Primary Tumor","Order (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"40",0.999355005159959,0.988800101468738,"Fold10","Glioblastoma","Primary Tumor","Order (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"41",0.818946796959826,0.609589031534996,"Fold1","Lung Cancer","Primary Tumor","Order (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"42",0.753227124183007,0.513912282095344,"Fold2","Lung Cancer","Primary Tumor","Order (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"43",0.76692453854506,0.516839293683955,"Fold3","Lung Cancer","Primary Tumor","Order (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"44",0.798060822124993,0.565340993259271,"Fold4","Lung Cancer","Primary Tumor","Order (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"45",0.791108387799564,0.575981927904198,"Fold5","Lung Cancer","Primary Tumor","Order (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"46",0.773270697167756,0.549604565291787,"Fold6","Lung Cancer","Primary Tumor","Order (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"47",0.748747276688453,0.483227993941897,"Fold7","Lung Cancer","Primary Tumor","Order (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"48",0.78406862745098,0.55694935088917,"Fold8","Lung Cancer","Primary Tumor","Order (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"49",0.769348803402697,0.522526186806283,"Fold9","Lung Cancer","Primary Tumor","Order (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"50",0.767806731813246,0.515346520340159,"Fold10","Lung Cancer","Primary Tumor","Order (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"51",0.784227820372399,0.0964816966350421,"Fold1","Melanoma","Primary Tumor","Order (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"52",0.65881708652793,0.0383729082954293,"Fold2","Melanoma","Primary Tumor","Order (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"53",0.657124125874126,0.0654773695909296,"Fold3","Melanoma","Primary Tumor","Order (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"54",0.790142387732749,0.151527256014729,"Fold4","Melanoma","Primary Tumor","Order (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"55",0.621029572836802,0.0310797944513119,"Fold5","Melanoma","Primary Tumor","Order (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"56",0.69645979020979,0.0441896645718824,"Fold6","Melanoma","Primary Tumor","Order (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"57",0.752902519167579,0.14479056775253,"Fold7","Melanoma","Primary Tumor","Order (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"58",0.574737762237762,0.0330600157006099,"Fold8","Melanoma","Primary Tumor","Order (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"59",0.634415064102564,0.0360034749610946,"Fold9","Melanoma","Primary Tumor","Order (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"60",0.682473776223776,0.0384813541640275,"Fold10","Melanoma","Primary Tumor","Order (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"61",0.997084053843285,0.990532108359134,"Fold1","Ovarian Cancer","Primary Tumor","Order (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"62",0.997150710646286,0.990599951198296,"Fold2","Ovarian Cancer","Primary Tumor","Order (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"63",0.999254060285491,0.997669351582663,"Fold3","Ovarian Cancer","Primary Tumor","Order (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"64",0.999027889514615,0.996544524595768,"Fold4","Ovarian Cancer","Primary Tumor","Order (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"65",0.999161973719496,0.997377894006068,"Fold5","Ovarian Cancer","Primary Tumor","Order (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"66",0.99803343166175,0.993735813971439,"Fold6","Ovarian Cancer","Primary Tumor","Order (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"67",0.998156342182891,0.993681981218867,"Fold7","Ovarian Cancer","Primary Tumor","Order (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"68",0.998659157951193,0.995591383560873,"Fold8","Ovarian Cancer","Primary Tumor","Order (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"69",0.998960847412175,0.996275968832304,"Fold9","Ovarian Cancer","Primary Tumor","Order (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"70",0.999423592038789,0.997879783567665,"Fold10","Ovarian Cancer","Primary Tumor","Order (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"71",0.782621951219512,0.160365859988706,"Fold1","Pancreatic Cancer","Primary Tumor","Order (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"72",0.802667682926829,0.17321420165487,"Fold2","Pancreatic Cancer","Primary Tumor","Order (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"73",0.789405487804878,0.137313078233345,"Fold3","Pancreatic Cancer","Primary Tumor","Order (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"74",0.816158580220409,0.16307927422829,"Fold4","Pancreatic Cancer","Primary Tumor","Order (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"75",0.798923959827834,0.121622555892525,"Fold5","Pancreatic Cancer","Primary Tumor","Order (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"76",0.839526542324247,0.211972478927597,"Fold6","Pancreatic Cancer","Primary Tumor","Order (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"77",0.698206599713056,0.0865181113292629,"Fold7","Pancreatic Cancer","Primary Tumor","Order (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"78",0.906173780487805,0.220838005682787,"Fold8","Pancreatic Cancer","Primary Tumor","Order (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"79",0.76794403892944,0.09380378292971,"Fold9","Pancreatic Cancer","Primary Tumor","Order (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"80",0.808231707317073,0.202885262569237,"Fold10","Pancreatic Cancer","Primary Tumor","Order (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"81",0.984239558707644,0.703654916194441,"Fold1","Bone Cancer","Primary Tumor","Order (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"82",1,1,"Fold2","Bone Cancer","Primary Tumor","Order (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"83",0.997635933806147,0.797267445945918,"Fold3","Bone Cancer","Primary Tumor","Order (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"84",0.954599056603774,0.760866490027769,"Fold4","Bone Cancer","Primary Tumor","Order (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"85",0.997635933806147,0.817678443206045,"Fold5","Bone Cancer","Primary Tumor","Order (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"86",0.998427672955975,0.851237632457194,"Fold6","Bone Cancer","Primary Tumor","Order (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"87",1,1,"Fold7","Bone Cancer","Primary Tumor","Order (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"88",0.996847911741529,0.68252340716999,"Fold8","Bone Cancer","Primary Tumor","Order (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"89",0.997635933806147,0.866468607375477,"Fold9","Bone Cancer","Primary Tumor","Order (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"90",0.997635933806147,0.812466472016611,"Fold10","Bone Cancer","Primary Tumor","Order (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"91",0.999097007223942,0.98340080732268,"Fold1","Glioblastoma","Primary Tumor","Order (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"92",1,1,"Fold2","Glioblastoma","Primary Tumor","Order (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"93",0.998065015479876,0.967661119778132,"Fold3","Glioblastoma","Primary Tumor","Order (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"94",0.94749742002064,0.949656727400203,"Fold4","Glioblastoma","Primary Tumor","Order (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"95",0.998065015479876,0.960350891194825,"Fold5","Glioblastoma","Primary Tumor","Order (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"96",0.994827363248416,0.947287387049493,"Fold6","Glioblastoma","Primary Tumor","Order (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"97",0.996896417949049,0.937434745992356,"Fold7","Glioblastoma","Primary Tumor","Order (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"98",0.998065015479876,0.959952806943719,"Fold8","Glioblastoma","Primary Tumor","Order (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"99",0.997672313461787,0.967387120833059,"Fold9","Glioblastoma","Primary Tumor","Order (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"100",0.999355005159959,0.988800101468738,"Fold10","Glioblastoma","Primary Tumor","Order (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"101",0.784227820372399,0.0964816966350421,"Fold1","Melanoma","Primary Tumor","Order (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"102",0.65881708652793,0.0383729082954293,"Fold2","Melanoma","Primary Tumor","Order (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"103",0.657124125874126,0.0654773695909296,"Fold3","Melanoma","Primary Tumor","Order (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"104",0.790142387732749,0.151527256014729,"Fold4","Melanoma","Primary Tumor","Order (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"105",0.621029572836802,0.0310797944513119,"Fold5","Melanoma","Primary Tumor","Order (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"106",0.69645979020979,0.0441896645718824,"Fold6","Melanoma","Primary Tumor","Order (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"107",0.752902519167579,0.14479056775253,"Fold7","Melanoma","Primary Tumor","Order (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"108",0.574737762237762,0.0330600157006099,"Fold8","Melanoma","Primary Tumor","Order (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"109",0.634415064102564,0.0360034749610946,"Fold9","Melanoma","Primary Tumor","Order (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"110",0.682473776223776,0.0384813541640275,"Fold10","Melanoma","Primary Tumor","Order (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"111",0.997084053843285,0.990532108359134,"Fold1","Ovarian Cancer","Primary Tumor","Order (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"112",0.997150710646286,0.990599951198296,"Fold2","Ovarian Cancer","Primary Tumor","Order (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"113",0.999254060285491,0.997669351582663,"Fold3","Ovarian Cancer","Primary Tumor","Order (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"114",0.999027889514615,0.996544524595768,"Fold4","Ovarian Cancer","Primary Tumor","Order (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"115",0.999161973719496,0.997377894006068,"Fold5","Ovarian Cancer","Primary Tumor","Order (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"116",0.99803343166175,0.993735813971439,"Fold6","Ovarian Cancer","Primary Tumor","Order (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"117",0.998156342182891,0.993681981218867,"Fold7","Ovarian Cancer","Primary Tumor","Order (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"118",0.998659157951193,0.995591383560873,"Fold8","Ovarian Cancer","Primary Tumor","Order (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"119",0.998960847412175,0.996275968832304,"Fold9","Ovarian Cancer","Primary Tumor","Order (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"120",0.999423592038789,0.997879783567665,"Fold10","Ovarian Cancer","Primary Tumor","Order (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"121",0.782621951219512,0.160365859988706,"Fold1","Pancreatic Cancer","Primary Tumor","Order (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"122",0.802667682926829,0.17321420165487,"Fold2","Pancreatic Cancer","Primary Tumor","Order (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"123",0.789405487804878,0.137313078233345,"Fold3","Pancreatic Cancer","Primary Tumor","Order (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"124",0.816158580220409,0.16307927422829,"Fold4","Pancreatic Cancer","Primary Tumor","Order (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"125",0.798923959827834,0.121622555892525,"Fold5","Pancreatic Cancer","Primary Tumor","Order (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"126",0.839526542324247,0.211972478927597,"Fold6","Pancreatic Cancer","Primary Tumor","Order (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"127",0.698206599713056,0.0865181113292629,"Fold7","Pancreatic Cancer","Primary Tumor","Order (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"128",0.906173780487805,0.220838005682787,"Fold8","Pancreatic Cancer","Primary Tumor","Order (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"129",0.76794403892944,0.09380378292971,"Fold9","Pancreatic Cancer","Primary Tumor","Order (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"130",0.808231707317073,0.202885262569237,"Fold10","Pancreatic Cancer","Primary Tumor","Order (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"131",0.782621951219512,0.160365859988706,"Fold1","Pancreatic Cancer","Primary Tumor","Order (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"132",0.802667682926829,0.17321420165487,"Fold2","Pancreatic Cancer","Primary Tumor","Order (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"133",0.789405487804878,0.137313078233345,"Fold3","Pancreatic Cancer","Primary Tumor","Order (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"134",0.816158580220409,0.16307927422829,"Fold4","Pancreatic Cancer","Primary Tumor","Order (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"135",0.798923959827834,0.121622555892525,"Fold5","Pancreatic Cancer","Primary Tumor","Order (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"136",0.839526542324247,0.211972478927597,"Fold6","Pancreatic Cancer","Primary Tumor","Order (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"137",0.698206599713056,0.0865181113292629,"Fold7","Pancreatic Cancer","Primary Tumor","Order (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"138",0.906173780487805,0.220838005682787,"Fold8","Pancreatic Cancer","Primary Tumor","Order (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"139",0.76794403892944,0.09380378292971,"Fold9","Pancreatic Cancer","Primary Tumor","Order (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"140",0.808231707317073,0.202885262569237,"Fold10","Pancreatic Cancer","Primary Tumor","Order (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"141",0.997635933806147,0.817678443206045,"Fold1","Bone Cancer","Primary Tumor","Family (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"142",1,1,"Fold2","Bone Cancer","Primary Tumor","Family (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"143",0.998817966903073,0.872293594058502,"Fold3","Bone Cancer","Primary Tumor","Family (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"144",0.998231132075472,0.836918703490077,"Fold4","Bone Cancer","Primary Tumor","Family (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"145",1,1,"Fold5","Bone Cancer","Primary Tumor","Family (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"146",0.999213836477987,0.904105975849406,"Fold6","Bone Cancer","Primary Tumor","Family (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"147",1,1,"Fold7","Bone Cancer","Primary Tumor","Family (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"148",1,1,"Fold8","Bone Cancer","Primary Tumor","Family (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"149",1,1,"Fold9","Bone Cancer","Primary Tumor","Family (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"150",0.997635933806147,0.735552426463036,"Fold10","Bone Cancer","Primary Tumor","Family (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"151",0.804277757358138,0.520604108123853,"Fold1","Breast Cancer","Primary Tumor","Family (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"152",0.823902808138557,0.609522623972586,"Fold2","Breast Cancer","Primary Tumor","Family (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"153",0.813694894287,0.586340290049926,"Fold3","Breast Cancer","Primary Tumor","Family (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"154",0.829928255142649,0.556894425146458,"Fold4","Breast Cancer","Primary Tumor","Family (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"155",0.793859649122807,0.522464601981903,"Fold5","Breast Cancer","Primary Tumor","Family (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"156",0.82605150697256,0.599780079430552,"Fold6","Breast Cancer","Primary Tumor","Family (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"157",0.836177904825963,0.598856019678132,"Fold7","Breast Cancer","Primary Tumor","Family (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"158",0.815578609986505,0.559363156319016,"Fold8","Breast Cancer","Primary Tumor","Family (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"159",0.812678661510005,0.561311855967021,"Fold9","Breast Cancer","Primary Tumor","Family (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"160",0.846687405414495,0.614419365626821,"Fold10","Breast Cancer","Primary Tumor","Family (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"161",0.839051808406647,0.506795005457015,"Fold1","Colorectal Cancer","Primary Tumor","Family (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"162",0.883064516129032,0.615201480270405,"Fold2","Colorectal Cancer","Primary Tumor","Family (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"163",0.884433040078201,0.585064763084026,"Fold3","Colorectal Cancer","Primary Tumor","Family (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"164",0.865278118108307,0.537115085726053,"Fold4","Colorectal Cancer","Primary Tumor","Family (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"165",0.820063538611926,0.553909896084759,"Fold5","Colorectal Cancer","Primary Tumor","Family (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"166",0.83648615535408,0.484190538021501,"Fold6","Colorectal Cancer","Primary Tumor","Family (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"167",0.882282502443793,0.589806381973191,"Fold7","Colorectal Cancer","Primary Tumor","Family (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"168",0.895809850526832,0.594867517533357,"Fold8","Colorectal Cancer","Primary Tumor","Family (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"169",0.835654936461388,0.500957235360467,"Fold9","Colorectal Cancer","Primary Tumor","Family (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"170",0.857216368537123,0.592174854539754,"Fold10","Colorectal Cancer","Primary Tumor","Family (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"171",0.998839009287926,0.974028365054701,"Fold1","Glioblastoma","Primary Tumor","Family (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"172",1,1,"Fold2","Glioblastoma","Primary Tumor","Family (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"173",0.99780701754386,0.972743799408299,"Fold3","Glioblastoma","Primary Tumor","Family (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"174",0.948013415892673,0.949678443025627,"Fold4","Glioblastoma","Primary Tumor","Family (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"175",0.998710010319917,0.973661313453049,"Fold5","Glioblastoma","Primary Tumor","Family (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"176",0.988361567308936,0.932775108729031,"Fold6","Glioblastoma","Primary Tumor","Family (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"177",0.996120522436312,0.937851451158811,"Fold7","Glioblastoma","Primary Tumor","Family (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"178",0.994711042311662,0.937909232344965,"Fold8","Glioblastoma","Primary Tumor","Family (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"179",0.998318893055735,0.972486133945297,"Fold9","Glioblastoma","Primary Tumor","Family (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"180",0.998839009287926,0.978064093471148,"Fold10","Glioblastoma","Primary Tumor","Family (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"181",0.803555917480999,0.566821112884279,"Fold1","Lung Cancer","Primary Tumor","Family (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"182",0.750748910675381,0.490502190875594,"Fold2","Lung Cancer","Primary Tumor","Family (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"183",0.751262214983713,0.525091692925624,"Fold3","Lung Cancer","Primary Tumor","Family (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"184",0.783611516231837,0.559720171127613,"Fold4","Lung Cancer","Primary Tumor","Family (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"185",0.805133442265795,0.578638558076725,"Fold5","Lung Cancer","Primary Tumor","Family (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"186",0.774128540305011,0.587570397994585,"Fold6","Lung Cancer","Primary Tumor","Family (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"187",0.758401416122004,0.513581959383155,"Fold7","Lung Cancer","Primary Tumor","Family (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"188",0.78724128540305,0.581168640696229,"Fold8","Lung Cancer","Primary Tumor","Family (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"189",0.728739871322045,0.467883986593571,"Fold9","Lung Cancer","Primary Tumor","Family (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"190",0.764359391965255,0.529258276994474,"Fold10","Lung Cancer","Primary Tumor","Family (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"191",0.684775465498357,0.0406319646572403,"Fold1","Melanoma","Primary Tumor","Family (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"192",0.640087623220153,0.0329928787926504,"Fold2","Melanoma","Primary Tumor","Family (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"193",0.638876748251748,0.0354795038451306,"Fold3","Melanoma","Primary Tumor","Family (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"194",0.68565169769989,0.0923030883618637,"Fold4","Melanoma","Primary Tumor","Family (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"195",0.744797371303395,0.0460113204448557,"Fold5","Melanoma","Primary Tumor","Family (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"196",0.708369755244755,0.0417092376017869,"Fold6","Melanoma","Primary Tumor","Family (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"197",0.687951807228916,0.0370848535228046,"Fold7","Melanoma","Primary Tumor","Family (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"198",0.513111888111888,0.0272807530264849,"Fold8","Melanoma","Primary Tumor","Family (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"199",0.62109375,0.0341430293230384,"Fold9","Melanoma","Primary Tumor","Family (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"200",0.613199300699301,0.0296865564287677,"Fold10","Melanoma","Primary Tumor","Family (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"201",0.99803343166175,0.99309474698136,"Fold1","Ovarian Cancer","Primary Tumor","Family (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"202",0.998290426387772,0.994205879481039,"Fold2","Ovarian Cancer","Primary Tumor","Family (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"203",0.999898280948022,0.999614713772478,"Fold3","Ovarian Cancer","Primary Tumor","Family (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"204",0.999161973719496,0.997115262608273,"Fold4","Ovarian Cancer","Primary Tumor","Family (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"205",0.998759721104854,0.99606929038998,"Fold5","Ovarian Cancer","Primary Tumor","Family (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"206",0.998169057064388,0.993873552671258,"Fold6","Ovarian Cancer","Primary Tumor","Family (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"207",0.998323947438992,0.994419404659907,"Fold7","Ovarian Cancer","Primary Tumor","Family (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"208",0.999061410565835,0.996824564677667,"Fold8","Ovarian Cancer","Primary Tumor","Family (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"209",0.999396621078037,0.997720922080332,"Fold9","Ovarian Cancer","Primary Tumor","Family (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"210",0.999728749194724,0.999026932475353,"Fold10","Ovarian Cancer","Primary Tumor","Family (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"211",0.81592987804878,0.168026528796519,"Fold1","Pancreatic Cancer","Primary Tumor","Family (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"212",0.77202743902439,0.267045241895241,"Fold2","Pancreatic Cancer","Primary Tumor","Family (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"213",0.775990853658537,0.150374619032495,"Fold3","Pancreatic Cancer","Primary Tumor","Family (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"214",0.803778445684843,0.159525205637991,"Fold4","Pancreatic Cancer","Primary Tumor","Family (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"215",0.791750358680057,0.116730406007556,"Fold5","Pancreatic Cancer","Primary Tumor","Family (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"216",0.816929698708752,0.130698757594206,"Fold6","Pancreatic Cancer","Primary Tumor","Family (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"217",0.732137733142037,0.0968623607684663,"Fold7","Pancreatic Cancer","Primary Tumor","Family (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"218",0.876753048780488,0.265434337188858,"Fold8","Pancreatic Cancer","Primary Tumor","Family (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"219",0.759884428223844,0.0910789892179869,"Fold9","Pancreatic Cancer","Primary Tumor","Family (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"220",0.813490853658537,0.203308496393218,"Fold10","Pancreatic Cancer","Primary Tumor","Family (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"221",0.997635933806147,0.817678443206045,"Fold1","Bone Cancer","Primary Tumor","Family (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"222",1,1,"Fold2","Bone Cancer","Primary Tumor","Family (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"223",0.998817966903073,0.872293594058502,"Fold3","Bone Cancer","Primary Tumor","Family (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"224",0.998231132075472,0.836918703490077,"Fold4","Bone Cancer","Primary Tumor","Family (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"225",1,1,"Fold5","Bone Cancer","Primary Tumor","Family (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"226",0.999213836477987,0.904105975849406,"Fold6","Bone Cancer","Primary Tumor","Family (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"227",1,1,"Fold7","Bone Cancer","Primary Tumor","Family (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"228",1,1,"Fold8","Bone Cancer","Primary Tumor","Family (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"229",1,1,"Fold9","Bone Cancer","Primary Tumor","Family (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"230",0.997635933806147,0.735552426463036,"Fold10","Bone Cancer","Primary Tumor","Family (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"231",0.998839009287926,0.974028365054701,"Fold1","Glioblastoma","Primary Tumor","Family (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"232",1,1,"Fold2","Glioblastoma","Primary Tumor","Family (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"233",0.99780701754386,0.972743799408299,"Fold3","Glioblastoma","Primary Tumor","Family (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"234",0.948013415892673,0.949678443025627,"Fold4","Glioblastoma","Primary Tumor","Family (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"235",0.998710010319917,0.973661313453049,"Fold5","Glioblastoma","Primary Tumor","Family (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"236",0.988361567308936,0.932775108729031,"Fold6","Glioblastoma","Primary Tumor","Family (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"237",0.996120522436312,0.937851451158811,"Fold7","Glioblastoma","Primary Tumor","Family (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"238",0.994711042311662,0.937909232344965,"Fold8","Glioblastoma","Primary Tumor","Family (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"239",0.998318893055735,0.972486133945297,"Fold9","Glioblastoma","Primary Tumor","Family (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"240",0.998839009287926,0.978064093471148,"Fold10","Glioblastoma","Primary Tumor","Family (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"241",0.684775465498357,0.0406319646572403,"Fold1","Melanoma","Primary Tumor","Family (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"242",0.640087623220153,0.0329928787926504,"Fold2","Melanoma","Primary Tumor","Family (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"243",0.638876748251748,0.0354795038451306,"Fold3","Melanoma","Primary Tumor","Family (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"244",0.68565169769989,0.0923030883618637,"Fold4","Melanoma","Primary Tumor","Family (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"245",0.744797371303395,0.0460113204448557,"Fold5","Melanoma","Primary Tumor","Family (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"246",0.708369755244755,0.0417092376017869,"Fold6","Melanoma","Primary Tumor","Family (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"247",0.687951807228916,0.0370848535228046,"Fold7","Melanoma","Primary Tumor","Family (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"248",0.513111888111888,0.0272807530264849,"Fold8","Melanoma","Primary Tumor","Family (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"249",0.62109375,0.0341430293230384,"Fold9","Melanoma","Primary Tumor","Family (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"250",0.613199300699301,0.0296865564287677,"Fold10","Melanoma","Primary Tumor","Family (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"251",0.99803343166175,0.99309474698136,"Fold1","Ovarian Cancer","Primary Tumor","Family (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"252",0.998290426387772,0.994205879481039,"Fold2","Ovarian Cancer","Primary Tumor","Family (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"253",0.999898280948022,0.999614713772478,"Fold3","Ovarian Cancer","Primary Tumor","Family (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"254",0.999161973719496,0.997115262608273,"Fold4","Ovarian Cancer","Primary Tumor","Family (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"255",0.998759721104854,0.99606929038998,"Fold5","Ovarian Cancer","Primary Tumor","Family (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"256",0.998169057064388,0.993873552671258,"Fold6","Ovarian Cancer","Primary Tumor","Family (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"257",0.998323947438992,0.994419404659907,"Fold7","Ovarian Cancer","Primary Tumor","Family (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"258",0.999061410565835,0.996824564677667,"Fold8","Ovarian Cancer","Primary Tumor","Family (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"259",0.999396621078037,0.997720922080332,"Fold9","Ovarian Cancer","Primary Tumor","Family (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"260",0.999728749194724,0.999026932475353,"Fold10","Ovarian Cancer","Primary Tumor","Family (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"261",0.81592987804878,0.168026528796519,"Fold1","Pancreatic Cancer","Primary Tumor","Family (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"262",0.77202743902439,0.267045241895241,"Fold2","Pancreatic Cancer","Primary Tumor","Family (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"263",0.775990853658537,0.150374619032495,"Fold3","Pancreatic Cancer","Primary Tumor","Family (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"264",0.803778445684843,0.159525205637991,"Fold4","Pancreatic Cancer","Primary Tumor","Family (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"265",0.791750358680057,0.116730406007556,"Fold5","Pancreatic Cancer","Primary Tumor","Family (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"266",0.816929698708752,0.130698757594206,"Fold6","Pancreatic Cancer","Primary Tumor","Family (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"267",0.732137733142037,0.0968623607684663,"Fold7","Pancreatic Cancer","Primary Tumor","Family (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"268",0.876753048780488,0.265434337188858,"Fold8","Pancreatic Cancer","Primary Tumor","Family (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"269",0.759884428223844,0.0910789892179869,"Fold9","Pancreatic Cancer","Primary Tumor","Family (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"270",0.813490853658537,0.203308496393218,"Fold10","Pancreatic Cancer","Primary Tumor","Family (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"271",0.81592987804878,0.168026528796519,"Fold1","Pancreatic Cancer","Primary Tumor","Family (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"272",0.77202743902439,0.267045241895241,"Fold2","Pancreatic Cancer","Primary Tumor","Family (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"273",0.775990853658537,0.150374619032495,"Fold3","Pancreatic Cancer","Primary Tumor","Family (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"274",0.803778445684843,0.159525205637991,"Fold4","Pancreatic Cancer","Primary Tumor","Family (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"275",0.791750358680057,0.116730406007556,"Fold5","Pancreatic Cancer","Primary Tumor","Family (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"276",0.816929698708752,0.130698757594206,"Fold6","Pancreatic Cancer","Primary Tumor","Family (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"277",0.732137733142037,0.0968623607684663,"Fold7","Pancreatic Cancer","Primary Tumor","Family (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"278",0.876753048780488,0.265434337188858,"Fold8","Pancreatic Cancer","Primary Tumor","Family (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"279",0.759884428223844,0.0910789892179869,"Fold9","Pancreatic Cancer","Primary Tumor","Family (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"280",0.813490853658537,0.203308496393218,"Fold10","Pancreatic Cancer","Primary Tumor","Family (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"281",0.998423955870764,0.851237632457194,"Fold1","Bone Cancer","Primary Tumor","Genus (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"282",1,1,"Fold2","Bone Cancer","Primary Tumor","Genus (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"283",1,1,"Fold3","Bone Cancer","Primary Tumor","Genus (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"284",1,1,"Fold4","Bone Cancer","Primary Tumor","Genus (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"285",1,1,"Fold5","Bone Cancer","Primary Tumor","Genus (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"286",0.99685534591195,0.68252340716999,"Fold6","Bone Cancer","Primary Tumor","Genus (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"287",1,1,"Fold7","Bone Cancer","Primary Tumor","Genus (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"288",1,1,"Fold8","Bone Cancer","Primary Tumor","Genus (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"289",1,1,"Fold9","Bone Cancer","Primary Tumor","Genus (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"290",0.99822695035461,0.770927317031461,"Fold10","Bone Cancer","Primary Tumor","Genus (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"291",0.806327574995052,0.564016344867706,"Fold1","Breast Cancer","Primary Tumor","Genus (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"292",0.835967714814192,0.644722387671119,"Fold2","Breast Cancer","Primary Tumor","Genus (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"293",0.808943432298695,0.586790364717164,"Fold3","Breast Cancer","Primary Tumor","Genus (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"294",0.816532145059133,0.552602998371089,"Fold4","Breast Cancer","Primary Tumor","Genus (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"295",0.799702931450031,0.542047316705696,"Fold5","Breast Cancer","Primary Tumor","Genus (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"296",0.817139001349528,0.587492441500598,"Fold6","Breast Cancer","Primary Tumor","Genus (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"297",0.832142256599966,0.594563812920831,"Fold7","Breast Cancer","Primary Tumor","Genus (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"298",0.81335751237067,0.548452131285696,"Fold8","Breast Cancer","Primary Tumor","Genus (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"299",0.815565271004989,0.580532940205619,"Fold9","Breast Cancer","Primary Tumor","Genus (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"300",0.861344655568634,0.651452619514036,"Fold10","Breast Cancer","Primary Tumor","Genus (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"301",0.863098729227761,0.533123033285334,"Fold1","Colorectal Cancer","Primary Tumor","Genus (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"302",0.880865102639296,0.591787805047112,"Fold2","Colorectal Cancer","Primary Tumor","Genus (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"303",0.882844574780059,0.592671896581499,"Fold3","Colorectal Cancer","Primary Tumor","Genus (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"304",0.858490566037736,0.527584003091172,"Fold4","Colorectal Cancer","Primary Tumor","Genus (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"305",0.826759530791789,0.535816553598752,"Fold5","Colorectal Cancer","Primary Tumor","Genus (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"306",0.838666993383975,0.483873769781445,"Fold6","Colorectal Cancer","Primary Tumor","Genus (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"307",0.85896871945259,0.56442565038175,"Fold7","Colorectal Cancer","Primary Tumor","Genus (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"308",0.898162215143347,0.567820108162728,"Fold8","Colorectal Cancer","Primary Tumor","Genus (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"309",0.841568914956012,0.507829821950546,"Fold9","Colorectal Cancer","Primary Tumor","Genus (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"310",0.858490566037736,0.578187905725262,"Fold10","Colorectal Cancer","Primary Tumor","Genus (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"311",0.999355005159959,0.986800753578163,"Fold1","Glioblastoma","Primary Tumor","Genus (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"312",0.999612052243631,0.992654734373438,"Fold2","Glioblastoma","Primary Tumor","Genus (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"313",0.99780701754386,0.971032577051562,"Fold3","Glioblastoma","Primary Tumor","Genus (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"314",0.948658410732714,0.94970617410841,"Fold4","Glioblastoma","Primary Tumor","Genus (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"315",0.999097007223942,0.981564153777877,"Fold5","Glioblastoma","Primary Tumor","Genus (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"316",0.995215311004785,0.948031559009957,"Fold6","Glioblastoma","Primary Tumor","Genus (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"317",0.997155049786629,0.949069687667873,"Fold7","Glioblastoma","Primary Tumor","Genus (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"318",0.997291021671827,0.952320671423843,"Fold8","Glioblastoma","Primary Tumor","Genus (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"319",0.998706840812104,0.978255354790895,"Fold9","Glioblastoma","Primary Tumor","Genus (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"320",0.996646026831785,0.960696506140188,"Fold10","Glioblastoma","Primary Tumor","Genus (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"321",0.812296416938111,0.599772414821783,"Fold1","Lung Cancer","Primary Tumor","Genus (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"322",0.77593954248366,0.554562573014861,"Fold2","Lung Cancer","Primary Tumor","Genus (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"323",0.752415852334419,0.502882880011239,"Fold3","Lung Cancer","Primary Tumor","Genus (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"324",0.776184302922271,0.542567703828155,"Fold4","Lung Cancer","Primary Tumor","Genus (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"325",0.803948801742919,0.577415698448324,"Fold5","Lung Cancer","Primary Tumor","Genus (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"326",0.774414488017429,0.561315061127947,"Fold6","Lung Cancer","Primary Tumor","Genus (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"327",0.745683551198257,0.494019806168173,"Fold7","Lung Cancer","Primary Tumor","Genus (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"328",0.771990740740741,0.550601168103322,"Fold8","Lung Cancer","Primary Tumor","Genus (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"329",0.717298839744798,0.439304721743077,"Fold9","Lung Cancer","Primary Tumor","Genus (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"330",0.766598805646037,0.528442534473106,"Fold10","Lung Cancer","Primary Tumor","Genus (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"331",0.712595837897043,0.0500801139030762,"Fold1","Melanoma","Primary Tumor","Genus (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"332",0.616429353778751,0.0349868784577361,"Fold2","Melanoma","Primary Tumor","Genus (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"333",0.675371503496504,0.0385743543113879,"Fold3","Melanoma","Primary Tumor","Genus (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"334",0.770427163198248,0.069038139815921,"Fold4","Melanoma","Primary Tumor","Genus (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"335",0.760021905805038,0.051909602172588,"Fold5","Melanoma","Primary Tumor","Genus (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"336",0.768247377622378,0.0681785183820501,"Fold6","Melanoma","Primary Tumor","Genus (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"337",0.617415115005476,0.0308984992252073,"Fold7","Melanoma","Primary Tumor","Genus (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"338",0.574737762237762,0.0368501422891237,"Fold8","Melanoma","Primary Tumor","Genus (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"339",0.610076121794872,0.0370123122003543,"Fold9","Melanoma","Primary Tumor","Genus (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"340",0.628933566433566,0.0319125329499364,"Fold10","Melanoma","Primary Tumor","Genus (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"341",0.99871155867494,0.995276499662217,"Fold1","Ovarian Cancer","Primary Tumor","Genus (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"342",0.997452400107267,0.991823413782617,"Fold2","Ovarian Cancer","Primary Tumor","Genus (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"343",0.999728749194724,0.999026932475353,"Fold3","Ovarian Cancer","Primary Tumor","Genus (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"344",0.999094931617055,0.996912617442719,"Fold4","Ovarian Cancer","Primary Tumor","Genus (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"345",0.999765352641459,0.999115043010935,"Fold5","Ovarian Cancer","Primary Tumor","Genus (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"346",0.997965618960431,0.993567800281342,"Fold6","Ovarian Cancer","Primary Tumor","Genus (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"347",0.999329578975597,0.997536759043275,"Fold7","Ovarian Cancer","Primary Tumor","Genus (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"348",0.999765352641459,0.999081331728661,"Fold8","Ovarian Cancer","Primary Tumor","Genus (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"349",0.999765352641459,0.999090488278234,"Fold9","Ovarian Cancer","Primary Tumor","Genus (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"350",0.999593123792086,0.998599672901515,"Fold10","Ovarian Cancer","Primary Tumor","Genus (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"351",0.802134146341463,0.173155813103346,"Fold1","Pancreatic Cancer","Primary Tumor","Genus (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"352",0.792606707317073,0.294547425413108,"Fold2","Pancreatic Cancer","Primary Tumor","Genus (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"353",0.804954268292683,0.233348872919903,"Fold3","Pancreatic Cancer","Primary Tumor","Genus (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"354",0.83476456275941,0.15235212350851,"Fold4","Pancreatic Cancer","Primary Tumor","Genus (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"355",0.779124820659971,0.116611482180077,"Fold5","Pancreatic Cancer","Primary Tumor","Genus (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"356",0.799569583931133,0.141968361212899,"Fold6","Pancreatic Cancer","Primary Tumor","Genus (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"357",0.741319942611191,0.0946545728660559,"Fold7","Pancreatic Cancer","Primary Tumor","Genus (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"358",0.889557926829268,0.297434808806447,"Fold8","Pancreatic Cancer","Primary Tumor","Genus (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"359",0.726733576642336,0.0726630981436446,"Fold9","Pancreatic Cancer","Primary Tumor","Genus (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"360",0.811814024390244,0.217261450713999,"Fold10","Pancreatic Cancer","Primary Tumor","Genus (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"361",0.998423955870764,0.851237632457194,"Fold1","Bone Cancer","Primary Tumor","Genus (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"362",1,1,"Fold2","Bone Cancer","Primary Tumor","Genus (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"363",1,1,"Fold3","Bone Cancer","Primary Tumor","Genus (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"364",1,1,"Fold4","Bone Cancer","Primary Tumor","Genus (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"365",1,1,"Fold5","Bone Cancer","Primary Tumor","Genus (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"366",0.99685534591195,0.68252340716999,"Fold6","Bone Cancer","Primary Tumor","Genus (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"367",1,1,"Fold7","Bone Cancer","Primary Tumor","Genus (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"368",1,1,"Fold8","Bone Cancer","Primary Tumor","Genus (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"369",1,1,"Fold9","Bone Cancer","Primary Tumor","Genus (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"370",0.99822695035461,0.770927317031461,"Fold10","Bone Cancer","Primary Tumor","Genus (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"371",0.999355005159959,0.986800753578163,"Fold1","Glioblastoma","Primary Tumor","Genus (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"372",0.999612052243631,0.992654734373438,"Fold2","Glioblastoma","Primary Tumor","Genus (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"373",0.99780701754386,0.971032577051562,"Fold3","Glioblastoma","Primary Tumor","Genus (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"374",0.948658410732714,0.94970617410841,"Fold4","Glioblastoma","Primary Tumor","Genus (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"375",0.999097007223942,0.981564153777877,"Fold5","Glioblastoma","Primary Tumor","Genus (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"376",0.995215311004785,0.948031559009957,"Fold6","Glioblastoma","Primary Tumor","Genus (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"377",0.997155049786629,0.949069687667873,"Fold7","Glioblastoma","Primary Tumor","Genus (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"378",0.997291021671827,0.952320671423843,"Fold8","Glioblastoma","Primary Tumor","Genus (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"379",0.998706840812104,0.978255354790895,"Fold9","Glioblastoma","Primary Tumor","Genus (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"380",0.996646026831785,0.960696506140188,"Fold10","Glioblastoma","Primary Tumor","Genus (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"381",0.712595837897043,0.0500801139030762,"Fold1","Melanoma","Primary Tumor","Genus (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"382",0.616429353778751,0.0349868784577361,"Fold2","Melanoma","Primary Tumor","Genus (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"383",0.675371503496504,0.0385743543113879,"Fold3","Melanoma","Primary Tumor","Genus (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"384",0.770427163198248,0.069038139815921,"Fold4","Melanoma","Primary Tumor","Genus (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"385",0.760021905805038,0.051909602172588,"Fold5","Melanoma","Primary Tumor","Genus (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"386",0.768247377622378,0.0681785183820501,"Fold6","Melanoma","Primary Tumor","Genus (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"387",0.617415115005476,0.0308984992252073,"Fold7","Melanoma","Primary Tumor","Genus (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"388",0.574737762237762,0.0368501422891237,"Fold8","Melanoma","Primary Tumor","Genus (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"389",0.610076121794872,0.0370123122003543,"Fold9","Melanoma","Primary Tumor","Genus (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"390",0.628933566433566,0.0319125329499364,"Fold10","Melanoma","Primary Tumor","Genus (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"391",0.99871155867494,0.995276499662217,"Fold1","Ovarian Cancer","Primary Tumor","Genus (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"392",0.997452400107267,0.991823413782617,"Fold2","Ovarian Cancer","Primary Tumor","Genus (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"393",0.999728749194724,0.999026932475353,"Fold3","Ovarian Cancer","Primary Tumor","Genus (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"394",0.999094931617055,0.996912617442719,"Fold4","Ovarian Cancer","Primary Tumor","Genus (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"395",0.999765352641459,0.999115043010935,"Fold5","Ovarian Cancer","Primary Tumor","Genus (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"396",0.997965618960431,0.993567800281342,"Fold6","Ovarian Cancer","Primary Tumor","Genus (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"397",0.999329578975597,0.997536759043275,"Fold7","Ovarian Cancer","Primary Tumor","Genus (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"398",0.999765352641459,0.999081331728661,"Fold8","Ovarian Cancer","Primary Tumor","Genus (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"399",0.999765352641459,0.999090488278234,"Fold9","Ovarian Cancer","Primary Tumor","Genus (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"400",0.999593123792086,0.998599672901515,"Fold10","Ovarian Cancer","Primary Tumor","Genus (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"401",0.802134146341463,0.173155813103346,"Fold1","Pancreatic Cancer","Primary Tumor","Genus (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"402",0.792606707317073,0.294547425413108,"Fold2","Pancreatic Cancer","Primary Tumor","Genus (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"403",0.804954268292683,0.233348872919903,"Fold3","Pancreatic Cancer","Primary Tumor","Genus (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"404",0.83476456275941,0.15235212350851,"Fold4","Pancreatic Cancer","Primary Tumor","Genus (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"405",0.779124820659971,0.116611482180077,"Fold5","Pancreatic Cancer","Primary Tumor","Genus (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"406",0.799569583931133,0.141968361212899,"Fold6","Pancreatic Cancer","Primary Tumor","Genus (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"407",0.741319942611191,0.0946545728660559,"Fold7","Pancreatic Cancer","Primary Tumor","Genus (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"408",0.889557926829268,0.297434808806447,"Fold8","Pancreatic Cancer","Primary Tumor","Genus (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"409",0.726733576642336,0.0726630981436446,"Fold9","Pancreatic Cancer","Primary Tumor","Genus (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"410",0.811814024390244,0.217261450713999,"Fold10","Pancreatic Cancer","Primary Tumor","Genus (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"411",0.802134146341463,0.173155813103346,"Fold1","Pancreatic Cancer","Primary Tumor","Genus (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"412",0.792606707317073,0.294547425413108,"Fold2","Pancreatic Cancer","Primary Tumor","Genus (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"413",0.804954268292683,0.233348872919903,"Fold3","Pancreatic Cancer","Primary Tumor","Genus (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"414",0.83476456275941,0.15235212350851,"Fold4","Pancreatic Cancer","Primary Tumor","Genus (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"415",0.779124820659971,0.116611482180077,"Fold5","Pancreatic Cancer","Primary Tumor","Genus (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"416",0.799569583931133,0.141968361212899,"Fold6","Pancreatic Cancer","Primary Tumor","Genus (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"417",0.741319942611191,0.0946545728660559,"Fold7","Pancreatic Cancer","Primary Tumor","Genus (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"418",0.889557926829268,0.297434808806447,"Fold8","Pancreatic Cancer","Primary Tumor","Genus (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"419",0.726733576642336,0.0726630981436446,"Fold9","Pancreatic Cancer","Primary Tumor","Genus (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"420",0.811814024390244,0.217261450713999,"Fold10","Pancreatic Cancer","Primary Tumor","Genus (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"421",0.999211977935382,0.904105975849406,"Fold1","Bone Cancer","Primary Tumor","Species (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"422",1,1,"Fold2","Bone Cancer","Primary Tumor","Species (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"423",1,1,"Fold3","Bone Cancer","Primary Tumor","Species (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"424",1,1,"Fold4","Bone Cancer","Primary Tumor","Species (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"425",0.999211977935382,0.904105975849406,"Fold5","Bone Cancer","Primary Tumor","Species (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"426",0.998427672955975,0.768950939813352,"Fold6","Bone Cancer","Primary Tumor","Species (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"427",1,1,"Fold7","Bone Cancer","Primary Tumor","Species (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"428",1,1,"Fold8","Bone Cancer","Primary Tumor","Species (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"429",1,1,"Fold9","Bone Cancer","Primary Tumor","Species (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"430",0.999408983451537,0.944214112171448,"Fold10","Bone Cancer","Primary Tumor","Species (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"431",0.817834827108485,0.587876522622106,"Fold1","Breast Cancer","Primary Tumor","Species (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"432",0.828148646376324,0.615791455732642,"Fold2","Breast Cancer","Primary Tumor","Species (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"433",0.808760683760684,0.566574360602164,"Fold3","Breast Cancer","Primary Tumor","Species (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"434",0.837411019561684,0.59687972895376,"Fold4","Breast Cancer","Primary Tumor","Species (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"435",0.814752536292809,0.574789984702446,"Fold5","Breast Cancer","Primary Tumor","Species (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"436",0.824870670265407,0.605920454399537,"Fold6","Breast Cancer","Primary Tumor","Species (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"437",0.851647889692282,0.63791577643188,"Fold7","Breast Cancer","Primary Tumor","Species (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"438",0.813174763832659,0.568685795444088,"Fold8","Breast Cancer","Primary Tumor","Species (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"439",0.824939745529959,0.589690292666124,"Fold9","Breast Cancer","Primary Tumor","Species (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"440",0.868308951291968,0.662589500348508,"Fold10","Breast Cancer","Primary Tumor","Species (Decontam)",1139,3127,"Breast Cancer","OtherCancerType","BRCA"
-"441",0.863172043010753,0.564240995715569,"Fold1","Colorectal Cancer","Primary Tumor","Species (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"442",0.87905669599218,0.580935463776739,"Fold2","Colorectal Cancer","Primary Tumor","Species (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"443",0.871994134897361,0.568651953034088,"Fold3","Colorectal Cancer","Primary Tumor","Species (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"444",0.860818426856163,0.526248100102986,"Fold4","Colorectal Cancer","Primary Tumor","Species (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"445",0.835874877810362,0.561975579845643,"Fold5","Colorectal Cancer","Primary Tumor","Species (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"446",0.846826758147513,0.52231204154219,"Fold6","Colorectal Cancer","Primary Tumor","Species (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"447",0.871041055718475,0.576222760062598,"Fold7","Colorectal Cancer","Primary Tumor","Species (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"448",0.869713305562362,0.539842244744038,"Fold8","Colorectal Cancer","Primary Tumor","Species (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"449",0.839784946236559,0.532747027671335,"Fold9","Colorectal Cancer","Primary Tumor","Species (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"450",0.868929184023524,0.624087919326157,"Fold10","Colorectal Cancer","Primary Tumor","Species (Decontam)",550,3716,"Colorectal Cancer","OtherCancerType","CRC"
-"451",0.999097007223942,0.982946120673463,"Fold1","Glioblastoma","Primary Tumor","Species (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"452",1,1,"Fold2","Glioblastoma","Primary Tumor","Species (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"453",0.99922600619195,0.983773612649762,"Fold3","Glioblastoma","Primary Tumor","Species (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"454",0.997936016511868,0.971472165450275,"Fold4","Glioblastoma","Primary Tumor","Species (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"455",0.998968008255934,0.977186078810078,"Fold5","Glioblastoma","Primary Tumor","Species (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"456",0.99030130609078,0.946648738584296,"Fold6","Glioblastoma","Primary Tumor","Species (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"457",0.997284365705418,0.949201999526326,"Fold7","Glioblastoma","Primary Tumor","Species (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"458",0.998065015479876,0.96813588772834,"Fold8","Glioblastoma","Primary Tumor","Species (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"459",0.998318893055735,0.976444994992307,"Fold9","Glioblastoma","Primary Tumor","Species (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"460",0.998194014447884,0.975431563191588,"Fold10","Glioblastoma","Primary Tumor","Species (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"461",0.781894679695983,0.563063239650799,"Fold1","Lung Cancer","Primary Tumor","Species (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"462",0.760035403050109,0.511358875629028,"Fold2","Lung Cancer","Primary Tumor","Species (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"463",0.758984799131379,0.51615605317043,"Fold3","Lung Cancer","Primary Tumor","Species (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"464",0.779074164100902,0.550534517009093,"Fold4","Lung Cancer","Primary Tumor","Species (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"465",0.763453159041394,0.506144467330949,"Fold5","Lung Cancer","Primary Tumor","Species (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"466",0.77302559912854,0.533855083397877,"Fold6","Lung Cancer","Primary Tumor","Species (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"467",0.741707516339869,0.464615484359215,"Fold7","Lung Cancer","Primary Tumor","Species (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"468",0.768709150326797,0.545396590399931,"Fold8","Lung Cancer","Primary Tumor","Species (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"469",0.750100950278623,0.46238366526688,"Fold9","Lung Cancer","Primary Tumor","Species (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"470",0.796416938110749,0.577150130231248,"Fold10","Lung Cancer","Primary Tumor","Species (Decontam)",1202,3064,"Lung Cancer","OtherCancerType","LC"
-"471",0.675465498357065,0.040357159749777,"Fold1","Melanoma","Primary Tumor","Species (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"472",0.755640744797371,0.0753822741028866,"Fold2","Melanoma","Primary Tumor","Species (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"473",0.682473776223776,0.066022252807624,"Fold3","Melanoma","Primary Tumor","Species (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"474",0.662869660460022,0.0824423186259548,"Fold4","Melanoma","Primary Tumor","Species (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"475",0.667250821467689,0.0480290794305852,"Fold5","Melanoma","Primary Tumor","Species (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"476",0.753496503496504,0.04930562159516,"Fold6","Melanoma","Primary Tumor","Species (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"477",0.710405257393209,0.0628372993746936,"Fold7","Melanoma","Primary Tumor","Species (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"478",0.614291958041958,0.0599557483444721,"Fold8","Melanoma","Primary Tumor","Species (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"479",0.576722756410256,0.0311580687359234,"Fold9","Melanoma","Primary Tumor","Species (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"480",0.635052447552447,0.0317076189399254,"Fold10","Melanoma","Primary Tumor","Species (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"481",0.998440307869664,0.994290846655267,"Fold1","Ovarian Cancer","Primary Tumor","Species (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"482",0.997519442209708,0.992703165427368,"Fold2","Ovarian Cancer","Primary Tumor","Species (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"483",0.999694842844065,0.998916762082694,"Fold3","Ovarian Cancer","Primary Tumor","Species (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"484",0.999664789487798,0.998834488617365,"Fold4","Ovarian Cancer","Primary Tumor","Species (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"485",0.999664789487798,0.998770060247469,"Fold5","Ovarian Cancer","Primary Tumor","Species (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"486",0.997490930051199,0.992062786767796,"Fold6","Ovarian Cancer","Primary Tumor","Species (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"487",0.999396621078037,0.997709347909753,"Fold7","Ovarian Cancer","Primary Tumor","Species (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"488",0.999597747385358,0.998459087908781,"Fold8","Ovarian Cancer","Primary Tumor","Species (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"489",0.999832394743899,0.999351907281998,"Fold9","Ovarian Cancer","Primary Tumor","Species (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"490",0.999694842844065,0.998858177528121,"Fold10","Ovarian Cancer","Primary Tumor","Species (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"491",0.792149390243902,0.0952556116704695,"Fold1","Pancreatic Cancer","Primary Tumor","Species (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"492",0.843978658536585,0.335428590815308,"Fold2","Pancreatic Cancer","Primary Tumor","Species (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"493",0.813567073170732,0.249105389351572,"Fold3","Pancreatic Cancer","Primary Tumor","Species (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"494",0.83290396450551,0.177751437173065,"Fold4","Pancreatic Cancer","Primary Tumor","Species (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"495",0.745050215208034,0.121582455798639,"Fold5","Pancreatic Cancer","Primary Tumor","Species (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"496",0.841535150645624,0.153503693048224,"Fold6","Pancreatic Cancer","Primary Tumor","Species (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"497",0.735724533715925,0.0990320487869399,"Fold7","Pancreatic Cancer","Primary Tumor","Species (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"498",0.913490853658537,0.239957146051629,"Fold8","Pancreatic Cancer","Primary Tumor","Species (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"499",0.714416058394161,0.0670748859086623,"Fold9","Pancreatic Cancer","Primary Tumor","Species (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"500",0.781478658536585,0.197014301878411,"Fold10","Pancreatic Cancer","Primary Tumor","Species (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"501",0.999211977935382,0.904105975849406,"Fold1","Bone Cancer","Primary Tumor","Species (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"502",1,1,"Fold2","Bone Cancer","Primary Tumor","Species (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"503",1,1,"Fold3","Bone Cancer","Primary Tumor","Species (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"504",1,1,"Fold4","Bone Cancer","Primary Tumor","Species (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"505",0.999211977935382,0.904105975849406,"Fold5","Bone Cancer","Primary Tumor","Species (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"506",0.998427672955975,0.768950939813352,"Fold6","Bone Cancer","Primary Tumor","Species (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"507",1,1,"Fold7","Bone Cancer","Primary Tumor","Species (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"508",1,1,"Fold8","Bone Cancer","Primary Tumor","Species (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"509",1,1,"Fold9","Bone Cancer","Primary Tumor","Species (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"510",0.999408983451537,0.944214112171448,"Fold10","Bone Cancer","Primary Tumor","Species (Decontam)",34,4232,"Bone Cancer","OtherCancerType","SARC"
-"511",0.999097007223942,0.982946120673463,"Fold1","Glioblastoma","Primary Tumor","Species (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"512",1,1,"Fold2","Glioblastoma","Primary Tumor","Species (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"513",0.99922600619195,0.983773612649762,"Fold3","Glioblastoma","Primary Tumor","Species (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"514",0.997936016511868,0.971472165450275,"Fold4","Glioblastoma","Primary Tumor","Species (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"515",0.998968008255934,0.977186078810078,"Fold5","Glioblastoma","Primary Tumor","Species (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"516",0.99030130609078,0.946648738584296,"Fold6","Glioblastoma","Primary Tumor","Species (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"517",0.997284365705418,0.949201999526326,"Fold7","Glioblastoma","Primary Tumor","Species (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"518",0.998065015479876,0.96813588772834,"Fold8","Glioblastoma","Primary Tumor","Species (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"519",0.998318893055735,0.976444994992307,"Fold9","Glioblastoma","Primary Tumor","Species (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"520",0.998194014447884,0.975431563191588,"Fold10","Glioblastoma","Primary Tumor","Species (Decontam)",190,4076,"Glioblastoma","OtherCancerType","GBM"
-"521",0.675465498357065,0.040357159749777,"Fold1","Melanoma","Primary Tumor","Species (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"522",0.755640744797371,0.0753822741028866,"Fold2","Melanoma","Primary Tumor","Species (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"523",0.682473776223776,0.066022252807624,"Fold3","Melanoma","Primary Tumor","Species (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"524",0.662869660460022,0.0824423186259548,"Fold4","Melanoma","Primary Tumor","Species (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"525",0.667250821467689,0.0480290794305852,"Fold5","Melanoma","Primary Tumor","Species (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"526",0.753496503496504,0.04930562159516,"Fold6","Melanoma","Primary Tumor","Species (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"527",0.710405257393209,0.0628372993746936,"Fold7","Melanoma","Primary Tumor","Species (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"528",0.614291958041958,0.0599557483444721,"Fold8","Melanoma","Primary Tumor","Species (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"529",0.576722756410256,0.0311580687359234,"Fold9","Melanoma","Primary Tumor","Species (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"530",0.635052447552447,0.0317076189399254,"Fold10","Melanoma","Primary Tumor","Species (Decontam)",111,4155,"Melanoma","OtherCancerType","SKCM"
-"531",0.998440307869664,0.994290846655267,"Fold1","Ovarian Cancer","Primary Tumor","Species (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"532",0.997519442209708,0.992703165427368,"Fold2","Ovarian Cancer","Primary Tumor","Species (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"533",0.999694842844065,0.998916762082694,"Fold3","Ovarian Cancer","Primary Tumor","Species (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"534",0.999664789487798,0.998834488617365,"Fold4","Ovarian Cancer","Primary Tumor","Species (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"535",0.999664789487798,0.998770060247469,"Fold5","Ovarian Cancer","Primary Tumor","Species (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"536",0.997490930051199,0.992062786767796,"Fold6","Ovarian Cancer","Primary Tumor","Species (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"537",0.999396621078037,0.997709347909753,"Fold7","Ovarian Cancer","Primary Tumor","Species (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"538",0.999597747385358,0.998459087908781,"Fold8","Ovarian Cancer","Primary Tumor","Species (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"539",0.999832394743899,0.999351907281998,"Fold9","Ovarian Cancer","Primary Tumor","Species (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"540",0.999694842844065,0.998858177528121,"Fold10","Ovarian Cancer","Primary Tumor","Species (Decontam)",876,3390,"Ovarian Cancer","OtherCancerType","OV"
-"541",0.792149390243902,0.0952556116704695,"Fold1","Pancreatic Cancer","Primary Tumor","Species (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"542",0.843978658536585,0.335428590815308,"Fold2","Pancreatic Cancer","Primary Tumor","Species (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"543",0.813567073170732,0.249105389351572,"Fold3","Pancreatic Cancer","Primary Tumor","Species (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"544",0.83290396450551,0.177751437173065,"Fold4","Pancreatic Cancer","Primary Tumor","Species (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"545",0.745050215208034,0.121582455798639,"Fold5","Pancreatic Cancer","Primary Tumor","Species (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"546",0.841535150645624,0.153503693048224,"Fold6","Pancreatic Cancer","Primary Tumor","Species (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"547",0.735724533715925,0.0990320487869399,"Fold7","Pancreatic Cancer","Primary Tumor","Species (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"548",0.913490853658537,0.239957146051629,"Fold8","Pancreatic Cancer","Primary Tumor","Species (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"549",0.714416058394161,0.0670748859086623,"Fold9","Pancreatic Cancer","Primary Tumor","Species (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"550",0.781478658536585,0.197014301878411,"Fold10","Pancreatic Cancer","Primary Tumor","Species (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"551",0.792149390243902,0.0952556116704695,"Fold1","Pancreatic Cancer","Primary Tumor","Species (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"552",0.843978658536585,0.335428590815308,"Fold2","Pancreatic Cancer","Primary Tumor","Species (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"553",0.813567073170732,0.249105389351572,"Fold3","Pancreatic Cancer","Primary Tumor","Species (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"554",0.83290396450551,0.177751437173065,"Fold4","Pancreatic Cancer","Primary Tumor","Species (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"555",0.745050215208034,0.121582455798639,"Fold5","Pancreatic Cancer","Primary Tumor","Species (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"556",0.841535150645624,0.153503693048224,"Fold6","Pancreatic Cancer","Primary Tumor","Species (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"557",0.735724533715925,0.0990320487869399,"Fold7","Pancreatic Cancer","Primary Tumor","Species (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"558",0.913490853658537,0.239957146051629,"Fold8","Pancreatic Cancer","Primary Tumor","Species (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"559",0.714416058394161,0.0670748859086623,"Fold9","Pancreatic Cancer","Primary Tumor","Species (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
-"560",0.781478658536585,0.197014301878411,"Fold10","Pancreatic Cancer","Primary Tumor","Species (Decontam)",164,4102,"Pancreatic Cancer","OtherCancerType","PDA"
+"","AUROC","AUPR","rep","diseaseType","sampleType","datasetName","minorityClassSize","majorityClassSize","minorityClassName","majorityClassName","abbrev","nullAUPR","nullAUROC"
+"1",0.983372921615202,0.513585186011158,"Fold1","Bone Cancer","Primary Tumor","Order (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"2",0.993665874901029,0.39822983246453,"Fold2","Bone Cancer","Primary Tumor","Order (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"3",0.99585308056872,0.519895017095505,"Fold3","Bone Cancer","Primary Tumor","Order (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"4",0.998222748815166,0.884386990129556,"Fold4","Bone Cancer","Primary Tumor","Order (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"5",0.999210110584518,0.904105975849406,"Fold5","Bone Cancer","Primary Tumor","Order (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"6",1,1,"Fold6","Bone Cancer","Primary Tumor","Order (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"7",0.966034755134281,0.224633709098917,"Fold7","Bone Cancer","Primary Tumor","Order (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"8",0.999210110584518,0.904105975849406,"Fold8","Bone Cancer","Primary Tumor","Order (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"9",1,1,"Fold9","Bone Cancer","Primary Tumor","Order (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"10",0.992298578199052,0.356709575614278,"Fold10","Bone Cancer","Primary Tumor","Order (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"11",0.804104265940549,0.612754173827734,"Fold1","Breast Cancer","Primary Tumor","Order (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"12",0.836155547991831,0.559374662186066,"Fold2","Breast Cancer","Primary Tumor","Order (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"13",0.815024393011119,0.581779204857962,"Fold3","Breast Cancer","Primary Tumor","Order (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"14",0.831730769230769,0.597820520775387,"Fold4","Breast Cancer","Primary Tumor","Order (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"15",0.819151350124801,0.567889502423656,"Fold5","Breast Cancer","Primary Tumor","Order (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"16",0.823264125255276,0.580656007270062,"Fold6","Breast Cancer","Primary Tumor","Order (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"17",0.827050714771954,0.557397085739124,"Fold7","Breast Cancer","Primary Tumor","Order (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"18",0.800402768323122,0.527500181093777,"Fold8","Breast Cancer","Primary Tumor","Order (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"19",0.841514844804318,0.632481314532141,"Fold9","Breast Cancer","Primary Tumor","Order (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"20",0.824583049693669,0.619661053158654,"Fold10","Breast Cancer","Primary Tumor","Order (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"21",0.848323323323323,0.524164306944336,"Fold1","Colorectal Cancer","Primary Tumor","Order (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"22",0.842506142506143,0.503875005586329,"Fold2","Colorectal Cancer","Primary Tumor","Order (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"23",0.88046683046683,0.636391474294111,"Fold3","Colorectal Cancer","Primary Tumor","Order (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"24",0.873168341092869,0.563514052733867,"Fold4","Colorectal Cancer","Primary Tumor","Order (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"25",0.868820638820639,0.597239981040213,"Fold5","Colorectal Cancer","Primary Tumor","Order (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"26",0.867493857493857,0.533545675542536,"Fold6","Colorectal Cancer","Primary Tumor","Order (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"27",0.846240786240786,0.481076924825533,"Fold7","Colorectal Cancer","Primary Tumor","Order (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"28",0.846214163195295,0.53398645028025,"Fold8","Colorectal Cancer","Primary Tumor","Order (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"29",0.854275184275184,0.528568562366671,"Fold9","Colorectal Cancer","Primary Tumor","Order (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"30",0.786694437637834,0.396496783185485,"Fold10","Colorectal Cancer","Primary Tumor","Order (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"31",1,1,"Fold1","Glioblastoma","Primary Tumor","Order (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"32",1,1,"Fold2","Glioblastoma","Primary Tumor","Order (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"33",0.990818569765938,0.944322650277335,"Fold3","Glioblastoma","Primary Tumor","Order (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"34",0.945035001296344,0.902267371540833,"Fold4","Glioblastoma","Primary Tumor","Order (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"35",0.997536945812808,0.963571036590334,"Fold5","Glioblastoma","Primary Tumor","Order (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"36",0.99572206378014,0.963802563434314,"Fold6","Glioblastoma","Primary Tumor","Order (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"37",0.999222193414571,0.984951024241422,"Fold7","Glioblastoma","Primary Tumor","Order (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"38",0.99358309567021,0.936083438592874,"Fold8","Glioblastoma","Primary Tumor","Order (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"39",0.997407311381903,0.961828990608302,"Fold9","Glioblastoma","Primary Tumor","Order (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"40",0.98904589058854,0.91077250018056,"Fold10","Glioblastoma","Primary Tumor","Order (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"41",0.794570769484264,0.543150904349529,"Fold1","Lung Cancer","Primary Tumor","Order (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"42",0.756912568306011,0.525038177578747,"Fold2","Lung Cancer","Primary Tumor","Order (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"43",0.782814207650273,0.541597066936443,"Fold3","Lung Cancer","Primary Tumor","Order (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"44",0.762595628415301,0.538749913244983,"Fold4","Lung Cancer","Primary Tumor","Order (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"45",0.796789617486339,0.578988035835043,"Fold5","Lung Cancer","Primary Tumor","Order (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"46",0.779330601092896,0.514788552615829,"Fold6","Lung Cancer","Primary Tumor","Order (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"47",0.772235838779956,0.538356166478728,"Fold7","Lung Cancer","Primary Tumor","Order (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"48",0.79818306010929,0.564153721616475,"Fold8","Lung Cancer","Primary Tumor","Order (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"49",0.751838235294118,0.498822924949446,"Fold9","Lung Cancer","Primary Tumor","Order (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"50",0.773469945355191,0.541937677901447,"Fold10","Lung Cancer","Primary Tumor","Order (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"51",0.716622749231445,0.0709639162281686,"Fold1","Melanoma","Primary Tumor","Order (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"52",0.696859903381642,0.0465019859063771,"Fold2","Melanoma","Primary Tumor","Order (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"53",0.690382081686429,0.166039712331076,"Fold3","Melanoma","Primary Tumor","Order (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"54",0.726504172156346,0.0446427121976143,"Fold4","Melanoma","Primary Tumor","Order (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"55",0.676877470355731,0.0415439744639997,"Fold5","Melanoma","Primary Tumor","Order (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"56",0.765371102327624,0.119305358146945,"Fold6","Melanoma","Primary Tumor","Order (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"57",0.687966622749231,0.0537539859332194,"Fold7","Melanoma","Primary Tumor","Order (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"58",0.58499452354874,0.119486870902766,"Fold8","Melanoma","Primary Tumor","Order (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"59",0.661433172302738,0.0380785688803111,"Fold9","Melanoma","Primary Tumor","Order (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"60",0.655797101449275,0.0344925993651591,"Fold10","Melanoma","Primary Tumor","Order (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"61",0.998111680604262,0.993302460591388,"Fold1","Ovarian Cancer","Primary Tumor","Order (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"62",0.998655190962883,0.995541151908281,"Fold2","Ovarian Cancer","Primary Tumor","Order (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"63",0.99919311457773,0.997455634583901,"Fold3","Ovarian Cancer","Primary Tumor","Order (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"64",0.99936121570737,0.997490947802415,"Fold4","Ovarian Cancer","Primary Tumor","Order (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"65",0.998669804563594,0.995597056473347,"Fold5","Ovarian Cancer","Primary Tumor","Order (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"66",0.997653540093858,0.99215077880974,"Fold6","Ovarian Cancer","Primary Tumor","Order (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"67",0.997885330331867,0.992490687510932,"Fold7","Ovarian Cancer","Primary Tumor","Order (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"68",0.998089975783622,0.993238099807319,"Fold8","Ovarian Cancer","Primary Tumor","Order (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"69",0.999731038192577,0.998997562347386,"Fold9","Ovarian Cancer","Primary Tumor","Order (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"70",0.999798278644432,0.999229510189189,"Fold10","Ovarian Cancer","Primary Tumor","Order (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"71",0.826253056234719,0.252298417460902,"Fold1","Pancreatic Cancer","Primary Tumor","Order (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"72",0.830149755501222,0.166984700110566,"Fold2","Pancreatic Cancer","Primary Tumor","Order (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"73",0.873624694376528,0.242150665323035,"Fold3","Pancreatic Cancer","Primary Tumor","Order (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"74",0.755577628361858,0.0782504659108701,"Fold4","Pancreatic Cancer","Primary Tumor","Order (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"75",0.837637530562347,0.168432492617393,"Fold5","Pancreatic Cancer","Primary Tumor","Order (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"76",0.837637530562347,0.15478695085933,"Fold6","Pancreatic Cancer","Primary Tumor","Order (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"77",0.817416942327053,0.19697880889749,"Fold7","Pancreatic Cancer","Primary Tumor","Order (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"78",0.840770171149144,0.133203898637311,"Fold8","Pancreatic Cancer","Primary Tumor","Order (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"79",0.836432926829268,0.332050305481178,"Fold9","Pancreatic Cancer","Primary Tumor","Order (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"80",0.788584963325183,0.0953112148728752,"Fold10","Pancreatic Cancer","Primary Tumor","Order (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"81",0.995249406175772,0.764433928687233,"Fold1","Bone Cancer","Primary Tumor","Family (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"82",0.996041171813143,0.777447678959129,"Fold2","Bone Cancer","Primary Tumor","Family (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"83",0.996445497630332,0.67144893744541,"Fold3","Bone Cancer","Primary Tumor","Family (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"84",0.997630331753554,0.812466472016611,"Fold4","Bone Cancer","Primary Tumor","Family (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"85",1,1,"Fold5","Bone Cancer","Primary Tumor","Family (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"86",1,1,"Fold6","Bone Cancer","Primary Tumor","Family (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"87",0.997630331753555,0.537901879626703,"Fold7","Bone Cancer","Primary Tumor","Family (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"88",1,1,"Fold8","Bone Cancer","Primary Tumor","Family (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"89",1,1,"Fold9","Bone Cancer","Primary Tumor","Family (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"90",0.99585308056872,0.833207185342432,"Fold10","Bone Cancer","Primary Tumor","Family (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"91",0.818754254594963,0.629480208989879,"Fold1","Breast Cancer","Primary Tumor","Family (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"92",0.839686861810756,0.579245192346045,"Fold2","Breast Cancer","Primary Tumor","Family (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"93",0.811861810755616,0.574670464824554,"Fold3","Breast Cancer","Primary Tumor","Family (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"94",0.814200967161493,0.549958758076883,"Fold4","Breast Cancer","Primary Tumor","Family (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"95",0.837261742682097,0.591095069957193,"Fold5","Breast Cancer","Primary Tumor","Family (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"96",0.832326412525528,0.612794825713602,"Fold6","Breast Cancer","Primary Tumor","Family (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"97",0.827334354436124,0.561728602147777,"Fold7","Breast Cancer","Primary Tumor","Family (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"98",0.8000340367597,0.536983766244786,"Fold8","Breast Cancer","Primary Tumor","Family (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"99",0.841107174988754,0.629456660680993,"Fold9","Breast Cancer","Primary Tumor","Family (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"100",0.840098139323803,0.609374384025499,"Fold10","Breast Cancer","Primary Tumor","Family (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"101",0.861986986986987,0.525065919842345,"Fold1","Colorectal Cancer","Primary Tumor","Family (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"102",0.836461916461916,0.50171042370277,"Fold2","Colorectal Cancer","Primary Tumor","Family (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"103",0.883660933660934,0.669599001934261,"Fold3","Colorectal Cancer","Primary Tumor","Family (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"104",0.882381769174222,0.610170492670806,"Fold4","Colorectal Cancer","Primary Tumor","Family (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"105",0.86977886977887,0.603632927577076,"Fold5","Colorectal Cancer","Primary Tumor","Family (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"106",0.883660933660934,0.611722177008889,"Fold6","Colorectal Cancer","Primary Tumor","Family (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"107",0.855085995085995,0.480576965472959,"Fold7","Colorectal Cancer","Primary Tumor","Family (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"108",0.872947806910071,0.5407416106198,"Fold8","Colorectal Cancer","Primary Tumor","Family (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"109",0.856093366093366,0.556907017294329,"Fold9","Colorectal Cancer","Primary Tumor","Family (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"110",0.804484195050233,0.433912256591192,"Fold10","Colorectal Cancer","Primary Tumor","Family (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"111",0.99987068408121,0.997300352926971,"Fold1","Glioblastoma","Primary Tumor","Family (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"112",0.999870365569095,0.997300352926971,"Fold2","Glioblastoma","Primary Tumor","Family (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"113",0.998706840812104,0.978710041440112,"Fold3","Glioblastoma","Primary Tumor","Family (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"114",0.962276380606689,0.945135536029573,"Fold4","Glioblastoma","Primary Tumor","Family (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"115",0.999481462276381,0.989464899099265,"Fold5","Glioblastoma","Primary Tumor","Family (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"116",0.990925589836661,0.944463984170306,"Fold6","Glioblastoma","Primary Tumor","Family (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"117",0.99598133264195,0.932285572055944,"Fold7","Glioblastoma","Primary Tumor","Family (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"118",0.997342494166451,0.954671402528077,"Fold8","Glioblastoma","Primary Tumor","Family (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"119",0.998314752398237,0.976444994992307,"Fold9","Glioblastoma","Primary Tumor","Family (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"120",0.947044334975369,0.90408269155061,"Fold10","Glioblastoma","Primary Tumor","Family (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"121",0.785137584445543,0.545058147781762,"Fold1","Lung Cancer","Primary Tumor","Family (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"122",0.773743169398907,0.530101870444369,"Fold2","Lung Cancer","Primary Tumor","Family (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"123",0.798073770491803,0.584557794051658,"Fold3","Lung Cancer","Primary Tumor","Family (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"124",0.753114754098361,0.518403410688618,"Fold4","Lung Cancer","Primary Tumor","Family (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"125",0.790969945355191,0.568447929441171,"Fold5","Lung Cancer","Primary Tumor","Family (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"126",0.784275956284153,0.521946424217523,"Fold6","Lung Cancer","Primary Tumor","Family (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"127",0.793858932461874,0.582367119959496,"Fold7","Lung Cancer","Primary Tumor","Family (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"128",0.780587431693989,0.554672562224486,"Fold8","Lung Cancer","Primary Tumor","Family (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"129",0.753444989106754,0.482418396152996,"Fold9","Lung Cancer","Primary Tumor","Family (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"130",0.75405737704918,0.483286114543197,"Fold10","Lung Cancer","Primary Tumor","Family (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"131",0.638120333772508,0.048806128951857,"Fold1","Melanoma","Primary Tumor","Family (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"132",0.544685990338164,0.036480907409878,"Fold2","Melanoma","Primary Tumor","Family (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"133",0.534255599472991,0.0253705481303753,"Fold3","Melanoma","Primary Tumor","Family (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"134",0.707509881422925,0.0794271756492711,"Fold4","Melanoma","Primary Tumor","Family (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"135",0.665678524374177,0.0371494401203424,"Fold5","Melanoma","Primary Tumor","Family (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"136",0.688625384277558,0.0411361104924344,"Fold6","Melanoma","Primary Tumor","Family (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"137",0.723320158102767,0.0601320108327439,"Fold7","Melanoma","Primary Tumor","Family (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"138",0.549069003285871,0.130310142757891,"Fold8","Melanoma","Primary Tumor","Family (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"139",0.564613526570048,0.0378128482882961,"Fold9","Melanoma","Primary Tumor","Family (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"140",0.546223100570927,0.0526123461064778,"Fold10","Melanoma","Primary Tumor","Family (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"141",0.998786080388454,0.995909785717118,"Fold1","Ovarian Cancer","Primary Tumor","Family (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"142",0.998722431414739,0.995909841718162,"Fold2","Ovarian Cancer","Primary Tumor","Family (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"143",0.999428456159225,0.998151356053698,"Fold3","Ovarian Cancer","Primary Tumor","Family (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"144",0.999731038192577,0.99900095878551,"Fold4","Ovarian Cancer","Primary Tumor","Family (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"145",0.998908557590641,0.996253388649559,"Fold5","Ovarian Cancer","Primary Tumor","Family (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"146",0.999183840032646,0.996941626017313,"Fold6","Ovarian Cancer","Primary Tumor","Family (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"147",0.998703912138886,0.995349168932178,"Fold7","Ovarian Cancer","Primary Tumor","Family (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"148",0.997271393976602,0.990907833786963,"Fold8","Ovarian Cancer","Primary Tumor","Family (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"149",0.99936121570737,0.997862380950203,"Fold9","Ovarian Cancer","Primary Tumor","Family (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"150",0.999630177514793,0.998641690142399,"Fold10","Ovarian Cancer","Primary Tumor","Family (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"151",0.816702322738386,0.13114468552126,"Fold1","Pancreatic Cancer","Primary Tumor","Family (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"152",0.828163202933985,0.148685203550587,"Fold2","Pancreatic Cancer","Primary Tumor","Family (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"153",0.876986552567237,0.232928213451355,"Fold3","Pancreatic Cancer","Primary Tumor","Family (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"154",0.74656173594132,0.0838402177166264,"Fold4","Pancreatic Cancer","Primary Tumor","Family (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"155",0.808144865525672,0.199163473319957,"Fold5","Pancreatic Cancer","Primary Tumor","Family (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"156",0.831295843520782,0.157834531073089,"Fold6","Pancreatic Cancer","Primary Tumor","Family (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"157",0.830648640874443,0.151116047371824,"Fold7","Pancreatic Cancer","Primary Tumor","Family (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"158",0.858572738386308,0.144930211244699,"Fold8","Pancreatic Cancer","Primary Tumor","Family (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"159",0.823094512195122,0.349346425337322,"Fold9","Pancreatic Cancer","Primary Tumor","Family (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"160",0.805394254278729,0.125111609693118,"Fold10","Pancreatic Cancer","Primary Tumor","Family (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"161",0.999208234362629,0.904105975849406,"Fold1","Bone Cancer","Primary Tumor","Genus (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"162",0.999208234362629,0.904105975849406,"Fold2","Bone Cancer","Primary Tumor","Genus (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"163",0.997630331753555,0.597640521891475,"Fold3","Bone Cancer","Primary Tumor","Genus (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"164",0.998815165876777,0.872293594058502,"Fold4","Bone Cancer","Primary Tumor","Genus (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"165",1,1,"Fold5","Bone Cancer","Primary Tumor","Genus (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"166",1,1,"Fold6","Bone Cancer","Primary Tumor","Genus (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"167",1,1,"Fold7","Bone Cancer","Primary Tumor","Genus (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"168",1,1,"Fold8","Bone Cancer","Primary Tumor","Genus (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"169",0.999407582938389,0.944214112171448,"Fold9","Bone Cancer","Primary Tumor","Genus (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"170",0.998815165876777,0.872293594058502,"Fold10","Bone Cancer","Primary Tumor","Genus (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"171",0.817690605854323,0.628381992777583,"Fold1","Breast Cancer","Primary Tumor","Genus (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"172",0.848380417517586,0.627557174049012,"Fold2","Breast Cancer","Primary Tumor","Genus (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"173",0.824980145223508,0.606776562282709,"Fold3","Breast Cancer","Primary Tumor","Genus (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"174",0.827611898335583,0.576103243375974,"Fold4","Breast Cancer","Primary Tumor","Genus (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"175",0.841913433174495,0.611764822374713,"Fold5","Breast Cancer","Primary Tumor","Genus (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"176",0.830496936691627,0.641390138013693,"Fold6","Breast Cancer","Primary Tumor","Genus (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"177",0.823150669389607,0.563035789285647,"Fold7","Breast Cancer","Primary Tumor","Genus (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"178",0.787412071704107,0.52169177226831,"Fold8","Breast Cancer","Primary Tumor","Genus (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"179",0.838323774179037,0.634057883183452,"Fold9","Breast Cancer","Primary Tumor","Genus (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"180",0.818428068981166,0.603966151523017,"Fold10","Breast Cancer","Primary Tumor","Genus (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"181",0.861411411411411,0.567211477588249,"Fold1","Colorectal Cancer","Primary Tumor","Genus (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"182",0.833562653562654,0.504617153299808,"Fold2","Colorectal Cancer","Primary Tumor","Genus (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"183",0.899434889434889,0.639521652405773,"Fold3","Colorectal Cancer","Primary Tumor","Genus (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"184",0.899313893653516,0.649805349860588,"Fold4","Colorectal Cancer","Primary Tumor","Genus (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"185",0.869287469287469,0.604014786359613,"Fold5","Colorectal Cancer","Primary Tumor","Genus (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"186",0.881154791154791,0.604762313441293,"Fold6","Colorectal Cancer","Primary Tumor","Genus (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"187",0.846461916461916,0.483222532837332,"Fold7","Colorectal Cancer","Primary Tumor","Genus (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"188",0.880494976721392,0.601421537872209,"Fold8","Colorectal Cancer","Primary Tumor","Genus (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"189",0.855724815724816,0.560779280282201,"Fold9","Colorectal Cancer","Primary Tumor","Genus (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"190",0.805709384954668,0.423383637158338,"Fold10","Colorectal Cancer","Primary Tumor","Genus (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"191",1,1,"Fold1","Glioblastoma","Primary Tumor","Genus (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"192",1,1,"Fold2","Glioblastoma","Primary Tumor","Genus (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"193",0.998448208974525,0.97339728788363,"Fold3","Glioblastoma","Primary Tumor","Genus (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"194",0.949701840808919,0.949763682828703,"Fold4","Glioblastoma","Primary Tumor","Genus (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"195",0.99974073113819,0.994864193245323,"Fold5","Glioblastoma","Primary Tumor","Genus (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"196",0.984703137153228,0.944004718485165,"Fold6","Glioblastoma","Primary Tumor","Genus (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"197",0.996370235934664,0.928241516275168,"Fold7","Glioblastoma","Primary Tumor","Genus (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"198",0.995786880995592,0.946145064171666,"Fold8","Glioblastoma","Primary Tumor","Genus (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"199",0.998703655690952,0.977142631858525,"Fold9","Glioblastoma","Primary Tumor","Genus (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"200",0.99546279491833,0.937410742920378,"Fold10","Glioblastoma","Primary Tumor","Genus (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"201",0.768399516669413,0.502096780130787,"Fold1","Lung Cancer","Primary Tumor","Genus (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"202",0.777103825136612,0.526175933433731,"Fold2","Lung Cancer","Primary Tumor","Genus (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"203",0.794918032786885,0.563413404613732,"Fold3","Lung Cancer","Primary Tumor","Genus (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"204",0.729357923497268,0.449308907287749,"Fold4","Lung Cancer","Primary Tumor","Genus (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"205",0.772704918032787,0.523394886172324,"Fold5","Lung Cancer","Primary Tumor","Genus (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"206",0.770300546448087,0.510938827548655,"Fold6","Lung Cancer","Primary Tumor","Genus (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"207",0.798760893246187,0.587445311862935,"Fold7","Lung Cancer","Primary Tumor","Genus (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"208",0.775737704918033,0.556531255438985,"Fold8","Lung Cancer","Primary Tumor","Genus (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"209",0.750626361655773,0.471585413034209,"Fold9","Lung Cancer","Primary Tumor","Genus (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"210",0.761010928961749,0.502748307100555,"Fold10","Lung Cancer","Primary Tumor","Genus (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"211",0.702898550724638,0.079472385975254,"Fold1","Melanoma","Primary Tumor","Genus (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"212",0.666666666666667,0.0450065081661354,"Fold2","Melanoma","Primary Tumor","Genus (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"213",0.627140974967062,0.0332405101722819,"Fold3","Melanoma","Primary Tumor","Genus (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"214",0.775581906016689,0.0965707518503348,"Fold4","Melanoma","Primary Tumor","Genus (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"215",0.672595520421607,0.0629408235163205,"Fold5","Melanoma","Primary Tumor","Genus (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"216",0.703776899429073,0.0435582269345534,"Fold6","Melanoma","Primary Tumor","Genus (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"217",0.720026350461133,0.0656952305479226,"Fold7","Melanoma","Primary Tumor","Genus (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"218",0.620481927710843,0.0858657179979772,"Fold8","Melanoma","Primary Tumor","Genus (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"219",0.645531400966184,0.0440756507636351,"Fold9","Melanoma","Primary Tumor","Genus (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"220",0.568401405357927,0.0274416392831648,"Fold10","Melanoma","Primary Tumor","Genus (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"221",0.998381440517939,0.994450779304724,"Fold1","Ovarian Cancer","Primary Tumor","Genus (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"222",0.999865519096288,0.999484816824762,"Fold2","Ovarian Cancer","Primary Tumor","Genus (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"223",0.99902501344809,0.997015951437155,"Fold3","Ovarian Cancer","Primary Tumor","Genus (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"224",0.999495696611081,0.998144618756987,"Fold4","Ovarian Cancer","Primary Tumor","Genus (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"225",0.999386063644736,0.997734522552755,"Fold5","Ovarian Cancer","Primary Tumor","Genus (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"226",0.998503706726518,0.995122146270377,"Fold6","Ovarian Cancer","Primary Tumor","Genus (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"227",0.998806234864763,0.995707244521971,"Fold7","Ovarian Cancer","Primary Tumor","Genus (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"228",0.997919437907159,0.992674686905665,"Fold8","Ovarian Cancer","Primary Tumor","Genus (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"229",0.999428456159225,0.99808020756036,"Fold9","Ovarian Cancer","Primary Tumor","Genus (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"230",0.999731038192577,0.998973840335477,"Fold10","Ovarian Cancer","Primary Tumor","Genus (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"231",0.80554706601467,0.181792993023468,"Fold1","Pancreatic Cancer","Primary Tumor","Genus (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"232",0.809672982885086,0.164211417140668,"Fold2","Pancreatic Cancer","Primary Tumor","Genus (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"233",0.885696821515892,0.245822026340025,"Fold3","Pancreatic Cancer","Primary Tumor","Genus (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"234",0.736781784841076,0.0836294636005951,"Fold4","Pancreatic Cancer","Primary Tumor","Genus (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"235",0.787973716381418,0.220441001729405,"Fold5","Pancreatic Cancer","Primary Tumor","Genus (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"236",0.835727383863081,0.146580640103582,"Fold6","Pancreatic Cancer","Primary Tumor","Genus (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"237",0.798935711203797,0.187215189776354,"Fold7","Pancreatic Cancer","Primary Tumor","Genus (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"238",0.846577017114914,0.147240632347008,"Fold8","Pancreatic Cancer","Primary Tumor","Genus (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"239",0.791692073170732,0.29145154458097,"Fold9","Pancreatic Cancer","Primary Tumor","Genus (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"240",0.807686430317848,0.100346397947102,"Fold10","Pancreatic Cancer","Primary Tumor","Genus (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"241",0.998416468725257,0.681883753627184,"Fold1","Bone Cancer","Primary Tumor","Species (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"242",0.999208234362629,0.904105975849406,"Fold2","Bone Cancer","Primary Tumor","Species (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"243",0.99792654028436,0.645927317031461,"Fold3","Bone Cancer","Primary Tumor","Species (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"244",0.999407582938389,0.944214112171448,"Fold4","Bone Cancer","Primary Tumor","Species (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"245",1,1,"Fold5","Bone Cancer","Primary Tumor","Species (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"246",1,1,"Fold6","Bone Cancer","Primary Tumor","Species (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"247",1,1,"Fold7","Bone Cancer","Primary Tumor","Species (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"248",1,1,"Fold8","Bone Cancer","Primary Tumor","Species (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"249",0.999407582938389,0.944214112171448,"Fold9","Bone Cancer","Primary Tumor","Species (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"250",0.999407582938389,0.944214112171448,"Fold10","Bone Cancer","Primary Tumor","Species (Decontaminated)",34,4218,"Bone Cancer","OtherCancerType","SARC",0.00799623706491063,0.5
+"251",0.834694803721352,0.6482447293031,"Fold1","Breast Cancer","Primary Tumor","Species (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"252",0.837899931926481,0.594769215520336,"Fold2","Breast Cancer","Primary Tumor","Species (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"253",0.819619355570683,0.571068733123883,"Fold3","Breast Cancer","Primary Tumor","Species (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"254",0.837789586144849,0.60801539323997,"Fold4","Breast Cancer","Primary Tumor","Species (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"255",0.84002722940776,0.60172158232004,"Fold5","Breast Cancer","Primary Tumor","Species (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"256",0.832893691853869,0.626938726047715,"Fold6","Breast Cancer","Primary Tumor","Species (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"257",0.832156228727025,0.581529690699331,"Fold7","Breast Cancer","Primary Tumor","Species (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"258",0.809436691626957,0.547769397661068,"Fold8","Breast Cancer","Primary Tumor","Species (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"259",0.842709739091318,0.629119662497353,"Fold9","Breast Cancer","Primary Tumor","Species (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"260",0.832709326072158,0.627015326197492,"Fold10","Breast Cancer","Primary Tumor","Species (Decontaminated)",1132,3120,"Breast Cancer","OtherCancerType","BRCA",0.266227657572907,0.5
+"261",0.844269269269269,0.543596332050007,"Fold1","Colorectal Cancer","Primary Tumor","Species (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"262",0.828771498771499,0.509615000236055,"Fold2","Colorectal Cancer","Primary Tumor","Species (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"263",0.884619164619165,0.673544975307846,"Fold3","Colorectal Cancer","Primary Tumor","Species (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"264",0.874540553785837,0.616347384230084,"Fold4","Colorectal Cancer","Primary Tumor","Species (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"265",0.863366093366093,0.596828055322636,"Fold5","Colorectal Cancer","Primary Tumor","Species (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"266",0.860737100737101,0.544206521887443,"Fold6","Colorectal Cancer","Primary Tumor","Species (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"267",0.847051597051597,0.530424457271633,"Fold7","Colorectal Cancer","Primary Tumor","Species (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"268",0.865866209262436,0.573618044718265,"Fold8","Colorectal Cancer","Primary Tumor","Species (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"269",0.847936117936118,0.524789555460953,"Fold9","Colorectal Cancer","Primary Tumor","Species (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"270",0.786988483214898,0.350805025288867,"Fold10","Colorectal Cancer","Primary Tumor","Species (Decontaminated)",549,3703,"Colorectal Cancer","OtherCancerType","CRC",0.129115710253998,0.5
+"271",1,1,"Fold1","Glioblastoma","Primary Tumor","Species (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"272",0.99974073113819,0.99445470970222,"Fold2","Glioblastoma","Primary Tumor","Species (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"273",0.999741368162421,0.994864193245323,"Fold3","Glioblastoma","Primary Tumor","Species (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"274",0.995592429349235,0.955844829446655,"Fold4","Glioblastoma","Primary Tumor","Species (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"275",0.999351827845476,0.984858838292012,"Fold5","Glioblastoma","Primary Tumor","Species (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"276",0.997148042520093,0.951770555186283,"Fold6","Glioblastoma","Primary Tumor","Species (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"277",0.997148042520093,0.939584526360509,"Fold7","Glioblastoma","Primary Tumor","Species (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"278",0.997796214674618,0.965387820945233,"Fold8","Glioblastoma","Primary Tumor","Species (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"279",0.998833290121856,0.980150969429049,"Fold9","Glioblastoma","Primary Tumor","Species (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"280",0.995203526056521,0.962387567719719,"Fold10","Glioblastoma","Primary Tumor","Species (Decontaminated)",190,4062,"Glioblastoma","OtherCancerType","GBM",0.0446848541862653,0.5
+"281",0.766971494480145,0.501775942873827,"Fold1","Lung Cancer","Primary Tumor","Species (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"282",0.779685792349727,0.561082288600476,"Fold2","Lung Cancer","Primary Tumor","Species (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"283",0.783770491803279,0.514723248841787,"Fold3","Lung Cancer","Primary Tumor","Species (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"284",0.766174863387978,0.488113742099971,"Fold4","Lung Cancer","Primary Tumor","Species (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"285",0.802527322404372,0.584254058843491,"Fold5","Lung Cancer","Primary Tumor","Species (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"286",0.779330601092896,0.52211180983488,"Fold6","Lung Cancer","Primary Tumor","Species (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"287",0.788548474945534,0.568255630537155,"Fold7","Lung Cancer","Primary Tumor","Species (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"288",0.786338797814208,0.565182147038462,"Fold8","Lung Cancer","Primary Tumor","Species (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"289",0.738562091503268,0.445808311031684,"Fold9","Lung Cancer","Primary Tumor","Species (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"290",0.757103825136612,0.529143719056421,"Fold10","Lung Cancer","Primary Tumor","Species (Decontaminated)",1199,3053,"Lung Cancer","OtherCancerType","LC",0.281984948259643,0.5
+"291",0.714975845410628,0.0598050191136404,"Fold1","Melanoma","Primary Tumor","Species (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"292",0.711901624945103,0.0686712156373949,"Fold2","Melanoma","Primary Tumor","Species (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"293",0.682696530522617,0.127196126833833,"Fold3","Melanoma","Primary Tumor","Species (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"294",0.684014053579271,0.0519203741963813,"Fold4","Melanoma","Primary Tumor","Species (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"295",0.769104084321476,0.0531542098897818,"Fold5","Melanoma","Primary Tumor","Species (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"296",0.693895476504172,0.0385575990935284,"Fold6","Melanoma","Primary Tumor","Species (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"297",0.644598155467721,0.0468638445038351,"Fold7","Melanoma","Primary Tumor","Species (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"298",0.572179627601314,0.0626590758346259,"Fold8","Melanoma","Primary Tumor","Species (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"299",0.578502415458937,0.0305467146589469,"Fold9","Melanoma","Primary Tumor","Species (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"300",0.552042160737813,0.0259916424643781,"Fold10","Melanoma","Primary Tumor","Species (Decontaminated)",111,4141,"Melanoma","OtherCancerType","SKCM",0.0261053621825024,0.5
+"301",0.999527920151066,0.998146511456258,"Fold1","Ovarian Cancer","Primary Tumor","Species (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"302",0.997781065088757,0.993693460257922,"Fold2","Ovarian Cancer","Primary Tumor","Species (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"303",0.999630177514793,0.998619623317304,"Fold3","Ovarian Cancer","Primary Tumor","Species (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"304",0.99919311457773,0.997115772208116,"Fold4","Ovarian Cancer","Primary Tumor","Species (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"305",0.99868685835124,0.996131141175368,"Fold5","Ovarian Cancer","Primary Tumor","Species (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"306",0.998469700061212,0.994723404906348,"Fold6","Ovarian Cancer","Primary Tumor","Species (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"307",0.999079095467103,0.996604603632099,"Fold7","Ovarian Cancer","Primary Tumor","Species (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"308",0.998703912138886,0.995312592836277,"Fold8","Ovarian Cancer","Primary Tumor","Species (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"309",0.999731038192577,0.999013967668087,"Fold9","Ovarian Cancer","Primary Tumor","Species (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"310",0.999932759548144,0.999741724419573,"Fold10","Ovarian Cancer","Primary Tumor","Species (Decontaminated)",876,3376,"Ovarian Cancer","OtherCancerType","OV",0.206020696142992,0.5
+"311",0.802720048899755,0.238062602229518,"Fold1","Pancreatic Cancer","Primary Tumor","Species (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"312",0.847875916870416,0.189775123455309,"Fold2","Pancreatic Cancer","Primary Tumor","Species (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"313",0.882182151589242,0.262009124186617,"Fold3","Pancreatic Cancer","Primary Tumor","Species (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"314",0.768184596577017,0.0948191437957991,"Fold4","Pancreatic Cancer","Primary Tumor","Species (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"315",0.792176039119804,0.197662801138797,"Fold5","Pancreatic Cancer","Primary Tumor","Species (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"316",0.800122249388753,0.127863598283503,"Fold6","Pancreatic Cancer","Primary Tumor","Species (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"317",0.843520782396088,0.211270310947466,"Fold7","Pancreatic Cancer","Primary Tumor","Species (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"318",0.815327017114914,0.13193159942496,"Fold8","Pancreatic Cancer","Primary Tumor","Species (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"319",0.790625,0.301778718612002,"Fold9","Pancreatic Cancer","Primary Tumor","Species (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5
+"320",0.789960268948655,0.0907364733133812,"Fold10","Pancreatic Cancer","Primary Tumor","Species (Decontaminated)",161,4091,"Pancreatic Cancer","OtherCancerType","PDA",0.0378645343367827,0.5

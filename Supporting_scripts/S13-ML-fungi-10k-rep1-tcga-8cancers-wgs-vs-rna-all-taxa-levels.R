@@ -1,5 +1,5 @@
 #-----------------------------------------------------------------------------
-# S10-ML-fungi-10k-rep1-tcga-8cancers-shared-features.R
+# S13B-ML-fungi-10k-rep1-tcga-8cancers-wgs-vs-rna-all-taxa-levels.R
 # Copyright (c) 2021--, Greg Poore
 # Purpose: Run machine learning on all available TCGA cancer types using features shared with Weizmann
 #-----------------------------------------------------------------------------
@@ -22,7 +22,7 @@ numCores <- detectCores()
 registerDoMC(cores=numCores)
 
 ## Import data
-load("data_for_ml_8_cancers_wgs_vs_rna_18Sep21.RData")
+load("data_for_ml_8_cancers_wgs_vs_rna_decontamV2_14Oct21.RData")
 
 # GBM HYPERPARAMETER SEARCH GRID BELOW (DEFAULT PER CARET PACKAGE)
 kfoldGBMGrid <- data.frame(n.trees=150, interaction.depth=3,
@@ -34,68 +34,60 @@ sampleTypeList <- c("Primary Tumor vs Solid Tissue Normal",
                     "Blood Derived Normal",
                     "Primary Tumor")
 # MODIFY AS NEEDED
-datasetList <- list(rep200FungiOrder_8cancer_VSNM_WGS,
-     rep200FungiFamily_8cancer_VSNM_WGS,
-     rep200FungiGenus_8cancer_VSNM_WGS,
-     rep200FungiSpecies_8cancer_VSNM_WGS,
-     rep200FungiFamily_8cancer_VSNM_CT_WGS,
-     rep200FungiGenus_8cancer_VSNM_CT_WGS,
-     rep200FungiSpecies_8cancer_VSNM_CT_WGS,
-     rep200FungiOrder_8cancer_VSNM_RNA,
-     rep200FungiFamily_8cancer_VSNM_RNA,
-     rep200FungiGenus_8cancer_VSNM_RNA,
-     rep200FungiSpecies_8cancer_VSNM_RNA,
-     rep200FungiFamily_8cancer_VSNM_CT_RNA,
-     rep200FungiGenus_8cancer_VSNM_CT_RNA,
-     rep200FungiSpecies_8cancer_VSNM_CT_RNA)
+datasetList <- list(rep200FungiDecontamV2Order_8cancer_VSNM_WGS,
+     rep200FungiDecontamV2Family_8cancer_VSNM_WGS,
+     rep200FungiDecontamV2Genus_8cancer_VSNM_WGS,
+     rep200FungiDecontamV2Species_8cancer_VSNM_WGS,
+     rep200FungiDecontamV2Genus_8cancer_VSNM_CT_WGS,
+     rep200FungiDecontamV2Species_8cancer_VSNM_CT_WGS,
+     rep200FungiDecontamV2Order_8cancer_VSNM_RNA,
+     rep200FungiDecontamV2Family_8cancer_VSNM_RNA,
+     rep200FungiDecontamV2Genus_8cancer_VSNM_RNA,
+     rep200FungiDecontamV2Species_8cancer_VSNM_RNA,
+     rep200FungiDecontamV2Genus_8cancer_VSNM_CT_RNA,
+     rep200FungiDecontamV2Species_8cancer_VSNM_CT_RNA)
 
-datasetListNames <- c("rep200FungiOrder_8cancer_VSNM_WGS",
-     "rep200FungiFamily_8cancer_VSNM_WGS",
-     "rep200FungiGenus_8cancer_VSNM_WGS",
-     "rep200FungiSpecies_8cancer_VSNM_WGS",
-     "rep200FungiFamily_8cancer_VSNM_CT_WGS",
-     "rep200FungiGenus_8cancer_VSNM_CT_WGS",
-     "rep200FungiSpecies_8cancer_VSNM_CT_WGS",
-     "rep200FungiOrder_8cancer_VSNM_RNA",
-     "rep200FungiFamily_8cancer_VSNM_RNA",
-     "rep200FungiGenus_8cancer_VSNM_RNA",
-     "rep200FungiSpecies_8cancer_VSNM_RNA",
-     "rep200FungiFamily_8cancer_VSNM_CT_RNA",
-     "rep200FungiGenus_8cancer_VSNM_CT_RNA",
-     "rep200FungiSpecies_8cancer_VSNM_CT_RNA")
+datasetListNames <- c("rep200FungiDecontamV2Order_8cancer_VSNM_WGS",
+     "rep200FungiDecontamV2Family_8cancer_VSNM_WGS",
+     "rep200FungiDecontamV2Genus_8cancer_VSNM_WGS",
+     "rep200FungiDecontamV2Species_8cancer_VSNM_WGS",
+     "rep200FungiDecontamV2Genus_8cancer_VSNM_CT_WGS",
+     "rep200FungiDecontamV2Species_8cancer_VSNM_CT_WGS",
+     "rep200FungiDecontamV2Order_8cancer_VSNM_RNA",
+     "rep200FungiDecontamV2Family_8cancer_VSNM_RNA",
+     "rep200FungiDecontamV2Genus_8cancer_VSNM_RNA",
+     "rep200FungiDecontamV2Species_8cancer_VSNM_RNA",
+     "rep200FungiDecontamV2Genus_8cancer_VSNM_CT_RNA",
+     "rep200FungiDecontamV2Species_8cancer_VSNM_CT_RNA")
 
-metadataList <- list(metaQiitaCombined_Nonzero_8cancer_WGS,
-  metaQiitaCombined_Nonzero_8cancer_WGS,
-  metaQiitaCombined_Nonzero_8cancer_WGS,
-  metaQiitaCombined_Nonzero_8cancer_WGS,
-  metaQiitaCombined_Nonzero_8cancer_WGS,
-  metaQiitaCombined_Nonzero_8cancer_WGS,
-  metaQiitaCombined_Nonzero_8cancer_WGS,
-  metaQiitaCombined_Nonzero_8cancer_RNA,
-  metaQiitaCombined_Nonzero_8cancer_RNA,
-  metaQiitaCombined_Nonzero_8cancer_RNA,
-  metaQiitaCombined_Nonzero_8cancer_RNA,
-  metaQiitaCombined_Nonzero_8cancer_RNA,
-  metaQiitaCombined_Nonzero_8cancer_RNA,
-  metaQiitaCombined_Nonzero_8cancer_RNA)
+metadataList <- list(metaQiitaCombined_Nonzero_DecontamV2_8cancer_WGS,
+  metaQiitaCombined_Nonzero_DecontamV2_8cancer_WGS,
+  metaQiitaCombined_Nonzero_DecontamV2_8cancer_WGS,
+  metaQiitaCombined_Nonzero_DecontamV2_8cancer_WGS,
+  metaQiitaCombined_Nonzero_DecontamV2_8cancer_WGS,
+  metaQiitaCombined_Nonzero_DecontamV2_8cancer_WGS,
+  metaQiitaCombined_Nonzero_DecontamV2_8cancer_RNA,
+  metaQiitaCombined_Nonzero_DecontamV2_8cancer_RNA,
+  metaQiitaCombined_Nonzero_DecontamV2_8cancer_RNA,
+  metaQiitaCombined_Nonzero_DecontamV2_8cancer_RNA,
+  metaQiitaCombined_Nonzero_DecontamV2_8cancer_RNA,
+  metaQiitaCombined_Nonzero_DecontamV2_8cancer_RNA)
 
-metadataListNames <- list("metaQiitaCombined_Nonzero_8cancer_WGS",
-  "metaQiitaCombined_Nonzero_8cancer_WGS",
-  "metaQiitaCombined_Nonzero_8cancer_WGS",
-  "metaQiitaCombined_Nonzero_8cancer_WGS",
-  "metaQiitaCombined_Nonzero_8cancer_WGS",
-  "metaQiitaCombined_Nonzero_8cancer_WGS",
-  "metaQiitaCombined_Nonzero_8cancer_WGS",
-  "metaQiitaCombined_Nonzero_8cancer_RNA",
-  "metaQiitaCombined_Nonzero_8cancer_RNA",
-  "metaQiitaCombined_Nonzero_8cancer_RNA",
-  "metaQiitaCombined_Nonzero_8cancer_RNA",
-  "metaQiitaCombined_Nonzero_8cancer_RNA",
-  "metaQiitaCombined_Nonzero_8cancer_RNA",
-  "metaQiitaCombined_Nonzero_8cancer_RNA")
+metadataListNames <- list("metaQiitaCombined_Nonzero_DecontamV2_8cancer_WGS",
+  "metaQiitaCombined_Nonzero_DecontamV2_8cancer_WGS",
+  "metaQiitaCombined_Nonzero_DecontamV2_8cancer_WGS",
+  "metaQiitaCombined_Nonzero_DecontamV2_8cancer_WGS",
+  "metaQiitaCombined_Nonzero_DecontamV2_8cancer_WGS",
+  "metaQiitaCombined_Nonzero_DecontamV2_8cancer_WGS",
+  "metaQiitaCombined_Nonzero_DecontamV2_8cancer_RNA",
+  "metaQiitaCombined_Nonzero_DecontamV2_8cancer_RNA",
+  "metaQiitaCombined_Nonzero_DecontamV2_8cancer_RNA",
+  "metaQiitaCombined_Nonzero_DecontamV2_8cancer_RNA",
+  "metaQiitaCombined_Nonzero_DecontamV2_8cancer_RNA",
+  "metaQiitaCombined_Nonzero_DecontamV2_8cancer_RNA")
 
-baseNamePerDatasetResultsFile <- "perfFungi_10k_rep1_tcga_8cancers_wgs_vs_rna_taxa_levels_18Sep21_"
-baseNameAllResultsFile <- "perfFungi_10k_rep1_tcga_8cancers_wgs_vs_rna_taxa_levels_ALL_18Sep21"
+baseNamePerDatasetResultsFile <- "perfFungi_10k_rep1_tcga_8cancers_wgs_vs_rna_taxa_levels_decontamV2_14Oct21_"
+baseNameAllResultsFile <- "perfFungi_10k_rep1_tcga_8cancers_wgs_vs_rna_taxa_levels_ALL_decontamV2_14Oct21"
 
 caretTuneGrid <- kfoldGBMGrid
 numKFold <- 10

@@ -1,216 +1,216 @@
-﻿id,analyte_A260A280Ratio,vital_status,gender,race,ethnicity,disease_type,primary_site,investigation,days_to_death,tissue_source_site_label,country_of_sample_procurement,portion_is_ffpe,pathologic_t_label,pathologic_n_label,histological_diagnosis_label,pathologic_stage_label,PlateCenter,PlateCenterFlag,observed_otus
-13722.58cfa830e4b0c9d6adf6be66,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Thyroid Carcinoma,Thyroid,TCGA-THCA,NA,University of Pittsburgh,United States,NO,T3,N0,Thyroid Papillary Carcinoma - Classical/usual,Stage III,A221-26,TRUE,18
-13722.58cfa831e4b0c9d6adf6c7cb,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Head and Neck Squamous Cell Carcinoma,Head and Neck,TCGA-HNSC,NA,Medical College of Georgia,United States,NO,T1,N0,Head and Neck Squamous Cell Carcinoma,Stage I,2317-26,TRUE,22
-13722.58cfa831e4b0c9d6adf6c8ea,NA,Dead,FEMALE,WHITE,NOT HISPANIC OR LATINO,Head and Neck Squamous Cell Carcinoma,Head and Neck,TCGA-HNSC,2717,MD Anderson Cancer Center,United States,NO,T4a,N0,Head and Neck Squamous Cell Carcinoma,Stage IVA,2317-26,TRUE,11
-13722.58cfa831e4b0c9d6adf6cb00,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,Asterand,Russia,NO,T1b,N0,Cervical Squamous Cell Carcinoma,Not available,A245-26,TRUE,4
-13722.58cfa831e4b0c9d6adf6ccdf,NA,Alive,FEMALE,Not available,Not available,Thyroid Carcinoma,Thyroid,TCGA-THCA,NA,University Health Network,Canada,NO,T3,NX,Thyroid Papillary Carcinoma - Classical/usual,Stage III,A221-26,TRUE,11
-13722.58cfa831e4b0c9d6adf6cd9c,NA,Dead,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,602,BLN - University Of Chicago,United States,NO,T4a,N2,Muscle invasive urothelial carcinoma (pT2 or above),Stage IV,A233-26,TRUE,19
-13722.58cfa832e4b0c9d6adf6ce58,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,International Genomics Consortium,United States,NO,T1b2,N1,Cervical Squamous Cell Carcinoma,Not available,A245-26,TRUE,2
-13722.58cfa832e4b0c9d6adf6ceac,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,BLN - University Of Chicago,United States,NO,T2b,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage II,A21C-26,TRUE,18
-13722.58cfa832e4b0c9d6adf6cf7f,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,ABS - IUPUI,United States,NO,T4a,N2,Muscle invasive urothelial carcinoma (pT2 or above),Stage IV,A221-26,TRUE,10
-13722.58cfa832e4b0c9d6adf6cfb8,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,International Genomics Consortium,United States,NO,T3a,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage III,A210-26,TRUE,8
-13722.58cfa832e4b0c9d6adf6d0d4,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Thyroid Carcinoma,Thyroid,TCGA-THCA,NA,International Genomics Consortium,United States,NO,T3,N0,Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned),Stage III,A221-26,TRUE,12
-13722.58cfa832e4b0c9d6adf6d128,NA,Dead,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,612,MD Anderson,United States,NO,Not available,NX,Muscle invasive urothelial carcinoma (pT2 or above),Stage II,A210-26,TRUE,18
-13722.58cfa832e4b0c9d6adf6d1a4,NA,Alive,MALE,ASIAN,NOT HISPANIC OR LATINO,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,Asterand,Vietnam,NO,T3,N1,Not available,Stage IIIA,A267-26,TRUE,6
-13722.58cfa832e4b0c9d6adf6d3d0,NA,Dead,MALE,WHITE,Not available,Esophageal Carcinoma,Esophagus,TCGA-ESCA,131,University of Michigan,United States,NO,T3,N0,Not available,Stage IIB,A248-26,TRUE,7
-13722.58cfa832e4b0c9d6adf6d578,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Uveal Melanoma,Eye,TCGA-UVM,NA,Institut Curie,France,NO,T4a,N0,Not available,Stage IIIA,A40D-26,TRUE,8
-13722.58cfa832e4b0c9d6adf6d57a,NA,Alive,MALE,ASIAN,NOT HISPANIC OR LATINO,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,ILSbio,Vietnam,NO,T3,N1,Not available,Stage III,A28P-26,TRUE,7
-13722.58cfa832e4b0c9d6adf6d5b4,NA,Alive,MALE,ASIAN,NOT HISPANIC OR LATINO,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,ILSbio,Vietnam,NO,T3,N0,Not available,Stage IIA,A248-26,TRUE,3
-13722.58cfa832e4b0c9d6adf6d618,NA,Alive,MALE,ASIAN,NOT HISPANIC OR LATINO,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,ILSbio,Vietnam,NO,T2,N0,Not available,Stage IIA,A28P-26,TRUE,9
-13722.58cfa831e4b0c9d6adf6c710,NA,Dead,MALE,WHITE,NOT HISPANIC OR LATINO,Head and Neck Squamous Cell Carcinoma,Head and Neck,TCGA-HNSC,1671,MD Anderson Cancer Center,United States,NO,T4a,N2b,Head and Neck Squamous Cell Carcinoma,Stage IVA,2317-26,TRUE,10
-13722.58cfa831e4b0c9d6adf6c737,NA,Dead,MALE,BLACK OR AFRICAN AMERICAN,Not available,Head and Neck Squamous Cell Carcinoma,Head and Neck,TCGA-HNSC,560,MD Anderson Cancer Center,United States,NO,T2,NX,Head and Neck Squamous Cell Carcinoma,Stage II,2317-26,TRUE,12
-13722.58cfa831e4b0c9d6adf6c76c,NA,Dead,FEMALE,WHITE,NOT HISPANIC OR LATINO,Head and Neck Squamous Cell Carcinoma,Head and Neck,TCGA-HNSC,2166,MD Anderson Cancer Center,United States,NO,T4a,N2,Head and Neck Squamous Cell Carcinoma,Stage IVA,2317-26,TRUE,16
-13722.58cfa831e4b0c9d6adf6c757,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Head and Neck Squamous Cell Carcinoma,Head and Neck,TCGA-HNSC,NA,MD Anderson Cancer Center,United States,NO,T2,N0,Head and Neck Squamous Cell Carcinoma,Stage II,2317-26,TRUE,12
-13722.58cfa831e4b0c9d6adf6cb0e,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,Asterand,Ukraine,NO,T1b,N0,Cervical Squamous Cell Carcinoma,Not available,A245-26,TRUE,6
-13722.58cfa831e4b0c9d6adf6ccf8,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,BLN - University Of Chicago,United States,NO,T3b,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage III,A233-26,TRUE,15
-13722.58cfa832e4b0c9d6adf6ce60,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,BLN - Cleveland Clinic,United States,NO,T3b,N2,Muscle invasive urothelial carcinoma (pT2 or above),Stage IV,A233-26,TRUE,25
-13722.58cfa832e4b0c9d6adf6ceed,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Thyroid Carcinoma,Thyroid,TCGA-THCA,NA,International Genomics Consortium,United States,NO,T3,N1a,Thyroid Papillary Carcinoma - Classical/usual,Stage III,A221-26,TRUE,14
-13722.58cfa832e4b0c9d6adf6cfd8,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,International Genomics Consortium,United States,NO,T2b,N1,Cervical Squamous Cell Carcinoma,Not available,A232-26,TRUE,2
-13722.58cfa832e4b0c9d6adf6cff0,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,ABS - IUPUI,United States,NO,Not available,NX,Muscle invasive urothelial carcinoma (pT2 or above),Stage II,A221-26,TRUE,14
-13722.58cfa832e4b0c9d6adf6d058,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,Asterand,Ukraine,NO,T3,N0,Not available,Stage IIA,A267-26,TRUE,4
-13722.58cfa832e4b0c9d6adf6d116,NA,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,Washington University,United States,NO,T3,N0,Cervical Squamous Cell Carcinoma,Not available,A245-26,TRUE,1
-13722.58cfa832e4b0c9d6adf6d16e,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,Asterand,Russia,NO,T3,N0,Not available,Stage IIB,A28P-26,TRUE,8
-13722.58cfa832e4b0c9d6adf6d3cd,NA,Dead,MALE,WHITE,Not available,Esophageal Carcinoma,Esophagus,TCGA-ESCA,9,University of Michigan,United States,NO,T3,N1,Not available,Stage III,A248-26,TRUE,4
-13722.58cfa832e4b0c9d6adf6d35e,NA,Dead,MALE,WHITE,Not available,Esophageal Carcinoma,Esophagus,TCGA-ESCA,556,University of Michigan,United States,NO,T3,N1,Not available,Stage IIIA,A248-26,TRUE,6
-13722.58cfa832e4b0c9d6adf6d407,NA,Alive,MALE,Not available,Not available,Uveal Melanoma,Eye,TCGA-UVM,NA,University of Liverpool,United Kingdom,NO,T3a,NX,Not available,Stage IIB,A40D-26,TRUE,4
-13722.58cfa832e4b0c9d6adf6d630,NA,Alive,MALE,ASIAN,NOT HISPANIC OR LATINO,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,ILSbio,Vietnam,NO,T3,N0,Not available,Stage IIA,A267-26,TRUE,6
-13722.58cfa832e4b0c9d6adf6d545,NA,Alive,MALE,WHITE,Not available,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,University of Michigan,United States,NO,T1,N0,Not available,Stage I,A248-26,TRUE,5
-13722.58cfa832e4b0c9d6adf6d602,NA,Alive,MALE,ASIAN,NOT HISPANIC OR LATINO,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,ILSbio,Vietnam,NO,T2,N1,Not available,Stage IIB,A248-26,TRUE,4
-13722.58cfa830e4b0c9d6adf6c2d8,NA,Dead,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,142,University of Pittsburgh,United States,NO,T3b,N2,Muscle invasive urothelial carcinoma (pT2 or above),Stage IV,A221-26,TRUE,17
-13722.58cfa831e4b0c9d6adf6c50c,NA,Alive,MALE,ASIAN,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,ILSbio,Vietnam,NO,T2,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage II,A210-26,TRUE,18
-13722.58cfa831e4b0c9d6adf6c610,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Head and Neck Squamous Cell Carcinoma,Head and Neck,TCGA-HNSC,NA,"University Health Network, Toronto",Canada,NO,T2,NX,Head and Neck Squamous Cell Carcinoma,Not available,2317-26,TRUE,4
-13722.58cfa831e4b0c9d6adf6c819,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Head and Neck Squamous Cell Carcinoma,Head and Neck,TCGA-HNSC,NA,University of Pittsburgh,United States,NO,T3,N2b,Head and Neck Squamous Cell Carcinoma,Stage IVA,2317-26,TRUE,12
-13722.58cfa831e4b0c9d6adf6c8bc,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,Memorial Sloan Kettering,United States,NO,T3,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage III,A210-26,TRUE,17
-13722.58cfa831e4b0c9d6adf6c8c2,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,Memorial Sloan Kettering,United States,NO,T3,N2,Muscle invasive urothelial carcinoma (pT2 or above),Stage IV,A210-26,TRUE,9
-13722.58cfa831e4b0c9d6adf6c9b5,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,Memorial Sloan Kettering,United States,NO,T2b,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage II,A210-26,TRUE,17
-13722.58cfa831e4b0c9d6adf6c9d5,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,Memorial Sloan Kettering,United States,NO,T3,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage III,A210-26,TRUE,18
-13722.58cfa831e4b0c9d6adf6cb17,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,Asterand,United States,NO,T1b1,N1,Cervical Squamous Cell Carcinoma,Not available,A232-26,TRUE,4
-13722.58cfa831e4b0c9d6adf6cd50,NA,Dead,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,1423,BLN - University Of Chicago,United States,NO,T3a,N2,Muscle invasive urothelial carcinoma (pT2 or above),Stage IV,A233-26,TRUE,14
-13722.58cfa831e4b0c9d6adf6cdc5,NA,Dead,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,168,BLN - University Of Chicago,United States,NO,T3a,N1,Muscle invasive urothelial carcinoma (pT2 or above),Stage IV,A233-26,TRUE,24
-13722.58cfa832e4b0c9d6adf6ce0f,NA,Alive,MALE,WHITE,HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,BLN - University Of Chicago,United States,NO,T2b,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage II,A210-26,TRUE,13
-13722.58cfa832e4b0c9d6adf6ce18,NA,Dead,MALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,272,BLN - University Of Chicago,United States,NO,T2b,N1,Muscle invasive urothelial carcinoma (pT2 or above),Stage IV,A210-26,TRUE,16
-13722.58cfa832e4b0c9d6adf6cf1a,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Head and Neck Squamous Cell Carcinoma,Head and Neck,TCGA-HNSC,NA,ABS - IUPUI,United States,NO,T4a,N0,Head and Neck Squamous Cell Carcinoma,Stage IVA,2317-26,TRUE,4
-13722.58cfa832e4b0c9d6adf6d0ac,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,Asterand,Russia,NO,T3,N0,Not available,Stage IIA,A248-26,TRUE,5
-13722.58cfa832e4b0c9d6adf6d12e,NA,Alive,MALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,MD Anderson,United States,NO,Not available,NX,Muscle invasive urothelial carcinoma (pT2 or above),Stage II,A210-26,TRUE,13
-13722.58cfa832e4b0c9d6adf6d158,NA,Alive,FEMALE,WHITE,Not available,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,Memorial Sloan Kettering,United States,NO,T1b1,N0,Endocervical Adenocarcinoma of the Usual Type,Not available,A232-26,TRUE,10
-13722.58cfa832e4b0c9d6adf6d034,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,International Genomics Consortium,United States,NO,T3a,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage III,A233-26,TRUE,24
-13722.58cfa832e4b0c9d6adf6d170,NA,Alive,MALE,WHITE,Not available,Thyroid Carcinoma,Thyroid,TCGA-THCA,NA,Mayo Clinic,United States,NO,T3,N1b,Thyroid Papillary Carcinoma - Classical/usual,Stage I,A23Q-26,TRUE,16
-13722.58cfa832e4b0c9d6adf6d655,NA,Alive,MALE,ASIAN,NOT HISPANIC OR LATINO,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,ILSbio,Vietnam,NO,T3,N0,Not available,Stage IIA,A248-26,TRUE,4
-13722.58cfa82fe4b0c9d6adf6b8e2,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Christiana Healthcare,United States,YES,T1,N0,Other  specify,Stage IA,A22S-26,FALSE,19
-13722.58cfa830e4b0c9d6adf6be78,NA,Dead,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,205,Christiana Healthcare,United States,NO,T3,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage III,A21C-26,TRUE,19
-13722.58cfa831e4b0c9d6adf6c3cb,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,Medical College of Wisconsin,United States,NO,Not available,Not available,Cervical Squamous Cell Carcinoma,Not available,A20X-26,TRUE,5
-13722.58cfa831e4b0c9d6adf6c4d0,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,University of Pittsburgh,United States,NO,T3a,N3,Muscle invasive urothelial carcinoma (pT2 or above),Stage III,A221-26,TRUE,11
-13722.58cfa831e4b0c9d6adf6c87c,NA,Dead,MALE,WHITE,NOT HISPANIC OR LATINO,Head and Neck Squamous Cell Carcinoma,Head and Neck,TCGA-HNSC,14,MD Anderson Cancer Center,United States,NO,T4a,N2b,Head and Neck Squamous Cell Carcinoma,Stage IVA,2317-26,TRUE,17
-13722.58cfa831e4b0c9d6adf6c8b0,NA,Dead,MALE,WHITE,NOT HISPANIC OR LATINO,Head and Neck Squamous Cell Carcinoma,Head and Neck,TCGA-HNSC,2570,MD Anderson Cancer Center,United States,NO,T2,N0,Head and Neck Squamous Cell Carcinoma,Stage II,2317-26,TRUE,14
-13722.58cfa831e4b0c9d6adf6cb1a,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,Asterand,Ukraine,NO,T2,NX,Muscle invasive urothelial carcinoma (pT2 or above),Stage II,A233-26,TRUE,15
-13722.58cfa831e4b0c9d6adf6cc87,NA,Alive,FEMALE,Not available,Not available,Thyroid Carcinoma,Thyroid,TCGA-THCA,NA,University Health Network,Canada,NO,T2,NX,Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned),Stage II,A221-26,TRUE,17
-13722.58cfa831e4b0c9d6adf6cd12,NA,Dead,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,739,BLN - University Of Chicago,United States,NO,T2b,N2,Muscle invasive urothelial carcinoma (pT2 or above),Stage IV,A233-26,TRUE,9
-13722.58cfa831e4b0c9d6adf6cd1e,NA,Alive,FEMALE,WHITE,Not available,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,University of North Carolina,United States,NO,T1b1,N0,Endocervical Type of Adenocarcinoma,Not available,A232-26,TRUE,4
-13722.58cfa831e4b0c9d6adf6cd64,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,BLN - University Of Chicago,United States,NO,T4,N3,Muscle invasive urothelial carcinoma (pT2 or above),Stage IV,A233-26,TRUE,12
-13722.58cfa831e4b0c9d6adf6cd7e,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Thyroid Carcinoma,Thyroid,TCGA-THCA,NA,Ohio State University,United States,NO,T2,N0,Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned),Stage I,A221-26,TRUE,14
-13722.58cfa831e4b0c9d6adf6cd90,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Thyroid Carcinoma,Thyroid,TCGA-THCA,NA,Ohio State University,United States,NO,T4,N0,Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned),Stage II,A221-26,TRUE,12
-13722.58cfa832e4b0c9d6adf6cef7,NA,Dead,MALE,WHITE,NOT HISPANIC OR LATINO,Esophageal Carcinoma,Esophagus,TCGA-ESCA,24,Asterand,Ukraine,NO,T3,N0,Not available,Stage IB,A28P-26,TRUE,7
-13722.58cfa832e4b0c9d6adf6ce5a,NA,Dead,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,BLN - Cleveland Clinic,United States,NO,T3a,N3,Muscle invasive urothelial carcinoma (pT2 or above),Stage IV,A221-26,TRUE,15
-13722.58cfa832e4b0c9d6adf6cefe,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Thyroid Carcinoma,Thyroid,TCGA-THCA,NA,Christiana Healthcare,United States,NO,T3,N0,Thyroid Papillary Carcinoma - Classical/usual,Stage I,A221-26,TRUE,15
-13722.58cfa832e4b0c9d6adf6cfa8,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,BLN - Cleveland Clinic,United States,NO,T3b,N1,Muscle invasive urothelial carcinoma (pT2 or above),Stage IV,A221-26,TRUE,21
-13722.58cfa832e4b0c9d6adf6d020,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,BLN - Cleveland Clinic,United States,NO,T4a,N3,Muscle invasive urothelial carcinoma (pT2 or above),Stage IV,A21C-26,TRUE,7
-13722.58cfa832e4b0c9d6adf6d40e,NA,Dead,MALE,Not available,Not available,Uveal Melanoma,Eye,TCGA-UVM,40,University of Liverpool,United Kingdom,NO,T4b,NX,Not available,Stage IIIB,A40D-26,TRUE,3
-13722.58cfa832e4b0c9d6adf6d478,NA,Dead,MALE,Not available,Not available,Uveal Melanoma,Eye,TCGA-UVM,114,University of Liverpool,United Kingdom,NO,T4a,NX,Not available,Stage IV,A40D-26,TRUE,5
-13722.58cfa832e4b0c9d6adf6d40a,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Uveal Melanoma,Eye,TCGA-UVM,NA,Institut Curie,France,NO,T4a,N0,Not available,Stage IIIA,A40D-26,TRUE,2
-13722.58cfa832e4b0c9d6adf6d4da,NA,Alive,FEMALE,Not available,Not available,Uveal Melanoma,Eye,TCGA-UVM,NA,University of Liverpool,United Kingdom,NO,T2a,NX,Not available,Stage IIA,A40D-26,TRUE,6
-13722.58cfa831e4b0c9d6adf6cd16,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,BLN - University Of Chicago,United States,NO,T4a,N2,Muscle invasive urothelial carcinoma (pT2 or above),Stage IV,A233-26,TRUE,13
-13722.58cfa831e4b0c9d6adf6c4d6,NA,Alive,MALE,ASIAN,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,ILSbio,Vietnam,NO,T3,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage III,A21C-26,TRUE,23
-13722.58cfa831e4b0c9d6adf6c5f0,1.9,Dead,FEMALE,Not available,Not available,Stomach Adenocarcinoma,Stomach,TCGA-STAD,122,Indivumed,Germany,NO,T3,N3,Stomach  Intestinal Adenocarcinoma  Not Otherwise Specified (NOS),Stage IV,A326-26,TRUE,8
-13722.58cfa831e4b0c9d6adf6c655,1.9,Alive,MALE,Not available,Not available,Stomach Adenocarcinoma,Stomach,TCGA-STAD,NA,Indivumed,Germany,NO,T2b,N2,Stomach  Adenocarcinoma  Diffuse Type,Stage IIIA,A326-26,TRUE,8
-13722.58cfa832e4b0c9d6adf6cf6a,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,International Genomics Consortium,United States,NO,T2b,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage II,A233-26,TRUE,30
-13722.58cfa832e4b0c9d6adf6d160,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,Asterand,Ukraine,NO,T2,N1,Not available,Stage IIB,A267-26,TRUE,5
-13722.58cfa832e4b0c9d6adf6d3ee,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Uveal Melanoma,Eye,TCGA-UVM,NA,Institut Curie,France,NO,T3b,N0,Not available,Stage IIIA,A40D-26,TRUE,3
-13722.58cfa832e4b0c9d6adf6d3bc,NA,Alive,FEMALE,Not available,Not available,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,University of Michigan,United States,NO,T3,N2,Not available,Not available,A248-26,TRUE,6
-13722.58cfa832e4b0c9d6adf6d42e,NA,Alive,FEMALE,Not available,Not available,Uveal Melanoma,Eye,TCGA-UVM,NA,University of Liverpool,United Kingdom,NO,T3a,NX,Not available,Stage IIB,A40D-26,TRUE,4
-13722.58cfa832e4b0c9d6adf6d4b4,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Uveal Melanoma,Eye,TCGA-UVM,NA,Institut Curie,France,NO,T4a,N0,Not available,Stage IIIA,A40D-26,TRUE,3
-13722.58cfa832e4b0c9d6adf6d514,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Uveal Melanoma,Eye,TCGA-UVM,NA,Institut Curie,France,NO,T4d,N0,Not available,Stage IIIC,A40D-26,TRUE,4
-13722.58cfa832e4b0c9d6adf6d4fe,NA,Alive,FEMALE,WHITE,Not available,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,University of Michigan,United States,NO,T1,N0,Not available,Stage I,A267-26,TRUE,3
-13722.58cfa832e4b0c9d6adf6d5d7,NA,Alive,MALE,ASIAN,NOT HISPANIC OR LATINO,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,ILSbio,Vietnam,NO,T2,N0,Not available,Stage IIA,A248-26,TRUE,4
-13722.58cfa832e4b0c9d6adf6d5cc,NA,Alive,MALE,ASIAN,NOT HISPANIC OR LATINO,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,ILSbio,Vietnam,NO,T3,N0,Not available,Stage IIA,A248-26,TRUE,11
-13722.58cfa832e4b0c9d6adf6d5d0,NA,Alive,MALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,Christiana Care,United States,NO,Not available,Not available,Not available,Not available,A267-26,TRUE,8
-13722.58cfa832e4b0c9d6adf6d608,NA,Alive,MALE,ASIAN,NOT HISPANIC OR LATINO,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,ILSbio,Vietnam,NO,T3,N1,Not available,Stage IV,A28P-26,TRUE,9
-13722.58cfa832e4b0c9d6adf6d84d,NA,Alive,MALE,ASIAN,NOT HISPANIC OR LATINO,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,ILSbio,Vietnam,NO,T2,N0,Not available,Stage II,A267-26,TRUE,11
-13722.58cfa832e4b0c9d6adf6d5e3,NA,Alive,MALE,ASIAN,NOT HISPANIC OR LATINO,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,ILSbio,Vietnam,NO,T3,N0,Not available,Stage IIA,A267-26,TRUE,10
-13722.58cfa831e4b0c9d6adf6c3d4,NA,Dead,FEMALE,WHITE,NOT HISPANIC OR LATINO,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,543,Medical College of Wisconsin,United States,NO,Not available,Not available,Mucinous Adenocarcinoma of Endocervical Type,Not available,A20X-26,TRUE,5
-13722.58cfa831e4b0c9d6adf6c4d2,NA,Alive,MALE,ASIAN,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,ILSbio,Vietnam,NO,T2,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage II,A210-26,TRUE,11
-13722.58cfa831e4b0c9d6adf6c62c,1.9,Alive,FEMALE,Not available,Not available,Stomach Adenocarcinoma,Stomach,TCGA-STAD,NA,Indivumed,Germany,NO,T4,N1,Stomach  Adenocarcinoma  Not Otherwise Specified (NOS),Stage IV,A326-26,TRUE,6
-13722.58cfa831e4b0c9d6adf6c6c3,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,UNC,United States,NO,T2b,N1,Muscle invasive urothelial carcinoma (pT2 or above),Stage IV,A233-26,TRUE,40
-13722.58cfa831e4b0c9d6adf6c7ce,NA,Dead,MALE,WHITE,NOT HISPANIC OR LATINO,Head and Neck Squamous Cell Carcinoma,Head and Neck,TCGA-HNSC,218,MD Anderson Cancer Center,United States,NO,T4a,N1,Head and Neck Squamous Cell Carcinoma,Stage IVA,2317-26,TRUE,17
-13722.58cfa831e4b0c9d6adf6c8e0,NA,Dead,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,294,Memorial Sloan Kettering,United States,NO,Not available,NX,Muscle invasive urothelial carcinoma (pT2 or above),Stage II,A21C-26,TRUE,20
-13722.58cfa831e4b0c9d6adf6c958,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,Memorial Sloan Kettering,United States,NO,T3,N2,Muscle invasive urothelial carcinoma (pT2 or above),Stage IV,A21C-26,TRUE,20
-13722.58cfa831e4b0c9d6adf6c99c,NA,Dead,FEMALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,321,Memorial Sloan Kettering,United States,NO,T3,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage III,A233-26,TRUE,16
-13722.58cfa831e4b0c9d6adf6c9ce,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,Memorial Sloan Kettering,United States,NO,T3,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage III,A233-26,TRUE,20
-13722.58cfa831e4b0c9d6adf6cb30,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,Asterand,Russia,NO,T2a,N0,Cervical Squamous Cell Carcinoma,Not available,A20X-26,TRUE,4
-13722.58cfa832e4b0c9d6adf6ce0e,NA,Alive,MALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,BLN - University Of Chicago,United States,NO,T2b,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage II,A21C-26,TRUE,15
-13722.58cfa832e4b0c9d6adf6cfc9,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,International Genomics Consortium,United States,NO,T2a2,N0,Cervical Squamous Cell Carcinoma,Not available,A20X-26,TRUE,8
-13722.58cfa832e4b0c9d6adf6cfe8,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,BLN - Cleveland Clinic,United States,NO,T3b,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage III,A210-26,TRUE,37
-13722.58cfa832e4b0c9d6adf6d0e2,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,Asterand,Russia,NO,T3,N1,Not available,Stage IIIA,A248-26,TRUE,6
-13722.58cfa832e4b0c9d6adf6d126,NA,Alive,MALE,WHITE,HISPANIC OR LATINO,Thyroid Carcinoma,Thyroid,TCGA-THCA,NA,International Genomics Consortium,United States,NO,T2,N1,Thyroid Papillary Carcinoma - Classical/usual,Stage I,A221-26,TRUE,13
-13722.58cfa832e4b0c9d6adf6d196,NA,Alive,FEMALE,WHITE,HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,ABS - Lahey Clinic,United States,NO,T2b,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage II,A23Q-26,TRUE,22
-13722.58cfa832e4b0c9d6adf6d2a6,NA,Alive,FEMALE,WHITE,Not available,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,Memorial Sloan Kettering,United States,NO,T1b1,N0,Cervical Squamous Cell Carcinoma,Not available,A20X-26,TRUE,5
-13722.58cfa832e4b0c9d6adf6d362,NA,Alive,MALE,WHITE,Not available,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,University of Michigan,United States,NO,T1,N0,Not available,Stage I,A267-26,TRUE,6
-13722.58cfa832e4b0c9d6adf6d388,NA,Alive,FEMALE,WHITE,Not available,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,University of Michigan,United States,NO,T1,N0,Not available,Stage IA,A267-26,TRUE,6
-13722.58cfa832e4b0c9d6adf6d386,NA,Alive,MALE,ASIAN,NOT HISPANIC OR LATINO,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,ILSbio,Vietnam,NO,T3,N1,Not available,Stage III,A267-26,TRUE,15
-13722.58cfa832e4b0c9d6adf6d418,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Uveal Melanoma,Eye,TCGA-UVM,NA,Institut Curie,France,NO,T3b,N0,Not available,Stage IIIA,A40D-26,TRUE,5
-13722.58cfa832e4b0c9d6adf6d474,NA,Dead,MALE,WHITE,NOT HISPANIC OR LATINO,Uveal Melanoma,Eye,TCGA-UVM,389,Institut Curie,France,NO,T4c,N0,Not available,Stage IIIB,A40D-26,TRUE,6
-13722.58cfa832e4b0c9d6adf6d416,NA,Alive,FEMALE,Not available,Not available,Uveal Melanoma,Eye,TCGA-UVM,NA,University of Liverpool,United Kingdom,NO,T2a,NX,Not available,Stage IIA,A40D-26,TRUE,5
-13722.58cfa832e4b0c9d6adf6d4aa,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Uveal Melanoma,Eye,TCGA-UVM,NA,Institut Curie,France,NO,T4b,N0,Not available,Stage IIIB,A40D-26,TRUE,4
-13722.58cfa832e4b0c9d6adf6d426,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Uveal Melanoma,Eye,TCGA-UVM,NA,Institut Curie,France,NO,T4b,N0,Not available,Stage IIIB,A40D-26,TRUE,6
-13722.58cfa832e4b0c9d6adf6d4a6,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Uveal Melanoma,Eye,TCGA-UVM,NA,Institut Curie,France,NO,T4a,N0,Not available,Stage IIIA,A40D-26,TRUE,9
-13722.58cfa832e4b0c9d6adf6d4c6,NA,Alive,MALE,Not available,Not available,Uveal Melanoma,Eye,TCGA-UVM,NA,University of Liverpool,United Kingdom,NO,T3a,NX,Not available,Stage IIB,A40D-26,TRUE,4
-13722.58cfa832e4b0c9d6adf6d4ca,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Uveal Melanoma,Eye,TCGA-UVM,NA,Institut Curie,France,NO,T4e,N0,Not available,Stage IV,A40D-26,TRUE,6
-13722.58cfa832e4b0c9d6adf6d54e,NA,Alive,FEMALE,WHITE,Not available,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,University of Michigan,United States,NO,T2,N1,Not available,Stage IIB,A28P-26,TRUE,8
-13722.58cfa832e4b0c9d6adf6d528,NA,Alive,FEMALE,WHITE,Not available,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,University of Michigan,United States,NO,T1,N0,Not available,Stage I,A267-26,TRUE,7
-13722.58cfa832e4b0c9d6adf6d4f8,NA,Dead,MALE,WHITE,Not available,Esophageal Carcinoma,Esophagus,TCGA-ESCA,149,University of Michigan,United States,NO,T3,N1,Not available,Stage IV,A28P-26,TRUE,6
-13722.58cfa832e4b0c9d6adf6d5a8,NA,Alive,MALE,ASIAN,NOT HISPANIC OR LATINO,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,ILSbio,Vietnam,NO,T3,N0,Not available,Stage IIA,A248-26,TRUE,7
-13722.58cfa832e4b0c9d6adf6d4fa,NA,Alive,MALE,WHITE,Not available,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,University of Michigan,United States,NO,T3,N2,Not available,Stage IIIB,A267-26,TRUE,5
-13722.58cfa832e4b0c9d6adf6d5f8,NA,Alive,MALE,ASIAN,NOT HISPANIC OR LATINO,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,ILSbio,Vietnam,NO,T3,N0,Not available,Stage IIA,A248-26,TRUE,8
-13722.58cfa831e4b0c9d6adf6c4e4,NA,Dead,FEMALE,WHITE,NOT HISPANIC OR LATINO,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,3046,Medical College of Wisconsin,United States,NO,Not available,Not available,Cervical Squamous Cell Carcinoma,Not available,A20X-26,TRUE,5
-13722.58cfa831e4b0c9d6adf6c63a,1.9,Alive,MALE,Not available,Not available,Stomach Adenocarcinoma,Stomach,TCGA-STAD,NA,Indivumed,Germany,NO,T2a,N0,Stomach  Adenocarcinoma  Not Otherwise Specified (NOS),Stage IB,A326-26,TRUE,3
-13722.58cfa831e4b0c9d6adf6c68f,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,UNC,United States,NO,T4a,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage III,A233-26,TRUE,26
-13722.58cfa831e4b0c9d6adf6c741,NA,Dead,MALE,WHITE,NOT HISPANIC OR LATINO,Head and Neck Squamous Cell Carcinoma,Head and Neck,TCGA-HNSC,577,MD Anderson Cancer Center,United States,NO,T3,N0,Head and Neck Squamous Cell Carcinoma,Stage III,2317-26,TRUE,14
-13722.58cfa831e4b0c9d6adf6c830,NA,Dead,FEMALE,WHITE,NOT HISPANIC OR LATINO,Head and Neck Squamous Cell Carcinoma,Head and Neck,TCGA-HNSC,1081,MD Anderson Cancer Center,United States,NO,T2,NX,Head and Neck Squamous Cell Carcinoma,Stage II,2317-26,TRUE,17
-13722.58cfa831e4b0c9d6adf6c8ba,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,Memorial Sloan Kettering,United States,NO,T3,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage III,A210-26,TRUE,17
-13722.58cfa831e4b0c9d6adf6c9e6,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,Memorial Sloan Kettering,United States,NO,T3,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage III,A233-26,TRUE,16
-13722.58cfa831e4b0c9d6adf6ca0f,NA,Dead,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,547,Memorial Sloan Kettering,United States,NO,T3,N2,Muscle invasive urothelial carcinoma (pT2 or above),Stage IV,A233-26,TRUE,21
-13722.58cfa831e4b0c9d6adf6caf8,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,Asterand,Russia,NO,T2a,N0,Cervical Squamous Cell Carcinoma,Not available,A20X-26,TRUE,13
-13722.58cfa831e4b0c9d6adf6cb28,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,Asterand,Ukraine,NO,Not available,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage II,A233-26,TRUE,15
-13722.58cfa831e4b0c9d6adf6cc1e,NA,Alive,FEMALE,Not available,Not available,Thyroid Carcinoma,Thyroid,TCGA-THCA,NA,University Health Network,Canada,NO,T2,N0,Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned),Stage I,A221-26,TRUE,23
-13722.58cfa831e4b0c9d6adf6cc63,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,Asterand,Russia,NO,T2a2,N0,Cervical Squamous Cell Carcinoma,Not available,A20X-26,TRUE,5
-13722.58cfa831e4b0c9d6adf6cc3e,NA,Alive,FEMALE,Not available,Not available,Thyroid Carcinoma,Thyroid,TCGA-THCA,NA,University Health Network,Canada,NO,T2,N1a,Thyroid Papillary Carcinoma - Classical/usual,Stage III,A221-26,TRUE,25
-13722.58cfa831e4b0c9d6adf6cc9c,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,BLN - University Of Chicago,United States,NO,T3a,N2,Muscle invasive urothelial carcinoma (pT2 or above),Stage IV,A233-26,TRUE,17
-13722.58cfa831e4b0c9d6adf6ccd2,NA,Alive,FEMALE,Not available,Not available,Thyroid Carcinoma,Thyroid,TCGA-THCA,NA,University Health Network,Canada,NO,T2,N0,Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned),Stage II,A221-26,TRUE,17
-13722.58cfa832e4b0c9d6adf6d11f,NA,Alive,FEMALE,WHITE,Not available,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,Memorial Sloan Kettering,United States,NO,T1b2,N0,Cervical Squamous Cell Carcinoma,Not available,A20X-26,TRUE,4
-13722.58cfa832e4b0c9d6adf6d190,NA,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,Not available,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,Memorial Sloan Kettering,United States,NO,T2a1,N0,Cervical Squamous Cell Carcinoma,Not available,A20X-26,TRUE,8
-13722.58cfa832e4b0c9d6adf6d19c,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,Roswell Park,United States,NO,T1b2,N0,Cervical Squamous Cell Carcinoma,Not available,A20X-26,TRUE,7
-13722.58cfa832e4b0c9d6adf6d19a,NA,Alive,FEMALE,WHITE,Not available,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,Memorial Sloan Kettering,United States,NO,T1b1,N0,Cervical Squamous Cell Carcinoma,Not available,A20X-26,TRUE,8
-13722.58cfa832e4b0c9d6adf6d1f4,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,Asterand,Russia,NO,T1,N1,Not available,Stage IIB,A267-26,TRUE,7
-13722.58cfa832e4b0c9d6adf6d222,NA,Alive,FEMALE,WHITE,Not available,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,Memorial Sloan Kettering,United States,NO,T2b,N1,Endocervical Type of Adenocarcinoma,Not available,A20X-26,TRUE,3
-13722.58cfa832e4b0c9d6adf6d322,NA,Alive,MALE,WHITE,Not available,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,University of Michigan,United States,NO,Not available,Not available,Not available,Not available,A248-26,TRUE,7
-13722.58cfa832e4b0c9d6adf6d37a,NA,Alive,MALE,ASIAN,NOT HISPANIC OR LATINO,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,ILSbio,Vietnam,NO,T3,N0,Not available,Stage IIA,A267-26,TRUE,11
-13722.58cfa832e4b0c9d6adf6d3ea,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Uveal Melanoma,Eye,TCGA-UVM,NA,Institut Curie,France,NO,T4a,N0,Not available,Stage IIIA,A40D-26,TRUE,6
-13722.58cfa832e4b0c9d6adf6d1fa,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,BLN - Cleveland Clinic,United States,NO,T2,NX,Muscle invasive urothelial carcinoma (pT2 or above),Stage II,A210-26,TRUE,25
-13722.58cfa832e4b0c9d6adf6d414,NA,Alive,FEMALE,Not available,Not available,Uveal Melanoma,Eye,TCGA-UVM,NA,University of Liverpool,United Kingdom,NO,T3a,NX,Not available,Stage IIB,A40D-26,TRUE,6
-13722.58cfa832e4b0c9d6adf6d4be,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Uveal Melanoma,Eye,TCGA-UVM,NA,Institut Curie,France,NO,T3a,N0,Not available,Stage IIB,A40D-26,TRUE,5
-13722.58cfa832e4b0c9d6adf6d498,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Uveal Melanoma,Eye,TCGA-UVM,NA,Institut Curie,France,NO,T4b,N0,Not available,Stage IIIB,A40D-26,TRUE,3
-13722.58cfa832e4b0c9d6adf6d4a7,NA,Alive,MALE,Not available,Not available,Uveal Melanoma,Eye,TCGA-UVM,NA,University of Liverpool,United Kingdom,NO,T4b,NX,Not available,Stage IIIB,A40D-26,TRUE,5
-13722.58cfa832e4b0c9d6adf6d55a,NA,Alive,MALE,WHITE,Not available,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,University of Michigan,United States,NO,T1,N1,Not available,Stage IIB,A267-26,TRUE,8
-13722.58cfa832e4b0c9d6adf6d4a2,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Uveal Melanoma,Eye,TCGA-UVM,NA,Institut Curie,France,NO,T4a,N0,Not available,Stage IIIA,A40D-26,TRUE,4
-13722.58cfa832e4b0c9d6adf6d4dc,NA,Alive,FEMALE,Not available,Not available,Uveal Melanoma,Eye,TCGA-UVM,NA,University of Liverpool,United Kingdom,NO,T2a,NX,Not available,Stage IIA,A40D-26,TRUE,3
-13722.58cfa831e4b0c9d6adf6c42c,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,University of Pittsburgh,United States,NO,T3a,N1,Muscle invasive urothelial carcinoma (pT2 or above),Stage IV,A210-26,TRUE,22
-13722.58cfa832e4b0c9d6adf6ce19,NA,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,BLN - University Of Chicago,United States,NO,T2b,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage II,A21C-26,TRUE,21
-13722.58cfa832e4b0c9d6adf6d3f0,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Uveal Melanoma,Eye,TCGA-UVM,NA,Institut Curie,France,NO,T3b,N0,Not available,Stage IIIA,A40D-26,TRUE,8
-13722.58cfa832e4b0c9d6adf6d3d7,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Uveal Melanoma,Eye,TCGA-UVM,NA,Institut Curie,France,NO,T3a,N0,Not available,Stage IIB,A40D-26,TRUE,4
-13722.58cfa832e4b0c9d6adf6d400,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Uveal Melanoma,Eye,TCGA-UVM,NA,Institut Curie,France,NO,T3a,N0,Not available,Stage IIB,A40D-26,TRUE,8
-13722.58cfa832e4b0c9d6adf6d4f4,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Uveal Melanoma,Eye,TCGA-UVM,NA,Cleveland Clinic Foundation,United States,NO,T2b,NX,Not available,Stage IIB,A40D-26,TRUE,6
-13722.58cfa832e4b0c9d6adf6d582,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Uveal Melanoma,Eye,TCGA-UVM,NA,Institut Curie,France,NO,T4a,N0,Not available,Stage IIIA,A40D-26,TRUE,6
-13722.58cfa832e4b0c9d6adf6d586,NA,Dead,MALE,WHITE,NOT HISPANIC OR LATINO,Uveal Melanoma,Eye,TCGA-UVM,808,Institut Curie,France,NO,T4a,N0,Not available,Stage IIIA,A40D-26,TRUE,6
-13722.58cfa832e4b0c9d6adf6d590,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Uveal Melanoma,Eye,TCGA-UVM,NA,Cleveland Clinic Foundation,United States,NO,T3a,NX,Not available,Stage IIB,A40D-26,TRUE,6
-13722.58cfa832e4b0c9d6adf6d61a,NA,Alive,MALE,ASIAN,NOT HISPANIC OR LATINO,Esophageal Carcinoma,Esophagus,TCGA-ESCA,NA,ILSbio,Vietnam,NO,T3,N0,Not available,Stage IIA,A267-26,TRUE,7
-13722.58cfa831e4b0c9d6adf6c4ac,NA,Alive,MALE,ASIAN,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,ILSbio,Vietnam,NO,T2,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage II,A210-26,TRUE,22
-13722.58cfa831e4b0c9d6adf6c6b6,NA,Alive,MALE,ASIAN,NOT HISPANIC OR LATINO,Head and Neck Squamous Cell Carcinoma,Head and Neck,TCGA-HNSC,NA,"University Health Network, Toronto",Canada,NO,T2,N0,Head and Neck Squamous Cell Carcinoma,Stage II,2317-26,TRUE,12
-13722.58cfa831e4b0c9d6adf6c7da,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Head and Neck Squamous Cell Carcinoma,Head and Neck,TCGA-HNSC,NA,MD Anderson Cancer Center,United States,NO,T1,N0,Head and Neck Squamous Cell Carcinoma,Stage I,2317-26,TRUE,11
-13722.58cfa831e4b0c9d6adf6c828,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Head and Neck Squamous Cell Carcinoma,Head and Neck,TCGA-HNSC,NA,MD Anderson Cancer Center,United States,NO,T2,N0,Head and Neck Squamous Cell Carcinoma,Stage II,2317-26,TRUE,14
-13722.58cfa831e4b0c9d6adf6c837,NA,Dead,FEMALE,Not available,HISPANIC OR LATINO,Head and Neck Squamous Cell Carcinoma,Head and Neck,TCGA-HNSC,572,MD Anderson Cancer Center,United States,NO,T2,NX,Head and Neck Squamous Cell Carcinoma,Stage II,2317-26,TRUE,10
-13722.58cfa831e4b0c9d6adf6cae0,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Thyroid Carcinoma,Thyroid,TCGA-THCA,NA,Memorial Sloan Kettering,United States,NO,T1b,N0,Thyroid Papillary Carcinoma - Tall Cell (>= 50% tall cell features),Stage I,A221-26,TRUE,31
-13722.58cfa832e4b0c9d6adf6ce0c,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,BLN - University Of Chicago,United States,NO,T2b,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage II,A210-26,TRUE,43
-13722.58cfa832e4b0c9d6adf6ce9c,NA,Dead,MALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,122,BLN - University Of Chicago,United States,NO,T3a,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage III,A210-26,TRUE,11
-13722.58cfa832e4b0c9d6adf6cfe0,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,International Genomics Consortium,United States,NO,T3,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage III,A233-26,TRUE,11
-13722.58cfa832e4b0c9d6adf6d134,NA,Alive,MALE,ASIAN,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,MD Anderson,United States,NO,Not available,Not available,Muscle invasive urothelial carcinoma (pT2 or above),Stage II,A233-26,TRUE,14
-13722.58cfa832e4b0c9d6adf6d254,NA,Alive,FEMALE,WHITE,Not available,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,Memorial Sloan Kettering,United States,NO,T1b1,N0,Endometrioid Adenocarcinoma of Endocervix,Not available,A232-26,TRUE,4
-13722.58cfa832e4b0c9d6adf6d269,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,ABS - Lahey Clinic,United States,NO,T3a,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage III,A23Q-26,TRUE,8
-13722.58cfa832e4b0c9d6adf6d490,NA,Alive,MALE,Not available,Not available,Uveal Melanoma,Eye,TCGA-UVM,NA,University of Liverpool,United Kingdom,NO,T2a,N0,Not available,Stage IIA,A40D-26,TRUE,10
-13722.58cfa830e4b0c9d6adf6bf87,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Thyroid Carcinoma,Thyroid,TCGA-THCA,NA,University of Pittsburgh,United States,NO,T1a,N0,Thyroid Papillary Carcinoma - Classical/usual,Stage I,A221-26,TRUE,17
-13722.58cfa830e4b0c9d6adf6c266,NA,Dead,FEMALE,WHITE,NOT HISPANIC OR LATINO,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,604,Medical College of Wisconsin,United States,NO,Not available,Not available,Cervical Squamous Cell Carcinoma,Not available,A20X-26,TRUE,5
-13722.58cfa831e4b0c9d6adf6c47a,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,University of Pittsburgh,United States,NO,T2b,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage II,A221-26,TRUE,16
-13722.58cfa831e4b0c9d6adf6c6c8,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,UNC,United States,NO,T3b,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage III,A21C-26,TRUE,26
-13722.58cfa831e4b0c9d6adf6c772,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Head and Neck Squamous Cell Carcinoma,Head and Neck,TCGA-HNSC,NA,"University Health Network, Toronto",Canada,NO,T2,N0,Head and Neck Squamous Cell Carcinoma,Stage II,2317-26,TRUE,11
-13722.58cfa831e4b0c9d6adf6c8e6,NA,Dead,MALE,BLACK OR AFRICAN AMERICAN,Not available,Head and Neck Squamous Cell Carcinoma,Head and Neck,TCGA-HNSC,862,MD Anderson Cancer Center,United States,NO,T3,N0,Head and Neck Squamous Cell Carcinoma,Stage III,2317-26,TRUE,12
-13722.58cfa831e4b0c9d6adf6c8de,NA,Dead,MALE,WHITE,NOT HISPANIC OR LATINO,Head and Neck Squamous Cell Carcinoma,Head and Neck,TCGA-HNSC,107,MD Anderson Cancer Center,United States,NO,T4a,N2b,Head and Neck Squamous Cell Carcinoma,Stage IVA,2317-26,TRUE,7
-13722.58cfa831e4b0c9d6adf6cb12,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,Asterand,Russia,NO,T1b,N0,Cervical Squamous Cell Carcinoma,Not available,A20X-26,TRUE,6
-13722.58cfa831e4b0c9d6adf6cbbe,NA,Alive,FEMALE,WHITE,HISPANIC OR LATINO,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,Gynecologic Oncology Group,United States,NO,Not available,Not available,Endocervical Type of Adenocarcinoma,Not available,A20X-26,TRUE,7
-13722.58cfa831e4b0c9d6adf6cbb4,NA,Alive,FEMALE,WHITE,Not available,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,Gynecologic Oncology Group,United States,NO,T2b,N1,Cervical Squamous Cell Carcinoma,Not available,A20X-26,TRUE,6
-13722.58cfa831e4b0c9d6adf6cbf1,NA,Alive,FEMALE,Not available,Not available,Thyroid Carcinoma,Thyroid,TCGA-THCA,NA,University Health Network,Canada,NO,T2,N1a,Thyroid Papillary Carcinoma - Classical/usual,Stage III,A221-26,TRUE,18
-13722.58cfa831e4b0c9d6adf6cc80,NA,Alive,FEMALE,WHITE,HISPANIC OR LATINO,Thyroid Carcinoma,Thyroid,TCGA-THCA,NA,MD Anderson,United States,NO,T3,N0,Thyroid Papillary Carcinoma - Classical/usual,Stage I,A221-26,TRUE,23
-13722.58cfa832e4b0c9d6adf6cdfc,NA,Alive,MALE,WHITE,HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,BLN - University Of Chicago,United States,NO,T3b,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage III,A233-26,TRUE,12
-13722.58cfa832e4b0c9d6adf6ce63,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,BLN - Cleveland Clinic,United States,NO,Not available,NX,Muscle invasive urothelial carcinoma (pT2 or above),Stage II,A221-26,TRUE,18
-13722.58cfa832e4b0c9d6adf6ce8b,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Thyroid Carcinoma,Thyroid,TCGA-THCA,NA,International Genomics Consortium,United States,NO,T2,NX,Thyroid Papillary Carcinoma - Classical/usual,Stage I,A221-26,TRUE,11
-13722.58cfa832e4b0c9d6adf6ce99,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Thyroid Carcinoma,Thyroid,TCGA-THCA,NA,International Genomics Consortium,United States,NO,T3,NX,Thyroid Papillary Carcinoma - Classical/usual,Stage III,A221-26,TRUE,22
-13722.58cfa832e4b0c9d6adf6cee4,NA,Alive,FEMALE,Not available,Not available,Thyroid Carcinoma,Thyroid,TCGA-THCA,NA,University Health Network,Canada,NO,T1b,N0,Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned),Stage I,A221-26,TRUE,27
-13722.58cfa832e4b0c9d6adf6cf9f,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Thyroid Carcinoma,Thyroid,TCGA-THCA,NA,Christiana Healthcare,United States,NO,T1b,N0,Thyroid Papillary Carcinoma - Follicular (>= 99% follicular patterned),Stage I,A221-26,TRUE,23
-13722.58cfa832e4b0c9d6adf6d024,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,International Genomics Consortium,United States,NO,T2b,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage II,A23Q-26,TRUE,6
-13722.58cfa832e4b0c9d6adf6d042,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,International Genomics Consortium,United States,NO,T2b,N0,Endocervical Type of Adenocarcinoma,Not available,A20X-26,TRUE,4
-13722.58cfa832e4b0c9d6adf6d026,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,NA,ABS - IUPUI,United States,NO,T4a,N1,Muscle invasive urothelial carcinoma (pT2 or above),Stage IV,A221-26,TRUE,13
-13722.58cfa832e4b0c9d6adf6d132,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Thyroid Carcinoma,Thyroid,TCGA-THCA,NA,International Genomics Consortium,United States,NO,T2,N1b,Thyroid Papillary Carcinoma - Classical/usual,Stage IVA,A221-26,TRUE,9
-13722.58cfa832e4b0c9d6adf6d191,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Thyroid Carcinoma,Thyroid,TCGA-THCA,NA,Ohio State University,United States,NO,T3,N1,Thyroid Papillary Carcinoma - Classical/usual,Stage I,A221-26,TRUE,11
-13722.58cfa832e4b0c9d6adf6d3e3,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Uveal Melanoma,Eye,TCGA-UVM,NA,Institut Curie,France,NO,T4a,N0,Not available,Stage IIIA,A40D-26,TRUE,6
-13722.58cfa832e4b0c9d6adf6d49c,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Uveal Melanoma,Eye,TCGA-UVM,NA,Institut Curie,France,NO,T4a,N0,Not available,Stage IIIA,A40D-26,TRUE,3
-13722.58cfa832e4b0c9d6adf6d412,NA,Dead,FEMALE,WHITE,NOT HISPANIC OR LATINO,Uveal Melanoma,Eye,TCGA-UVM,730,Institut Curie,France,NO,T4a,N0,Not available,Stage IIIA,A40D-26,TRUE,4
-13722.58cfa832e4b0c9d6adf6d4e5,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Uveal Melanoma,Eye,TCGA-UVM,NA,Institut Curie,France,NO,T3a,N0,Not available,Stage IIB,A40D-26,TRUE,3
-13722.58cfa832e4b0c9d6adf6d4cc,NA,Alive,FEMALE,Not available,Not available,Uveal Melanoma,Eye,TCGA-UVM,NA,University of Liverpool,United Kingdom,NO,T3a,NX,Not available,Stage IIB,A40D-26,TRUE,6
-13722.58cfa831e4b0c9d6adf6ca5a,NA,Dead,MALE,WHITE,NOT HISPANIC OR LATINO,Bladder Urothelial Carcinoma,Bladder,TCGA-BLCA,250,Memorial Sloan Kettering,United States,NO,T4a,N0,Muscle invasive urothelial carcinoma (pT2 or above),Stage III,A210-26,TRUE,7
+﻿id,investigation,disease_type,observed_otus
+13722.58cfa830e4b0c9d6adf6be66,TCGA-THCA,Thyroid Carcinoma,19
+13722.58cfa831e4b0c9d6adf6c7cb,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,22
+13722.58cfa831e4b0c9d6adf6c8ea,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,12
+13722.58cfa831e4b0c9d6adf6cb00,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,5
+13722.58cfa831e4b0c9d6adf6ccdf,TCGA-THCA,Thyroid Carcinoma,13
+13722.58cfa831e4b0c9d6adf6cd9c,TCGA-BLCA,Bladder Urothelial Carcinoma,17
+13722.58cfa832e4b0c9d6adf6ce58,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,1
+13722.58cfa832e4b0c9d6adf6ceac,TCGA-BLCA,Bladder Urothelial Carcinoma,17
+13722.58cfa832e4b0c9d6adf6cf7f,TCGA-BLCA,Bladder Urothelial Carcinoma,10
+13722.58cfa832e4b0c9d6adf6cfb8,TCGA-BLCA,Bladder Urothelial Carcinoma,13
+13722.58cfa832e4b0c9d6adf6d0d4,TCGA-THCA,Thyroid Carcinoma,15
+13722.58cfa832e4b0c9d6adf6d128,TCGA-BLCA,Bladder Urothelial Carcinoma,15
+13722.58cfa832e4b0c9d6adf6d1a4,TCGA-ESCA,Esophageal Carcinoma,7
+13722.58cfa832e4b0c9d6adf6d3d0,TCGA-ESCA,Esophageal Carcinoma,7
+13722.58cfa832e4b0c9d6adf6d578,TCGA-UVM,Uveal Melanoma,7
+13722.58cfa832e4b0c9d6adf6d57a,TCGA-ESCA,Esophageal Carcinoma,5
+13722.58cfa832e4b0c9d6adf6d5b4,TCGA-ESCA,Esophageal Carcinoma,4
+13722.58cfa832e4b0c9d6adf6d618,TCGA-ESCA,Esophageal Carcinoma,8
+13722.58cfa831e4b0c9d6adf6c710,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,5
+13722.58cfa831e4b0c9d6adf6c737,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,10
+13722.58cfa831e4b0c9d6adf6c76c,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,18
+13722.58cfa831e4b0c9d6adf6c757,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,9
+13722.58cfa831e4b0c9d6adf6cb0e,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,7
+13722.58cfa831e4b0c9d6adf6ccf8,TCGA-BLCA,Bladder Urothelial Carcinoma,18
+13722.58cfa832e4b0c9d6adf6ce60,TCGA-BLCA,Bladder Urothelial Carcinoma,25
+13722.58cfa832e4b0c9d6adf6ceed,TCGA-THCA,Thyroid Carcinoma,12
+13722.58cfa832e4b0c9d6adf6cfd8,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,2
+13722.58cfa832e4b0c9d6adf6cff0,TCGA-BLCA,Bladder Urothelial Carcinoma,20
+13722.58cfa832e4b0c9d6adf6d058,TCGA-ESCA,Esophageal Carcinoma,5
+13722.58cfa832e4b0c9d6adf6d116,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,7
+13722.58cfa832e4b0c9d6adf6d16e,TCGA-ESCA,Esophageal Carcinoma,6
+13722.58cfa832e4b0c9d6adf6d3cd,TCGA-ESCA,Esophageal Carcinoma,4
+13722.58cfa832e4b0c9d6adf6d35e,TCGA-ESCA,Esophageal Carcinoma,6
+13722.58cfa832e4b0c9d6adf6d407,TCGA-UVM,Uveal Melanoma,2
+13722.58cfa832e4b0c9d6adf6d630,TCGA-ESCA,Esophageal Carcinoma,10
+13722.58cfa832e4b0c9d6adf6d545,TCGA-ESCA,Esophageal Carcinoma,5
+13722.58cfa832e4b0c9d6adf6d602,TCGA-ESCA,Esophageal Carcinoma,3
+13722.58cfa830e4b0c9d6adf6c2d8,TCGA-BLCA,Bladder Urothelial Carcinoma,17
+13722.58cfa831e4b0c9d6adf6c50c,TCGA-BLCA,Bladder Urothelial Carcinoma,17
+13722.58cfa831e4b0c9d6adf6c610,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,7
+13722.58cfa831e4b0c9d6adf6c819,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,17
+13722.58cfa831e4b0c9d6adf6c8bc,TCGA-BLCA,Bladder Urothelial Carcinoma,17
+13722.58cfa831e4b0c9d6adf6c8c2,TCGA-BLCA,Bladder Urothelial Carcinoma,13
+13722.58cfa831e4b0c9d6adf6c9b5,TCGA-BLCA,Bladder Urothelial Carcinoma,15
+13722.58cfa831e4b0c9d6adf6c9d5,TCGA-BLCA,Bladder Urothelial Carcinoma,14
+13722.58cfa831e4b0c9d6adf6cb17,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,5
+13722.58cfa831e4b0c9d6adf6cd50,TCGA-BLCA,Bladder Urothelial Carcinoma,18
+13722.58cfa831e4b0c9d6adf6cdc5,TCGA-BLCA,Bladder Urothelial Carcinoma,18
+13722.58cfa832e4b0c9d6adf6ce0f,TCGA-BLCA,Bladder Urothelial Carcinoma,11
+13722.58cfa832e4b0c9d6adf6ce18,TCGA-BLCA,Bladder Urothelial Carcinoma,15
+13722.58cfa832e4b0c9d6adf6cf1a,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,5
+13722.58cfa832e4b0c9d6adf6d0ac,TCGA-ESCA,Esophageal Carcinoma,4
+13722.58cfa832e4b0c9d6adf6d12e,TCGA-BLCA,Bladder Urothelial Carcinoma,10
+13722.58cfa832e4b0c9d6adf6d158,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,8
+13722.58cfa832e4b0c9d6adf6d034,TCGA-BLCA,Bladder Urothelial Carcinoma,29
+13722.58cfa832e4b0c9d6adf6d170,TCGA-THCA,Thyroid Carcinoma,21
+13722.58cfa832e4b0c9d6adf6d655,TCGA-ESCA,Esophageal Carcinoma,4
+13722.58cfa82fe4b0c9d6adf6b8e2,TCGA-BRCA,Breast Invasive Carcinoma,26
+13722.58cfa830e4b0c9d6adf6be78,TCGA-BLCA,Bladder Urothelial Carcinoma,18
+13722.58cfa831e4b0c9d6adf6c3cb,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,7
+13722.58cfa831e4b0c9d6adf6c4d0,TCGA-BLCA,Bladder Urothelial Carcinoma,13
+13722.58cfa831e4b0c9d6adf6c87c,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,11
+13722.58cfa831e4b0c9d6adf6c8b0,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,15
+13722.58cfa831e4b0c9d6adf6cb1a,TCGA-BLCA,Bladder Urothelial Carcinoma,15
+13722.58cfa831e4b0c9d6adf6cc87,TCGA-THCA,Thyroid Carcinoma,15
+13722.58cfa831e4b0c9d6adf6cd12,TCGA-BLCA,Bladder Urothelial Carcinoma,9
+13722.58cfa831e4b0c9d6adf6cd1e,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,4
+13722.58cfa831e4b0c9d6adf6cd64,TCGA-BLCA,Bladder Urothelial Carcinoma,14
+13722.58cfa831e4b0c9d6adf6cd7e,TCGA-THCA,Thyroid Carcinoma,17
+13722.58cfa831e4b0c9d6adf6cd90,TCGA-THCA,Thyroid Carcinoma,10
+13722.58cfa832e4b0c9d6adf6cef7,TCGA-ESCA,Esophageal Carcinoma,7
+13722.58cfa832e4b0c9d6adf6ce5a,TCGA-BLCA,Bladder Urothelial Carcinoma,21
+13722.58cfa832e4b0c9d6adf6cefe,TCGA-THCA,Thyroid Carcinoma,14
+13722.58cfa832e4b0c9d6adf6cfa8,TCGA-BLCA,Bladder Urothelial Carcinoma,21
+13722.58cfa832e4b0c9d6adf6d020,TCGA-BLCA,Bladder Urothelial Carcinoma,8
+13722.58cfa832e4b0c9d6adf6d40e,TCGA-UVM,Uveal Melanoma,4
+13722.58cfa832e4b0c9d6adf6d478,TCGA-UVM,Uveal Melanoma,2
+13722.58cfa832e4b0c9d6adf6d40a,TCGA-UVM,Uveal Melanoma,1
+13722.58cfa832e4b0c9d6adf6d4da,TCGA-UVM,Uveal Melanoma,7
+13722.58cfa831e4b0c9d6adf6cd16,TCGA-BLCA,Bladder Urothelial Carcinoma,11
+13722.58cfa831e4b0c9d6adf6c4d6,TCGA-BLCA,Bladder Urothelial Carcinoma,22
+13722.58cfa831e4b0c9d6adf6c5f0,TCGA-STAD,Stomach Adenocarcinoma,7
+13722.58cfa831e4b0c9d6adf6c655,TCGA-STAD,Stomach Adenocarcinoma,10
+13722.58cfa832e4b0c9d6adf6cf6a,TCGA-BLCA,Bladder Urothelial Carcinoma,28
+13722.58cfa832e4b0c9d6adf6d160,TCGA-ESCA,Esophageal Carcinoma,4
+13722.58cfa832e4b0c9d6adf6d3ee,TCGA-UVM,Uveal Melanoma,3
+13722.58cfa832e4b0c9d6adf6d3bc,TCGA-ESCA,Esophageal Carcinoma,5
+13722.58cfa832e4b0c9d6adf6d42e,TCGA-UVM,Uveal Melanoma,4
+13722.58cfa832e4b0c9d6adf6d4b4,TCGA-UVM,Uveal Melanoma,5
+13722.58cfa832e4b0c9d6adf6d514,TCGA-UVM,Uveal Melanoma,5
+13722.58cfa832e4b0c9d6adf6d4fe,TCGA-ESCA,Esophageal Carcinoma,3
+13722.58cfa832e4b0c9d6adf6d5d7,TCGA-ESCA,Esophageal Carcinoma,6
+13722.58cfa832e4b0c9d6adf6d5cc,TCGA-ESCA,Esophageal Carcinoma,10
+13722.58cfa832e4b0c9d6adf6d5d0,TCGA-ESCA,Esophageal Carcinoma,7
+13722.58cfa832e4b0c9d6adf6d608,TCGA-ESCA,Esophageal Carcinoma,8
+13722.58cfa832e4b0c9d6adf6d84d,TCGA-ESCA,Esophageal Carcinoma,11
+13722.58cfa832e4b0c9d6adf6d5e3,TCGA-ESCA,Esophageal Carcinoma,10
+13722.58cfa831e4b0c9d6adf6c3d4,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,6
+13722.58cfa831e4b0c9d6adf6c4d2,TCGA-BLCA,Bladder Urothelial Carcinoma,13
+13722.58cfa831e4b0c9d6adf6c62c,TCGA-STAD,Stomach Adenocarcinoma,5
+13722.58cfa831e4b0c9d6adf6c6c3,TCGA-BLCA,Bladder Urothelial Carcinoma,34
+13722.58cfa831e4b0c9d6adf6c7ce,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,18
+13722.58cfa831e4b0c9d6adf6c8e0,TCGA-BLCA,Bladder Urothelial Carcinoma,18
+13722.58cfa831e4b0c9d6adf6c958,TCGA-BLCA,Bladder Urothelial Carcinoma,16
+13722.58cfa831e4b0c9d6adf6c99c,TCGA-BLCA,Bladder Urothelial Carcinoma,22
+13722.58cfa831e4b0c9d6adf6c9ce,TCGA-BLCA,Bladder Urothelial Carcinoma,18
+13722.58cfa831e4b0c9d6adf6cb30,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,6
+13722.58cfa832e4b0c9d6adf6ce0e,TCGA-BLCA,Bladder Urothelial Carcinoma,18
+13722.58cfa832e4b0c9d6adf6cfc9,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,9
+13722.58cfa832e4b0c9d6adf6cfe8,TCGA-BLCA,Bladder Urothelial Carcinoma,35
+13722.58cfa832e4b0c9d6adf6d0e2,TCGA-ESCA,Esophageal Carcinoma,6
+13722.58cfa832e4b0c9d6adf6d126,TCGA-THCA,Thyroid Carcinoma,19
+13722.58cfa832e4b0c9d6adf6d196,TCGA-BLCA,Bladder Urothelial Carcinoma,18
+13722.58cfa832e4b0c9d6adf6d2a6,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,6
+13722.58cfa832e4b0c9d6adf6d362,TCGA-ESCA,Esophageal Carcinoma,7
+13722.58cfa832e4b0c9d6adf6d388,TCGA-ESCA,Esophageal Carcinoma,6
+13722.58cfa832e4b0c9d6adf6d386,TCGA-ESCA,Esophageal Carcinoma,11
+13722.58cfa832e4b0c9d6adf6d418,TCGA-UVM,Uveal Melanoma,4
+13722.58cfa832e4b0c9d6adf6d474,TCGA-UVM,Uveal Melanoma,6
+13722.58cfa832e4b0c9d6adf6d416,TCGA-UVM,Uveal Melanoma,7
+13722.58cfa832e4b0c9d6adf6d4aa,TCGA-UVM,Uveal Melanoma,4
+13722.58cfa832e4b0c9d6adf6d426,TCGA-UVM,Uveal Melanoma,3
+13722.58cfa832e4b0c9d6adf6d4a6,TCGA-UVM,Uveal Melanoma,8
+13722.58cfa832e4b0c9d6adf6d4c6,TCGA-UVM,Uveal Melanoma,4
+13722.58cfa832e4b0c9d6adf6d4ca,TCGA-UVM,Uveal Melanoma,7
+13722.58cfa832e4b0c9d6adf6d54e,TCGA-ESCA,Esophageal Carcinoma,9
+13722.58cfa832e4b0c9d6adf6d528,TCGA-ESCA,Esophageal Carcinoma,7
+13722.58cfa832e4b0c9d6adf6d4f8,TCGA-ESCA,Esophageal Carcinoma,7
+13722.58cfa832e4b0c9d6adf6d5a8,TCGA-ESCA,Esophageal Carcinoma,9
+13722.58cfa832e4b0c9d6adf6d4fa,TCGA-ESCA,Esophageal Carcinoma,7
+13722.58cfa832e4b0c9d6adf6d5f8,TCGA-ESCA,Esophageal Carcinoma,10
+13722.58cfa831e4b0c9d6adf6c4e4,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,5
+13722.58cfa831e4b0c9d6adf6c63a,TCGA-STAD,Stomach Adenocarcinoma,5
+13722.58cfa831e4b0c9d6adf6c68f,TCGA-BLCA,Bladder Urothelial Carcinoma,21
+13722.58cfa831e4b0c9d6adf6c741,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,18
+13722.58cfa831e4b0c9d6adf6c830,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,18
+13722.58cfa831e4b0c9d6adf6c8ba,TCGA-BLCA,Bladder Urothelial Carcinoma,15
+13722.58cfa831e4b0c9d6adf6c9e6,TCGA-BLCA,Bladder Urothelial Carcinoma,15
+13722.58cfa831e4b0c9d6adf6ca0f,TCGA-BLCA,Bladder Urothelial Carcinoma,23
+13722.58cfa831e4b0c9d6adf6caf8,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,11
+13722.58cfa831e4b0c9d6adf6cb28,TCGA-BLCA,Bladder Urothelial Carcinoma,16
+13722.58cfa831e4b0c9d6adf6cc1e,TCGA-THCA,Thyroid Carcinoma,20
+13722.58cfa831e4b0c9d6adf6cc63,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,4
+13722.58cfa831e4b0c9d6adf6cc3e,TCGA-THCA,Thyroid Carcinoma,22
+13722.58cfa831e4b0c9d6adf6cc9c,TCGA-BLCA,Bladder Urothelial Carcinoma,17
+13722.58cfa831e4b0c9d6adf6ccd2,TCGA-THCA,Thyroid Carcinoma,21
+13722.58cfa832e4b0c9d6adf6d11f,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,5
+13722.58cfa832e4b0c9d6adf6d190,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,6
+13722.58cfa832e4b0c9d6adf6d19c,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,7
+13722.58cfa832e4b0c9d6adf6d19a,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,7
+13722.58cfa832e4b0c9d6adf6d1f4,TCGA-ESCA,Esophageal Carcinoma,8
+13722.58cfa832e4b0c9d6adf6d222,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,3
+13722.58cfa832e4b0c9d6adf6d322,TCGA-ESCA,Esophageal Carcinoma,7
+13722.58cfa832e4b0c9d6adf6d37a,TCGA-ESCA,Esophageal Carcinoma,9
+13722.58cfa832e4b0c9d6adf6d3ea,TCGA-UVM,Uveal Melanoma,6
+13722.58cfa832e4b0c9d6adf6d1fa,TCGA-BLCA,Bladder Urothelial Carcinoma,37
+13722.58cfa832e4b0c9d6adf6d414,TCGA-UVM,Uveal Melanoma,5
+13722.58cfa832e4b0c9d6adf6d4be,TCGA-UVM,Uveal Melanoma,6
+13722.58cfa832e4b0c9d6adf6d498,TCGA-UVM,Uveal Melanoma,5
+13722.58cfa832e4b0c9d6adf6d4a7,TCGA-UVM,Uveal Melanoma,5
+13722.58cfa832e4b0c9d6adf6d55a,TCGA-ESCA,Esophageal Carcinoma,6
+13722.58cfa832e4b0c9d6adf6d4a2,TCGA-UVM,Uveal Melanoma,3
+13722.58cfa832e4b0c9d6adf6d4dc,TCGA-UVM,Uveal Melanoma,4
+13722.58cfa831e4b0c9d6adf6c42c,TCGA-BLCA,Bladder Urothelial Carcinoma,22
+13722.58cfa832e4b0c9d6adf6ce19,TCGA-BLCA,Bladder Urothelial Carcinoma,24
+13722.58cfa832e4b0c9d6adf6d3f0,TCGA-UVM,Uveal Melanoma,8
+13722.58cfa832e4b0c9d6adf6d3d7,TCGA-UVM,Uveal Melanoma,2
+13722.58cfa832e4b0c9d6adf6d400,TCGA-UVM,Uveal Melanoma,8
+13722.58cfa832e4b0c9d6adf6d4f4,TCGA-UVM,Uveal Melanoma,6
+13722.58cfa832e4b0c9d6adf6d582,TCGA-UVM,Uveal Melanoma,6
+13722.58cfa832e4b0c9d6adf6d586,TCGA-UVM,Uveal Melanoma,8
+13722.58cfa832e4b0c9d6adf6d590,TCGA-UVM,Uveal Melanoma,7
+13722.58cfa832e4b0c9d6adf6d61a,TCGA-ESCA,Esophageal Carcinoma,7
+13722.58cfa831e4b0c9d6adf6c4ac,TCGA-BLCA,Bladder Urothelial Carcinoma,23
+13722.58cfa831e4b0c9d6adf6c6b6,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,7
+13722.58cfa831e4b0c9d6adf6c7da,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,12
+13722.58cfa831e4b0c9d6adf6c828,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,12
+13722.58cfa831e4b0c9d6adf6c837,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,7
+13722.58cfa831e4b0c9d6adf6cae0,TCGA-THCA,Thyroid Carcinoma,27
+13722.58cfa832e4b0c9d6adf6ce0c,TCGA-BLCA,Bladder Urothelial Carcinoma,40
+13722.58cfa832e4b0c9d6adf6ce9c,TCGA-BLCA,Bladder Urothelial Carcinoma,12
+13722.58cfa832e4b0c9d6adf6cfe0,TCGA-BLCA,Bladder Urothelial Carcinoma,11
+13722.58cfa832e4b0c9d6adf6d134,TCGA-BLCA,Bladder Urothelial Carcinoma,15
+13722.58cfa832e4b0c9d6adf6d254,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,3
+13722.58cfa832e4b0c9d6adf6d269,TCGA-BLCA,Bladder Urothelial Carcinoma,9
+13722.58cfa832e4b0c9d6adf6d490,TCGA-UVM,Uveal Melanoma,8
+13722.58cfa830e4b0c9d6adf6bf87,TCGA-THCA,Thyroid Carcinoma,24
+13722.58cfa830e4b0c9d6adf6c266,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,6
+13722.58cfa831e4b0c9d6adf6c47a,TCGA-BLCA,Bladder Urothelial Carcinoma,18
+13722.58cfa831e4b0c9d6adf6c6c8,TCGA-BLCA,Bladder Urothelial Carcinoma,28
+13722.58cfa831e4b0c9d6adf6c772,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,12
+13722.58cfa831e4b0c9d6adf6c8e6,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,10
+13722.58cfa831e4b0c9d6adf6c8de,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,7
+13722.58cfa831e4b0c9d6adf6cb12,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,5
+13722.58cfa831e4b0c9d6adf6cbbe,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,7
+13722.58cfa831e4b0c9d6adf6cbb4,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,6
+13722.58cfa831e4b0c9d6adf6cbf1,TCGA-THCA,Thyroid Carcinoma,16
+13722.58cfa831e4b0c9d6adf6cc80,TCGA-THCA,Thyroid Carcinoma,25
+13722.58cfa832e4b0c9d6adf6cdfc,TCGA-BLCA,Bladder Urothelial Carcinoma,18
+13722.58cfa832e4b0c9d6adf6ce63,TCGA-BLCA,Bladder Urothelial Carcinoma,21
+13722.58cfa832e4b0c9d6adf6ce8b,TCGA-THCA,Thyroid Carcinoma,12
+13722.58cfa832e4b0c9d6adf6ce99,TCGA-THCA,Thyroid Carcinoma,23
+13722.58cfa832e4b0c9d6adf6cee4,TCGA-THCA,Thyroid Carcinoma,25
+13722.58cfa832e4b0c9d6adf6cf9f,TCGA-THCA,Thyroid Carcinoma,24
+13722.58cfa832e4b0c9d6adf6d024,TCGA-BLCA,Bladder Urothelial Carcinoma,11
+13722.58cfa832e4b0c9d6adf6d042,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,8
+13722.58cfa832e4b0c9d6adf6d026,TCGA-BLCA,Bladder Urothelial Carcinoma,11
+13722.58cfa832e4b0c9d6adf6d132,TCGA-THCA,Thyroid Carcinoma,11
+13722.58cfa832e4b0c9d6adf6d191,TCGA-THCA,Thyroid Carcinoma,12
+13722.58cfa832e4b0c9d6adf6d3e3,TCGA-UVM,Uveal Melanoma,6
+13722.58cfa832e4b0c9d6adf6d49c,TCGA-UVM,Uveal Melanoma,3
+13722.58cfa832e4b0c9d6adf6d412,TCGA-UVM,Uveal Melanoma,6
+13722.58cfa832e4b0c9d6adf6d4e5,TCGA-UVM,Uveal Melanoma,2
+13722.58cfa832e4b0c9d6adf6d4cc,TCGA-UVM,Uveal Melanoma,6
+13722.58cfa831e4b0c9d6adf6ca5a,TCGA-BLCA,Bladder Urothelial Carcinoma,12

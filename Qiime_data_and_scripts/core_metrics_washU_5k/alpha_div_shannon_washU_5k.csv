@@ -1,157 +1,157 @@
-﻿id,analyte_A260A280Ratio,vital_status,gender,race,ethnicity,disease_type,primary_site,investigation,days_to_death,tissue_source_site_label,country_of_sample_procurement,pathologic_t_label,pathologic_n_label,histological_diagnosis_label,pathologic_stage_label,PlateCenter,PlateCenterFlag,shannon
-13722.58cfa82de4b0c9d6adf6a4c2,NA,Dead,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,2361,Duke,United States,T2,N0,Infiltrating Ductal Carcinoma,Stage IIA,A21Q-09,TRUE,0.1480914
-13722.58cfa82de4b0c9d6adf6a4ce,2.08,Alive,FEMALE,ASIAN,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,MSKCC,None,T3,N2,Infiltrating Ductal Carcinoma,Stage IIIA,A19H-09,TRUE,0.676678364
-13722.58cfa82de4b0c9d6adf6a48a,2.18,Alive,FEMALE,WHITE,Not available,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,NA,MSKCC,None,Not available,Not available,Serous endometrial adenocarcinoma,Not available,A066-09,TRUE,0.994749407
-13722.58cfa82de4b0c9d6adf6a4d4,1.85,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,Not available,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,NA,MSKCC,None,Not available,Not available,Serous endometrial adenocarcinoma,Not available,A066-09,TRUE,0.875113957
-13722.58cfa82de4b0c9d6adf6a529,2,Alive,FEMALE,WHITE,Not available,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,NA,MSKCC,None,Not available,Not available,Endometrioid endometrial adenocarcinoma,Not available,A127-09,FALSE,0.354452182
-13722.58cfa82de4b0c9d6adf6a46d,1.93,Dead,FEMALE,WHITE,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,1142,University of Pittsburgh,None,T2b,N1,Infiltrating Ductal Carcinoma,Stage IIA,A19H-09,TRUE,0.504602788
-13722.58cfa82de4b0c9d6adf6a52c,1.89,Alive,FEMALE,Not available,Not available,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Indivumed,Germany,T2,N2a,Infiltrating Ductal Carcinoma,Stage IIIA,A19H-09,TRUE,1.0712119
-13722.58cfa82de4b0c9d6adf6a542,1.98,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,NA,University of Pittsburgh,None,Not available,Not available,Endometrioid endometrial adenocarcinoma,Not available,A325-09,TRUE,0.579369624
-13722.58cfa82de4b0c9d6adf6a59b,NA,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,MD Anderson,United States,T2,N0 (i-),Infiltrating Ductal Carcinoma,Stage IIA,A22X-09,FALSE,0.073193322
-13722.58cfa82de4b0c9d6adf6a548,2.23,Alive,FEMALE,Not available,Not available,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Indivumed,Germany,T2,N1a,Infiltrating Ductal Carcinoma,Stage IIB,A19H-09,TRUE,0.714645005
-13722.58cfa82de4b0c9d6adf6a5a6,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Sarcoma,Mesenchymal,TCGA-SARC,NA,Memorial Sloan Kettering,United States,Not available,Not available,Not available,Not available,A29N-09,FALSE,0.252500793
-13722.58cfa82de4b0c9d6adf6a59d,2.03,Dead,FEMALE,BLACK OR AFRICAN AMERICAN,Not available,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,1484,MSKCC,None,Not available,Not available,Serous endometrial adenocarcinoma,Not available,A066-09,TRUE,0.505284527
-13722.58cfa82de4b0c9d6adf6a546,2,Alive,FEMALE,WHITE,Not available,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,NA,MSKCC,None,Not available,Not available,Serous endometrial adenocarcinoma,Not available,A013-09,TRUE,0.723982888
-13722.58cfa82de4b0c9d6adf6a572,1.88,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,UCSF,United States,T2,N0 (i-),Infiltrating Ductal Carcinoma,Stage IIA,A19H-09,TRUE,0.134171927
-13722.58cfa82de4b0c9d6adf6a5f2,2.02,Alive,FEMALE,WHITE,Not available,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,University of Pittsburgh,None,T1c,N1a,Infiltrating Ductal Carcinoma,Stage IIA,A12B-09,FALSE,0.083835167
-13722.58cfa82de4b0c9d6adf6a656,NA,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Walter Reed,United States,T2,N1a,Infiltrating Lobular Carcinoma,Stage IIB,A20S-09,FALSE,0.129116906
-13722.58cfa82de4b0c9d6adf6a610,1.95,Dead,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,348,Medical College of Wisconsin,United States,T1b,N1,Cervical Squamous Cell Carcinoma,Not available,A200-09,TRUE,0.166643131
-13722.58cfa82de4b0c9d6adf6a624,1.94,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,NA,University of North Carolina,United States,Not available,Not available,Serous endometrial adenocarcinoma,Not available,A13L-09,FALSE,0.609289542
-13722.58cfa82de4b0c9d6adf6a60e,1.85,Alive,FEMALE,Not available,Not available,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Indivumed,Germany,T2,N2a,Infiltrating Ductal Carcinoma,Stage IIIA,A19H-09,TRUE,0.314202551
-13722.58cfa82de4b0c9d6adf6a676,1.95,Dead,FEMALE,BLACK OR AFRICAN AMERICAN,Not available,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,669,MSKCC,None,Not available,Not available,Serous endometrial adenocarcinoma,Not available,A013-09,TRUE,0.521562574
-13722.58cfa82de4b0c9d6adf6a6c0,2.13,Alive,FEMALE,WHITE,Not available,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,NA,Duke,United States,Not available,Not available,Serous endometrial adenocarcinoma,Not available,A14K-09,FALSE,0.678003656
-13722.58cfa82de4b0c9d6adf6a6d6,1.82,Dead,FEMALE,WHITE,Not available,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,636,Medical College of Wisconsin,United States,Not available,Not available,Cervical Squamous Cell Carcinoma,Not available,A200-09,TRUE,0.180689302
-13722.58cfa82de4b0c9d6adf6a6ec,2.02,Alive,FEMALE,Not available,Not available,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Mayo,None,T1,N1,Infiltrating Ductal Carcinoma,Stage IIA,A19H-09,TRUE,0.120820397
-13722.58cfa82de4b0c9d6adf6a70c,1.91,Dead,FEMALE,WHITE,Not available,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,570,Medical College of Wisconsin,United States,TX,N0,Cervical Squamous Cell Carcinoma,Not available,A200-09,TRUE,0.520988534
-13722.58cfa82de4b0c9d6adf6a6e0,1.95,Alive,FEMALE,WHITE,Not available,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Walter Reed,None,T2,N0 (i-),Infiltrating Ductal Carcinoma,Stage IIA,A19H-09,TRUE,1.375043281
-13722.58cfa83ce4b0c9d6adf72e98,1.93,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Roswell Park,United States,T3,N2a,Infiltrating Ductal Carcinoma,Stage IIIA,A142-09,FALSE,0.060128108
-13722.58cfa83ce4b0c9d6adf72fd0,1.81,Alive,FEMALE,WHITE,Not available,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,NA,Duke,United States,Not available,Not available,Endometrioid endometrial adenocarcinoma,Not available,A122-09,TRUE,0.231668975
-13722.58cfa83ce4b0c9d6adf72e96,2.08,Alive,FEMALE,Not available,Not available,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Indivumed,Germany,T1c,N1,Infiltrating Ductal Carcinoma,Stage IIA,A19H-09,TRUE,0.178990921
-13722.58cfa83ce4b0c9d6adf72fd8,1.93,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,NA,Gynecologic Oncology Group,None,Not available,Not available,Endometrioid endometrial adenocarcinoma,Not available,A135-09,FALSE,0.274449207
-13722.58cfa83ce4b0c9d6adf72ee6,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,Gynecologic Oncology Group,United States,Not available,Not available,Cervical Squamous Cell Carcinoma,Not available,A18J-09,TRUE,0.322400669
-13722.58cfa83ce4b0c9d6adf730f0,2,Alive,FEMALE,ASIAN,NOT HISPANIC OR LATINO,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,NA,Cedars Sinai,None,Not available,Not available,Endometrioid endometrial adenocarcinoma,Not available,A066-09,TRUE,0.573618308
-13722.58cfa83ce4b0c9d6adf72f94,1.98,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,NA,MSKCC,None,Not available,Not available,Endometrioid endometrial adenocarcinoma,Not available,A013-09,TRUE,0.182447157
-13722.58cfa83ce4b0c9d6adf73120,1.84,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,University of Miami,United States,T3,N0 (i-),Infiltrating Lobular Carcinoma,Stage IIB,A13L-09,FALSE,0.211603439
-13722.58cfa83ce4b0c9d6adf730e8,2.08,Alive,FEMALE,Not available,Not available,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,NA,University Health Network,Canada,Not available,Not available,Serous endometrial adenocarcinoma,Not available,A159-09,FALSE,0.337148808
-13722.58cfa83ce4b0c9d6adf72ea6,2,Dead,FEMALE,WHITE,NOT HISPANIC OR LATINO,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,1106,MSKCC,None,Not available,Not available,Mixed serous and endometrioid,Not available,A066-09,TRUE,0.693408638
-13722.58cfa83ce4b0c9d6adf731a2,1.91,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,NA,MD Anderson,United States,Not available,Not available,Serous endometrial adenocarcinoma,Not available,A34H-09,TRUE,0.222465879
-13722.58cfa83ce4b0c9d6adf73074,1.97,Alive,FEMALE,ASIAN,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,ILSbio,None,T1,N2,Infiltrating Ductal Carcinoma,Stage IIIA,A19H-09,TRUE,0.881203581
-13722.58cfa83ce4b0c9d6adf7310e,1.97,Alive,FEMALE,ASIAN,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,ILSbio,Vietnam,T2,N0 (i-),Infiltrating Ductal Carcinoma,Stage IIA,A19H-09,TRUE,0.098870983
-13722.58cfa82de4b0c9d6adf6a44c,1.86,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Asterand,Russia,T2,N1,Infiltrating Ductal Carcinoma,Stage IIB,A14G-09,FALSE,0.124136881
-13722.58cfa82de4b0c9d6adf6a49a,1.97,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Walter Reed,None,T2,N1a,Infiltrating Ductal Carcinoma,Stage IIB,A19H-09,TRUE,0.613815219
-13722.58cfa82de4b0c9d6adf6a4be,1.93,Alive,FEMALE,WHITE,Not available,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,NA,MSKCC,None,Not available,Not available,Serous endometrial adenocarcinoma,Not available,A013-09,TRUE,0.110044769
-13722.58cfa82de4b0c9d6adf6a47a,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,Gynecologic Oncology Group,United States,T1b1,N0,Cervical Squamous Cell Carcinoma,Not available,A34H-09,TRUE,0.376970942
-13722.58cfa82de4b0c9d6adf6a4e6,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Sarcoma,Mesenchymal,TCGA-SARC,NA,Memorial Sloan Kettering,United States,Not available,Not available,Not available,Not available,A228-09,FALSE,0.518900067
-13722.58cfa82de4b0c9d6adf6a514,2.26,Dead,FEMALE,BLACK OR AFRICAN AMERICAN,Not available,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,361,Duke,United States,Not available,Not available,Serous endometrial adenocarcinoma,Not available,A142-09,FALSE,0.056663313
-13722.58cfa82de4b0c9d6adf6a522,1.77,Dead,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,3472,University of Pittsburgh,None,T1c,N1b,Medullary Carcinoma,Stage IIA,A13L-09,FALSE,0.317036581
-13722.58cfa82de4b0c9d6adf6a51c,1.93,Dead,FEMALE,WHITE,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,1563,University of Pittsburgh,None,T2,N2a,Infiltrating Ductal Carcinoma,Stage IIIA,A19H-09,TRUE,0.788651054
-13722.58cfa82de4b0c9d6adf6a535,2,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Walter Reed,None,T2,N1a,Infiltrating Ductal Carcinoma,Stage IIB,A314-09,TRUE,0.104334889
-13722.58cfa82de4b0c9d6adf6a53a,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Sarcoma,Mesenchymal,TCGA-SARC,NA,International Genomics Consortium,United States,Not available,Not available,Not available,Not available,A228-09,FALSE,0.262565463
-13722.58cfa82de4b0c9d6adf6a570,1.95,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,NA,Gynecologic Oncology Group,United States,Not available,Not available,Serous endometrial adenocarcinoma,Not available,A34H-09,TRUE,0.192192633
-13722.58cfa82de4b0c9d6adf6a4e2,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,Gynecologic Oncology Group,United States,T2a2,N0,Cervical Squamous Cell Carcinoma,Not available,A34H-09,TRUE,1.154743811
-13722.58cfa82de4b0c9d6adf6a599,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Sarcoma,Mesenchymal,TCGA-SARC,NA,ABS - IUPUI,United States,Not available,Not available,Not available,Not available,A24N-09,TRUE,0.188729836
-13722.58cfa82de4b0c9d6adf6a58f,2,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Not available,United States,T2,N0 (i+),Infiltrating Ductal Carcinoma,Stage IIA,A128-09,TRUE,1.115265281
-13722.58cfa82de4b0c9d6adf6a5b3,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Sarcoma,Mesenchymal,TCGA-SARC,NA,Memorial Sloan Kettering,United States,Not available,Not available,Not available,Not available,A228-09,FALSE,0.464171304
-13722.58cfa82de4b0c9d6adf6a5b2,1.95,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,MSKCC,None,T2,N0 (i-),Other  specify,Stage IIA,A10Y-09,FALSE,0.584970943
-13722.58cfa82de4b0c9d6adf6a5ce,2.13,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,NA,Cedars Sinai,None,Not available,Not available,Endometrioid endometrial adenocarcinoma,Not available,A122-09,TRUE,0.822784875
-13722.58cfa82de4b0c9d6adf6a618,1.93,Alive,FEMALE,WHITE,HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,University of Miami,United States,T1c,N1a,Infiltrating Ductal Carcinoma,Stage IIA,A17G-09,FALSE,0.078460978
-13722.58cfa82de4b0c9d6adf6a60c,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Sarcoma,Mesenchymal,TCGA-SARC,NA,Memorial Sloan Kettering,United States,Not available,Not available,Not available,Not available,A24N-09,TRUE,0.210780268
-13722.58cfa82de4b0c9d6adf6a61e,1.73,Dead,FEMALE,WHITE,NOT HISPANIC OR LATINO,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,166,Medical College of Wisconsin,United States,Not available,Not available,Cervical Squamous Cell Carcinoma,Not available,A200-09,TRUE,0.120290701
-13722.58cfa82de4b0c9d6adf6a65e,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Sarcoma,Mesenchymal,TCGA-SARC,NA,Memorial Sloan Kettering,United States,Not available,Not available,Not available,Not available,A21Q-09,TRUE,0.420767107
-13722.58cfa82de4b0c9d6adf6a640,NA,Dead,MALE,WHITE,NOT HISPANIC OR LATINO,Sarcoma,Mesenchymal,TCGA-SARC,295,Memorial Sloan Kettering,United States,Not available,Not available,Not available,Not available,A21Q-09,TRUE,0.219404652
-13722.58cfa82de4b0c9d6adf6a674,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Sarcoma,Mesenchymal,TCGA-SARC,NA,Memorial Sloan Kettering,United States,Not available,Not available,Not available,Not available,A29N-09,FALSE,0.675934744
-13722.58cfa82de4b0c9d6adf6a68a,1.87,Dead,FEMALE,Not available,Not available,Breast Invasive Carcinoma,Breast,TCGA-BRCA,426,Indivumed,Germany,T2,N3a,Infiltrating Lobular Carcinoma,Stage IIIC,A19H-09,TRUE,0.43543526
-13722.58cfa82de4b0c9d6adf6a65f,2,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,Not available,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,NA,Duke,United States,Not available,Not available,Endometrioid endometrial adenocarcinoma,Not available,A122-09,TRUE,0.317542721
-13722.58cfa82de4b0c9d6adf6a6d4,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Sarcoma,Mesenchymal,TCGA-SARC,NA,ABS - IUPUI,United States,Not available,Not available,Not available,Not available,A24N-09,TRUE,0.218601098
-13722.58cfa82de4b0c9d6adf6a6da,NA,Alive,FEMALE,ASIAN,NOT HISPANIC OR LATINO,Sarcoma,Mesenchymal,TCGA-SARC,NA,ILSbio,Vietnam,Not available,Not available,Not available,Not available,A24N-09,TRUE,0.643289787
-13722.58cfa830e4b0c9d6adf6bb98,1.91,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Walter Reed,None,T2,N0 (i-),Infiltrating Ductal Carcinoma,Stage IIA,A128-09,TRUE,0.275051091
-13722.58cfa83ce4b0c9d6adf72ea0,2.03,Dead,FEMALE,WHITE,NOT HISPANIC OR LATINO,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,709,MSKCC,None,Not available,Not available,Endometrioid endometrial adenocarcinoma,Not available,A066-09,TRUE,0.583916169
-13722.58cfa83ce4b0c9d6adf72eb0,1.75,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Greater Poland Cancer Center,Poland,T2,N0,Infiltrating Ductal Carcinoma,Stage IIA,A16D-09,FALSE,0.101341138
-13722.58cfa83ce4b0c9d6adf72edb,NA,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,University of Miami,United States,T3,N1a,Infiltrating Ductal Carcinoma,Stage IIIA,A228-09,FALSE,0.15170998
-13722.58cfa83ce4b0c9d6adf72ed8,NA,Dead,FEMALE,WHITE,Not available,Sarcoma,Mesenchymal,TCGA-SARC,180,Cedars Sinai,United States,Not available,Not available,Not available,Not available,A21Q-09,TRUE,0.510824716
-13722.58cfa83ce4b0c9d6adf72ef4,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Sarcoma,Mesenchymal,TCGA-SARC,NA,Memorial Sloan Kettering,United States,Not available,Not available,Not available,Not available,A27P-09,FALSE,0.307386506
-13722.58cfa83ce4b0c9d6adf72f0d,NA,Dead,MALE,WHITE,NOT HISPANIC OR LATINO,Sarcoma,Mesenchymal,TCGA-SARC,564,Memorial Sloan Kettering,United States,Not available,Not available,Not available,Not available,A24N-09,TRUE,0.248526349
-13722.58cfa83ce4b0c9d6adf72f45,1.82,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Sarcoma,Mesenchymal,TCGA-SARC,NA,Memorial Sloan Kettering,United States,Not available,Not available,Not available,Not available,A26G-09,FALSE,0.304324533
-13722.58cfa83ce4b0c9d6adf72f2c,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Sarcoma,Mesenchymal,TCGA-SARC,NA,Memorial Sloan Kettering,United States,Not available,Not available,Not available,Not available,A24N-09,TRUE,0.15427102
-13722.58cfa83ce4b0c9d6adf72f7b,NA,Dead,MALE,WHITE,NOT HISPANIC OR LATINO,Sarcoma,Mesenchymal,TCGA-SARC,767,University of Texas MD Anderson Cancer Center,United States,Not available,Not available,Not available,Not available,A24N-09,TRUE,0.188749026
-13722.58cfa83ce4b0c9d6adf72f7f,2.41,Alive,FEMALE,NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER,NOT HISPANIC OR LATINO,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,NA,University of Hawaii,None,Not available,Not available,Endometrioid endometrial adenocarcinoma,Not available,A122-09,TRUE,0.485724861
-13722.58cfa83ce4b0c9d6adf72f9a,1.93,Alive,FEMALE,WHITE,Not available,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Mayo,United States,T2,N0,Infiltrating Ductal Carcinoma,Stage IIA,A314-09,TRUE,0.807831793
-13722.58cfa83ce4b0c9d6adf72f73,1.96,Alive,FEMALE,ASIAN,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,ILSbio,Vietnam,T3,N2,Infiltrating Ductal Carcinoma,Stage IIIA,A19H-09,TRUE,0.632104756
-13722.58cfa83ce4b0c9d6adf72fb2,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Mayo,United States,T3,N2,Infiltrating Lobular Carcinoma,Stage III,A17W-09,FALSE,0.137359585
-13722.58cfa82de4b0c9d6adf6a45b,NA,Dead,FEMALE,WHITE,NOT HISPANIC OR LATINO,Sarcoma,Mesenchymal,TCGA-SARC,413,Memorial Sloan Kettering,United States,Not available,Not available,Not available,Not available,A21Q-09,TRUE,0.374803896
-13722.58cfa83ce4b0c9d6adf730ac,NA,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,ABS - IUPUI,United States,T3,N0,Infiltrating Ductal Carcinoma,Stage IIB,A21Q-09,TRUE,0.179226827
-13722.58cfa83ce4b0c9d6adf730ed,1.92,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Duke,United States,T3,N1b,Infiltrating Ductal Carcinoma,Stage IIIA,A128-09,TRUE,0.503676662
-13722.58cfa83ce4b0c9d6adf730e0,1.86,Alive,FEMALE,WHITE,Not available,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,NA,MSKCC,None,Not available,Not available,Endometrioid endometrial adenocarcinoma,Not available,A066-09,TRUE,0.261289542
-13722.58cfa83ce4b0c9d6adf730fa,1.88,Alive,FEMALE,WHITE,Not available,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Walter Reed,None,T1,N0 (i-),Infiltrating Ductal Carcinoma,Stage IA,A128-09,TRUE,0.324112609
-13722.58cfa83ce4b0c9d6adf730c0,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Sarcoma,Mesenchymal,TCGA-SARC,NA,International Genomics Consortium,United States,Not available,Not available,Not available,Not available,A21Q-09,TRUE,0.305545995
-13722.58cfa83ce4b0c9d6adf7313a,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Sarcoma,Mesenchymal,TCGA-SARC,NA,Cedars Sinai,United States,Not available,Not available,Not available,Not available,A21Q-09,TRUE,0.262310977
-13722.58cfa83ce4b0c9d6adf73142,NA,Dead,FEMALE,WHITE,NOT HISPANIC OR LATINO,Sarcoma,Mesenchymal,TCGA-SARC,275,Memorial Sloan Kettering,United States,Not available,Not available,Not available,Not available,A21Q-09,TRUE,0.282848104
-13722.58cfa83ce4b0c9d6adf731d0,NA,Dead,MALE,Not available,Not available,Sarcoma,Mesenchymal,TCGA-SARC,138,Memorial Sloan Kettering,United States,Not available,Not available,Not available,Not available,A29N-09,FALSE,0.411974996
-13722.58cfa83ce4b0c9d6adf731b8,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Sarcoma,Mesenchymal,TCGA-SARC,NA,Memorial Sloan Kettering,United States,Not available,Not available,Not available,Not available,A21Q-09,TRUE,0.544380734
-13722.58cfa83ce4b0c9d6adf7308c,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Sarcoma,Mesenchymal,TCGA-SARC,NA,Memorial Sloan Kettering,United States,Not available,Not available,Not available,Not available,A24N-09,TRUE,0.206922073
-13722.58cfa83ce4b0c9d6adf73082,1.98,Alive,FEMALE,WHITE,Not available,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,Medical College of Wisconsin,United States,Not available,Not available,Cervical Squamous Cell Carcinoma,Not available,A200-09,TRUE,0.075791471
-13722.58cfa82de4b0c9d6adf6a464,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Sarcoma,Mesenchymal,TCGA-SARC,NA,International Genomics Consortium,None,Not available,Not available,Not available,Not available,A21Q-09,TRUE,0.607798423
-13722.58cfa82de4b0c9d6adf6a444,1.86,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,Not available,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,University of Pittsburgh,None,T1c,N0,Infiltrating Ductal Carcinoma,Stage I,A10Y-09,FALSE,0.128473182
-13722.58cfa82de4b0c9d6adf6a4a6,2.18,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,University of Miami,United States,T3,N1a,Infiltrating Ductal Carcinoma,Stage IIIA,A142-09,FALSE,0.107486812
-13722.58cfa82de4b0c9d6adf6a4a8,1.56,Dead,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,266,Roswell Park,United States,T4b,N3a,Infiltrating Ductal Carcinoma,Stage IIIC,A14G-09,FALSE,0.381749458
-13722.58cfa82de4b0c9d6adf6a50c,1.98,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Roswell Park,None,T1c,N0,Infiltrating Ductal Carcinoma,Stage I,A314-09,TRUE,0.163152874
-13722.58cfa82de4b0c9d6adf6a50e,1.97,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Cureline,None,T2,N2,Infiltrating Ductal Carcinoma,Stage IIIA,A10G-09,FALSE,0.148082376
-13722.58cfa82de4b0c9d6adf6a52e,2,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Walter Reed,United States,T1c,N0 (i-),Infiltrating Ductal Carcinoma,Stage I,A314-09,TRUE,0.162583446
-13722.58cfa82de4b0c9d6adf6a526,2.08,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Roswell Park,None,T1c,N1mi,Infiltrating Ductal Carcinoma,Stage IIA,A19H-09,TRUE,0.689419362
-13722.58cfa82de4b0c9d6adf6a53c,1.83,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Walter Reed,United States,T2,N1,Infiltrating Ductal Carcinoma,Stage IIB,A167-09,FALSE,0.294666134
-13722.58cfa82de4b0c9d6adf6a47e,1.88,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Walter Reed,None,T2,N0 (i-),Infiltrating Ductal Carcinoma,Stage IIA,A19H-09,TRUE,0.129310273
-13722.58cfa82de4b0c9d6adf6a471,1.89,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,NA,Gynecologic Oncology Group,None,Not available,Not available,Serous endometrial adenocarcinoma,Not available,A135-09,FALSE,0.177453948
-13722.58cfa82de4b0c9d6adf6a56a,1.95,Dead,FEMALE,WHITE,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,239,University of Miami,United States,T2,N3b,Infiltrating Ductal Carcinoma,Stage IIIC,A142-09,FALSE,0.920393666
-13722.58cfa82de4b0c9d6adf6a58a,1.91,Dead,FEMALE,WHITE,NOT HISPANIC OR LATINO,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,1065,Medical College of Wisconsin,United States,T3b,N1,Endocervical Type of Adenocarcinoma,Not available,A200-09,TRUE,0.150947361
-13722.58cfa82de4b0c9d6adf6a591,2.03,Dead,FEMALE,WHITE,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,991,University of Pittsburgh,None,T1c,N1a,Infiltrating Ductal Carcinoma,Stage IIA,A314-09,TRUE,0.172566782
-13722.58cfa82de4b0c9d6adf6a5b8,1.97,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Roswell Park,None,T2,N2,Infiltrating Ductal Carcinoma,Stage IIIA,A10Y-09,FALSE,0.152686431
-13722.58cfa82de4b0c9d6adf6a596,1.84,Alive,FEMALE,WHITE,Not available,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,Cedars Sinai,United States,T1b1,N0,Cervical Squamous Cell Carcinoma,Not available,A200-09,TRUE,0.135610009
-13722.58cfa82de4b0c9d6adf6a5c6,1.86,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,Medical College of Wisconsin,United States,T1b,N0,Cervical Squamous Cell Carcinoma,Not available,A200-09,TRUE,0.136136507
-13722.58cfa82de4b0c9d6adf6a614,NA,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,MD Anderson,United States,T1c,N1a,Infiltrating Ductal Carcinoma,Stage IIA,A17W-09,FALSE,0.113670525
-13722.58cfa82de4b0c9d6adf6a63e,NA,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,University of Miami,United States,T3,N0 (i-),Infiltrating Ductal Carcinoma,Stage IIB,A21Q-09,TRUE,0.093349673
-13722.58cfa82de4b0c9d6adf6a65c,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Sarcoma,Mesenchymal,TCGA-SARC,NA,Memorial Sloan Kettering,United States,Not available,Not available,Not available,Not available,A21Q-09,TRUE,0.286175342
-13722.58cfa82de4b0c9d6adf6a642,1.95,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Roswell Park,None,T2,N3,Infiltrating Ductal Carcinoma,Stage IIIC,A19H-09,TRUE,0.06905787
-13722.58cfa82de4b0c9d6adf6a69e,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,Medical College of Wisconsin,United States,T1b,N0,Cervical Squamous Cell Carcinoma,Not available,A18J-09,TRUE,0.227700971
-13722.58cfa82de4b0c9d6adf6a658,2.09,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,Not available,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,NA,Duke,United States,Not available,Not available,Serous endometrial adenocarcinoma,Not available,A10B-09,TRUE,1.527981969
-13722.58cfa82de4b0c9d6adf6a6c4,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,Gynecologic Oncology Group,United States,Not available,Not available,Cervical Squamous Cell Carcinoma,Not available,A18J-09,TRUE,0.507159413
-13722.58cfa82de4b0c9d6adf6a6bc,2.06,Dead,FEMALE,Not available,Not available,Breast Invasive Carcinoma,Breast,TCGA-BRCA,304,Indivumed,Germany,T3,N2a,Infiltrating Ductal Carcinoma,Stage IIIA,A19H-09,TRUE,0.790703043
-13722.58cfa82de4b0c9d6adf6a530,1.93,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,NA,University of Hawaii,None,Not available,Not available,Endometrioid endometrial adenocarcinoma,Not available,A10B-09,TRUE,0.208426472
-13722.58cfa82de4b0c9d6adf6a708,2,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,NA,Roswell Park,United States,Not available,Not available,Serous endometrial adenocarcinoma,Not available,A142-09,FALSE,0.489003019
-13722.58cfa82de4b0c9d6adf6a484,NA,Dead,MALE,WHITE,NOT HISPANIC OR LATINO,Sarcoma,Mesenchymal,TCGA-SARC,427,Memorial Sloan Kettering,United States,Not available,Not available,Not available,Not available,A24N-09,TRUE,0.533761084
-13722.58cfa83ce4b0c9d6adf72e9c,1.81,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,Not available,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,NA,Duke,United States,Not available,Not available,Endometrioid endometrial adenocarcinoma,Not available,A10M-09,FALSE,0.927542096
-13722.58cfa83ce4b0c9d6adf72ea2,NA,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Walter Reed,United States,T2,N0,Infiltrating Ductal Carcinoma,Stage IIA,A23C-09,FALSE,0.171508283
-13722.58cfa83ce4b0c9d6adf72eac,1.98,Dead,FEMALE,WHITE,NOT HISPANIC OR LATINO,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,543,Cedars Sinai,None,Not available,Not available,Endometrioid endometrial adenocarcinoma,Not available,A066-09,TRUE,0.909942653
-13722.58cfa83ce4b0c9d6adf72ef8,NA,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,Not available,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,International Genomics Consortium,United States,T2,N2a,Infiltrating Ductal Carcinoma,Stage IIIA,A314-09,TRUE,0.096590627
-13722.58cfa83ce4b0c9d6adf72f7d,1.91,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Mayo,None,T1,N0,Infiltrating Ductal Carcinoma,Stage I,A12Q-09,FALSE,0.587167014
-13722.58cfa83ce4b0c9d6adf72f43,1.91,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Roswell Park,United States,T2,N0,Infiltrating Lobular Carcinoma,Stage IIA,A14K-09,FALSE,0.103336833
-13722.58cfa83ce4b0c9d6adf72fae,NA,Alive,FEMALE,WHITE,Not available,Sarcoma,Mesenchymal,TCGA-SARC,NA,Memorial Sloan Kettering,United States,Not available,Not available,Not available,Not available,A21Q-09,TRUE,0.235705197
-13722.58cfa83ce4b0c9d6adf72fc8,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Sarcoma,Mesenchymal,TCGA-SARC,NA,International Genomics Consortium,United States,Not available,Not available,Not available,Not available,A24N-09,TRUE,0.259474225
-13722.58cfa83ce4b0c9d6adf72fec,NA,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Sarcoma,Mesenchymal,TCGA-SARC,NA,University of North Carolina,United States,Not available,Not available,Not available,Not available,A24N-09,TRUE,0.221022545
-13722.58cfa83ce4b0c9d6adf72f9e,2,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,HISPANIC OR LATINO,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,NA,Christiana Healthcare,None,Not available,Not available,Serous endometrial adenocarcinoma,Not available,A013-09,TRUE,0.330809325
-13722.58cfa83ce4b0c9d6adf72f72,1.98,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Roswell Park,None,T1c,N1a,Infiltrating Ductal Carcinoma,Stage IIA,A19H-09,TRUE,0.677423336
-13722.58cfa83ce4b0c9d6adf7307f,1.86,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Christiana Healthcare,None,T2,N0 (i-),Infiltrating Ductal Carcinoma,Stage IIA,A12Q-09,FALSE,0.343158376
-13722.58cfa83ce4b0c9d6adf730cb,1.86,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,University of Pittsburgh,None,T2,N0,Infiltrating Ductal Carcinoma,Stage IIA,A12Q-09,FALSE,0.094329081
-13722.58cfa83ce4b0c9d6adf7309a,1.91,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,University of Pittsburgh,None,T1c,N0,Infiltrating Ductal Carcinoma,Stage I,A10Y-09,FALSE,0.91453668
-13722.58cfa83ce4b0c9d6adf73184,1.87,Alive,FEMALE,ASIAN,NOT HISPANIC OR LATINO,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,NA,University of Hawaii,None,Not available,Not available,Endometrioid endometrial adenocarcinoma,Not available,A10B-09,TRUE,0.173946424
-13722.58cfa83ce4b0c9d6adf73156,1.83,Alive,FEMALE,ASIAN,NOT HISPANIC OR LATINO,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,NA,University of Hawaii,None,Not available,Not available,Endometrioid endometrial adenocarcinoma,Not available,A10B-09,TRUE,0.176986117
-13722.58cfa83ce4b0c9d6adf730d4,1.9,Dead,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,653,Duke,United States,T3,N1b,Other  specify,Stage IIIA,A10G-09,FALSE,0.189086125
-13722.58cfa83ce4b0c9d6adf73060,2.05,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Walter Reed,None,T2,N3a,Infiltrating Ductal Carcinoma,Stage IIIC,A19H-09,TRUE,0.431301006
-13722.58cfa83ce4b0c9d6adf731cc,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Sarcoma,Mesenchymal,TCGA-SARC,NA,Memorial Sloan Kettering,United States,Not available,Not available,Not available,Not available,A27P-09,FALSE,0.287260424
-13722.58cfa83ce4b0c9d6adf72fea,2.05,Alive,FEMALE,Not available,Not available,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Indivumed,Germany,T2,N0,Infiltrating Ductal Carcinoma,Stage IIA,A19H-09,TRUE,0.686824559
-13722.58cfa83ce4b0c9d6adf72f14,2.13,Dead,FEMALE,WHITE,NOT HISPANIC OR LATINO,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,1016,MSKCC,None,Not available,Not available,Endometrioid endometrial adenocarcinoma,Not available,A066-09,TRUE,0.66850589
-13722.58cfa82de4b0c9d6adf6a461,1.97,Dead,FEMALE,WHITE,NOT HISPANIC OR LATINO,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,1083,Medical College of Wisconsin,United States,T1b1,N1,Cervical Squamous Cell Carcinoma,Not available,A200-09,TRUE,0.885909305
-13722.58cfa82de4b0c9d6adf6a48c,1.84,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Christiana Healthcare,United States,T2,N0 (i+),Other  specify,Stage IIA,A167-09,FALSE,0.189614782
-13722.58cfa82de4b0c9d6adf6a4b4,1.91,Dead,FEMALE,ASIAN,NOT HISPANIC OR LATINO,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,146,University of Hawaii,None,Not available,Not available,Endometrioid endometrial adenocarcinoma,Not available,A10B-09,TRUE,1.411480764
-13722.58cfa82de4b0c9d6adf6a4ea,NA,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Walter Reed,United States,T2,N1a,Infiltrating Ductal Carcinoma,Stage IIB,A23C-09,FALSE,0.049267129
-13722.58cfa82de4b0c9d6adf6a510,NA,Alive,FEMALE,Not available,Not available,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,Ontario Institute for Cancer Research,Canada,T1b,N1,Cervical Squamous Cell Carcinoma,Not available,A18J-09,TRUE,0.323095431
-13722.58cfa82de4b0c9d6adf6a64a,NA,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,Medical College of Wisconsin,United States,T1b,N1,Cervical Squamous Cell Carcinoma,Not available,A18J-09,TRUE,0.137765294
-13722.58cfa82de4b0c9d6adf6a6fa,1.9,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Duke,United States,T3,N1,Infiltrating Ductal Carcinoma,Stage IIIA,A128-09,TRUE,0.535035154
-13722.58cfa82de4b0c9d6adf6a5ee,2.03,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,MSKCC,None,T1c,N0 (i-),Infiltrating Ductal Carcinoma,Stage IA,A19H-09,TRUE,0.797672856
-13722.58cfa82de4b0c9d6adf6a4d6,2,Alive,FEMALE,Not available,HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,MSKCC,None,T2,N1,Infiltrating Ductal Carcinoma,Stage IIB,A19H-09,TRUE,0.137543448
-13722.58cfa83ce4b0c9d6adf730b4,1.95,Alive,FEMALE,BLACK OR AFRICAN AMERICAN,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Duke,United States,T3,N0 (i-),Infiltrating Ductal Carcinoma,Stage IIB,A128-09,TRUE,0.544783844
-13722.58cfa82de4b0c9d6adf6a534,NA,Alive,FEMALE,WHITE,Not available,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,NA,MSKCC,None,Not available,Not available,Endometrioid endometrial adenocarcinoma,Not available,A013-09,TRUE,0.272524673
-13722.58cfa82de4b0c9d6adf6a577,1.76,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,Cervix,TCGA-CESC,NA,Medical College of Wisconsin,United States,T2b,N0,Cervical Squamous Cell Carcinoma,Not available,A200-09,TRUE,0.248496836
-13722.58cfa82de4b0c9d6adf6a666,NA,Alive,MALE,WHITE,NOT HISPANIC OR LATINO,Sarcoma,Mesenchymal,TCGA-SARC,NA,Memorial Sloan Kettering,United States,Not available,Not available,Not available,Not available,A21Q-09,TRUE,0.289982634
-13722.58cfa82fe4b0c9d6adf6b8e0,1.89,Alive,FEMALE,WHITE,NOT HISPANIC OR LATINO,Breast Invasive Carcinoma,Breast,TCGA-BRCA,NA,Christiana Healthcare,None,T2,N0 (i-),Infiltrating Ductal Carcinoma,Stage IIA,A12L-09,FALSE,0.828841576
-13722.58cfa83ce4b0c9d6adf72efc,NA,Dead,FEMALE,WHITE,NOT HISPANIC OR LATINO,Sarcoma,Mesenchymal,TCGA-SARC,384,University of North Carolina,United States,Not available,Not available,Not available,Not available,A29N-09,FALSE,0.403517715
-13722.58cfa83ce4b0c9d6adf73090,1.93,Alive,FEMALE,WHITE,Not available,Uterine Corpus Endometrial Carcinoma,Uterus,TCGA-UCEC,NA,Cedars Sinai,None,Not available,Not available,Endometrioid endometrial adenocarcinoma,Not available,A066-09,TRUE,1.495242119
+﻿id,investigation,disease_type,shannon
+13722.58cfa82de4b0c9d6adf6a4c2,TCGA-BRCA,Breast Invasive Carcinoma,0.118296814
+13722.58cfa82de4b0c9d6adf6a4ce,TCGA-BRCA,Breast Invasive Carcinoma,0.694563843
+13722.58cfa82de4b0c9d6adf6a48a,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,1.0125421
+13722.58cfa82de4b0c9d6adf6a4d4,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.803905707
+13722.58cfa82de4b0c9d6adf6a529,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.359526073
+13722.58cfa82de4b0c9d6adf6a46d,TCGA-BRCA,Breast Invasive Carcinoma,0.423753248
+13722.58cfa82de4b0c9d6adf6a52c,TCGA-BRCA,Breast Invasive Carcinoma,1.077057751
+13722.58cfa82de4b0c9d6adf6a542,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.5532968
+13722.58cfa82de4b0c9d6adf6a59b,TCGA-BRCA,Breast Invasive Carcinoma,0.070449064
+13722.58cfa82de4b0c9d6adf6a548,TCGA-BRCA,Breast Invasive Carcinoma,0.728451197
+13722.58cfa82de4b0c9d6adf6a5a6,TCGA-SARC,Sarcoma,0.275111602
+13722.58cfa82de4b0c9d6adf6a59d,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.47852601
+13722.58cfa82de4b0c9d6adf6a546,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.724770841
+13722.58cfa82de4b0c9d6adf6a572,TCGA-BRCA,Breast Invasive Carcinoma,0.144552982
+13722.58cfa82de4b0c9d6adf6a5f2,TCGA-BRCA,Breast Invasive Carcinoma,0.077080804
+13722.58cfa82de4b0c9d6adf6a656,TCGA-BRCA,Breast Invasive Carcinoma,0.130369838
+13722.58cfa82de4b0c9d6adf6a610,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.207198208
+13722.58cfa82de4b0c9d6adf6a624,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.556740798
+13722.58cfa82de4b0c9d6adf6a60e,TCGA-BRCA,Breast Invasive Carcinoma,0.317205826
+13722.58cfa82de4b0c9d6adf6a676,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.52851211
+13722.58cfa82de4b0c9d6adf6a6c0,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.647537378
+13722.58cfa82de4b0c9d6adf6a6d6,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.205536733
+13722.58cfa82de4b0c9d6adf6a6ec,TCGA-BRCA,Breast Invasive Carcinoma,0.124442625
+13722.58cfa82de4b0c9d6adf6a70c,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.574487438
+13722.58cfa82de4b0c9d6adf6a6e0,TCGA-BRCA,Breast Invasive Carcinoma,1.369912888
+13722.58cfa83ce4b0c9d6adf72e98,TCGA-BRCA,Breast Invasive Carcinoma,0.044663164
+13722.58cfa83ce4b0c9d6adf72fd0,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.232686845
+13722.58cfa83ce4b0c9d6adf72e96,TCGA-BRCA,Breast Invasive Carcinoma,0.181604067
+13722.58cfa83ce4b0c9d6adf72fd8,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.286878188
+13722.58cfa83ce4b0c9d6adf72ee6,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.27757949
+13722.58cfa83ce4b0c9d6adf730f0,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.557221458
+13722.58cfa83ce4b0c9d6adf72f94,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.186158581
+13722.58cfa83ce4b0c9d6adf73120,TCGA-BRCA,Breast Invasive Carcinoma,0.190962064
+13722.58cfa83ce4b0c9d6adf730e8,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.33285923
+13722.58cfa83ce4b0c9d6adf72ea6,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.742739184
+13722.58cfa83ce4b0c9d6adf731a2,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.197949869
+13722.58cfa83ce4b0c9d6adf73074,TCGA-BRCA,Breast Invasive Carcinoma,0.945135478
+13722.58cfa83ce4b0c9d6adf7310e,TCGA-BRCA,Breast Invasive Carcinoma,0.095568939
+13722.58cfa82de4b0c9d6adf6a44c,TCGA-BRCA,Breast Invasive Carcinoma,0.100836247
+13722.58cfa82de4b0c9d6adf6a49a,TCGA-BRCA,Breast Invasive Carcinoma,0.655295592
+13722.58cfa82de4b0c9d6adf6a4be,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.110348563
+13722.58cfa82de4b0c9d6adf6a47a,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.367186739
+13722.58cfa82de4b0c9d6adf6a4e6,TCGA-SARC,Sarcoma,0.534891992
+13722.58cfa82de4b0c9d6adf6a514,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.061932018
+13722.58cfa82de4b0c9d6adf6a522,TCGA-BRCA,Breast Invasive Carcinoma,0.293046799
+13722.58cfa82de4b0c9d6adf6a51c,TCGA-BRCA,Breast Invasive Carcinoma,0.799504056
+13722.58cfa82de4b0c9d6adf6a535,TCGA-BRCA,Breast Invasive Carcinoma,0.131212917
+13722.58cfa82de4b0c9d6adf6a53a,TCGA-SARC,Sarcoma,0.269664591
+13722.58cfa82de4b0c9d6adf6a570,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.203513903
+13722.58cfa82de4b0c9d6adf6a4e2,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,1.138667616
+13722.58cfa82de4b0c9d6adf6a599,TCGA-SARC,Sarcoma,0.182552911
+13722.58cfa82de4b0c9d6adf6a58f,TCGA-BRCA,Breast Invasive Carcinoma,1.133045226
+13722.58cfa82de4b0c9d6adf6a5b3,TCGA-SARC,Sarcoma,0.44725671
+13722.58cfa82de4b0c9d6adf6a5b2,TCGA-BRCA,Breast Invasive Carcinoma,0.569184847
+13722.58cfa82de4b0c9d6adf6a5ce,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.81582319
+13722.58cfa82de4b0c9d6adf6a618,TCGA-BRCA,Breast Invasive Carcinoma,0.079687074
+13722.58cfa82de4b0c9d6adf6a60c,TCGA-SARC,Sarcoma,0.208169758
+13722.58cfa82de4b0c9d6adf6a61e,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.116772874
+13722.58cfa82de4b0c9d6adf6a65e,TCGA-SARC,Sarcoma,0.408658989
+13722.58cfa82de4b0c9d6adf6a640,TCGA-SARC,Sarcoma,0.196397261
+13722.58cfa82de4b0c9d6adf6a674,TCGA-SARC,Sarcoma,0.704552313
+13722.58cfa82de4b0c9d6adf6a68a,TCGA-BRCA,Breast Invasive Carcinoma,0.45902935
+13722.58cfa82de4b0c9d6adf6a65f,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.297496286
+13722.58cfa82de4b0c9d6adf6a6d4,TCGA-SARC,Sarcoma,0.227426026
+13722.58cfa82de4b0c9d6adf6a6da,TCGA-SARC,Sarcoma,0.644196804
+13722.58cfa830e4b0c9d6adf6bb98,TCGA-BRCA,Breast Invasive Carcinoma,0.319308673
+13722.58cfa83ce4b0c9d6adf72ea0,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.578456963
+13722.58cfa83ce4b0c9d6adf72eb0,TCGA-BRCA,Breast Invasive Carcinoma,0.107465747
+13722.58cfa83ce4b0c9d6adf72edb,TCGA-BRCA,Breast Invasive Carcinoma,0.153430788
+13722.58cfa83ce4b0c9d6adf72ed8,TCGA-SARC,Sarcoma,0.517624032
+13722.58cfa83ce4b0c9d6adf72ef4,TCGA-SARC,Sarcoma,0.304508489
+13722.58cfa83ce4b0c9d6adf72f0d,TCGA-SARC,Sarcoma,0.258661768
+13722.58cfa83ce4b0c9d6adf72f45,TCGA-SARC,Sarcoma,0.305746509
+13722.58cfa83ce4b0c9d6adf72f2c,TCGA-SARC,Sarcoma,0.152876154
+13722.58cfa83ce4b0c9d6adf72f7b,TCGA-SARC,Sarcoma,0.189655117
+13722.58cfa83ce4b0c9d6adf72f7f,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.504236425
+13722.58cfa83ce4b0c9d6adf72f9a,TCGA-BRCA,Breast Invasive Carcinoma,0.785885967
+13722.58cfa83ce4b0c9d6adf72f73,TCGA-BRCA,Breast Invasive Carcinoma,0.576454566
+13722.58cfa83ce4b0c9d6adf72fb2,TCGA-BRCA,Breast Invasive Carcinoma,0.127952073
+13722.58cfa82de4b0c9d6adf6a45b,TCGA-SARC,Sarcoma,0.375467851
+13722.58cfa83ce4b0c9d6adf730ac,TCGA-BRCA,Breast Invasive Carcinoma,0.184198664
+13722.58cfa83ce4b0c9d6adf730ed,TCGA-BRCA,Breast Invasive Carcinoma,0.520333962
+13722.58cfa83ce4b0c9d6adf730e0,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.283683446
+13722.58cfa83ce4b0c9d6adf730fa,TCGA-BRCA,Breast Invasive Carcinoma,0.377528183
+13722.58cfa83ce4b0c9d6adf730c0,TCGA-SARC,Sarcoma,0.344653395
+13722.58cfa83ce4b0c9d6adf7313a,TCGA-SARC,Sarcoma,0.192177658
+13722.58cfa83ce4b0c9d6adf73142,TCGA-SARC,Sarcoma,0.269917614
+13722.58cfa83ce4b0c9d6adf731d0,TCGA-SARC,Sarcoma,0.410697306
+13722.58cfa83ce4b0c9d6adf731b8,TCGA-SARC,Sarcoma,0.545609692
+13722.58cfa83ce4b0c9d6adf7308c,TCGA-SARC,Sarcoma,0.224772378
+13722.58cfa83ce4b0c9d6adf73082,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.104281956
+13722.58cfa82de4b0c9d6adf6a464,TCGA-SARC,Sarcoma,0.593631425
+13722.58cfa82de4b0c9d6adf6a444,TCGA-BRCA,Breast Invasive Carcinoma,0.135906505
+13722.58cfa82de4b0c9d6adf6a4a6,TCGA-BRCA,Breast Invasive Carcinoma,0.101396508
+13722.58cfa82de4b0c9d6adf6a4a8,TCGA-BRCA,Breast Invasive Carcinoma,0.356791542
+13722.58cfa82de4b0c9d6adf6a50c,TCGA-BRCA,Breast Invasive Carcinoma,0.159932485
+13722.58cfa82de4b0c9d6adf6a50e,TCGA-BRCA,Breast Invasive Carcinoma,0.150646841
+13722.58cfa82de4b0c9d6adf6a52e,TCGA-BRCA,Breast Invasive Carcinoma,0.13687197
+13722.58cfa82de4b0c9d6adf6a526,TCGA-BRCA,Breast Invasive Carcinoma,0.649838121
+13722.58cfa82de4b0c9d6adf6a53c,TCGA-BRCA,Breast Invasive Carcinoma,0.325717402
+13722.58cfa82de4b0c9d6adf6a47e,TCGA-BRCA,Breast Invasive Carcinoma,0.137256006
+13722.58cfa82de4b0c9d6adf6a471,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.176160731
+13722.58cfa82de4b0c9d6adf6a56a,TCGA-BRCA,Breast Invasive Carcinoma,0.911814843
+13722.58cfa82de4b0c9d6adf6a58a,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.169296705
+13722.58cfa82de4b0c9d6adf6a591,TCGA-BRCA,Breast Invasive Carcinoma,0.18106489
+13722.58cfa82de4b0c9d6adf6a5b8,TCGA-BRCA,Breast Invasive Carcinoma,0.160682622
+13722.58cfa82de4b0c9d6adf6a596,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.113732456
+13722.58cfa82de4b0c9d6adf6a5c6,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.125961567
+13722.58cfa82de4b0c9d6adf6a614,TCGA-BRCA,Breast Invasive Carcinoma,0.128790732
+13722.58cfa82de4b0c9d6adf6a63e,TCGA-BRCA,Breast Invasive Carcinoma,0.08520737
+13722.58cfa82de4b0c9d6adf6a65c,TCGA-SARC,Sarcoma,0.280189652
+13722.58cfa82de4b0c9d6adf6a642,TCGA-BRCA,Breast Invasive Carcinoma,0.075919867
+13722.58cfa82de4b0c9d6adf6a69e,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.219882689
+13722.58cfa82de4b0c9d6adf6a658,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,1.533208338
+13722.58cfa82de4b0c9d6adf6a6c4,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.554515093
+13722.58cfa82de4b0c9d6adf6a6bc,TCGA-BRCA,Breast Invasive Carcinoma,0.862003258
+13722.58cfa82de4b0c9d6adf6a530,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.215288147
+13722.58cfa82de4b0c9d6adf6a708,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.444056975
+13722.58cfa82de4b0c9d6adf6a484,TCGA-SARC,Sarcoma,0.550072723
+13722.58cfa83ce4b0c9d6adf72e9c,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.926295861
+13722.58cfa83ce4b0c9d6adf72ea2,TCGA-BRCA,Breast Invasive Carcinoma,0.187588507
+13722.58cfa83ce4b0c9d6adf72eac,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.876680137
+13722.58cfa83ce4b0c9d6adf72ef8,TCGA-BRCA,Breast Invasive Carcinoma,0.106322594
+13722.58cfa83ce4b0c9d6adf72f7d,TCGA-BRCA,Breast Invasive Carcinoma,0.57356899
+13722.58cfa83ce4b0c9d6adf72f43,TCGA-BRCA,Breast Invasive Carcinoma,0.102386421
+13722.58cfa83ce4b0c9d6adf72fae,TCGA-SARC,Sarcoma,0.284063358
+13722.58cfa83ce4b0c9d6adf72fc8,TCGA-SARC,Sarcoma,0.259472995
+13722.58cfa83ce4b0c9d6adf72fec,TCGA-SARC,Sarcoma,0.229421595
+13722.58cfa83ce4b0c9d6adf72f9e,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.315624462
+13722.58cfa83ce4b0c9d6adf72f72,TCGA-BRCA,Breast Invasive Carcinoma,0.680456031
+13722.58cfa83ce4b0c9d6adf7307f,TCGA-BRCA,Breast Invasive Carcinoma,0.328205775
+13722.58cfa83ce4b0c9d6adf730cb,TCGA-BRCA,Breast Invasive Carcinoma,0.096180855
+13722.58cfa83ce4b0c9d6adf7309a,TCGA-BRCA,Breast Invasive Carcinoma,0.939744752
+13722.58cfa83ce4b0c9d6adf73184,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.15736656
+13722.58cfa83ce4b0c9d6adf73156,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.163492068
+13722.58cfa83ce4b0c9d6adf730d4,TCGA-BRCA,Breast Invasive Carcinoma,0.168795239
+13722.58cfa83ce4b0c9d6adf73060,TCGA-BRCA,Breast Invasive Carcinoma,0.432136803
+13722.58cfa83ce4b0c9d6adf731cc,TCGA-SARC,Sarcoma,0.281587668
+13722.58cfa83ce4b0c9d6adf72fea,TCGA-BRCA,Breast Invasive Carcinoma,0.717786337
+13722.58cfa83ce4b0c9d6adf72f14,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.668452988
+13722.58cfa82de4b0c9d6adf6a461,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.942147385
+13722.58cfa82de4b0c9d6adf6a48c,TCGA-BRCA,Breast Invasive Carcinoma,0.182743223
+13722.58cfa82de4b0c9d6adf6a4b4,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,1.416185788
+13722.58cfa82de4b0c9d6adf6a4ea,TCGA-BRCA,Breast Invasive Carcinoma,0.062604643
+13722.58cfa82de4b0c9d6adf6a510,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.33111222
+13722.58cfa82de4b0c9d6adf6a64a,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.151905684
+13722.58cfa82de4b0c9d6adf6a6fa,TCGA-BRCA,Breast Invasive Carcinoma,0.485527996
+13722.58cfa82de4b0c9d6adf6a5ee,TCGA-BRCA,Breast Invasive Carcinoma,0.764353511
+13722.58cfa82de4b0c9d6adf6a4d6,TCGA-BRCA,Breast Invasive Carcinoma,0.137298877
+13722.58cfa83ce4b0c9d6adf730b4,TCGA-BRCA,Breast Invasive Carcinoma,0.561611377
+13722.58cfa82de4b0c9d6adf6a534,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.271304421
+13722.58cfa82de4b0c9d6adf6a577,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.251163628
+13722.58cfa82de4b0c9d6adf6a666,TCGA-SARC,Sarcoma,0.269441953
+13722.58cfa82fe4b0c9d6adf6b8e0,TCGA-BRCA,Breast Invasive Carcinoma,0.827638628
+13722.58cfa83ce4b0c9d6adf72efc,TCGA-SARC,Sarcoma,0.400346734
+13722.58cfa83ce4b0c9d6adf73090,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,1.51903009
