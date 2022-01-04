@@ -146,8 +146,8 @@ combinedSampleCountsJoined %>%
            add = "mean",
            add.params = list(color="white",size=1)) +
   stat_compare_means(label.x.npc = 0.1, label.y = 7) +
-  stat_n_text(y.pos = -1) + ylim(c(-1.1,7)) +
-  ggsave(filename = "Figures/Supplementary_Figures/tcga_read_count_wgs_vs_rna_allSeqPlatforms_04Oct21.jpeg",
+  stat_n_text(y.pos = -1) + ylim(c(-1.1,7))
+ggsave(filename = "Figures/Supplementary_Figures/tcga_read_count_wgs_vs_rna_allSeqPlatforms_04Oct21.svg",
          dpi = "retina",
          height = 5,
          width = 3,
@@ -297,9 +297,16 @@ bamCountWithMicrobes.melted %>%
   stat_summary(geom = "text", angle = 0,
                fun.data = function(x){c(y = -8, label = length(x) )}, 
                colour = "blue",
-               position = position_dodge(width = 0)) +
-  ggsave(filename = paste0(filePath,"percentage_fungi_unmapped_and_total_primary_tumors_AllSeqPlatforms_29Sep21.jpeg"),
-         dpi = "retina", units = "in", width = 12)
+               position = position_dodge(width = 0))
+ggsave(filename = paste0(filePath,"percentage_fungi_unmapped_and_total_primary_tumors_AllSeqPlatforms_29Sep21.pdf"),
+         dpi = "retina", units = "in", width = 12, height = 4)
+
+require(rstatix)
+bamCountWithMicrobes.melted %>%
+  filter(variable %in% c("percent_fungi_unmapped","percent_fungi_total")) %>%
+  filter(sample_type == "Primary Tumor") %>%
+  group_by(variable) %>%
+  anova_test(value ~ investigation_short) %>% data.frame()
 
 #-----------------------Plot PT bacteria %s-----------------------#
 filePath <- "Figures/Supplementary_Figures/"
@@ -320,9 +327,16 @@ bamCountWithMicrobes.melted %>%
   stat_summary(geom = "text", angle = 0,
                fun.data = function(x){c(y = -6, label = length(x) )}, 
                colour = "blue",
-               position = position_dodge(width = 0)) +
-  ggsave(filename = paste0(filePath,"percentage_bacteria_unmapped_and_total_primary_tumors.jpeg"),
-         dpi = "retina", units = "in", width = 12)
+               position = position_dodge(width = 0))
+ggsave(filename = paste0(filePath,"percentage_bacteria_unmapped_and_total_primary_tumors.pdf"),
+         dpi = "retina", units = "in", width = 12, height = 4)
+
+require(rstatix)
+bamCountWithMicrobes.melted %>%
+  filter(variable %in% c("percent_bacteria_unmapped","percent_bacteria_total")) %>%
+  filter(sample_type == "Primary Tumor") %>%
+  group_by(variable) %>%
+  anova_test(value ~ investigation_short) %>% data.frame()
 
 #-----------------------Plot PT rep200 %s-----------------------#
 filePath <- "Figures/Supplementary_Figures/"
@@ -341,9 +355,16 @@ bamCountWithMicrobes.melted %>%
   stat_summary(geom = "text", angle = 0,
                fun.data = function(x){c(y = -6, label = length(x) )}, 
                colour = "blue",
-               position = position_dodge(width = 0)) +
-  ggsave(filename = paste0(filePath,"percentage_rep200_unmapped_and_total_primary_tumors.jpeg"),
-         dpi = "retina", units = "in", width = 12)
+               position = position_dodge(width = 0))
+ggsave(filename = paste0(filePath,"percentage_rep200_unmapped_and_total_primary_tumors.pdf"),
+         dpi = "retina", units = "in", width = 12, height = 4)
+
+require(rstatix)
+bamCountWithMicrobes.melted %>%
+  filter(variable %in% c("percent_rep200_unmapped","percent_rep200_total")) %>%
+  filter(sample_type == "Primary Tumor") %>%
+  group_by(variable) %>%
+  anova_test(value ~ investigation_short) %>% data.frame()
 
 #-----------------------Plot all fungi %s-----------------------#
 filePath <- "Figures/Figure_1/"
@@ -361,9 +382,15 @@ bamCountWithMicrobes.melted %>%
   stat_summary(geom = "text", angle = 0,
                fun.data = function(x){c(y = -8, label = length(x) )}, 
                colour = "blue",
-               position = position_dodge(width = 0)) +
-  ggsave(filename = paste0(filePath,"percentage_fungi_unmapped_and_total_all_sample_types.jpeg"),
-         dpi = "retina", units = "in", width = 12)
+               position = position_dodge(width = 0))
+ggsave(filename = paste0(filePath,"percentage_fungi_unmapped_and_total_all_sample_types.pdf"),
+         dpi = "retina", units = "in", width = 12, height = 4)
+
+require(rstatix)
+bamCountWithMicrobes.melted %>%
+  filter(variable %in% c("percent_fungi_unmapped","percent_fungi_total")) %>%
+  group_by(variable) %>%
+  anova_test(value ~ investigation_short) %>% data.frame()
 
 #-----------------------Plot all bacteria %s-----------------------#
 filePath <- "Figures/Supplementary_Figures/"
@@ -381,9 +408,15 @@ bamCountWithMicrobes.melted %>%
   stat_summary(geom = "text", angle = 0,
                fun.data = function(x){c(y = -6, label = length(x) )}, 
                colour = "blue",
-               position = position_dodge(width = 0)) +
-  ggsave(filename = paste0(filePath,"percentage_bacteria_unmapped_and_total_all_sample_types.jpeg"),
-         dpi = "retina", units = "in", width = 12)
+               position = position_dodge(width = 0))
+ggsave(filename = paste0(filePath,"percentage_bacteria_unmapped_and_total_all_sample_types.pdf"),
+         dpi = "retina", units = "in", width = 12, height = 4)
+
+require(rstatix)
+bamCountWithMicrobes.melted %>%
+  filter(variable %in% c("percent_bacteria_unmapped","percent_bacteria_total")) %>%
+  group_by(variable) %>%
+  anova_test(value ~ investigation_short) %>% data.frame()
 
 #-----------------------Plot all rep200 %s-----------------------#
 filePath <- "Figures/Supplementary_Figures/"
@@ -403,9 +436,15 @@ bamCountWithMicrobes.melted %>%
   stat_summary(geom = "text", angle = 0,
                fun.data = function(x){c(y = -6, label = length(x) )}, 
                colour = "blue",
-               position = position_dodge(width = 0)) +
-  ggsave(filename = paste0(filePath,"percentage_rep200_unmapped_and_total_all_sample_types.jpeg"),
-         dpi = "retina", units = "in", width = 12)
+               position = position_dodge(width = 0))
+ggsave(filename = paste0(filePath,"percentage_rep200_unmapped_and_total_all_sample_types.pdf"),
+         dpi = "retina", units = "in", width = 12, height = 4)
+
+require(rstatix)
+bamCountWithMicrobes.melted %>%
+  filter(variable %in% c("percent_rep200_unmapped","percent_rep200_total")) %>%
+  group_by(variable) %>%
+  anova_test(value ~ investigation_short) %>% data.frame()
 
 #-----------------------Plot all fungal vs bacteria %s-----------------------#
 filePath <- "Figures/Figure_1/"
@@ -423,9 +462,9 @@ bamCountWithMicrobes.melted %>%
   stat_summary(geom = "text", angle = 90,
                fun.data = function(x){c(y = -7.5, label = length(x) )}, 
                colour = "blue",
-               position = position_dodge(width = 0.75)) +
-  ggsave(filename = paste0(filePath,"percentage_of_total_fungal_vs_bacterial_all_sample_types.jpeg"),
-         dpi = "retina", units = "in", width = 12)
+               position = position_dodge(width = 0.75))
+ggsave(filename = paste0(filePath,"percentage_of_total_fungal_vs_bacterial_all_sample_types.pdf"),
+         dpi = "retina", units = "in", width = 12, height = 4)
 
 #-----------------------Plot PT fungal vs bacteria %s-----------------------#
 filePath <- "Figures/Figure_1/"
@@ -441,13 +480,14 @@ bamCountWithMicrobes.melted %>%
   scale_fill_aaas(labels = c("percent_fungi_total" = "Percentage of total reads\nclassified as fungal (%)",
                              "percent_bacteria_total" = "Percentage of total reads\nclassified as bacterial (%)")) +
   theme(legend.title = element_blank(), plot.title = element_text(hjust=0.5)) +
-  stat_compare_means(label = "p.signif", method = "wilcox.test", method.args = list(alternative = "less")) +
+  # stat_compare_means(label = "p.signif", method = "wilcox.test", method.args = list(alternative = "less")) +
+  stat_compare_means(label = "p.signif", method = "wilcox.test") +
   stat_summary(geom = "text", angle = 90,
                fun.data = function(x){c(y = -7.5, label = length(x) )}, 
-               colour = "blue",
-               position = position_dodge(width = 0.75)) +
-  ggsave(filename = paste0(filePath,"percentage_of_total_fungal_vs_bacterial_primary_tumor.jpeg"),
-         dpi = "retina", units = "in", width = 12)
+               colour = "blue", size = 3,
+               position = position_dodge(width = 0.75))
+ggsave(filename = paste0(filePath,"percentage_of_total_fungal_vs_bacterial_primary_tumor.pdf"),
+         dpi = "retina", units = "in", width = 12, height = 5.5)
 
 #----------------------------------------------------------#
 # Calculate norm read %s
@@ -504,8 +544,8 @@ bamNormCountWithMicrobes_Filt_melted %>%
   stat_summary(geom = "text", angle = 90,
                fun.data = function(x){c(y = -18, label = length(x) )}, 
                colour = "blue",
-               position = position_dodge(width = 0.75)) +
-  ggsave(filename = paste0(filePath,"normalized_ratio_fungal_vs_bacterial_reads_to_total_reads_all_sample_types.jpeg"),
+               position = position_dodge(width = 0.75))
+ggsave(filename = paste0(filePath,"normalized_ratio_fungal_vs_bacterial_reads_to_total_reads_all_sample_types.pdf"),
          dpi = "retina", units = "in", width = 12)
 
 #-----------------------Plot norm PT fungal vs bacteria %s-----------------------#
@@ -522,12 +562,13 @@ bamNormCountWithMicrobes_Filt_melted %>%
   scale_fill_aaas(labels = c("norm_ratio_fungi_total" = "Ratio of (fungal reads/genome size):total read count",
                              "norm_ratio_bacteria_total" = "Ratio of (bacterial reads/genome size):total read count")) +
   theme(legend.title = element_blank(), plot.title = element_text(hjust=0.5)) +
+  stat_compare_means(label = "p.signif", method = "wilcox.test") +
   stat_summary(geom = "text", angle = 90,
                fun.data = function(x){c(y = -18, label = length(x) )}, 
                colour = "blue",
-               position = position_dodge(width = 0.75)) +
-  ggsave(filename = paste0(filePath,"normalized_ratio_fungal_vs_bacterial_reads_to_total_reads_primary_tumor.jpeg"),
-         dpi = "retina", units = "in", width = 12)
+               position = position_dodge(width = 0.75))
+ggsave(filename = paste0(filePath,"normalized_ratio_fungal_vs_bacterial_reads_to_total_reads_primary_tumor.pdf"),
+         dpi = "retina", units = "in", width = 12, height = 5.5)
 
 #-----------------------Save data for plots-----------------------#
 cols2KeepAll <- c("investigation_short","sample_type","data_submitting_center_label","experimental_strategy",
@@ -547,6 +588,7 @@ write.csv(bamNormCountWithMicrobes_All, file = paste0(filePathCSV,"data_for_plot
 #----------------------------------------------------------#
 
 # Percent bacteria and fungi of total reads
+require(Rmisc)
 formatC(CI(metaQiitaWGS_RNA_AllSeqPlatforms_Joined_WithBamcounts$ratio_bacteria_total)*100)
 formatC(CI(metaQiitaWGS_RNA_AllSeqPlatforms_Joined_WithBamcounts$ratio_fungi_total)*100)
 
@@ -564,34 +606,100 @@ formatC(CI(ratio_fungi_rep200)*100)
 #----------------------------------------------------------#
 # Calculate fungal vs. bacterial % read correlation
 #----------------------------------------------------------#
-# Color by sample type
+# Color by sample type -- limit to PT/BDN/NAT
 metaQiitaWGS_RNA_AllSeqPlatforms_Joined_WithBamcounts %>%
-  filter(!sample_type == "Additional Metastatic") %>% # "Additional Metastatic" contains only 1 sample, so corr cannot be calc
-ggplot(aes(x = percent_bacteria_total, y = percent_fungi_total, color=sample_type)) +
-  geom_point(alpha = 0.4) + geom_smooth(method='lm') + stat_cor(method = "spearman", cor.coef.name = "rho", show.legend = FALSE) + 
+  filter(sample_type %in% c("Primary Tumor","Blood Derived Normal","Solid Tissue Normal")) %>%
+  mutate(sample_type = factor(sample_type, levels = c("Primary Tumor","Blood Derived Normal","Solid Tissue Normal"))) %>%
+  ggplot(aes(x = percent_bacteria_total, y = percent_fungi_total, color=sample_type)) +
+  geom_point(alpha = 0.2) + geom_smooth(method='lm') +
+  scale_x_log10() + scale_y_log10() +
   scale_color_aaas() + labs(x = "Percent bacterial reads of total reads (%)", 
                             y = "Percent fungal reads of total reads (%)",
                             color = "Sample Type") +
-  # scale_y_log10(breaks = trans_breaks("log10", function(x) 10^x),
-  #               labels = trans_format("log10", math_format(10^.x))) +
-  # scale_x_log10(breaks = trans_breaks("log10", function(x) 10^x),
-  #               labels = trans_format("log10", math_format(10^.x))) +
-  theme_bw() + theme(aspect.ratio=1) + coord_fixed() +
-  ggsave(filename = "Figures/Figure_1/corr_fungal_and_bacterial_read_percentages_sample_type.jpeg",
-         dpi = "retina", units = "in", width = 7, height = 7)
+  theme_pubr() + theme(aspect.ratio=1, legend.position = "right") + coord_fixed()
+ggsave(filename = "Figures/Figure_1/corr_log10_fungal_and_bacterial_read_percentages_sample_type_PT_BDN_NAT.pdf",
+         dpi = "retina", units = "in", width = 8, height = 8)
+
+metaQiitaWGS_RNA_AllSeqPlatforms_Joined_WithBamcounts %>%
+  filter(sample_type %in% c("Primary Tumor","Blood Derived Normal","Solid Tissue Normal")) %>%
+  group_by(sample_type) %>%
+  cor_test(percent_fungi_total, percent_bacteria_total, method = "spearman") %>%
+  data.frame()
+
+# Color by sample type -- others
+# NOTE: "Additional Metastatic" contains only 1 sample and "Additional - New Primary"
+# contains only 11 samples, so both of them are removed
+metaQiitaWGS_RNA_AllSeqPlatforms_Joined_WithBamcounts %>%
+  filter(!(sample_type %in% c("Primary Tumor","Blood Derived Normal","Solid Tissue Normal", "Additional Metastatic", "Additional - New Primary"))) %>%
+  ggplot(aes(x = percent_bacteria_total, y = percent_fungi_total, color=sample_type)) +
+  geom_point(alpha = 0.2) + 
+  scale_x_log10() + scale_y_log10() +
+  geom_smooth(method='lm', alpha = 0.4) +
+  scale_color_aaas(position = "right") + labs(x = "Percent bacterial reads of total reads (%)", 
+                                              y = "Percent fungal reads of total reads (%)",
+                                              color = "Sample Type") +
+  theme_pubr() + theme(aspect.ratio=1, legend.position = "right") + coord_fixed()
+ggsave(filename = "Figures/Figure_1/corr_log10_fungal_and_bacterial_read_percentages_sample_type_others.pdf",
+       dpi = "retina", units = "in", width = 8, height = 8)
+
+metaQiitaWGS_RNA_AllSeqPlatforms_Joined_WithBamcounts %>%
+  filter(!(sample_type %in% c("Primary Tumor","Blood Derived Normal","Solid Tissue Normal", "Additional Metastatic", "Additional - New Primary"))) %>%
+  group_by(sample_type) %>%
+  cor_test(percent_fungi_total, percent_bacteria_total, method = "spearman") %>%
+  data.frame()
 
 # Color by experimental strategy
 metaQiitaWGS_RNA_AllSeqPlatforms_Joined_WithBamcounts %>%
-  filter(!sample_type == "Additional Metastatic") %>% # "Additional Metastatic" contains only 1 sample, so corr cannot be calc
+  filter(!(sample_type %in% c("Additional Metastatic","Additional - New Primary"))) %>%
   ggplot(aes(x = percent_bacteria_total, y = percent_fungi_total, color=experimental_strategy)) +
-  geom_point(alpha = 0.4) + geom_smooth(method='lm') + stat_cor(method = "spearman", cor.coef.name = "rho", show.legend = FALSE) + 
+  geom_point(alpha = 0.2) + geom_smooth(method='lm') + 
+  # stat_cor(method = "spearman", cor.coef.name = "rho", show.legend = FALSE) + 
+  scale_x_log10() + scale_y_log10() +
   scale_color_aaas() + labs(x = "Percent bacterial reads of total reads (%)", 
                             y = "Percent fungal reads of total reads (%)",
                             color = "Experimental Strategy") +
-  # scale_y_log10(breaks = trans_breaks("log10", function(x) 10^x),
-  #               labels = trans_format("log10", math_format(10^.x))) +
-  # scale_x_log10(breaks = trans_breaks("log10", function(x) 10^x),
-  #               labels = trans_format("log10", math_format(10^.x))) +
-  theme_bw() + theme(aspect.ratio=1) + coord_fixed() +
-  ggsave(filename = "Figures/Figure_1/corr_fungal_and_bacterial_read_percentages_experimental_strategy.jpeg",
+  theme_bw() + theme(aspect.ratio=1) + coord_fixed()
+ggsave(filename = "Figures/Figure_1/corr_log10_fungal_and_bacterial_read_percentages_experimental_strategy.pdf",
          dpi = "retina", units = "in", width = 7, height = 7)
+
+metaQiitaWGS_RNA_AllSeqPlatforms_Joined_WithBamcounts %>%
+  filter(!(sample_type %in% c("Additional Metastatic","Additional - New Primary"))) %>%
+  group_by(experimental_strategy) %>%
+  cor_test(percent_fungi_total, percent_bacteria_total, method = "spearman") %>%
+  data.frame()
+
+#----------------------------------------------------------#
+# TCGA metadata for table S5
+#----------------------------------------------------------#
+dataTableList <- list()
+for(ii in seq_along(names(table(metaQiitaWGS_RNA_AllSeqPlatforms_Joined$investigation)))){
+  metaData <- metaQiitaWGS_RNA_AllSeqPlatforms_Joined
+  metaData$investigation <- factor(metaData$investigation)
+  study <- levels(metaData$investigation)[ii]
+  subsetMetadata <- metaData %>% filter(investigation == study) %>% droplevels()
+  seqCenterNum <- length(table(subsetMetadata$data_submitting_center_label))
+  subsetMetadataPT <- subsetMetadata %>% filter(sample_type == "Primary Tumor") %>% droplevels()
+  subsetMetadataNAT <- subsetMetadata %>% filter(sample_type == "Solid Tissue Normal") %>% droplevels()
+  subsetMetadataBDN <- subsetMetadata %>% filter(sample_type == "Blood Derived Normal") %>% droplevels()
+  subsetMetadataMet <- subsetMetadata %>% filter(sample_type == "Metastatic") %>% droplevels()
+  subsetMetadataOther <- subsetMetadata %>% filter(!(sample_type %in% c("Primary Tumor",
+                                                                        "Solid Tissue Normal",
+                                                                        "Blood Derived Normal",
+                                                                        "Metastatic"))) %>% droplevels()
+  subsetMetadataRNA <- subsetMetadata %>% filter(experimental_strategy == "RNA-Seq") %>% droplevels()
+  subsetMetadataWGS <- subsetMetadata %>% filter(experimental_strategy == "WGS") %>% droplevels()
+  dfRes <- data.frame(Study = study, 
+                      Centers = seqCenterNum,
+                      PercRNA = round(nrow(subsetMetadataRNA)/(nrow(subsetMetadataRNA)+nrow(subsetMetadataWGS)),4),
+                      Total = nrow(subsetMetadata),
+                      NAT = nrow(subsetMetadataNAT),
+                      PT = nrow(subsetMetadataPT),
+                      Met = nrow(subsetMetadataMet),
+                      BDN = nrow(subsetMetadataBDN),
+                      Other = nrow(subsetMetadataOther))
+  
+  dataTableList[[ii]] <- dfRes}
+dataTableRes <- do.call(rbind, dataTableList)
+dataTableRes %>% write.csv(file = "Figures/Supplementary_Figures/tcga_data_table_AllSeqPlatforms_21Nov21.csv",
+                           row.names = FALSE)
+

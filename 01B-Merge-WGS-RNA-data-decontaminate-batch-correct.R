@@ -250,6 +250,11 @@ decontamResults$sharedWIS <- ifelse(decontamResults$species %in% sharedSpecies, 
 
 ## Load data after literature searching is complete
 decontamResultsV2 <- read.csv("Supporting_data/mycobiome_contaminant_analyses_updated_annotations_12Oct21.csv", row.names = 1, stringsAsFactors = FALSE)
+# Extract PMIDs
+require(stringr)
+uniquePMIDs <- na.omit(unique(str_extract(string = decontamResultsV2$comments_and_literature, "[0-9]{7,8}")))
+length(uniquePMIDs)
+# Process rest of decontamV2
 decontamResultsV2 <- decontamResultsV2[,!(colnames(decontamResultsV2) == "comments_and_literature")]
 decontamResultsV2$decision <- ifelse(decontamResultsV2$shared_with_WIS == "YES" |
                                        decontamResultsV2$in_hmp_gut_mycobiome_metagenomic_data %in% c("YES","YES*") |
@@ -260,7 +265,28 @@ decontamResultsV2$decision <- ifelse(decontamResultsV2$shared_with_WIS == "YES" 
 table(decontamResultsV2$decision) # KEEP 224 | DISCARD 95
 
 contaminantsV2 <- rownames(decontamResultsV2)[which(decontamResultsV2$decision == "DISCARD")]
+
+decontamResultsV2$reason <- decontamResultsV2$known_human_association_literature
+decontamResultsV2$reason[decontamResultsV2$known_human_association_literature == "YES"] <- "Known human association"
+decontamResultsV2$reason[decontamResultsV2$known_human_association_literature == "NO"] <- "No known human association"
+decontamResultsV2$reason[decontamResultsV2$known_human_association_literature == "UNKNOWN" & decontamResultsV2$decontam_predicted_contaminant == "FALSE"] <- "Unknown human association but\nnot predicted contaminant"
+decontamResultsV2$reason[decontamResultsV2$known_human_association_literature == "UNKNOWN" & decontamResultsV2$decontam_predicted_contaminant == "TRUE"] <- "Unknown human association and\npredicted contaminant"
+decontamResultsV2$reason[decontamResultsV2$in_hmp_gut_mycobiome_metagenomic_data %in% c("YES","YES*")] <- "In HMP gut mycobiome data"
+decontamResultsV2$reason[decontamResultsV2$shared_with_WIS == "YES"] <- "Shared with WIS"
+decontamResultsV2$reason <- factor(decontamResultsV2$reason, levels = c("Shared with WIS","In HMP gut mycobiome data","Known human association",
+                                                                        "Unknown human association but\nnot predicted contaminant",
+                                                                        "Unknown human association and\npredicted contaminant",
+                                                                        "No known human association"))
+
 save(decontamResultsV2, contaminantsV2, file = "Interim_data/decontamResultsV2_13Oct21.RData")
+
+contaminantsV2boolean <- ifelse(colnames(rep200Data_WGS_RNA_HiSeq_Fungi) %in% contaminantsV2,
+                                yes = TRUE, no = FALSE)
+notContamSumFreq <- colSums(as.matrix(rep200Data_WGS_RNA_HiSeq_Fungi)[,!contaminantsV2boolean])
+contamSumFreq <- colSums(as.matrix(rep200Data_WGS_RNA_HiSeq_Fungi)[,contaminantsV2boolean])
+sum(contamSumFreq)/sum(colSums(as.matrix(rep200Data_WGS_RNA_HiSeq_Fungi))) #--> 0.02234265 (14 Oct 21)
+
+
 
 #-------------------------------------------------------------#
 
@@ -432,36 +458,36 @@ vsnmPca_ExpStrategy <- pcaPlotting(pcaObject = prcomp(snmDataOGUFungiDecontamV2)
 # "Supplementary_scripts/S01B-Run-pvca-fungi.R"
 # "Supplementary_scripts/S02-pvca-function.R"
 
-load("Interim_data/pvca_fungi_results_raw_Voom_VSNM_13Sep21.RData")
-
-pvcaRawRound <- round(pvcaRaw,3)
-pvcaVoomRound <- round(pvcaVoom,3)
-pvcaVSNMRound <- round(pvcaVSNM,3)
-
-pvcaRes <- data.frame('Sample Type' = c(pvcaRawRound[1], pvcaVoomRound[1], pvcaVSNMRound[1]),
-                      'Disease Type' = c(pvcaRawRound[2], pvcaVoomRound[2], pvcaVSNMRound[2]),
-                      'Sequencing Center' = c(pvcaRawRound[3], pvcaVoomRound[3], pvcaVSNMRound[3]),
-                      'Experimental Strategy' = c(pvcaRawRound[4], pvcaVoomRound[4], pvcaVSNMRound[4]),
-                      'Residual\n(not explained by\ntechnical variation)' = c(pvcaRawRound[5], pvcaVoomRound[5], pvcaVSNMRound[5]),
-                      data_type = factor(c("Raw count data","Voom Normalized Data","Voom Normalized & SNM Corrected Data"),
-                                         levels = c("Raw count data","Voom Normalized Data","Voom Normalized & SNM Corrected Data")),
-                      check.names = FALSE)
-
-pvcaRes.melted <- reshape2::melt(pvcaRes, id.vars = "data_type")
-pvcaRes.melted %>%
-  ggbarplot(x = "variable",
-            y = "value",
-            fill = "data_type",
-            palette = "nejm",
-            legend = "top",
-            ylim = c(0,1),
-            xlab = "Biological Effects & Technical Effects",
-            ylab = "Weighted average proportion variance",
-            label = TRUE,
-            position = position_dodge(0.9)) +
-  labs(fill = "Data type") +
-  ggsave("Figures/Supplementary_Figures/pvca_plot_OGUs_13Sep21.jpeg",
-         dpi = "retina",
-         width = 12,
-         height = 3,
-         units = "in")
+# load("Interim_data/pvca_fungi_results_raw_Voom_VSNM_13Sep21.RData")
+# 
+# pvcaRawRound <- round(pvcaRaw,3)
+# pvcaVoomRound <- round(pvcaVoom,3)
+# pvcaVSNMRound <- round(pvcaVSNM,3)
+# 
+# pvcaRes <- data.frame('Sample Type' = c(pvcaRawRound[1], pvcaVoomRound[1], pvcaVSNMRound[1]),
+#                       'Disease Type' = c(pvcaRawRound[2], pvcaVoomRound[2], pvcaVSNMRound[2]),
+#                       'Sequencing Center' = c(pvcaRawRound[3], pvcaVoomRound[3], pvcaVSNMRound[3]),
+#                       'Experimental Strategy' = c(pvcaRawRound[4], pvcaVoomRound[4], pvcaVSNMRound[4]),
+#                       'Residual\n(not explained by\ntechnical variation)' = c(pvcaRawRound[5], pvcaVoomRound[5], pvcaVSNMRound[5]),
+#                       data_type = factor(c("Raw count data","Voom Normalized Data","Voom Normalized & SNM Corrected Data"),
+#                                          levels = c("Raw count data","Voom Normalized Data","Voom Normalized & SNM Corrected Data")),
+#                       check.names = FALSE)
+# 
+# pvcaRes.melted <- reshape2::melt(pvcaRes, id.vars = "data_type")
+# pvcaRes.melted %>%
+#   ggbarplot(x = "variable",
+#             y = "value",
+#             fill = "data_type",
+#             palette = "nejm",
+#             legend = "top",
+#             ylim = c(0,1),
+#             xlab = "Biological Effects & Technical Effects",
+#             ylab = "Weighted average proportion variance",
+#             label = TRUE,
+#             position = position_dodge(0.9)) +
+#   labs(fill = "Data type") +
+#   ggsave("Figures/Supplementary_Figures/pvca_plot_OGUs_13Sep21.jpeg",
+#          dpi = "retina",
+#          width = 12,
+#          height = 3,
+#          units = "in")

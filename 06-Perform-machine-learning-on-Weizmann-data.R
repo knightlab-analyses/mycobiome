@@ -297,7 +297,7 @@ wzMLres %>%
   # rotate_x_text(90) + 
   scale_color_nejm(name = "Features") +
   geom_hline(yintercept = 1, linetype="dashed") + 
-  ggsave("Figures/Figure_4/figure_4_G__ml_weizmann_tumor_1vsAll_species_binary.jpeg", dpi = "retina",
+  ggsave("Figures/Figure_4/figure_4_G__ml_weizmann_tumor_1vsAll_species_binary.svg", dpi = "retina",
          width = 10, height = 6, units = "in")
 
 # There are lots of options to play with here. For purposes of the paper, we are focusing on the
@@ -320,7 +320,7 @@ wzMLres %>%
   # rotate_x_text(90) + 
   scale_color_nejm(name = "Features") +
   geom_hline(yintercept = 1, linetype="dashed") + 
-  ggsave("Figures/Supplementary_Figures/ml_weizmann_tumor_1vsAll_species_counts_ra_binary.jpeg", dpi = "retina",
+  ggsave("Figures/Supplementary_Figures/ml_weizmann_tumor_1vsAll_species_counts_ra_binary.svg", dpi = "retina",
          width = 10, height = 6, units = "in")
 
 #-------------------------Plot primary tumor vs. nat performance-------------------------#
@@ -343,6 +343,6 @@ wzMLres %>%
   # rotate_x_text(90) + 
   scale_color_igv(name = "Features") +
   geom_hline(yintercept = 1, linetype="dashed") + 
-  ggsave("Figures/Supplementary_Figures/ml_weizmann_tumor_vs_nat_all.jpeg", dpi = "retina",
+  ggsave("Figures/Supplementary_Figures/ml_weizmann_tumor_vs_nat_all.svg", dpi = "retina",
          width = 10, height = 6, units = "in")
 
