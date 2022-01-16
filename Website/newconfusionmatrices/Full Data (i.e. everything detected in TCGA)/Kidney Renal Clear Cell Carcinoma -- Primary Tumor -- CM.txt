@@ -1,0 +1,27 @@
+[1] "Kidney Renal Clear Cell Carcinoma"
+Confusion Matrix and Statistics
+
+                               Reference
+Prediction                      KidneyRenalClearCellCarcinoma OtherCancerType
+  KidneyRenalClearCellCarcinoma                           279              57
+  OtherCancerType                                          28            3800
+                                                       
+               Accuracy : 0.9796                       
+                 95% CI : (0.9748, 0.9837)             
+    No Information Rate : 0.9263                       
+    P-Value [Acc > NIR] : < 2.2e-16                    
+                                                       
+                  Kappa : 0.8568                       
+ Mcnemar's Test P-Value : 0.002389                     
+                                                       
+            Sensitivity : 0.90879                      
+            Specificity : 0.98522                      
+         Pos Pred Value : 0.83036                      
+         Neg Pred Value : 0.99269                      
+             Prevalence : 0.07373                      
+         Detection Rate : 0.06700                      
+   Detection Prevalence : 0.08069                      
+      Balanced Accuracy : 0.94701                      
+                                                       
+       'Positive' Class : KidneyRenalClearCellCarcinoma
+                                                       

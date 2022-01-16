@@ -1,0 +1,32 @@
+[1] "Head and Neck Squamous Cell Carcinoma"
+Confusion Matrix and Statistics
+
+                                  Reference
+Prediction                         HeadandNeckSquamousCellCarcinoma
+  HeadandNeckSquamousCellCarcinoma                               14
+  OtherCancerType                                                 8
+                                  Reference
+Prediction                         OtherCancerType
+  HeadandNeckSquamousCellCarcinoma               9
+  OtherCancerType                              205
+                                                          
+               Accuracy : 0.928                           
+                 95% CI : (0.8872, 0.9575)                
+    No Information Rate : 0.9068                          
+    P-Value [Acc > NIR] : 0.1564                          
+                                                          
+                  Kappa : 0.5824                          
+                                                          
+ Mcnemar's Test P-Value : 1.0000                          
+                                                          
+            Sensitivity : 0.63636                         
+            Specificity : 0.95794                         
+         Pos Pred Value : 0.60870                         
+         Neg Pred Value : 0.96244                         
+             Prevalence : 0.09322                         
+         Detection Rate : 0.05932                         
+   Detection Prevalence : 0.09746                         
+      Balanced Accuracy : 0.79715                         
+                                                          
+       'Positive' Class : HeadandNeckSquamousCellCarcinoma
+                                                          

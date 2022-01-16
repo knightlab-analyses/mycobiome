@@ -1,0 +1,27 @@
+[1] "Cholangiocarcinoma"
+Confusion Matrix and Statistics
+
+                    Reference
+Prediction           Cholangiocarcinoma OtherCancerType
+  Cholangiocarcinoma                  1               1
+  OtherCancerType                     9            4153
+                                            
+               Accuracy : 0.9976            
+                 95% CI : (0.9956, 0.9988)  
+    No Information Rate : 0.9976            
+    P-Value [Acc > NIR] : 0.58304           
+                                            
+                  Kappa : 0.166             
+ Mcnemar's Test P-Value : 0.02686           
+                                            
+            Sensitivity : 0.1000000         
+            Specificity : 0.9997593         
+         Pos Pred Value : 0.5000000         
+         Neg Pred Value : 0.9978376         
+             Prevalence : 0.0024015         
+         Detection Rate : 0.0002402         
+   Detection Prevalence : 0.0004803         
+      Balanced Accuracy : 0.5498796         
+                                            
+       'Positive' Class : Cholangiocarcinoma
+                                            

@@ -1,0 +1,199 @@
+execution:
+    uuid: cf88e615-43a0-40c9-bb62-b91a11ef73c4
+    runtime:
+        start: 2021-11-15T21:52:15.092554-08:00
+        end: 2021-11-15T21:52:17.089679-08:00
+        duration: 1 second, and 997125 microseconds
+
+action:
+    type: visualizer
+    plugin: !ref 'environment:plugins:diversity'
+    action: adonis
+    inputs:
+    -   distance_matrix: 3aee7d9d-fe16-464b-8bbc-fb17c3f7403c
+    parameters:
+    -   metadata: !metadata 'metadata.tsv'
+    -   formula: investigation
+    -   permutations: 999
+    -   n_jobs: 16
+    output-name: visualization
+    citations:
+    - !cite 'action|diversity:2020.2.0|visualizer:adonis|0'
+    - !cite 'action|diversity:2020.2.0|visualizer:adonis|1'
+
+transformers:
+    inputs:
+        distance_matrix:
+        -   from: DistanceMatrixDirectoryFormat
+            to: skbio.stats.distance._base:DistanceMatrix
+            plugin: !ref 'environment:plugins:types'
+
+environment:
+    platform: linux-x86_64
+    python: |-
+        3.6.7 | packaged by conda-forge | (default, Mar  4 2020, 16:55:12)
+        [GCC 7.3.0]
+    framework:
+        version: 2020.2.0
+        website: https://qiime2.org
+        citations:
+        - !cite 'framework|qiime2:2020.2.0|0'
+    plugins:
+        types:
+            version: 2020.2.0
+            website: https://github.com/qiime2/q2-types
+        diversity:
+            version: 2020.2.0
+            website: https://github.com/qiime2/q2-diversity
+    python-packages:
+        zipp: 3.0.0
+        xopen: 0.8.4
+        wrapt: 1.12.1
+        woltka: 0.1.2
+        widgetsnbextension: 3.5.1
+        wheel: 0.34.2
+        Werkzeug: 1.0.1
+        webencodings: 0.5.1
+        wcwidth: 0.1.8
+        urllib3: 1.25.7
+        unifrac: 0.10.0
+        tzlocal: 2.0.0
+        traitlets: 4.3.3
+        tqdm: 4.45.0
+        tornado: 6.0.3
+        toolz: 0.10.0
+        testpath: 0.4.4
+        terminado: 0.8.3
+        termcolor: 1.1.0
+        tensorflow: 1.15.2
+        tensorflow-estimator: 1.15.1
+        tensorboard: 1.15.0
+        statsmodels: 0.11.1
+        songbird: 1.0.3
+        six: 1.14.0
+        shogun: 1.0.7+4.ge66d0e0
+        setuptools: 45.2.0.post20200209
+        sepp: 4.3.10
+        Send2Trash: 1.5.0
+        seaborn: 0.10.0
+        scipy: 1.4.1
+        scikit-learn: 0.22.1
+        scikit-bio: 0.5.5
+        requests: 2.23.0
+        qiime2: 2020.2.0
+        q2templates: 2020.2.0
+        q2cli: 2020.2.0
+        q2-vsearch: 2020.2.0
+        q2-types: 2020.2.0
+        q2-taxa: 2020.2.0
+        q2-sample-classifier: 2020.2.0
+        q2-quality-filter: 2020.2.0
+        q2-quality-control: 2020.2.0
+        q2-phylogeny: 2020.2.0
+        q2-metadata: 2020.2.0
+        q2-longitudinal: 2020.2.0
+        q2-gneiss: 2020.2.0
+        q2-fragment-insertion: 2020.2.0
+        q2-feature-table: 2020.2.0
+        q2-feature-classifier: 2020.2.0
+        q2-emperor: 2020.2.0
+        q2-diversity: 2020.2.0
+        q2-demux: 2020.2.0
+        q2-deblur: 2020.2.0
+        q2-dada2: 2020.2.0
+        q2-cutadapt: 2020.2.0
+        q2-composition: 2020.2.0
+        q2-alignment: 2020.2.0
+        pyzmq: 19.0.0
+        PyYAML: 5.3.1
+        pytz: '2019.3'
+        python-dateutil: 2.8.1
+        pytest: 5.3.5
+        PySocks: 1.7.1
+        pyrsistent: 0.15.7
+        pyparsing: 2.4.6
+        pyOpenSSL: 19.1.0
+        Pygments: 2.5.2
+        pycparser: '2.19'
+        py: 1.8.1
+        ptyprocess: 0.6.0
+        psutil: 5.7.0
+        protobuf: 3.11.3
+        prompt-toolkit: 3.0.3
+        prometheus-client: 0.7.1
+        pluggy: 0.12.0
+        pip: 20.0.2
+        Pillow: 7.0.0
+        pickleshare: 0.7.5
+        pexpect: 4.8.0
+        patsy: 0.5.1
+        parso: 0.6.1
+        pandocfilters: 1.4.2
+        pandas: 0.25.3
+        packaging: '20.1'
+        opt-einsum: 3.2.1
+        olefile: '0.46'
+        numpy: 1.18.1
+        notebook: 6.0.3
+        nose: 1.3.7
+        networkx: '2.4'
+        nbformat: 5.0.4
+        nbconvert: 5.6.1
+        natsort: 7.0.1
+        msgpack: 1.0.0
+        more-itertools: 8.2.0
+        mistune: 0.8.4
+        matplotlib: 3.1.1
+        MarkupSafe: 1.1.1
+        Markdown: 3.2.1
+        lockfile: 0.12.2
+        kiwisolver: 1.1.0
+        Keras-Preprocessing: 1.1.0
+        Keras-Applications: 1.0.8
+        jupyter-core: 4.6.3
+        jupyter-client: 6.0.0
+        jsonschema: 3.2.0
+        joblib: 0.14.1
+        Jinja2: 2.11.1
+        jedi: 0.16.0
+        ipywidgets: 7.5.1
+        ipython: 7.12.0
+        ipython-genutils: 0.2.0
+        ipykernel: 5.1.4
+        importlib-metadata: 1.5.0
+        ijson: 2.6.1
+        idna: '2.9'
+        hdmedians: '0.13'
+        h5py: 2.10.0
+        grpcio: 1.28.1
+        google-pasta: 0.2.0
+        gneiss: 0.4.6
+        gast: 0.2.2
+        future: 0.18.2
+        fastcluster: 1.1.26
+        entrypoints: '0.3'
+        emperor: 1.0.0
+        dnaio: 0.4.1
+        DendroPy: 4.4.0
+        deicode: 0.2.4
+        defusedxml: 0.6.0
+        decorator: 4.4.1
+        deblur: 1.1.0
+        cytoolz: 0.10.1
+        Cython: 0.29.15
+        cycler: 0.10.0
+        cutadapt: '2.8'
+        cryptography: '2.8'
+        Click: '7.0'
+        chardet: 3.0.4
+        cffi: 1.13.2
+        certifi: 2020.4.5.1
+        CacheControl: 0.12.5
+        bokeh: 1.4.0
+        bleach: 3.1.1
+        biom-format: 2.1.8
+        bibtexparser: 1.1.0
+        backcall: 0.1.0
+        attrs: 19.3.0
+        astor: 0.8.1
+        absl-py: 0.9.0

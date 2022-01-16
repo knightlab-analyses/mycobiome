@@ -1,0 +1,321 @@
+"","AUROC","AUPR","rep","dataString","stageNum","minorityClassSize","majorityClassSize","diseaseType","col2Predict","nullAUROC","nullAUPR"
+"1",0.932692307692308,0.833207185342432,"Fold1","Full multikingdom database (rep200)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"2",1,1,"Fold2","Full multikingdom database (rep200)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"3",1,1,"Fold3","Full multikingdom database (rep200)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"4",1,1,"Fold4","Full multikingdom database (rep200)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"5",0.894230769230769,0.810269603410884,"Fold5","Full multikingdom database (rep200)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"6",1,1,"Fold6","Full multikingdom database (rep200)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"7",0.932692307692308,0.741199429772416,"Fold7","Full multikingdom database (rep200)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"8",0.992307692307692,0.963535688641209,"Fold8","Full multikingdom database (rep200)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"9",0.938461538461538,0.833555361951677,"Fold9","Full multikingdom database (rep200)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"10",1,1,"Fold10","Full multikingdom database (rep200)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"11",0.98951048951049,0.973847084322566,"Fold1","Full multikingdom database (rep200)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"12",0.986013986013986,0.971124173066774,"Fold2","Full multikingdom database (rep200)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"13",0.923076923076923,0.890615277151841,"Fold3","Full multikingdom database (rep200)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"14",0.947552447552447,0.91589732612314,"Fold4","Full multikingdom database (rep200)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"15",0.986013986013986,0.971124173066774,"Fold5","Full multikingdom database (rep200)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"16",1,1,"Fold6","Full multikingdom database (rep200)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"17",0.996503496503497,0.992089874819125,"Fold7","Full multikingdom database (rep200)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"18",0.996503496503497,0.992089874819125,"Fold8","Full multikingdom database (rep200)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"19",0.996503496503497,0.992089874819125,"Fold9","Full multikingdom database (rep200)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"20",1,1,"Fold10","Full multikingdom database (rep200)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"21",1,1,"Fold1","Full multikingdom database (rep200)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"22",1,1,"Fold2","Full multikingdom database (rep200)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"23",1,1,"Fold3","Full multikingdom database (rep200)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"24",1,1,"Fold4","Full multikingdom database (rep200)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"25",1,1,"Fold5","Full multikingdom database (rep200)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"26",1,1,"Fold6","Full multikingdom database (rep200)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"27",1,1,"Fold7","Full multikingdom database (rep200)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"28",1,1,"Fold8","Full multikingdom database (rep200)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"29",0.971153846153846,0.884386990129556,"Fold9","Full multikingdom database (rep200)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"30",0.980769230769231,0.908839221603023,"Fold10","Full multikingdom database (rep200)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"31",0.961538461538462,0.712317927548219,"Fold1","Full multikingdom database (rep200)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"32",1,1,"Fold2","Full multikingdom database (rep200)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"33",0.987179487179487,0.904105975849406,"Fold3","Full multikingdom database (rep200)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"34",1,1,"Fold4","Full multikingdom database (rep200)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"35",0.865384615384615,0.587759375202657,"Fold5","Full multikingdom database (rep200)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"36",1,1,"Fold6","Full multikingdom database (rep200)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"37",0.961538461538462,0.712317927548219,"Fold7","Full multikingdom database (rep200)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"38",0.923076923076923,0.635356886412091,"Fold8","Full multikingdom database (rep200)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"39",1,1,"Fold9","Full multikingdom database (rep200)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"40",1,1,"Fold10","Full multikingdom database (rep200)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"41",0.932692307692308,0.833207185342432,"Fold1","Bacteria all (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"42",1,1,"Fold2","Bacteria all (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"43",1,1,"Fold3","Bacteria all (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"44",1,1,"Fold4","Bacteria all (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"45",0.913461538461538,0.819903907734543,"Fold5","Bacteria all (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"46",1,1,"Fold6","Bacteria all (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"47",0.961538461538462,0.812466472016611,"Fold7","Bacteria all (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"48",0.953846153846154,0.88562778423481,"Fold8","Bacteria all (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"49",0.930769230769231,0.8273029574595,"Fold9","Bacteria all (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"50",1,1,"Fold10","Bacteria all (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"51",0.98951048951049,0.973847084322566,"Fold1","Bacteria all (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"52",0.986013986013986,0.974911683095654,"Fold2","Bacteria all (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"53",0.923076923076923,0.889280649157534,"Fold3","Bacteria all (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"54",0.958041958041958,0.936202929771949,"Fold4","Bacteria all (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"55",0.979020979020979,0.957958905501657,"Fold5","Bacteria all (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"56",0.98951048951049,0.9767822186226,"Fold6","Bacteria all (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"57",0.993006993006993,0.985446780422993,"Fold7","Bacteria all (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"58",0.996503496503497,0.992089874819125,"Fold8","Bacteria all (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"59",0.993006993006993,0.985446780422993,"Fold9","Bacteria all (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"60",1,1,"Fold10","Bacteria all (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"61",1,1,"Fold1","Bacteria all (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"62",1,1,"Fold2","Bacteria all (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"63",1,1,"Fold3","Bacteria all (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"64",1,1,"Fold4","Bacteria all (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"65",0.923076923076923,0.764433928687233,"Fold5","Bacteria all (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"66",0.990384615384615,0.944214112171448,"Fold6","Bacteria all (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"67",1,1,"Fold7","Bacteria all (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"68",1,1,"Fold8","Bacteria all (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"69",0.951923076923077,0.852771205429521,"Fold9","Bacteria all (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"70",1,1,"Fold10","Bacteria all (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"71",0.980769230769231,0.797267445945918,"Fold1","Bacteria all (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"72",1,1,"Fold2","Bacteria all (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"73",0.987179487179487,0.904105975849406,"Fold3","Bacteria all (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"74",1,1,"Fold4","Bacteria all (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"75",0.942307692307692,0.665284673028685,"Fold5","Bacteria all (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"76",1,1,"Fold6","Bacteria all (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"77",0.942307692307692,0.665284673028685,"Fold7","Bacteria all (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"78",0.942307692307692,0.665284673028685,"Fold8","Bacteria all (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"79",1,1,"Fold9","Bacteria all (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"80",1,1,"Fold10","Bacteria all (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"81",0.625,0.170098982642883,"Fold1","Fungi all (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"82",0.951923076923077,0.695901168918877,"Fold2","Fungi all (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"83",0.815384615384615,0.602776986756354,"Fold3","Fungi all (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"84",0.711538461538462,0.41064538030537,"Fold4","Fungi all (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"85",0.75,0.214517266116217,"Fold5","Fungi all (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"86",0.861538461538462,0.753629708940993,"Fold6","Fungi all (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"87",0.692307692307692,0.183085755775057,"Fold7","Fungi all (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"88",0.946153846153846,0.840999073971968,"Fold8","Fungi all (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"89",0.830769230769231,0.341533240014657,"Fold9","Fungi all (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"90",0.753846153846154,0.267447687409894,"Fold10","Fungi all (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"91",0.716783216783217,0.54652905935716,"Fold1","Fungi all (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"92",0.800699300699301,0.774404507526316,"Fold2","Fungi all (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"93",0.778846153846154,0.532552819336005,"Fold3","Fungi all (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"94",0.660839160839161,0.51577477643938,"Fold4","Fungi all (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"95",0.923076923076923,0.854668839855123,"Fold5","Fungi all (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"96",0.863636363636364,0.795160203679244,"Fold6","Fungi all (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"97",0.730769230769231,0.674137446516899,"Fold7","Fungi all (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"98",0.846153846153846,0.76889155977766,"Fold8","Fungi all (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"99",0.867132867132867,0.681731027168341,"Fold9","Fungi all (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"100",0.926573426573427,0.726877012227035,"Fold10","Fungi all (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"101",0.512820512820513,0.096946618518112,"Fold1","Fungi all (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"102",0.679487179487179,0.696936298576044,"Fold2","Fungi all (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"103",0.836538461538461,0.50617077232976,"Fold3","Fungi all (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"104",0.756410256410256,0.705373234312345,"Fold4","Fungi all (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"105",0.974358974358974,0.851237632457194,"Fold5","Fungi all (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"106",0.807692307692308,0.617373134502996,"Fold6","Fungi all (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"107",0.987179487179487,0.904105975849406,"Fold7","Fungi all (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"108",0.788461538461538,0.440906700142235,"Fold8","Fungi all (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"109",0.884615384615385,0.439752398196608,"Fold9","Fungi all (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"110",0.788461538461538,0.267179645911992,"Fold10","Fungi all (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"111",0.711538461538462,0.11347800516713,"Fold1","Fungi all (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"112",1,1,"Fold2","Fungi all (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"113",0.717948717948718,0.157338722197384,"Fold3","Fungi all (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"114",0.615384615384615,0.0883922160302266,"Fold4","Fungi all (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"115",0.884615384615385,0.599405822126432,"Fold5","Fungi all (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"116",0.58974358974359,0.126087014395327,"Fold6","Fungi all (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"117",0.865384615384615,0.25283223184646,"Fold7","Fungi all (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"118",0.980769230769231,0.797267445945918,"Fold8","Fungi all (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"119",0.673076923076923,0.105259232706396,"Fold9","Fungi all (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"120",0.615384615384615,0.0841864611489869,"Fold10","Fungi all (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"121",0.692307692307692,0.224866783287212,"Fold1","Fungi decontaminated (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"122",0.932692307692308,0.679484410289534,"Fold2","Fungi decontaminated (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"123",0.930769230769231,0.744612661955463,"Fold3","Fungi decontaminated (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"124",0.807692307692308,0.316467218560432,"Fold4","Fungi decontaminated (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"125",0.788461538461538,0.293210947335388,"Fold5","Fungi decontaminated (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"126",0.884615384615385,0.749222999262936,"Fold6","Fungi decontaminated (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"127",0.875,0.358644468637822,"Fold7","Fungi decontaminated (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"128",0.946153846153846,0.878184072214519,"Fold8","Fungi decontaminated (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"129",0.769230769230769,0.267096131017043,"Fold9","Fungi decontaminated (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"130",0.776923076923077,0.308944363287367,"Fold10","Fungi decontaminated (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"131",0.72027972027972,0.644905464855752,"Fold1","Fungi decontaminated (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"132",0.772727272727272,0.721461595911071,"Fold2","Fungi decontaminated (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"133",0.769230769230769,0.514158492564013,"Fold3","Fungi decontaminated (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"134",0.63986013986014,0.478864224517704,"Fold4","Fungi decontaminated (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"135",0.895104895104895,0.87767617123843,"Fold5","Fungi decontaminated (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"136",0.84965034965035,0.740246543577454,"Fold6","Fungi decontaminated (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"137",0.821678321678322,0.701789012557256,"Fold7","Fungi decontaminated (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"138",0.807692307692308,0.719697289980052,"Fold8","Fungi decontaminated (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"139",0.769230769230769,0.592846333124246,"Fold9","Fungi decontaminated (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"140",0.905594405594406,0.692357936082413,"Fold10","Fungi decontaminated (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"141",0.58974358974359,0.408592770932131,"Fold1","Fungi decontaminated (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"142",0.666666666666667,0.457543297792855,"Fold2","Fungi decontaminated (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"143",0.778846153846154,0.261939121256577,"Fold3","Fungi decontaminated (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"144",0.679487179487179,0.446737116482344,"Fold4","Fungi decontaminated (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"145",0.987179487179487,0.904105975849406,"Fold5","Fungi decontaminated (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"146",0.798076923076923,0.638491122452655,"Fold6","Fungi decontaminated (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"147",0.884615384615385,0.306852819440055,"Fold7","Fungi decontaminated (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"148",0.730769230769231,0.251019208693876,"Fold8","Fungi decontaminated (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"149",0.721153846153846,0.317881960929045,"Fold9","Fungi decontaminated (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"150",0.634615384615385,0.166685296487088,"Fold10","Fungi decontaminated (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"151",0.846153846153846,0.183100191754183,"Fold1","Fungi decontaminated (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"152",1,1,"Fold2","Fungi decontaminated (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"153",0.666666666666667,0.141720953286409,"Fold3","Fungi decontaminated (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"154",0.653846153846154,0.101943249408583,"Fold4","Fungi decontaminated (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"155",0.75,0.551546335334816,"Fold5","Fungi decontaminated (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"156",0.705128205128205,0.202941530566781,"Fold6","Fungi decontaminated (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"157",0.903846153846154,0.259819564920521,"Fold7","Fungi decontaminated (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"158",0.846153846153846,0.578557937368696,"Fold8","Fungi decontaminated (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"159",0.538461538461538,0.183973472737092,"Fold9","Fungi decontaminated (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"160",0.557692307692308,0.082556458527158,"Fold10","Fungi decontaminated (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"161",0.403846153846154,0.104052298644909,"Fold1","Fungi ∩ WIS (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"162",0.701923076923077,0.221224916393749,"Fold2","Fungi ∩ WIS (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"163",0.523076923076923,0.164078044644995,"Fold3","Fungi ∩ WIS (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"164",0.711538461538462,0.398604160635877,"Fold4","Fungi ∩ WIS (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"165",0.788461538461538,0.246175439781389,"Fold5","Fungi ∩ WIS (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"166",0.807692307692308,0.605592177910636,"Fold6","Fungi ∩ WIS (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"167",0.932692307692308,0.770038708400315,"Fold7","Fungi ∩ WIS (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"168",0.696153846153846,0.563866332233422,"Fold8","Fungi ∩ WIS (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"169",0.542307692307692,0.21714228659672,"Fold9","Fungi ∩ WIS (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"170",0.488461538461538,0.164144094054462,"Fold10","Fungi ∩ WIS (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"171",0.624125874125874,0.600735641345843,"Fold1","Fungi ∩ WIS (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"172",0.576923076923077,0.405126000603231,"Fold2","Fungi ∩ WIS (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"173",0.631410256410256,0.50227038964549,"Fold3","Fungi ∩ WIS (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"174",0.660839160839161,0.660440361349259,"Fold4","Fungi ∩ WIS (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"175",0.783216783216783,0.630375676190181,"Fold5","Fungi ∩ WIS (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"176",0.706293706293706,0.535203868440718,"Fold6","Fungi ∩ WIS (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"177",0.748251748251748,0.71268741338653,"Fold7","Fungi ∩ WIS (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"178",0.716783216783217,0.662948402675679,"Fold8","Fungi ∩ WIS (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"179",0.590909090909091,0.532002362011117,"Fold9","Fungi ∩ WIS (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"180",0.751748251748252,0.511596823492575,"Fold10","Fungi ∩ WIS (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"181",0.596153846153846,0.17809087899271,"Fold1","Fungi ∩ WIS (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"182",0.576923076923077,0.415974923488508,"Fold2","Fungi ∩ WIS (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"183",0.817307692307692,0.307171370209398,"Fold3","Fungi ∩ WIS (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"184",0.371794871794872,0.0786640241364641,"Fold4","Fungi ∩ WIS (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"185",0.974358974358974,0.768950939813352,"Fold5","Fungi ∩ WIS (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"186",0.75,0.456388025376672,"Fold6","Fungi ∩ WIS (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"187",0.871794871794872,0.521338519628627,"Fold7","Fungi ∩ WIS (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"188",0.538461538461538,0.364930490669445,"Fold8","Fungi ∩ WIS (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"189",0.625,0.377154645272131,"Fold9","Fungi ∩ WIS (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"190",0.567307692307692,0.209388261017599,"Fold10","Fungi ∩ WIS (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"191",0.307692307692308,0.051755359079563,"Fold1","Fungi ∩ WIS (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"192",0.923076923076923,0.635356886412091,"Fold2","Fungi ∩ WIS (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"193",0.384615384615385,0.0827289948347518,"Fold3","Fungi ∩ WIS (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"194",0.403846153846154,0.0577219209330256,"Fold4","Fungi ∩ WIS (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"195",0.538461538461538,0.126379133285079,"Fold5","Fungi ∩ WIS (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"196",0.576923076923077,0.14363484133951,"Fold6","Fungi ∩ WIS (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"197",0.461538461538462,0.0636677010255351,"Fold7","Fungi ∩ WIS (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"198",0.846153846153846,0.241185784922685,"Fold8","Fungi ∩ WIS (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"199",0.259615384615385,0.0457070292983185,"Fold9","Fungi ∩ WIS (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"200",0.576923076923077,0.186682902726274,"Fold10","Fungi ∩ WIS (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"201",0.913461538461538,0.819903907734543,"Fold1","Bacteria ∩ WIS (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"202",1,1,"Fold2","Bacteria ∩ WIS (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"203",0.938461538461538,0.871931667722342,"Fold3","Bacteria ∩ WIS (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"204",1,1,"Fold4","Bacteria ∩ WIS (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"205",0.778846153846154,0.782993114098629,"Fold5","Bacteria ∩ WIS (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"206",1,1,"Fold6","Bacteria ∩ WIS (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"207",0.951923076923077,0.794548089262532,"Fold7","Bacteria ∩ WIS (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"208",0.961538461538462,0.894639484342174,"Fold8","Bacteria ∩ WIS (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"209",0.976923076923077,0.893711017806255,"Fold9","Bacteria ∩ WIS (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"210",1,1,"Fold10","Bacteria ∩ WIS (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"211",0.975524475524476,0.948380676805491,"Fold1","Bacteria ∩ WIS (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"212",0.986013986013986,0.969626530061243,"Fold2","Bacteria ∩ WIS (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"213",0.871794871794872,0.815291996904978,"Fold3","Bacteria ∩ WIS (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"214",0.940559440559441,0.922753920358251,"Fold4","Bacteria ∩ WIS (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"215",0.954545454545455,0.949702273868696,"Fold5","Bacteria ∩ WIS (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"216",0.968531468531469,0.958032759137459,"Fold6","Bacteria ∩ WIS (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"217",0.926573426573426,0.939388848672165,"Fold7","Bacteria ∩ WIS (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"218",1,1,"Fold8","Bacteria ∩ WIS (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"219",0.996503496503497,0.992089874819125,"Fold9","Bacteria ∩ WIS (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"220",0.98951048951049,0.973847084322566,"Fold10","Bacteria ∩ WIS (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"221",1,1,"Fold1","Bacteria ∩ WIS (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"222",0.961538461538462,0.817678443206045,"Fold2","Bacteria ∩ WIS (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"223",1,1,"Fold3","Bacteria ∩ WIS (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"224",1,1,"Fold4","Bacteria ∩ WIS (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"225",0.653846153846154,0.140709439986227,"Fold5","Bacteria ∩ WIS (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"226",0.980769230769231,0.908839221603023,"Fold6","Bacteria ∩ WIS (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"227",1,1,"Fold7","Bacteria ∩ WIS (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"228",0.961538461538462,0.866468607375477,"Fold8","Bacteria ∩ WIS (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"229",0.913461538461538,0.819903907734543,"Fold9","Bacteria ∩ WIS (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"230",0.586538461538462,0.561123512417117,"Fold10","Bacteria ∩ WIS (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"231",0.980769230769231,0.797267445945918,"Fold1","Bacteria ∩ WIS (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"232",1,1,"Fold2","Bacteria ∩ WIS (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"233",0.705128205128205,0.699307865824841,"Fold3","Bacteria ∩ WIS (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"234",1,1,"Fold4","Bacteria ∩ WIS (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"235",1,1,"Fold5","Bacteria ∩ WIS (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"236",1,1,"Fold6","Bacteria ∩ WIS (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"237",0.980769230769231,0.797267445945918,"Fold7","Bacteria ∩ WIS (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"238",0.980769230769231,0.797267445945918,"Fold8","Bacteria ∩ WIS (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"239",1,1,"Fold9","Bacteria ∩ WIS (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"240",1,1,"Fold10","Bacteria ∩ WIS (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"241",0.865384615384615,0.799945551560179,"Fold1","Fungi+bacteria ∩ WIS (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"242",1,1,"Fold2","Fungi+bacteria ∩ WIS (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"243",0.976923076923077,0.919881164425286,"Fold3","Fungi+bacteria ∩ WIS (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"244",1,1,"Fold4","Fungi+bacteria ∩ WIS (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"245",0.807692307692308,0.787201927906021,"Fold5","Fungi+bacteria ∩ WIS (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"246",1,1,"Fold6","Fungi+bacteria ∩ WIS (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"247",0.836538461538462,0.685676144579361,"Fold7","Fungi+bacteria ∩ WIS (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"248",0.992307692307692,0.963535688641209,"Fold8","Fungi+bacteria ∩ WIS (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"249",0.992307692307692,0.963535688641209,"Fold9","Fungi+bacteria ∩ WIS (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"250",1,1,"Fold10","Fungi+bacteria ∩ WIS (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"251",0.982517482517483,0.961545944370608,"Fold1","Fungi+bacteria ∩ WIS (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"252",0.982517482517483,0.960048301365077,"Fold2","Fungi+bacteria ∩ WIS (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"253",0.887820512820513,0.84173378396723,"Fold3","Fungi+bacteria ∩ WIS (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"254",0.937062937062937,0.902124330744396,"Fold4","Fungi+bacteria ∩ WIS (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"255",0.98951048951049,0.979788734867167,"Fold5","Fungi+bacteria ∩ WIS (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"256",0.98951048951049,0.9767822186226,"Fold6","Fungi+bacteria ∩ WIS (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"257",0.937062937062937,0.935130897208255,"Fold7","Fungi+bacteria ∩ WIS (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"258",1,1,"Fold8","Fungi+bacteria ∩ WIS (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"259",1,1,"Fold9","Fungi+bacteria ∩ WIS (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"260",0.986013986013986,0.971124173066774,"Fold10","Fungi+bacteria ∩ WIS (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"261",1,1,"Fold1","Fungi+bacteria ∩ WIS (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"262",1,1,"Fold2","Fungi+bacteria ∩ WIS (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"263",0.980769230769231,0.908839221603023,"Fold3","Fungi+bacteria ∩ WIS (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"264",1,1,"Fold4","Fungi+bacteria ∩ WIS (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"265",0.858974358974359,0.511063387739799,"Fold5","Fungi+bacteria ∩ WIS (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"266",1,1,"Fold6","Fungi+bacteria ∩ WIS (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"267",1,1,"Fold7","Fungi+bacteria ∩ WIS (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"268",1,1,"Fold8","Fungi+bacteria ∩ WIS (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"269",0.932692307692308,0.833207185342432,"Fold9","Fungi+bacteria ∩ WIS (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"270",0.961538461538462,0.866468607375477,"Fold10","Fungi+bacteria ∩ WIS (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"271",0.980769230769231,0.797267445945918,"Fold1","Fungi+bacteria ∩ WIS (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"272",1,1,"Fold2","Fungi+bacteria ∩ WIS (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"273",0.692307692307692,0.69807737613722,"Fold3","Fungi+bacteria ∩ WIS (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"274",1,1,"Fold4","Fungi+bacteria ∩ WIS (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"275",1,1,"Fold5","Fungi+bacteria ∩ WIS (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"276",1,1,"Fold6","Fungi+bacteria ∩ WIS (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"277",0.961538461538462,0.712317927548219,"Fold7","Fungi+bacteria ∩ WIS (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"278",1,1,"Fold8","Fungi+bacteria ∩ WIS (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"279",1,1,"Fold9","Fungi+bacteria ∩ WIS (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"280",1,1,"Fold10","Fungi+bacteria ∩ WIS (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"281",0.701923076923077,0.202320367866941,"Fold1","Top 20 fungi (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"282",0.913461538461538,0.585886403554121,"Fold2","Top 20 fungi (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"283",0.892307692307692,0.540126674539277,"Fold3","Top 20 fungi (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"284",0.817307692307692,0.374166227102301,"Fold4","Top 20 fungi (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"285",0.855769230769231,0.424044755586751,"Fold5","Top 20 fungi (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"286",1,1,"Fold6","Top 20 fungi (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"287",0.769230769230769,0.423812621070262,"Fold7","Top 20 fungi (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"288",0.876923076923077,0.801491406574506,"Fold8","Top 20 fungi (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"289",0.707692307692308,0.252041321230968,"Fold9","Top 20 fungi (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"290",0.8,0.498633991505209,"Fold10","Top 20 fungi (Species)","Stage I",45,260,"Bile Duct","stage",0.5,0.147540983606557
+"291",0.737762237762238,0.608561767854291,"Fold1","Top 20 fungi (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"292",0.758741258741259,0.729886832630218,"Fold2","Top 20 fungi (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"293",0.708333333333333,0.417756178350722,"Fold3","Top 20 fungi (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"294",0.643356643356643,0.518592026573948,"Fold4","Top 20 fungi (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"295",0.923076923076923,0.880502868408747,"Fold5","Top 20 fungi (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"296",0.870629370629371,0.803366781983062,"Fold6","Top 20 fungi (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"297",0.769230769230769,0.660227666867285,"Fold7","Top 20 fungi (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"298",0.821678321678322,0.749649392667222,"Fold8","Top 20 fungi (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"299",0.751748251748252,0.638976851870934,"Fold9","Top 20 fungi (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"300",0.916083916083916,0.711620139340538,"Fold10","Top 20 fungi (Species)","Stage II",111,260,"Breast","stage",0.5,0.299191374663073
+"301",0.717948717948718,0.165588217369698,"Fold1","Top 20 fungi (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"302",0.512820512820513,0.395793833038402,"Fold2","Top 20 fungi (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"303",0.807692307692308,0.325584352875477,"Fold3","Top 20 fungi (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"304",0.756410256410256,0.517549950169361,"Fold4","Top 20 fungi (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"305",1,1,"Fold5","Top 20 fungi (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"306",0.759615384615385,0.709873616861807,"Fold6","Top 20 fungi (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"307",0.923076923076923,0.389139512083897,"Fold7","Top 20 fungi (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"308",0.701923076923077,0.221224916393749,"Fold8","Top 20 fungi (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"309",0.605769230769231,0.368524988734153,"Fold9","Top 20 fungi (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"310",0.711538461538462,0.230586069256742,"Fold10","Top 20 fungi (Species)","Stage III",35,260,"Colorectal","stage",0.5,0.11864406779661
+"311",0.75,0.13342000637418,"Fold1","Top 20 fungi (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"312",0.942307692307692,0.365744337268246,"Fold2","Top 20 fungi (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"313",0.551282051282051,0.112819964326378,"Fold3","Top 20 fungi (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"314",0.538461538461538,0.0711930159165198,"Fold4","Top 20 fungi (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"315",0.884615384615385,0.599405822126432,"Fold5","Top 20 fungi (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"316",0.666666666666667,0.135687185551351,"Fold6","Top 20 fungi (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"317",0.75,0.125307335720883,"Fold7","Top 20 fungi (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"318",1,1,"Fold8","Top 20 fungi (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"319",0.538461538461538,0.126379133285079,"Fold9","Top 20 fungi (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631
+"320",0.519230769230769,0.0789959516661828,"Fold10","Top 20 fungi (Species)","Stage IV",22,260,"Gastric","stage",0.5,0.0780141843971631

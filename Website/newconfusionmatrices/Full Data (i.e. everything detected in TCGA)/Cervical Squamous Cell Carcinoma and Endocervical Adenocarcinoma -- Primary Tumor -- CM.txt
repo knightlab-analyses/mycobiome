@@ -1,0 +1,51 @@
+[1] "Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma"
+Confusion Matrix and Statistics
+
+                                                            Reference
+Prediction                                                   CervicalSquamousCellCarcinomaandEndocervicalAdenocarcinoma
+  CervicalSquamousCellCarcinomaandEndocervicalAdenocarcinoma                                                         96
+  OtherCancerType                                                                                                    16
+                                                            Reference
+Prediction                                                   OtherCancerType
+  CervicalSquamousCellCarcinomaandEndocervicalAdenocarcinoma             101
+  OtherCancerType                                                       3951
+                         
+               Accuracy : 0.9719	
+                   95% CI : (0.9664, 0.9767)
+    No Information Rate : 0.9731	
+    P-Value [Acc > NIR] : 0.7046	
+                         
+                  Kappa : 0.6079	
+ Mcnemar's Test P-Value : 8.113e-15	
+                         
+            Sensitivity : 0.85714	
+            Specificity : 0.97507	
+         Pos Pred Value : 0.48731	
+         Neg Pred Value : 0.99597	
+             Prevalence : 0.02690	
+         Detection Rate : 0.02305	
+   Detection Prevalence : 0.04731	
+      Balanced Accuracy : 0.91611	
+                         
+       'Positive' Class : CervicalSquamousCellCarcinomaandEndocervicalAdenocarcinoma
+                         
+                                                           
+                                                    
+                                         
+                                                  
+                                              
+                                                           
+                                                 
+                                           
+                                                           
+                                                 
+                                                
+                                            
+                                                
+                                                 
+                                                
+                                                
+                                             
+                                                           
+
+                                                           

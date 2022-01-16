@@ -1,0 +1,27 @@
+[1] "Uterine Corpus Endometrial Carcinoma"
+Confusion Matrix and Statistics
+
+                   Reference
+Prediction          PrimaryTumor SolidTissueNormal
+  PrimaryTumor               295                 4
+  SolidTissueNormal           13                 5
+                                          
+               Accuracy : 0.9464          
+                 95% CI : (0.9155, 0.9685)
+    No Information Rate : 0.9716          
+    P-Value [Acc > NIR] : 0.99532         
+                                          
+                  Kappa : 0.3456          
+ Mcnemar's Test P-Value : 0.05235         
+                                          
+            Sensitivity : 0.9578          
+            Specificity : 0.5556          
+         Pos Pred Value : 0.9866          
+         Neg Pred Value : 0.2778          
+             Prevalence : 0.9716          
+         Detection Rate : 0.9306          
+   Detection Prevalence : 0.9432          
+      Balanced Accuracy : 0.7567          
+                                          
+       'Positive' Class : PrimaryTumor    
+                                          

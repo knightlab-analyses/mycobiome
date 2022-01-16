@@ -1,0 +1,27 @@
+[1] "Lung Adenocarcinoma"
+Confusion Matrix and Statistics
+
+          Reference
+Prediction Stage1 Stage4
+    Stage1     98      9
+    Stage4     11      2
+                                          
+               Accuracy : 0.8333          
+                 95% CI : (0.7544, 0.8951)
+    No Information Rate : 0.9083          
+    P-Value [Acc > NIR] : 0.9971          
+                                          
+                  Kappa : 0.0748          
+ Mcnemar's Test P-Value : 0.8231          
+                                          
+            Sensitivity : 0.18182         
+            Specificity : 0.89908         
+         Pos Pred Value : 0.15385         
+         Neg Pred Value : 0.91589         
+             Prevalence : 0.09167         
+         Detection Rate : 0.01667         
+   Detection Prevalence : 0.10833         
+      Balanced Accuracy : 0.54045         
+                                          
+       'Positive' Class : Stage4          
+                                          

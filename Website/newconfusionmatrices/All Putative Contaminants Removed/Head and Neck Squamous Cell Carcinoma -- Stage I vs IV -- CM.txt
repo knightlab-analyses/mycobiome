@@ -1,0 +1,27 @@
+[1] "Head and Neck Squamous Cell Carcinoma"
+Confusion Matrix and Statistics
+
+          Reference
+Prediction Stage1 Stage4
+    Stage1      2     14
+    Stage4      9     89
+                                          
+               Accuracy : 0.7982          
+                 95% CI : (0.7128, 0.8676)
+    No Information Rate : 0.9035          
+    P-Value [Acc > NIR] : 0.9998          
+                                          
+                  Kappa : 0.0382          
+ Mcnemar's Test P-Value : 0.4042          
+                                          
+            Sensitivity : 0.8641          
+            Specificity : 0.1818          
+         Pos Pred Value : 0.9082          
+         Neg Pred Value : 0.1250          
+             Prevalence : 0.9035          
+         Detection Rate : 0.7807          
+   Detection Prevalence : 0.8596          
+      Balanced Accuracy : 0.5229          
+                                          
+       'Positive' Class : Stage4          
+                                          

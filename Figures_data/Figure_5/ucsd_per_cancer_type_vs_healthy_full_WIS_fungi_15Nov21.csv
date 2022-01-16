@@ -1,0 +1,241 @@
+"","AUROC","AUPR","rep","dataString","positiveClassSize","negativeClassSize","diseaseType","col2Predict","nullAUROC","nullAUPR"
+"1",1,1,"Fold1","Full multikingdom database (rep200)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"2",1,1,"Fold2","Full multikingdom database (rep200)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"3",1,1,"Fold3","Full multikingdom database (rep200)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"4",1,1,"Fold4","Full multikingdom database (rep200)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"5",0.952380952380952,0.904105975849406,"Fold5","Full multikingdom database (rep200)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"6",0.916666666666667,0.797267445945918,"Fold6","Full multikingdom database (rep200)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"7",1,1,"Fold7","Full multikingdom database (rep200)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"8",0.5,0.587759375202657,"Fold8","Full multikingdom database (rep200)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"9",1,1,"Fold9","Full multikingdom database (rep200)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"10",0.904761904761905,0.851237632457194,"Fold10","Full multikingdom database (rep200)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"11",1,1,"Fold1","Full multikingdom database (rep200)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"12",1,1,"Fold2","Full multikingdom database (rep200)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"13",1,1,"Fold3","Full multikingdom database (rep200)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"14",1,1,"Fold4","Full multikingdom database (rep200)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"15",0.976190476190476,0.97430822002879,"Fold5","Full multikingdom database (rep200)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"16",0.75,0.797464092917046,"Fold6","Full multikingdom database (rep200)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"17",0.952380952380952,0.943921293896464,"Fold7","Full multikingdom database (rep200)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"18",1,1,"Fold8","Full multikingdom database (rep200)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"19",0.942857142857143,0.918906978378367,"Fold9","Full multikingdom database (rep200)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"20",0.928571428571428,0.906730702010763,"Fold10","Full multikingdom database (rep200)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"21",1,1,"Fold1","Full multikingdom database (rep200)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"22",0.714285714285714,0.306852819440055,"Fold2","Full multikingdom database (rep200)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"23",0.571428571428571,0.599405822126432,"Fold3","Full multikingdom database (rep200)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"24",1,1,"Fold4","Full multikingdom database (rep200)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"25",0.785714285714286,0.365744337268246,"Fold5","Full multikingdom database (rep200)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"26",0.916666666666667,0.797267445945918,"Fold6","Full multikingdom database (rep200)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"27",1,1,"Fold7","Full multikingdom database (rep200)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"28",0.571428571428571,0.136953782644658,"Fold8","Full multikingdom database (rep200)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"29",0.428571428571429,0.107425794743161,"Fold9","Full multikingdom database (rep200)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"30",0.857142857142857,0.712317927548219,"Fold10","Full multikingdom database (rep200)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"31",1,1,"Fold1","Bacteria all (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"32",1,1,"Fold2","Bacteria all (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"33",1,1,"Fold3","Bacteria all (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"34",1,1,"Fold4","Bacteria all (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"35",0.952380952380952,0.904105975849406,"Fold5","Bacteria all (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"36",0.916666666666667,0.797267445945918,"Fold6","Bacteria all (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"37",1,1,"Fold7","Bacteria all (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"38",0.785714285714286,0.665284673028685,"Fold8","Bacteria all (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"39",1,1,"Fold9","Bacteria all (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"40",0.904761904761905,0.851237632457194,"Fold10","Bacteria all (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"41",1,1,"Fold1","Bacteria all (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"42",0.952380952380952,0.943921293896464,"Fold2","Bacteria all (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"43",1,1,"Fold3","Bacteria all (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"44",1,1,"Fold4","Bacteria all (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"45",1,1,"Fold5","Bacteria all (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"46",0.666666666666667,0.685306680709975,"Fold6","Bacteria all (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"47",0.880952380952381,0.839965005698502,"Fold7","Bacteria all (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"48",0.976190476190476,0.97430822002879,"Fold8","Bacteria all (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"49",0.971428571428571,0.963535688641209,"Fold9","Bacteria all (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"50",0.952380952380952,0.943921293896464,"Fold10","Bacteria all (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"51",1,1,"Fold1","Bacteria all (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"52",0.714285714285714,0.306852819440055,"Fold2","Bacteria all (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"53",0.642857142857143,0.614623300431854,"Fold3","Bacteria all (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"54",1,1,"Fold4","Bacteria all (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"55",0.857142857142857,0.450693855665945,"Fold5","Bacteria all (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"56",1,1,"Fold6","Bacteria all (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"57",1,1,"Fold7","Bacteria all (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"58",0.571428571428571,0.136953782644658,"Fold8","Bacteria all (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"59",0.714285714285714,0.189069783783671,"Fold9","Bacteria all (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"60",0.857142857142857,0.712317927548219,"Fold10","Bacteria all (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"61",1,1,"Fold1","Fungi all (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"62",1,1,"Fold2","Fungi all (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"63",1,1,"Fold3","Fungi all (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"64",1,1,"Fold4","Fungi all (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"65",0.952380952380952,0.904105975849406,"Fold5","Fungi all (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"66",1,1,"Fold6","Fungi all (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"67",1,1,"Fold7","Fungi all (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"68",0.571428571428571,0.599405822126432,"Fold8","Fungi all (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"69",0.928571428571428,0.797267445945918,"Fold9","Fungi all (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"70",0.904761904761905,0.851237632457194,"Fold10","Fungi all (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"71",1,1,"Fold1","Fungi all (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"72",0.857142857142857,0.675681641824114,"Fold2","Fungi all (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"73",0.928571428571428,0.906730702010763,"Fold3","Fungi all (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"74",1,1,"Fold4","Fungi all (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"75",1,1,"Fold5","Fungi all (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"76",0.694444444444444,0.752884198728002,"Fold6","Fungi all (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"77",0.904761904761905,0.904105975849406,"Fold7","Fungi all (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"78",1,1,"Fold8","Fungi all (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"79",1,1,"Fold9","Fungi all (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"80",0.857142857142857,0.675681641824114,"Fold10","Fungi all (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"81",0.333333333333333,0.107425794743161,"Fold1","Fungi all (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"82",0.571428571428571,0.599405822126432,"Fold2","Fungi all (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"83",0.857142857142857,0.712317927548219,"Fold3","Fungi all (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"84",1,1,"Fold4","Fungi all (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"85",0.642857142857143,0.288783296132118,"Fold5","Fungi all (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"86",0.666666666666667,0.306852819440055,"Fold6","Fungi all (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"87",0.785714285714286,0.665284673028685,"Fold7","Fungi all (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"88",0.714285714285714,0.189069783783671,"Fold8","Fungi all (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"89",0.857142857142857,0.306852819440055,"Fold9","Fungi all (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"90",0.857142857142857,0.450693855665945,"Fold10","Fungi all (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"91",1,1,"Fold1","Fungi decontaminated (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"92",1,1,"Fold2","Fungi decontaminated (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"93",1,1,"Fold3","Fungi decontaminated (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"94",1,1,"Fold4","Fungi decontaminated (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"95",0.952380952380952,0.904105975849406,"Fold5","Fungi decontaminated (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"96",1,1,"Fold6","Fungi decontaminated (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"97",1,1,"Fold7","Fungi decontaminated (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"98",0.571428571428571,0.599405822126432,"Fold8","Fungi decontaminated (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"99",0.928571428571428,0.797267445945918,"Fold9","Fungi decontaminated (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"100",0.904761904761905,0.851237632457194,"Fold10","Fungi decontaminated (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"101",1,1,"Fold1","Fungi decontaminated (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"102",0.880952380952381,0.791206171917439,"Fold2","Fungi decontaminated (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"103",0.833333333333333,0.65686295758715,"Fold3","Fungi decontaminated (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"104",1,1,"Fold4","Fungi decontaminated (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"105",1,1,"Fold5","Fungi decontaminated (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"106",0.722222222222222,0.800831210803299,"Fold6","Fungi decontaminated (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"107",0.904761904761905,0.904105975849406,"Fold7","Fungi decontaminated (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"108",1,1,"Fold8","Fungi decontaminated (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"109",0.971428571428571,0.963535688641209,"Fold9","Fungi decontaminated (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"110",0.869047619047619,0.707872838584105,"Fold10","Fungi decontaminated (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"111",0.666666666666667,0.189069783783671,"Fold1","Fungi decontaminated (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"112",0.357142857142857,0.167882713448761,"Fold2","Fungi decontaminated (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"113",0.857142857142857,0.712317927548219,"Fold3","Fungi decontaminated (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"114",1,1,"Fold4","Fungi decontaminated (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"115",0.5,0.25283223184646,"Fold5","Fungi decontaminated (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"116",0.833333333333333,0.450693855665945,"Fold6","Fungi decontaminated (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"117",0.785714285714286,0.665284673028685,"Fold7","Fungi decontaminated (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"118",0.571428571428571,0.136953782644658,"Fold8","Fungi decontaminated (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"119",0.857142857142857,0.306852819440055,"Fold9","Fungi decontaminated (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"120",0.857142857142857,0.450693855665945,"Fold10","Fungi decontaminated (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"121",1,1,"Fold1","Fungi ∩ WIS (Species)",25,67,"NSCLC","one_cancer_vs_controls",0.5,0.271739130434783
+"122",1,1,"Fold2","Fungi ∩ WIS (Species)",25,67,"NSCLC","one_cancer_vs_controls",0.5,0.271739130434783
+"123",1,1,"Fold3","Fungi ∩ WIS (Species)",25,67,"NSCLC","one_cancer_vs_controls",0.5,0.271739130434783
+"124",1,1,"Fold4","Fungi ∩ WIS (Species)",25,67,"NSCLC","one_cancer_vs_controls",0.5,0.271739130434783
+"125",0.80952380952381,0.659449584156006,"Fold5","Fungi ∩ WIS (Species)",25,67,"NSCLC","one_cancer_vs_controls",0.5,0.271739130434783
+"126",0.916666666666667,0.797267445945918,"Fold6","Fungi ∩ WIS (Species)",25,67,"NSCLC","one_cancer_vs_controls",0.5,0.271739130434783
+"127",1,1,"Fold7","Fungi ∩ WIS (Species)",25,67,"NSCLC","one_cancer_vs_controls",0.5,0.271739130434783
+"128",1,1,"Fold8","Fungi ∩ WIS (Species)",25,67,"NSCLC","one_cancer_vs_controls",0.5,0.271739130434783
+"129",1,1,"Fold9","Fungi ∩ WIS (Species)",25,67,"NSCLC","one_cancer_vs_controls",0.5,0.271739130434783
+"130",0.904761904761905,0.851237632457194,"Fold10","Fungi ∩ WIS (Species)",25,67,"NSCLC","one_cancer_vs_controls",0.5,0.271739130434783
+"131",0.933333333333333,0.918906978378367,"Fold1","Fungi ∩ WIS (Species)",55,67,"PRAD","one_cancer_vs_controls",0.5,0.450819672131148
+"132",1,1,"Fold2","Fungi ∩ WIS (Species)",55,67,"PRAD","one_cancer_vs_controls",0.5,0.450819672131148
+"133",1,1,"Fold3","Fungi ∩ WIS (Species)",55,67,"PRAD","one_cancer_vs_controls",0.5,0.450819672131148
+"134",1,1,"Fold4","Fungi ∩ WIS (Species)",55,67,"PRAD","one_cancer_vs_controls",0.5,0.450819672131148
+"135",0.928571428571428,0.906730702010763,"Fold5","Fungi ∩ WIS (Species)",55,67,"PRAD","one_cancer_vs_controls",0.5,0.450819672131148
+"136",0.866666666666667,0.875252454162444,"Fold6","Fungi ∩ WIS (Species)",55,67,"PRAD","one_cancer_vs_controls",0.5,0.450819672131148
+"137",0.880952380952381,0.839965005698502,"Fold7","Fungi ∩ WIS (Species)",55,67,"PRAD","one_cancer_vs_controls",0.5,0.450819672131148
+"138",0.971428571428571,0.963535688641209,"Fold8","Fungi ∩ WIS (Species)",55,67,"PRAD","one_cancer_vs_controls",0.5,0.450819672131148
+"139",0.771428571428572,0.806453852113757,"Fold9","Fungi ∩ WIS (Species)",55,67,"PRAD","one_cancer_vs_controls",0.5,0.450819672131148
+"140",0.761904761904762,0.749320433870621,"Fold10","Fungi ∩ WIS (Species)",55,67,"PRAD","one_cancer_vs_controls",0.5,0.450819672131148
+"141",0.833333333333333,0.306852819440055,"Fold1","Fungi ∩ WIS (Species)",16,67,"SKCM","one_cancer_vs_controls",0.5,0.192771084337349
+"142",0.785714285714286,0.665284673028685,"Fold2","Fungi ∩ WIS (Species)",16,67,"SKCM","one_cancer_vs_controls",0.5,0.192771084337349
+"143",0.583333333333333,0.259819564920521,"Fold3","Fungi ∩ WIS (Species)",16,67,"SKCM","one_cancer_vs_controls",0.5,0.192771084337349
+"144",1,1,"Fold4","Fungi ∩ WIS (Species)",16,67,"SKCM","one_cancer_vs_controls",0.5,0.192771084337349
+"145",0.642857142857143,0.259819564920521,"Fold5","Fungi ∩ WIS (Species)",16,67,"SKCM","one_cancer_vs_controls",0.5,0.192771084337349
+"146",0.916666666666667,0.797267445945918,"Fold6","Fungi ∩ WIS (Species)",16,67,"SKCM","one_cancer_vs_controls",0.5,0.192771084337349
+"147",0.964285714285714,0.887326536083514,"Fold7","Fungi ∩ WIS (Species)",16,67,"SKCM","one_cancer_vs_controls",0.5,0.192771084337349
+"148",0.571428571428571,0.136953782644658,"Fold8","Fungi ∩ WIS (Species)",16,67,"SKCM","one_cancer_vs_controls",0.5,0.192771084337349
+"149",0.285714285714286,0.0883922160302266,"Fold9","Fungi ∩ WIS (Species)",16,67,"SKCM","one_cancer_vs_controls",0.5,0.192771084337349
+"150",0.428571428571429,0.189069783783671,"Fold10","Fungi ∩ WIS (Species)",16,67,"SKCM","one_cancer_vs_controls",0.5,0.192771084337349
+"151",1,1,"Fold1","Bacteria ∩ WIS (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"152",1,1,"Fold2","Bacteria ∩ WIS (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"153",1,1,"Fold3","Bacteria ∩ WIS (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"154",1,1,"Fold4","Bacteria ∩ WIS (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"155",0.857142857142857,0.716082596421139,"Fold5","Bacteria ∩ WIS (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"156",0.916666666666667,0.797267445945918,"Fold6","Bacteria ∩ WIS (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"157",1,1,"Fold7","Bacteria ∩ WIS (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"158",0.785714285714286,0.665284673028685,"Fold8","Bacteria ∩ WIS (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"159",1,1,"Fold9","Bacteria ∩ WIS (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"160",0.80952380952381,0.48503353623449,"Fold10","Bacteria ∩ WIS (Species)",25,68,"NSCLC","one_cancer_vs_controls",0.5,0.268817204301075
+"161",1,1,"Fold1","Bacteria ∩ WIS (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"162",1,1,"Fold2","Bacteria ∩ WIS (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"163",0.976190476190476,0.97430822002879,"Fold3","Bacteria ∩ WIS (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"164",1,1,"Fold4","Bacteria ∩ WIS (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"165",0.976190476190476,0.97430822002879,"Fold5","Bacteria ∩ WIS (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"166",0.833333333333333,0.843332123584755,"Fold6","Bacteria ∩ WIS (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"167",0.880952380952381,0.866915383963705,"Fold7","Bacteria ∩ WIS (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"168",1,1,"Fold8","Bacteria ∩ WIS (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"169",1,1,"Fold9","Bacteria ∩ WIS (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"170",0.904761904761905,0.858783689935466,"Fold10","Bacteria ∩ WIS (Species)",57,68,"PRAD","one_cancer_vs_controls",0.5,0.456
+"171",1,1,"Fold1","Bacteria ∩ WIS (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"172",0.785714285714286,0.365744337268246,"Fold2","Bacteria ∩ WIS (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"173",0.785714285714286,0.365744337268246,"Fold3","Bacteria ∩ WIS (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"174",1,1,"Fold4","Bacteria ∩ WIS (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"175",1,1,"Fold5","Bacteria ∩ WIS (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"176",1,1,"Fold6","Bacteria ∩ WIS (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"177",0.785714285714286,0.365744337268246,"Fold7","Bacteria ∩ WIS (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"178",0.714285714285714,0.189069783783671,"Fold8","Bacteria ∩ WIS (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"179",0.857142857142857,0.306852819440055,"Fold9","Bacteria ∩ WIS (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"180",0.857142857142857,0.712317927548219,"Fold10","Bacteria ∩ WIS (Species)",16,68,"SKCM","one_cancer_vs_controls",0.5,0.19047619047619
+"181",1,1,"Fold1","Fungi+bacteria ∩ WIS (Species)",25,67,"NSCLC","one_cancer_vs_controls",0.5,0.271739130434783
+"182",0.952380952380952,0.904105975849406,"Fold2","Fungi+bacteria ∩ WIS (Species)",25,67,"NSCLC","one_cancer_vs_controls",0.5,0.271739130434783
+"183",1,1,"Fold3","Fungi+bacteria ∩ WIS (Species)",25,67,"NSCLC","one_cancer_vs_controls",0.5,0.271739130434783
+"184",1,1,"Fold4","Fungi+bacteria ∩ WIS (Species)",25,67,"NSCLC","one_cancer_vs_controls",0.5,0.271739130434783
+"185",0.857142857142857,0.716082596421139,"Fold5","Fungi+bacteria ∩ WIS (Species)",25,67,"NSCLC","one_cancer_vs_controls",0.5,0.271739130434783
+"186",0.916666666666667,0.797267445945918,"Fold6","Fungi+bacteria ∩ WIS (Species)",25,67,"NSCLC","one_cancer_vs_controls",0.5,0.271739130434783
+"187",1,1,"Fold7","Fungi+bacteria ∩ WIS (Species)",25,67,"NSCLC","one_cancer_vs_controls",0.5,0.271739130434783
+"188",0.714285714285714,0.635356886412091,"Fold8","Fungi+bacteria ∩ WIS (Species)",25,67,"NSCLC","one_cancer_vs_controls",0.5,0.271739130434783
+"189",1,1,"Fold9","Fungi+bacteria ∩ WIS (Species)",25,67,"NSCLC","one_cancer_vs_controls",0.5,0.271739130434783
+"190",0.80952380952381,0.794465760230322,"Fold10","Fungi+bacteria ∩ WIS (Species)",25,67,"NSCLC","one_cancer_vs_controls",0.5,0.271739130434783
+"191",1,1,"Fold1","Fungi+bacteria ∩ WIS (Species)",55,67,"PRAD","one_cancer_vs_controls",0.5,0.450819672131148
+"192",1,1,"Fold2","Fungi+bacteria ∩ WIS (Species)",55,67,"PRAD","one_cancer_vs_controls",0.5,0.450819672131148
+"193",1,1,"Fold3","Fungi+bacteria ∩ WIS (Species)",55,67,"PRAD","one_cancer_vs_controls",0.5,0.450819672131148
+"194",1,1,"Fold4","Fungi+bacteria ∩ WIS (Species)",55,67,"PRAD","one_cancer_vs_controls",0.5,0.450819672131148
+"195",0.976190476190476,0.97430822002879,"Fold5","Fungi+bacteria ∩ WIS (Species)",55,67,"PRAD","one_cancer_vs_controls",0.5,0.450819672131148
+"196",0.8,0.827390756528931,"Fold6","Fungi+bacteria ∩ WIS (Species)",55,67,"PRAD","one_cancer_vs_controls",0.5,0.450819672131148
+"197",0.952380952380952,0.955489535791826,"Fold7","Fungi+bacteria ∩ WIS (Species)",55,67,"PRAD","one_cancer_vs_controls",0.5,0.450819672131148
+"198",0.942857142857143,0.918906978378367,"Fold8","Fungi+bacteria ∩ WIS (Species)",55,67,"PRAD","one_cancer_vs_controls",0.5,0.450819672131148
+"199",0.8,0.840999073971968,"Fold9","Fungi+bacteria ∩ WIS (Species)",55,67,"PRAD","one_cancer_vs_controls",0.5,0.450819672131148
+"200",0.80952380952381,0.817602244021045,"Fold10","Fungi+bacteria ∩ WIS (Species)",55,67,"PRAD","one_cancer_vs_controls",0.5,0.450819672131148
+"201",0.833333333333333,0.306852819440055,"Fold1","Fungi+bacteria ∩ WIS (Species)",16,67,"SKCM","one_cancer_vs_controls",0.5,0.192771084337349
+"202",1,1,"Fold2","Fungi+bacteria ∩ WIS (Species)",16,67,"SKCM","one_cancer_vs_controls",0.5,0.192771084337349
+"203",0.833333333333333,0.450693855665945,"Fold3","Fungi+bacteria ∩ WIS (Species)",16,67,"SKCM","one_cancer_vs_controls",0.5,0.192771084337349
+"204",1,1,"Fold4","Fungi+bacteria ∩ WIS (Species)",16,67,"SKCM","one_cancer_vs_controls",0.5,0.192771084337349
+"205",0.928571428571428,0.797267445945918,"Fold5","Fungi+bacteria ∩ WIS (Species)",16,67,"SKCM","one_cancer_vs_controls",0.5,0.192771084337349
+"206",0.916666666666667,0.797267445945918,"Fold6","Fungi+bacteria ∩ WIS (Species)",16,67,"SKCM","one_cancer_vs_controls",0.5,0.192771084337349
+"207",0.928571428571428,0.797267445945918,"Fold7","Fungi+bacteria ∩ WIS (Species)",16,67,"SKCM","one_cancer_vs_controls",0.5,0.192771084337349
+"208",0.571428571428571,0.136953782644658,"Fold8","Fungi+bacteria ∩ WIS (Species)",16,67,"SKCM","one_cancer_vs_controls",0.5,0.192771084337349
+"209",0.857142857142857,0.306852819440055,"Fold9","Fungi+bacteria ∩ WIS (Species)",16,67,"SKCM","one_cancer_vs_controls",0.5,0.192771084337349
+"210",0.785714285714286,0.665284673028685,"Fold10","Fungi+bacteria ∩ WIS (Species)",16,67,"SKCM","one_cancer_vs_controls",0.5,0.192771084337349
+"211",0.833333333333333,0.712317927548219,"Fold1","Top 20 fungi in Hopkins cohort (Species)",25,64,"NSCLC","one_cancer_vs_controls",0.5,0.280898876404494
+"212",1,1,"Fold2","Top 20 fungi in Hopkins cohort (Species)",25,64,"NSCLC","one_cancer_vs_controls",0.5,0.280898876404494
+"213",1,1,"Fold3","Top 20 fungi in Hopkins cohort (Species)",25,64,"NSCLC","one_cancer_vs_controls",0.5,0.280898876404494
+"214",0.583333333333333,0.614623300431854,"Fold4","Top 20 fungi in Hopkins cohort (Species)",25,64,"NSCLC","one_cancer_vs_controls",0.5,0.280898876404494
+"215",0.904761904761905,0.851237632457194,"Fold5","Top 20 fungi in Hopkins cohort (Species)",25,64,"NSCLC","one_cancer_vs_controls",0.5,0.280898876404494
+"216",1,1,"Fold6","Top 20 fungi in Hopkins cohort (Species)",25,64,"NSCLC","one_cancer_vs_controls",0.5,0.280898876404494
+"217",0.857142857142857,0.817678443206045,"Fold7","Top 20 fungi in Hopkins cohort (Species)",25,64,"NSCLC","one_cancer_vs_controls",0.5,0.280898876404494
+"218",0.916666666666667,0.797267445945918,"Fold8","Top 20 fungi in Hopkins cohort (Species)",25,64,"NSCLC","one_cancer_vs_controls",0.5,0.280898876404494
+"219",1,1,"Fold9","Top 20 fungi in Hopkins cohort (Species)",25,64,"NSCLC","one_cancer_vs_controls",0.5,0.280898876404494
+"220",1,1,"Fold10","Top 20 fungi in Hopkins cohort (Species)",25,64,"NSCLC","one_cancer_vs_controls",0.5,0.280898876404494
+"221",0.9,0.893711017806255,"Fold1","Top 20 fungi in Hopkins cohort (Species)",55,64,"PRAD","one_cancer_vs_controls",0.5,0.46218487394958
+"222",1,1,"Fold2","Top 20 fungi in Hopkins cohort (Species)",55,64,"PRAD","one_cancer_vs_controls",0.5,0.46218487394958
+"223",0.966666666666667,0.963535688641209,"Fold3","Top 20 fungi in Hopkins cohort (Species)",55,64,"PRAD","one_cancer_vs_controls",0.5,0.46218487394958
+"224",1,1,"Fold4","Top 20 fungi in Hopkins cohort (Species)",55,64,"PRAD","one_cancer_vs_controls",0.5,0.46218487394958
+"225",0.821428571428572,0.668057520537047,"Fold5","Top 20 fungi in Hopkins cohort (Species)",55,64,"PRAD","one_cancer_vs_controls",0.5,0.46218487394958
+"226",0.833333333333333,0.91298862301037,"Fold6","Top 20 fungi in Hopkins cohort (Species)",55,64,"PRAD","one_cancer_vs_controls",0.5,0.46218487394958
+"227",1,1,"Fold7","Top 20 fungi in Hopkins cohort (Species)",55,64,"PRAD","one_cancer_vs_controls",0.5,0.46218487394958
+"228",0.9,0.861370563888011,"Fold8","Top 20 fungi in Hopkins cohort (Species)",55,64,"PRAD","one_cancer_vs_controls",0.5,0.46218487394958
+"229",1,1,"Fold9","Top 20 fungi in Hopkins cohort (Species)",55,64,"PRAD","one_cancer_vs_controls",0.5,0.46218487394958
+"230",0.976190476190476,0.97430822002879,"Fold10","Top 20 fungi in Hopkins cohort (Species)",55,64,"PRAD","one_cancer_vs_controls",0.5,0.46218487394958
+"231",0.166666666666667,0.0883922160302266,"Fold1","Top 20 fungi in Hopkins cohort (Species)",16,64,"SKCM","one_cancer_vs_controls",0.5,0.2
+"232",1,1,"Fold2","Top 20 fungi in Hopkins cohort (Species)",16,64,"SKCM","one_cancer_vs_controls",0.5,0.2
+"233",0.333333333333333,0.107425794743161,"Fold3","Top 20 fungi in Hopkins cohort (Species)",16,64,"SKCM","one_cancer_vs_controls",0.5,0.2
+"234",1,1,"Fold4","Top 20 fungi in Hopkins cohort (Species)",16,64,"SKCM","one_cancer_vs_controls",0.5,0.2
+"235",0.714285714285714,0.306852819440055,"Fold5","Top 20 fungi in Hopkins cohort (Species)",16,64,"SKCM","one_cancer_vs_controls",0.5,0.2
+"236",0.5,0.599405822126432,"Fold6","Top 20 fungi in Hopkins cohort (Species)",16,64,"SKCM","one_cancer_vs_controls",0.5,0.2
+"237",0.857142857142857,0.712317927548219,"Fold7","Top 20 fungi in Hopkins cohort (Species)",16,64,"SKCM","one_cancer_vs_controls",0.5,0.2
+"238",0.333333333333333,0.107425794743161,"Fold8","Top 20 fungi in Hopkins cohort (Species)",16,64,"SKCM","one_cancer_vs_controls",0.5,0.2
+"239",0.642857142857143,0.614623300431854,"Fold9","Top 20 fungi in Hopkins cohort (Species)",16,64,"SKCM","one_cancer_vs_controls",0.5,0.2
+"240",0.571428571428571,0.229891778303926,"Fold10","Top 20 fungi in Hopkins cohort (Species)",16,64,"SKCM","one_cancer_vs_controls",0.5,0.2

@@ -1,0 +1,71 @@
+"","AUROC","AUPR","rep","dataString","minorityClassSize","majorityClassSize","diseaseType","col2Predict","nullAUROC","nullAUPR"
+"1",0.924749163879599,0.940270915832775,"Fold1","Full multikingdom database (rep200)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"2",0.991638795986622,0.990928960101497,"Fold2","Full multikingdom database (rep200)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"3",0.95819397993311,0.964290994105228,"Fold3","Full multikingdom database (rep200)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"4",1,1,"Fold4","Full multikingdom database (rep200)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"5",0.981605351170569,0.981655764018693,"Fold5","Full multikingdom database (rep200)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"6",1,1,"Fold6","Full multikingdom database (rep200)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"7",0.996794871794872,0.996731607237227,"Fold7","Full multikingdom database (rep200)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"8",0.974916387959866,0.975371848991132,"Fold8","Full multikingdom database (rep200)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"9",0.998327759197324,0.998149581981791,"Fold9","Full multikingdom database (rep200)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"10",0.993311036789298,0.992072975791567,"Fold10","Full multikingdom database (rep200)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"11",0.919732441471572,0.93118867529988,"Fold1","Bacteria all (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"12",0.983277591973244,0.983250387430331,"Fold2","Bacteria all (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"13",0.95819397993311,0.965542919330717,"Fold3","Bacteria all (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"14",1,1,"Fold4","Bacteria all (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"15",0.976588628762542,0.976052208012263,"Fold5","Bacteria all (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"16",1,1,"Fold6","Bacteria all (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"17",0.995192307692308,0.994958289969777,"Fold7","Bacteria all (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"18",0.96989966555184,0.970614870076376,"Fold8","Bacteria all (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"19",0.993311036789298,0.992494966641468,"Fold9","Bacteria all (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"20",0.993311036789298,0.992072975791567,"Fold10","Bacteria all (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"21",0.851170568561873,0.858385508806007,"Fold1","Fungi all (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"22",0.779264214046823,0.799711468851837,"Fold2","Fungi all (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"23",0.710702341137124,0.664861056690905,"Fold3","Fungi all (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"24",0.797658862876254,0.778938259264204,"Fold4","Fungi all (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"25",0.672240802675585,0.616134943412927,"Fold5","Fungi all (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"26",0.914715719063545,0.919994139729448,"Fold6","Fungi all (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"27",0.838141025641026,0.754824446807845,"Fold7","Fungi all (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"28",0.787625418060201,0.799260432923719,"Fold8","Fungi all (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"29",0.899665551839465,0.889859294890192,"Fold9","Fungi all (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"30",0.760869565217391,0.727515562400165,"Fold10","Fungi all (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"31",0.834448160535117,0.850547458116984,"Fold1","Fungi decontaminated (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"32",0.789297658862876,0.812182924565764,"Fold2","Fungi decontaminated (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"33",0.794314381270903,0.724033130248345,"Fold3","Fungi decontaminated (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"34",0.846153846153846,0.806978073366332,"Fold4","Fungi decontaminated (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"35",0.653846153846154,0.612880822412121,"Fold5","Fungi decontaminated (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"36",0.84448160535117,0.838925052279346,"Fold6","Fungi decontaminated (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"37",0.809294871794872,0.750712326831937,"Fold7","Fungi decontaminated (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"38",0.747491638795987,0.724959316382619,"Fold8","Fungi decontaminated (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"39",0.849498327759197,0.864395386889821,"Fold9","Fungi decontaminated (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"40",0.782608695652174,0.774666266239569,"Fold10","Fungi decontaminated (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"41",0.77257525083612,0.804575724720811,"Fold1","Fungi ∩ WIS (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"42",0.691471571906355,0.755790159016835,"Fold2","Fungi ∩ WIS (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"43",0.54933110367893,0.515918780406842,"Fold3","Fungi ∩ WIS (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"44",0.824414715719064,0.838751704145843,"Fold4","Fungi ∩ WIS (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"45",0.591973244147157,0.644853235006626,"Fold5","Fungi ∩ WIS (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"46",0.714046822742475,0.722851690792912,"Fold6","Fungi ∩ WIS (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"47",0.807692307692308,0.833121175440608,"Fold7","Fungi ∩ WIS (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"48",0.714046822742475,0.648853630186617,"Fold8","Fungi ∩ WIS (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"49",0.648829431438127,0.717286368323965,"Fold9","Fungi ∩ WIS (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"50",0.635451505016722,0.651384413435166,"Fold10","Fungi ∩ WIS (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"51",0.857859531772575,0.893466176673872,"Fold1","Bacteria ∩ WIS (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"52",0.921404682274247,0.945301248966894,"Fold2","Bacteria ∩ WIS (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"53",0.94314381270903,0.955685108258397,"Fold3","Bacteria ∩ WIS (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"54",0.986622073578595,0.98661547110676,"Fold4","Bacteria ∩ WIS (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"55",0.968227424749164,0.973112415957196,"Fold5","Bacteria ∩ WIS (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"56",0.989966555183946,0.988143511921599,"Fold6","Bacteria ∩ WIS (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"57",0.958333333333333,0.968830956084508,"Fold7","Bacteria ∩ WIS (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"58",0.91304347826087,0.940294606666897,"Fold8","Bacteria ∩ WIS (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"59",0.968227424749164,0.968102878026854,"Fold9","Bacteria ∩ WIS (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"60",0.96989966555184,0.9670356395069,"Fold10","Bacteria ∩ WIS (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"61",0.859531772575251,0.886349248374243,"Fold1","Fungi+bacteria ∩ WIS (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"62",0.959866220735786,0.969776864711333,"Fold2","Fungi+bacteria ∩ WIS (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"63",0.921404682274248,0.944170602560351,"Fold3","Fungi+bacteria ∩ WIS (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"64",0.996655518394649,0.996450261346065,"Fold4","Fungi+bacteria ∩ WIS (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"65",0.96989966555184,0.972102702644888,"Fold5","Fungi+bacteria ∩ WIS (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"66",0.994983277591973,0.994884254806094,"Fold6","Fungi+bacteria ∩ WIS (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"67",0.969551282051282,0.975153550522246,"Fold7","Fungi+bacteria ∩ WIS (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"68",0.924749163879599,0.941526006062461,"Fold8","Fungi+bacteria ∩ WIS (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"69",0.983277591973244,0.983958691034685,"Fold9","Fungi+bacteria ∩ WIS (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894
+"70",0.979933110367893,0.976506924268283,"Fold10","Fungi+bacteria ∩ WIS (Species)",231,260,"Cancer vs. Healthy","cancer_status",0.5,0.470468431771894

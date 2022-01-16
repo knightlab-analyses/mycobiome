@@ -1,0 +1,27 @@
+[1] "Testicular Germ Cell Tumors"
+Confusion Matrix and Statistics
+
+                          Reference
+Prediction                 OtherCancerType TesticularGermCellTumors
+  OtherCancerType                     4122                        5
+  TesticularGermCellTumors               2                       35
+                                                  
+               Accuracy : 0.9983                  
+                 95% CI : (0.9965, 0.9993)        
+    No Information Rate : 0.9904                  
+    P-Value [Acc > NIR] : 1.458e-10               
+                                                  
+                  Kappa : 0.9082                  
+ Mcnemar's Test P-Value : 0.4497                  
+                                                  
+            Sensitivity : 0.875000                
+            Specificity : 0.999515                
+         Pos Pred Value : 0.945946                
+         Neg Pred Value : 0.998788                
+             Prevalence : 0.009606                
+         Detection Rate : 0.008405                
+   Detection Prevalence : 0.008886                
+      Balanced Accuracy : 0.937258                
+                                                  
+       'Positive' Class : TesticularGermCellTumors
+                                                  

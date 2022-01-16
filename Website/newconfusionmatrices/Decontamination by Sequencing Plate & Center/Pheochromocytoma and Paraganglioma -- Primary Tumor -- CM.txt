@@ -1,0 +1,31 @@
+[1] "Pheochromocytoma and Paraganglioma"
+Confusion Matrix and Statistics
+
+                                  Reference
+Prediction                         OtherCancerType
+  OtherCancerType                             4083
+  PheochromocytomaandParaganglioma              28
+                                  Reference
+Prediction                         PheochromocytomaandParaganglioma
+  OtherCancerType                                                12
+  PheochromocytomaandParaganglioma                               41
+                                                          
+               Accuracy : 0.9904                          
+                 95% CI : (0.9869, 0.9931)                
+    No Information Rate : 0.9873                          
+    P-Value [Acc > NIR] : 0.03761                         
+                                                          
+                  Kappa : 0.6673                          
+ Mcnemar's Test P-Value : 0.01771                         
+                                                          
+            Sensitivity : 0.773585                        
+            Specificity : 0.993189                        
+         Pos Pred Value : 0.594203                        
+         Neg Pred Value : 0.997070                        
+             Prevalence : 0.012728                        
+         Detection Rate : 0.009846                        
+   Detection Prevalence : 0.016571                        
+      Balanced Accuracy : 0.883387                        
+                                                          
+       'Positive' Class : PheochromocytomaandParaganglioma
+                                                          

@@ -1,0 +1,31 @@
+[1] "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma"
+Confusion Matrix and Statistics
+
+                                           Reference
+Prediction                                  LymphoidNeoplasmDiffuseLargeBcellLymphoma
+  LymphoidNeoplasmDiffuseLargeBcellLymphoma                                         6
+  OtherCancerType                                                                  10
+                                           Reference
+Prediction                                  OtherCancerType
+  LymphoidNeoplasmDiffuseLargeBcellLymphoma               2
+  OtherCancerType                                      4146
+                                                                   
+               Accuracy : 0.9971                                   
+                 95% CI : (0.995, 0.9985)                          
+    No Information Rate : 0.9962                                   
+    P-Value [Acc > NIR] : 0.19261                                  
+                                                                   
+                  Kappa : 0.4987                                   
+ Mcnemar's Test P-Value : 0.04331                                  
+                                                                   
+            Sensitivity : 0.375000                                 
+            Specificity : 0.999518                                 
+         Pos Pred Value : 0.750000                                 
+         Neg Pred Value : 0.997594                                 
+             Prevalence : 0.003842                                 
+         Detection Rate : 0.001441                                 
+   Detection Prevalence : 0.001921                                 
+      Balanced Accuracy : 0.687259                                 
+                                                                   
+       'Positive' Class : LymphoidNeoplasmDiffuseLargeBcellLymphoma
+                                                                   

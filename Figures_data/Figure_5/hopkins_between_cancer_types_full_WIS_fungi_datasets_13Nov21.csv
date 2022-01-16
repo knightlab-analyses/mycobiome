@@ -1,0 +1,561 @@
+"","AUROC","AUPR","rep","dataString","minorityClassSize","majorityClassSize","diseaseType","col2Predict","nullAUROC","nullAUPR"
+"1",0.904761904761905,0.306852819440055,"Fold1","Full multikingdom database (rep200)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"2",1,1,"Fold2","Full multikingdom database (rep200)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"3",0.875,0.259819564920521,"Fold3","Full multikingdom database (rep200)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"4",0.714285714285714,0.555352167077669,"Fold4","Full multikingdom database (rep200)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"5",0.95,0.537901879626703,"Fold5","Full multikingdom database (rep200)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"6",0.357142857142857,0.0641701158374464,"Fold6","Full multikingdom database (rep200)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"7",0.80952380952381,0.291646909020942,"Fold7","Full multikingdom database (rep200)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"8",0.976190476190476,0.797267445945918,"Fold8","Full multikingdom database (rep200)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"9",0.968253968253968,0.851237632457194,"Fold9","Full multikingdom database (rep200)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"10",1,1,"Fold10","Full multikingdom database (rep200)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"11",1,1,"Fold1","Full multikingdom database (rep200)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"12",1,1,"Fold2","Full multikingdom database (rep200)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"13",0.988888888888889,0.963535688641209,"Fold3","Full multikingdom database (rep200)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"14",1,1,"Fold4","Full multikingdom database (rep200)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"15",0.990740740740741,0.97430822002879,"Fold5","Full multikingdom database (rep200)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"16",0.988888888888889,0.963535688641209,"Fold6","Full multikingdom database (rep200)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"17",1,1,"Fold7","Full multikingdom database (rep200)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"18",1,1,"Fold8","Full multikingdom database (rep200)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"19",0.892156862745098,0.785449074433457,"Fold9","Full multikingdom database (rep200)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"20",1,1,"Fold10","Full multikingdom database (rep200)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"21",0.738095238095238,0.165639082772373,"Fold1","Full multikingdom database (rep200)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"22",0.9,0.39484133471821,"Fold2","Full multikingdom database (rep200)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"23",0.925,0.365744337268246,"Fold3","Full multikingdom database (rep200)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"24",0.952380952380952,0.716082596421139,"Fold4","Full multikingdom database (rep200)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"25",0.984126984126984,0.904105975849406,"Fold5","Full multikingdom database (rep200)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"26",1,1,"Fold6","Full multikingdom database (rep200)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"27",0.916666666666667,0.659310724194268,"Fold7","Full multikingdom database (rep200)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"28",0.9,0.428261664007619,"Fold8","Full multikingdom database (rep200)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"29",0.966666666666667,0.851237632457194,"Fold9","Full multikingdom database (rep200)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"30",0.883333333333333,0.754158796798405,"Fold10","Full multikingdom database (rep200)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"31",0.928571428571429,0.365744337268246,"Fold1","Full multikingdom database (rep200)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"32",1,1,"Fold2","Full multikingdom database (rep200)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"33",1,1,"Fold3","Full multikingdom database (rep200)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"34",1,1,"Fold4","Full multikingdom database (rep200)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"35",1,1,"Fold5","Full multikingdom database (rep200)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"36",1,1,"Fold6","Full multikingdom database (rep200)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"37",0.866666666666667,0.61900376076235,"Fold7","Full multikingdom database (rep200)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"38",1,1,"Fold8","Full multikingdom database (rep200)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"39",0.916666666666667,0.777447678959129,"Fold9","Full multikingdom database (rep200)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"40",0.95,0.537901879626703,"Fold10","Full multikingdom database (rep200)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"41",0.65,0.247239878097251,"Fold1","Full multikingdom database (rep200)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"42",0.631578947368421,0.238765735411167,"Fold2","Full multikingdom database (rep200)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"43",1,1,"Fold3","Full multikingdom database (rep200)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"44",0.616666666666667,0.430538585915895,"Fold4","Full multikingdom database (rep200)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"45",0.75,0.282948747781086,"Fold5","Full multikingdom database (rep200)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"46",0.929824561403509,0.794465760230322,"Fold6","Full multikingdom database (rep200)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"47",0.8625,0.554779489376372,"Fold7","Full multikingdom database (rep200)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"48",0.916666666666667,0.451474346983342,"Fold8","Full multikingdom database (rep200)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"49",0.828947368421053,0.529108354261308,"Fold9","Full multikingdom database (rep200)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"50",0.657894736842105,0.427003635157575,"Fold10","Full multikingdom database (rep200)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"51",1,1,"Fold1","Full multikingdom database (rep200)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"52",0.95,0.817678443206045,"Fold2","Full multikingdom database (rep200)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"53",0.95,0.450693855665945,"Fold3","Full multikingdom database (rep200)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"54",0.733333333333333,0.579052894764202,"Fold4","Full multikingdom database (rep200)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"55",0.857142857142857,0.738965869031111,"Fold5","Full multikingdom database (rep200)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"56",0.833333333333333,0.520529879247032,"Fold6","Full multikingdom database (rep200)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"57",0.984126984126984,0.904105975849406,"Fold7","Full multikingdom database (rep200)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"58",1,1,"Fold8","Full multikingdom database (rep200)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"59",0.95,0.712317927548219,"Fold9","Full multikingdom database (rep200)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"60",0.968253968253968,0.851237632457194,"Fold10","Full multikingdom database (rep200)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"61",1,1,"Fold1","Full multikingdom database (rep200)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"62",0.9875,0.944214112171448,"Fold2","Full multikingdom database (rep200)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"63",1,1,"Fold3","Full multikingdom database (rep200)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"64",0.925,0.84195922651326,"Fold4","Full multikingdom database (rep200)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"65",0.7625,0.622003534186091,"Fold5","Full multikingdom database (rep200)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"66",0.982456140350877,0.904105975849406,"Fold6","Full multikingdom database (rep200)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"67",0.925,0.67144893744541,"Fold7","Full multikingdom database (rep200)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"68",0.983333333333333,0.904105975849406,"Fold8","Full multikingdom database (rep200)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"69",0.466666666666667,0.407223027579553,"Fold9","Full multikingdom database (rep200)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"70",0.983333333333333,0.904105975849406,"Fold10","Full multikingdom database (rep200)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"71",0.976190476190476,0.797267445945918,"Fold1","Bacteria all (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"72",1,1,"Fold2","Bacteria all (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"73",0.95,0.712317927548219,"Fold3","Bacteria all (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"74",0.80952380952381,0.578557937368696,"Fold4","Bacteria all (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"75",0.95,0.537901879626703,"Fold5","Bacteria all (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"76",0.476190476190476,0.0788012680560437,"Fold6","Bacteria all (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"77",0.857142857142857,0.610684484485745,"Fold7","Bacteria all (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"78",0.976190476190476,0.797267445945918,"Fold8","Bacteria all (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"79",0.968253968253968,0.768950939813352,"Fold9","Bacteria all (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"80",1,1,"Fold10","Bacteria all (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"81",0.952941176470588,0.865411105351515,"Fold1","Bacteria all (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"82",1,1,"Fold2","Bacteria all (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"83",0.988888888888889,0.963535688641209,"Fold3","Bacteria all (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"84",0.977777777777778,0.938339728069097,"Fold4","Bacteria all (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"85",1,1,"Fold5","Bacteria all (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"86",0.988888888888889,0.963535688641209,"Fold6","Bacteria all (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"87",1,1,"Fold7","Bacteria all (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"88",1,1,"Fold8","Bacteria all (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"89",0.931372549019608,0.814235126134792,"Fold9","Bacteria all (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"90",1,1,"Fold10","Bacteria all (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"91",0.785714285714286,0.182294267094493,"Fold1","Bacteria all (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"92",0.883333333333333,0.363485831705187,"Fold2","Bacteria all (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"93",0.95,0.450693855665945,"Fold3","Bacteria all (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"94",0.936507936507937,0.68252340716999,"Fold4","Bacteria all (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"95",0.984126984126984,0.904105975849406,"Fold5","Bacteria all (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"96",1,1,"Fold6","Bacteria all (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"97",0.9,0.428261664007619,"Fold7","Bacteria all (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"98",0.883333333333333,0.371628651742487,"Fold8","Bacteria all (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"99",0.966666666666667,0.851237632457194,"Fold9","Bacteria all (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"100",0.866666666666667,0.61900376076235,"Fold10","Bacteria all (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"101",0.880952380952381,0.614623300431854,"Fold1","Bacteria all (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"102",1,1,"Fold2","Bacteria all (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"103",1,1,"Fold3","Bacteria all (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"104",1,1,"Fold4","Bacteria all (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"105",1,1,"Fold5","Bacteria all (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"106",1,1,"Fold6","Bacteria all (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"107",0.883333333333333,0.754158796798405,"Fold7","Bacteria all (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"108",1,1,"Fold8","Bacteria all (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"109",0.916666666666667,0.451474346983342,"Fold9","Bacteria all (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"110",0.983333333333333,0.904105975849406,"Fold10","Bacteria all (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"111",0.8,0.260705173412086,"Fold1","Bacteria all (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"112",0.671052631578947,0.260320280687953,"Fold2","Bacteria all (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"113",1,1,"Fold3","Bacteria all (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"114",0.683333333333333,0.44730939368215,"Fold4","Bacteria all (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"115",0.8875,0.430517991168214,"Fold5","Bacteria all (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"116",0.912280701754386,0.777447678959129,"Fold6","Bacteria all (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"117",0.7625,0.279212474996425,"Fold7","Bacteria all (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"118",0.916666666666667,0.777447678959129,"Fold8","Bacteria all (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"119",0.881578947368421,0.580288159048433,"Fold9","Bacteria all (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"120",0.723684210526316,0.4781624979602,"Fold10","Bacteria all (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"121",1,1,"Fold1","Bacteria all (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"122",0.966666666666667,0.851237632457194,"Fold2","Bacteria all (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"123",0.975,0.797267445945918,"Fold3","Bacteria all (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"124",0.783333333333333,0.58887347801614,"Fold4","Bacteria all (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"125",0.888888888888889,0.754158796798405,"Fold5","Bacteria all (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"126",0.8,0.497371143438188,"Fold6","Bacteria all (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"127",0.984126984126984,0.904105975849406,"Fold7","Bacteria all (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"128",1,1,"Fold8","Bacteria all (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"129",0.95,0.712317927548219,"Fold9","Bacteria all (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"130",0.952380952380952,0.817678443206045,"Fold10","Bacteria all (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"131",1,1,"Fold1","Bacteria all (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"132",1,1,"Fold2","Bacteria all (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"133",1,1,"Fold3","Bacteria all (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"134",0.95,0.866468607375477,"Fold4","Bacteria all (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"135",0.775,0.629709883102711,"Fold5","Bacteria all (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"136",1,1,"Fold6","Bacteria all (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"137",0.9375,0.695901168918877,"Fold7","Bacteria all (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"138",0.966666666666667,0.851237632457194,"Fold8","Bacteria all (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"139",0.483333333333333,0.410164988058141,"Fold9","Bacteria all (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"140",0.983333333333333,0.904105975849406,"Fold10","Bacteria all (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"141",0.380952380952381,0.0691335662045699,"Fold1","Fungi all (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"142",0.783333333333333,0.233656447176846,"Fold2","Fungi all (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"143",0.825,0.20915819232369,"Fold3","Fungi all (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"144",0.571428571428571,0.137267581172245,"Fold4","Fungi all (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"145",0.15,0.0744797124272266,"Fold5","Fungi all (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"146",0.595238095238095,0.105259232706396,"Fold6","Fungi all (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"147",0.571428571428572,0.205543070758748,"Fold7","Fungi all (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"148",0.880952380952381,0.614623300431854,"Fold8","Fungi all (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"149",0.714285714285714,0.236061654153449,"Fold9","Fungi all (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"150",0.65,0.21818786317221,"Fold10","Fungi all (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"151",0.729411764705882,0.459923445864477,"Fold1","Fungi all (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"152",0.7,0.636799385075699,"Fold2","Fungi all (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"153",0.8,0.501200629074574,"Fold3","Fungi all (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"154",0.788888888888889,0.357161424607236,"Fold4","Fungi all (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"155",0.787037037037037,0.554430127367868,"Fold5","Fungi all (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"156",0.833333333333333,0.572442883202351,"Fold6","Fungi all (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"157",0.892156862745098,0.675643542231614,"Fold7","Fungi all (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"158",0.877777777777778,0.642348719369911,"Fold8","Fungi all (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"159",0.745098039215686,0.691615516752946,"Fold9","Fungi all (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"160",0.87037037037037,0.776198348861147,"Fold10","Fungi all (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"161",0.476190476190476,0.0812025343525866,"Fold1","Fungi all (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"162",0.966666666666667,0.851237632457194,"Fold2","Fungi all (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"163",0.775,0.167882713448761,"Fold3","Fungi all (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"164",0.650793650793651,0.16324145301684,"Fold4","Fungi all (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"165",0.412698412698413,0.10124721592989,"Fold5","Fungi all (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"166",0.833333333333333,0.203833777734419,"Fold6","Fungi all (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"167",0.533333333333333,0.130684765534523,"Fold7","Fungi all (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"168",0.716666666666667,0.458363891223316,"Fold8","Fungi all (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"169",0.35,0.0961678823149988,"Fold9","Fungi all (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"170",0.75,0.26617264839639,"Fold10","Fungi all (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"171",0.547619047619048,0.536493440390399,"Fold1","Fungi all (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"172",0.716666666666667,0.258234954697228,"Fold2","Fungi all (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"173",0.9,0.635356886412091,"Fold3","Fungi all (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"174",0.603174603174603,0.2174063744136,"Fold4","Fungi all (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"175",0.857142857142857,0.562370748497218,"Fold5","Fungi all (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"176",0.880952380952381,0.614623300431854,"Fold6","Fungi all (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"177",0.65,0.211291169170064,"Fold7","Fungi all (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"178",0.983333333333333,0.904105975849406,"Fold8","Fungi all (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"179",0.4,0.13210406909824,"Fold9","Fungi all (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"180",0.883333333333333,0.629278892651178,"Fold10","Fungi all (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"181",0.166666666666667,0.0761394496634157,"Fold1","Fungi all (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"182",0.486842105263158,0.15646915726434,"Fold2","Fungi all (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"183",0.9,0.764433928687233,"Fold3","Fungi all (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"184",0.6,0.460559507135835,"Fold4","Fungi all (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"185",0.35,0.134733656153285,"Fold5","Fungi all (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"186",0.701754385964912,0.709337998470548,"Fold6","Fungi all (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"187",0.7875,0.630349167214499,"Fold7","Fungi all (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"188",0.9,0.642292642923074,"Fold8","Fungi all (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"189",0.421052631578947,0.140675660344125,"Fold9","Fungi all (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"190",0.828947368421053,0.564926667534737,"Fold10","Fungi all (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"191",0.75,0.30119140556436,"Fold1","Fungi all (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"192",0.65,0.442258014991743,"Fold2","Fungi all (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"193",0.225,0.0566585315128524,"Fold3","Fungi all (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"194",0.6,0.154575942539962,"Fold4","Fungi all (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"195",0.46031746031746,0.113302391282907,"Fold5","Fungi all (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"196",0.566666666666667,0.134765779310142,"Fold6","Fungi all (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"197",0.682539682539683,0.183133613499349,"Fold7","Fungi all (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"198",0.65,0.438097974639221,"Fold8","Fungi all (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"199",0.775,0.571104190880538,"Fold9","Fungi all (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"200",0.682539682539683,0.179428641888317,"Fold10","Fungi all (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"201",0.964912280701754,0.768950939813352,"Fold1","Fungi all (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"202",0.4625,0.186179171201602,"Fold2","Fungi all (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"203",0.68421052631579,0.20104289698548,"Fold3","Fungi all (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"204",0.4875,0.157014985671398,"Fold4","Fungi all (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"205",0.475,0.3608497964201,"Fold5","Fungi all (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"206",0.543859649122807,0.16420084320021,"Fold6","Fungi all (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"207",0.8375,0.516298968808308,"Fold7","Fungi all (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"208",0.466666666666667,0.40679661274547,"Fold8","Fungi all (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"209",0.766666666666667,0.490095565362938,"Fold9","Fungi all (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"210",0.666666666666667,0.222221229634831,"Fold10","Fungi all (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"211",0.571428571428571,0.0924052336097211,"Fold1","Fungi decontaminated (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"212",0.666666666666667,0.240063461555002,"Fold2","Fungi decontaminated (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"213",0.925,0.665284673028685,"Fold3","Fungi decontaminated (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"214",0.476190476190476,0.092073247883625,"Fold4","Fungi decontaminated (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"215",0.25,0.0828277611515372,"Fold5","Fungi decontaminated (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"216",0.523809523809524,0.0842200244521343,"Fold6","Fungi decontaminated (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"217",0.619047619047619,0.219292155084663,"Fold7","Fungi decontaminated (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"218",0.928571428571429,0.665284673028685,"Fold8","Fungi decontaminated (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"219",0.761904761904762,0.714207930800257,"Fold9","Fungi decontaminated (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"220",0.883333333333333,0.363485831705187,"Fold10","Fungi decontaminated (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"221",0.682352941176471,0.383570473301299,"Fold1","Fungi decontaminated (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"222",0.677777777777778,0.60282973686084,"Fold2","Fungi decontaminated (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"223",0.788888888888889,0.41110563047053,"Fold3","Fungi decontaminated (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"224",0.777777777777778,0.354935928449971,"Fold4","Fungi decontaminated (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"225",0.907407407407407,0.610136444213346,"Fold5","Fungi decontaminated (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"226",0.777777777777778,0.60415940614529,"Fold6","Fungi decontaminated (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"227",0.852941176470588,0.527965842550703,"Fold7","Fungi decontaminated (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"228",0.977777777777778,0.938339728069097,"Fold8","Fungi decontaminated (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"229",0.745098039215686,0.691615516752946,"Fold9","Fungi decontaminated (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"230",0.925925925925926,0.805050320069738,"Fold10","Fungi decontaminated (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"231",0.714285714285714,0.159478006943687,"Fold1","Fungi decontaminated (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"232",0.916666666666667,0.659310724194268,"Fold2","Fungi decontaminated (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"233",0.775,0.231984347088723,"Fold3","Fungi decontaminated (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"234",0.46031746031746,0.107513623080192,"Fold4","Fungi decontaminated (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"235",0.412698412698413,0.104723509608873,"Fold5","Fungi decontaminated (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"236",0.952380952380952,0.712317927548219,"Fold6","Fungi decontaminated (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"237",0.466666666666667,0.112351849920566,"Fold7","Fungi decontaminated (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"238",0.716666666666667,0.458004493943575,"Fold8","Fungi decontaminated (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"239",0.433333333333333,0.106202792728149,"Fold9","Fungi decontaminated (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"240",0.7,0.20104289698548,"Fold10","Fungi decontaminated (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"241",0.595238095238095,0.540428619202656,"Fold1","Fungi decontaminated (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"242",0.75,0.48517535971108,"Fold2","Fungi decontaminated (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"243",0.825,0.25283223184646,"Fold3","Fungi decontaminated (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"244",0.634920634920635,0.233114545738154,"Fold4","Fungi decontaminated (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"245",0.777777777777778,0.505127217455477,"Fold5","Fungi decontaminated (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"246",0.833333333333333,0.587759375202657,"Fold6","Fungi decontaminated (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"247",0.616666666666667,0.202941530566781,"Fold7","Fungi decontaminated (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"248",0.966666666666667,0.851237632457194,"Fold8","Fungi decontaminated (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"249",0.45,0.137979833134509,"Fold9","Fungi decontaminated (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"250",0.833333333333333,0.554051472220613,"Fold10","Fungi decontaminated (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"251",0.266666666666667,0.0875937902146208,"Fold1","Fungi decontaminated (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"252",0.513157894736842,0.170775706321452,"Fold2","Fungi decontaminated (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"253",0.783333333333333,0.720333075070524,"Fold3","Fungi decontaminated (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"254",0.633333333333333,0.511866867893254,"Fold4","Fungi decontaminated (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"255",0.325,0.117405023932733,"Fold5","Fungi decontaminated (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"256",0.771929824561404,0.720333075070524,"Fold6","Fungi decontaminated (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"257",0.6375,0.320231259249288,"Fold7","Fungi decontaminated (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"258",0.966666666666667,0.768950939813352,"Fold8","Fungi decontaminated (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"259",0.43421052631579,0.167198320387729,"Fold9","Fungi decontaminated (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"260",0.789473684210526,0.482356635948534,"Fold10","Fungi decontaminated (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"261",0.766666666666667,0.305433660281851,"Fold1","Fungi decontaminated (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"262",0.55,0.195248579709224,"Fold2","Fungi decontaminated (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"263",0.475,0.106837241834373,"Fold3","Fungi decontaminated (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"264",0.766666666666667,0.278998362920686,"Fold4","Fungi decontaminated (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"265",0.492063492063492,0.113302203605247,"Fold5","Fungi decontaminated (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"266",0.5,0.123193267578344,"Fold6","Fungi decontaminated (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"267",0.857142857142857,0.534352269900523,"Fold7","Fungi decontaminated (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"268",0.733333333333333,0.4661281891725,"Fold8","Fungi decontaminated (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"269",0.85,0.599405822126432,"Fold9","Fungi decontaminated (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"270",0.73015873015873,0.461207983520641,"Fold10","Fungi decontaminated (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"271",0.824561403508772,0.303303209713874,"Fold1","Fungi decontaminated (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"272",0.525,0.370613839319213,"Fold2","Fungi decontaminated (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"273",0.666666666666667,0.223631474803652,"Fold3","Fungi decontaminated (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"274",0.6875,0.235835253564535,"Fold4","Fungi decontaminated (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"275",0.5125,0.15585954093979,"Fold5","Fungi decontaminated (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"276",0.578947368421053,0.219292155084663,"Fold6","Fungi decontaminated (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"277",0.675,0.424872824075965,"Fold7","Fungi decontaminated (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"278",0.683333333333333,0.44726043500857,"Fold8","Fungi decontaminated (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"279",0.55,0.139161074482443,"Fold9","Fungi decontaminated (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"280",0.816666666666667,0.372761772808408,"Fold10","Fungi decontaminated (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"281",0.666666666666667,0.115300298895651,"Fold1","Fungi ∩ WIS (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"282",0.933333333333333,0.68252340716999,"Fold2","Fungi ∩ WIS (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"283",0.825,0.200213471759407,"Fold3","Fungi ∩ WIS (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"284",0.404761904761905,0.0712900892935974,"Fold4","Fungi ∩ WIS (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"285",0.3,0.0881119220302004,"Fold5","Fungi ∩ WIS (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"286",0.80952380952381,0.241185784922685,"Fold6","Fungi ∩ WIS (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"287",0.634920634920635,0.167787902567111,"Fold7","Fungi ∩ WIS (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"288",0.857142857142857,0.233761564351014,"Fold8","Fungi ∩ WIS (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"289",0.555555555555556,0.136277341654968,"Fold9","Fungi ∩ WIS (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"290",0.683333333333333,0.177196072982483,"Fold10","Fungi ∩ WIS (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"291",0.670588235294118,0.49274486430788,"Fold1","Fungi ∩ WIS (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"292",0.588888888888889,0.275991857416656,"Fold2","Fungi ∩ WIS (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"293",0.477777777777778,0.190441744753812,"Fold3","Fungi ∩ WIS (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"294",0.722222222222222,0.320479341824611,"Fold4","Fungi ∩ WIS (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"295",0.314814814814815,0.177649795014724,"Fold5","Fungi ∩ WIS (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"296",0.711111111111111,0.354858673121005,"Fold6","Fungi ∩ WIS (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"297",0.784313725490196,0.524734993318326,"Fold7","Fungi ∩ WIS (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"298",0.733333333333333,0.617027542807429,"Fold8","Fungi ∩ WIS (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"299",0.392156862745098,0.239497982587507,"Fold9","Fungi ∩ WIS (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"300",0.777777777777778,0.447049081307603,"Fold10","Fungi ∩ WIS (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"301",0.404761904761905,0.0692964765771218,"Fold1","Fungi ∩ WIS (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"302",0.783333333333333,0.23682753481491,"Fold2","Fungi ∩ WIS (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"303",0.95,0.712317927548219,"Fold3","Fungi ∩ WIS (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"304",0.706349206349206,0.177368725273596,"Fold4","Fungi ∩ WIS (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"305",0.507936507936508,0.115473925433986,"Fold5","Fungi ∩ WIS (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"306",0.666666666666667,0.204972745054843,"Fold6","Fungi ∩ WIS (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"307",0.716666666666667,0.24988404480694,"Fold7","Fungi ∩ WIS (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"308",0.575,0.160173286375226,"Fold8","Fungi ∩ WIS (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"309",0.616666666666667,0.169061627910878,"Fold9","Fungi ∩ WIS (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"310",0.525,0.248542931276974,"Fold10","Fungi ∩ WIS (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"311",0.619047619047619,0.54273268928041,"Fold1","Fungi ∩ WIS (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"312",0.45,0.117810575927967,"Fold2","Fungi ∩ WIS (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"313",0.8,0.241185784922685,"Fold3","Fungi ∩ WIS (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"314",0.563492063492063,0.188069348875413,"Fold4","Fungi ∩ WIS (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"315",0.857142857142857,0.534352269900523,"Fold5","Fungi ∩ WIS (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"316",0.69047619047619,0.551546335334816,"Fold6","Fungi ∩ WIS (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"317",0.85,0.541290377373023,"Fold7","Fungi ∩ WIS (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"318",0.966666666666667,0.851237632457194,"Fold8","Fungi ∩ WIS (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"319",0.45,0.123402749266302,"Fold9","Fungi ∩ WIS (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"320",0.833333333333333,0.531015245484195,"Fold10","Fungi ∩ WIS (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"321",0.283333333333333,0.0863325941968703,"Fold1","Fungi ∩ WIS (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"322",0.407894736842105,0.1381013768618,"Fold2","Fungi ∩ WIS (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"323",0.733333333333333,0.525297049888784,"Fold3","Fungi ∩ WIS (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"324",0.533333333333333,0.422693541106905,"Fold4","Fungi ∩ WIS (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"325",0.5375,0.378026327289046,"Fold5","Fungi ∩ WIS (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"326",0.824561403508772,0.733190974421545,"Fold6","Fungi ∩ WIS (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"327",0.7125,0.602863209912746,"Fold7","Fungi ∩ WIS (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"328",0.7,0.345437390335826,"Fold8","Fungi ∩ WIS (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"329",0.68421052631579,0.237890254522066,"Fold9","Fungi ∩ WIS (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"330",0.730263157894737,0.617004700313564,"Fold10","Fungi ∩ WIS (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"331",0.7,0.707259014983408,"Fold1","Fungi ∩ WIS (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"332",0.716666666666667,0.198345724886892,"Fold2","Fungi ∩ WIS (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"333",0.625,0.108652151398763,"Fold3","Fungi ∩ WIS (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"334",0.75,0.22814024526512,"Fold4","Fungi ∩ WIS (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"335",0.317460317460317,0.0867925253097396,"Fold5","Fungi ∩ WIS (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"336",0.433333333333333,0.106629907580268,"Fold6","Fungi ∩ WIS (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"337",0.444444444444444,0.112640252972528,"Fold7","Fungi ∩ WIS (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"338",0.6,0.164470768561277,"Fold8","Fungi ∩ WIS (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"339",0.625,0.545315336376737,"Fold9","Fungi ∩ WIS (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"340",0.301587301587302,0.0860440586942284,"Fold10","Fungi ∩ WIS (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"341",0.421052631578947,0.112036071558047,"Fold1","Fungi ∩ WIS (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"342",0.525,0.169604544543439,"Fold2","Fungi ∩ WIS (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"343",0.307017543859649,0.138151170516934,"Fold3","Fungi ∩ WIS (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"344",0.5625,0.381727895590273,"Fold4","Fungi ∩ WIS (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"345",0.525,0.168616666125352,"Fold5","Fungi ∩ WIS (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"346",0.701754385964912,0.194365996867233,"Fold6","Fungi ∩ WIS (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"347",0.475,0.147499469323949,"Fold7","Fungi ∩ WIS (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"348",0.6,0.150790050350574,"Fold8","Fungi ∩ WIS (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"349",0.333333333333333,0.0969814424137199,"Fold9","Fungi ∩ WIS (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"350",0.733333333333333,0.219785493290829,"Fold10","Fungi ∩ WIS (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"351",0.738095238095238,0.141472272574238,"Fold1","Bacteria ∩ WIS (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"352",0.9,0.602677711929135,"Fold2","Bacteria ∩ WIS (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"353",0.575,0.0973130683137751,"Fold3","Bacteria ∩ WIS (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"354",0.619047619047619,0.109065064449249,"Fold4","Bacteria ∩ WIS (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"355",0.933333333333333,0.68252340716999,"Fold5","Bacteria ∩ WIS (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"356",0.738095238095238,0.143601930141546,"Fold6","Bacteria ∩ WIS (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"357",0.888888888888889,0.411243582736426,"Fold7","Bacteria ∩ WIS (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"358",0.976190476190476,0.797267445945918,"Fold8","Bacteria ∩ WIS (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"359",0.80952380952381,0.250219807174922,"Fold9","Bacteria ∩ WIS (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"360",0.891666666666667,0.75895214956193,"Fold10","Bacteria ∩ WIS (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"361",0.71764705882353,0.422265674951467,"Fold1","Bacteria ∩ WIS (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"362",0.877777777777778,0.764440525370103,"Fold2","Bacteria ∩ WIS (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"363",0.8,0.569822589186592,"Fold3","Bacteria ∩ WIS (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"364",0.833333333333333,0.64452420471662,"Fold4","Bacteria ∩ WIS (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"365",0.842592592592593,0.594293601560787,"Fold5","Bacteria ∩ WIS (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"366",0.844444444444444,0.674757107122513,"Fold6","Bacteria ∩ WIS (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"367",0.833333333333333,0.669374041711916,"Fold7","Bacteria ∩ WIS (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"368",0.844444444444444,0.74549904893295,"Fold8","Bacteria ∩ WIS (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"369",0.627450980392157,0.450475291368649,"Fold9","Bacteria ∩ WIS (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"370",0.805555555555556,0.783747004915491,"Fold10","Bacteria ∩ WIS (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"371",0.880952380952381,0.259819564920521,"Fold1","Bacteria ∩ WIS (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"372",0.866666666666667,0.39822983246453,"Fold2","Bacteria ∩ WIS (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"373",0.575,0.0973130683137751,"Fold3","Bacteria ∩ WIS (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"374",0.761904761904762,0.25904650517629,"Fold4","Bacteria ∩ WIS (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"375",0.857142857142857,0.315349558585832,"Fold5","Bacteria ∩ WIS (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"376",0.976190476190476,0.797267445945918,"Fold6","Bacteria ∩ WIS (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"377",0.883333333333333,0.754158796798405,"Fold7","Bacteria ∩ WIS (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"378",0.75,0.30119140556436,"Fold8","Bacteria ∩ WIS (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"379",0.9,0.389139512083897,"Fold9","Bacteria ∩ WIS (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"380",0.933333333333333,0.68252340716999,"Fold10","Bacteria ∩ WIS (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"381",0.619047619047619,0.109065064449249,"Fold1","Bacteria ∩ WIS (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"382",0.933333333333333,0.794465760230322,"Fold2","Bacteria ∩ WIS (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"383",0.9875,0.887326536083514,"Fold3","Bacteria ∩ WIS (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"384",0.555555555555556,0.415209597943641,"Fold4","Bacteria ∩ WIS (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"385",0.873015873015873,0.7458395205218,"Fold5","Bacteria ∩ WIS (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"386",0.952380952380952,0.712317927548219,"Fold6","Bacteria ∩ WIS (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"387",0.9,0.39484133471821,"Fold7","Bacteria ∩ WIS (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"388",0.95,0.716082596421139,"Fold8","Bacteria ∩ WIS (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"389",0.95,0.537901879626703,"Fold9","Bacteria ∩ WIS (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"390",1,1,"Fold10","Bacteria ∩ WIS (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"391",0.816666666666667,0.270980305300913,"Fold1","Bacteria ∩ WIS (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"392",0.81578947368421,0.505486989892048,"Fold2","Bacteria ∩ WIS (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"393",0.8,0.502744111463194,"Fold3","Bacteria ∩ WIS (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"394",0.8,0.593115732733632,"Fold4","Bacteria ∩ WIS (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"395",0.775,0.463844282073784,"Fold5","Bacteria ∩ WIS (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"396",0.754385964912281,0.717085098189971,"Fold6","Bacteria ∩ WIS (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"397",0.6375,0.49521529127033,"Fold7","Bacteria ∩ WIS (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"398",0.633333333333333,0.200815862792539,"Fold8","Bacteria ∩ WIS (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"399",0.855263157894737,0.74280955150275,"Fold9","Bacteria ∩ WIS (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"400",0.56578947368421,0.205975788179027,"Fold10","Bacteria ∩ WIS (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"401",0.966666666666667,0.851237632457194,"Fold1","Bacteria ∩ WIS (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"402",0.7,0.519853438257342,"Fold2","Bacteria ∩ WIS (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"403",0.975,0.797267445945918,"Fold3","Bacteria ∩ WIS (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"404",0.866666666666667,0.340273148729464,"Fold4","Bacteria ∩ WIS (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"405",0.666666666666667,0.178891358781857,"Fold5","Bacteria ∩ WIS (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"406",0.9,0.39484133471821,"Fold6","Bacteria ∩ WIS (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"407",0.888888888888889,0.629278892651178,"Fold7","Bacteria ∩ WIS (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"408",0.766666666666667,0.505127217455477,"Fold8","Bacteria ∩ WIS (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"409",0.85,0.599405822126432,"Fold9","Bacteria ∩ WIS (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"410",0.523809523809524,0.181979105304943,"Fold10","Bacteria ∩ WIS (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"411",0.754385964912281,0.256046951362712,"Fold1","Bacteria ∩ WIS (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"412",0.925,0.84195922651326,"Fold2","Bacteria ∩ WIS (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"413",0.754385964912281,0.717085098189971,"Fold3","Bacteria ∩ WIS (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"414",0.5625,0.203693247756662,"Fold4","Bacteria ∩ WIS (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"415",0.7,0.599838782376338,"Fold5","Bacteria ∩ WIS (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"416",0.807017543859649,0.263688278719935,"Fold6","Bacteria ∩ WIS (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"417",0.6375,0.277442896144822,"Fold7","Bacteria ∩ WIS (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"418",1,1,"Fold8","Bacteria ∩ WIS (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"419",0.75,0.22814024526512,"Fold9","Bacteria ∩ WIS (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"420",0.733333333333333,0.350881001967268,"Fold10","Bacteria ∩ WIS (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"421",0.714285714285714,0.136953782644658,"Fold1","Fungi+bacteria ∩ WIS (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"422",0.966666666666667,0.851237632457194,"Fold2","Fungi+bacteria ∩ WIS (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"423",0.525,0.0908207945916341,"Fold3","Fungi+bacteria ∩ WIS (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"424",0.595238095238095,0.099548275092782,"Fold4","Fungi+bacteria ∩ WIS (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"425",0.666666666666667,0.182725257546027,"Fold5","Fungi+bacteria ∩ WIS (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"426",0.642857142857143,0.111198063182867,"Fold6","Fungi+bacteria ∩ WIS (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"427",0.841269841269841,0.33132168831057,"Fold7","Fungi+bacteria ∩ WIS (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"428",1,1,"Fold8","Fungi+bacteria ∩ WIS (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"429",0.793650793650794,0.266322083251539,"Fold9","Fungi+bacteria ∩ WIS (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"430",0.95,0.817678443206045,"Fold10","Fungi+bacteria ∩ WIS (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"431",0.682352941176471,0.376644496452528,"Fold1","Fungi+bacteria ∩ WIS (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"432",0.888888888888889,0.74771903500658,"Fold2","Fungi+bacteria ∩ WIS (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"433",0.788888888888889,0.534167166489891,"Fold3","Fungi+bacteria ∩ WIS (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"434",0.777777777777778,0.530874634686795,"Fold4","Fungi+bacteria ∩ WIS (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"435",0.805555555555556,0.42985576923448,"Fold5","Fungi+bacteria ∩ WIS (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"436",0.777777777777778,0.367496825765608,"Fold6","Fungi+bacteria ∩ WIS (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"437",0.843137254901961,0.665273547019625,"Fold7","Fungi+bacteria ∩ WIS (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"438",0.9,0.793137376338455,"Fold8","Fungi+bacteria ∩ WIS (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"439",0.647058823529412,0.352813400881178,"Fold9","Fungi+bacteria ∩ WIS (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"440",0.833333333333333,0.872321156743612,"Fold10","Fungi+bacteria ∩ WIS (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"441",0.833333333333333,0.25283223184646,"Fold1","Fungi+bacteria ∩ WIS (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"442",0.85,0.323255067458271,"Fold2","Fungi+bacteria ∩ WIS (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"443",0.575,0.0999720482550032,"Fold3","Fungi+bacteria ∩ WIS (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"444",0.857142857142857,0.315349558585832,"Fold4","Fungi+bacteria ∩ WIS (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"445",0.761904761904762,0.216660617923774,"Fold5","Fungi+bacteria ∩ WIS (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"446",0.976190476190476,0.797267445945918,"Fold6","Fungi+bacteria ∩ WIS (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"447",0.866666666666667,0.354610570471293,"Fold7","Fungi+bacteria ∩ WIS (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"448",0.75,0.30119140556436,"Fold8","Fungi+bacteria ∩ WIS (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"449",0.9,0.39484133471821,"Fold9","Fungi+bacteria ∩ WIS (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"450",0.85,0.387954700575702,"Fold10","Fungi+bacteria ∩ WIS (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"451",0.547619047619048,0.536493440390399,"Fold1","Fungi+bacteria ∩ WIS (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"452",0.9,0.764433928687233,"Fold2","Fungi+bacteria ∩ WIS (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"453",1,1,"Fold3","Fungi+bacteria ∩ WIS (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"454",0.523809523809524,0.410461721249863,"Fold4","Fungi+bacteria ∩ WIS (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"455",0.984126984126984,0.904105975849406,"Fold5","Fungi+bacteria ∩ WIS (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"456",1,1,"Fold6","Fungi+bacteria ∩ WIS (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"457",0.9,0.428261664007619,"Fold7","Fungi+bacteria ∩ WIS (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"458",0.983333333333333,0.904105975849406,"Fold8","Fungi+bacteria ∩ WIS (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"459",0.95,0.716082596421139,"Fold9","Fungi+bacteria ∩ WIS (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"460",1,1,"Fold10","Fungi+bacteria ∩ WIS (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"461",0.733333333333333,0.261930393678898,"Fold1","Fungi+bacteria ∩ WIS (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"462",0.644736842105263,0.409643764579966,"Fold2","Fungi+bacteria ∩ WIS (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"463",0.75,0.714207930800257,"Fold3","Fungi+bacteria ∩ WIS (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"464",0.833333333333333,0.733190974421545,"Fold4","Fungi+bacteria ∩ WIS (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"465",0.675,0.424151123194194,"Fold5","Fungi+bacteria ∩ WIS (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"466",0.982456140350877,0.904105975849406,"Fold6","Fungi+bacteria ∩ WIS (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"467",0.775,0.547453022242288,"Fold7","Fungi+bacteria ∩ WIS (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"468",0.566666666666667,0.142613079319978,"Fold8","Fungi+bacteria ∩ WIS (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"469",0.802631578947368,0.51580507665342,"Fold9","Fungi+bacteria ∩ WIS (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"470",0.75,0.371245944537198,"Fold10","Fungi+bacteria ∩ WIS (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"471",0.983333333333333,0.904105975849406,"Fold1","Fungi+bacteria ∩ WIS (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"472",0.7,0.574182962434493,"Fold2","Fungi+bacteria ∩ WIS (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"473",1,1,"Fold3","Fungi+bacteria ∩ WIS (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"474",0.833333333333333,0.531015245484195,"Fold4","Fungi+bacteria ∩ WIS (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"475",0.619047619047619,0.19924609158511,"Fold5","Fungi+bacteria ∩ WIS (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"476",0.866666666666667,0.354610570471293,"Fold6","Fungi+bacteria ∩ WIS (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"477",1,1,"Fold7","Fungi+bacteria ∩ WIS (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"478",0.733333333333333,0.711641486558529,"Fold8","Fungi+bacteria ∩ WIS (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"479",0.725,0.55976510779555,"Fold9","Fungi+bacteria ∩ WIS (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"480",0.523809523809524,0.18272002666046,"Fold10","Fungi+bacteria ∩ WIS (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"481",0.87719298245614,0.363485831705187,"Fold1","Fungi+bacteria ∩ WIS (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"482",0.85,0.529996370754265,"Fold2","Fungi+bacteria ∩ WIS (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"483",0.56140350877193,0.4383104490633,"Fold3","Fungi+bacteria ∩ WIS (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"484",0.55,0.216916463658748,"Fold4","Fungi+bacteria ∩ WIS (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"485",0.625,0.410898228605526,"Fold5","Fungi+bacteria ∩ WIS (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"486",0.68421052631579,0.183226750226103,"Fold6","Fungi+bacteria ∩ WIS (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"487",0.575,0.230606423373312,"Fold7","Fungi+bacteria ∩ WIS (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"488",0.833333333333333,0.603810832995056,"Fold8","Fungi+bacteria ∩ WIS (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"489",0.6,0.145542403879046,"Fold9","Fungi+bacteria ∩ WIS (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"490",0.816666666666667,0.372761772808408,"Fold10","Fungi+bacteria ∩ WIS (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"491",0.595238095238095,0.105259232706396,"Fold1","Top 20 fungi (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"492",0.716666666666667,0.294247989702135,"Fold2","Top 20 fungi (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"493",0.85,0.229891778303926,"Fold3","Top 20 fungi (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"494",0.595238095238095,0.099548275092782,"Fold4","Top 20 fungi (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"495",0.0833333333333333,0.0708288729406309,"Fold5","Top 20 fungi (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"496",0.523809523809524,0.0841864611489869,"Fold6","Top 20 fungi (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"497",0.619047619047619,0.174268629237375,"Fold7","Top 20 fungi (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"498",0.976190476190476,0.797267445945918,"Fold8","Top 20 fungi (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"499",0.714285714285714,0.291370822312421,"Fold9","Top 20 fungi (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"500",0.816666666666667,0.292060676425108,"Fold10","Top 20 fungi (Species)",25,206,"Bile Duct","phenotype",0.5,0.108225108225108
+"501",0.588235294117647,0.26830060587359,"Fold1","Top 20 fungi (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"502",0.4,0.367185857715521,"Fold2","Top 20 fungi (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"503",0.666666666666667,0.293040893931791,"Fold3","Top 20 fungi (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"504",0.655555555555555,0.293505268923853,"Fold4","Top 20 fungi (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"505",0.666666666666667,0.391035330626595,"Fold5","Top 20 fungi (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"506",0.655555555555556,0.289075252446392,"Fold6","Top 20 fungi (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"507",0.598039215686274,0.294593551265392,"Fold7","Top 20 fungi (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"508",0.711111111111111,0.352187505288075,"Fold8","Top 20 fungi (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"509",0.549019607843137,0.285368607278998,"Fold9","Top 20 fungi (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"510",0.842592592592593,0.655995141075692,"Fold10","Top 20 fungi (Species)",54,177,"Breast","phenotype",0.5,0.233766233766234
+"511",0.547619047619048,0.0879922928918399,"Fold1","Top 20 fungi (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"512",0.8,0.283741400148503,"Fold2","Top 20 fungi (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"513",0.6,0.120023226657144,"Fold3","Top 20 fungi (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"514",0.174603174603175,0.0744021276335042,"Fold4","Top 20 fungi (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"515",0.476190476190476,0.126718554164869,"Fold5","Top 20 fungi (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"516",0.928571428571429,0.665284673028685,"Fold6","Top 20 fungi (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"517",0.7,0.236061654153449,"Fold7","Top 20 fungi (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"518",0.733333333333333,0.211737997246904,"Fold8","Top 20 fungi (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"519",0.516666666666667,0.124009879555531,"Fold9","Top 20 fungi (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"520",0.5,0.123193267578344,"Fold10","Top 20 fungi (Species)",27,204,"Colorectal","phenotype",0.5,0.116883116883117
+"521",0.142857142857143,0.049217584474464,"Fold1","Top 20 fungi (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"522",0.233333333333333,0.0812917144330323,"Fold2","Top 20 fungi (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"523",0.65,0.118656012423432,"Fold3","Top 20 fungi (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"524",0.841269841269841,0.302335808313936,"Fold4","Top 20 fungi (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"525",0.841269841269841,0.33132168831057,"Fold5","Top 20 fungi (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"526",0.80952380952381,0.193940714018268,"Fold6","Top 20 fungi (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"527",0.75,0.218611648737593,"Fold7","Top 20 fungi (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"528",0.75,0.528545026769337,"Fold8","Top 20 fungi (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"529",0.4,0.132165078813665,"Fold9","Top 20 fungi (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"530",0.483333333333333,0.408158233161882,"Fold10","Top 20 fungi (Species)",27,204,"Gastric","phenotype",0.5,0.116883116883117
+"531",0.25,0.0896522173052298,"Fold1","Top 20 fungi (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"532",0.473684210526316,0.158092518977793,"Fold2","Top 20 fungi (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"533",0.733333333333333,0.350881001967268,"Fold3","Top 20 fungi (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"534",0.65,0.339169138089642,"Fold4","Top 20 fungi (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"535",0.5375,0.179992012404425,"Fold5","Top 20 fungi (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"536",0.736842105263158,0.30119140556436,"Fold6","Top 20 fungi (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"537",0.775,0.790659929642982,"Fold7","Top 20 fungi (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"538",0.65,0.438232845470921,"Fold8","Top 20 fungi (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"539",0.381578947368421,0.141140319818222,"Fold9","Top 20 fungi (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"540",0.855263157894737,0.586442269658961,"Fold10","Top 20 fungi (Species)",35,196,"Lung","phenotype",0.5,0.151515151515152
+"541",0.916666666666667,0.625890394904858,"Fold1","Top 20 fungi (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"542",0.583333333333333,0.43243193178518,"Fold2","Top 20 fungi (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"543",0.425,0.103276734973398,"Fold3","Top 20 fungi (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"544",0.833333333333333,0.33132168831057,"Fold4","Top 20 fungi (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"545",0.492063492063492,0.117714085937855,"Fold5","Top 20 fungi (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"546",0.533333333333333,0.126669324592637,"Fold6","Top 20 fungi (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"547",0.920634920634921,0.451474346983342,"Fold7","Top 20 fungi (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"548",0.766666666666667,0.505127217455477,"Fold8","Top 20 fungi (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"549",0.775,0.571104190880538,"Fold9","Top 20 fungi (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"550",0.603174603174603,0.162936483640611,"Fold10","Top 20 fungi (Species)",28,203,"Ovarian","phenotype",0.5,0.121212121212121
+"551",0.789473684210526,0.253608304921242,"Fold1","Top 20 fungi (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"552",0.4625,0.150273311651424,"Fold2","Top 20 fungi (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"553",0.385964912280702,0.106592459926606,"Fold3","Top 20 fungi (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"554",0.625,0.204780098779956,"Fold4","Top 20 fungi (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"555",0.475,0.147087381414373,"Fold5","Top 20 fungi (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"556",0.543859649122807,0.16265914281953,"Fold6","Top 20 fungi (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"557",0.7375,0.493149089155343,"Fold7","Top 20 fungi (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"558",0.766666666666667,0.223005144161419,"Fold8","Top 20 fungi (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"559",0.55,0.417776042185369,"Fold9","Top 20 fungi (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147
+"560",0.733333333333333,0.525297049888784,"Fold10","Top 20 fungi (Species)",34,197,"Pancreatic","phenotype",0.5,0.147186147186147

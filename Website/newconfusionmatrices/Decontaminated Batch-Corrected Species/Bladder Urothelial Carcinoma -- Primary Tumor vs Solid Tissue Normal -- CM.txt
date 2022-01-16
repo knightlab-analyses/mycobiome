@@ -1,0 +1,28 @@
+[1] "Bladder Urothelial Carcinoma"
+Confusion Matrix and Statistics
+
+                   Reference
+Prediction          PrimaryTumor SolidTissueNormal
+  PrimaryTumor               509                29
+  SolidTissueNormal           24                18
+                                          
+               Accuracy : 0.9086          
+                 95% CI : (0.8822, 0.9308)
+    No Information Rate : 0.919           
+    P-Value [Acc > NIR] : 0.8389          
+                                          
+                  Kappa : 0.3552          
+                                          
+ Mcnemar's Test P-Value : 0.5827          
+                                          
+            Sensitivity : 0.9550          
+            Specificity : 0.3830          
+         Pos Pred Value : 0.9461          
+         Neg Pred Value : 0.4286          
+             Prevalence : 0.9190          
+         Detection Rate : 0.8776          
+   Detection Prevalence : 0.9276          
+      Balanced Accuracy : 0.6690          
+                                          
+       'Positive' Class : PrimaryTumor    
+                                          

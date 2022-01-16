@@ -1,0 +1,28 @@
+[1] "Kidney Chromophobe"
+Confusion Matrix and Statistics
+
+                   Reference
+Prediction          PrimaryTumor SolidTissueNormal
+  PrimaryTumor                43                 6
+  SolidTissueNormal            7                35
+                                          
+               Accuracy : 0.8571          
+                 95% CI : (0.7681, 0.9217)
+    No Information Rate : 0.5495          
+    P-Value [Acc > NIR] : 3.897e-10       
+                                          
+                  Kappa : 0.7121          
+                                          
+ Mcnemar's Test P-Value : 1               
+                                          
+            Sensitivity : 0.8600          
+            Specificity : 0.8537          
+         Pos Pred Value : 0.8776          
+         Neg Pred Value : 0.8333          
+             Prevalence : 0.5495          
+         Detection Rate : 0.4725          
+   Detection Prevalence : 0.5385          
+      Balanced Accuracy : 0.8568          
+                                          
+       'Positive' Class : PrimaryTumor    
+                                          

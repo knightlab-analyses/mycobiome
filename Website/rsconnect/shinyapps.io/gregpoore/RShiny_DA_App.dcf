@@ -1,0 +1,12 @@
+name: RShiny_DA_App
+title: RShiny_DA_App
+username:
+account: gregpoore
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1149102
+bundleId: 2510187
+url: https://gregpoore.shinyapps.io/RShiny_DA_App/
+when: 1571362527.44694
+asMultiple: FALSE
+asStatic: FALSE

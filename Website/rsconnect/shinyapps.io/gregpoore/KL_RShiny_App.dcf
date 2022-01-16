@@ -1,0 +1,12 @@
+name: KL_RShiny_App
+title: KL_RShiny_App
+username:
+account: gregpoore
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1557394
+bundleId: 2759153
+url: https://gregpoore.shinyapps.io/KL_RShiny_App/
+when: 1580239890.90931
+asMultiple: FALSE
+asStatic: FALSE

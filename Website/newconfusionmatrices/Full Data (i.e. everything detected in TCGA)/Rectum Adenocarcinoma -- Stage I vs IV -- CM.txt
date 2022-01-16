@@ -1,0 +1,27 @@
+[1] "Rectum Adenocarcinoma"
+Confusion Matrix and Statistics
+
+          Reference
+Prediction Stage1 Stage4
+    Stage1     13      6
+    Stage4      5      8
+                                          
+               Accuracy : 0.6562          
+                 95% CI : (0.4681, 0.8143)
+    No Information Rate : 0.5625          
+    P-Value [Acc > NIR] : 0.1871          
+                                          
+                  Kappa : 0.296           
+ Mcnemar's Test P-Value : 1.0000          
+                                          
+            Sensitivity : 0.5714          
+            Specificity : 0.7222          
+         Pos Pred Value : 0.6154          
+         Neg Pred Value : 0.6842          
+             Prevalence : 0.4375          
+         Detection Rate : 0.2500          
+   Detection Prevalence : 0.4062          
+      Balanced Accuracy : 0.6468          
+                                          
+       'Positive' Class : Stage4          
+                                          

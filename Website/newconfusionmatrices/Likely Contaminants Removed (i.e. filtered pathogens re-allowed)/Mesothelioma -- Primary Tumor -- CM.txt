@@ -1,0 +1,27 @@
+[1] "Mesothelioma"
+Confusion Matrix and Statistics
+
+                 Reference
+Prediction        Mesothelioma OtherCancerType
+  Mesothelioma              20              24
+  OtherCancerType            6            4114
+                                          
+               Accuracy : 0.9928          
+                 95% CI : (0.9897, 0.9951)
+    No Information Rate : 0.9938          
+    P-Value [Acc > NIR] : 0.814127        
+                                          
+                  Kappa : 0.568           
+ Mcnemar's Test P-Value : 0.001911        
+                                          
+            Sensitivity : 0.769231        
+            Specificity : 0.994200        
+         Pos Pred Value : 0.454545        
+         Neg Pred Value : 0.998544        
+             Prevalence : 0.006244        
+         Detection Rate : 0.004803        
+   Detection Prevalence : 0.010567        
+      Balanced Accuracy : 0.881715        
+                                          
+       'Positive' Class : Mesothelioma    
+                                          
