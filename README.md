@@ -16,6 +16,8 @@ install_github("gregpoore/mycobiome")
 
 ## Organization of files
 
+### `R` files, scripts, and subfolders:
+
 The `R` files are enumerated and provided approximately in the same order as TCGA analyses detailed in the paper. The following subdirectories contain important information for running the `R` analyses:
 
 - All of the input data used for the 17 main R scripts in the base directory are provided in the `/Input_data` subfolder. 
@@ -45,7 +47,17 @@ The 17 main `R` scripts in the base directory have the following brief descripti
 - `15R-ML-WIS-samples.R` → This script performs the remaining machine learning analyses on WIS data that were not covered in `06R-Perform-machine-learning-on-Weizmann-data.R`.
 - `16R-Addressing-remaining-reviewer-comments.R` → This script performs several analyses to respond to reviewer requests.
 
+### Qiime alpha and beta diversity analyses:
+
+The Qiime-based analyses, including input data and script, are found under the `/Qiime_data_and_scripts_resubmission_version` subfolder. The `CLI` commands run are listed under `/Qiime_data_and_scripts_resubmission_version/qiime2_mycobiome_tcga_analyses_resubmission_version.ipynb`.
+
+### MMvec fungal-bacterial-immune co-occurrence analyses:
+
+The MMvec-based analyses, including input data and scripts, are found under the `/MMvec-cooccurrence-analyses-resubmission` subfolder. A separate `Readme.md` file is listed within that subdirectory explaining its contents.
+
 ## Docker host depletion pipeline (`/Docker_host_depletion_pipeline`)
+
+For these analyses, we re-aligned all non-human reads against a uniform reference genome (GRCh38+PhiX). Due to the large amount of data being reprocessed, the host-depletion pipeline was optimized for speed. For others to use, we have packaged the host depletion steps into a Docker container, described below.
 
 The following files are listed in this subdirectory:
 1. `Dockerfile` —> This text file is used to build the Docker container on your computer (instructions are below)
@@ -87,7 +99,7 @@ If you use data or software from this repository, please cite the following two 
 ```
 {Citation for this paper forthcoming}
 ```
-- Poore, Kopylova _et al._ 2020. _Nature_:
+- [Poore, Kopylova _et al._ 2020. _Nature_](https://www.nature.com/articles/s41586-020-2095-1):
 ```
 @article{poore2020microbiome,
   title={Microbiome analyses of blood and tissues suggest cancer diagnostic approach},
