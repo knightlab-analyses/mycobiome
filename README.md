@@ -63,6 +63,11 @@ The Qiime-based analyses, including input data and script, are found under the `
 
 The MMvec-based analyses, including input data and scripts, are found under the `/MMvec-cooccurrence-analyses-resubmission` subfolder. A separate `README.md` file is listed within that subdirectory explaining its contents.
 
+### Other directories
+
+- `/EukDetect` → This directory contains code and resultant tables for rerunning TCGA using [EukDetect](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-021-01015-y).
+- `/Coverage_analysis` → This directory contains several scripts involved in calculating fungal genome coverages.
+
 ## Docker host depletion pipeline (`/Docker_host_depletion_pipeline`)
 
 For these analyses, we re-aligned all non-human reads against a uniform reference genome (GRCh38+PhiX). Due to the large amount of data being reprocessed, the host-depletion pipeline was optimized for speed. For others to use, we have packaged the host depletion steps into a Docker container, described below.
