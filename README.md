@@ -6,7 +6,7 @@ This is the GitHub repository for all TCGA-centric analyses of the pan-cancer my
 
 ## Installation
 
-On the top right of this page, click the `Code ▼` button followed by the `Download ZIP` button to download the entire repository.
+On the top right of the main repository page, click the `Code ▼` button followed by the `Download ZIP` button to download the entire repository.
 
 Alternatively, or if using `R`, you can download the repository using:
 ```
