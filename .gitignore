@@ -1,6 +1,10 @@
-MMvec_analysis
-Interim_data/data_for_pvca_tcga_taxa_levels_15Sep21.RData
+.DS_Store
+Interim_data/Deprecated
 Input_data/.DS_Store
 Figures/.DS_Store
-.DS_Store
+Figures/Deprecated
+Figures_data/Deprecated
 Deprecated
+Website_resubmission
+Supporting_scripts/Deprecated
+Coverage_analysis
