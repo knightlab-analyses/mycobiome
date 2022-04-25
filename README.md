@@ -61,7 +61,7 @@ The 17 main `R` scripts in the base directory have the following brief descripti
 
 ### Qiime alpha and beta diversity analyses:
 
-The Qiime-based analyses, including input data and script, are found under the `/Qiime_data_and_scripts_resubmission_version` subfolder. The `CLI` commands run are listed under `/Qiime_data_and_scripts_resubmission_version/qiime2_mycobiome_tcga_analyses_resubmission_version.ipynb`.
+The Qiime-based analyses, including input data and script, are found under the `/Qiime_data_and_scripts_resubmission_version` subfolder. The `CLI` commands run are listed therein under `qiime2_mycobiome_tcga_analyses_resubmission_version.ipynb`.
 
 ### MMvec fungal-bacterial-immune co-occurrence analyses:
 
