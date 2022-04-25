@@ -67,7 +67,7 @@ The Qiime-based analyses, including input data and script, are found under the `
 
 The MMvec-based analyses, including input data and scripts, are found under the `/MMvec-cooccurrence-analyses-resubmission` subfolder. A separate `README.md` file is listed within that subdirectory explaining its contents.
 
-### Other directories
+### Other directories:
 
 - `/EukDetect` → This directory contains code and resultant tables for rerunning TCGA using [EukDetect](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-021-01015-y).
 - `/Coverage_analysis` → This directory contains several scripts involved in calculating fungal genome coverages.
