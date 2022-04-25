@@ -1,8 +1,16 @@
 # Pan-cancer mycobiome atlas
 
-This is the GitHub repository for all TCGA-centric analyses of the pan-cancer mycobiome atlas paper by Narunsky-Haziza, Sepich-Poore, Livyatan _et al.,_ 2022. Data and code provided herein cover the fungal and bacterial analysis of 17,401 patient tissue, blood, and plasma samples across 35 cancer types in four independent cohorts.
+This is the GitHub repository for all TCGA, Hopkins, and UCSD analyses of the pan-cancer mycobiome atlas paper by Narunsky-Haziza, Sepich-Poore, Livyatan _et al.,_ 2022. Data and code provided herein cover the fungal and bacterial analysis of 17,401 patient tissue, blood, and plasma samples across 35 cancer types in four independent cohorts.
 
-**Please note** that this repository is divided into multiple subdirectories, each with their respective files and/or instructions, as shown below.
+**Please note** that this repository is divided into multiple subdirectories. They are detailed below in the `Organization of files` section.
+
+## Related repositories
+
+There are several other repositories related to this paper, including the following:
+
+- Fungal phylogenomics of reconstructed bins: https://github.com/stajichlab/Tumor_mycobiome_2022
+- Aggregated and per-sample genome coverage calculations: https://github.com/ucsd-cmi/zebra_filter
+- The ITS2 pipeline for amplicon-based analyses: https://github.com/microbiofunc/ITS2-pipeline
 
 ## Installation
 
