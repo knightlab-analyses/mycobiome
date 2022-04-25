@@ -1,0 +1,791 @@
+﻿id,investigation,disease_type,observed_otus
+13722.58cfa82fe4b0c9d6adf6b62c,TCGA-LUAD,Lung Adenocarcinoma,14
+13722.58cfa82ee4b0c9d6adf6af20,TCGA-LUAD,Lung Adenocarcinoma,24
+13722.58cfa82fe4b0c9d6adf6b6d8,TCGA-LUAD,Lung Adenocarcinoma,8
+13722.58cfa82fe4b0c9d6adf6b648,TCGA-LUAD,Lung Adenocarcinoma,14
+13722.58cfa82fe4b0c9d6adf6b60d,TCGA-LUAD,Lung Adenocarcinoma,16
+13722.58cfa82fe4b0c9d6adf6b748,TCGA-LUAD,Lung Adenocarcinoma,10
+13722.58cfa82fe4b0c9d6adf6b680,TCGA-LUAD,Lung Adenocarcinoma,7
+13722.58cfa82fe4b0c9d6adf6b8c0,TCGA-LUAD,Lung Adenocarcinoma,12
+13722.58cfa82fe4b0c9d6adf6b6fc,TCGA-LUAD,Lung Adenocarcinoma,55
+13722.58cfa82fe4b0c9d6adf6b8d9,TCGA-LUAD,Lung Adenocarcinoma,11
+13722.58cfa830e4b0c9d6adf6bb6a,TCGA-LUAD,Lung Adenocarcinoma,12
+13722.58cfa830e4b0c9d6adf6bdd4,TCGA-BRCA,Breast Invasive Carcinoma,6
+13722.58cfa82fe4b0c9d6adf6b6f8,TCGA-LUAD,Lung Adenocarcinoma,32
+13722.58cfa830e4b0c9d6adf6be88,TCGA-THCA,Thyroid Carcinoma,9
+13722.58cfa830e4b0c9d6adf6beea,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,14
+13722.58cfa830e4b0c9d6adf6bcc6,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,64
+13722.58cfa830e4b0c9d6adf6bf44,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,20
+13722.58cfa830e4b0c9d6adf6c062,TCGA-BRCA,Breast Invasive Carcinoma,8
+13722.58cfa830e4b0c9d6adf6c134,TCGA-BRCA,Breast Invasive Carcinoma,8
+13722.58cfa830e4b0c9d6adf6c128,TCGA-BRCA,Breast Invasive Carcinoma,12
+13722.58cfa830e4b0c9d6adf6c1a0,TCGA-STAD,Stomach Adenocarcinoma,6
+13722.58cfa830e4b0c9d6adf6c136,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,10
+13722.58cfa830e4b0c9d6adf6c1a6,TCGA-BRCA,Breast Invasive Carcinoma,7
+13722.58cfa830e4b0c9d6adf6c138,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,14
+13722.58cfa830e4b0c9d6adf6c1e1,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,13
+13722.58cfa830e4b0c9d6adf6bf40,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,37
+13722.58cfa830e4b0c9d6adf6c208,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,19
+13722.58cfa830e4b0c9d6adf6c236,TCGA-THCA,Thyroid Carcinoma,17
+13722.58cfa830e4b0c9d6adf6c23a,TCGA-BLCA,Bladder Urothelial Carcinoma,12
+13722.58cfa830e4b0c9d6adf6c29c,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,25
+13722.58cfa830e4b0c9d6adf6c2a8,TCGA-STAD,Stomach Adenocarcinoma,23
+13722.58cfa830e4b0c9d6adf6c2aa,TCGA-STAD,Stomach Adenocarcinoma,15
+13722.58cfa830e4b0c9d6adf6c2db,TCGA-BLCA,Bladder Urothelial Carcinoma,13
+13722.58cfa830e4b0c9d6adf6c31e,TCGA-BLCA,Bladder Urothelial Carcinoma,23
+13722.58cfa831e4b0c9d6adf6c366,TCGA-STAD,Stomach Adenocarcinoma,6
+13722.58cfa831e4b0c9d6adf6c37e,TCGA-STAD,Stomach Adenocarcinoma,5
+13722.58cfa831e4b0c9d6adf6c3b8,TCGA-STAD,Stomach Adenocarcinoma,3
+13722.58cfa831e4b0c9d6adf6c3d6,TCGA-STAD,Stomach Adenocarcinoma,5
+13722.58cfa831e4b0c9d6adf6c3dc,TCGA-STAD,Stomach Adenocarcinoma,4
+13722.58cfa831e4b0c9d6adf6c3f0,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,7
+13722.58cfa831e4b0c9d6adf6c3fc,TCGA-PRAD,Prostate Adenocarcinoma,3
+13722.58cfa831e4b0c9d6adf6c39a,TCGA-STAD,Stomach Adenocarcinoma,4
+13722.58cfa831e4b0c9d6adf6c5c8,TCGA-STAD,Stomach Adenocarcinoma,9
+13722.58cfa830e4b0c9d6adf6c214,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,14
+13722.58cfa831e4b0c9d6adf6c61a,TCGA-STAD,Stomach Adenocarcinoma,7
+13722.58cfa831e4b0c9d6adf6c670,TCGA-LGG,Brain Lower Grade Glioma,6
+13722.58cfa831e4b0c9d6adf6c5ed,TCGA-STAD,Stomach Adenocarcinoma,10
+13722.58cfa831e4b0c9d6adf6c73a,TCGA-STAD,Stomach Adenocarcinoma,5
+13722.58cfa831e4b0c9d6adf6c6be,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,15
+13722.58cfa831e4b0c9d6adf6c702,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,10
+13722.58cfa831e4b0c9d6adf6c7aa,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,21
+13722.58cfa831e4b0c9d6adf6c7b1,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,24
+13722.58cfa831e4b0c9d6adf6c7c8,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,35
+13722.58cfa831e4b0c9d6adf6c78a,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,17
+13722.58cfa831e4b0c9d6adf6c7f7,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,12
+13722.58cfa831e4b0c9d6adf6c803,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,15
+13722.58cfa831e4b0c9d6adf6c836,TCGA-STAD,Stomach Adenocarcinoma,6
+13722.58cfa831e4b0c9d6adf6c82b,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,27
+13722.58cfa831e4b0c9d6adf6c8c4,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,24
+13722.58cfa831e4b0c9d6adf6c8e8,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,18
+13722.58cfa831e4b0c9d6adf6c91f,TCGA-BLCA,Bladder Urothelial Carcinoma,25
+13722.58cfa831e4b0c9d6adf6c8f2,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,16
+13722.58cfa831e4b0c9d6adf6c93f,TCGA-BLCA,Bladder Urothelial Carcinoma,13
+13722.58cfa831e4b0c9d6adf6ca71,TCGA-THCA,Thyroid Carcinoma,13
+13722.58cfa831e4b0c9d6adf6ca93,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,24
+13722.58cfa831e4b0c9d6adf6cb25,TCGA-THCA,Thyroid Carcinoma,6
+13722.58cfa831e4b0c9d6adf6ca01,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,11
+13722.58cfa831e4b0c9d6adf6cbd9,TCGA-PRAD,Prostate Adenocarcinoma,2
+13722.58cfa831e4b0c9d6adf6cba8,TCGA-PRAD,Prostate Adenocarcinoma,10
+13722.58cfa831e4b0c9d6adf6cc23,TCGA-PRAD,Prostate Adenocarcinoma,6
+13722.58cfa831e4b0c9d6adf6cc76,TCGA-SKCM,Skin Cutaneous Melanoma,14
+13722.58cfa831e4b0c9d6adf6cdb6,TCGA-LGG,Brain Lower Grade Glioma,2
+13722.58cfa831e4b0c9d6adf6cdba,TCGA-SKCM,Skin Cutaneous Melanoma,13
+13722.58cfa832e4b0c9d6adf6ce8a,TCGA-BLCA,Bladder Urothelial Carcinoma,8
+13722.58cfa832e4b0c9d6adf6ce96,TCGA-BLCA,Bladder Urothelial Carcinoma,9
+13722.58cfa831e4b0c9d6adf6cd7a,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,43
+13722.58cfa832e4b0c9d6adf6cf7a,TCGA-PRAD,Prostate Adenocarcinoma,8
+13722.58cfa832e4b0c9d6adf6cf82,TCGA-PRAD,Prostate Adenocarcinoma,5
+13722.58cfa832e4b0c9d6adf6cfdc,TCGA-PRAD,Prostate Adenocarcinoma,10
+13722.58cfa832e4b0c9d6adf6d018,TCGA-BLCA,Bladder Urothelial Carcinoma,33
+13722.58cfa832e4b0c9d6adf6d04e,TCGA-PRAD,Prostate Adenocarcinoma,7
+13722.58cfa832e4b0c9d6adf6d044,TCGA-BLCA,Bladder Urothelial Carcinoma,7
+13722.58cfa832e4b0c9d6adf6d10e,TCGA-LGG,Brain Lower Grade Glioma,4
+13722.58cfa832e4b0c9d6adf6d194,TCGA-PRAD,Prostate Adenocarcinoma,9
+13722.58cfa832e4b0c9d6adf6d1b5,TCGA-PRAD,Prostate Adenocarcinoma,3
+13722.58cfa832e4b0c9d6adf6d288,TCGA-LGG,Brain Lower Grade Glioma,8
+13722.58cfa82ee4b0c9d6adf6b092,TCGA-LUAD,Lung Adenocarcinoma,12
+13722.58cfa82fe4b0c9d6adf6b62e,TCGA-LUAD,Lung Adenocarcinoma,11
+13722.58cfa82fe4b0c9d6adf6b701,TCGA-LUAD,Lung Adenocarcinoma,8
+13722.58cfa82fe4b0c9d6adf6b8d4,TCGA-LUAD,Lung Adenocarcinoma,8
+13722.58cfa82fe4b0c9d6adf6b896,TCGA-LUAD,Lung Adenocarcinoma,14
+13722.58cfa82fe4b0c9d6adf6b8f2,TCGA-LUAD,Lung Adenocarcinoma,8
+13722.58cfa82fe4b0c9d6adf6b697,TCGA-LUAD,Lung Adenocarcinoma,9
+13722.58cfa82fe4b0c9d6adf6b942,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,28
+13722.58cfa82fe4b0c9d6adf6b904,TCGA-LUAD,Lung Adenocarcinoma,22
+13722.58cfa82fe4b0c9d6adf6ba08,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,29
+13722.58cfa82fe4b0c9d6adf6ba48,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,29
+13722.58cfa82fe4b0c9d6adf6b9c6,TCGA-LUAD,Lung Adenocarcinoma,15
+13722.58cfa830e4b0c9d6adf6bc7a,TCGA-BRCA,Breast Invasive Carcinoma,6
+13722.58cfa830e4b0c9d6adf6bd78,TCGA-BRCA,Breast Invasive Carcinoma,8
+13722.58cfa830e4b0c9d6adf6bdcc,TCGA-BRCA,Breast Invasive Carcinoma,4
+13722.58cfa830e4b0c9d6adf6ba9b,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,31
+13722.58cfa830e4b0c9d6adf6be6c,TCGA-BLCA,Bladder Urothelial Carcinoma,37
+13722.58cfa830e4b0c9d6adf6be82,TCGA-BLCA,Bladder Urothelial Carcinoma,25
+13722.58cfa830e4b0c9d6adf6c02c,TCGA-THCA,Thyroid Carcinoma,10
+13722.58cfa830e4b0c9d6adf6c120,TCGA-THCA,Thyroid Carcinoma,16
+13722.58cfa830e4b0c9d6adf6c192,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,13
+13722.58cfa830e4b0c9d6adf6c228,TCGA-BLCA,Bladder Urothelial Carcinoma,13
+13722.58cfa830e4b0c9d6adf6c298,TCGA-BRCA,Breast Invasive Carcinoma,9
+13722.58cfa831e4b0c9d6adf6c32f,TCGA-STAD,Stomach Adenocarcinoma,8
+13722.58cfa830e4b0c9d6adf6c12e,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,29
+13722.58cfa831e4b0c9d6adf6c332,TCGA-STAD,Stomach Adenocarcinoma,5
+13722.58cfa831e4b0c9d6adf6c33c,TCGA-STAD,Stomach Adenocarcinoma,7
+13722.58cfa831e4b0c9d6adf6c33e,TCGA-STAD,Stomach Adenocarcinoma,6
+13722.58cfa831e4b0c9d6adf6c342,TCGA-STAD,Stomach Adenocarcinoma,5
+13722.58cfa831e4b0c9d6adf6c39e,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,5
+13722.58cfa831e4b0c9d6adf6c388,TCGA-STAD,Stomach Adenocarcinoma,7
+13722.58cfa831e4b0c9d6adf6c3ec,TCGA-PRAD,Prostate Adenocarcinoma,6
+13722.58cfa831e4b0c9d6adf6c3dd,TCGA-PRAD,Prostate Adenocarcinoma,6
+13722.58cfa831e4b0c9d6adf6c3fe,TCGA-PRAD,Prostate Adenocarcinoma,6
+13722.58cfa831e4b0c9d6adf6c467,TCGA-PRAD,Prostate Adenocarcinoma,5
+13722.58cfa831e4b0c9d6adf6c446,TCGA-PRAD,Prostate Adenocarcinoma,6
+13722.58cfa831e4b0c9d6adf6c420,TCGA-BLCA,Bladder Urothelial Carcinoma,43
+13722.58cfa831e4b0c9d6adf6c590,TCGA-STAD,Stomach Adenocarcinoma,5
+13722.58cfa831e4b0c9d6adf6c558,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,19
+13722.58cfa830e4b0c9d6adf6c0fe,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,20
+13722.58cfa831e4b0c9d6adf6c6ea,TCGA-STAD,Stomach Adenocarcinoma,10
+13722.58cfa831e4b0c9d6adf6c6a2,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,27
+13722.58cfa831e4b0c9d6adf6c6ad,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,13
+13722.58cfa831e4b0c9d6adf6c6fc,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,24
+13722.58cfa831e4b0c9d6adf6c748,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,29
+13722.58cfa831e4b0c9d6adf6c889,TCGA-STAD,Stomach Adenocarcinoma,8
+13722.58cfa831e4b0c9d6adf6c7dd,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,19
+13722.58cfa831e4b0c9d6adf6c8a6,TCGA-STAD,Stomach Adenocarcinoma,6
+13722.58cfa831e4b0c9d6adf6c8a2,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,27
+13722.58cfa831e4b0c9d6adf6c8c8,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,18
+13722.58cfa831e4b0c9d6adf6c90c,TCGA-BLCA,Bladder Urothelial Carcinoma,9
+13722.58cfa831e4b0c9d6adf6c912,TCGA-BLCA,Bladder Urothelial Carcinoma,14
+13722.58cfa831e4b0c9d6adf6c91b,TCGA-BLCA,Bladder Urothelial Carcinoma,21
+13722.58cfa831e4b0c9d6adf6c936,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,23
+13722.58cfa831e4b0c9d6adf6ca1b,TCGA-BLCA,Bladder Urothelial Carcinoma,12
+13722.58cfa831e4b0c9d6adf6cae8,TCGA-STAD,Stomach Adenocarcinoma,4
+13722.58cfa831e4b0c9d6adf6cba0,TCGA-PRAD,Prostate Adenocarcinoma,9
+13722.58cfa831e4b0c9d6adf6cc40,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,7
+13722.58cfa831e4b0c9d6adf6cc5c,TCGA-PRAD,Prostate Adenocarcinoma,7
+13722.58cfa831e4b0c9d6adf6cba4,TCGA-PRAD,Prostate Adenocarcinoma,5
+13722.58cfa831e4b0c9d6adf6cca9,TCGA-SKCM,Skin Cutaneous Melanoma,8
+13722.58cfa831e4b0c9d6adf6cd84,TCGA-THCA,Thyroid Carcinoma,6
+13722.58cfa832e4b0c9d6adf6ce02,TCGA-PRAD,Prostate Adenocarcinoma,5
+13722.58cfa831e4b0c9d6adf6cd7c,TCGA-BLCA,Bladder Urothelial Carcinoma,7
+13722.58cfa832e4b0c9d6adf6ceb7,TCGA-PRAD,Prostate Adenocarcinoma,2
+13722.58cfa832e4b0c9d6adf6ced1,TCGA-PRAD,Prostate Adenocarcinoma,7
+13722.58cfa832e4b0c9d6adf6ced3,TCGA-PRAD,Prostate Adenocarcinoma,5
+13722.58cfa832e4b0c9d6adf6cf07,TCGA-PRAD,Prostate Adenocarcinoma,7
+13722.58cfa832e4b0c9d6adf6cf34,TCGA-PRAD,Prostate Adenocarcinoma,3
+13722.58cfa832e4b0c9d6adf6cfe4,TCGA-PRAD,Prostate Adenocarcinoma,7
+13722.58cfa832e4b0c9d6adf6d015,TCGA-PRAD,Prostate Adenocarcinoma,3
+13722.58cfa832e4b0c9d6adf6d06c,TCGA-PRAD,Prostate Adenocarcinoma,4
+13722.58cfa832e4b0c9d6adf6d1a2,TCGA-PRAD,Prostate Adenocarcinoma,8
+13722.58cfa832e4b0c9d6adf6d12c,TCGA-BLCA,Bladder Urothelial Carcinoma,30
+13722.58cfa832e4b0c9d6adf6d279,TCGA-LGG,Brain Lower Grade Glioma,6
+13722.58cfa82ee4b0c9d6adf6aee7,TCGA-LUAD,Lung Adenocarcinoma,17
+13722.58cfa82ee4b0c9d6adf6ae6c,TCGA-LUAD,Lung Adenocarcinoma,16
+13722.58cfa82fe4b0c9d6adf6b5dc,TCGA-LUAD,Lung Adenocarcinoma,9
+13722.58cfa82ee4b0c9d6adf6afae,TCGA-LUAD,Lung Adenocarcinoma,32
+13722.58cfa82fe4b0c9d6adf6b720,TCGA-LUAD,Lung Adenocarcinoma,26
+13722.58cfa82fe4b0c9d6adf6b81e,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,21
+13722.58cfa82ee4b0c9d6adf6ae60,TCGA-LUAD,Lung Adenocarcinoma,47
+13722.58cfa82fe4b0c9d6adf6b674,TCGA-LUAD,Lung Adenocarcinoma,64
+13722.58cfa82fe4b0c9d6adf6b92a,TCGA-LUAD,Lung Adenocarcinoma,12
+13722.58cfa82fe4b0c9d6adf6b9ab,TCGA-LUAD,Lung Adenocarcinoma,17
+13722.58cfa82fe4b0c9d6adf6b932,TCGA-LUAD,Lung Adenocarcinoma,13
+13722.58cfa830e4b0c9d6adf6be70,TCGA-THCA,Thyroid Carcinoma,7
+13722.58cfa82fe4b0c9d6adf6b8c6,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,27
+13722.58cfa830e4b0c9d6adf6bd92,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,45
+13722.58cfa830e4b0c9d6adf6bda2,TCGA-SKCM,Skin Cutaneous Melanoma,15
+13722.58cfa830e4b0c9d6adf6bee2,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,9
+13722.58cfa830e4b0c9d6adf6bf52,TCGA-STAD,Stomach Adenocarcinoma,7
+13722.58cfa830e4b0c9d6adf6bbf4,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,27
+13722.58cfa830e4b0c9d6adf6bf32,TCGA-STAD,Stomach Adenocarcinoma,12
+13722.58cfa830e4b0c9d6adf6bfdf,TCGA-STAD,Stomach Adenocarcinoma,3
+13722.58cfa830e4b0c9d6adf6bf08,TCGA-STAD,Stomach Adenocarcinoma,19
+13722.58cfa830e4b0c9d6adf6c07c,TCGA-THCA,Thyroid Carcinoma,10
+13722.58cfa830e4b0c9d6adf6c1de,TCGA-BLCA,Bladder Urothelial Carcinoma,14
+13722.58cfa830e4b0c9d6adf6c0e2,TCGA-THCA,Thyroid Carcinoma,4
+13722.58cfa830e4b0c9d6adf6c206,TCGA-BLCA,Bladder Urothelial Carcinoma,12
+13722.58cfa830e4b0c9d6adf6c319,TCGA-STAD,Stomach Adenocarcinoma,6
+13722.58cfa830e4b0c9d6adf6c310,TCGA-STAD,Stomach Adenocarcinoma,6
+13722.58cfa831e4b0c9d6adf6c338,TCGA-STAD,Stomach Adenocarcinoma,5
+13722.58cfa831e4b0c9d6adf6c3e2,TCGA-PRAD,Prostate Adenocarcinoma,4
+13722.58cfa831e4b0c9d6adf6c3b2,TCGA-STAD,Stomach Adenocarcinoma,4
+13722.58cfa831e4b0c9d6adf6c3e6,TCGA-PRAD,Prostate Adenocarcinoma,4
+13722.58cfa831e4b0c9d6adf6c412,TCGA-PRAD,Prostate Adenocarcinoma,3
+13722.58cfa831e4b0c9d6adf6c438,TCGA-PRAD,Prostate Adenocarcinoma,6
+13722.58cfa831e4b0c9d6adf6c44a,TCGA-PRAD,Prostate Adenocarcinoma,4
+13722.58cfa831e4b0c9d6adf6c531,TCGA-PRAD,Prostate Adenocarcinoma,5
+13722.58cfa830e4b0c9d6adf6c278,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,43
+13722.58cfa831e4b0c9d6adf6c59e,TCGA-STAD,Stomach Adenocarcinoma,3
+13722.58cfa831e4b0c9d6adf6c5a0,TCGA-STAD,Stomach Adenocarcinoma,6
+13722.58cfa831e4b0c9d6adf6c56b,TCGA-PRAD,Prostate Adenocarcinoma,7
+13722.58cfa831e4b0c9d6adf6c60a,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,18
+13722.58cfa831e4b0c9d6adf6c602,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,12
+13722.58cfa831e4b0c9d6adf6c667,TCGA-STAD,Stomach Adenocarcinoma,6
+13722.58cfa831e4b0c9d6adf6c69c,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,17
+13722.58cfa831e4b0c9d6adf6c70c,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,24
+13722.58cfa831e4b0c9d6adf6c6a0,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,13
+13722.58cfa831e4b0c9d6adf6c746,TCGA-STAD,Stomach Adenocarcinoma,3
+13722.58cfa831e4b0c9d6adf6c768,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,27
+13722.58cfa831e4b0c9d6adf6c74d,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,12
+13722.58cfa831e4b0c9d6adf6c7a3,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,6
+13722.58cfa831e4b0c9d6adf6c7f3,TCGA-STAD,Stomach Adenocarcinoma,20
+13722.58cfa831e4b0c9d6adf6c80f,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,16
+13722.58cfa831e4b0c9d6adf6c858,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,22
+13722.58cfa831e4b0c9d6adf6c826,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,15
+13722.58cfa830e4b0c9d6adf6c246,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,13
+13722.58cfa831e4b0c9d6adf6c9d4,TCGA-LGG,Brain Lower Grade Glioma,7
+13722.58cfa831e4b0c9d6adf6c9d3,TCGA-BLCA,Bladder Urothelial Carcinoma,14
+13722.58cfa831e4b0c9d6adf6c9c7,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,12
+13722.58cfa831e4b0c9d6adf6cac2,TCGA-THCA,Thyroid Carcinoma,12
+13722.58cfa831e4b0c9d6adf6ca92,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,10
+13722.58cfa82fe4b0c9d6adf6b7fa,TCGA-LUAD,Lung Adenocarcinoma,70
+13722.58cfa831e4b0c9d6adf6cb9a,TCGA-PRAD,Prostate Adenocarcinoma,4
+13722.58cfa831e4b0c9d6adf6cbca,TCGA-PRAD,Prostate Adenocarcinoma,4
+13722.58cfa831e4b0c9d6adf6cbc7,TCGA-PRAD,Prostate Adenocarcinoma,4
+13722.58cfa831e4b0c9d6adf6cbdd,TCGA-PRAD,Prostate Adenocarcinoma,5
+13722.58cfa831e4b0c9d6adf6cca3,TCGA-PRAD,Prostate Adenocarcinoma,6
+13722.58cfa831e4b0c9d6adf6cca6,TCGA-PRAD,Prostate Adenocarcinoma,2
+13722.58cfa831e4b0c9d6adf6cccc,TCGA-PRAD,Prostate Adenocarcinoma,4
+13722.58cfa831e4b0c9d6adf6cd62,TCGA-PRAD,Prostate Adenocarcinoma,3
+13722.58cfa832e4b0c9d6adf6ce6a,TCGA-THCA,Thyroid Carcinoma,9
+13722.58cfa832e4b0c9d6adf6cea9,TCGA-PRAD,Prostate Adenocarcinoma,11
+13722.58cfa832e4b0c9d6adf6cf48,TCGA-PRAD,Prostate Adenocarcinoma,3
+13722.58cfa832e4b0c9d6adf6cefc,TCGA-BLCA,Bladder Urothelial Carcinoma,6
+13722.58cfa832e4b0c9d6adf6cf86,TCGA-PRAD,Prostate Adenocarcinoma,6
+13722.58cfa832e4b0c9d6adf6ce92,TCGA-BLCA,Bladder Urothelial Carcinoma,6
+13722.58cfa832e4b0c9d6adf6d0f0,TCGA-PRAD,Prostate Adenocarcinoma,7
+13722.58cfa832e4b0c9d6adf6d0f2,TCGA-PRAD,Prostate Adenocarcinoma,4
+13722.58cfa832e4b0c9d6adf6d174,TCGA-PRAD,Prostate Adenocarcinoma,5
+13722.58cfa82ee4b0c9d6adf6ae64,TCGA-LUAD,Lung Adenocarcinoma,9
+13722.58cfa82ee4b0c9d6adf6af9e,TCGA-LUAD,Lung Adenocarcinoma,27
+13722.58cfa82fe4b0c9d6adf6b687,TCGA-LUAD,Lung Adenocarcinoma,13
+13722.58cfa82ee4b0c9d6adf6ae54,TCGA-LUAD,Lung Adenocarcinoma,11
+13722.58cfa82ee4b0c9d6adf6b0a5,TCGA-LUAD,Lung Adenocarcinoma,14
+13722.58cfa82fe4b0c9d6adf6b80c,TCGA-LUAD,Lung Adenocarcinoma,20
+13722.58cfa82fe4b0c9d6adf6b88f,TCGA-LUAD,Lung Adenocarcinoma,5
+13722.58cfa82fe4b0c9d6adf6b991,TCGA-LUAD,Lung Adenocarcinoma,34
+13722.58cfa82fe4b0c9d6adf6ba42,TCGA-COAD,Colon Adenocarcinoma,19
+13722.58cfa830e4b0c9d6adf6ba54,TCGA-COAD,Colon Adenocarcinoma,12
+13722.58cfa830e4b0c9d6adf6bb7e,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,18
+13722.58cfa830e4b0c9d6adf6bad4,TCGA-COAD,Colon Adenocarcinoma,21
+13722.58cfa830e4b0c9d6adf6bc4e,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,9
+13722.58cfa830e4b0c9d6adf6bd8f,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,14
+13722.58cfa830e4b0c9d6adf6babc,TCGA-COAD,Colon Adenocarcinoma,14
+13722.58cfa830e4b0c9d6adf6bd2e,TCGA-COAD,Colon Adenocarcinoma,17
+13722.58cfa830e4b0c9d6adf6bdc4,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,13
+13722.58cfa830e4b0c9d6adf6be01,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,10
+13722.58cfa830e4b0c9d6adf6be06,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,11
+13722.58cfa830e4b0c9d6adf6be04,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,12
+13722.58cfa830e4b0c9d6adf6be2e,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,15
+13722.58cfa830e4b0c9d6adf6be6e,TCGA-THCA,Thyroid Carcinoma,20
+13722.58cfa830e4b0c9d6adf6c16c,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,13
+13722.58cfa830e4b0c9d6adf6bb3e,TCGA-COAD,Colon Adenocarcinoma,20
+13722.58cfa830e4b0c9d6adf6c17e,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,13
+13722.58cfa830e4b0c9d6adf6c1db,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,9
+13722.58cfa830e4b0c9d6adf6c2e0,TCGA-BLCA,Bladder Urothelial Carcinoma,12
+13722.58cfa831e4b0c9d6adf6c3c2,TCGA-BLCA,Bladder Urothelial Carcinoma,16
+13722.58cfa831e4b0c9d6adf6c522,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,16
+13722.58cfa831e4b0c9d6adf6c5d8,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,23
+13722.58cfa831e4b0c9d6adf6c60c,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,27
+13722.58cfa831e4b0c9d6adf6c5fc,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,28
+13722.58cfa831e4b0c9d6adf6c60e,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,23
+13722.58cfa831e4b0c9d6adf6c661,TCGA-STAD,Stomach Adenocarcinoma,7
+13722.58cfa831e4b0c9d6adf6c5de,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,18
+13722.58cfa831e4b0c9d6adf6c67d,TCGA-STAD,Stomach Adenocarcinoma,9
+13722.58cfa831e4b0c9d6adf6c66d,TCGA-BLCA,Bladder Urothelial Carcinoma,20
+13722.58cfa831e4b0c9d6adf6c698,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,14
+13722.58cfa831e4b0c9d6adf6c718,TCGA-STAD,Stomach Adenocarcinoma,6
+13722.58cfa831e4b0c9d6adf6c71e,TCGA-STAD,Stomach Adenocarcinoma,6
+13722.58cfa831e4b0c9d6adf6c6c2,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,17
+13722.58cfa831e4b0c9d6adf6c75a,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,29
+13722.58cfa831e4b0c9d6adf6c774,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,19
+13722.58cfa831e4b0c9d6adf6c778,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,6
+13722.58cfa831e4b0c9d6adf6c7e5,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,19
+13722.58cfa831e4b0c9d6adf6c988,TCGA-THCA,Thyroid Carcinoma,28
+13722.58cfa831e4b0c9d6adf6c998,TCGA-BLCA,Bladder Urothelial Carcinoma,2
+13722.58cfa831e4b0c9d6adf6c9a8,TCGA-BLCA,Bladder Urothelial Carcinoma,6
+13722.58cfa831e4b0c9d6adf6c9a0,TCGA-THCA,Thyroid Carcinoma,18
+13722.58cfa831e4b0c9d6adf6c9b4,TCGA-THCA,Thyroid Carcinoma,31
+13722.58cfa831e4b0c9d6adf6ca43,TCGA-THCA,Thyroid Carcinoma,15
+13722.58cfa831e4b0c9d6adf6cad2,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,19
+13722.58cfa831e4b0c9d6adf6cc16,TCGA-LGG,Brain Lower Grade Glioma,6
+13722.58cfa831e4b0c9d6adf6cbd0,TCGA-PRAD,Prostate Adenocarcinoma,5
+13722.58cfa831e4b0c9d6adf6ccc6,TCGA-THCA,Thyroid Carcinoma,17
+13722.58cfa831e4b0c9d6adf6cd39,TCGA-THCA,Thyroid Carcinoma,12
+13722.58cfa832e4b0c9d6adf6ceba,TCGA-BLCA,Bladder Urothelial Carcinoma,10
+13722.58cfa832e4b0c9d6adf6ce42,TCGA-THCA,Thyroid Carcinoma,14
+13722.58cfa832e4b0c9d6adf6cf97,TCGA-PRAD,Prostate Adenocarcinoma,5
+13722.58cfa832e4b0c9d6adf6d01a,TCGA-PRAD,Prostate Adenocarcinoma,6
+13722.58cfa832e4b0c9d6adf6d010,TCGA-PRAD,Prostate Adenocarcinoma,8
+13722.58cfa832e4b0c9d6adf6d086,TCGA-PRAD,Prostate Adenocarcinoma,7
+13722.58cfa832e4b0c9d6adf6d155,TCGA-PRAD,Prostate Adenocarcinoma,8
+13722.58cfa82ee4b0c9d6adf6b00e,TCGA-LUAD,Lung Adenocarcinoma,12
+13722.58cfa82fe4b0c9d6adf6b7b4,TCGA-LUAD,Lung Adenocarcinoma,10
+13722.58cfa830e4b0c9d6adf6bc0a,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,19
+13722.58cfa82fe4b0c9d6adf6b72a,TCGA-LUAD,Lung Adenocarcinoma,11
+13722.58cfa82fe4b0c9d6adf6b7f6,TCGA-LUAD,Lung Adenocarcinoma,7
+13722.58cfa82fe4b0c9d6adf6b8bc,TCGA-LUAD,Lung Adenocarcinoma,8
+13722.58cfa82fe4b0c9d6adf6ba00,TCGA-COAD,Colon Adenocarcinoma,9
+13722.58cfa82fe4b0c9d6adf6b9c8,TCGA-COAD,Colon Adenocarcinoma,13
+13722.58cfa82fe4b0c9d6adf6b9cc,TCGA-COAD,Colon Adenocarcinoma,34
+13722.58cfa82fe4b0c9d6adf6ba16,TCGA-COAD,Colon Adenocarcinoma,20
+13722.58cfa830e4b0c9d6adf6baf8,TCGA-COAD,Colon Adenocarcinoma,11
+13722.58cfa830e4b0c9d6adf6ba75,TCGA-COAD,Colon Adenocarcinoma,22
+13722.58cfa830e4b0c9d6adf6bbc8,TCGA-READ,Rectum Adenocarcinoma,24
+13722.58cfa830e4b0c9d6adf6bc1c,TCGA-READ,Rectum Adenocarcinoma,11
+13722.58cfa830e4b0c9d6adf6bc46,TCGA-BRCA,Breast Invasive Carcinoma,4
+13722.58cfa830e4b0c9d6adf6bc6c,TCGA-READ,Rectum Adenocarcinoma,29
+13722.58cfa830e4b0c9d6adf6bcb2,TCGA-COAD,Colon Adenocarcinoma,33
+13722.58cfa830e4b0c9d6adf6be13,TCGA-BRCA,Breast Invasive Carcinoma,6
+13722.58cfa830e4b0c9d6adf6be2a,TCGA-BRCA,Breast Invasive Carcinoma,7
+13722.58cfa82fe4b0c9d6adf6b96f,TCGA-COAD,Colon Adenocarcinoma,20
+13722.58cfa830e4b0c9d6adf6bd44,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,31
+13722.58cfa830e4b0c9d6adf6bea9,TCGA-READ,Rectum Adenocarcinoma,25
+13722.58cfa830e4b0c9d6adf6bf16,TCGA-STAD,Stomach Adenocarcinoma,4
+13722.58cfa830e4b0c9d6adf6be44,TCGA-READ,Rectum Adenocarcinoma,10
+13722.58cfa830e4b0c9d6adf6bf3c,TCGA-STAD,Stomach Adenocarcinoma,6
+13722.58cfa830e4b0c9d6adf6bf72,TCGA-STAD,Stomach Adenocarcinoma,6
+13722.58cfa830e4b0c9d6adf6bf6a,TCGA-STAD,Stomach Adenocarcinoma,6
+13722.58cfa830e4b0c9d6adf6bec5,TCGA-READ,Rectum Adenocarcinoma,11
+13722.58cfa830e4b0c9d6adf6bfa8,TCGA-STAD,Stomach Adenocarcinoma,11
+13722.58cfa830e4b0c9d6adf6bfd6,TCGA-READ,Rectum Adenocarcinoma,48
+13722.58cfa830e4b0c9d6adf6c010,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,58
+13722.58cfa830e4b0c9d6adf6c024,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,45
+13722.58cfa830e4b0c9d6adf6c05e,TCGA-READ,Rectum Adenocarcinoma,21
+13722.58cfa830e4b0c9d6adf6c106,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,5
+13722.58cfa830e4b0c9d6adf6c11c,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,20
+13722.58cfa830e4b0c9d6adf6c1ba,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,12
+13722.58cfa830e4b0c9d6adf6c13a,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,18
+13722.58cfa830e4b0c9d6adf6c1b2,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,31
+13722.58cfa830e4b0c9d6adf6c167,TCGA-THCA,Thyroid Carcinoma,17
+13722.58cfa830e4b0c9d6adf6c064,TCGA-READ,Rectum Adenocarcinoma,22
+13722.58cfa830e4b0c9d6adf6c107,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,9
+13722.58cfa830e4b0c9d6adf6c20b,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,4
+13722.58cfa830e4b0c9d6adf6c258,TCGA-THCA,Thyroid Carcinoma,18
+13722.58cfa830e4b0c9d6adf6c226,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,18
+13722.58cfa831e4b0c9d6adf6c392,TCGA-STAD,Stomach Adenocarcinoma,11
+13722.58cfa831e4b0c9d6adf6c4f9,TCGA-STAD,Stomach Adenocarcinoma,8
+13722.58cfa831e4b0c9d6adf6c3a8,TCGA-STAD,Stomach Adenocarcinoma,5
+13722.58cfa831e4b0c9d6adf6c4fd,TCGA-STAD,Stomach Adenocarcinoma,7
+13722.58cfa830e4b0c9d6adf6c31b,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,14
+13722.58cfa830e4b0c9d6adf6c27a,TCGA-READ,Rectum Adenocarcinoma,81
+13722.58cfa831e4b0c9d6adf6c548,TCGA-COAD,Colon Adenocarcinoma,25
+13722.58cfa831e4b0c9d6adf6c588,TCGA-COAD,Colon Adenocarcinoma,47
+13722.58cfa831e4b0c9d6adf6c605,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,24
+13722.58cfa831e4b0c9d6adf6c61f,TCGA-STAD,Stomach Adenocarcinoma,9
+13722.58cfa831e4b0c9d6adf6c6d2,TCGA-LGG,Brain Lower Grade Glioma,5
+13722.58cfa831e4b0c9d6adf6c646,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,23
+13722.58cfa831e4b0c9d6adf6c526,TCGA-COAD,Colon Adenocarcinoma,27
+13722.58cfa831e4b0c9d6adf6c726,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,17
+13722.58cfa831e4b0c9d6adf6c95a,TCGA-THCA,Thyroid Carcinoma,14
+13722.58cfa831e4b0c9d6adf6c7ff,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,29
+13722.58cfa831e4b0c9d6adf6c97a,TCGA-THCA,Thyroid Carcinoma,15
+13722.58cfa831e4b0c9d6adf6c94b,TCGA-THCA,Thyroid Carcinoma,17
+13722.58cfa831e4b0c9d6adf6c9c9,TCGA-THCA,Thyroid Carcinoma,23
+13722.58cfa831e4b0c9d6adf6cab0,TCGA-THCA,Thyroid Carcinoma,21
+13722.58cfa831e4b0c9d6adf6c9ed,TCGA-THCA,Thyroid Carcinoma,30
+13722.58cfa831e4b0c9d6adf6cada,TCGA-LGG,Brain Lower Grade Glioma,3
+13722.58cfa831e4b0c9d6adf6caa0,TCGA-THCA,Thyroid Carcinoma,9
+13722.58cfa831e4b0c9d6adf6cca2,TCGA-STAD,Stomach Adenocarcinoma,4
+13722.58cfa831e4b0c9d6adf6cd18,TCGA-THCA,Thyroid Carcinoma,15
+13722.58cfa831e4b0c9d6adf6cd74,TCGA-THCA,Thyroid Carcinoma,10
+13722.58cfa831e4b0c9d6adf6cdb8,TCGA-LGG,Brain Lower Grade Glioma,3
+13722.58cfa831e4b0c9d6adf6cda0,TCGA-THCA,Thyroid Carcinoma,24
+13722.58cfa831e4b0c9d6adf6cd82,TCGA-THCA,Thyroid Carcinoma,15
+13722.58cfa831e4b0c9d6adf6cdcc,TCGA-LGG,Brain Lower Grade Glioma,7
+13722.58cfa832e4b0c9d6adf6ce97,TCGA-BLCA,Bladder Urothelial Carcinoma,17
+13722.58cfa832e4b0c9d6adf6cedf,TCGA-THCA,Thyroid Carcinoma,14
+13722.58cfa832e4b0c9d6adf6cf91,TCGA-PRAD,Prostate Adenocarcinoma,14
+13722.58cfa832e4b0c9d6adf6cf6e,TCGA-PRAD,Prostate Adenocarcinoma,5
+13722.58cfa82ee4b0c9d6adf6b001,TCGA-LUAD,Lung Adenocarcinoma,12
+13722.58cfa82ee4b0c9d6adf6b020,TCGA-LUAD,Lung Adenocarcinoma,15
+13722.58cfa82fe4b0c9d6adf6b676,TCGA-LUAD,Lung Adenocarcinoma,4
+13722.58cfa82fe4b0c9d6adf6b678,TCGA-LUAD,Lung Adenocarcinoma,9
+13722.58cfa82fe4b0c9d6adf6b6f6,TCGA-LUAD,Lung Adenocarcinoma,13
+13722.58cfa82fe4b0c9d6adf6b834,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,34
+13722.58cfa82fe4b0c9d6adf6b84e,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,18
+13722.58cfa82fe4b0c9d6adf6b86c,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,11
+13722.58cfa82fe4b0c9d6adf6b882,TCGA-COAD,Colon Adenocarcinoma,12
+13722.58cfa82fe4b0c9d6adf6b95e,TCGA-COAD,Colon Adenocarcinoma,24
+13722.58cfa82fe4b0c9d6adf6b965,TCGA-COAD,Colon Adenocarcinoma,12
+13722.58cfa82fe4b0c9d6adf6b97e,TCGA-COAD,Colon Adenocarcinoma,11
+13722.58cfa82fe4b0c9d6adf6b982,TCGA-COAD,Colon Adenocarcinoma,9
+13722.58cfa830e4b0c9d6adf6ba6c,TCGA-COAD,Colon Adenocarcinoma,9
+13722.58cfa830e4b0c9d6adf6bbe4,TCGA-READ,Rectum Adenocarcinoma,9
+13722.58cfa831e4b0c9d6adf6c52c,TCGA-COAD,Colon Adenocarcinoma,30
+13722.58cfa82fe4b0c9d6adf6b657,TCGA-LUAD,Lung Adenocarcinoma,27
+13722.58cfa82fe4b0c9d6adf6b664,TCGA-LUAD,Lung Adenocarcinoma,15
+13722.58cfa82fe4b0c9d6adf6b6b7,TCGA-LUAD,Lung Adenocarcinoma,25
+13722.58cfa82fe4b0c9d6adf6b852,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,11
+13722.58cfa82fe4b0c9d6adf6b85e,TCGA-COAD,Colon Adenocarcinoma,25
+13722.58cfa82fe4b0c9d6adf6b86e,TCGA-COAD,Colon Adenocarcinoma,21
+13722.58cfa82fe4b0c9d6adf6b866,TCGA-COAD,Colon Adenocarcinoma,26
+13722.58cfa82fe4b0c9d6adf6b874,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,10
+13722.58cfa82fe4b0c9d6adf6b938,TCGA-LUAD,Lung Adenocarcinoma,39
+13722.58cfa82fe4b0c9d6adf6b8c4,TCGA-LUAD,Lung Adenocarcinoma,4
+13722.58cfa82fe4b0c9d6adf6ba02,TCGA-COAD,Colon Adenocarcinoma,16
+13722.58cfa830e4b0c9d6adf6baaa,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,37
+13722.58cfa830e4b0c9d6adf6bbc2,TCGA-READ,Rectum Adenocarcinoma,21
+13722.58cfa830e4b0c9d6adf6bc92,TCGA-READ,Rectum Adenocarcinoma,23
+13722.58cfa830e4b0c9d6adf6bd3c,TCGA-READ,Rectum Adenocarcinoma,40
+13722.58cfa830e4b0c9d6adf6bd7c,TCGA-SKCM,Skin Cutaneous Melanoma,18
+13722.58cfa830e4b0c9d6adf6be10,TCGA-BRCA,Breast Invasive Carcinoma,8
+13722.58cfa830e4b0c9d6adf6be3a,TCGA-THCA,Thyroid Carcinoma,24
+13722.58cfa830e4b0c9d6adf6be3c,TCGA-THCA,Thyroid Carcinoma,11
+13722.58cfa830e4b0c9d6adf6bdf4,TCGA-READ,Rectum Adenocarcinoma,39
+13722.58cfa830e4b0c9d6adf6bdc0,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,27
+13722.58cfa830e4b0c9d6adf6bbc4,TCGA-READ,Rectum Adenocarcinoma,7
+13722.58cfa830e4b0c9d6adf6be8d,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,22
+13722.58cfa830e4b0c9d6adf6bee6,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,18
+13722.58cfa830e4b0c9d6adf6bec0,TCGA-BRCA,Breast Invasive Carcinoma,4
+13722.58cfa830e4b0c9d6adf6bf2e,TCGA-STAD,Stomach Adenocarcinoma,16
+13722.58cfa830e4b0c9d6adf6bf83,TCGA-STAD,Stomach Adenocarcinoma,6
+13722.58cfa830e4b0c9d6adf6bf30,TCGA-STAD,Stomach Adenocarcinoma,15
+13722.58cfa830e4b0c9d6adf6be96,TCGA-COAD,Colon Adenocarcinoma,26
+13722.58cfa830e4b0c9d6adf6bfa4,TCGA-STAD,Stomach Adenocarcinoma,11
+13722.58cfa830e4b0c9d6adf6bf74,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,41
+13722.58cfa82fe4b0c9d6adf6b700,TCGA-LUAD,Lung Adenocarcinoma,16
+13722.58cfa830e4b0c9d6adf6bfc0,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,18
+13722.58cfa830e4b0c9d6adf6bffc,TCGA-READ,Rectum Adenocarcinoma,15
+13722.58cfa830e4b0c9d6adf6c022,TCGA-THCA,Thyroid Carcinoma,6
+13722.58cfa830e4b0c9d6adf6c12f,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,14
+13722.58cfa830e4b0c9d6adf6bff8,TCGA-READ,Rectum Adenocarcinoma,25
+13722.58cfa830e4b0c9d6adf6c164,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,19
+13722.58cfa830e4b0c9d6adf6c1cc,TCGA-SKCM,Skin Cutaneous Melanoma,9
+13722.58cfa830e4b0c9d6adf6c21a,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,18
+13722.58cfa831e4b0c9d6adf6c36c,TCGA-STAD,Stomach Adenocarcinoma,8
+13722.58cfa830e4b0c9d6adf6c2ca,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,28
+13722.58cfa830e4b0c9d6adf6c03c,TCGA-READ,Rectum Adenocarcinoma,29
+13722.58cfa831e4b0c9d6adf6c36d,TCGA-STAD,Stomach Adenocarcinoma,10
+13722.58cfa831e4b0c9d6adf6c560,TCGA-PRAD,Prostate Adenocarcinoma,7
+13722.58cfa831e4b0c9d6adf6c4b4,TCGA-THCA,Thyroid Carcinoma,25
+13722.58cfa831e4b0c9d6adf6c4e9,TCGA-COAD,Colon Adenocarcinoma,30
+13722.58cfa831e4b0c9d6adf6c5e4,TCGA-STAD,Stomach Adenocarcinoma,8
+13722.58cfa831e4b0c9d6adf6c604,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,25
+13722.58cfa831e4b0c9d6adf6c68a,TCGA-BLCA,Bladder Urothelial Carcinoma,22
+13722.58cfa831e4b0c9d6adf6c678,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,21
+13722.58cfa831e4b0c9d6adf6c662,TCGA-COAD,Colon Adenocarcinoma,29
+13722.58cfa831e4b0c9d6adf6c794,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,26
+13722.58cfa831e4b0c9d6adf6c7ac,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,16
+13722.58cfa831e4b0c9d6adf6c804,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,17
+13722.58cfa831e4b0c9d6adf6c876,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,19
+13722.58cfa831e4b0c9d6adf6c7bc,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,41
+13722.58cfa831e4b0c9d6adf6c866,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,20
+13722.58cfa831e4b0c9d6adf6c8cc,TCGA-STAD,Stomach Adenocarcinoma,6
+13722.58cfa831e4b0c9d6adf6c896,TCGA-THCA,Thyroid Carcinoma,18
+13722.58cfa831e4b0c9d6adf6c8da,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,32
+13722.58cfa831e4b0c9d6adf6c949,TCGA-THCA,Thyroid Carcinoma,26
+13722.58cfa831e4b0c9d6adf6c9b0,TCGA-THCA,Thyroid Carcinoma,25
+13722.58cfa831e4b0c9d6adf6c730,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,41
+13722.58cfa831e4b0c9d6adf6c9e7,TCGA-THCA,Thyroid Carcinoma,18
+13722.58cfa831e4b0c9d6adf6ca25,TCGA-THCA,Thyroid Carcinoma,17
+13722.58cfa831e4b0c9d6adf6ca5e,TCGA-THCA,Thyroid Carcinoma,23
+13722.58cfa831e4b0c9d6adf6ca60,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,27
+13722.58cfa831e4b0c9d6adf6cb5e,TCGA-LGG,Brain Lower Grade Glioma,6
+13722.58cfa831e4b0c9d6adf6cb58,TCGA-SKCM,Skin Cutaneous Melanoma,15
+13722.58cfa831e4b0c9d6adf6cc4a,TCGA-SKCM,Skin Cutaneous Melanoma,14
+13722.58cfa831e4b0c9d6adf6cc4e,TCGA-LGG,Brain Lower Grade Glioma,6
+13722.58cfa831e4b0c9d6adf6cc66,TCGA-SKCM,Skin Cutaneous Melanoma,5
+13722.58cfa831e4b0c9d6adf6cdb1,TCGA-LGG,Brain Lower Grade Glioma,7
+13722.58cfa831e4b0c9d6adf6ccdc,TCGA-THCA,Thyroid Carcinoma,12
+13722.58cfa831e4b0c9d6adf6cd9e,TCGA-THCA,Thyroid Carcinoma,14
+13722.58cfa831e4b0c9d6adf6cdc4,TCGA-LGG,Brain Lower Grade Glioma,7
+13722.58cfa831e4b0c9d6adf6cdb4,TCGA-THCA,Thyroid Carcinoma,30
+13722.58cfa832e4b0c9d6adf6ce11,TCGA-THCA,Thyroid Carcinoma,22
+13722.58cfa832e4b0c9d6adf6ce34,TCGA-SKCM,Skin Cutaneous Melanoma,20
+13722.58cfa832e4b0c9d6adf6cf3c,TCGA-PRAD,Prostate Adenocarcinoma,9
+13722.58cfa832e4b0c9d6adf6cee6,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,12
+13722.58cfa832e4b0c9d6adf6cf4e,TCGA-PRAD,Prostate Adenocarcinoma,6
+13722.58cfa832e4b0c9d6adf6cf6c,TCGA-PRAD,Prostate Adenocarcinoma,4
+13722.58cfa832e4b0c9d6adf6d02e,TCGA-PRAD,Prostate Adenocarcinoma,4
+13722.58cfa832e4b0c9d6adf6d0c8,TCGA-SKCM,Skin Cutaneous Melanoma,11
+13722.58cfa832e4b0c9d6adf6d1a8,TCGA-LGG,Brain Lower Grade Glioma,5
+13722.58cfa831e4b0c9d6adf6c485,TCGA-COAD,Colon Adenocarcinoma,26
+13722.58cfa831e4b0c9d6adf6ca05,TCGA-THCA,Thyroid Carcinoma,15
+13722.58cfa82ee4b0c9d6adf6ae6a,TCGA-LUAD,Lung Adenocarcinoma,12
+13722.58cfa82ee4b0c9d6adf6ae50,TCGA-LUAD,Lung Adenocarcinoma,15
+13722.58cfa82ee4b0c9d6adf6b02c,TCGA-LUAD,Lung Adenocarcinoma,10
+13722.58cfa82fe4b0c9d6adf6b64a,TCGA-LUAD,Lung Adenocarcinoma,9
+13722.58cfa82fe4b0c9d6adf6b659,TCGA-LUAD,Lung Adenocarcinoma,12
+13722.58cfa82fe4b0c9d6adf6b66c,TCGA-LUAD,Lung Adenocarcinoma,28
+13722.58cfa82ee4b0c9d6adf6ae52,TCGA-LUAD,Lung Adenocarcinoma,6
+13722.58cfa82fe4b0c9d6adf6b6ba,TCGA-LUAD,Lung Adenocarcinoma,11
+13722.58cfa82fe4b0c9d6adf6b704,TCGA-LUAD,Lung Adenocarcinoma,11
+13722.58cfa82fe4b0c9d6adf6b6aa,TCGA-LUAD,Lung Adenocarcinoma,17
+13722.58cfa82fe4b0c9d6adf6b64b,TCGA-LUAD,Lung Adenocarcinoma,3
+13722.58cfa82fe4b0c9d6adf6b790,TCGA-LUAD,Lung Adenocarcinoma,11
+13722.58cfa82fe4b0c9d6adf6b7b6,TCGA-LUAD,Lung Adenocarcinoma,18
+13722.58cfa82fe4b0c9d6adf6b868,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,11
+13722.58cfa82fe4b0c9d6adf6b8fe,TCGA-LUAD,Lung Adenocarcinoma,12
+13722.58cfa82fe4b0c9d6adf6b8b3,TCGA-LUAD,Lung Adenocarcinoma,11
+13722.58cfa82fe4b0c9d6adf6b90e,TCGA-LUAD,Lung Adenocarcinoma,10
+13722.58cfa82fe4b0c9d6adf6b912,TCGA-LUAD,Lung Adenocarcinoma,5
+13722.58cfa82fe4b0c9d6adf6ba10,TCGA-COAD,Colon Adenocarcinoma,18
+13722.58cfa830e4b0c9d6adf6bc52,TCGA-READ,Rectum Adenocarcinoma,28
+13722.58cfa830e4b0c9d6adf6bc62,TCGA-READ,Rectum Adenocarcinoma,40
+13722.58cfa830e4b0c9d6adf6bc8c,TCGA-READ,Rectum Adenocarcinoma,22
+13722.58cfa830e4b0c9d6adf6bc90,TCGA-COAD,Colon Adenocarcinoma,44
+13722.58cfa830e4b0c9d6adf6bd64,TCGA-COAD,Colon Adenocarcinoma,17
+13722.58cfa830e4b0c9d6adf6bd8c,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,12
+13722.58cfa830e4b0c9d6adf6bda8,TCGA-SKCM,Skin Cutaneous Melanoma,23
+13722.58cfa830e4b0c9d6adf6bd9b,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,11
+13722.58cfa830e4b0c9d6adf6be7e,TCGA-THCA,Thyroid Carcinoma,12
+13722.58cfa830e4b0c9d6adf6be84,TCGA-THCA,Thyroid Carcinoma,25
+13722.58cfa830e4b0c9d6adf6bec9,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,16
+13722.58cfa830e4b0c9d6adf6bf21,TCGA-STAD,Stomach Adenocarcinoma,4
+13722.58cfa830e4b0c9d6adf6bead,TCGA-READ,Rectum Adenocarcinoma,29
+13722.58cfa830e4b0c9d6adf6bf9f,TCGA-STAD,Stomach Adenocarcinoma,4
+13722.58cfa830e4b0c9d6adf6c01e,TCGA-THCA,Thyroid Carcinoma,10
+13722.58cfa830e4b0c9d6adf6c01c,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,17
+13722.58cfa830e4b0c9d6adf6c026,TCGA-THCA,Thyroid Carcinoma,13
+13722.58cfa830e4b0c9d6adf6c050,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,60
+13722.58cfa830e4b0c9d6adf6c066,TCGA-READ,Rectum Adenocarcinoma,21
+13722.58cfa830e4b0c9d6adf6c044,TCGA-READ,Rectum Adenocarcinoma,29
+13722.58cfa830e4b0c9d6adf6c1b8,TCGA-SKCM,Skin Cutaneous Melanoma,16
+13722.58cfa830e4b0c9d6adf6c1fc,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,16
+13722.58cfa830e4b0c9d6adf6c23c,TCGA-BLCA,Bladder Urothelial Carcinoma,20
+13722.58cfa830e4b0c9d6adf6c29e,TCGA-STAD,Stomach Adenocarcinoma,6
+13722.58cfa830e4b0c9d6adf6c272,TCGA-THCA,Thyroid Carcinoma,19
+13722.58cfa831e4b0c9d6adf6c384,TCGA-STAD,Stomach Adenocarcinoma,5
+13722.58cfa831e4b0c9d6adf6c498,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,25
+13722.58cfa831e4b0c9d6adf6c424,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,9
+13722.58cfa831e4b0c9d6adf6c4a4,TCGA-BLCA,Bladder Urothelial Carcinoma,9
+13722.58cfa831e4b0c9d6adf6c514,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,9
+13722.58cfa831e4b0c9d6adf6c57e,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,15
+13722.58cfa830e4b0c9d6adf6c102,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,16
+13722.58cfa831e4b0c9d6adf6c651,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,12
+13722.58cfa831e4b0c9d6adf6c696,TCGA-LGG,Brain Lower Grade Glioma,6
+13722.58cfa831e4b0c9d6adf6c810,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,18
+13722.58cfa831e4b0c9d6adf6c77e,TCGA-LGG,Brain Lower Grade Glioma,6
+13722.58cfa831e4b0c9d6adf6c8d6,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,12
+13722.58cfa831e4b0c9d6adf6c8ce,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,10
+13722.58cfa831e4b0c9d6adf6c9da,TCGA-THCA,Thyroid Carcinoma,12
+13722.58cfa831e4b0c9d6adf6c96a,TCGA-THCA,Thyroid Carcinoma,10
+13722.58cfa831e4b0c9d6adf6ca37,TCGA-LGG,Brain Lower Grade Glioma,7
+13722.58cfa831e4b0c9d6adf6ca54,TCGA-LGG,Brain Lower Grade Glioma,5
+13722.58cfa831e4b0c9d6adf6ca7c,TCGA-THCA,Thyroid Carcinoma,11
+13722.58cfa831e4b0c9d6adf6caaa,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,18
+13722.58cfa831e4b0c9d6adf6c9dc,TCGA-LGG,Brain Lower Grade Glioma,9
+13722.58cfa831e4b0c9d6adf6caf0,TCGA-LGG,Brain Lower Grade Glioma,6
+13722.58cfa831e4b0c9d6adf6cad6,TCGA-LGG,Brain Lower Grade Glioma,3
+13722.58cfa831e4b0c9d6adf6cc15,TCGA-LGG,Brain Lower Grade Glioma,7
+13722.58cfa831e4b0c9d6adf6cc7c,TCGA-THCA,Thyroid Carcinoma,12
+13722.58cfa831e4b0c9d6adf6ccd0,TCGA-THCA,Thyroid Carcinoma,14
+13722.58cfa831e4b0c9d6adf6cd3c,TCGA-THCA,Thyroid Carcinoma,9
+13722.58cfa831e4b0c9d6adf6cdc0,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,14
+13722.58cfa831e4b0c9d6adf6cdab,TCGA-THCA,Thyroid Carcinoma,17
+13722.58cfa832e4b0c9d6adf6cea0,TCGA-SKCM,Skin Cutaneous Melanoma,13
+13722.58cfa832e4b0c9d6adf6cf3d,TCGA-PRAD,Prostate Adenocarcinoma,7
+13722.58cfa832e4b0c9d6adf6cfb6,TCGA-PRAD,Prostate Adenocarcinoma,6
+13722.58cfa832e4b0c9d6adf6cfea,TCGA-PRAD,Prostate Adenocarcinoma,5
+13722.58cfa832e4b0c9d6adf6cfc0,TCGA-SKCM,Skin Cutaneous Melanoma,19
+13722.58cfa832e4b0c9d6adf6d20e,TCGA-LGG,Brain Lower Grade Glioma,7
+13722.58cfa832e4b0c9d6adf6d18e,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,23
+13722.58cfa82ee4b0c9d6adf6ae74,TCGA-LUAD,Lung Adenocarcinoma,15
+13722.58cfa82ee4b0c9d6adf6ae68,TCGA-LUAD,Lung Adenocarcinoma,7
+13722.58cfa82ee4b0c9d6adf6afe6,TCGA-LUAD,Lung Adenocarcinoma,9
+13722.58cfa82fe4b0c9d6adf6b624,TCGA-LUAD,Lung Adenocarcinoma,7
+13722.58cfa82fe4b0c9d6adf6b617,TCGA-LUAD,Lung Adenocarcinoma,35
+13722.58cfa82fe4b0c9d6adf6b67d,TCGA-LUAD,Lung Adenocarcinoma,4
+13722.58cfa82fe4b0c9d6adf6b726,TCGA-LUAD,Lung Adenocarcinoma,6
+13722.58cfa82fe4b0c9d6adf6b7b0,TCGA-LUAD,Lung Adenocarcinoma,5
+13722.58cfa82fe4b0c9d6adf6b7d4,TCGA-LUAD,Lung Adenocarcinoma,37
+13722.58cfa82fe4b0c9d6adf6b840,TCGA-COAD,Colon Adenocarcinoma,33
+13722.58cfa82fe4b0c9d6adf6b842,TCGA-COAD,Colon Adenocarcinoma,37
+13722.58cfa82fe4b0c9d6adf6b8e8,TCGA-COAD,Colon Adenocarcinoma,19
+13722.58cfa82fe4b0c9d6adf6b8b8,TCGA-LUAD,Lung Adenocarcinoma,4
+13722.58cfa82fe4b0c9d6adf6b898,TCGA-COAD,Colon Adenocarcinoma,19
+13722.58cfa82fe4b0c9d6adf6b914,TCGA-LUAD,Lung Adenocarcinoma,7
+13722.58cfa82fe4b0c9d6adf6b89a,TCGA-COAD,Colon Adenocarcinoma,13
+13722.58cfa82fe4b0c9d6adf6b960,TCGA-COAD,Colon Adenocarcinoma,13
+13722.58cfa82fe4b0c9d6adf6b974,TCGA-COAD,Colon Adenocarcinoma,16
+13722.58cfa82fe4b0c9d6adf6b940,TCGA-COAD,Colon Adenocarcinoma,23
+13722.58cfa82fe4b0c9d6adf6b98e,TCGA-LUAD,Lung Adenocarcinoma,14
+13722.58cfa82fe4b0c9d6adf6b9ca,TCGA-COAD,Colon Adenocarcinoma,11
+13722.58cfa82fe4b0c9d6adf6b9d8,TCGA-COAD,Colon Adenocarcinoma,53
+13722.58cfa82fe4b0c9d6adf6b9fe,TCGA-COAD,Colon Adenocarcinoma,16
+13722.58cfa830e4b0c9d6adf6ba6e,TCGA-COAD,Colon Adenocarcinoma,13
+13722.58cfa830e4b0c9d6adf6ba56,TCGA-COAD,Colon Adenocarcinoma,18
+13722.58cfa830e4b0c9d6adf6ba50,TCGA-COAD,Colon Adenocarcinoma,36
+13722.58cfa830e4b0c9d6adf6bb0a,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,17
+13722.58cfa830e4b0c9d6adf6ba7c,TCGA-COAD,Colon Adenocarcinoma,33
+13722.58cfa830e4b0c9d6adf6bac2,TCGA-LUAD,Lung Adenocarcinoma,3
+13722.58cfa830e4b0c9d6adf6bb40,TCGA-COAD,Colon Adenocarcinoma,21
+13722.58cfa830e4b0c9d6adf6bb48,TCGA-COAD,Colon Adenocarcinoma,24
+13722.58cfa830e4b0c9d6adf6bba5,TCGA-COAD,Colon Adenocarcinoma,13
+13722.58cfa830e4b0c9d6adf6bb5c,TCGA-COAD,Colon Adenocarcinoma,10
+13722.58cfa830e4b0c9d6adf6bbac,TCGA-COAD,Colon Adenocarcinoma,18
+13722.58cfa830e4b0c9d6adf6bb88,TCGA-COAD,Colon Adenocarcinoma,13
+13722.58cfa830e4b0c9d6adf6bc1e,TCGA-READ,Rectum Adenocarcinoma,13
+13722.58cfa830e4b0c9d6adf6bc2a,TCGA-COAD,Colon Adenocarcinoma,15
+13722.58cfa830e4b0c9d6adf6bc38,TCGA-COAD,Colon Adenocarcinoma,15
+13722.58cfa830e4b0c9d6adf6bc26,TCGA-COAD,Colon Adenocarcinoma,13
+13722.58cfa830e4b0c9d6adf6bc22,TCGA-READ,Rectum Adenocarcinoma,55
+13722.58cfa830e4b0c9d6adf6bcc4,TCGA-COAD,Colon Adenocarcinoma,41
+13722.58cfa830e4b0c9d6adf6bd5d,TCGA-COAD,Colon Adenocarcinoma,29
+13722.58cfa830e4b0c9d6adf6bcda,TCGA-READ,Rectum Adenocarcinoma,19
+13722.58cfa830e4b0c9d6adf6bde2,TCGA-READ,Rectum Adenocarcinoma,22
+13722.58cfa830e4b0c9d6adf6bcc8,TCGA-READ,Rectum Adenocarcinoma,38
+13722.58cfa830e4b0c9d6adf6bdf5,TCGA-READ,Rectum Adenocarcinoma,23
+13722.58cfa830e4b0c9d6adf6be18,TCGA-COAD,Colon Adenocarcinoma,50
+13722.58cfa830e4b0c9d6adf6bd00,TCGA-READ,Rectum Adenocarcinoma,14
+13722.58cfa830e4b0c9d6adf6c11a,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,9
+13722.58cfa830e4b0c9d6adf6c147,TCGA-STAD,Stomach Adenocarcinoma,7
+13722.58cfa830e4b0c9d6adf6c124,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,7
+13722.58cfa830e4b0c9d6adf6c170,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,5
+13722.58cfa830e4b0c9d6adf6c172,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,13
+13722.58cfa830e4b0c9d6adf6c1a1,TCGA-STAD,Stomach Adenocarcinoma,9
+13722.58cfa830e4b0c9d6adf6c1bc,TCGA-READ,Rectum Adenocarcinoma,23
+13722.58cfa830e4b0c9d6adf6bffa,TCGA-READ,Rectum Adenocarcinoma,9
+13722.58cfa830e4b0c9d6adf6c28a,TCGA-READ,Rectum Adenocarcinoma,35
+13722.58cfa831e4b0c9d6adf6c42a,TCGA-BLCA,Bladder Urothelial Carcinoma,27
+13722.58cfa831e4b0c9d6adf6c4a6,TCGA-THCA,Thyroid Carcinoma,26
+13722.58cfa831e4b0c9d6adf6c46a,TCGA-COAD,Colon Adenocarcinoma,24
+13722.58cfa831e4b0c9d6adf6c5ab,TCGA-STAD,Stomach Adenocarcinoma,5
+13722.58cfa831e4b0c9d6adf6c5ae,TCGA-STAD,Stomach Adenocarcinoma,7
+13722.58cfa831e4b0c9d6adf6c524,TCGA-COAD,Colon Adenocarcinoma,28
+13722.58cfa831e4b0c9d6adf6c5c2,TCGA-STAD,Stomach Adenocarcinoma,6
+13722.58cfa831e4b0c9d6adf6c64c,TCGA-STAD,Stomach Adenocarcinoma,8
+13722.58cfa831e4b0c9d6adf6c6d8,TCGA-STAD,Stomach Adenocarcinoma,11
+13722.58cfa831e4b0c9d6adf6cda9,TCGA-LGG,Brain Lower Grade Glioma,3
+13722.58cfa831e4b0c9d6adf6cd65,TCGA-THCA,Thyroid Carcinoma,17
+13722.58cfa832e4b0c9d6adf6ce2a,TCGA-LGG,Brain Lower Grade Glioma,6
+13722.58cfa832e4b0c9d6adf6d2a8,TCGA-LGG,Brain Lower Grade Glioma,8
+13722.58cfa832e4b0c9d6adf6d28b,TCGA-LGG,Brain Lower Grade Glioma,5
+13722.58cfa82ee4b0c9d6adf6afc4,TCGA-LUAD,Lung Adenocarcinoma,6
+13722.58cfa82fe4b0c9d6adf6ba20,TCGA-COAD,Colon Adenocarcinoma,38
+13722.58cfa830e4b0c9d6adf6bc00,TCGA-COAD,Colon Adenocarcinoma,36
+13722.58cfa830e4b0c9d6adf6bca6,TCGA-COAD,Colon Adenocarcinoma,37
+13722.58cfa82ee4b0c9d6adf6ae48,TCGA-LUAD,Lung Adenocarcinoma,49
+13722.58cfa82fe4b0c9d6adf6b7de,TCGA-LUAD,Lung Adenocarcinoma,16
+13722.58cfa82fe4b0c9d6adf6b7fc,TCGA-LUAD,Lung Adenocarcinoma,21
+13722.58cfa82fe4b0c9d6adf6b800,TCGA-LUAD,Lung Adenocarcinoma,39
+13722.58cfa82fe4b0c9d6adf6b756,TCGA-LUAD,Lung Adenocarcinoma,9
+13722.58cfa82fe4b0c9d6adf6b9e2,TCGA-LUAD,Lung Adenocarcinoma,52
+13722.58cfa830e4b0c9d6adf6bd86,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,26
+13722.58cfa830e4b0c9d6adf6bdd6,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,16
+13722.58cfa830e4b0c9d6adf6bc5a,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,37
+13722.58cfa830e4b0c9d6adf6bec7,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,11
+13722.58cfa830e4b0c9d6adf6be90,TCGA-BLCA,Bladder Urothelial Carcinoma,24
+13722.58cfa830e4b0c9d6adf6bef8,TCGA-THCA,Thyroid Carcinoma,15
+13722.58cfa830e4b0c9d6adf6bf60,TCGA-STAD,Stomach Adenocarcinoma,6
+13722.58cfa830e4b0c9d6adf6bf8f,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,30
+13722.58cfa830e4b0c9d6adf6c1f2,TCGA-BLCA,Bladder Urothelial Carcinoma,3
+13722.58cfa830e4b0c9d6adf6bf14,TCGA-STAD,Stomach Adenocarcinoma,8
+13722.58cfa830e4b0c9d6adf6c1fa,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,17
+13722.58cfa82fe4b0c9d6adf6b99a,TCGA-LUAD,Lung Adenocarcinoma,45
+13722.58cfa830e4b0c9d6adf6c290,TCGA-STAD,Stomach Adenocarcinoma,2
+13722.58cfa830e4b0c9d6adf6c22c,TCGA-BLCA,Bladder Urothelial Carcinoma,15
+13722.58cfa830e4b0c9d6adf6c2d0,TCGA-THCA,Thyroid Carcinoma,5
+13722.58cfa830e4b0c9d6adf6c312,TCGA-STAD,Stomach Adenocarcinoma,9
+13722.58cfa830e4b0c9d6adf6c2d6,TCGA-STAD,Stomach Adenocarcinoma,3
+13722.58cfa830e4b0c9d6adf6c2e4,TCGA-STAD,Stomach Adenocarcinoma,2
+13722.58cfa831e4b0c9d6adf6c37a,TCGA-STAD,Stomach Adenocarcinoma,8
+13722.58cfa831e4b0c9d6adf6c3c4,TCGA-BLCA,Bladder Urothelial Carcinoma,10
+13722.58cfa831e4b0c9d6adf6c465,TCGA-STAD,Stomach Adenocarcinoma,8
+13722.58cfa831e4b0c9d6adf6c3a0,TCGA-BLCA,Bladder Urothelial Carcinoma,21
+13722.58cfa831e4b0c9d6adf6c4b7,TCGA-STAD,Stomach Adenocarcinoma,14
+13722.58cfa831e4b0c9d6adf6c542,TCGA-PRAD,Prostate Adenocarcinoma,2
+13722.58cfa831e4b0c9d6adf6c556,TCGA-PRAD,Prostate Adenocarcinoma,4
+13722.58cfa831e4b0c9d6adf6c56a,TCGA-PRAD,Prostate Adenocarcinoma,4
+13722.58cfa831e4b0c9d6adf6c632,TCGA-STAD,Stomach Adenocarcinoma,4
+13722.58cfa831e4b0c9d6adf6c6ce,TCGA-LGG,Brain Lower Grade Glioma,4
+13722.58cfa831e4b0c9d6adf6c67c,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,15
+13722.58cfa831e4b0c9d6adf6c6d0,TCGA-LGG,Brain Lower Grade Glioma,3
+13722.58cfa831e4b0c9d6adf6c6f4,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,8
+13722.58cfa831e4b0c9d6adf6c752,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,21
+13722.58cfa831e4b0c9d6adf6c7d0,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,19
+13722.58cfa831e4b0c9d6adf6c850,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,18
+13722.58cfa831e4b0c9d6adf6c86a,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,10
+13722.58cfa831e4b0c9d6adf6c8c0,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,21
+13722.58cfa831e4b0c9d6adf6c898,TCGA-LGG,Brain Lower Grade Glioma,3
+13722.58cfa831e4b0c9d6adf6c8d8,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,7
+13722.58cfa831e4b0c9d6adf6c945,TCGA-STAD,Stomach Adenocarcinoma,12
+13722.58cfa831e4b0c9d6adf6caee,TCGA-LGG,Brain Lower Grade Glioma,3
+13722.58cfa831e4b0c9d6adf6cb22,TCGA-BLCA,Bladder Urothelial Carcinoma,19
+13722.58cfa831e4b0c9d6adf6cba5,TCGA-PRAD,Prostate Adenocarcinoma,6
+13722.58cfa831e4b0c9d6adf6cbb5,TCGA-PRAD,Prostate Adenocarcinoma,5
+13722.58cfa831e4b0c9d6adf6cbc9,TCGA-PRAD,Prostate Adenocarcinoma,3
+13722.58cfa831e4b0c9d6adf6cbf4,TCGA-PRAD,Prostate Adenocarcinoma,6
+13722.58cfa831e4b0c9d6adf6cbf9,TCGA-PRAD,Prostate Adenocarcinoma,5
+13722.58cfa831e4b0c9d6adf6cc60,TCGA-PRAD,Prostate Adenocarcinoma,2
+13722.58cfa831e4b0c9d6adf6cbeb,TCGA-THCA,Thyroid Carcinoma,17
+13722.58cfa831e4b0c9d6adf6cc90,TCGA-PRAD,Prostate Adenocarcinoma,4
+13722.58cfa831e4b0c9d6adf6ccc0,TCGA-PRAD,Prostate Adenocarcinoma,4
+13722.58cfa831e4b0c9d6adf6ccf0,TCGA-PRAD,Prostate Adenocarcinoma,7
+13722.58cfa831e4b0c9d6adf6cd06,TCGA-PRAD,Prostate Adenocarcinoma,3
+13722.58cfa831e4b0c9d6adf6cd2c,TCGA-PRAD,Prostate Adenocarcinoma,9
+13722.58cfa831e4b0c9d6adf6cd23,TCGA-STAD,Stomach Adenocarcinoma,3
+13722.58cfa832e4b0c9d6adf6ce14,TCGA-PRAD,Prostate Adenocarcinoma,7
+13722.58cfa831e4b0c9d6adf6cd6c,TCGA-THCA,Thyroid Carcinoma,13
+13722.58cfa832e4b0c9d6adf6ce46,TCGA-PRAD,Prostate Adenocarcinoma,5
+13722.58cfa831e4b0c9d6adf6cdaf,TCGA-THCA,Thyroid Carcinoma,6
+13722.58cfa832e4b0c9d6adf6cfac,TCGA-THCA,Thyroid Carcinoma,9
+13722.58cfa832e4b0c9d6adf6d082,TCGA-PRAD,Prostate Adenocarcinoma,8
+13722.58cfa832e4b0c9d6adf6d0f5,TCGA-PRAD,Prostate Adenocarcinoma,10
+13722.58cfa832e4b0c9d6adf6d1bb,TCGA-PRAD,Prostate Adenocarcinoma,3
+13722.58cfa832e4b0c9d6adf6d1d2,TCGA-BLCA,Bladder Urothelial Carcinoma,31
+13722.58cfa832e4b0c9d6adf6d114,TCGA-BLCA,Bladder Urothelial Carcinoma,10
+13722.58cfa82fe4b0c9d6adf6b5f0,TCGA-LUAD,Lung Adenocarcinoma,15
+13722.58cfa82ee4b0c9d6adf6ae5c,TCGA-LUAD,Lung Adenocarcinoma,23
+13722.58cfa82ee4b0c9d6adf6b038,TCGA-LUAD,Lung Adenocarcinoma,20
+13722.58cfa82fe4b0c9d6adf6b6be,TCGA-LUAD,Lung Adenocarcinoma,16
+13722.58cfa82ee4b0c9d6adf6b014,TCGA-LUAD,Lung Adenocarcinoma,21
+13722.58cfa82fe4b0c9d6adf6b6dc,TCGA-LUAD,Lung Adenocarcinoma,16
+13722.58cfa82fe4b0c9d6adf6b6d2,TCGA-LUAD,Lung Adenocarcinoma,34
+13722.58cfa82fe4b0c9d6adf6b728,TCGA-LUAD,Lung Adenocarcinoma,15
+13722.58cfa82fe4b0c9d6adf6b70a,TCGA-LUAD,Lung Adenocarcinoma,13
+13722.58cfa82fe4b0c9d6adf6b780,TCGA-LUAD,Lung Adenocarcinoma,15
+13722.58cfa82fe4b0c9d6adf6b82d,TCGA-LUAD,Lung Adenocarcinoma,9
+13722.58cfa82fe4b0c9d6adf6b762,TCGA-LUAD,Lung Adenocarcinoma,5
+13722.58cfa82fe4b0c9d6adf6b864,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,50
+13722.58cfa82fe4b0c9d6adf6b760,TCGA-LUAD,Lung Adenocarcinoma,4
+13722.58cfa82fe4b0c9d6adf6b9a8,TCGA-LUAD,Lung Adenocarcinoma,15
+13722.58cfa830e4b0c9d6adf6bada,TCGA-LUAD,Lung Adenocarcinoma,13
+13722.58cfa82fe4b0c9d6adf6b9e8,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,27
+13722.58cfa830e4b0c9d6adf6bc7c,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,13
+13722.58cfa830e4b0c9d6adf6bc8a,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,42
+13722.58cfa830e4b0c9d6adf6bd9a,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,8
+13722.58cfa830e4b0c9d6adf6bc82,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,46
+13722.58cfa830e4b0c9d6adf6bdb3,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,8
+13722.58cfa830e4b0c9d6adf6be68,TCGA-THCA,Thyroid Carcinoma,15
+13722.58cfa830e4b0c9d6adf6be55,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,31
+13722.58cfa830e4b0c9d6adf6be38,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,15
+13722.58cfa830e4b0c9d6adf6bf3d,TCGA-STAD,Stomach Adenocarcinoma,16
+13722.58cfa830e4b0c9d6adf6bf7e,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,11
+13722.58cfa830e4b0c9d6adf6c1aa,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,12
+13722.58cfa830e4b0c9d6adf6c1b6,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,35
+13722.58cfa830e4b0c9d6adf6c1f6,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,12
+13722.58cfa830e4b0c9d6adf6c1c0,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,13
+13722.58cfa830e4b0c9d6adf6c2c6,TCGA-BLCA,Bladder Urothelial Carcinoma,12
+13722.58cfa830e4b0c9d6adf6c29a,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,25
+13722.58cfa830e4b0c9d6adf6c2ce,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,18
+13722.58cfa831e4b0c9d6adf6c401,TCGA-PRAD,Prostate Adenocarcinoma,5
+13722.58cfa831e4b0c9d6adf6c4f6,TCGA-STAD,Stomach Adenocarcinoma,6
+13722.58cfa831e4b0c9d6adf6c4be,TCGA-STAD,Stomach Adenocarcinoma,10
+13722.58cfa831e4b0c9d6adf6c426,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,10
+13722.58cfa831e4b0c9d6adf6c580,TCGA-STAD,Stomach Adenocarcinoma,8
+13722.58cfa830e4b0c9d6adf6c184,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,24
+13722.58cfa831e4b0c9d6adf6c54a,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,12
+13722.58cfa831e4b0c9d6adf6c5e7,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,18
+13722.58cfa831e4b0c9d6adf6c600,TCGA-STAD,Stomach Adenocarcinoma,11
+13722.58cfa831e4b0c9d6adf6c59a,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,21
+13722.58cfa831e4b0c9d6adf6c5f5,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,15
+13722.58cfa831e4b0c9d6adf6c640,TCGA-STAD,Stomach Adenocarcinoma,9
+13722.58cfa831e4b0c9d6adf6c634,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,23
+13722.58cfa831e4b0c9d6adf6c619,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,20
+13722.58cfa831e4b0c9d6adf6c64e,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,17
+13722.58cfa831e4b0c9d6adf6c642,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,19
+13722.58cfa831e4b0c9d6adf6c688,TCGA-BLCA,Bladder Urothelial Carcinoma,12
+13722.58cfa831e4b0c9d6adf6c684,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,18
+13722.58cfa831e4b0c9d6adf6c801,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,18
+13722.58cfa831e4b0c9d6adf6c900,TCGA-LGG,Brain Lower Grade Glioma,2
+13722.58cfa831e4b0c9d6adf6c914,TCGA-BLCA,Bladder Urothelial Carcinoma,13
+13722.58cfa831e4b0c9d6adf6c94f,TCGA-STAD,Stomach Adenocarcinoma,2
+13722.58cfa831e4b0c9d6adf6c985,TCGA-THCA,Thyroid Carcinoma,16
+13722.58cfa831e4b0c9d6adf6c976,TCGA-BLCA,Bladder Urothelial Carcinoma,7
+13722.58cfa831e4b0c9d6adf6ca21,TCGA-THCA,Thyroid Carcinoma,24
+13722.58cfa831e4b0c9d6adf6ca90,TCGA-LGG,Brain Lower Grade Glioma,3
+13722.58cfa831e4b0c9d6adf6ca7f,TCGA-BLCA,Bladder Urothelial Carcinoma,23
+13722.58cfa831e4b0c9d6adf6cbfe,TCGA-LGG,Brain Lower Grade Glioma,7
+13722.58cfa831e4b0c9d6adf6cc03,TCGA-LGG,Brain Lower Grade Glioma,8
+13722.58cfa831e4b0c9d6adf6cc13,TCGA-LGG,Brain Lower Grade Glioma,7
+13722.58cfa831e4b0c9d6adf6cc24,TCGA-LGG,Brain Lower Grade Glioma,9
+13722.58cfa831e4b0c9d6adf6cc0b,TCGA-LGG,Brain Lower Grade Glioma,3
+13722.58cfa831e4b0c9d6adf6ccde,TCGA-THCA,Thyroid Carcinoma,15
+13722.58cfa832e4b0c9d6adf6cf22,TCGA-PRAD,Prostate Adenocarcinoma,6
+13722.58cfa832e4b0c9d6adf6cec4,TCGA-THCA,Thyroid Carcinoma,20
+13722.58cfa832e4b0c9d6adf6cf96,TCGA-PRAD,Prostate Adenocarcinoma,13
+13722.58cfa832e4b0c9d6adf6cfbe,TCGA-PRAD,Prostate Adenocarcinoma,7
+13722.58cfa832e4b0c9d6adf6d0dd,TCGA-LGG,Brain Lower Grade Glioma,5
+13722.58cfa832e4b0c9d6adf6d1da,TCGA-PRAD,Prostate Adenocarcinoma,6
+13722.58cfa832e4b0c9d6adf6d1c5,TCGA-PRAD,Prostate Adenocarcinoma,4
+13722.58cfa82fe4b0c9d6adf6b7ee,TCGA-LUAD,Lung Adenocarcinoma,33
+13722.58cfa82fe4b0c9d6adf6b668,TCGA-LUAD,Lung Adenocarcinoma,18
+13722.58cfa831e4b0c9d6adf6c48e,TCGA-BLCA,Bladder Urothelial Carcinoma,30
+13722.58cfa831e4b0c9d6adf6c95b,TCGA-LGG,Brain Lower Grade Glioma,7
+13722.58cfa831e4b0c9d6adf6c9d0,TCGA-STAD,Stomach Adenocarcinoma,9
+13722.58cfa831e4b0c9d6adf6ca0c,TCGA-BLCA,Bladder Urothelial Carcinoma,27
+13722.58cfa831e4b0c9d6adf6cc92,TCGA-PRAD,Prostate Adenocarcinoma,3
+13722.58cfa832e4b0c9d6adf6ceda,TCGA-PRAD,Prostate Adenocarcinoma,4

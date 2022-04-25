@@ -1,0 +1,919 @@
+"","tissue","type.detail","pcr_batch","batch_dilution_factor","run_num","material","center","dna.extraction.batch","pat.id","pcr_bacteria","library_bacteria"
+"F0013","breast","tumor","1",1,1,"ffpe","maccabi megalab",1031,"b006938/09",2017,7
+"F0015","breast","tumor","1",1,1,"ffpe","maccabi megalab",1031,"b007757/09",2017,7
+"F0017","breast","tumor","1",1,1,"ffpe","maccabi megalab",1031,"b007931/09",2017,7
+"F0020","breast","tumor","1",1,1,"ffpe","maccabi megalab",1031,"b008840/09",2017,7
+"F0021","breast","tumor","1",1,1,"ffpe","maccabi megalab",1031,"b008961/09",2017,7
+"F0023","lung","tumor","1",1,1,"snap","rambam",1096,"20246",2055,11
+"F0026","lung","tumor","1",1,1,"snap","rambam",1096,"20184",2056,11
+"F0027","lung","tumor","1",1,1,"snap","rambam",1096,"20179",2056,11
+"F0028","control","control","1",1,1,"control","control",1096,NA,2056,11
+"F0003","breast","tumor","1",1,1,"snap","sheba",1074,"mbf30",2041,9
+"F0031","lung","tumor","1",1,1,"snap","sheba",1030,"27",2008,6
+"F0034","lung","tumor","1",1,1,"ffpe","sheba",1043,"37",2021,7
+"F0035","lung","tumor","1",1,1,"ffpe","sheba",1043,"57",2021,7
+"F0004","breast","tumor","1",1,1,"snap","sheba",1074,"mbf21",2041,9
+"F0038","control","control","1",1,1,"control","control",1043,NA,2021,7
+"F0039","lung","tumor","1",1,1,"ffpe","sheba",1043,"14",2021,7
+"F0041","lung","tumor","1",1,1,"ffpe","sheba",1043,"29",2021,7
+"F0042","lung","tumor","1",1,1,"ffpe","sheba",1043,"30",2021,7
+"F0043","control","control","1",1,1,"control","control",1043,NA,2021,7
+"F0045","melanoma","tumor","1",1,1,"snap","mdacc",1020,"71",2005,6
+"F0046","melanoma","tumor","1",1,1,"snap","mdacc",1020,"35",2005,6
+"F0005","breast","tumor","1",1,1,"snap","sheba",1074,"mbf47",2041,9
+"F0049","melanoma","tumor","1",1,1,"snap","mdacc",1020,"87",2005,6
+"F0050","melanoma","tumor","1",1,1,"snap","mdacc",1020,"93",2005,6
+"F0006","breast","tumor","1",1,1,"snap","sheba",1074,"mbf39",2041,9
+"F0059","melanoma","tumor","1",1,1,"snap","nki",1111,NA,2063,11
+"F0061","melanoma","tumor","1",1,1,"snap","nki",1111,NA,2063,11
+"F0068","colon","tumor","1",1,1,"snap","sheba",1037,"515",2025,8
+"F0070","control","control","1",1,1,"control","control",1037,NA,2025,8
+"F0071","colon","tumor","1",1,1,"snap","sheba",1037,"480",2025,8
+"F0072","colon","tumor","1",0.1,1,"snap","sheba",1037,"1015",2025,8
+"F0074","colon","tumor","1",1,1,"snap","sheba",1040,"648",2026,8
+"F0008","breast","tumor","1",1,1,"snap","sheba",1074,"mbf51",2041,9
+"F0076","colon","tumor","1",1,1,"snap","sheba",1040,"654",2026,8
+"F0078","colon","tumor","1",1,1,"snap","sheba",1040,"989",2026,8
+"F0103","lung","nat","TF1",1,2,"ffpe","sheba",1043,"66",2021,7
+"F0105","lung","nat","TF1",1,2,"ffpe","sheba",1043,"68",2021,7
+"F0107","lung","nat","TF1",1,2,"ffpe","sheba",1043,"31",2021,7
+"F0108","lung","nat","TF1",1,2,"ffpe","sheba",1043,"37",2021,7
+"F0109","lung","tumor","TF1",1,2,"ffpe","sheba",1043,"2",2021,7
+"F0110","lung","tumor","TF1",1,2,"ffpe","sheba",1045,"10",2021,7
+"F0111","lung","nat","TF1",0.2,2,"ffpe","sheba",1045,"7",2021,7
+"F0112","lung","nat","TF1",1,2,"ffpe","sheba",1045,"1",2021,7
+"F0114","lung","tumor","TF1",1,2,"ffpe","sheba",1045,"62",2021,7
+"F0115","lung","nat","TF1",0.1,2,"ffpe","sheba",1045,"69",2021,7
+"F0117","breast","nat","TF1",1,2,"ffpe","maccabi megalab",1056,"b007925/11",2031,8
+"F0118","breast","tumor","TF1",1,2,"ffpe","maccabi megalab",1056,"b008278/11",2031,8
+"F0120","breast","nat","TF1",1,2,"ffpe","maccabi megalab",1056,"b008278/11",2031,8
+"F0122","breast","nat","TF1",1,2,"ffpe","maccabi megalab",1056,"b008561/11",2031,8
+"F0123","breast","tumor","TF1",1,2,"ffpe","maccabi megalab",1056,"b008601/11",2031,8
+"F0124","breast","nat","TF1",1,2,"ffpe","maccabi megalab",1056,"b008601/11",2031,8
+"F0125","breast","tumor","TF1",1,2,"ffpe","maccabi megalab",1064,"b007623/10",2036,9
+"F0126","breast","nat","TF1",1,2,"ffpe","maccabi megalab",1064,"b007623/10",2036,9
+"F0127","breast","tumor","TF1",1,2,"ffpe","maccabi megalab",1064,"b007894/10",2036,9
+"F0128","breast","nat","TF1",1,2,"ffpe","maccabi megalab",1064,"b007894/10",2036,9
+"F0129","breast","tumor","TF1",1,2,"ffpe","maccabi megalab",1064,"b009028/10",2036,9
+"F0130","control","control","TF1",1,2,"control","control",1064,NA,2036,9
+"F0131","breast","nat","TF1",1,2,"ffpe","maccabi megalab",1064,"b009028/10",2036,9
+"F0132","breast","tumor","TF1",1,2,"ffpe","maccabi megalab",1064,"b009418/10",2036,9
+"F0133","breast","nat","TF1",1,2,"ffpe","maccabi megalab",1064,"b009418/10",2036,9
+"F0134","breast","tumor","TF1",0.2,2,"ffpe","maccabi megalab",1064,"b009420/10",2036,9
+"F0135","breast","nat","TF1",1,2,"ffpe","maccabi megalab",1064,"b009420/10",2036,9
+"F0136","breast","tumor","TF1",1,2,"ffpe","maccabi megalab",1064,"b009565/10",2036,9
+"F0138","breast","tumor","TF1",1,2,"ffpe","sheba",1065,"mb66",2037,9
+"F0139","breast","nat","TF1",1,2,"ffpe","sheba",1065,"mb66",2037,9
+"F0140","breast","tumor","TF1",1,2,"ffpe","sheba",1065,"mb67",2037,9
+"F0141","breast","nat","TF1",1,2,"ffpe","sheba",1065,"mb67",2037,9
+"F0142","breast","tumor","TF1",1,2,"ffpe","sheba",1065,"mb68",2037,9
+"F0145","breast","nat","TF1",1,2,"ffpe","sheba",1066,"mb69",2037,9
+"F0146","breast","tumor","TF1",1,2,"ffpe","sheba",1066,"mb69",2037,9
+"F0147","breast","nat","TF1",0.2,2,"ffpe","sheba",1066,"mb70",2037,9
+"F0148","breast","tumor","TF1",1,2,"ffpe","sheba",1066,"mb70",2037,9
+"F0151","breast","tumor","TF1",1,2,"ffpe","sheba",1066,"mb73",2037,9
+"F0153","breast","tumor","TF1",0.05,2,"ffpe","sheba",1066,"mb74",2037,9
+"F0155","breast","tumor","TF1",0.2,2,"ffpe","sheba",1066,"mb77",2037,9
+"F0157","breast","tumor","TF1",1,2,"ffpe","sheba",1066,"mb78",2037,9
+"F0159","breast","nat","TF1",0.2,2,"ffpe","sheba",1066,"mb78",2037,9
+"F0162","breast","nat","TF1",1,2,"ffpe","sheba",1066,"mb80",2037,9
+"F0163","breast","tumor","TF1",1,2,"ffpe","sheba",1066,"mb80",2037,9
+"F0166","breast","tumor","TF1",1,2,"ffpe","sheba",1067,"mb71",2037,9
+"F0167","breast","nat","TF1",1,2,"ffpe","sheba",1067,"mb81",2037,9
+"F0168","breast","tumor","TF1",1,2,"ffpe","sheba",1067,"mb81",2037,9
+"F0169","breast","tumor","TF1",1,2,"ffpe","sheba",1067,"mb82",2037,9
+"F0170","breast","nat","TF1",1,2,"ffpe","sheba",1067,"mb82",2037,9
+"F0177","breast","tumor","TF1",0.2,2,"ffpe","sheba",1067,"mb85",2038,9
+"F0178","breast","nat","TF1",0.1,2,"ffpe","sheba",1067,"mb86",2038,9
+"F0179","breast","tumor","TF1",1,2,"ffpe","sheba",1067,"mb86",2038,9
+"F0181","control","control","TF1",1,2,"control","control",1067,NA,2038,9
+"F0182","breast","tumor","TF1",1,2,"ffpe","sheba",1067,"mb87",2038,9
+"F0183","breast","nat","TF1",1,2,"ffpe","sheba",1067,"mb88",2038,9
+"F0185","breast","nat","TF1",0.2,2,"ffpe","sheba",1067,"mb89",2038,9
+"F0186","breast","tumor","TF1",1,2,"ffpe","sheba",1067,"mb89",2038,9
+"F0291","lung","tumor","TS6",1,2,"snap","sheba",1052,"46",2033,8
+"F0292","lung","nat","TS6",1,2,"snap","sheba",1052,"47",2033,8
+"F0295","lung","nat","TS6",1,2,"snap","sheba",1063,"48",2033,8
+"F0299","lung","tumor","TS6",0.2,2,"snap","sheba",1063,"49",2033,8
+"F0300","lung","tumor","TS6",0.2,2,"snap","rambam",1096,"20231",2055,11
+"F0301","lung","nat","TS6",1,2,"snap","rambam",1096,"20246",2055,11
+"F0302","lung","tumor","TS6",1,2,"snap","rambam",1096,"20205",2055,11
+"F0307","lung","nat","TS6",1,2,"snap","rambam",1096,"21492",2055,11
+"F0310","lung","nat","TS6",1,2,"snap","rambam",1096,"21420",2055,11
+"F0313","lung","tumor","TS6",1,2,"snap","rambam",1096,"21492",2055,11
+"F0315","lung","nat","TS6",1,2,"snap","rambam",1096,"20184",2055,11
+"F0316","breast","nat","TS6",1,2,"snap","rambam",1097,"20105",2056,11
+"F0317","breast","tumor","TS6",1,2,"snap","rambam",1097,"20107",2056,11
+"F0318","breast","tumor","TS6",1,2,"snap","rambam",1097,"20244",2056,11
+"F0320","breast","nat","TS6",1,2,"snap","rambam",1097,"20107",2056,11
+"F0321","breast","nat","TS6",1,2,"snap","rambam",1097,"20314",2056,11
+"F0323","breast","tumor","TS6",1,2,"snap","rambam",1097,"20028",2056,11
+"F0324","breast","nat","TS6",1,2,"snap","rambam",1097,"20070",2056,11
+"F0326","control","control","TS6",1,2,"control","control",1097,NA,2056,11
+"F0332","breast","tumor","TS6",1,2,"snap","rambam",1097,"20167",2056,11
+"F0333","breast","tumor","TS6",1,2,"snap","rambam",1097,"20105",2056,11
+"F0334","breast","tumor","TS6",0.2,2,"snap","rambam",1097,"20012",2056,11
+"F0336","breast","tumor","TS6",1,2,"snap","rambam",1097,"20070",2056,11
+"F0339","breast","tumor","TS6",0.1,2,"snap","rambam",1099,"21413",2057,11
+"F0340","breast","tumor","TS6",1,2,"snap","rambam",1099,"22094",2057,11
+"F0341","breast","tumor","TS6",0.1,2,"snap","rambam",1099,"21828",2057,11
+"F0344","breast","tumor","TS6",0.1,2,"snap","rambam",1099,"20959",2057,11
+"F0345","breast","tumor","TS6",0.2,2,"snap","rambam",1099,"20898",2057,11
+"F0346","breast","tumor","TS6",1,2,"snap","rambam",1099,"22256",2057,11
+"F0348","breast","nat","TS6",0.2,2,"snap","rambam",1099,"21413",2057,11
+"F0349","control","control","TS6",1,2,"control","control",1099,NA,2057,11
+"F0351","breast","tumor","TS6",0.2,2,"snap","rambam",1099,"21044",2057,11
+"F0352","breast","nat","TS6",0.1,2,"snap","rambam",1099,"21546",2057,11
+"F0353","breast","tumor","TS6",1,2,"snap","rambam",1099,"21546",2057,11
+"F0356","breast","tumor","TS6",0.1,2,"snap","rambam",1099,"22300",2057,11
+"F0357","breast","nat","TS6",0.2,2,"snap","rambam",1099,"22256",2057,11
+"F0359","breast","nat","TS6",0.2,2,"snap","rambam",1099,"20528",2057,11
+"F0360","breast","nat","TS6",0.1,2,"snap","rambam",1099,"21828",2057,11
+"F0362","lung","nat","TS6",1,2,"snap","rambam",1100,"22705",2057,11
+"F0365","lung","nat","TS6",1,2,"snap","rambam",1100,"20166",2057,11
+"F0368","breast","tumor","TS6",0.2,2,"snap","rambam",1100,"22453",2057,11
+"F0369","breast","tumor","TS6",1,2,"snap","rambam",1100,"21247",2057,11
+"F0371","lung","nat","TS6",1,2,"snap","rambam",1100,"21814",2057,11
+"F0374","lung","tumor","TS6",0.05,2,"snap","rambam",1100,"22705",2057,11
+"F0376","lung","tumor","TS6",1,2,"snap","rambam",1100,"21814",2057,11
+"F0377","breast","nat","TS6",0.2,2,"snap","rambam",1100,"23087",2062,11
+"F0379","colon","nat","TS11",0.2,2,"snap","sheba",1040,"593",2026,8
+"F0380","colon","nat","TS11",1,2,"snap","sheba",1040,"654",2026,8
+"F0388","colon","tumor","TS11",0.1,2,"snap","sheba",1040,"1248",2026,8
+"F0391","melanoma","tumor","TS11",1,2,"snap","mdacc",1046,"137",2023,7
+"F0396","melanoma","tumor","TS11",1,2,"snap","mdacc",1046,"169",2023,7
+"F0397","melanoma","tumor","TS11",1,2,"snap","mdacc",1046,"115",2023,7
+"F0398","melanoma","tumor","TS11",1,2,"snap","mdacc",1046,"163",2023,7
+"F0405","melanoma","tumor","TS11",1,2,"snap","mdacc",1046,"109",2023,7
+"F0411","melanoma","tumor","TS11",1,2,"snap","mdacc",1046,"127",2023,7
+"F0414","melanoma","tumor","TS11",1,2,"snap","mdacc",1047,"122",2024,7
+"F0415","melanoma","tumor","TS11",1,2,"snap","mdacc",1047,"156",2024,7
+"F0416","melanoma","tumor","TS11",1,2,"snap","mdacc",1047,"132",2024,7
+"F0419","melanoma","tumor","TS11",1,2,"snap","mdacc",1047,"158",2024,7
+"F0420","melanoma","tumor","TS11",1,2,"snap","mdacc",1047,"92",2024,7
+"F0422","melanoma","tumor","TS11",1,2,"snap","mdacc",1047,"112",2024,7
+"F0423","lung","nat","TS11",1,2,"snap","coh",1083,"51496",2045,10
+"F0424","lung","tumor","TS11",1,2,"snap","coh",1083,"51496",2045,10
+"F0427","lung","nat","TS11",1,2,"snap","coh",1083,"51499",2045,10
+"F0429","lung","nat","TS11",1,2,"snap","coh",1083,"51501",2045,10
+"F0432","lung","tumor","TS11",1,2,"snap","coh",1083,"51500",2045,10
+"F0434","control","control","TS11",0.1,2,"control","control",1083,NA,2045,10
+"F0435","lung","tumor","TS11",0.2,2,"snap","coh",1083,"51502",2045,10
+"F0436","lung","nat","TS11",0.2,2,"snap","coh",1083,"51516",2045,10
+"F0438","lung","nat","TS11",0.2,2,"snap","coh",1083,"51519",2045,10
+"F0439","lung","tumor","TS11",1,2,"snap","coh",1083,"51519",2045,10
+"F0441","lung","nat","TS11",1,2,"snap","coh",1084,"51514",2045,10
+"F0443","lung","nat","TS11",0.2,2,"snap","coh",1084,"51506",2045,10
+"F0444","lung","tumor","TS11",1,2,"snap","coh",1084,"51506",2045,10
+"F0445","lung","nat","TS11",1,2,"snap","coh",1084,"51509",2045,10
+"F0446","lung","tumor","TS11",1,2,"snap","coh",1084,"51509",2045,10
+"F0449","lung","nat","TS11",1,2,"snap","coh",1084,"51508",2045,10
+"F0454","lung","nat","TS11",0.1,2,"snap","coh",1084,"51504",2045,10
+"F0458","lung","tumor","TS11",1,2,"snap","coh",1084,"51493",2049,10
+"F0215","breast","nat","TF2",1,2,"ffpe","maccabi megalab",1025,"b001510/09",2004,5
+"F0218","breast","nat","TF2",1,2,"ffpe","maccabi megalab",1025,"b001918/09",2004,5
+"F0220","breast","nat","TF2",1,2,"ffpe","maccabi megalab",1025,"b003007/09",2004,5
+"F0224","breast","normal","TF2",1,2,"ffpe","maccabi megalab",1026,"b034434/09",2004,5
+"F0226","breast","normal","TF2",1,2,"ffpe","maccabi megalab",1026,"b040948/09",2004,5
+"F0232","breast","tumor","TF2",1,2,"ffpe","maccabi megalab",1027,"b004878/09",2004,5
+"F0233","breast","nat","TF2",1,2,"ffpe","maccabi megalab",1027,"b004878/09",2004,5
+"F0237","breast","nat","TF2",1,2,"ffpe","maccabi megalab",1027,"b006434/09",2004,5
+"F0238","breast","tumor","TF2",1,2,"ffpe","maccabi megalab",1028,"b000552/09",2007,6
+"F0240","breast","tumor","TF2",1,2,"ffpe","maccabi megalab",1028,"b004286/09",2007,6
+"F0243","breast","nat","TF2",1,2,"ffpe","maccabi megalab",1028,"b004288/09",2007,6
+"F0244","control","control","TF2",1,2,"control","control",1028,NA,2007,6
+"F0245","breast","normal","TF2",1,2,"ffpe","maccabi megalab",1028,"b031433/09",2007,6
+"F0247","breast","normal","TF2",1,2,"ffpe","maccabi megalab",1028,"b034428/09",2007,6
+"F0248","breast","tumor","TF2",1,2,"ffpe","maccabi megalab",1028,"b005702/09",2007,6
+"F0254","breast","normal","TF2",1,2,"ffpe","maccabi megalab",1028,"b032084/09",2007,6
+"F0249","breast","nat","TF2",1,2,"ffpe","maccabi megalab",1028,"b005702/09",2007,6
+"F0258","breast","nat","TF2",1,2,"ffpe","sheba",1068,"mb90",2038,9
+"F0264","breast","nat","TF2",1,2,"ffpe","sheba",1068,"mb93",2038,9
+"F0266","breast","nat","TF2",1,2,"ffpe","sheba",1068,"mb94",2038,9
+"F0267","breast","tumor","TF2",1,2,"ffpe","sheba",1068,"mb94",2038,9
+"F0269","breast","nat","TF2",1,2,"ffpe","sheba",1068,"mb95",2038,9
+"F0273","breast","tumor","TF2",1,2,"ffpe","sheba",1068,"mb97",2038,9
+"F0278","breast","tumor","TF2",1,2,"ffpe","sheba",1068,"mb99",2038,9
+"F0279","breast","nat","TF2",1,2,"ffpe","sheba",1068,"mb99",2038,9
+"F0280","control","control","TF2",0.1,2,"control","control",1069,NA,2040,9
+"F0475","breast","normal","TF3",1,3,"ffpe","maccabi megalab",1032,"b064934/09",2017,7
+"F0484","breast","normal","TF3",0.2,3,"ffpe","maccabi megalab",1032,"b081616/09",2017,7
+"F0487","breast","normal","TF3",1,3,"ffpe","maccabi megalab",1032,"b085955/09",2017,7
+"F0488","breast","normal","TF3",0.2,3,"ffpe","maccabi megalab",1032,"b086435/09",2018,7
+"F0489","breast","tumor","TF3",1,3,"ffpe","maccabi megalab",1032,"b089566/09",2018,7
+"F0490","breast","normal","TF3",1,3,"ffpe","maccabi megalab",1032,"b092585/09",2018,7
+"F0491","breast","normal","TF3",0.05,3,"ffpe","maccabi megalab",1032,"b093330/09",2018,7
+"F0476","breast","normal","TF3",1,3,"ffpe","maccabi megalab",1032,"b064938/09",2017,7
+"F0494","breast","tumor","TF3",1,3,"ffpe","maccabi megalab",1033,"b000563/10",2018,7
+"F0496","breast","tumor","TF3",1,3,"ffpe","maccabi megalab",1033,"b006359/10",2018,7
+"F0497","breast","tumor","TF3",1,3,"ffpe","maccabi megalab",1033,"b007058/10",2018,7
+"F0499","breast","normal","TF3",1,3,"ffpe","maccabi megalab",1033,"b010498/10",2018,7
+"F0502","breast","normal","TF3",1,3,"ffpe","maccabi megalab",1033,"b024030/10",2018,7
+"F0477","breast","normal","TF3",1,3,"ffpe","maccabi megalab",1032,"b066496/09",2017,7
+"F0504","breast","normal","TF3",1,3,"ffpe","maccabi megalab",1033,"b027502/10",2018,7
+"F0506","breast","tumor","TF3",1,3,"ffpe","maccabi megalab",1033,"b037185/10",2018,7
+"F0507","breast","tumor","TF3",1,3,"ffpe","maccabi megalab",1033,"b046062/10",2018,7
+"F0510","breast","tumor","TF3",0.05,3,"ffpe","maccabi megalab",1033,"b048316/10",2018,7
+"F0511","breast","normal","TF3",1,3,"ffpe","maccabi megalab",1033,"b048411/10",2018,7
+"F0512","breast","normal","TF3",1,3,"ffpe","maccabi megalab",1033,"b049697/10",2018,7
+"F0513","breast","tumor","TF3",1,3,"ffpe","maccabi megalab",1034,"b054118/10",2018,7
+"F0478","breast","tumor","TF3",1,3,"ffpe","maccabi megalab",1032,"b067182/09",2017,7
+"F0514","breast","tumor","TF3",1,3,"ffpe","maccabi megalab",1034,"b061778/09",2018,7
+"F0515","breast","tumor","TF3",1,3,"ffpe","maccabi megalab",1034,"b064419/10",2018,7
+"F0516","breast","tumor","TF3",0.2,3,"ffpe","maccabi megalab",1034,"b067516/10",2018,7
+"F0517","breast","tumor","TF3",0.1,3,"ffpe","maccabi megalab",1034,"b067517/10",2018,7
+"F0519","breast","tumor","TF3",1,3,"ffpe","maccabi megalab",1034,"b068408/10",2018,7
+"F0521","breast","normal","TF3",1,3,"ffpe","maccabi megalab",1034,"b078061/10",2018,7
+"F0522","breast","tumor","TF3",0.05,3,"ffpe","maccabi megalab",1034,"b083482/10",2018,7
+"F0479","breast","tumor","TF3",1,3,"ffpe","maccabi megalab",1032,"b069430/09",2017,7
+"F0525","breast","tumor","TF3",0.2,3,"ffpe","maccabi megalab",1034,"b093472/10",2019,7
+"F0526","lung","nat","TF3",1,3,"ffpe","coh",1104,"16278-41",2060,11
+"F0527","lung","nat","TF3",1,3,"ffpe","coh",1104,"16278-42",2060,11
+"F0528","lung","nat","TF3",1,3,"ffpe","coh",1104,"16278-43",2060,11
+"F0529","lung","nat","TF3",1,3,"ffpe","coh",1104,"16278-44",2060,11
+"F0530","lung","nat","TF3",1,3,"ffpe","coh",1104,"16278-45",2060,11
+"F0531","lung","nat","TF3",1,3,"ffpe","coh",1104,"16278-46",2060,11
+"F0532","lung","nat","TF3",1,3,"ffpe","coh",1104,"16278-47",2060,11
+"F0533","lung","nat","TF3",1,3,"ffpe","coh",1104,"16278-48",2060,11
+"F0480","breast","normal","TF3",1,3,"ffpe","maccabi megalab",1032,"b077251/09",2017,7
+"F0534","lung","nat","TF3",1,3,"ffpe","coh",1104,"16278-49",2060,11
+"F0535","lung","nat","TF3",1,3,"ffpe","coh",1104,"16278-50",2060,11
+"F0538","lung","tumor","TF3",1,3,"ffpe","coh",1104,"16278-42",2060,11
+"F0541","lung","tumor","TF3",1,3,"ffpe","coh",1104,"16278-45",2060,11
+"F0481","breast","normal","TF3",1,3,"ffpe","maccabi megalab",1032,"b077262/09",2017,7
+"F0545","lung","tumor","TF3",1,3,"ffpe","coh",1104,"16278-49",2060,11
+"F0546","lung","tumor","TF3",0.2,3,"ffpe","coh",1104,"16278-50",2060,11
+"F0548","lung","nat","TF3",1,3,"ffpe","coh",1105,"16278-51",2060,11
+"F0549","lung","nat","TF3",1,3,"ffpe","coh",1105,"16278-52",2060,11
+"F0550","lung","nat","TF3",0.2,3,"ffpe","coh",1105,"16278-53",2060,11
+"F0552","lung","nat","TF3",1,3,"ffpe","coh",1105,"16278-55",2060,11
+"F0482","breast","tumor","TF3",1,3,"ffpe","maccabi megalab",1032,"b077641/09",2017,7
+"F0554","lung","nat","TF3",1,3,"ffpe","coh",1105,"16278-56",2060,11
+"F0555","lung","nat","TF3",1,3,"ffpe","coh",1105,"16278-57",2060,11
+"F0557","lung","nat","TF3",1,3,"ffpe","coh",1105,"16278-59",2060,11
+"F0560","lung","tumor","TF3",1,3,"ffpe","coh",1105,"16278-51",2061,11
+"F0563","lung","tumor","TF3",1,3,"ffpe","coh",1105,"16278-54",2061,11
+"F0483","breast","tumor","TF3",1,3,"ffpe","maccabi megalab",1032,"b081519/09",2017,7
+"F0566","lung","tumor","TF3",1,3,"ffpe","coh",1105,"16278-56",2061,11
+"F0567","lung","tumor","TF3",1,3,"ffpe","coh",1105,"16278-57",2061,11
+"F0568","lung","tumor","TF3",1,3,"ffpe","coh",1105,"16278-58",2061,11
+"F0569","lung","tumor","TF3",1,3,"ffpe","coh",1105,"16278-59",2061,11
+"F0580","breast","tumor","TF4",1,3,"ffpe","maccabi megalab",1039,"b002734/10",2019,7
+"F0581","breast","tumor","TF4",0.2,3,"ffpe","maccabi megalab",1039,"b003016/10",2019,7
+"F0781","lung","tumor","TS8",1,3,"snap","sheba",1035,"38",2022,7
+"F0582","breast","tumor","TF4",1,3,"ffpe","maccabi megalab",1039,"b003017/10",2019,7
+"F0786","lung","tumor","TS8",1,3,"snap","sheba",1035,"40",2022,7
+"F0789","lung","nat","TS8",1,3,"snap","sheba",1035,"42",2022,7
+"F0790","lung","tumor","TS8",0.1,3,"snap","sheba",1035,"42",2022,7
+"F0794","lung","tumor","TS8",0.05,3,"snap","sheba",1035,"44",2022,7
+"F0795","lung","nat","TS8",0.2,3,"snap","sheba",1035,"45",2022,7
+"F0799","colon","nat","TS8",0.05,3,"snap","sheba",1037,"1194",2025,8
+"F0800","colon","tumor","TS8",0.05,3,"snap","sheba",1037,"1194",2025,8
+"F0803","colon","nat","TS8",1,3,"snap","sheba",1037,"515",2025,8
+"F0804","colon","nat","TS8",1,3,"snap","sheba",1037,"964",2025,8
+"F0584","control","control","TF4",1,3,"control","control",1039,NA,2019,7
+"F0806","colon","nat","TS8",0.1,3,"snap","sheba",1037,"829",2025,8
+"F0807","colon","nat","TS8",1,3,"snap","sheba",1037,"856",2025,8
+"F0808","control","control","TS8",0.2,3,"control","control",1037,NA,2025,8
+"F0809","colon","tumor","TS8",0.1,3,"snap","sheba",1038,"655",2025,8
+"F0811","colon","tumor","TS8",1,3,"snap","sheba",1038,"513",2025,8
+"F0812","colon","tumor","TS8",1,3,"snap","sheba",1038,"531",2025,8
+"F0813","colon","tumor","TS8",1,3,"snap","sheba",1038,"829",2025,8
+"F0815","colon","nat","TS8",1,3,"snap","sheba",1038,"989",2025,8
+"F0816","colon","nat","TS8",1,3,"snap","sheba",1038,"485",2025,8
+"F0817","colon","tumor","TS8",1,3,"snap","sheba",1038,"485",2025,8
+"F0818","colon","tumor","TS8",1,3,"snap","sheba",1038,"964",2025,8
+"F0819","colon","nat","TS8",0.1,3,"snap","sheba",1038,"480",2025,8
+"F0821","colon","nat","TS8",0.05,3,"snap","sheba",1038,"531",2025,8
+"F0822","colon","nat","TS8",1,3,"snap","sheba",1038,"918",2025,8
+"F0823","colon","nat","TS8",0.05,3,"snap","sheba",1038,"1015",2025,8
+"F0824","control","control","TS8",1,3,"control","control",1038,NA,2026,8
+"F0825","colon","nat","TS8",1,3,"snap","sheba",1038,"1248",2026,8
+"F0586","breast","tumor","TF4",0.05,3,"ffpe","maccabi megalab",1039,"b003099/10",2019,7
+"F0826","breast","tumor","TS8",0.05,3,"snap","sheba",1073,"mbf1",2040,9
+"F0827","breast","tumor","TS8",0.05,3,"snap","sheba",1073,"mbf3",2040,9
+"F0829","breast","tumor","TS8",0.1,3,"snap","sheba",1073,"mbf8",2040,9
+"F0830","breast","tumor","TS8",1,3,"snap","sheba",1073,"mbf7",2040,9
+"F0831","control","control","TS8",1,3,"control","control",1073,NA,2040,9
+"F0832","breast","tumor","TS8",1,3,"snap","sheba",1073,"mbf5",2040,9
+"F0833","breast","tumor","TS8",1,3,"snap","sheba",1073,"mbf4",2040,9
+"F0587","breast","normal","TF4",1,3,"ffpe","maccabi megalab",1039,"b003559/10",2019,7
+"F0836","breast","tumor","TS8",0.2,3,"snap","sheba",1073,"mbf18",2040,9
+"F0839","breast","tumor","TS8",1,3,"snap","sheba",1073,"mbf20",2040,9
+"F0840","breast","tumor","TS8",0.1,3,"snap","sheba",1073,"mbf44",2040,9
+"F0841","breast","tumor","TS8",0.2,3,"snap","sheba",1073,"mbf27",2040,9
+"F0845","breast","tumor","TS8",0.2,3,"snap","sheba",1073,"mbf37",2041,9
+"F0588","breast","normal","TF4",1,3,"ffpe","maccabi megalab",1039,"b003564/10",2019,7
+"F0848","breast","tumor","TS8",0.2,3,"snap","sheba",1074,"mbf29",2041,9
+"F0850","breast","tumor","TS8",0.2,3,"snap","sheba",1074,"mbf14",2041,9
+"F0851","breast","tumor","TS8",0.2,3,"snap","sheba",1074,"mbf24",2041,9
+"F0854","breast","tumor","TS8",1,3,"snap","sheba",1074,"mbf28",2041,9
+"F0589","breast","normal","TF4",0.05,3,"ffpe","maccabi megalab",1039,"b004239/10",2020,7
+"F0856","breast","tumor","TS8",1,3,"snap","sheba",1074,"mbf40",2041,9
+"F0858","breast","tumor","TS8",1,3,"snap","sheba",1074,"mbf49",2041,9
+"F0670","melanoma","tumor","TS7",1,3,"snap","mdacc",1044,"142",2022,7
+"F0671","melanoma","tumor","TS7",1,3,"snap","mdacc",1044,"123",2022,7
+"F0672","melanoma","tumor","TS7",0.1,3,"snap","mdacc",1044,"146",2022,7
+"F0673","melanoma","tumor","TS7",0.2,3,"snap","mdacc",1044,"161",2022,7
+"F0572","breast","normal","TF4",0.05,3,"ffpe","maccabi megalab",1039,"b000976/10",2019,7
+"F0590","breast","normal","TF4",0.1,3,"ffpe","maccabi megalab",1039,"b004332/10",2020,7
+"F0675","melanoma","tumor","TS7",1,3,"snap","mdacc",1044,"139",2022,7
+"F0676","melanoma","tumor","TS7",1,3,"snap","mdacc",1044,"125",2022,7
+"F0681","melanoma","tumor","TS7",1,3,"snap","mdacc",1044,"168",2022,7
+"F0683","melanoma","tumor","TS7",1,3,"snap","mdacc",1044,"147",2022,7
+"F0687","lung","nat","TS7",1,3,"snap","rambam",1092,"20796",2053,10
+"F0688","lung","nat","TS7",1,3,"snap","rambam",1092,"20752",2053,10
+"F0689","lung","tumor","TS7",1,3,"snap","rambam",1092,"20752",2053,10
+"F0592","breast","normal","TF4",1,3,"ffpe","maccabi megalab",1041,"b004676/10",2020,7
+"F0697","lung","nat","TS7",0.05,3,"snap","rambam",1092,"20523",2053,10
+"F0698","lung","tumor","TS7",0.2,3,"snap","rambam",1092,"20523",2053,10
+"F0699","lung","tumor","TS7",0.2,3,"snap","rambam",1092,"20915",2053,10
+"F0701","lung","tumor","TS7",0.05,3,"snap","rambam",1093,"21949",2053,10
+"F0703","lung","nat","TS7",1,3,"snap","rambam",1093,"21508",2053,10
+"F0593","breast","normal","TF4",1,3,"ffpe","maccabi megalab",1041,"b005037/10",2020,7
+"F0705","lung","nat","TS7",1,3,"snap","rambam",1093,"21949",2053,10
+"F0708","lung","nat","TS7",0.05,3,"snap","rambam",1093,"22040",2054,11
+"F0711","lung","nat","TS7",1,3,"snap","rambam",1093,"22134",2054,11
+"F0594","breast","normal","TF4",1,3,"ffpe","maccabi megalab",1041,"b005487/10",2020,7
+"F0716","lung","tumor","TS7",0.1,3,"snap","rambam",1093,"22102",2054,11
+"F0721","lung","nat","TS7",0.1,3,"snap","rambam",1094,"22254",2054,11
+"F0595","breast","normal","TF4",1,3,"ffpe","maccabi megalab",1041,"b005929/10",2020,7
+"F0726","lung","tumor","TS7",1,3,"snap","rambam",1094,"22585",2054,11
+"F0727","lung","nat","TS7",1,3,"snap","rambam",1094,"20286",2054,11
+"F0728","lung","nat","TS7",0.2,3,"snap","rambam",1094,"22355",2054,11
+"F0729","lung","tumor","TS7",1,3,"snap","rambam",1094,"22023",2054,11
+"F0730","lung","nat","TS7",1,3,"snap","rambam",1094,"22331",2054,11
+"F0733","lung","tumor","TS7",1,3,"snap","rambam",1094,"22331",2054,11
+"F0735","lung","tumor","TS7",1,3,"snap","rambam",1094,"22040",2054,11
+"F0736","lung","nat","TS7",1,3,"snap","rambam",1094,"22585",2054,11
+"F0737","lung","tumor","TS7",1,3,"snap","rambam",1094,"22194",2054,11
+"F0738","lung","nat","TS7",1,3,"snap","rambam",1094,"22033",2054,11
+"F0739","lung","nat","TS7",0.2,3,"snap","rambam",1094,"22259",2054,11
+"F0740","lung","tumor","TS7",1,3,"snap","rambam",1095,"20098",2054,11
+"F0741","lung","tumor","TS7",0.2,3,"snap","rambam",1095,"21348",2055,11
+"F0748","lung","nat","TS7",0.2,3,"snap","rambam",1095,"21153",2055,11
+"F0749","lung","nat","TS7",1,3,"snap","rambam",1095,"21348",2055,11
+"F0750","lung","nat","TS7",1,3,"snap","rambam",1095,"20056",2055,11
+"F0753","lung","nat","TS7",1,3,"snap","rambam",1095,"22639",2055,11
+"F0598","breast","normal","TF4",1,3,"ffpe","maccabi megalab",1041,"b006686/10",2020,7
+"F0755","lung","tumor","TS7",0.1,3,"snap","rambam",1095,"22639",2055,11
+"F0760","lung","nat","TS7",1,3,"snap","rambam",1095,"20079",2055,11
+"F0599","breast","normal","TF4",1,3,"ffpe","maccabi megalab",1041,"b007278/10",2020,7
+"F0573","breast","normal","TF4",0.2,3,"ffpe","maccabi megalab",1039,"b000981/10",2019,7
+"F0600","breast","normal","TF4",1,3,"ffpe","maccabi megalab",1041,"b007612/10",2020,7
+"F0601","breast","normal","TF4",1,3,"ffpe","maccabi megalab",1041,"b007619/10",2020,7
+"F0602","lung","tumor","TF4",1,3,"ffpe","sheba",1041,"36",2020,7
+"F0604","lung","nat","TF4",1,3,"ffpe","sheba",1041,"19",2020,7
+"F0605","lung","tumor","TF4",1,3,"ffpe","sheba",1041,"19",2020,7
+"F0607","lung","tumor","TF4",1,3,"ffpe","sheba",1041,"26",2020,7
+"F0608","lung","tumor","TF4",1,3,"ffpe","sheba",1041,"59",2020,7
+"F0574","breast","tumor","TF4",0.2,3,"ffpe","maccabi megalab",1039,"b001371/10",2019,7
+"F0612","lung","tumor","TF4",1,3,"ffpe","sheba",1042,"65",2020,7
+"F0613","lung","tumor","TF4",1,3,"ffpe","sheba",1042,"67",2020,7
+"F0615","lung","nat","TF4",1,3,"ffpe","sheba",1042,"21",2020,7
+"F0616","lung","tumor","TF4",0.2,3,"ffpe","sheba",1042,"21",2020,7
+"F0575","breast","tumor","TF4",0.05,3,"ffpe","maccabi megalab",1039,"b001400/10",2019,7
+"F0621","lung","nat","TF4",1,3,"ffpe","sheba",1042,"10",2020,7
+"F0622","lung","nat","TF4",1,3,"ffpe","sheba",1042,"4",2020,7
+"F0623","lung","tumor","TF4",1,3,"ffpe","sheba",1042,"32",2020,7
+"F0624","lung","tumor","TF4",1,3,"ffpe","sheba",1042,"31",2020,7
+"F0625","lung","tumor","TF4",1,3,"ffpe","sheba",1042,"28",2020,7
+"F0576","breast","tumor","TF4",1,3,"ffpe","maccabi megalab",1039,"b001780/10",2019,7
+"F0630","lung","tumor","TF4",1,3,"ffpe","sheba",1042,"72",2021,7
+"F0634","breast","tumor","TF4",0.1,3,"ffpe","maccabi megalab",1054,"b000376/11",2029,8
+"F0637","breast","tumor","TF4",1,3,"ffpe","maccabi megalab",1054,"b001113/11",2029,8
+"F0638","breast","nat","TF4",1,3,"ffpe","maccabi megalab",1054,"b001113/11",2029,8
+"F0640","breast","nat","TF4",1,3,"ffpe","maccabi megalab",1054,"b001114/11",2029,8
+"F0641","breast","tumor","TF4",1,3,"ffpe","maccabi megalab",1054,"b001115/11",2029,8
+"F0642","breast","nat","TF4",0.2,3,"ffpe","maccabi megalab",1054,"b001115/11",2029,8
+"F0643","breast","tumor","TF4",1,3,"ffpe","maccabi megalab",1054,"b001202/11",2030,8
+"F0644","breast","tumor","TF4",0.2,3,"ffpe","maccabi megalab",1054,"b001802/11",2030,8
+"F0645","breast","nat","TF4",0.2,3,"ffpe","maccabi megalab",1054,"b001802/11",2030,8
+"F0646","breast","tumor","TF4",1,3,"ffpe","maccabi megalab",1054,"b002076/11",2030,8
+"F0647","breast","nat","TF4",1,3,"ffpe","maccabi megalab",1054,"b002076/11",2030,8
+"F0648","breast","tumor","TF4",1,3,"ffpe","maccabi megalab",1054,"b002485/11",2030,8
+"F0578","breast","normal","TF4",0.1,3,"ffpe","maccabi megalab",1039,"b001923/10",2019,7
+"F0650","breast","nat","TF4",1,3,"ffpe","maccabi megalab",1054,"b002485/11",2030,8
+"F0651","breast","tumor","TF4",0.1,3,"ffpe","maccabi megalab",1054,"b002833/11",2030,8
+"F0652","breast","nat","TF4",1,3,"ffpe","maccabi megalab",1054,"b002833/11",2030,8
+"F0656","breast","tumor","TF4",1,3,"ffpe","maccabi megalab",1054,"b002835/11",2030,8
+"F0658","breast","tumor","TF4",1,3,"ffpe","maccabi megalab",1054,"b002836/11",2030,8
+"F0579","breast","normal","TF4",1,3,"ffpe","maccabi megalab",1039,"b002724/10",2019,7
+"F0660","breast","tumor","TF4",0.2,3,"ffpe","maccabi megalab",1054,"b002985/11",2030,8
+"F0661","breast","tumor","TF4",1,3,"ffpe","maccabi megalab",1054,"b003315/11",2030,8
+"F0662","breast","nat","TF4",1,3,"ffpe","maccabi megalab",1054,"b003315/11",2030,8
+"F0664","control","control","TF4",0.1,3,"control","control",1056,NA,2031,8
+"F0665","breast","nat","TF4",0.1,3,"ffpe","maccabi megalab",1056,"b007794/11",2031,8
+"F0666","breast","tumor","TF4",0.2,3,"ffpe","maccabi megalab",1056,"b007925/11",2031,8
+"F0870","breast","nat","TF5",0.2,4,"ffpe","maccabi megalab",1055,"b006114/11",2030,8
+"F0871","breast","tumor","TF5",0.2,4,"ffpe","maccabi megalab",1055,"b006140/11",2030,8
+"F0874","breast","nat","TF5",0.2,4,"ffpe","maccabi megalab",1055,"b006141/11",2031,8
+"F0875","breast","tumor","TF5",1,4,"ffpe","maccabi megalab",1055,"b006566/11",2031,8
+"F0876","breast","nat","TF5",0.1,4,"ffpe","maccabi megalab",1055,"b006566/11",2031,8
+"F0877","breast","tumor","TF5",1,4,"ffpe","maccabi megalab",1055,"b006689/11",2031,8
+"F0860","breast","tumor","TF5",0.2,4,"ffpe","maccabi megalab",1055,"b003642/11",2030,8
+"F0878","breast","tumor","TF5",0.2,4,"ffpe","maccabi megalab",1056,"b006941/11",2031,8
+"F0879","breast","nat","TF5",1,4,"ffpe","maccabi megalab",1056,"b006941/11",2031,8
+"F0880","breast","tumor","TF5",0.2,4,"ffpe","maccabi megalab",1056,"b006942/11",2031,8
+"F0881","breast","nat","TF5",1,4,"ffpe","maccabi megalab",1056,"b006942/11",2031,8
+"F0883","breast","tumor","TF5",1,4,"ffpe","maccabi megalab",1056,"b007162/11",2031,8
+"F0884","breast","nat","TF5",1,4,"ffpe","maccabi megalab",1056,"b007162/11",2031,8
+"F0885","breast","tumor","TF5",1,4,"ffpe","maccabi megalab",1056,"b007164/11",2031,8
+"F0886","breast","nat","TF5",0.1,4,"ffpe","maccabi megalab",1056,"b007164/11",2031,8
+"F0887","breast","tumor","TF5",1,4,"ffpe","maccabi megalab",1056,"b007794/11",2031,8
+"F0861","breast","nat","TF5",0.1,4,"ffpe","maccabi megalab",1055,"b003642/11",2030,8
+"F0889","lung","nat","TF5",1,4,"ffpe","coh",1101,"16278-12",2058,11
+"F0890","lung","nat","TF5",1,4,"ffpe","coh",1101,"16278-13",2058,11
+"F0892","lung","nat","TF5",1,4,"ffpe","coh",1101,"16278-15",2058,11
+"F0893","control","control","TF5",1,4,"control","control",1101,NA,2058,11
+"F0894","lung","nat","TF5",1,4,"ffpe","coh",1101,"16278-16",2058,11
+"F0895","lung","nat","TF5",1,4,"ffpe","coh",1101,"16278-17",2058,11
+"F0896","lung","nat","TF5",1,4,"ffpe","coh",1101,"16278-18",2058,11
+"F0897","lung","nat","TF5",1,4,"ffpe","coh",1101,"16278-19",2058,11
+"F0862","breast","nat","TF5",0.2,4,"ffpe","maccabi megalab",1055,"b004132/11",2030,8
+"F0898","lung","nat","TF5",1,4,"ffpe","coh",1101,"16278-20",2058,11
+"F0901","lung","tumor","TF5",1,4,"ffpe","coh",1101,"16278-12",2058,11
+"F0902","lung","tumor","TF5",1,4,"ffpe","coh",1101,"16278-13",2058,11
+"F0903","lung","tumor","TF5",1,4,"ffpe","coh",1101,"16278-14",2058,11
+"F0904","lung","tumor","TF5",1,4,"ffpe","coh",1101,"16278-15",2058,11
+"F0907","lung","tumor","TF5",1,4,"ffpe","coh",1101,"16278-18",2059,11
+"F0863","breast","tumor","TF5",0.2,4,"ffpe","maccabi megalab",1055,"b004132/11",2030,8
+"F0909","lung","tumor","TF5",1,4,"ffpe","coh",1101,"16278-20",2059,11
+"F0911","lung","nat","TF5",1,4,"ffpe","coh",1102,"16278-21",2059,11
+"F0912","lung","nat","TF5",1,4,"ffpe","coh",1102,"16278-22",2059,11
+"F0913","lung","nat","TF5",1,4,"ffpe","coh",1102,"16278-23",2059,11
+"F0915","lung","nat","TF5",1,4,"ffpe","coh",1102,"16278-25",2059,11
+"F0919","lung","nat","TF5",1,4,"ffpe","coh",1102,"16278-29",2059,11
+"F0920","lung","nat","TF5",1,4,"ffpe","coh",1102,"16278-30",2059,11
+"F0922","lung","tumor","TF5",0.2,4,"ffpe","coh",1102,"16278-21",2059,11
+"F0923","lung","tumor","TF5",1,4,"ffpe","coh",1102,"16278-22",2059,11
+"F0865","breast","nat","TF5",0.2,4,"ffpe","maccabi megalab",1055,"b004528/11",2030,8
+"F0928","lung","tumor","TF5",1,4,"ffpe","coh",1102,"16278-27",2059,11
+"F0930","lung","tumor","TF5",1,4,"ffpe","coh",1102,"16278-29",2059,11
+"F0931","lung","tumor","TF5",1,4,"ffpe","coh",1102,"16278-30",2059,11
+"F0933","lung","nat","TF5",1,4,"ffpe","coh",1103,"16278-31",2059,11
+"F0934","lung","nat","TF5",1,4,"ffpe","coh",1103,"16278-32",2059,11
+"F0935","lung","nat","TF5",0.05,4,"ffpe","coh",1103,"16278-33",2059,11
+"F0936","lung","nat","TF5",1,4,"ffpe","coh",1103,"16278-34",2059,11
+"F0937","lung","nat","TF5",1,4,"ffpe","coh",1103,"16278-35",2059,11
+"F0866","breast","tumor","TF5",0.2,4,"ffpe","maccabi megalab",1055,"b004935/11",2030,8
+"F0938","lung","nat","TF5",1,4,"ffpe","coh",1103,"16278-36",2059,11
+"F0939","lung","nat","TF5",1,4,"ffpe","coh",1103,"16278-37",2059,11
+"F0940","lung","nat","TF5",1,4,"ffpe","coh",1103,"16278-38",2059,11
+"F0941","lung","nat","TF5",1,4,"ffpe","coh",1103,"16278-39",2059,11
+"F0942","lung","nat","TF5",1,4,"ffpe","coh",1103,"16278-40",2059,11
+"F0944","lung","tumor","TF5",1,4,"ffpe","coh",1103,"16278-31",2059,11
+"F0945","lung","tumor","TF5",1,4,"ffpe","coh",1103,"16278-32",2059,11
+"F0946","lung","tumor","TF5",1,4,"ffpe","coh",1103,"16278-33",2059,11
+"F0947","lung","tumor","TF5",1,4,"ffpe","coh",1103,"16278-34",2059,11
+"F0867","breast","nat","TF5",1,4,"ffpe","maccabi megalab",1055,"b004935/11",2030,8
+"F0948","lung","tumor","TF5",1,4,"ffpe","coh",1103,"16278-35",2060,11
+"F0950","lung","tumor","TF5",1,4,"ffpe","coh",1103,"16278-36",2060,11
+"F0951","lung","tumor","TF5",1,4,"ffpe","coh",1103,"16278-37",2060,11
+"F0952","lung","tumor","TF5",1,4,"ffpe","coh",1103,"16278-38",2060,11
+"F0953","lung","tumor","TF5",1,4,"ffpe","coh",1103,"16278-39",2060,11
+"F1150","melanoma","tumor","TS10",1,4,"snap","mdacc",1021,"70",2005,6
+"F1151","melanoma","tumor","TS10",1,4,"snap","mdacc",1021,"63",2005,6
+"F1152","melanoma","tumor","TS10",1,4,"snap","mdacc",1021,"77",2005,6
+"F1156","melanoma","tumor","TS10",1,4,"snap","mdacc",1021,"59",2005,6
+"F1157","melanoma","tumor","TS10",1,4,"snap","mdacc",1021,"82",2005,6
+"F1158","melanoma","tumor","TS10",1,4,"snap","mdacc",1021,"76",2005,6
+"F1159","melanoma","tumor","TS10",1,4,"snap","mdacc",1021,"21",2005,6
+"F1162","melanoma","tumor","TS10",0.2,4,"snap","mdacc",1022,"42",2005,6
+"F1164","melanoma","tumor","TS10",1,4,"snap","mdacc",1022,"38",2005,6
+"F1165","melanoma","tumor","TS10",1,4,"snap","mdacc",1022,"72",2005,6
+"F1166","melanoma","tumor","TS10",1,4,"snap","mdacc",1022,"43",2005,6
+"F1168","melanoma","tumor","TS10",1,4,"snap","mdacc",1022,"81",2005,6
+"F1169","melanoma","tumor","TS10",1,4,"snap","mdacc",1022,"78",2005,6
+"F1170","melanoma","tumor","TS10",1,4,"snap","mdacc",1022,"68",2005,6
+"F1173","melanoma","tumor","TS10",1,4,"snap","mdacc",1022,"62",2005,6
+"F1176","lung","nat","TS10",1,4,"snap","sheba",1023,"20",2003,5
+"F1182","lung","tumor","TS10",1,4,"snap","sheba",1023,"13",2003,5
+"F1193","lung","tumor","TS10",0.2,4,"snap","sheba",1023,"15",2003,5
+"F1194","lung","nat","TS10",1,4,"snap","sheba",1023,"16",2003,5
+"F1201","lung","nat","TS10",1,4,"snap","sheba",1030,"29",2008,6
+"F1208","lung","nat","TS10",1,4,"snap","sheba",1030,"32",2008,6
+"F1212","lung","nat","TS10",1,4,"snap","sheba",1030,"34",2012,6
+"F1218","melanoma","tumor","TS10",0.05,4,"snap","mdacc",1069,"51",2040,9
+"F1219","breast","tumor","TS10",0.1,4,"snap","sheba",1069,"mbf2",2040,9
+"F1222","melanoma","tumor","TS10",1,4,"snap","nki",1111,NA,2063,11
+"F1223","melanoma","tumor","TS10",1,4,"snap","nki",1111,NA,2063,11
+"F1224","melanoma","tumor","TS10",1,4,"snap","nki",1111,NA,2063,11
+"F1229","melanoma","tumor","TS10",0.05,4,"snap","nki",1111,NA,2063,11
+"F1230","melanoma","tumor","TS10",1,4,"snap","nki",1111,NA,2063,11
+"F1232","melanoma","tumor","TS10",1,4,"snap","nki",1111,NA,2063,11
+"F1235","melanoma","tumor","TS10",1,4,"snap","nki",1111,NA,2063,11
+"F1238","melanoma","tumor","TS10",1,4,"snap","nki",1111,NA,2063,11
+"F1239","melanoma","tumor","TS10",1,4,"snap","nki",1111,NA,2063,11
+"F1051","melanoma","tumor","TS9",0.2,4,"snap","mdacc",1019,"57",2002,5
+"F1052","melanoma","tumor","TS9",1,4,"snap","mdacc",1019,"88",2002,5
+"F1053","melanoma","tumor","TS9",1,4,"snap","mdacc",1019,"34",2002,5
+"F1054","melanoma","tumor","TS9",1,4,"snap","mdacc",1019,"40",2002,5
+"F1058","melanoma","tumor","TS9",0.2,4,"snap","mdacc",1019,"19",2003,5
+"F1061","melanoma","tumor","TS9",1,4,"snap","mdacc",1019,"46",2003,5
+"F1063","melanoma","tumor","TS9",1,4,"snap","mdacc",1019,"16",2003,5
+"F1064","melanoma","tumor","TS9",1,4,"snap","mdacc",1019,"58",2003,5
+"F1065","melanoma","tumor","TS9",1,4,"snap","mdacc",1020,"50",2003,5
+"F1070","melanoma","tumor","TS9",1,4,"snap","mdacc",1020,"53",2005,6
+"F1074","melanoma","tumor","TS9",1,4,"snap","mdacc",1020,"64",2005,6
+"F1076","breast","tumor","TS9",0.1,4,"snap","sheba",1076,"mbf16",2041,9
+"F1077","breast","tumor","TS9",1,4,"snap","sheba",1076,"mbf41",2041,9
+"F1078","breast","tumor","TS9",1,4,"snap","sheba",1076,"mbf42",2041,9
+"F1079","breast","tumor","TS9",1,4,"snap","sheba",1076,"mbf31",2041,9
+"F1081","breast","tumor","TS9",0.05,4,"snap","sheba",1076,"mbf43",2041,9
+"F1082","breast","tumor","TS9",1,4,"snap","sheba",1076,"mbf32",2041,9
+"F1083","breast","tumor","TS9",0.05,4,"snap","sheba",1076,"mbf17",2041,9
+"F1085","lung","nat","TS9",1,4,"snap","sheba",1076,"50",2041,9
+"F1088","lung","nat","TS9",1,4,"snap","sheba",1076,"53",2041,9
+"F1089","lung","nat","TS9",1,4,"snap","sheba",1076,"52",2042,9
+"F1092","lung","tumor","TS9",1,4,"snap","sheba",1076,"50",2042,9
+"F1093","lung","nat","TS9",1,4,"snap","sheba",1076,"54",2042,9
+"F1094","lung","tumor","TS9",1,4,"snap","sheba",1076,"54",2042,9
+"F1120","lung","tumor","TS9",1,4,"snap","coh",1090,"51497",2052,10
+"F1122","lung","nat","TS9",1,4,"snap","coh",1090,"51505",2052,10
+"F1123","lung","tumor","TS9",1,4,"snap","coh",1090,"51505",2052,10
+"F1127","lung","nat","TS9",1,4,"snap","rambam",1091,"20349",2052,10
+"F1129","lung","tumor","TS9",1,4,"snap","rambam",1091,"20827",2052,10
+"F1132","lung","nat","TS9",1,4,"snap","rambam",1091,"20696",2052,10
+"F1136","lung","nat","TS9",1,4,"snap","rambam",1091,"20421",2052,10
+"F1137","lung","tumor","TS9",1,4,"snap","rambam",1091,"20696",2052,10
+"F1138","lung","tumor","TS9",1,4,"snap","rambam",1091,"20421",2052,10
+"F1140","lung","nat","TS9",1,4,"snap","rambam",1091,"20455",2052,10
+"F1142","lung","nat","TS9",1,4,"snap","rambam",1091,"20397",2052,10
+"F1143","lung","nat","TS9",1,4,"snap","rambam",1091,"20622",2052,10
+"F1144","lung","nat","TS9",1,4,"snap","rambam",1091,"20827",2053,10
+"F1145","lung","tumor","TS9",1,4,"snap","rambam",1091,"20622",2053,10
+"F1147","melanoma","tumor","TS10",1,4,"snap","mdacc",1021,"67",2005,6
+"F1541","breast","normal","T15",1,8,"ffpe","maccabi megalab",1031,"b053137/09",2017,7
+"F1542","breast","normal","T15",1,8,"ffpe","maccabi megalab",1031,"b054509/09",2017,7
+"F1543","breast","normal","T15",1,8,"ffpe","maccabi megalab",1031,"b058488/09",2017,7
+"F1544","breast","normal","T15",1,8,"ffpe","maccabi megalab",1031,"b059520/09",2017,7
+"F1546","breast","normal","T15",1,8,"ffpe","maccabi megalab",1031,"b059973/09",2017,7
+"F1547","breast","normal","T15",1,8,"ffpe","maccabi megalab",1031,"b061460/09",2017,7
+"F1548","breast","normal","T15",1,8,"ffpe","maccabi megalab",1031,"b063492/09",2017,7
+"F1549","breast","normal","T15",0.2,8,"ffpe","maccabi megalab",1036,"b000004/10",2019,7
+"F1550","control","control","T15",1,8,"control","control",1036,"control - empty",2019,7
+"F1551","breast","tumor","T15",0.05,8,"ffpe","maccabi megalab",1036,"b000318/10",2019,7
+"F1552","breast","nat","T15",0.1,8,"ffpe","maccabi megalab",1036,"b000318/10",2019,7
+"F1553","breast","tumor","T15",1,8,"ffpe","maccabi megalab",1036,"b000321/10",2019,7
+"F1554","breast","nat","T15",0.2,8,"ffpe","maccabi megalab",1036,"b000321/10",2019,7
+"F1555","breast","tumor","T15",0.2,8,"ffpe","maccabi megalab",1036,"b000969/10",2019,7
+"F1556","breast","nat","T15",1,8,"ffpe","maccabi megalab",1036,"b000969/10",2019,7
+"F1557","breast","tumor","T15",0.1,8,"ffpe","maccabi megalab",1061,"b006940/11",2035,9
+"F1558","breast","tumor","T15",0.05,8,"ffpe","maccabi megalab",1061,"b009260/11",2035,9
+"F1560","breast","nat","T15",1,8,"ffpe","maccabi megalab",1061,"b009260/11",2035,9
+"F1561","breast","tumor","T15",1,8,"ffpe","maccabi megalab",1061,"b009354/11",2035,9
+"F1563","breast","tumor","T15",1,8,"ffpe","maccabi megalab",1061,"b009926/11",2035,9
+"F1564","breast","nat","T15",0.2,8,"ffpe","maccabi megalab",1062,"b009926/11",2035,9
+"F1565","breast","tumor","T15",0.2,8,"ffpe","maccabi megalab",1062,"b009928/11",2035,9
+"F1566","breast","nat","T15",1,8,"ffpe","maccabi megalab",1062,"b009928/11",2035,9
+"F1567","breast","normal","T15",0.2,8,"ffpe","maccabi megalab",1062,"b029732/11",2035,9
+"F1568","breast","normal","T15",0.2,8,"ffpe","maccabi megalab",1062,"b059251/11",2035,9
+"F1569","breast","normal","T15",1,8,"ffpe","maccabi megalab",1062,"b060571/11",2035,9
+"F1570","breast","normal","T15",1,8,"ffpe","maccabi megalab",1062,"b074707/11",2035,9
+"F1571","breast","normal","T15",0.2,8,"ffpe","maccabi megalab",1062,"b090171/11",2035,9
+"F1572","control","control","T15",1,8,"control","control",1062,NA,2035,9
+"F1573","breast","tumor","T15",0.2,8,"ffpe","maccabi megalab",1062,"b006363/10",2035,9
+"F1574","breast","nat","T15",0.2,8,"ffpe","maccabi megalab",1062,"b006363/10",2035,9
+"F1575","breast","tumor","T15",0.2,8,"ffpe","maccabi megalab",1062,"b006689/10",2035,9
+"F1576","breast","nat","T15",1,8,"ffpe","maccabi megalab",1062,"b006689/10",2036,9
+"F1577","breast","tumor","T15",1,8,"ffpe","maccabi megalab",1062,"b007519/10",2036,9
+"F1578","breast","nat","T15",1,8,"ffpe","maccabi megalab",1062,"b007519/10",2036,9
+"F1579","breast","tumor","T15",0.2,8,"ffpe","maccabi megalab",1062,"b007523/10",2036,9
+"F1580","breast","nat","T15",0.2,8,"ffpe","maccabi megalab",1062,"b007523/10",2036,9
+"F1581","breast","tumor","T15",0.2,8,"ffpe","maccabi megalab",1064,"b009573/10",2036,9
+"F1582","breast","nat","T15",1,8,"ffpe","maccabi megalab",1064,"b009573/10",2036,9
+"F1583","breast","tumor","T15",1,8,"ffpe","maccabi megalab",1064,"b010662/10",2036,9
+"F1584","control","control","T15",1,8,"control","control",1064,NA,2036,9
+"F1585","breast","nat","T15",0.05,8,"ffpe","maccabi megalab",1064,"b010662/10",2036,9
+"F1586","breast","tumor","T15",1,8,"ffpe","maccabi megalab",1064,"b011150/10",2036,9
+"F1587","breast","nat","T15",0.2,8,"ffpe","maccabi megalab",1064,"b011150/10",2036,9
+"F1588","breast","tumor","T15",1,8,"ffpe","maccabi megalab",1064,"b011151/10",2036,9
+"F1589","breast","nat","T15",1,8,"ffpe","maccabi megalab",1064,"b011151/10",2036,9
+"F1591","control","control","T15",1,8,"control","control",1072,NA,2051,10
+"F1594","breast","normal","T15",1,8,"ffpe","sheba",1072,"199510/15",2051,10
+"F1597","breast","normal","T15",1,8,"ffpe","sheba",1075,"3260/14",2051,10
+"F1598","breast","normal","T15",1,8,"ffpe","sheba",1075,"6752/14",2051,10
+"F1599","control","control","T15",1,8,"control","control",1075,NA,2051,10
+"F1600","breast","normal","T15",1,8,"ffpe","sheba",1075,"12663/14",2051,10
+"F1601","breast","normal","T15",1,8,"ffpe","sheba",1075,"17445/15",2051,10
+"F1602","breast","normal","T15",1,8,"ffpe","sheba",1075,"3960/16",2051,10
+"F1605","breast","tumor","T15",1,8,"ffpe","maccabi megalab",1079,"b013598/10",2046,10
+"F1606","breast","nat","T15",1,8,"ffpe","maccabi megalab",1079,"b013598/10",2046,10
+"F1607","breast","nat","T15",1,8,"ffpe","maccabi megalab",1079,"b013599/10",2046,10
+"F1608","breast","tumor","T15",1,8,"ffpe","maccabi megalab",1079,"b013599/10",2046,10
+"F1610","breast","nat","T15",1,8,"ffpe","maccabi megalab",1079,"b013616/10",2046,10
+"F1611","control","control","T15",1,8,"control","control",1079,NA,2046,10
+"F1612","breast","nat","T15",1,8,"ffpe","maccabi megalab",1079,"b013952/10",2043,9
+"F1613","breast","tumor","T15",0.2,8,"ffpe","maccabi megalab",1079,"b013952/10",2043,9
+"F1616","breast","tumor","T15",0.2,8,"ffpe","maccabi megalab",1081,"b015180/10",2046,10
+"F1617","breast","nat","T15",0.2,8,"ffpe","maccabi megalab",1081,"b015180/10",2046,10
+"F1618","breast","tumor","T15",0.1,8,"ffpe","maccabi megalab",1081,"b015182/10",2046,10
+"F1619","breast","nat","T15",1,8,"ffpe","maccabi megalab",1081,"b015182/10",2046,10
+"F1620","breast","nat","T15",1,8,"ffpe","maccabi megalab",1081,"b015183/10",2046,10
+"F1621","control","control","T15",1,8,"control","control",1081,NA,2046,10
+"F1622","breast","tumor","T15",1,8,"ffpe","maccabi megalab",1081,"b015183/10",2046,10
+"F1623","breast","nat","T15",0.05,8,"ffpe","maccabi megalab",1081,"b015184/10",2046,10
+"F1624","breast","tumor","T15",1,8,"ffpe","maccabi megalab",1081,"b015184/10",2046,10
+"F1625","breast","tumor","T15",0.05,8,"ffpe","maccabi megalab",1081,"b015530/10",2046,10
+"F1626","breast","nat","T15",1,8,"ffpe","maccabi megalab",1081,"b015530/10",2046,10
+"F1252","gbm","tumor","T12",1,8,"ffpe","rabin",1053,"13-05715",2029,8
+"F1342","lung","nat","T13",1,8,"ffpe","sheba",1036,"22",2019,7
+"F1346","colon","nat","T13",1,8,"snap","sheba",1037,"513",2025,8
+"F1351","colon","nat","T13",1,8,"snap","sheba",1037,"455",2025,8
+"F1353","colon","tumor","T13",0.2,8,"snap","sheba",1037,"562",2025,8
+"F1355","colon","tumor","T13",1,8,"snap","sheba",1037,"856",2025,8
+"F1361","lung","nat","T13",1,8,"snap","sheba",1052,"46",2033,8
+"F1371","breast","tumor","T13",1,8,"ffpe","maccabi megalab",1054,"b000371/11",2029,8
+"F1256","gbm","tumor","T12",1,8,"ffpe","rabin",1053,"15-16887",2029,8
+"F1383","breast","tumor","T13",1,8,"ffpe","maccabi megalab",1054,"b003422/11",2030,8
+"F1384","breast","nat","T13",0.2,8,"ffpe","maccabi megalab",1055,"b003422/11",2030,8
+"F1387","breast","tumor","T13",0.2,8,"ffpe","maccabi megalab",1055,"b004528/11",2030,8
+"F1393","breast","tumor","T13",1,8,"ffpe","sheba",1066,"mb72",2037,9
+"F1394","breast","nat","T13",1,8,"ffpe","sheba",1066,"mb72",2037,9
+"F1397","breast","tumor","T13",1,8,"ffpe","maccabi megalab",1056,"b008561/11",2031,8
+"F1404","breast","nat","T13",1,8,"ffpe","sheba",1067,"mb83",2038,9
+"F1413","breast","nat","T13",1,8,"ffpe","sheba",1067,"mb84",2038,9
+"F1414","breast","tumor","T13",1,8,"ffpe","sheba",1067,"mb84",2038,9
+"F1415","breast","nat","T13",0.2,8,"ffpe","sheba",1067,"mb85",2038,9
+"F1427","lung","tumor","T13",1,8,"snap","sheba",1076,"53",2042,9
+"F1261","gbm","tumor","T12",1,8,"ffpe","rabin",1053,"15-12702",2029,8
+"F1436","colon","nat","T14",1,8,"snap","sheba",1040,"562",2026,8
+"F1437","lung","tumor","T14",0.1,8,"ffpe","sheba",1041,"69",2020,7
+"F1441","lung","tumor","T14",1,8,"snap","coh",1084,"51514",2045,10
+"F1262","gbm","tumor","T12",0.05,8,"ffpe","rabin",1053,"14-25936",2029,8
+"F1442","lung","tumor","T14",1,8,"snap","rambam",1091,"20658",2052,10
+"F1443","colon","tumor","T14",0.2,8,"snap","sheba",1040,"918",2026,8
+"F1451","lung","nat","T14",1,8,"snap","rambam",1091,"20658",2052,10
+"F1470","lung","nat","T14",1,8,"snap","rambam",1093,"21624",2054,11
+"F1479","lung","tumor","T14",1,8,"snap","rambam",1093,"21624",2054,11
+"F1483","lung","tumor","T14",1,8,"snap","rambam",1095,"21105",2055,11
+"F1484","lung","nat","T14",1,8,"snap","rambam",1096,"21105",2055,11
+"F1488","breast","nat","T14",1,8,"snap","rambam",1097,"20108",2056,11
+"F1494","lung","tumor","T14",1,8,"snap","rambam",1096,"21056",2055,11
+"F1495","breast","tumor","T14",1,8,"snap","rambam",1097,"20108",2056,11
+"F1499","breast","nat","T14",0.1,8,"snap","rambam",1099,"22300",2057,11
+"F1523","lung","nat","T14",1,8,"snap","rambam",1100,"22667",2057,11
+"F1526","lung","nat","T14",1,8,"ffpe","coh",1102,"16278-28",2059,11
+"F1527","lung","tumor","T14",1,8,"ffpe","coh",1102,"16278-28",2059,11
+"F1528","control","control","T14",1,8,"control","control",1112,NA,2066,12
+"F1271","gbm","tumor","T12",1,8,"snap","sheba",1100,"gb1",2062,11
+"F1274","gbm","tumor","T12",1,8,"snap","sheba",1109,"gb3",2062,11
+"F1275","gbm","tumor","T12",1,8,"snap","sheba",1109,"gb4",2062,11
+"F1276","gbm","tumor","T12",1,8,"snap","sheba",1109,"gb5",2062,11
+"F1277","gbm","tumor","T12",1,8,"snap","sheba",1109,"gb6",2062,11
+"F1278","control","control","T12",0.1,8,"control","control",1109,NA,2062,11
+"F1279","gbm","tumor","T12",0.05,8,"snap","sheba",1109,"gb7",2062,11
+"F1280","gbm","tumor","T12",1,8,"snap","sheba",1109,"gb8",2062,11
+"F1281","gbm","tumor","T12",0.1,8,"snap","sheba",1109,"gb9",2062,11
+"F1246","gbm","tumor","T12",1,8,"ffpe","rabin",1053,"14-21850",2029,8
+"F1282","gbm","tumor","T12",1,8,"snap","sheba",1109,"gb10",2062,11
+"F1283","gbm","tumor","T12",1,8,"snap","sheba",1109,"gb11",2062,11
+"F1285","gbm","tumor","T12",1,8,"snap","sheba",1109,"gb12",2062,11
+"F1288","gbm","tumor","T12",0.05,8,"snap","sheba",1109,"gb15",2062,11
+"F1289","gbm","tumor","T12",1,8,"snap","sheba",1109,"gb16",2062,11
+"F1290","control","control","T12",1,8,"control","control",1109,NA,2062,11
+"F1293","breast","nat","T12",0.2,8,"ffpe","maccabi megalab",1024,"b001498/09",2004,5
+"F1294","breast","normal","T12",0.2,8,"ffpe","maccabi megalab",1024,"b002726/09",2004,5
+"F1295","breast","normal","T12",1,8,"ffpe","maccabi megalab",1024,"b003082/09",2004,5
+"F1298","breast","normal","T12",1,8,"ffpe","maccabi megalab",1024,"b017957/09",2004,5
+"F1299","breast","normal","T12",1,8,"ffpe","maccabi megalab",1024,"b021465/09",2004,5
+"F1301","breast","normal","T12",0.2,8,"ffpe","maccabi megalab",1024,"b018263/09",2004,5
+"F1302","breast","normal","T12",1,8,"ffpe","maccabi megalab",1024,"b021473/09",2004,5
+"F1303","breast","normal","T12",1,8,"ffpe","maccabi megalab",1024,"b021475/09",2004,5
+"F1304","breast","normal","T12",1,8,"ffpe","maccabi megalab",1024,"b024094/09",2004,5
+"F1305","control","control","T12",0.05,8,"control","control",1024,NA,2004,5
+"F1306","breast","tumor","T12",1,8,"ffpe","maccabi megalab",1039,"b000970/10",2019,7
+"F1307","breast","nat","T12",1,8,"ffpe","maccabi megalab",1039,"b000970/10",2019,7
+"F1311","breast","normal","T12",1,8,"ffpe","maccabi megalab",1070,"b011213/10",2038,9
+"F1312","breast","tumor","T12",0.2,8,"ffpe","maccabi megalab",1070,"b011259/10",2039,9
+"F1313","breast","nat","T12",1,8,"ffpe","maccabi megalab",1070,"b011259/10",2039,9
+"F1314","breast","tumor","T12",1,8,"ffpe","maccabi megalab",1070,"b011908/10",2039,9
+"F1316","breast","tumor","T12",1,8,"ffpe","maccabi megalab",1070,"b012775/10",2039,9
+"F1317","control","control","T12",0.2,8,"control","control",1070,NA,2039,9
+"F1318","breast","nat","T12",1,8,"ffpe","maccabi megalab",1070,"b012775/10",2039,9
+"F1319","breast","tumor","T12",1,8,"ffpe","maccabi megalab",1070,"b013144/10",2039,9
+"F1321","breast","tumor","T12",1,8,"ffpe","maccabi megalab",1081,"b016492/10",2046,10
+"F1322","breast","nat","T12",1,8,"ffpe","maccabi megalab",1081,"b016492/10",2046,10
+"F1329","lung","nat","T12",1,8,"ffpe","coh",1105,"16278-60",2060,11
+"F1251","gbm","tumor","T12",1,8,"ffpe","rabin",1053,"15-03928",2029,8
+"F1336","breast","nat","T12",1,8,"ffpe","sheba",1068,"mb98",2038,9
+"F1338","lung","tumor","T12",1,8,"ffpe","coh",1105,"16278-60",2061,11
+"F1340","lung","nat","T13",1,8,"snap","sheba",1035,"44",2022,7
+"F1915","gbm","tumor","T19",1,9,"ffpe","rabin",1053,"15-10104",2029,8
+"F1924","gbm","tumor","T19",1,9,"ffpe","rabin",1053,"15-13720",2029,8
+"F1925","gbm","tumor","T19",1,9,"ffpe","rabin",1053,"15-15114",2029,8
+"F1929","gbm","tumor","T19",1,9,"ffpe","rabin",1053,"15-02070",2029,8
+"F1930","gbm","tumor","T19",0.2,9,"ffpe","rabin",1053,"15-06284",2029,8
+"F1931","gbm","tumor","T19",1,9,"ffpe","rabin",1053,"15-08219",2029,8
+"F1933","gbm","tumor","T19",1,9,"ffpe","rabin",1054,"14-15587",2029,8
+"F1916","gbm","tumor","T19",1,9,"ffpe","rabin",1053,"14-14047",2029,8
+"F1935","gbm","tumor","T19",0.05,9,"ffpe","rabin",1054,"14-11511",2029,8
+"F1936","gbm","tumor","T19",1,9,"ffpe","rabin",1054,"15-17403",2029,8
+"F1940","paraffin control","pcontrol","T19",1,9,"ffpe","rabin",1161,NA,2080,19
+"F1941","control","control","T19",1,9,"control","control",1161,NA,2081,19
+"F1943","paraffin control","pcontrol","T19",1,9,"ffpe","rabin",1161,NA,2081,19
+"F1917","gbm","tumor","T19",1,9,"ffpe","rabin",1053,"15-13347",2029,8
+"F1944","paraffin control","pcontrol","T19",1,9,"ffpe","rabin",1161,NA,2081,19
+"F1945","paraffin control","pcontrol","T19",0.05,9,"ffpe","rabin",1161,NA,2081,19
+"F1948","paraffin control","pcontrol","T19",1,9,"ffpe","rabin",1161,NA,2081,19
+"F1949","paraffin control","pcontrol","T19",1,9,"ffpe","rabin",1161,NA,2081,19
+"F1951","paraffin control","pcontrol","T19",1,9,"ffpe","rabin",1161,NA,2081,19
+"F1952","paraffin control","pcontrol","T19",1,9,"ffpe","rabin",1161,NA,2081,19
+"F1953","control","control","T19",1,9,"control","control",1161,NA,2081,19
+"F1954","paraffin control","pcontrol","T19",1,9,"ffpe","rabin",1161,NA,2081,19
+"F1955","paraffin control","pcontrol","T19",1,9,"ffpe","rabin",1161,NA,2081,19
+"F1958","bone","tumor","T19",1,9,"snap","istituto ortopedico rizzoli",1052,NA,2033,8
+"F1959","bone","tumor","T19",1,9,"ffpe","sheba",1071,"07/1979",2039,9
+"F1960","bone","tumor","T19",1,9,"ffpe","sheba",1071,"10/7918",2039,9
+"F1961","bone","tumor","T19",1,9,"ffpe","sheba",1071,"11/19114",2039,9
+"F1962","bone","tumor","T19",1,9,"ffpe","sheba",1071,"11/7308",2039,9
+"F1963","bone","tumor","T19",1,9,"ffpe","sheba",1071,"94/2430",2039,9
+"F1964","bone","tumor","T19",1,9,"ffpe","sheba",1071,"99/12359",2039,9
+"F1965","bone","tumor","T19",0.2,9,"ffpe","sheba",1071,"01/510",2039,9
+"F1967","bone","tumor","T19",1,9,"ffpe","sheba",1071,"01/925",2039,9
+"F1968","bone","tumor","T19",1,9,"ffpe","sheba",1071,"12/11918",2039,9
+"F1969","bone","tumor","T19",1,9,"ffpe","sheba",1071,"12/10290",2039,9
+"F1970","bone","tumor","T19",1,9,"ffpe","sheba",1071,"01/15985",2039,9
+"F1971","bone","tumor","T19",0.2,9,"ffpe","sheba",1071,"04/2615",2039,9
+"F1973","bone","tumor","T19",1,9,"ffpe","sheba",1071,"05/8069",2039,9
+"F1920","gbm","tumor","T19",1,9,"ffpe","rabin",1053,"14-25361",2029,8
+"F1974","bone","tumor","T19",1,9,"ffpe","sheba",1071,"06/2085",2039,9
+"F1975","bone","tumor","T19",1,9,"ffpe","sheba",1071,"07/9897",2039,9
+"F1976","bone","tumor","T19",1,9,"ffpe","sheba",1071,"10/1937",2039,9
+"F1977","bone","tumor","T19",1,9,"ffpe","sheba",1071,"10/6372",2039,9
+"F1979","pancreas","tumor","T19",1,9,"snap","sheba",1080,"107097",2044,10
+"F1981","pancreas","tumor","T19",1,9,"snap","sheba",1080,"100083",2044,10
+"F1982","pancreas","tumor","T19",1,9,"snap","sheba",1080,"100112",2044,10
+"F1921","gbm","tumor","T19",1,9,"ffpe","rabin",1053,"14-13995",2029,8
+"F1984","pancreas","tumor","T19",1,9,"snap","sheba",1080,"108959",2044,10
+"F1985","pancreas","tumor","T19",1,9,"snap","sheba",1080,"100160",2044,10
+"F1986","pancreas","tumor","T19",1,9,"snap","sheba",1080,"104743",2044,10
+"F1987","pancreas","tumor","T19",1,9,"snap","sheba",1080,"102773",2044,10
+"F1990","pancreas","tumor","T19",0.05,9,"snap","sheba",1080,"101798",2044,10
+"F1991","pancreas","tumor","T19",0.1,9,"snap","sheba",1080,"104802",2044,10
+"F1992","pancreas","tumor","T19",1,9,"snap","sheba",1080,"100862",2044,10
+"F1993","control","control","T19",1,9,"control","control",1080,NA,2044,10
+"F1922","control","control","T19",1,9,"control","control",1053,"control - empty",2029,8
+"F1994","pancreas","tumor","T19",1,9,"snap","sheba",1080,"107773",2044,10
+"F1995","pancreas","tumor","T19",1,9,"snap","sheba",1082,"103915",2049,10
+"F1996","pancreas","tumor","T19",1,9,"snap","sheba",1082,"100192",2044,10
+"F1997","pancreas","tumor","T19",0.05,9,"snap","sheba",1082,"100798",2044,10
+"F1998","pancreas","tumor","T19",0.2,9,"snap","sheba",1082,"107191",2044,10
+"F1999","pancreas","tumor","T19",1,9,"snap","sheba",1082,"101044",2044,10
+"F2001","pancreas","tumor","T19",1,9,"snap","sheba",1082,"101019",2044,10
+"F2002","pancreas","tumor","T19",1,9,"snap","sheba",1082,"107232",2044,10
+"F2003","pancreas","tumor","T19",1,9,"snap","sheba",1082,"100259",2044,10
+"F2004","pancreas","tumor","T19",1,9,"snap","sheba",1082,"100463",2044,10
+"F2005","pancreas","tumor","T19",1,9,"snap","sheba",1082,"100789",2044,10
+"F2006","pancreas","tumor","T19",1,9,"snap","sheba",1083,"100375",2045,10
+"F2007","pancreas","tumor","T19",1,9,"snap","sheba",1083,"100011",2045,10
+"F2009","pancreas","tumor","T19",1,9,"snap","sheba",1083,"100151",2045,10
+"F1726","breast","nat","T17",1,9,"ffpe","sheba",1068,"mb91",2038,9
+"F1727","breast","tumor","T17",1,9,"ffpe","sheba",1068,"mb91",2038,9
+"F1730","breast","tumor","T17",1,9,"ffpe","sheba",1068,"mb92",2038,9
+"F1731","control","control","T17",1,9,"control","control",1068,NA,2038,9
+"F1734","breast","nat","T17",1,9,"ffpe","sheba",1068,"mb96",2038,9
+"F1735","breast","tumor","T17",1,9,"ffpe","sheba",1068,"mb96",2038,9
+"F1736","paraffin control","pcontrol","T17",1,9,"ffpe","sheba",1138,NA,2073,15
+"F1737","paraffin control","pcontrol","T17",1,9,"ffpe","sheba",1138,NA,2073,15
+"F1739","control","control","T17",1,9,"control","control",1138,NA,2074,15
+"F1741","paraffin control","pcontrol","T17",1,9,"ffpe","sheba",1140,NA,2073,15
+"F1744","paraffin control","pcontrol","T17",1,9,"ffpe","sheba",1140,NA,2073,15
+"F1638","lung","tumor","T16",1,9,"ffpe","sheba",1042,"7",2020,7
+"F1749","ovary","tumor","T17",1,9,"ffpe","sheba",1057,"14-5966",2031,8
+"F1750","ovary","tumor","T17",1,9,"ffpe","sheba",1057,"14-7116",2031,8
+"F1751","ovary","tumor","T17",1,9,"ffpe","sheba",1057,"15-16932",2031,8
+"F1752","control","control","T17",0.1,9,"control","control",1057,NA,2031,8
+"F1754","ovary","tumor","T17",1,9,"ffpe","sheba",1057,"14-13063",2031,8
+"F1755","ovary","tumor","T17",1,9,"ffpe","sheba",1057,"14-5484",2031,8
+"F1756","ovary","tumor","T17",1,9,"ffpe","sheba",1057,"14-26812",2031,8
+"F1757","ovary","tumor","T17",1,9,"ffpe","sheba",1057,"14-16556",2031,8
+"F1758","ovary","tumor","T17",1,9,"ffpe","sheba",1057,"14-15365",2032,8
+"F1759","ovary","tumor","T17",1,9,"ffpe","sheba",1057,"15-14949",2032,8
+"F1760","ovary","tumor","T17",1,9,"ffpe","sheba",1057,"14-4828",2032,8
+"F1761","ovary","tumor","T17",1,9,"ffpe","sheba",1057,"15-13284",2032,8
+"F1762","ovary","tumor","T17",1,9,"ffpe","sheba",1057,"b11-4784",2032,8
+"F1763","control","control","T17",1,9,"control","control",1057,NA,2032,8
+"F1764","ovary","tumor","T17",0.1,9,"ffpe","sheba",1058,"b11-5638",2032,8
+"F1765","ovary","tumor","T17",1,9,"ffpe","sheba",1058,"b15-19214",2032,8
+"F1640","lung","tumor","T16",1,9,"ffpe","sheba",1042,"24",2020,7
+"F1766","ovary","tumor","T17",1,9,"ffpe","sheba",1058,"b11-13178",2032,8
+"F1768","control","control","T17",1,9,"control","control",1058,NA,2032,8
+"F1769","ovary","tumor","T17",1,9,"ffpe","sheba",1058,"b14-13657",2032,8
+"F1770","ovary","tumor","T17",1,9,"ffpe","sheba",1058,"b14-14867",2032,8
+"F1771","ovary","tumor","T17",1,9,"ffpe","sheba",1058,"b12-25973",2032,8
+"F1772","ovary","tumor","T17",1,9,"ffpe","sheba",1058,"b13-5589",2032,8
+"F1774","ovary","tumor","T17",1,9,"ffpe","sheba",1058,"b14-16019",2032,8
+"F1775","ovary","tumor","T17",1,9,"ffpe","sheba",1058,"b13-6176",2032,8
+"F1641","lung","tumor","T16",1,9,"ffpe","sheba",1042,"33",2020,7
+"F1776","ovary","tumor","T17",1,9,"ffpe","sheba",1058,"b14-2104",2032,8
+"F1778","ovary","tumor","T17",1,9,"ffpe","sheba",1058,"b14-17058",2032,8
+"F1779","ovary","tumor","T17",1,9,"ffpe","sheba",1058,"b14-21536",2032,8
+"F1780","ovary","tumor","T17",1,9,"ffpe","sheba",1058,"b15-2030",2032,8
+"F1782","paraffin control","pcontrol","T17",1,9,"ffpe","sheba",1136,NA,2072,15
+"F1783","paraffin control","pcontrol","T17",1,9,"ffpe","sheba",1136,NA,2072,15
+"F1789","control","control","T17",1,9,"control","control",1136,NA,2073,15
+"F1791","paraffin control","pcontrol","T17",1,9,"ffpe","sheba",1136,NA,2072,15
+"F1792","paraffin control","pcontrol","T17",1,9,"ffpe","sheba",1136,NA,2072,15
+"F1793","paraffin control","pcontrol","T17",1,9,"ffpe","sheba",1136,NA,2072,15
+"F1794","paraffin control","pcontrol","T17",1,9,"ffpe","sheba",1136,NA,2072,15
+"F1798","paraffin control","pcontrol","T17",1,9,"ffpe","sheba",1138,NA,2072,15
+"F1799","paraffin control","pcontrol","T17",1,9,"ffpe","sheba",1138,NA,2072,15
+"F1800","paraffin control","pcontrol","T17",1,9,"ffpe","sheba",1138,NA,2072,15
+"F1802","paraffin control","pcontrol","T17",1,9,"ffpe","sheba",1138,NA,2072,15
+"F1805","paraffin control","pcontrol","T17",1,9,"ffpe","sheba",1138,NA,2072,15
+"F1644","lung","nat","T16",1,9,"ffpe","sheba",1042,"64",2021,7
+"F1806","paraffin control","pcontrol","T17",1,9,"ffpe","sheba",1138,NA,2072,15
+"F1807","paraffin control","pcontrol","T17",1,9,"ffpe","sheba",1138,NA,2072,15
+"F1810","pancreas","tumor","T17",1,9,"snap","sheba",1082,"100998",2044,10
+"F1811","pancreas","tumor","T17",1,9,"snap","sheba",1082,"102867",2044,10
+"F1812","pancreas","tumor","T17",1,9,"snap","sheba",1082,"106998",2044,10
+"F1813","pancreas","tumor","T17",1,9,"snap","sheba",1082,"100803",2044,10
+"F1814","control","control","T17",1,9,"control","control",1082,NA,2044,10
+"F1815","pancreas","tumor","T17",1,9,"snap","sheba",1082,"108400",2044,10
+"F1816","pancreas","tumor","T17",1,9,"snap","sheba",1082,"104559",2044,10
+"F1817","pancreas","tumor","T17",0.1,9,"snap","sheba",1082,"106437",2045,10
+"F1819","lung","tumor","T18",1,9,"ffpe","coh",1101,"16278-11",2058,11
+"F1820","lung","tumor","T18",1,9,"ffpe","coh",1101,"16278-17",2058,11
+"F1821","lung","tumor","T18",1,9,"ffpe","coh",1102,"16278-24",2059,11
+"F1822","lung","tumor","T18",1,9,"ffpe","coh",1102,"16278-25",2059,11
+"F1824","lung","tumor","T18",1,9,"ffpe","coh",1102,"16278-26",2059,11
+"F1628","lung","tumor","T16",1,9,"ffpe","sheba",1036,"20",2019,7
+"F1646","lung","tumor","T16",1,9,"ffpe","sheba",1043,"58",2021,7
+"F1826","lung","tumor","T18",1,9,"ffpe","coh",1104,"16278-41",2060,11
+"F1827","lung","tumor","T18",1,9,"ffpe","coh",1104,"16278-43",2060,11
+"F1829","lung","tumor","T18",1,9,"ffpe","coh",1104,"16278-46",2060,11
+"F1830","lung","tumor","T18",1,9,"ffpe","coh",1104,"16278-48",2060,11
+"F1647","lung","tumor","T16",1,9,"ffpe","sheba",1043,"66",2021,7
+"F1837","control","control","T18",1,9,"control","control",1160,NA,2080,19
+"F1843","paraffin control","pcontrol","T18",1,9,"ffpe","coh",1160,NA,2080,19
+"F1648","control","control","T16",1,9,"control","control",1043,NA,2021,7
+"F1855","control","control","T18",1,9,"control","control",1034,"control - 2 wax",2018,7
+"F1858","breast","tumor","T18",1,9,"ffpe","maccabi megalab",1054,"b001114/11",2029,8
+"F1861","breast","tumor","T18",1,9,"ffpe","maccabi megalab",1055,"b006141/11",2031,8
+"F1863","breast","tumor","T18",1,9,"ffpe","maccabi megalab",1062,"b006361/10",2035,9
+"F1866","control","control","T18",1,9,"control","control",1079,NA,2046,10
+"F1868","breast","tumor","T18",1,9,"ffpe","maccabi megalab",1085,"b018259/10",2046,10
+"F1871","breast","tumor","T18",1,9,"ffpe","maccabi megalab",1085,"b019040/10",2047,10
+"F1872","breast","tumor","T18",1,9,"ffpe","maccabi megalab",1085,"b020263/10",2047,10
+"F1873","breast","tumor","T18",1,9,"ffpe","maccabi megalab",1087,"b023742/10",2047,10
+"F1874","breast","tumor","T18",1,9,"ffpe","maccabi megalab",1087,"b025036/10",2048,10
+"F1878","paraffin control","pcontrol","T18",1,9,"ffpe","maccabi megalab",1137,NA,2072,15
+"F1879","paraffin control","pcontrol","T18",1,9,"ffpe","maccabi megalab",1137,NA,2072,15
+"F1881","paraffin control","pcontrol","T18",1,9,"ffpe","maccabi megalab",1137,NA,2072,15
+"F1882","control","control","T18",1,9,"control","control",1137,NA,2073,15
+"F1890","paraffin control","pcontrol","T18",1,9,"ffpe","maccabi megalab",1138,NA,2072,15
+"F1892","paraffin control","pcontrol","T18",1,9,"ffpe","maccabi megalab",1138,NA,2072,15
+"F1900","ovary","tumor","T18",1,9,"snap","rambam",1092,"21906",2053,10
+"F1901","ovary","tumor","T18",1,9,"snap","rambam",1092,"21895",2053,10
+"F1903","ovary","tumor","T18",1,9,"snap","rambam",1093,"22718",2054,11
+"F1904","ovary","tumor","T18",1,9,"snap","rambam",1093,"22192",2054,11
+"F1905","ovary","tumor","T18",1,9,"snap","rambam",1093,"21519",2054,11
+"F1654","lung","tumor","T16",1,9,"ffpe","sheba",1045,"70",2021,7
+"F1906","ovary","tumor","T18",1,9,"snap","rambam",1093,"22678",2054,11
+"F1908","bone","tumor","T18",1,9,"snap","istituto ortopedico rizzoli",1048,NA,2027,8
+"F1909","bone","tumor","T18",1,9,"snap","istituto ortopedico rizzoli",1048,NA,2027,8
+"F1910","bone","tumor","T18",1,9,"snap","istituto ortopedico rizzoli",1049,NA,2027,8
+"F1911","bone","tumor","T18",1,9,"snap","istituto ortopedico rizzoli",1049,NA,2027,8
+"F1914","bone","tumor","T18",1,9,"snap","istituto ortopedico rizzoli",1051,NA,2033,8
+"F1629","control","control","T16",1,9,"control","control",1036,"control - 3 wax",2019,7
+"F1656","paraffin control","pcontrol","T16",1,9,"ffpe","sheba",1136,NA,2072,15
+"F1660","paraffin control","pcontrol","T16",1,9,"ffpe","sheba",1136,NA,2072,15
+"F1661","paraffin control","pcontrol","T16",1,9,"ffpe","sheba",1136,NA,2072,15
+"F1662","paraffin control","pcontrol","T16",1,9,"ffpe","sheba",1136,NA,2072,15
+"F1630","lung","tumor","T16",1,9,"ffpe","sheba",1036,"16",2019,7
+"F1669","paraffin control","pcontrol","T16",1,9,"ffpe","sheba",1137,NA,2072,15
+"F1670","control","control","T16",1,9,"control","control",1137,NA,2073,15
+"F1631","lung","tumor","T16",1,9,"ffpe","sheba",1036,"11",2019,7
+"F1684","ovary","tumor","T16",1,9,"snap","sheba",1015,"1837",2012,6
+"F1632","lung","tumor","T16",1,9,"ffpe","sheba",1036,"6",2019,7
+"F1687","ovary","tumor","T16",1,9,"snap","sheba",1015,"1507",2012,6
+"F1689","ovary","tumor","T16",1,9,"snap","sheba",1015,"2732",2012,6
+"F1690","ovary","tumor","T16",1,9,"snap","sheba",1015,"2897",2012,6
+"F1691","ovary","tumor","T16",1,9,"snap","sheba",1015,"4878",2012,6
+"F1692","ovary","tumor","T16",1,9,"snap","sheba",1015,"6074",2012,6
+"F1695","ovary","tumor","T16",1,9,"snap","rambam",1090,"21236",2052,10
+"F1696","ovary","tumor","T16",1,9,"snap","rambam",1090,"21149",2052,10
+"F1697","ovary","tumor","T16",1,9,"snap","rambam",1090,"20271",2052,10
+"F1699","ovary","tumor","T16",1,9,"snap","rambam",1090,"20180",2052,10
+"F1702","ovary","tumor","T16",1,9,"snap","rambam",1090,"21262",2052,10
+"F1703","ovary","tumor","T16",0.2,9,"snap","rambam",1090,"20860",2052,10
+"F1704","ovary","tumor","T16",1,9,"snap","rambam",1090,"20760",2052,10
+"F1705","ovary","tumor","T16",0.1,9,"snap","rambam",1090,"20808",2052,10
+"F1708","bone","tumor","T16",1,9,"ffpe","sheba",1072,NA,2048,10
+"F1709","bone","tumor","T16",1,9,"ffpe","sheba",1072,NA,2048,10
+"F1710","bone","tumor","T16",1,9,"ffpe","sheba",1072,NA,2048,10
+"F1711","bone","tumor","T16",1,9,"ffpe","sheba",1072,NA,2048,10
+"F1712","control","control","T16",1,9,"control","control",1072,NA,2048,10
+"F1713","bone","tumor","T16",1,9,"ffpe","sheba",1072,NA,2048,10
+"F1714","bone","tumor","T16",1,9,"ffpe","sheba",1072,NA,2048,10
+"F1715","bone","tumor","T16",1,9,"ffpe","sheba",1072,NA,2048,10
+"F1716","bone","tumor","T16",1,9,"ffpe","sheba",1072,NA,2048,10
+"F1717","bone","tumor","T16",1,9,"ffpe","sheba",1072,NA,2048,10
+"F1719","bone","tumor","T16",1,9,"ffpe","sheba",1072,NA,2051,10
+"F1720","bone","tumor","T16",1,9,"ffpe","sheba",1072,NA,2051,10
+"F1721","bone","tumor","T16",1,9,"ffpe","sheba",1072,NA,2051,10
+"F1722","bone","tumor","T16",1,9,"ffpe","sheba",1072,NA,2051,10
+"F1723","control","control","T17",1,9,"control","control",1067,NA,2037,9
+"F1724","breast","tumor","T17",1,9,"ffpe","sheba",1067,"mb83",2037,9

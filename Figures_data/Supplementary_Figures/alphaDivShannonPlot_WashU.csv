@@ -1,157 +1,146 @@
 "","id","investigation","disease_type","shannon"
-"1","13722.58cfa82de4b0c9d6adf6a4c2","BRCA","Breast Invasive Carcinoma",0.118296814
-"2","13722.58cfa82de4b0c9d6adf6a4ce","BRCA","Breast Invasive Carcinoma",0.694563843
-"3","13722.58cfa82de4b0c9d6adf6a48a","UCEC","Uterine Corpus Endometrial Carcinoma",1.0125421
-"4","13722.58cfa82de4b0c9d6adf6a4d4","UCEC","Uterine Corpus Endometrial Carcinoma",0.803905707
-"5","13722.58cfa82de4b0c9d6adf6a529","UCEC","Uterine Corpus Endometrial Carcinoma",0.359526073
-"6","13722.58cfa82de4b0c9d6adf6a46d","BRCA","Breast Invasive Carcinoma",0.423753248
-"7","13722.58cfa82de4b0c9d6adf6a52c","BRCA","Breast Invasive Carcinoma",1.077057751
-"8","13722.58cfa82de4b0c9d6adf6a542","UCEC","Uterine Corpus Endometrial Carcinoma",0.5532968
-"9","13722.58cfa82de4b0c9d6adf6a59b","BRCA","Breast Invasive Carcinoma",0.070449064
-"10","13722.58cfa82de4b0c9d6adf6a548","BRCA","Breast Invasive Carcinoma",0.728451197
-"11","13722.58cfa82de4b0c9d6adf6a5a6","SARC","Sarcoma",0.275111602
-"12","13722.58cfa82de4b0c9d6adf6a59d","UCEC","Uterine Corpus Endometrial Carcinoma",0.47852601
-"13","13722.58cfa82de4b0c9d6adf6a546","UCEC","Uterine Corpus Endometrial Carcinoma",0.724770841
-"14","13722.58cfa82de4b0c9d6adf6a572","BRCA","Breast Invasive Carcinoma",0.144552982
-"15","13722.58cfa82de4b0c9d6adf6a5f2","BRCA","Breast Invasive Carcinoma",0.077080804
-"16","13722.58cfa82de4b0c9d6adf6a656","BRCA","Breast Invasive Carcinoma",0.130369838
-"17","13722.58cfa82de4b0c9d6adf6a610","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.207198208
-"18","13722.58cfa82de4b0c9d6adf6a624","UCEC","Uterine Corpus Endometrial Carcinoma",0.556740798
-"19","13722.58cfa82de4b0c9d6adf6a60e","BRCA","Breast Invasive Carcinoma",0.317205826
-"20","13722.58cfa82de4b0c9d6adf6a676","UCEC","Uterine Corpus Endometrial Carcinoma",0.52851211
-"21","13722.58cfa82de4b0c9d6adf6a6c0","UCEC","Uterine Corpus Endometrial Carcinoma",0.647537378
-"22","13722.58cfa82de4b0c9d6adf6a6d6","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.205536733
-"23","13722.58cfa82de4b0c9d6adf6a6ec","BRCA","Breast Invasive Carcinoma",0.124442625
-"24","13722.58cfa82de4b0c9d6adf6a70c","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.574487438
-"25","13722.58cfa82de4b0c9d6adf6a6e0","BRCA","Breast Invasive Carcinoma",1.369912888
-"26","13722.58cfa83ce4b0c9d6adf72e98","BRCA","Breast Invasive Carcinoma",0.044663164
-"27","13722.58cfa83ce4b0c9d6adf72fd0","UCEC","Uterine Corpus Endometrial Carcinoma",0.232686845
-"28","13722.58cfa83ce4b0c9d6adf72e96","BRCA","Breast Invasive Carcinoma",0.181604067
-"29","13722.58cfa83ce4b0c9d6adf72fd8","UCEC","Uterine Corpus Endometrial Carcinoma",0.286878188
-"30","13722.58cfa83ce4b0c9d6adf72ee6","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.27757949
-"31","13722.58cfa83ce4b0c9d6adf730f0","UCEC","Uterine Corpus Endometrial Carcinoma",0.557221458
-"32","13722.58cfa83ce4b0c9d6adf72f94","UCEC","Uterine Corpus Endometrial Carcinoma",0.186158581
-"33","13722.58cfa83ce4b0c9d6adf73120","BRCA","Breast Invasive Carcinoma",0.190962064
-"34","13722.58cfa83ce4b0c9d6adf730e8","UCEC","Uterine Corpus Endometrial Carcinoma",0.33285923
-"35","13722.58cfa83ce4b0c9d6adf72ea6","UCEC","Uterine Corpus Endometrial Carcinoma",0.742739184
-"36","13722.58cfa83ce4b0c9d6adf731a2","UCEC","Uterine Corpus Endometrial Carcinoma",0.197949869
-"37","13722.58cfa83ce4b0c9d6adf73074","BRCA","Breast Invasive Carcinoma",0.945135478
-"38","13722.58cfa83ce4b0c9d6adf7310e","BRCA","Breast Invasive Carcinoma",0.095568939
-"39","13722.58cfa82de4b0c9d6adf6a44c","BRCA","Breast Invasive Carcinoma",0.100836247
-"40","13722.58cfa82de4b0c9d6adf6a49a","BRCA","Breast Invasive Carcinoma",0.655295592
-"41","13722.58cfa82de4b0c9d6adf6a4be","UCEC","Uterine Corpus Endometrial Carcinoma",0.110348563
-"42","13722.58cfa82de4b0c9d6adf6a47a","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.367186739
-"43","13722.58cfa82de4b0c9d6adf6a4e6","SARC","Sarcoma",0.534891992
-"44","13722.58cfa82de4b0c9d6adf6a514","UCEC","Uterine Corpus Endometrial Carcinoma",0.061932018
-"45","13722.58cfa82de4b0c9d6adf6a522","BRCA","Breast Invasive Carcinoma",0.293046799
-"46","13722.58cfa82de4b0c9d6adf6a51c","BRCA","Breast Invasive Carcinoma",0.799504056
-"47","13722.58cfa82de4b0c9d6adf6a535","BRCA","Breast Invasive Carcinoma",0.131212917
-"48","13722.58cfa82de4b0c9d6adf6a53a","SARC","Sarcoma",0.269664591
-"49","13722.58cfa82de4b0c9d6adf6a570","UCEC","Uterine Corpus Endometrial Carcinoma",0.203513903
-"50","13722.58cfa82de4b0c9d6adf6a4e2","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",1.138667616
-"51","13722.58cfa82de4b0c9d6adf6a599","SARC","Sarcoma",0.182552911
-"52","13722.58cfa82de4b0c9d6adf6a58f","BRCA","Breast Invasive Carcinoma",1.133045226
-"53","13722.58cfa82de4b0c9d6adf6a5b3","SARC","Sarcoma",0.44725671
-"54","13722.58cfa82de4b0c9d6adf6a5b2","BRCA","Breast Invasive Carcinoma",0.569184847
-"55","13722.58cfa82de4b0c9d6adf6a5ce","UCEC","Uterine Corpus Endometrial Carcinoma",0.81582319
-"56","13722.58cfa82de4b0c9d6adf6a618","BRCA","Breast Invasive Carcinoma",0.079687074
-"57","13722.58cfa82de4b0c9d6adf6a60c","SARC","Sarcoma",0.208169758
-"58","13722.58cfa82de4b0c9d6adf6a61e","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.116772874
-"59","13722.58cfa82de4b0c9d6adf6a65e","SARC","Sarcoma",0.408658989
-"60","13722.58cfa82de4b0c9d6adf6a640","SARC","Sarcoma",0.196397261
-"61","13722.58cfa82de4b0c9d6adf6a674","SARC","Sarcoma",0.704552313
-"62","13722.58cfa82de4b0c9d6adf6a68a","BRCA","Breast Invasive Carcinoma",0.45902935
-"63","13722.58cfa82de4b0c9d6adf6a65f","UCEC","Uterine Corpus Endometrial Carcinoma",0.297496286
-"64","13722.58cfa82de4b0c9d6adf6a6d4","SARC","Sarcoma",0.227426026
-"65","13722.58cfa82de4b0c9d6adf6a6da","SARC","Sarcoma",0.644196804
-"66","13722.58cfa830e4b0c9d6adf6bb98","BRCA","Breast Invasive Carcinoma",0.319308673
-"67","13722.58cfa83ce4b0c9d6adf72ea0","UCEC","Uterine Corpus Endometrial Carcinoma",0.578456963
-"68","13722.58cfa83ce4b0c9d6adf72eb0","BRCA","Breast Invasive Carcinoma",0.107465747
-"69","13722.58cfa83ce4b0c9d6adf72edb","BRCA","Breast Invasive Carcinoma",0.153430788
-"70","13722.58cfa83ce4b0c9d6adf72ed8","SARC","Sarcoma",0.517624032
-"71","13722.58cfa83ce4b0c9d6adf72ef4","SARC","Sarcoma",0.304508489
-"72","13722.58cfa83ce4b0c9d6adf72f0d","SARC","Sarcoma",0.258661768
-"73","13722.58cfa83ce4b0c9d6adf72f45","SARC","Sarcoma",0.305746509
-"74","13722.58cfa83ce4b0c9d6adf72f2c","SARC","Sarcoma",0.152876154
-"75","13722.58cfa83ce4b0c9d6adf72f7b","SARC","Sarcoma",0.189655117
-"76","13722.58cfa83ce4b0c9d6adf72f7f","UCEC","Uterine Corpus Endometrial Carcinoma",0.504236425
-"77","13722.58cfa83ce4b0c9d6adf72f9a","BRCA","Breast Invasive Carcinoma",0.785885967
-"78","13722.58cfa83ce4b0c9d6adf72f73","BRCA","Breast Invasive Carcinoma",0.576454566
-"79","13722.58cfa83ce4b0c9d6adf72fb2","BRCA","Breast Invasive Carcinoma",0.127952073
-"80","13722.58cfa82de4b0c9d6adf6a45b","SARC","Sarcoma",0.375467851
-"81","13722.58cfa83ce4b0c9d6adf730ac","BRCA","Breast Invasive Carcinoma",0.184198664
-"82","13722.58cfa83ce4b0c9d6adf730ed","BRCA","Breast Invasive Carcinoma",0.520333962
-"83","13722.58cfa83ce4b0c9d6adf730e0","UCEC","Uterine Corpus Endometrial Carcinoma",0.283683446
-"84","13722.58cfa83ce4b0c9d6adf730fa","BRCA","Breast Invasive Carcinoma",0.377528183
-"85","13722.58cfa83ce4b0c9d6adf730c0","SARC","Sarcoma",0.344653395
-"86","13722.58cfa83ce4b0c9d6adf7313a","SARC","Sarcoma",0.192177658
-"87","13722.58cfa83ce4b0c9d6adf73142","SARC","Sarcoma",0.269917614
-"88","13722.58cfa83ce4b0c9d6adf731d0","SARC","Sarcoma",0.410697306
-"89","13722.58cfa83ce4b0c9d6adf731b8","SARC","Sarcoma",0.545609692
-"90","13722.58cfa83ce4b0c9d6adf7308c","SARC","Sarcoma",0.224772378
-"91","13722.58cfa83ce4b0c9d6adf73082","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.104281956
-"92","13722.58cfa82de4b0c9d6adf6a464","SARC","Sarcoma",0.593631425
-"93","13722.58cfa82de4b0c9d6adf6a444","BRCA","Breast Invasive Carcinoma",0.135906505
-"94","13722.58cfa82de4b0c9d6adf6a4a6","BRCA","Breast Invasive Carcinoma",0.101396508
-"95","13722.58cfa82de4b0c9d6adf6a4a8","BRCA","Breast Invasive Carcinoma",0.356791542
-"96","13722.58cfa82de4b0c9d6adf6a50c","BRCA","Breast Invasive Carcinoma",0.159932485
-"97","13722.58cfa82de4b0c9d6adf6a50e","BRCA","Breast Invasive Carcinoma",0.150646841
-"98","13722.58cfa82de4b0c9d6adf6a52e","BRCA","Breast Invasive Carcinoma",0.13687197
-"99","13722.58cfa82de4b0c9d6adf6a526","BRCA","Breast Invasive Carcinoma",0.649838121
-"100","13722.58cfa82de4b0c9d6adf6a53c","BRCA","Breast Invasive Carcinoma",0.325717402
-"101","13722.58cfa82de4b0c9d6adf6a47e","BRCA","Breast Invasive Carcinoma",0.137256006
-"102","13722.58cfa82de4b0c9d6adf6a471","UCEC","Uterine Corpus Endometrial Carcinoma",0.176160731
-"103","13722.58cfa82de4b0c9d6adf6a56a","BRCA","Breast Invasive Carcinoma",0.911814843
-"104","13722.58cfa82de4b0c9d6adf6a58a","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.169296705
-"105","13722.58cfa82de4b0c9d6adf6a591","BRCA","Breast Invasive Carcinoma",0.18106489
-"106","13722.58cfa82de4b0c9d6adf6a5b8","BRCA","Breast Invasive Carcinoma",0.160682622
-"107","13722.58cfa82de4b0c9d6adf6a596","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.113732456
-"108","13722.58cfa82de4b0c9d6adf6a5c6","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.125961567
-"109","13722.58cfa82de4b0c9d6adf6a614","BRCA","Breast Invasive Carcinoma",0.128790732
-"110","13722.58cfa82de4b0c9d6adf6a63e","BRCA","Breast Invasive Carcinoma",0.08520737
-"111","13722.58cfa82de4b0c9d6adf6a65c","SARC","Sarcoma",0.280189652
-"112","13722.58cfa82de4b0c9d6adf6a642","BRCA","Breast Invasive Carcinoma",0.075919867
-"113","13722.58cfa82de4b0c9d6adf6a69e","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.219882689
-"114","13722.58cfa82de4b0c9d6adf6a658","UCEC","Uterine Corpus Endometrial Carcinoma",1.533208338
-"115","13722.58cfa82de4b0c9d6adf6a6c4","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.554515093
-"116","13722.58cfa82de4b0c9d6adf6a6bc","BRCA","Breast Invasive Carcinoma",0.862003258
-"117","13722.58cfa82de4b0c9d6adf6a530","UCEC","Uterine Corpus Endometrial Carcinoma",0.215288147
-"118","13722.58cfa82de4b0c9d6adf6a708","UCEC","Uterine Corpus Endometrial Carcinoma",0.444056975
-"119","13722.58cfa82de4b0c9d6adf6a484","SARC","Sarcoma",0.550072723
-"120","13722.58cfa83ce4b0c9d6adf72e9c","UCEC","Uterine Corpus Endometrial Carcinoma",0.926295861
-"121","13722.58cfa83ce4b0c9d6adf72ea2","BRCA","Breast Invasive Carcinoma",0.187588507
-"122","13722.58cfa83ce4b0c9d6adf72eac","UCEC","Uterine Corpus Endometrial Carcinoma",0.876680137
-"123","13722.58cfa83ce4b0c9d6adf72ef8","BRCA","Breast Invasive Carcinoma",0.106322594
-"124","13722.58cfa83ce4b0c9d6adf72f7d","BRCA","Breast Invasive Carcinoma",0.57356899
-"125","13722.58cfa83ce4b0c9d6adf72f43","BRCA","Breast Invasive Carcinoma",0.102386421
-"126","13722.58cfa83ce4b0c9d6adf72fae","SARC","Sarcoma",0.284063358
-"127","13722.58cfa83ce4b0c9d6adf72fc8","SARC","Sarcoma",0.259472995
-"128","13722.58cfa83ce4b0c9d6adf72fec","SARC","Sarcoma",0.229421595
-"129","13722.58cfa83ce4b0c9d6adf72f9e","UCEC","Uterine Corpus Endometrial Carcinoma",0.315624462
-"130","13722.58cfa83ce4b0c9d6adf72f72","BRCA","Breast Invasive Carcinoma",0.680456031
-"131","13722.58cfa83ce4b0c9d6adf7307f","BRCA","Breast Invasive Carcinoma",0.328205775
-"132","13722.58cfa83ce4b0c9d6adf730cb","BRCA","Breast Invasive Carcinoma",0.096180855
-"133","13722.58cfa83ce4b0c9d6adf7309a","BRCA","Breast Invasive Carcinoma",0.939744752
-"134","13722.58cfa83ce4b0c9d6adf73184","UCEC","Uterine Corpus Endometrial Carcinoma",0.15736656
-"135","13722.58cfa83ce4b0c9d6adf73156","UCEC","Uterine Corpus Endometrial Carcinoma",0.163492068
-"136","13722.58cfa83ce4b0c9d6adf730d4","BRCA","Breast Invasive Carcinoma",0.168795239
-"137","13722.58cfa83ce4b0c9d6adf73060","BRCA","Breast Invasive Carcinoma",0.432136803
-"138","13722.58cfa83ce4b0c9d6adf731cc","SARC","Sarcoma",0.281587668
-"139","13722.58cfa83ce4b0c9d6adf72fea","BRCA","Breast Invasive Carcinoma",0.717786337
-"140","13722.58cfa83ce4b0c9d6adf72f14","UCEC","Uterine Corpus Endometrial Carcinoma",0.668452988
-"141","13722.58cfa82de4b0c9d6adf6a461","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.942147385
-"142","13722.58cfa82de4b0c9d6adf6a48c","BRCA","Breast Invasive Carcinoma",0.182743223
-"143","13722.58cfa82de4b0c9d6adf6a4b4","UCEC","Uterine Corpus Endometrial Carcinoma",1.416185788
-"144","13722.58cfa82de4b0c9d6adf6a4ea","BRCA","Breast Invasive Carcinoma",0.062604643
-"145","13722.58cfa82de4b0c9d6adf6a510","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.33111222
-"146","13722.58cfa82de4b0c9d6adf6a64a","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.151905684
-"147","13722.58cfa82de4b0c9d6adf6a6fa","BRCA","Breast Invasive Carcinoma",0.485527996
-"148","13722.58cfa82de4b0c9d6adf6a5ee","BRCA","Breast Invasive Carcinoma",0.764353511
-"149","13722.58cfa82de4b0c9d6adf6a4d6","BRCA","Breast Invasive Carcinoma",0.137298877
-"150","13722.58cfa83ce4b0c9d6adf730b4","BRCA","Breast Invasive Carcinoma",0.561611377
-"151","13722.58cfa82de4b0c9d6adf6a534","UCEC","Uterine Corpus Endometrial Carcinoma",0.271304421
-"152","13722.58cfa82de4b0c9d6adf6a577","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.251163628
-"153","13722.58cfa82de4b0c9d6adf6a666","SARC","Sarcoma",0.269441953
-"154","13722.58cfa82fe4b0c9d6adf6b8e0","BRCA","Breast Invasive Carcinoma",0.827638628
-"155","13722.58cfa83ce4b0c9d6adf72efc","SARC","Sarcoma",0.400346734
-"156","13722.58cfa83ce4b0c9d6adf73090","UCEC","Uterine Corpus Endometrial Carcinoma",1.51903009
+"1","13722.58cfa82de4b0c9d6adf6a4c2","BRCA","Breast Invasive Carcinoma",0.086264728
+"2","13722.58cfa82de4b0c9d6adf6a4ce","BRCA","Breast Invasive Carcinoma",0.396593851
+"3","13722.58cfa82de4b0c9d6adf6a48a","UCEC","Uterine Corpus Endometrial Carcinoma",0.922802124
+"4","13722.58cfa82de4b0c9d6adf6a4d4","UCEC","Uterine Corpus Endometrial Carcinoma",0.78752051
+"5","13722.58cfa82de4b0c9d6adf6a529","UCEC","Uterine Corpus Endometrial Carcinoma",0.248907397
+"6","13722.58cfa82de4b0c9d6adf6a46d","BRCA","Breast Invasive Carcinoma",0.412115851
+"7","13722.58cfa82de4b0c9d6adf6a52c","BRCA","Breast Invasive Carcinoma",1.006614485
+"8","13722.58cfa82de4b0c9d6adf6a542","UCEC","Uterine Corpus Endometrial Carcinoma",0.539885868
+"9","13722.58cfa82de4b0c9d6adf6a59b","BRCA","Breast Invasive Carcinoma",0.043196224
+"10","13722.58cfa82de4b0c9d6adf6a548","BRCA","Breast Invasive Carcinoma",0.633056401
+"11","13722.58cfa82de4b0c9d6adf6a5a6","SARC","Sarcoma",0.221992481
+"12","13722.58cfa82de4b0c9d6adf6a59d","UCEC","Uterine Corpus Endometrial Carcinoma",0.464356659
+"13","13722.58cfa82de4b0c9d6adf6a546","UCEC","Uterine Corpus Endometrial Carcinoma",0.605217676
+"14","13722.58cfa82de4b0c9d6adf6a572","BRCA","Breast Invasive Carcinoma",0.135807954
+"15","13722.58cfa82de4b0c9d6adf6a5f2","BRCA","Breast Invasive Carcinoma",0.055587354
+"16","13722.58cfa82de4b0c9d6adf6a656","BRCA","Breast Invasive Carcinoma",0.140026332
+"17","13722.58cfa82de4b0c9d6adf6a610","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.17980911
+"18","13722.58cfa82de4b0c9d6adf6a624","UCEC","Uterine Corpus Endometrial Carcinoma",0.523137208
+"19","13722.58cfa82de4b0c9d6adf6a60e","BRCA","Breast Invasive Carcinoma",0.298287196
+"20","13722.58cfa82de4b0c9d6adf6a676","UCEC","Uterine Corpus Endometrial Carcinoma",0.444503293
+"21","13722.58cfa82de4b0c9d6adf6a6c0","UCEC","Uterine Corpus Endometrial Carcinoma",0.560646917
+"22","13722.58cfa82de4b0c9d6adf6a6d6","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.191959524
+"23","13722.58cfa82de4b0c9d6adf6a6ec","BRCA","Breast Invasive Carcinoma",0.110060659
+"24","13722.58cfa82de4b0c9d6adf6a70c","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.497274355
+"25","13722.58cfa82de4b0c9d6adf6a6e0","BRCA","Breast Invasive Carcinoma",1.319882761
+"26","13722.58cfa83ce4b0c9d6adf72e98","BRCA","Breast Invasive Carcinoma",0.059682996
+"27","13722.58cfa83ce4b0c9d6adf72fd0","UCEC","Uterine Corpus Endometrial Carcinoma",0.171543257
+"28","13722.58cfa83ce4b0c9d6adf72e96","BRCA","Breast Invasive Carcinoma",0.178673779
+"29","13722.58cfa83ce4b0c9d6adf72fd8","UCEC","Uterine Corpus Endometrial Carcinoma",0.285048652
+"30","13722.58cfa83ce4b0c9d6adf72ee6","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.25282743
+"31","13722.58cfa83ce4b0c9d6adf730f0","UCEC","Uterine Corpus Endometrial Carcinoma",0.494062361
+"32","13722.58cfa83ce4b0c9d6adf72f94","UCEC","Uterine Corpus Endometrial Carcinoma",0.164719613
+"33","13722.58cfa83ce4b0c9d6adf73120","BRCA","Breast Invasive Carcinoma",0.206715169
+"34","13722.58cfa83ce4b0c9d6adf730e8","UCEC","Uterine Corpus Endometrial Carcinoma",0.309616084
+"35","13722.58cfa83ce4b0c9d6adf72ea6","UCEC","Uterine Corpus Endometrial Carcinoma",0.612893278
+"36","13722.58cfa83ce4b0c9d6adf731a2","UCEC","Uterine Corpus Endometrial Carcinoma",0.171339037
+"37","13722.58cfa83ce4b0c9d6adf73074","BRCA","Breast Invasive Carcinoma",0.543952103
+"38","13722.58cfa83ce4b0c9d6adf7310e","BRCA","Breast Invasive Carcinoma",0.085080094
+"39","13722.58cfa82de4b0c9d6adf6a464","SARC","Sarcoma",0.521167709
+"40","13722.58cfa82de4b0c9d6adf6a444","BRCA","Breast Invasive Carcinoma",0.145916229
+"41","13722.58cfa82de4b0c9d6adf6a4a6","BRCA","Breast Invasive Carcinoma",0.097879991
+"42","13722.58cfa82de4b0c9d6adf6a4a8","BRCA","Breast Invasive Carcinoma",0.319902062
+"43","13722.58cfa82de4b0c9d6adf6a50c","BRCA","Breast Invasive Carcinoma",0.206706899
+"44","13722.58cfa82de4b0c9d6adf6a50e","BRCA","Breast Invasive Carcinoma",0.100857966
+"45","13722.58cfa82de4b0c9d6adf6a52e","BRCA","Breast Invasive Carcinoma",0.092982614
+"46","13722.58cfa82de4b0c9d6adf6a526","BRCA","Breast Invasive Carcinoma",0.351217125
+"47","13722.58cfa82de4b0c9d6adf6a53c","BRCA","Breast Invasive Carcinoma",0.310243365
+"48","13722.58cfa82de4b0c9d6adf6a47e","BRCA","Breast Invasive Carcinoma",0.153870198
+"49","13722.58cfa82de4b0c9d6adf6a471","UCEC","Uterine Corpus Endometrial Carcinoma",0.174713313
+"50","13722.58cfa82de4b0c9d6adf6a56a","BRCA","Breast Invasive Carcinoma",0.91697823
+"51","13722.58cfa82de4b0c9d6adf6a58a","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.135916125
+"52","13722.58cfa82de4b0c9d6adf6a591","BRCA","Breast Invasive Carcinoma",0.171881789
+"53","13722.58cfa82de4b0c9d6adf6a5b8","BRCA","Breast Invasive Carcinoma",0.101837901
+"54","13722.58cfa82de4b0c9d6adf6a596","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.062210423
+"55","13722.58cfa82de4b0c9d6adf6a5c6","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.07860608
+"56","13722.58cfa82de4b0c9d6adf6a614","BRCA","Breast Invasive Carcinoma",0.092795263
+"57","13722.58cfa82de4b0c9d6adf6a63e","BRCA","Breast Invasive Carcinoma",0.056555102
+"58","13722.58cfa82de4b0c9d6adf6a65c","SARC","Sarcoma",0.274741466
+"59","13722.58cfa82de4b0c9d6adf6a642","BRCA","Breast Invasive Carcinoma",0.07651916
+"60","13722.58cfa82de4b0c9d6adf6a69e","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.226701099
+"61","13722.58cfa82de4b0c9d6adf6a658","UCEC","Uterine Corpus Endometrial Carcinoma",1.515006968
+"62","13722.58cfa82de4b0c9d6adf6a6c4","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.46427129
+"63","13722.58cfa82de4b0c9d6adf6a6bc","BRCA","Breast Invasive Carcinoma",0.513798637
+"64","13722.58cfa82de4b0c9d6adf6a530","UCEC","Uterine Corpus Endometrial Carcinoma",0.213671539
+"65","13722.58cfa82de4b0c9d6adf6a708","UCEC","Uterine Corpus Endometrial Carcinoma",0.406176644
+"66","13722.58cfa82de4b0c9d6adf6a484","SARC","Sarcoma",0.504148283
+"67","13722.58cfa83ce4b0c9d6adf72e9c","UCEC","Uterine Corpus Endometrial Carcinoma",0.925235356
+"68","13722.58cfa83ce4b0c9d6adf72ea2","BRCA","Breast Invasive Carcinoma",0.154956965
+"69","13722.58cfa83ce4b0c9d6adf72eac","UCEC","Uterine Corpus Endometrial Carcinoma",0.795513028
+"70","13722.58cfa83ce4b0c9d6adf72ef8","BRCA","Breast Invasive Carcinoma",0.093251969
+"71","13722.58cfa83ce4b0c9d6adf72f7d","BRCA","Breast Invasive Carcinoma",0.460309676
+"72","13722.58cfa83ce4b0c9d6adf72f43","BRCA","Breast Invasive Carcinoma",0.05458286
+"73","13722.58cfa83ce4b0c9d6adf72fae","SARC","Sarcoma",0.193398223
+"74","13722.58cfa83ce4b0c9d6adf72fc8","SARC","Sarcoma",0.247295429
+"75","13722.58cfa83ce4b0c9d6adf72fec","SARC","Sarcoma",0.216987493
+"76","13722.58cfa83ce4b0c9d6adf72f9e","UCEC","Uterine Corpus Endometrial Carcinoma",0.201206876
+"77","13722.58cfa83ce4b0c9d6adf72f72","BRCA","Breast Invasive Carcinoma",0.312700799
+"78","13722.58cfa83ce4b0c9d6adf7307f","BRCA","Breast Invasive Carcinoma",0.341986854
+"79","13722.58cfa83ce4b0c9d6adf730cb","BRCA","Breast Invasive Carcinoma",0.093714658
+"80","13722.58cfa83ce4b0c9d6adf7309a","BRCA","Breast Invasive Carcinoma",0.823317233
+"81","13722.58cfa83ce4b0c9d6adf73184","UCEC","Uterine Corpus Endometrial Carcinoma",0.098670982
+"82","13722.58cfa83ce4b0c9d6adf73156","UCEC","Uterine Corpus Endometrial Carcinoma",0.10242196
+"83","13722.58cfa83ce4b0c9d6adf730d4","BRCA","Breast Invasive Carcinoma",0.144931118
+"84","13722.58cfa83ce4b0c9d6adf73060","BRCA","Breast Invasive Carcinoma",0.358441574
+"85","13722.58cfa83ce4b0c9d6adf731cc","SARC","Sarcoma",0.27637975
+"86","13722.58cfa83ce4b0c9d6adf72fea","BRCA","Breast Invasive Carcinoma",0.601587726
+"87","13722.58cfa83ce4b0c9d6adf72f14","UCEC","Uterine Corpus Endometrial Carcinoma",0.694421261
+"88","13722.58cfa82de4b0c9d6adf6a461","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.867171114
+"89","13722.58cfa82de4b0c9d6adf6a48c","BRCA","Breast Invasive Carcinoma",0.188868391
+"90","13722.58cfa82de4b0c9d6adf6a4b4","UCEC","Uterine Corpus Endometrial Carcinoma",1.325056967
+"91","13722.58cfa82de4b0c9d6adf6a4ea","BRCA","Breast Invasive Carcinoma",0.050155951
+"92","13722.58cfa82de4b0c9d6adf6a510","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.224110234
+"93","13722.58cfa82de4b0c9d6adf6a64a","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.140089669
+"94","13722.58cfa82de4b0c9d6adf6a44c","BRCA","Breast Invasive Carcinoma",0.075798969
+"95","13722.58cfa82de4b0c9d6adf6a45b","SARC","Sarcoma",0.32204272
+"96","13722.58cfa82de4b0c9d6adf6a49a","BRCA","Breast Invasive Carcinoma",0.531840911
+"97","13722.58cfa82de4b0c9d6adf6a522","BRCA","Breast Invasive Carcinoma",0.2865941
+"98","13722.58cfa82de4b0c9d6adf6a53a","SARC","Sarcoma",0.284481197
+"99","13722.58cfa82de4b0c9d6adf6a535","BRCA","Breast Invasive Carcinoma",0.075177468
+"100","13722.58cfa82de4b0c9d6adf6a51c","BRCA","Breast Invasive Carcinoma",0.481450925
+"101","13722.58cfa82de4b0c9d6adf6a570","UCEC","Uterine Corpus Endometrial Carcinoma",0.172156072
+"102","13722.58cfa82de4b0c9d6adf6a599","SARC","Sarcoma",0.173894695
+"103","13722.58cfa82de4b0c9d6adf6a4e2","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.948035874
+"104","13722.58cfa82de4b0c9d6adf6a5b2","BRCA","Breast Invasive Carcinoma",0.573649121
+"105","13722.58cfa82de4b0c9d6adf6a5b3","SARC","Sarcoma",0.428052285
+"106","13722.58cfa82de4b0c9d6adf6a5ce","UCEC","Uterine Corpus Endometrial Carcinoma",0.766157698
+"107","13722.58cfa82de4b0c9d6adf6a60c","SARC","Sarcoma",0.20232001
+"108","13722.58cfa82de4b0c9d6adf6a618","BRCA","Breast Invasive Carcinoma",0.073039477
+"109","13722.58cfa82de4b0c9d6adf6a61e","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.090555145
+"110","13722.58cfa82de4b0c9d6adf6a640","SARC","Sarcoma",0.150231582
+"111","13722.58cfa82de4b0c9d6adf6a65e","SARC","Sarcoma",0.419509581
+"112","13722.58cfa82de4b0c9d6adf6a674","SARC","Sarcoma",0.693870308
+"113","13722.58cfa82de4b0c9d6adf6a68a","BRCA","Breast Invasive Carcinoma",0.38733492
+"114","13722.58cfa82de4b0c9d6adf6a65f","UCEC","Uterine Corpus Endometrial Carcinoma",0.29484376
+"115","13722.58cfa82de4b0c9d6adf6a6d4","SARC","Sarcoma",0.180584117
+"116","13722.58cfa830e4b0c9d6adf6bb98","BRCA","Breast Invasive Carcinoma",0.232954235
+"117","13722.58cfa83ce4b0c9d6adf72eb0","BRCA","Breast Invasive Carcinoma",0.070445669
+"118","13722.58cfa83ce4b0c9d6adf72edb","BRCA","Breast Invasive Carcinoma",0.085902014
+"119","13722.58cfa83ce4b0c9d6adf72ef4","SARC","Sarcoma",0.249751302
+"120","13722.58cfa83ce4b0c9d6adf72f45","SARC","Sarcoma",0.247270839
+"121","13722.58cfa83ce4b0c9d6adf72f0d","SARC","Sarcoma",0.265860045
+"122","13722.58cfa83ce4b0c9d6adf72f2c","SARC","Sarcoma",0.124788709
+"123","13722.58cfa83ce4b0c9d6adf72f7b","SARC","Sarcoma",0.189993206
+"124","13722.58cfa83ce4b0c9d6adf72fb2","BRCA","Breast Invasive Carcinoma",0.125329534
+"125","13722.58cfa83ce4b0c9d6adf72f73","BRCA","Breast Invasive Carcinoma",0.254559004
+"126","13722.58cfa83ce4b0c9d6adf73082","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.052195897
+"127","13722.58cfa83ce4b0c9d6adf7308c","SARC","Sarcoma",0.189093381
+"128","13722.58cfa83ce4b0c9d6adf730ac","BRCA","Breast Invasive Carcinoma",0.129819181
+"129","13722.58cfa83ce4b0c9d6adf730c0","SARC","Sarcoma",0.260316833
+"130","13722.58cfa83ce4b0c9d6adf730e0","UCEC","Uterine Corpus Endometrial Carcinoma",0.22128302
+"131","13722.58cfa83ce4b0c9d6adf730fa","BRCA","Breast Invasive Carcinoma",0.274065397
+"132","13722.58cfa83ce4b0c9d6adf7313a","SARC","Sarcoma",0.212113119
+"133","13722.58cfa83ce4b0c9d6adf73142","SARC","Sarcoma",0.203038413
+"134","13722.58cfa83ce4b0c9d6adf731d0","SARC","Sarcoma",0.379062951
+"135","13722.58cfa83ce4b0c9d6adf731b8","SARC","Sarcoma",0.476959562
+"136","13722.58cfa82de4b0c9d6adf6a6fa","BRCA","Breast Invasive Carcinoma",0.455898845
+"137","13722.58cfa82de4b0c9d6adf6a5ee","BRCA","Breast Invasive Carcinoma",0.499664891
+"138","13722.58cfa82de4b0c9d6adf6a4d6","BRCA","Breast Invasive Carcinoma",0.100612493
+"139","13722.58cfa83ce4b0c9d6adf730b4","BRCA","Breast Invasive Carcinoma",0.507117247
+"140","13722.58cfa82de4b0c9d6adf6a534","UCEC","Uterine Corpus Endometrial Carcinoma",0.214406389
+"141","13722.58cfa82de4b0c9d6adf6a577","CESC","Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma",0.278645436
+"142","13722.58cfa82de4b0c9d6adf6a666","SARC","Sarcoma",0.258703826
+"143","13722.58cfa82fe4b0c9d6adf6b8e0","BRCA","Breast Invasive Carcinoma",0.757252821
+"144","13722.58cfa83ce4b0c9d6adf72efc","SARC","Sarcoma",0.379172454
+"145","13722.58cfa83ce4b0c9d6adf73090","UCEC","Uterine Corpus Endometrial Carcinoma",1.494389445

@@ -1,235 +1,234 @@
 "","id","investigation","disease_type","observed_otus"
-"1","13722.58cfa830e4b0c9d6adf6baba","COAD","Colon Adenocarcinoma",13
-"2","13722.58cfa830e4b0c9d6adf6bbb2","COAD","Colon Adenocarcinoma",20
-"3","13722.58cfa830e4b0c9d6adf6bf00","KIRC","Kidney Renal Clear Cell Carcinoma",24
-"4","13722.58cfa830e4b0c9d6adf6c294","KIRC","Kidney Renal Clear Cell Carcinoma",16
-"5","13722.58cfa831e4b0c9d6adf6c480","KIRC","Kidney Renal Clear Cell Carcinoma",29
-"6","13722.58cfa82fe4b0c9d6adf6b858","OV","Ovarian Serous Cystadenocarcinoma",38
-"7","13722.58cfa830e4b0c9d6adf6bcbd","KIRC","Kidney Renal Clear Cell Carcinoma",28
-"8","13722.58cfa830e4b0c9d6adf6bdf1","KIRC","Kidney Renal Clear Cell Carcinoma",23
-"9","13722.58cfa830e4b0c9d6adf6bdf8","KIRC","Kidney Renal Clear Cell Carcinoma",21
-"10","13722.58cfa830e4b0c9d6adf6c196","KIRC","Kidney Renal Clear Cell Carcinoma",28
-"11","13722.58cfa831e4b0c9d6adf6c7f4","KIRC","Kidney Renal Clear Cell Carcinoma",20
-"12","13722.58cfa831e4b0c9d6adf6cc42","KIRC","Kidney Renal Clear Cell Carcinoma",27
-"13","13722.58cfa831e4b0c9d6adf6c80b","KIRC","Kidney Renal Clear Cell Carcinoma",30
-"14","13722.58cfa830e4b0c9d6adf6bb04","OV","Ovarian Serous Cystadenocarcinoma",39
-"15","13722.58cfa830e4b0c9d6adf6ba78","COAD","Colon Adenocarcinoma",15
-"16","13722.58cfa830e4b0c9d6adf6bb68","COAD","Colon Adenocarcinoma",19
-"17","13722.58cfa830e4b0c9d6adf6bc3e","READ","Rectum Adenocarcinoma",20
-"18","13722.58cfa830e4b0c9d6adf6bdad","READ","Rectum Adenocarcinoma",12
-"19","13722.58cfa830e4b0c9d6adf6bfea","READ","Rectum Adenocarcinoma",15
-"20","13722.58cfa830e4b0c9d6adf6bf02","KIRC","Kidney Renal Clear Cell Carcinoma",20
-"21","13722.58cfa830e4b0c9d6adf6bef0","KIRC","Kidney Renal Clear Cell Carcinoma",20
-"22","13722.58cfa831e4b0c9d6adf6c414","KIRC","Kidney Renal Clear Cell Carcinoma",25
-"23","13722.58cfa831e4b0c9d6adf6c442","KIRC","Kidney Renal Clear Cell Carcinoma",24
-"24","13722.58cfa830e4b0c9d6adf6c2d1","KIRC","Kidney Renal Clear Cell Carcinoma",41
-"25","13722.58cfa82fe4b0c9d6adf6b952","COAD","Colon Adenocarcinoma",109
-"26","13722.58cfa830e4b0c9d6adf6ba5d","COAD","Colon Adenocarcinoma",96
-"27","13722.58cfa830e4b0c9d6adf6ba60","KIRC","Kidney Renal Clear Cell Carcinoma",28
-"28","13722.58cfa830e4b0c9d6adf6bb7c","COAD","Colon Adenocarcinoma",21
-"29","13722.58cfa830e4b0c9d6adf6bbfa","READ","Rectum Adenocarcinoma",69
-"30","13722.58cfa830e4b0c9d6adf6bd5c","COAD","Colon Adenocarcinoma",18
-"31","13722.58cfa830e4b0c9d6adf6be4c","READ","Rectum Adenocarcinoma",10
-"32","13722.58cfa830e4b0c9d6adf6be92","READ","Rectum Adenocarcinoma",15
-"33","13722.58cfa830e4b0c9d6adf6be9f","READ","Rectum Adenocarcinoma",14
-"34","13722.58cfa830e4b0c9d6adf6c052","KIRC","Kidney Renal Clear Cell Carcinoma",26
-"35","13722.58cfa830e4b0c9d6adf6c07e","KIRP","Kidney Renal Papillary Cell Carcinoma",22
-"36","13722.58cfa830e4b0c9d6adf6c149","HNSC","Head and Neck Squamous Cell Carcinoma",22
-"37","13722.58cfa831e4b0c9d6adf6c490","KIRC","Kidney Renal Clear Cell Carcinoma",22
-"38","13722.58cfa831e4b0c9d6adf6c6ee","HNSC","Head and Neck Squamous Cell Carcinoma",9
-"39","13722.58cfa831e4b0c9d6adf6c845","HNSC","Head and Neck Squamous Cell Carcinoma",15
-"40","13722.58cfa832e4b0c9d6adf6d2dc","KICH","Kidney Chromophobe",12
-"41","13722.58cfa832e4b0c9d6adf6d326","KICH","Kidney Chromophobe",14
-"42","13722.58cfa82fe4b0c9d6adf6b8d8","COAD","Colon Adenocarcinoma",17
-"43","13722.58cfa82fe4b0c9d6adf6b961","COAD","Colon Adenocarcinoma",27
-"44","13722.58cfa82fe4b0c9d6adf6b9e0","COAD","Colon Adenocarcinoma",22
-"45","13722.58cfa82fe4b0c9d6adf6b920","KIRP","Kidney Renal Papillary Cell Carcinoma",20
-"46","13722.58cfa830e4b0c9d6adf6ba9e","COAD","Colon Adenocarcinoma",17
-"47","13722.58cfa830e4b0c9d6adf6bad6","COAD","Colon Adenocarcinoma",15
-"48","13722.58cfa82fe4b0c9d6adf6ba26","KIRC","Kidney Renal Clear Cell Carcinoma",24
-"49","13722.58cfa830e4b0c9d6adf6bb79","COAD","Colon Adenocarcinoma",17
-"50","13722.58cfa830e4b0c9d6adf6bb82","KIRC","Kidney Renal Clear Cell Carcinoma",26
-"51","13722.58cfa830e4b0c9d6adf6bbc0","READ","Rectum Adenocarcinoma",10
-"52","13722.58cfa830e4b0c9d6adf6ba74","COAD","Colon Adenocarcinoma",13
-"53","13722.58cfa830e4b0c9d6adf6bcb5","COAD","Colon Adenocarcinoma",11
-"54","13722.58cfa830e4b0c9d6adf6bc64","READ","Rectum Adenocarcinoma",22
-"55","13722.58cfa830e4b0c9d6adf6bcfc","COAD","Colon Adenocarcinoma",18
-"56","13722.58cfa830e4b0c9d6adf6bd38","COAD","Colon Adenocarcinoma",17
-"57","13722.58cfa830e4b0c9d6adf6c046","KIRC","Kidney Renal Clear Cell Carcinoma",21
-"58","13722.58cfa830e4b0c9d6adf6c020","KIRP","Kidney Renal Papillary Cell Carcinoma",8
-"59","13722.58cfa830e4b0c9d6adf6c13e","KIRP","Kidney Renal Papillary Cell Carcinoma",15
-"60","13722.58cfa831e4b0c9d6adf6c430","KIRC","Kidney Renal Clear Cell Carcinoma",23
-"61","13722.58cfa831e4b0c9d6adf6c41a","KIRC","Kidney Renal Clear Cell Carcinoma",20
-"62","13722.58cfa831e4b0c9d6adf6c608","HNSC","Head and Neck Squamous Cell Carcinoma",26
-"63","13722.58cfa831e4b0c9d6adf6c682","HNSC","Head and Neck Squamous Cell Carcinoma",10
-"64","13722.58cfa830e4b0c9d6adf6c2a3","KIRP","Kidney Renal Papillary Cell Carcinoma",14
-"65","13722.58cfa831e4b0c9d6adf6c6b2","HNSC","Head and Neck Squamous Cell Carcinoma",12
-"66","13722.58cfa831e4b0c9d6adf6c456","COAD","Colon Adenocarcinoma",24
-"67","13722.58cfa831e4b0c9d6adf6c79a","HNSC","Head and Neck Squamous Cell Carcinoma",14
-"68","13722.58cfa831e4b0c9d6adf6c78f","KIRC","Kidney Renal Clear Cell Carcinoma",23
-"69","13722.58cfa831e4b0c9d6adf6c81d","HNSC","Head and Neck Squamous Cell Carcinoma",8
-"70","13722.58cfa831e4b0c9d6adf6c88e","COAD","Colon Adenocarcinoma",16
-"71","13722.58cfa831e4b0c9d6adf6c966","HNSC","Head and Neck Squamous Cell Carcinoma",16
-"72","13722.58cfa831e4b0c9d6adf6c83b","HNSC","Head and Neck Squamous Cell Carcinoma",19
-"73","13722.58cfa831e4b0c9d6adf6ccb4","READ","Rectum Adenocarcinoma",13
-"74","13722.58cfa831e4b0c9d6adf6cd6e","READ","Rectum Adenocarcinoma",11
-"75","13722.58cfa832e4b0c9d6adf6d2bd","KICH","Kidney Chromophobe",10
-"76","13722.58cfa832e4b0c9d6adf6d2f5","KICH","Kidney Chromophobe",19
-"77","13722.58cfa832e4b0c9d6adf6d300","KICH","Kidney Chromophobe",11
-"78","13722.58cfa832e4b0c9d6adf6d319","KICH","Kidney Chromophobe",18
-"79","13722.58cfa832e4b0c9d6adf6d31d","KICH","Kidney Chromophobe",19
-"80","13722.58cfa832e4b0c9d6adf6d36c","KICH","Kidney Chromophobe",26
-"81","13722.58cfa832e4b0c9d6adf6d3c2","KICH","Kidney Chromophobe",14
-"82","13722.58cfa832e4b0c9d6adf6d3d3","KICH","Kidney Chromophobe",9
-"83","13722.58cfa832e4b0c9d6adf6d394","KICH","Kidney Chromophobe",10
-"84","13722.58cfa832e4b0c9d6adf6d356","KICH","Kidney Chromophobe",13
-"85","13722.58cfa831e4b0c9d6adf6c7c6","KIRC","Kidney Renal Clear Cell Carcinoma",22
-"86","13722.58cfa831e4b0c9d6adf6c7e1","HNSC","Head and Neck Squamous Cell Carcinoma",14
-"87","13722.58cfa832e4b0c9d6adf6d33e","KICH","Kidney Chromophobe",20
-"88","13722.58cfa82fe4b0c9d6adf6ba06","COAD","Colon Adenocarcinoma",20
-"89","13722.58cfa830e4b0c9d6adf6baa2","COAD","Colon Adenocarcinoma",14
-"90","13722.58cfa830e4b0c9d6adf6bc11","READ","Rectum Adenocarcinoma",22
-"91","13722.58cfa830e4b0c9d6adf6bc84","READ","Rectum Adenocarcinoma",24
-"92","13722.58cfa830e4b0c9d6adf6bbdd","READ","Rectum Adenocarcinoma",17
-"93","13722.58cfa830e4b0c9d6adf6be46","READ","Rectum Adenocarcinoma",18
-"94","13722.58cfa82ee4b0c9d6adf6af7c","OV","Ovarian Serous Cystadenocarcinoma",10
-"95","13722.58cfa82ee4b0c9d6adf6b197","OV","Ovarian Serous Cystadenocarcinoma",23
-"96","13722.58cfa82fe4b0c9d6adf6b384","OV","Ovarian Serous Cystadenocarcinoma",12
-"97","13722.58cfa82fe4b0c9d6adf6b2be","OV","Ovarian Serous Cystadenocarcinoma",22
-"98","13722.58cfa82fe4b0c9d6adf6b3fa","OV","Ovarian Serous Cystadenocarcinoma",29
-"99","13722.58cfa82fe4b0c9d6adf6b541","OV","Ovarian Serous Cystadenocarcinoma",19
-"100","13722.58cfa82fe4b0c9d6adf6b3de","OV","Ovarian Serous Cystadenocarcinoma",27
-"101","13722.58cfa82fe4b0c9d6adf6b8ca","KIRP","Kidney Renal Papillary Cell Carcinoma",15
-"102","13722.58cfa82fe4b0c9d6adf6b92e","KIRP","Kidney Renal Papillary Cell Carcinoma",8
-"103","13722.58cfa830e4b0c9d6adf6bb02","COAD","Colon Adenocarcinoma",14
-"104","13722.58cfa82fe4b0c9d6adf6b80a","OV","Ovarian Serous Cystadenocarcinoma",24
-"105","13722.58cfa82fe4b0c9d6adf6b8e1","COAD","Colon Adenocarcinoma",10
-"106","13722.58cfa82fe4b0c9d6adf6ba25","KIRC","Kidney Renal Clear Cell Carcinoma",14
-"107","13722.58cfa830e4b0c9d6adf6bb0d","COAD","Colon Adenocarcinoma",27
-"108","13722.58cfa830e4b0c9d6adf6bdba","LIHC","Liver Hepatocellular Carcinoma",15
-"109","13722.58cfa830e4b0c9d6adf6be71","KIRC","Kidney Renal Clear Cell Carcinoma",20
-"110","13722.58cfa830e4b0c9d6adf6bcb3","KIRC","Kidney Renal Clear Cell Carcinoma",18
-"111","13722.58cfa830e4b0c9d6adf6becd","KIRP","Kidney Renal Papillary Cell Carcinoma",19
-"112","13722.58cfa830e4b0c9d6adf6bf19","COAD","Colon Adenocarcinoma",20
-"113","13722.58cfa830e4b0c9d6adf6c000","KIRP","Kidney Renal Papillary Cell Carcinoma",15
-"114","13722.58cfa830e4b0c9d6adf6c140","HNSC","Head and Neck Squamous Cell Carcinoma",20
-"115","13722.58cfa830e4b0c9d6adf6c00e","KIRP","Kidney Renal Papillary Cell Carcinoma",16
-"116","13722.58cfa830e4b0c9d6adf6c14b","KIRP","Kidney Renal Papillary Cell Carcinoma",18
-"117","13722.58cfa830e4b0c9d6adf6c14d","HNSC","Head and Neck Squamous Cell Carcinoma",13
-"118","13722.58cfa830e4b0c9d6adf6c048","KIRP","Kidney Renal Papillary Cell Carcinoma",23
-"119","13722.58cfa830e4b0c9d6adf6bc5e","KIRP","Kidney Renal Papillary Cell Carcinoma",17
-"120","13722.58cfa830e4b0c9d6adf6c1c8","LIHC","Liver Hepatocellular Carcinoma",13
-"121","13722.58cfa830e4b0c9d6adf6c178","KIRP","Kidney Renal Papillary Cell Carcinoma",18
-"122","13722.58cfa830e4b0c9d6adf6c1d6","LIHC","Liver Hepatocellular Carcinoma",22
-"123","13722.58cfa830e4b0c9d6adf6c2a2","KIRC","Kidney Renal Clear Cell Carcinoma",15
-"124","13722.58cfa830e4b0c9d6adf6c22e","HNSC","Head and Neck Squamous Cell Carcinoma",15
-"125","13722.58cfa831e4b0c9d6adf6c3b6","LIHC","Liver Hepatocellular Carcinoma",25
-"126","13722.58cfa831e4b0c9d6adf6c3a6","LIHC","Liver Hepatocellular Carcinoma",24
-"127","13722.58cfa831e4b0c9d6adf6c422","LIHC","Liver Hepatocellular Carcinoma",10
-"128","13722.58cfa831e4b0c9d6adf6c418","KIRC","Kidney Renal Clear Cell Carcinoma",14
-"129","13722.58cfa831e4b0c9d6adf6c43a","KIRC","Kidney Renal Clear Cell Carcinoma",13
-"130","13722.58cfa831e4b0c9d6adf6c45e","KIRC","Kidney Renal Clear Cell Carcinoma",23
-"131","13722.58cfa830e4b0c9d6adf6c1ae","KIRP","Kidney Renal Papillary Cell Carcinoma",27
-"132","13722.58cfa831e4b0c9d6adf6c612","HNSC","Head and Neck Squamous Cell Carcinoma",11
-"133","13722.58cfa831e4b0c9d6adf6c630","HNSC","Head and Neck Squamous Cell Carcinoma",14
-"134","13722.58cfa831e4b0c9d6adf6c66a","HNSC","Head and Neck Squamous Cell Carcinoma",19
-"135","13722.58cfa830e4b0c9d6adf6c2c4","COAD","Colon Adenocarcinoma",16
-"136","13722.58cfa831e4b0c9d6adf6c6c6","HNSC","Head and Neck Squamous Cell Carcinoma",26
-"137","13722.58cfa831e4b0c9d6adf6c7be","HNSC","Head and Neck Squamous Cell Carcinoma",21
-"138","13722.58cfa831e4b0c9d6adf6c89e","LIHC","Liver Hepatocellular Carcinoma",18
-"139","13722.58cfa831e4b0c9d6adf6c8a8","KIRC","Kidney Renal Clear Cell Carcinoma",10
-"140","13722.58cfa831e4b0c9d6adf6c89a","LIHC","Liver Hepatocellular Carcinoma",25
-"141","13722.58cfa831e4b0c9d6adf6c8e4","HNSC","Head and Neck Squamous Cell Carcinoma",20
-"142","13722.58cfa831e4b0c9d6adf6c8b8","LIHC","Liver Hepatocellular Carcinoma",20
-"143","13722.58cfa831e4b0c9d6adf6c934","LIHC","Liver Hepatocellular Carcinoma",21
-"144","13722.58cfa831e4b0c9d6adf6c9a2","LIHC","Liver Hepatocellular Carcinoma",15
-"145","13722.58cfa831e4b0c9d6adf6c903","LIHC","Liver Hepatocellular Carcinoma",18
-"146","13722.58cfa831e4b0c9d6adf6c8f4","HNSC","Head and Neck Squamous Cell Carcinoma",20
-"147","13722.58cfa831e4b0c9d6adf6c977","LIHC","Liver Hepatocellular Carcinoma",14
-"148","13722.58cfa831e4b0c9d6adf6c9a4","LIHC","Liver Hepatocellular Carcinoma",18
-"149","13722.58cfa831e4b0c9d6adf6c9bf","LIHC","Liver Hepatocellular Carcinoma",22
-"150","13722.58cfa831e4b0c9d6adf6ca2b","LIHC","Liver Hepatocellular Carcinoma",15
-"151","13722.58cfa831e4b0c9d6adf6c9f6","LIHC","Liver Hepatocellular Carcinoma",12
-"152","13722.58cfa831e4b0c9d6adf6ca23","LIHC","Liver Hepatocellular Carcinoma",29
-"153","13722.58cfa831e4b0c9d6adf6ca58","LIHC","Liver Hepatocellular Carcinoma",15
-"154","13722.58cfa831e4b0c9d6adf6ca63","HNSC","Head and Neck Squamous Cell Carcinoma",25
-"155","13722.58cfa831e4b0c9d6adf6cc3c","LIHC","Liver Hepatocellular Carcinoma",16
-"156","13722.58cfa831e4b0c9d6adf6cbe9","LIHC","Liver Hepatocellular Carcinoma",22
-"157","13722.58cfa831e4b0c9d6adf6cb2c","LIHC","Liver Hepatocellular Carcinoma",12
-"158","13722.58cfa831e4b0c9d6adf6cc1c","LIHC","Liver Hepatocellular Carcinoma",18
-"159","13722.58cfa832e4b0c9d6adf6ce00","LIHC","Liver Hepatocellular Carcinoma",23
-"160","13722.58cfa832e4b0c9d6adf6ce3a","LIHC","Liver Hepatocellular Carcinoma",14
-"161","13722.58cfa831e4b0c9d6adf6cd8d","DLBC","Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",17
-"162","13722.58cfa832e4b0c9d6adf6ce68","LIHC","Liver Hepatocellular Carcinoma",13
-"163","13722.58cfa832e4b0c9d6adf6ce70","LIHC","Liver Hepatocellular Carcinoma",12
-"164","13722.58cfa832e4b0c9d6adf6ce7e","LIHC","Liver Hepatocellular Carcinoma",11
-"165","13722.58cfa832e4b0c9d6adf6ce6c","LIHC","Liver Hepatocellular Carcinoma",20
-"166","13722.58cfa831e4b0c9d6adf6cc59","LIHC","Liver Hepatocellular Carcinoma",18
-"167","13722.58cfa832e4b0c9d6adf6ce7c","LIHC","Liver Hepatocellular Carcinoma",20
-"168","13722.58cfa832e4b0c9d6adf6cef0","DLBC","Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",15
-"169","13722.58cfa832e4b0c9d6adf6cefa","KIRP","Kidney Renal Papillary Cell Carcinoma",15
-"170","13722.58cfa832e4b0c9d6adf6ce62","LIHC","Liver Hepatocellular Carcinoma",20
-"171","13722.58cfa832e4b0c9d6adf6cf76","LIHC","Liver Hepatocellular Carcinoma",16
-"172","13722.58cfa832e4b0c9d6adf6d011","LIHC","Liver Hepatocellular Carcinoma",13
-"173","13722.58cfa832e4b0c9d6adf6d027","KIRP","Kidney Renal Papillary Cell Carcinoma",18
-"174","13722.58cfa832e4b0c9d6adf6d04c","KIRP","Kidney Renal Papillary Cell Carcinoma",9
-"175","13722.58cfa832e4b0c9d6adf6cfd2","KIRP","Kidney Renal Papillary Cell Carcinoma",27
-"176","13722.58cfa832e4b0c9d6adf6d029","KIRP","Kidney Renal Papillary Cell Carcinoma",10
-"177","13722.58cfa832e4b0c9d6adf6d0a2","KIRP","Kidney Renal Papillary Cell Carcinoma",22
-"178","13722.58cfa832e4b0c9d6adf6d11e","LIHC","Liver Hepatocellular Carcinoma",13
-"179","13722.58cfa832e4b0c9d6adf6d168","KICH","Kidney Chromophobe",10
-"180","13722.58cfa832e4b0c9d6adf6d164","KICH","Kidney Chromophobe",19
-"181","13722.58cfa832e4b0c9d6adf6d1b9","KIRP","Kidney Renal Papillary Cell Carcinoma",19
-"182","13722.58cfa832e4b0c9d6adf6d1c1","DLBC","Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",28
-"183","13722.58cfa832e4b0c9d6adf6d1ee","DLBC","Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",14
-"184","13722.58cfa832e4b0c9d6adf6d1f0","DLBC","Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",12
-"185","13722.58cfa832e4b0c9d6adf6d130","LIHC","Liver Hepatocellular Carcinoma",24
-"186","13722.58cfa832e4b0c9d6adf6d062","LIHC","Liver Hepatocellular Carcinoma",20
-"187","13722.58cfa832e4b0c9d6adf6d1f2","DLBC","Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",12
-"188","13722.58cfa832e4b0c9d6adf6d1b2","DLBC","Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",13
-"189","13722.58cfa832e4b0c9d6adf6d291","KICH","Kidney Chromophobe",20
-"190","13722.58cfa832e4b0c9d6adf6d2a0","KICH","Kidney Chromophobe",19
-"191","13722.58cfa832e4b0c9d6adf6d246","KIRP","Kidney Renal Papillary Cell Carcinoma",21
-"192","13722.58cfa832e4b0c9d6adf6d29d","KICH","Kidney Chromophobe",12
-"193","13722.58cfa832e4b0c9d6adf6d2b8","KICH","Kidney Chromophobe",19
-"194","13722.58cfa832e4b0c9d6adf6d2c4","KICH","Kidney Chromophobe",10
-"195","13722.58cfa832e4b0c9d6adf6d2b6","KICH","Kidney Chromophobe",25
-"196","13722.58cfa832e4b0c9d6adf6d2d0","KICH","Kidney Chromophobe",12
-"197","13722.58cfa832e4b0c9d6adf6d2da","KICH","Kidney Chromophobe",18
-"198","13722.58cfa832e4b0c9d6adf6d2e0","KICH","Kidney Chromophobe",25
-"199","13722.58cfa832e4b0c9d6adf6d2e6","KICH","Kidney Chromophobe",10
-"200","13722.58cfa832e4b0c9d6adf6d2e2","KICH","Kidney Chromophobe",20
-"201","13722.58cfa832e4b0c9d6adf6d2fa","KICH","Kidney Chromophobe",19
-"202","13722.58cfa832e4b0c9d6adf6d2fc","KICH","Kidney Chromophobe",7
-"203","13722.58cfa832e4b0c9d6adf6d320","KICH","Kidney Chromophobe",39
-"204","13722.58cfa832e4b0c9d6adf6d311","KICH","Kidney Chromophobe",12
-"205","13722.58cfa832e4b0c9d6adf6d30e","KICH","Kidney Chromophobe",12
-"206","13722.58cfa832e4b0c9d6adf6d317","KICH","Kidney Chromophobe",14
-"207","13722.58cfa832e4b0c9d6adf6d32e","KICH","Kidney Chromophobe",13
-"208","13722.58cfa832e4b0c9d6adf6d334","KICH","Kidney Chromophobe",18
-"209","13722.58cfa832e4b0c9d6adf6d354","KICH","Kidney Chromophobe",12
-"210","13722.58cfa832e4b0c9d6adf6d33a","KICH","Kidney Chromophobe",12
-"211","13722.58cfa832e4b0c9d6adf6d17e","HNSC","Head and Neck Squamous Cell Carcinoma",23
-"212","13722.58cfa832e4b0c9d6adf6d3ad","COAD","Colon Adenocarcinoma",8
-"213","13722.58cfa832e4b0c9d6adf6d448","COAD","Colon Adenocarcinoma",22
-"214","13722.58cfa832e4b0c9d6adf6d437","COAD","Colon Adenocarcinoma",30
-"215","13722.58cfa832e4b0c9d6adf6d51c","KICH","Kidney Chromophobe",12
-"216","13722.58cfa832e4b0c9d6adf6d4fc","KICH","Kidney Chromophobe",23
-"217","13722.58cfa832e4b0c9d6adf6d517","LIHC","Liver Hepatocellular Carcinoma",27
-"218","13722.58cfa832e4b0c9d6adf6d523","KICH","Kidney Chromophobe",33
-"219","13722.58cfa832e4b0c9d6adf6d59a","KIRP","Kidney Renal Papillary Cell Carcinoma",13
-"220","13722.58cfa832e4b0c9d6adf6d59c","KIRP","Kidney Renal Papillary Cell Carcinoma",20
-"221","13722.58cfa832e4b0c9d6adf6d470","COAD","Colon Adenocarcinoma",17
-"222","13722.58cfa832e4b0c9d6adf6d5a2","KIRP","Kidney Renal Papillary Cell Carcinoma",19
-"223","13722.58cfa832e4b0c9d6adf6d58e","LIHC","Liver Hepatocellular Carcinoma",17
-"224","13722.58cfa832e4b0c9d6adf6d5b8","KICH","Kidney Chromophobe",30
-"225","13722.58cfa832e4b0c9d6adf6d5af","KIRP","Kidney Renal Papillary Cell Carcinoma",23
-"226","13722.58cfa832e4b0c9d6adf6d2aa","KICH","Kidney Chromophobe",22
-"227","13722.58cfa832e4b0c9d6adf6d5ad","KIRP","Kidney Renal Papillary Cell Carcinoma",12
-"228","13722.58cfa82fe4b0c9d6adf6b58d","OV","Ovarian Serous Cystadenocarcinoma",125
-"229","13722.58cfa82fe4b0c9d6adf6b958","COAD","Colon Adenocarcinoma",115
-"230","13722.58cfa82ee4b0c9d6adf6b0e3","OV","Ovarian Serous Cystadenocarcinoma",128
-"231","13722.58cfa82fe4b0c9d6adf6b524","OV","Ovarian Serous Cystadenocarcinoma",106
-"232","13722.58cfa82fe4b0c9d6adf6b637","OV","Ovarian Serous Cystadenocarcinoma",90
-"233","13722.58cfa830e4b0c9d6adf6bb32","COAD","Colon Adenocarcinoma",122
-"234","13722.58cfa830e4b0c9d6adf6bc70","READ","Rectum Adenocarcinoma",107
+"1","13722.58cfa830e4b0c9d6adf6baba","COAD","Colon Adenocarcinoma",11
+"2","13722.58cfa830e4b0c9d6adf6bbb2","COAD","Colon Adenocarcinoma",13
+"3","13722.58cfa830e4b0c9d6adf6bf00","KIRC","Kidney Renal Clear Cell Carcinoma",20
+"4","13722.58cfa830e4b0c9d6adf6c294","KIRC","Kidney Renal Clear Cell Carcinoma",22
+"5","13722.58cfa831e4b0c9d6adf6c480","KIRC","Kidney Renal Clear Cell Carcinoma",25
+"6","13722.58cfa830e4b0c9d6adf6bb04","OV","Ovarian Serous Cystadenocarcinoma",39
+"7","13722.58cfa830e4b0c9d6adf6ba78","COAD","Colon Adenocarcinoma",13
+"8","13722.58cfa830e4b0c9d6adf6bb68","COAD","Colon Adenocarcinoma",15
+"9","13722.58cfa830e4b0c9d6adf6bc3e","READ","Rectum Adenocarcinoma",18
+"10","13722.58cfa830e4b0c9d6adf6bdad","READ","Rectum Adenocarcinoma",15
+"11","13722.58cfa830e4b0c9d6adf6bfea","READ","Rectum Adenocarcinoma",13
+"12","13722.58cfa830e4b0c9d6adf6bf02","KIRC","Kidney Renal Clear Cell Carcinoma",25
+"13","13722.58cfa830e4b0c9d6adf6bef0","KIRC","Kidney Renal Clear Cell Carcinoma",22
+"14","13722.58cfa831e4b0c9d6adf6c414","KIRC","Kidney Renal Clear Cell Carcinoma",22
+"15","13722.58cfa831e4b0c9d6adf6c442","KIRC","Kidney Renal Clear Cell Carcinoma",18
+"16","13722.58cfa830e4b0c9d6adf6c2d1","KIRC","Kidney Renal Clear Cell Carcinoma",26
+"17","13722.58cfa830e4b0c9d6adf6bcbd","KIRC","Kidney Renal Clear Cell Carcinoma",21
+"18","13722.58cfa830e4b0c9d6adf6bdf1","KIRC","Kidney Renal Clear Cell Carcinoma",20
+"19","13722.58cfa830e4b0c9d6adf6bdf8","KIRC","Kidney Renal Clear Cell Carcinoma",22
+"20","13722.58cfa830e4b0c9d6adf6c196","KIRC","Kidney Renal Clear Cell Carcinoma",19
+"21","13722.58cfa831e4b0c9d6adf6c7f4","KIRC","Kidney Renal Clear Cell Carcinoma",21
+"22","13722.58cfa831e4b0c9d6adf6cc42","KIRC","Kidney Renal Clear Cell Carcinoma",20
+"23","13722.58cfa831e4b0c9d6adf6c80b","KIRC","Kidney Renal Clear Cell Carcinoma",24
+"24","13722.58cfa82fe4b0c9d6adf6b952","COAD","Colon Adenocarcinoma",110
+"25","13722.58cfa830e4b0c9d6adf6ba5d","COAD","Colon Adenocarcinoma",100
+"26","13722.58cfa830e4b0c9d6adf6ba60","KIRC","Kidney Renal Clear Cell Carcinoma",20
+"27","13722.58cfa830e4b0c9d6adf6bb7c","COAD","Colon Adenocarcinoma",17
+"28","13722.58cfa830e4b0c9d6adf6bbfa","READ","Rectum Adenocarcinoma",62
+"29","13722.58cfa830e4b0c9d6adf6bd5c","COAD","Colon Adenocarcinoma",16
+"30","13722.58cfa830e4b0c9d6adf6be4c","READ","Rectum Adenocarcinoma",11
+"31","13722.58cfa830e4b0c9d6adf6be92","READ","Rectum Adenocarcinoma",14
+"32","13722.58cfa830e4b0c9d6adf6be9f","READ","Rectum Adenocarcinoma",10
+"33","13722.58cfa830e4b0c9d6adf6c052","KIRC","Kidney Renal Clear Cell Carcinoma",23
+"34","13722.58cfa830e4b0c9d6adf6c07e","KIRP","Kidney Renal Papillary Cell Carcinoma",15
+"35","13722.58cfa830e4b0c9d6adf6c149","HNSC","Head and Neck Squamous Cell Carcinoma",22
+"36","13722.58cfa831e4b0c9d6adf6c490","KIRC","Kidney Renal Clear Cell Carcinoma",21
+"37","13722.58cfa831e4b0c9d6adf6c6ee","HNSC","Head and Neck Squamous Cell Carcinoma",12
+"38","13722.58cfa831e4b0c9d6adf6c845","HNSC","Head and Neck Squamous Cell Carcinoma",21
+"39","13722.58cfa832e4b0c9d6adf6d2dc","KICH","Kidney Chromophobe",11
+"40","13722.58cfa832e4b0c9d6adf6d326","KICH","Kidney Chromophobe",14
+"41","13722.58cfa82fe4b0c9d6adf6b8d8","COAD","Colon Adenocarcinoma",18
+"42","13722.58cfa82fe4b0c9d6adf6b961","COAD","Colon Adenocarcinoma",25
+"43","13722.58cfa82fe4b0c9d6adf6b9e0","COAD","Colon Adenocarcinoma",21
+"44","13722.58cfa82fe4b0c9d6adf6b920","KIRP","Kidney Renal Papillary Cell Carcinoma",14
+"45","13722.58cfa830e4b0c9d6adf6ba9e","COAD","Colon Adenocarcinoma",16
+"46","13722.58cfa830e4b0c9d6adf6bad6","COAD","Colon Adenocarcinoma",14
+"47","13722.58cfa82fe4b0c9d6adf6ba26","KIRC","Kidney Renal Clear Cell Carcinoma",19
+"48","13722.58cfa830e4b0c9d6adf6bb79","COAD","Colon Adenocarcinoma",21
+"49","13722.58cfa830e4b0c9d6adf6bb82","KIRC","Kidney Renal Clear Cell Carcinoma",17
+"50","13722.58cfa830e4b0c9d6adf6bbc0","READ","Rectum Adenocarcinoma",11
+"51","13722.58cfa830e4b0c9d6adf6ba74","COAD","Colon Adenocarcinoma",14
+"52","13722.58cfa830e4b0c9d6adf6bcb5","COAD","Colon Adenocarcinoma",7
+"53","13722.58cfa830e4b0c9d6adf6bc64","READ","Rectum Adenocarcinoma",18
+"54","13722.58cfa830e4b0c9d6adf6bcfc","COAD","Colon Adenocarcinoma",15
+"55","13722.58cfa830e4b0c9d6adf6bd38","COAD","Colon Adenocarcinoma",16
+"56","13722.58cfa830e4b0c9d6adf6c046","KIRC","Kidney Renal Clear Cell Carcinoma",23
+"57","13722.58cfa830e4b0c9d6adf6c020","KIRP","Kidney Renal Papillary Cell Carcinoma",8
+"58","13722.58cfa830e4b0c9d6adf6c13e","KIRP","Kidney Renal Papillary Cell Carcinoma",12
+"59","13722.58cfa831e4b0c9d6adf6c430","KIRC","Kidney Renal Clear Cell Carcinoma",15
+"60","13722.58cfa831e4b0c9d6adf6c41a","KIRC","Kidney Renal Clear Cell Carcinoma",19
+"61","13722.58cfa831e4b0c9d6adf6c608","HNSC","Head and Neck Squamous Cell Carcinoma",25
+"62","13722.58cfa831e4b0c9d6adf6c682","HNSC","Head and Neck Squamous Cell Carcinoma",9
+"63","13722.58cfa830e4b0c9d6adf6c2a3","KIRP","Kidney Renal Papillary Cell Carcinoma",14
+"64","13722.58cfa831e4b0c9d6adf6c6b2","HNSC","Head and Neck Squamous Cell Carcinoma",10
+"65","13722.58cfa831e4b0c9d6adf6c456","COAD","Colon Adenocarcinoma",17
+"66","13722.58cfa831e4b0c9d6adf6c79a","HNSC","Head and Neck Squamous Cell Carcinoma",11
+"67","13722.58cfa831e4b0c9d6adf6c78f","KIRC","Kidney Renal Clear Cell Carcinoma",20
+"68","13722.58cfa831e4b0c9d6adf6c81d","HNSC","Head and Neck Squamous Cell Carcinoma",7
+"69","13722.58cfa831e4b0c9d6adf6c88e","COAD","Colon Adenocarcinoma",14
+"70","13722.58cfa831e4b0c9d6adf6c966","HNSC","Head and Neck Squamous Cell Carcinoma",11
+"71","13722.58cfa831e4b0c9d6adf6c83b","HNSC","Head and Neck Squamous Cell Carcinoma",16
+"72","13722.58cfa831e4b0c9d6adf6ccb4","READ","Rectum Adenocarcinoma",11
+"73","13722.58cfa831e4b0c9d6adf6cd6e","READ","Rectum Adenocarcinoma",7
+"74","13722.58cfa832e4b0c9d6adf6d2bd","KICH","Kidney Chromophobe",9
+"75","13722.58cfa832e4b0c9d6adf6d2f5","KICH","Kidney Chromophobe",14
+"76","13722.58cfa832e4b0c9d6adf6d300","KICH","Kidney Chromophobe",12
+"77","13722.58cfa832e4b0c9d6adf6d319","KICH","Kidney Chromophobe",14
+"78","13722.58cfa832e4b0c9d6adf6d31d","KICH","Kidney Chromophobe",20
+"79","13722.58cfa832e4b0c9d6adf6d36c","KICH","Kidney Chromophobe",24
+"80","13722.58cfa832e4b0c9d6adf6d3c2","KICH","Kidney Chromophobe",15
+"81","13722.58cfa832e4b0c9d6adf6d3d3","KICH","Kidney Chromophobe",9
+"82","13722.58cfa832e4b0c9d6adf6d394","KICH","Kidney Chromophobe",10
+"83","13722.58cfa832e4b0c9d6adf6d356","KICH","Kidney Chromophobe",14
+"84","13722.58cfa831e4b0c9d6adf6c7c6","KIRC","Kidney Renal Clear Cell Carcinoma",19
+"85","13722.58cfa831e4b0c9d6adf6c7e1","HNSC","Head and Neck Squamous Cell Carcinoma",11
+"86","13722.58cfa832e4b0c9d6adf6d33e","KICH","Kidney Chromophobe",27
+"87","13722.58cfa82fe4b0c9d6adf6ba06","COAD","Colon Adenocarcinoma",19
+"88","13722.58cfa830e4b0c9d6adf6baa2","COAD","Colon Adenocarcinoma",17
+"89","13722.58cfa830e4b0c9d6adf6bc11","READ","Rectum Adenocarcinoma",20
+"90","13722.58cfa830e4b0c9d6adf6bc84","READ","Rectum Adenocarcinoma",17
+"91","13722.58cfa830e4b0c9d6adf6bbdd","READ","Rectum Adenocarcinoma",14
+"92","13722.58cfa830e4b0c9d6adf6be46","READ","Rectum Adenocarcinoma",9
+"93","13722.58cfa82ee4b0c9d6adf6af7c","OV","Ovarian Serous Cystadenocarcinoma",15
+"94","13722.58cfa82ee4b0c9d6adf6b197","OV","Ovarian Serous Cystadenocarcinoma",18
+"95","13722.58cfa82fe4b0c9d6adf6b384","OV","Ovarian Serous Cystadenocarcinoma",11
+"96","13722.58cfa82fe4b0c9d6adf6b2be","OV","Ovarian Serous Cystadenocarcinoma",18
+"97","13722.58cfa82fe4b0c9d6adf6b3fa","OV","Ovarian Serous Cystadenocarcinoma",25
+"98","13722.58cfa82fe4b0c9d6adf6b541","OV","Ovarian Serous Cystadenocarcinoma",19
+"99","13722.58cfa82fe4b0c9d6adf6b3de","OV","Ovarian Serous Cystadenocarcinoma",22
+"100","13722.58cfa82fe4b0c9d6adf6b8ca","KIRP","Kidney Renal Papillary Cell Carcinoma",15
+"101","13722.58cfa82fe4b0c9d6adf6b92e","KIRP","Kidney Renal Papillary Cell Carcinoma",7
+"102","13722.58cfa830e4b0c9d6adf6bb02","COAD","Colon Adenocarcinoma",12
+"103","13722.58cfa82fe4b0c9d6adf6b80a","OV","Ovarian Serous Cystadenocarcinoma",21
+"104","13722.58cfa82fe4b0c9d6adf6b8e1","COAD","Colon Adenocarcinoma",9
+"105","13722.58cfa82fe4b0c9d6adf6ba25","KIRC","Kidney Renal Clear Cell Carcinoma",11
+"106","13722.58cfa830e4b0c9d6adf6bb0d","COAD","Colon Adenocarcinoma",25
+"107","13722.58cfa830e4b0c9d6adf6bdba","LIHC","Liver Hepatocellular Carcinoma",14
+"108","13722.58cfa830e4b0c9d6adf6be71","KIRC","Kidney Renal Clear Cell Carcinoma",16
+"109","13722.58cfa830e4b0c9d6adf6bcb3","KIRC","Kidney Renal Clear Cell Carcinoma",16
+"110","13722.58cfa830e4b0c9d6adf6becd","KIRP","Kidney Renal Papillary Cell Carcinoma",19
+"111","13722.58cfa830e4b0c9d6adf6bf19","COAD","Colon Adenocarcinoma",16
+"112","13722.58cfa830e4b0c9d6adf6c000","KIRP","Kidney Renal Papillary Cell Carcinoma",15
+"113","13722.58cfa830e4b0c9d6adf6c140","HNSC","Head and Neck Squamous Cell Carcinoma",25
+"114","13722.58cfa830e4b0c9d6adf6c00e","KIRP","Kidney Renal Papillary Cell Carcinoma",16
+"115","13722.58cfa830e4b0c9d6adf6c14b","KIRP","Kidney Renal Papillary Cell Carcinoma",18
+"116","13722.58cfa830e4b0c9d6adf6c14d","HNSC","Head and Neck Squamous Cell Carcinoma",12
+"117","13722.58cfa830e4b0c9d6adf6c048","KIRP","Kidney Renal Papillary Cell Carcinoma",20
+"118","13722.58cfa830e4b0c9d6adf6bc5e","KIRP","Kidney Renal Papillary Cell Carcinoma",21
+"119","13722.58cfa830e4b0c9d6adf6c1c8","LIHC","Liver Hepatocellular Carcinoma",15
+"120","13722.58cfa830e4b0c9d6adf6c178","KIRP","Kidney Renal Papillary Cell Carcinoma",14
+"121","13722.58cfa830e4b0c9d6adf6c1d6","LIHC","Liver Hepatocellular Carcinoma",23
+"122","13722.58cfa830e4b0c9d6adf6c2a2","KIRC","Kidney Renal Clear Cell Carcinoma",18
+"123","13722.58cfa830e4b0c9d6adf6c22e","HNSC","Head and Neck Squamous Cell Carcinoma",15
+"124","13722.58cfa831e4b0c9d6adf6c3b6","LIHC","Liver Hepatocellular Carcinoma",25
+"125","13722.58cfa831e4b0c9d6adf6c3a6","LIHC","Liver Hepatocellular Carcinoma",27
+"126","13722.58cfa831e4b0c9d6adf6c422","LIHC","Liver Hepatocellular Carcinoma",9
+"127","13722.58cfa831e4b0c9d6adf6c418","KIRC","Kidney Renal Clear Cell Carcinoma",9
+"128","13722.58cfa831e4b0c9d6adf6c43a","KIRC","Kidney Renal Clear Cell Carcinoma",10
+"129","13722.58cfa831e4b0c9d6adf6c45e","KIRC","Kidney Renal Clear Cell Carcinoma",22
+"130","13722.58cfa830e4b0c9d6adf6c1ae","KIRP","Kidney Renal Papillary Cell Carcinoma",25
+"131","13722.58cfa831e4b0c9d6adf6c612","HNSC","Head and Neck Squamous Cell Carcinoma",9
+"132","13722.58cfa831e4b0c9d6adf6c630","HNSC","Head and Neck Squamous Cell Carcinoma",12
+"133","13722.58cfa831e4b0c9d6adf6c66a","HNSC","Head and Neck Squamous Cell Carcinoma",19
+"134","13722.58cfa830e4b0c9d6adf6c2c4","COAD","Colon Adenocarcinoma",20
+"135","13722.58cfa831e4b0c9d6adf6c6c6","HNSC","Head and Neck Squamous Cell Carcinoma",23
+"136","13722.58cfa831e4b0c9d6adf6c7be","HNSC","Head and Neck Squamous Cell Carcinoma",20
+"137","13722.58cfa831e4b0c9d6adf6c89e","LIHC","Liver Hepatocellular Carcinoma",14
+"138","13722.58cfa831e4b0c9d6adf6c8a8","KIRC","Kidney Renal Clear Cell Carcinoma",9
+"139","13722.58cfa831e4b0c9d6adf6c89a","LIHC","Liver Hepatocellular Carcinoma",29
+"140","13722.58cfa831e4b0c9d6adf6c8e4","HNSC","Head and Neck Squamous Cell Carcinoma",18
+"141","13722.58cfa831e4b0c9d6adf6c8b8","LIHC","Liver Hepatocellular Carcinoma",20
+"142","13722.58cfa831e4b0c9d6adf6c934","LIHC","Liver Hepatocellular Carcinoma",18
+"143","13722.58cfa831e4b0c9d6adf6c9a2","LIHC","Liver Hepatocellular Carcinoma",15
+"144","13722.58cfa831e4b0c9d6adf6c903","LIHC","Liver Hepatocellular Carcinoma",19
+"145","13722.58cfa831e4b0c9d6adf6c8f4","HNSC","Head and Neck Squamous Cell Carcinoma",10
+"146","13722.58cfa831e4b0c9d6adf6c977","LIHC","Liver Hepatocellular Carcinoma",12
+"147","13722.58cfa831e4b0c9d6adf6c9a4","LIHC","Liver Hepatocellular Carcinoma",17
+"148","13722.58cfa831e4b0c9d6adf6c9bf","LIHC","Liver Hepatocellular Carcinoma",13
+"149","13722.58cfa831e4b0c9d6adf6ca2b","LIHC","Liver Hepatocellular Carcinoma",10
+"150","13722.58cfa831e4b0c9d6adf6c9f6","LIHC","Liver Hepatocellular Carcinoma",14
+"151","13722.58cfa831e4b0c9d6adf6ca23","LIHC","Liver Hepatocellular Carcinoma",26
+"152","13722.58cfa831e4b0c9d6adf6ca58","LIHC","Liver Hepatocellular Carcinoma",22
+"153","13722.58cfa831e4b0c9d6adf6ca63","HNSC","Head and Neck Squamous Cell Carcinoma",25
+"154","13722.58cfa831e4b0c9d6adf6cc3c","LIHC","Liver Hepatocellular Carcinoma",12
+"155","13722.58cfa831e4b0c9d6adf6cbe9","LIHC","Liver Hepatocellular Carcinoma",22
+"156","13722.58cfa831e4b0c9d6adf6cb2c","LIHC","Liver Hepatocellular Carcinoma",12
+"157","13722.58cfa831e4b0c9d6adf6cc1c","LIHC","Liver Hepatocellular Carcinoma",14
+"158","13722.58cfa832e4b0c9d6adf6ce00","LIHC","Liver Hepatocellular Carcinoma",22
+"159","13722.58cfa832e4b0c9d6adf6ce3a","LIHC","Liver Hepatocellular Carcinoma",10
+"160","13722.58cfa831e4b0c9d6adf6cd8d","DLBC","Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",18
+"161","13722.58cfa832e4b0c9d6adf6ce68","LIHC","Liver Hepatocellular Carcinoma",10
+"162","13722.58cfa832e4b0c9d6adf6ce70","LIHC","Liver Hepatocellular Carcinoma",13
+"163","13722.58cfa832e4b0c9d6adf6ce7e","LIHC","Liver Hepatocellular Carcinoma",13
+"164","13722.58cfa832e4b0c9d6adf6ce6c","LIHC","Liver Hepatocellular Carcinoma",16
+"165","13722.58cfa831e4b0c9d6adf6cc59","LIHC","Liver Hepatocellular Carcinoma",20
+"166","13722.58cfa832e4b0c9d6adf6ce7c","LIHC","Liver Hepatocellular Carcinoma",19
+"167","13722.58cfa832e4b0c9d6adf6cef0","DLBC","Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",15
+"168","13722.58cfa832e4b0c9d6adf6cefa","KIRP","Kidney Renal Papillary Cell Carcinoma",15
+"169","13722.58cfa832e4b0c9d6adf6ce62","LIHC","Liver Hepatocellular Carcinoma",19
+"170","13722.58cfa832e4b0c9d6adf6cf76","LIHC","Liver Hepatocellular Carcinoma",16
+"171","13722.58cfa832e4b0c9d6adf6d011","LIHC","Liver Hepatocellular Carcinoma",11
+"172","13722.58cfa832e4b0c9d6adf6d027","KIRP","Kidney Renal Papillary Cell Carcinoma",15
+"173","13722.58cfa832e4b0c9d6adf6d04c","KIRP","Kidney Renal Papillary Cell Carcinoma",11
+"174","13722.58cfa832e4b0c9d6adf6cfd2","KIRP","Kidney Renal Papillary Cell Carcinoma",22
+"175","13722.58cfa832e4b0c9d6adf6d029","KIRP","Kidney Renal Papillary Cell Carcinoma",9
+"176","13722.58cfa832e4b0c9d6adf6d0a2","KIRP","Kidney Renal Papillary Cell Carcinoma",21
+"177","13722.58cfa832e4b0c9d6adf6d11e","LIHC","Liver Hepatocellular Carcinoma",14
+"178","13722.58cfa832e4b0c9d6adf6d168","KICH","Kidney Chromophobe",11
+"179","13722.58cfa832e4b0c9d6adf6d164","KICH","Kidney Chromophobe",13
+"180","13722.58cfa832e4b0c9d6adf6d1b9","KIRP","Kidney Renal Papillary Cell Carcinoma",27
+"181","13722.58cfa832e4b0c9d6adf6d1c1","DLBC","Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",20
+"182","13722.58cfa832e4b0c9d6adf6d1ee","DLBC","Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",17
+"183","13722.58cfa832e4b0c9d6adf6d1f0","DLBC","Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",11
+"184","13722.58cfa832e4b0c9d6adf6d130","LIHC","Liver Hepatocellular Carcinoma",18
+"185","13722.58cfa832e4b0c9d6adf6d062","LIHC","Liver Hepatocellular Carcinoma",21
+"186","13722.58cfa832e4b0c9d6adf6d1f2","DLBC","Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",15
+"187","13722.58cfa832e4b0c9d6adf6d1b2","DLBC","Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",14
+"188","13722.58cfa832e4b0c9d6adf6d291","KICH","Kidney Chromophobe",14
+"189","13722.58cfa832e4b0c9d6adf6d2a0","KICH","Kidney Chromophobe",22
+"190","13722.58cfa832e4b0c9d6adf6d246","KIRP","Kidney Renal Papillary Cell Carcinoma",19
+"191","13722.58cfa832e4b0c9d6adf6d29d","KICH","Kidney Chromophobe",17
+"192","13722.58cfa832e4b0c9d6adf6d2b8","KICH","Kidney Chromophobe",15
+"193","13722.58cfa832e4b0c9d6adf6d2c4","KICH","Kidney Chromophobe",9
+"194","13722.58cfa832e4b0c9d6adf6d2b6","KICH","Kidney Chromophobe",21
+"195","13722.58cfa832e4b0c9d6adf6d2d0","KICH","Kidney Chromophobe",11
+"196","13722.58cfa832e4b0c9d6adf6d2da","KICH","Kidney Chromophobe",18
+"197","13722.58cfa832e4b0c9d6adf6d2e0","KICH","Kidney Chromophobe",28
+"198","13722.58cfa832e4b0c9d6adf6d2e6","KICH","Kidney Chromophobe",9
+"199","13722.58cfa832e4b0c9d6adf6d2e2","KICH","Kidney Chromophobe",16
+"200","13722.58cfa832e4b0c9d6adf6d2fa","KICH","Kidney Chromophobe",26
+"201","13722.58cfa832e4b0c9d6adf6d2fc","KICH","Kidney Chromophobe",8
+"202","13722.58cfa832e4b0c9d6adf6d320","KICH","Kidney Chromophobe",38
+"203","13722.58cfa832e4b0c9d6adf6d311","KICH","Kidney Chromophobe",9
+"204","13722.58cfa832e4b0c9d6adf6d30e","KICH","Kidney Chromophobe",9
+"205","13722.58cfa832e4b0c9d6adf6d317","KICH","Kidney Chromophobe",12
+"206","13722.58cfa832e4b0c9d6adf6d32e","KICH","Kidney Chromophobe",12
+"207","13722.58cfa832e4b0c9d6adf6d334","KICH","Kidney Chromophobe",22
+"208","13722.58cfa832e4b0c9d6adf6d354","KICH","Kidney Chromophobe",11
+"209","13722.58cfa832e4b0c9d6adf6d33a","KICH","Kidney Chromophobe",9
+"210","13722.58cfa832e4b0c9d6adf6d17e","HNSC","Head and Neck Squamous Cell Carcinoma",21
+"211","13722.58cfa832e4b0c9d6adf6d3ad","COAD","Colon Adenocarcinoma",5
+"212","13722.58cfa832e4b0c9d6adf6d448","COAD","Colon Adenocarcinoma",22
+"213","13722.58cfa832e4b0c9d6adf6d437","COAD","Colon Adenocarcinoma",27
+"214","13722.58cfa832e4b0c9d6adf6d51c","KICH","Kidney Chromophobe",12
+"215","13722.58cfa832e4b0c9d6adf6d4fc","KICH","Kidney Chromophobe",19
+"216","13722.58cfa832e4b0c9d6adf6d517","LIHC","Liver Hepatocellular Carcinoma",26
+"217","13722.58cfa832e4b0c9d6adf6d523","KICH","Kidney Chromophobe",34
+"218","13722.58cfa832e4b0c9d6adf6d59a","KIRP","Kidney Renal Papillary Cell Carcinoma",12
+"219","13722.58cfa832e4b0c9d6adf6d59c","KIRP","Kidney Renal Papillary Cell Carcinoma",22
+"220","13722.58cfa832e4b0c9d6adf6d470","COAD","Colon Adenocarcinoma",18
+"221","13722.58cfa832e4b0c9d6adf6d5a2","KIRP","Kidney Renal Papillary Cell Carcinoma",16
+"222","13722.58cfa832e4b0c9d6adf6d58e","LIHC","Liver Hepatocellular Carcinoma",23
+"223","13722.58cfa832e4b0c9d6adf6d5b8","KICH","Kidney Chromophobe",26
+"224","13722.58cfa832e4b0c9d6adf6d5af","KIRP","Kidney Renal Papillary Cell Carcinoma",24
+"225","13722.58cfa832e4b0c9d6adf6d2aa","KICH","Kidney Chromophobe",20
+"226","13722.58cfa832e4b0c9d6adf6d5ad","KIRP","Kidney Renal Papillary Cell Carcinoma",13
+"227","13722.58cfa82fe4b0c9d6adf6b58d","OV","Ovarian Serous Cystadenocarcinoma",130
+"228","13722.58cfa82fe4b0c9d6adf6b958","COAD","Colon Adenocarcinoma",108
+"229","13722.58cfa82ee4b0c9d6adf6b0e3","OV","Ovarian Serous Cystadenocarcinoma",118
+"230","13722.58cfa82fe4b0c9d6adf6b524","OV","Ovarian Serous Cystadenocarcinoma",104
+"231","13722.58cfa82fe4b0c9d6adf6b637","OV","Ovarian Serous Cystadenocarcinoma",96
+"232","13722.58cfa830e4b0c9d6adf6bb32","COAD","Colon Adenocarcinoma",115
+"233","13722.58cfa830e4b0c9d6adf6bc70","READ","Rectum Adenocarcinoma",107

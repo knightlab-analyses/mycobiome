@@ -1,0 +1,216 @@
+﻿id,investigation,disease_type,shannon
+13722.58cfa830e4b0c9d6adf6be66,TCGA-THCA,Thyroid Carcinoma,0.301561357
+13722.58cfa831e4b0c9d6adf6c7cb,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,0.67781572
+13722.58cfa831e4b0c9d6adf6c8ea,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,0.046663164
+13722.58cfa831e4b0c9d6adf6cb00,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.010583864
+13722.58cfa831e4b0c9d6adf6ccdf,TCGA-THCA,Thyroid Carcinoma,0.03214882
+13722.58cfa831e4b0c9d6adf6cd9c,TCGA-BLCA,Bladder Urothelial Carcinoma,0.046869129
+13722.58cfa832e4b0c9d6adf6ce58,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.002746053
+13722.58cfa832e4b0c9d6adf6ceac,TCGA-BLCA,Bladder Urothelial Carcinoma,0.066676624
+13722.58cfa832e4b0c9d6adf6cf7f,TCGA-BLCA,Bladder Urothelial Carcinoma,0.096707099
+13722.58cfa832e4b0c9d6adf6cfb8,TCGA-BLCA,Bladder Urothelial Carcinoma,0.041239281
+13722.58cfa832e4b0c9d6adf6d0d4,TCGA-THCA,Thyroid Carcinoma,0.060744587
+13722.58cfa832e4b0c9d6adf6d128,TCGA-BLCA,Bladder Urothelial Carcinoma,0.15555605
+13722.58cfa832e4b0c9d6adf6d1a4,TCGA-ESCA,Esophageal Carcinoma,0.015524472
+13722.58cfa832e4b0c9d6adf6d3d0,TCGA-ESCA,Esophageal Carcinoma,0.068927845
+13722.58cfa832e4b0c9d6adf6d578,TCGA-UVM,Uveal Melanoma,0.013329686
+13722.58cfa832e4b0c9d6adf6d57a,TCGA-ESCA,Esophageal Carcinoma,0.013329686
+13722.58cfa832e4b0c9d6adf6d5b4,TCGA-ESCA,Esophageal Carcinoma,1.431568147
+13722.58cfa832e4b0c9d6adf6d618,TCGA-ESCA,Esophageal Carcinoma,0.018421156
+13722.58cfa831e4b0c9d6adf6c710,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,0.024312395
+13722.58cfa831e4b0c9d6adf6c737,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,0.021566804
+13722.58cfa831e4b0c9d6adf6c76c,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,0.047820107
+13722.58cfa831e4b0c9d6adf6c757,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,0.063491996
+13722.58cfa831e4b0c9d6adf6cb0e,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.002746053
+13722.58cfa831e4b0c9d6adf6ccf8,TCGA-BLCA,Bladder Urothelial Carcinoma,0.04508981
+13722.58cfa832e4b0c9d6adf6ce60,TCGA-BLCA,Bladder Urothelial Carcinoma,0.094161506
+13722.58cfa832e4b0c9d6adf6ceed,TCGA-THCA,Thyroid Carcinoma,0.028203402
+13722.58cfa832e4b0c9d6adf6cfd8,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.002746053
+13722.58cfa832e4b0c9d6adf6cff0,TCGA-BLCA,Bladder Urothelial Carcinoma,0.052955951
+13722.58cfa832e4b0c9d6adf6d058,TCGA-ESCA,Esophageal Carcinoma,0.008237985
+13722.58cfa832e4b0c9d6adf6d116,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.013729686
+13722.58cfa832e4b0c9d6adf6d16e,TCGA-ESCA,Esophageal Carcinoma,0.010983864
+13722.58cfa832e4b0c9d6adf6d3cd,TCGA-ESCA,Esophageal Carcinoma,1.453312928
+13722.58cfa832e4b0c9d6adf6d35e,TCGA-ESCA,Esophageal Carcinoma,1.248331027
+13722.58cfa832e4b0c9d6adf6d407,TCGA-UVM,Uveal Melanoma,0.005492048
+13722.58cfa832e4b0c9d6adf6d630,TCGA-ESCA,Esophageal Carcinoma,0.021166804
+13722.58cfa832e4b0c9d6adf6d545,TCGA-ESCA,Esophageal Carcinoma,0.547752004
+13722.58cfa832e4b0c9d6adf6d602,TCGA-ESCA,Esophageal Carcinoma,1.474051359
+13722.58cfa830e4b0c9d6adf6c2d8,TCGA-BLCA,Bladder Urothelial Carcinoma,0.133772356
+13722.58cfa831e4b0c9d6adf6c50c,TCGA-BLCA,Bladder Urothelial Carcinoma,0.139711224
+13722.58cfa831e4b0c9d6adf6c610,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,0.008237985
+13722.58cfa831e4b0c9d6adf6c819,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,0.041573082
+13722.58cfa831e4b0c9d6adf6c8bc,TCGA-BLCA,Bladder Urothelial Carcinoma,0.0800304
+13722.58cfa831e4b0c9d6adf6c8c2,TCGA-BLCA,Bladder Urothelial Carcinoma,0.100746498
+13722.58cfa831e4b0c9d6adf6c9b5,TCGA-BLCA,Bladder Urothelial Carcinoma,0.056877879
+13722.58cfa831e4b0c9d6adf6c9d5,TCGA-BLCA,Bladder Urothelial Carcinoma,0.050814141
+13722.58cfa831e4b0c9d6adf6cb17,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.005492048
+13722.58cfa831e4b0c9d6adf6cd50,TCGA-BLCA,Bladder Urothelial Carcinoma,0.062981041
+13722.58cfa831e4b0c9d6adf6cdc5,TCGA-BLCA,Bladder Urothelial Carcinoma,0.08732466
+13722.58cfa832e4b0c9d6adf6ce0f,TCGA-BLCA,Bladder Urothelial Carcinoma,0.029803402
+13722.58cfa832e4b0c9d6adf6ce18,TCGA-BLCA,Bladder Urothelial Carcinoma,0.058822659
+13722.58cfa832e4b0c9d6adf6cf1a,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,0.005492048
+13722.58cfa832e4b0c9d6adf6d0ac,TCGA-ESCA,Esophageal Carcinoma,1.496580641
+13722.58cfa832e4b0c9d6adf6d12e,TCGA-BLCA,Bladder Urothelial Carcinoma,0.039616197
+13722.58cfa832e4b0c9d6adf6d158,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.018821156
+13722.58cfa832e4b0c9d6adf6d034,TCGA-BLCA,Bladder Urothelial Carcinoma,0.134992106
+13722.58cfa832e4b0c9d6adf6d170,TCGA-THCA,Thyroid Carcinoma,0.05641429
+13722.58cfa832e4b0c9d6adf6d655,TCGA-ESCA,Esophageal Carcinoma,0.864993723
+13722.58cfa82fe4b0c9d6adf6b8e2,TCGA-BRCA,Breast Invasive Carcinoma,1.27859151
+13722.58cfa830e4b0c9d6adf6be78,TCGA-BLCA,Bladder Urothelial Carcinoma,0.057891654
+13722.58cfa831e4b0c9d6adf6c3cb,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.008237985
+13722.58cfa831e4b0c9d6adf6c4d0,TCGA-BLCA,Bladder Urothelial Carcinoma,0.033372251
+13722.58cfa831e4b0c9d6adf6c87c,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,0.045347201
+13722.58cfa831e4b0c9d6adf6c8b0,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,0.281809244
+13722.58cfa831e4b0c9d6adf6cb1a,TCGA-BLCA,Bladder Urothelial Carcinoma,0.040384724
+13722.58cfa831e4b0c9d6adf6cc87,TCGA-THCA,Thyroid Carcinoma,0.060022659
+13722.58cfa831e4b0c9d6adf6cd12,TCGA-BLCA,Bladder Urothelial Carcinoma,0.034937525
+13722.58cfa831e4b0c9d6adf6cd1e,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.005492048
+13722.58cfa831e4b0c9d6adf6cd64,TCGA-BLCA,Bladder Urothelial Carcinoma,0.049051059
+13722.58cfa831e4b0c9d6adf6cd7e,TCGA-THCA,Thyroid Carcinoma,0.044275037
+13722.58cfa831e4b0c9d6adf6cd90,TCGA-THCA,Thyroid Carcinoma,0.024312395
+13722.58cfa832e4b0c9d6adf6cef7,TCGA-ESCA,Esophageal Carcinoma,0.014573495
+13722.58cfa832e4b0c9d6adf6ce5a,TCGA-BLCA,Bladder Urothelial Carcinoma,0.053324672
+13722.58cfa832e4b0c9d6adf6cefe,TCGA-THCA,Thyroid Carcinoma,0.042178932
+13722.58cfa832e4b0c9d6adf6cfa8,TCGA-BLCA,Bladder Urothelial Carcinoma,0.059491654
+13722.58cfa832e4b0c9d6adf6d020,TCGA-BLCA,Bladder Urothelial Carcinoma,0.041825273
+13722.58cfa832e4b0c9d6adf6d40e,TCGA-UVM,Uveal Melanoma,0.010983864
+13722.58cfa832e4b0c9d6adf6d478,TCGA-UVM,Uveal Melanoma,0.018021156
+13722.58cfa832e4b0c9d6adf6d40a,TCGA-UVM,Uveal Melanoma,0.005492048
+13722.58cfa832e4b0c9d6adf6d4da,TCGA-UVM,Uveal Melanoma,0.010583864
+13722.58cfa831e4b0c9d6adf6cd16,TCGA-BLCA,Bladder Urothelial Carcinoma,0.068515261
+13722.58cfa831e4b0c9d6adf6c4d6,TCGA-BLCA,Bladder Urothelial Carcinoma,0.121388245
+13722.58cfa831e4b0c9d6adf6c5f0,TCGA-STAD,Stomach Adenocarcinoma,0.023361417
+13722.58cfa831e4b0c9d6adf6c655,TCGA-STAD,Stomach Adenocarcinoma,0.02570695
+13722.58cfa832e4b0c9d6adf6cf6a,TCGA-BLCA,Bladder Urothelial Carcinoma,0.198741432
+13722.58cfa832e4b0c9d6adf6d160,TCGA-ESCA,Esophageal Carcinoma,0.008237985
+13722.58cfa832e4b0c9d6adf6d3ee,TCGA-UVM,Uveal Melanoma,0.005492048
+13722.58cfa832e4b0c9d6adf6d3bc,TCGA-ESCA,Esophageal Carcinoma,0.166847174
+13722.58cfa832e4b0c9d6adf6d42e,TCGA-UVM,Uveal Melanoma,0.007837985
+13722.58cfa832e4b0c9d6adf6d4b4,TCGA-UVM,Uveal Melanoma,0.010983864
+13722.58cfa832e4b0c9d6adf6d514,TCGA-UVM,Uveal Melanoma,0.010583864
+13722.58cfa832e4b0c9d6adf6d4fe,TCGA-ESCA,Esophageal Carcinoma,0.008237985
+13722.58cfa832e4b0c9d6adf6d5d7,TCGA-ESCA,Esophageal Carcinoma,0.22588217
+13722.58cfa832e4b0c9d6adf6d5cc,TCGA-ESCA,Esophageal Carcinoma,0.272490672
+13722.58cfa832e4b0c9d6adf6d5d0,TCGA-ESCA,Esophageal Carcinoma,0.020766804
+13722.58cfa832e4b0c9d6adf6d608,TCGA-ESCA,Esophageal Carcinoma,0.005092048
+13722.58cfa832e4b0c9d6adf6d84d,TCGA-ESCA,Esophageal Carcinoma,0.029403402
+13722.58cfa832e4b0c9d6adf6d5e3,TCGA-ESCA,Esophageal Carcinoma,0.056281206
+13722.58cfa831e4b0c9d6adf6c3d4,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.005492048
+13722.58cfa831e4b0c9d6adf6c4d2,TCGA-BLCA,Bladder Urothelial Carcinoma,0.052172466
+13722.58cfa831e4b0c9d6adf6c62c,TCGA-STAD,Stomach Adenocarcinoma,0.031395624
+13722.58cfa831e4b0c9d6adf6c6c3,TCGA-BLCA,Bladder Urothelial Carcinoma,0.290084258
+13722.58cfa831e4b0c9d6adf6c7ce,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,0.562797642
+13722.58cfa831e4b0c9d6adf6c8e0,TCGA-BLCA,Bladder Urothelial Carcinoma,0.068656651
+13722.58cfa831e4b0c9d6adf6c958,TCGA-BLCA,Bladder Urothelial Carcinoma,0.1078671
+13722.58cfa831e4b0c9d6adf6c99c,TCGA-BLCA,Bladder Urothelial Carcinoma,0.141481913
+13722.58cfa831e4b0c9d6adf6c9ce,TCGA-BLCA,Bladder Urothelial Carcinoma,0.09879306
+13722.58cfa831e4b0c9d6adf6cb30,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.012778708
+13722.58cfa832e4b0c9d6adf6ce0e,TCGA-BLCA,Bladder Urothelial Carcinoma,0.059889309
+13722.58cfa832e4b0c9d6adf6cfc9,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.005492048
+13722.58cfa832e4b0c9d6adf6cfe8,TCGA-BLCA,Bladder Urothelial Carcinoma,1.440893776
+13722.58cfa832e4b0c9d6adf6d0e2,TCGA-ESCA,Esophageal Carcinoma,0.266556045
+13722.58cfa832e4b0c9d6adf6d126,TCGA-THCA,Thyroid Carcinoma,0.042578932
+13722.58cfa832e4b0c9d6adf6d196,TCGA-BLCA,Bladder Urothelial Carcinoma,0.046965119
+13722.58cfa832e4b0c9d6adf6d2a6,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.012929686
+13722.58cfa832e4b0c9d6adf6d362,TCGA-ESCA,Esophageal Carcinoma,0.018821156
+13722.58cfa832e4b0c9d6adf6d388,TCGA-ESCA,Esophageal Carcinoma,0.010983864
+13722.58cfa832e4b0c9d6adf6d386,TCGA-ESCA,Esophageal Carcinoma,0.903336909
+13722.58cfa832e4b0c9d6adf6d418,TCGA-UVM,Uveal Melanoma,0.013329686
+13722.58cfa832e4b0c9d6adf6d474,TCGA-UVM,Uveal Melanoma,0.010983864
+13722.58cfa832e4b0c9d6adf6d416,TCGA-UVM,Uveal Melanoma,0.008237985
+13722.58cfa832e4b0c9d6adf6d4aa,TCGA-UVM,Uveal Melanoma,0.002746053
+13722.58cfa832e4b0c9d6adf6d426,TCGA-UVM,Uveal Melanoma,0.018421156
+13722.58cfa832e4b0c9d6adf6d4a6,TCGA-UVM,Uveal Melanoma,0.012929686
+13722.58cfa832e4b0c9d6adf6d4c6,TCGA-UVM,Uveal Melanoma,0.010983864
+13722.58cfa832e4b0c9d6adf6d4ca,TCGA-UVM,Uveal Melanoma,0.010583864
+13722.58cfa832e4b0c9d6adf6d54e,TCGA-ESCA,Esophageal Carcinoma,0.020766804
+13722.58cfa832e4b0c9d6adf6d528,TCGA-ESCA,Esophageal Carcinoma,0.021990467
+13722.58cfa832e4b0c9d6adf6d4f8,TCGA-ESCA,Esophageal Carcinoma,0.012929686
+13722.58cfa832e4b0c9d6adf6d5a8,TCGA-ESCA,Esophageal Carcinoma,0.291783021
+13722.58cfa832e4b0c9d6adf6d4fa,TCGA-ESCA,Esophageal Carcinoma,0.005492048
+13722.58cfa832e4b0c9d6adf6d5f8,TCGA-ESCA,Esophageal Carcinoma,0.203687827
+13722.58cfa831e4b0c9d6adf6c4e4,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.010583864
+13722.58cfa831e4b0c9d6adf6c63a,TCGA-STAD,Stomach Adenocarcinoma,0.012929686
+13722.58cfa831e4b0c9d6adf6c68f,TCGA-BLCA,Bladder Urothelial Carcinoma,0.107046934
+13722.58cfa831e4b0c9d6adf6c741,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,0.107574677
+13722.58cfa831e4b0c9d6adf6c830,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,0.044353109
+13722.58cfa831e4b0c9d6adf6c8ba,TCGA-BLCA,Bladder Urothelial Carcinoma,0.182316085
+13722.58cfa831e4b0c9d6adf6c9e6,TCGA-BLCA,Bladder Urothelial Carcinoma,0.051408118
+13722.58cfa831e4b0c9d6adf6ca0f,TCGA-BLCA,Bladder Urothelial Carcinoma,0.07401205
+13722.58cfa831e4b0c9d6adf6caf8,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.027481474
+13722.58cfa831e4b0c9d6adf6cb28,TCGA-BLCA,Bladder Urothelial Carcinoma,0.037088503
+13722.58cfa831e4b0c9d6adf6cc1e,TCGA-THCA,Thyroid Carcinoma,0.060399807
+13722.58cfa831e4b0c9d6adf6cc63,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.013329686
+13722.58cfa831e4b0c9d6adf6cc3e,TCGA-THCA,Thyroid Carcinoma,0.07311664
+13722.58cfa831e4b0c9d6adf6cc9c,TCGA-BLCA,Bladder Urothelial Carcinoma,0.049443191
+13722.58cfa831e4b0c9d6adf6ccd2,TCGA-THCA,Thyroid Carcinoma,0.050014141
+13722.58cfa832e4b0c9d6adf6d11f,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.008237985
+13722.58cfa832e4b0c9d6adf6d190,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.030821273
+13722.58cfa832e4b0c9d6adf6d19c,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.019221156
+13722.58cfa832e4b0c9d6adf6d19a,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.010583864
+13722.58cfa832e4b0c9d6adf6d1f4,TCGA-ESCA,Esophageal Carcinoma,0.020615827
+13722.58cfa832e4b0c9d6adf6d222,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.005492048
+13722.58cfa832e4b0c9d6adf6d322,TCGA-ESCA,Esophageal Carcinoma,0.185857903
+13722.58cfa832e4b0c9d6adf6d37a,TCGA-ESCA,Esophageal Carcinoma,0.065746911
+13722.58cfa832e4b0c9d6adf6d3ea,TCGA-UVM,Uveal Melanoma,0.020766804
+13722.58cfa832e4b0c9d6adf6d1fa,TCGA-BLCA,Bladder Urothelial Carcinoma,1.06396058
+13722.58cfa832e4b0c9d6adf6d414,TCGA-UVM,Uveal Melanoma,0.01607545
+13722.58cfa832e4b0c9d6adf6d4be,TCGA-UVM,Uveal Melanoma,0.013729686
+13722.58cfa832e4b0c9d6adf6d498,TCGA-UVM,Uveal Melanoma,0.005492048
+13722.58cfa832e4b0c9d6adf6d4a7,TCGA-UVM,Uveal Melanoma,0.008237985
+13722.58cfa832e4b0c9d6adf6d55a,TCGA-ESCA,Esophageal Carcinoma,0.013329686
+13722.58cfa832e4b0c9d6adf6d4a2,TCGA-UVM,Uveal Melanoma,0.005492048
+13722.58cfa832e4b0c9d6adf6d4dc,TCGA-UVM,Uveal Melanoma,0
+13722.58cfa831e4b0c9d6adf6c42c,TCGA-BLCA,Bladder Urothelial Carcinoma,0.292447438
+13722.58cfa832e4b0c9d6adf6ce19,TCGA-BLCA,Bladder Urothelial Carcinoma,1.020622599
+13722.58cfa832e4b0c9d6adf6d3f0,TCGA-UVM,Uveal Melanoma,0.065478419
+13722.58cfa832e4b0c9d6adf6d3d7,TCGA-UVM,Uveal Melanoma,0.013729686
+13722.58cfa832e4b0c9d6adf6d400,TCGA-UVM,Uveal Melanoma,0.028452425
+13722.58cfa832e4b0c9d6adf6d4f4,TCGA-UVM,Uveal Melanoma,0.030163882
+13722.58cfa832e4b0c9d6adf6d582,TCGA-UVM,Uveal Melanoma,0.020766804
+13722.58cfa832e4b0c9d6adf6d586,TCGA-UVM,Uveal Melanoma,0.010983864
+13722.58cfa832e4b0c9d6adf6d590,TCGA-UVM,Uveal Melanoma,0.005492048
+13722.58cfa832e4b0c9d6adf6d61a,TCGA-ESCA,Esophageal Carcinoma,0.022312395
+13722.58cfa831e4b0c9d6adf6c4ac,TCGA-BLCA,Bladder Urothelial Carcinoma,0.108056559
+13722.58cfa831e4b0c9d6adf6c6b6,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,0.417836795
+13722.58cfa831e4b0c9d6adf6c7da,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,0.034894179
+13722.58cfa831e4b0c9d6adf6c828,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,0.448466452
+13722.58cfa831e4b0c9d6adf6c837,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,0.200011899
+13722.58cfa831e4b0c9d6adf6cae0,TCGA-THCA,Thyroid Carcinoma,0.104638749
+13722.58cfa832e4b0c9d6adf6ce0c,TCGA-BLCA,Bladder Urothelial Carcinoma,0.201759373
+13722.58cfa832e4b0c9d6adf6ce9c,TCGA-BLCA,Bladder Urothelial Carcinoma,0.024712395
+13722.58cfa832e4b0c9d6adf6cfe0,TCGA-BLCA,Bladder Urothelial Carcinoma,0.045898179
+13722.58cfa832e4b0c9d6adf6d134,TCGA-BLCA,Bladder Urothelial Carcinoma,0.057544587
+13722.58cfa832e4b0c9d6adf6d254,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.008237985
+13722.58cfa832e4b0c9d6adf6d269,TCGA-BLCA,Bladder Urothelial Carcinoma,0.023912395
+13722.58cfa832e4b0c9d6adf6d490,TCGA-UVM,Uveal Melanoma,0.027057928
+13722.58cfa830e4b0c9d6adf6bf87,TCGA-THCA,Thyroid Carcinoma,0.056054969
+13722.58cfa830e4b0c9d6adf6c266,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.010983864
+13722.58cfa831e4b0c9d6adf6c47a,TCGA-BLCA,Bladder Urothelial Carcinoma,0.06601205
+13722.58cfa831e4b0c9d6adf6c6c8,TCGA-BLCA,Bladder Urothelial Carcinoma,0.123288298
+13722.58cfa831e4b0c9d6adf6c772,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,0.113117935
+13722.58cfa831e4b0c9d6adf6c8e6,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,0.048263164
+13722.58cfa831e4b0c9d6adf6c8de,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,0.005492048
+13722.58cfa831e4b0c9d6adf6cb12,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.005492048
+13722.58cfa831e4b0c9d6adf6cbbe,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.010583864
+13722.58cfa831e4b0c9d6adf6cbb4,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.007837985
+13722.58cfa831e4b0c9d6adf6cbf1,TCGA-THCA,Thyroid Carcinoma,0.091531248
+13722.58cfa831e4b0c9d6adf6cc80,TCGA-THCA,Thyroid Carcinoma,0.110548958
+13722.58cfa832e4b0c9d6adf6cdfc,TCGA-BLCA,Bladder Urothelial Carcinoma,0.052124672
+13722.58cfa832e4b0c9d6adf6ce63,TCGA-BLCA,Bladder Urothelial Carcinoma,0.068610775
+13722.58cfa832e4b0c9d6adf6ce8b,TCGA-THCA,Thyroid Carcinoma,0.082564721
+13722.58cfa832e4b0c9d6adf6ce99,TCGA-THCA,Thyroid Carcinoma,0.173637467
+13722.58cfa832e4b0c9d6adf6cee4,TCGA-THCA,Thyroid Carcinoma,0.22084748
+13722.58cfa832e4b0c9d6adf6cf9f,TCGA-THCA,Thyroid Carcinoma,0.09760737
+13722.58cfa832e4b0c9d6adf6d024,TCGA-BLCA,Bladder Urothelial Carcinoma,0.01647545
+13722.58cfa832e4b0c9d6adf6d042,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.010583864
+13722.58cfa832e4b0c9d6adf6d026,TCGA-BLCA,Bladder Urothelial Carcinoma,0.174988933
+13722.58cfa832e4b0c9d6adf6d132,TCGA-THCA,Thyroid Carcinoma,0.028203402
+13722.58cfa832e4b0c9d6adf6d191,TCGA-THCA,Thyroid Carcinoma,0.03294882
+13722.58cfa832e4b0c9d6adf6d3e3,TCGA-UVM,Uveal Melanoma,0.005492048
+13722.58cfa832e4b0c9d6adf6d49c,TCGA-UVM,Uveal Melanoma,0.010183864
+13722.58cfa832e4b0c9d6adf6d412,TCGA-UVM,Uveal Melanoma,0.01647545
+13722.58cfa832e4b0c9d6adf6d4e5,TCGA-UVM,Uveal Melanoma,0.002746053
+13722.58cfa832e4b0c9d6adf6d4cc,TCGA-UVM,Uveal Melanoma,0.013329686
+13722.58cfa831e4b0c9d6adf6ca5a,TCGA-BLCA,Bladder Urothelial Carcinoma,0.027652425

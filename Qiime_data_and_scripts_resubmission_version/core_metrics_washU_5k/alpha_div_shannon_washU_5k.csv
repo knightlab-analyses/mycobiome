@@ -1,0 +1,146 @@
+﻿id,investigation,disease_type,shannon
+13722.58cfa82de4b0c9d6adf6a4c2,TCGA-BRCA,Breast Invasive Carcinoma,0.086264728
+13722.58cfa82de4b0c9d6adf6a4ce,TCGA-BRCA,Breast Invasive Carcinoma,0.396593851
+13722.58cfa82de4b0c9d6adf6a48a,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.922802124
+13722.58cfa82de4b0c9d6adf6a4d4,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.78752051
+13722.58cfa82de4b0c9d6adf6a529,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.248907397
+13722.58cfa82de4b0c9d6adf6a46d,TCGA-BRCA,Breast Invasive Carcinoma,0.412115851
+13722.58cfa82de4b0c9d6adf6a52c,TCGA-BRCA,Breast Invasive Carcinoma,1.006614485
+13722.58cfa82de4b0c9d6adf6a542,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.539885868
+13722.58cfa82de4b0c9d6adf6a59b,TCGA-BRCA,Breast Invasive Carcinoma,0.043196224
+13722.58cfa82de4b0c9d6adf6a548,TCGA-BRCA,Breast Invasive Carcinoma,0.633056401
+13722.58cfa82de4b0c9d6adf6a5a6,TCGA-SARC,Sarcoma,0.221992481
+13722.58cfa82de4b0c9d6adf6a59d,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.464356659
+13722.58cfa82de4b0c9d6adf6a546,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.605217676
+13722.58cfa82de4b0c9d6adf6a572,TCGA-BRCA,Breast Invasive Carcinoma,0.135807954
+13722.58cfa82de4b0c9d6adf6a5f2,TCGA-BRCA,Breast Invasive Carcinoma,0.055587354
+13722.58cfa82de4b0c9d6adf6a656,TCGA-BRCA,Breast Invasive Carcinoma,0.140026332
+13722.58cfa82de4b0c9d6adf6a610,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.17980911
+13722.58cfa82de4b0c9d6adf6a624,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.523137208
+13722.58cfa82de4b0c9d6adf6a60e,TCGA-BRCA,Breast Invasive Carcinoma,0.298287196
+13722.58cfa82de4b0c9d6adf6a676,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.444503293
+13722.58cfa82de4b0c9d6adf6a6c0,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.560646917
+13722.58cfa82de4b0c9d6adf6a6d6,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.191959524
+13722.58cfa82de4b0c9d6adf6a6ec,TCGA-BRCA,Breast Invasive Carcinoma,0.110060659
+13722.58cfa82de4b0c9d6adf6a70c,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.497274355
+13722.58cfa82de4b0c9d6adf6a6e0,TCGA-BRCA,Breast Invasive Carcinoma,1.319882761
+13722.58cfa83ce4b0c9d6adf72e98,TCGA-BRCA,Breast Invasive Carcinoma,0.059682996
+13722.58cfa83ce4b0c9d6adf72fd0,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.171543257
+13722.58cfa83ce4b0c9d6adf72e96,TCGA-BRCA,Breast Invasive Carcinoma,0.178673779
+13722.58cfa83ce4b0c9d6adf72fd8,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.285048652
+13722.58cfa83ce4b0c9d6adf72ee6,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.25282743
+13722.58cfa83ce4b0c9d6adf730f0,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.494062361
+13722.58cfa83ce4b0c9d6adf72f94,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.164719613
+13722.58cfa83ce4b0c9d6adf73120,TCGA-BRCA,Breast Invasive Carcinoma,0.206715169
+13722.58cfa83ce4b0c9d6adf730e8,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.309616084
+13722.58cfa83ce4b0c9d6adf72ea6,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.612893278
+13722.58cfa83ce4b0c9d6adf731a2,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.171339037
+13722.58cfa83ce4b0c9d6adf73074,TCGA-BRCA,Breast Invasive Carcinoma,0.543952103
+13722.58cfa83ce4b0c9d6adf7310e,TCGA-BRCA,Breast Invasive Carcinoma,0.085080094
+13722.58cfa82de4b0c9d6adf6a464,TCGA-SARC,Sarcoma,0.521167709
+13722.58cfa82de4b0c9d6adf6a444,TCGA-BRCA,Breast Invasive Carcinoma,0.145916229
+13722.58cfa82de4b0c9d6adf6a4a6,TCGA-BRCA,Breast Invasive Carcinoma,0.097879991
+13722.58cfa82de4b0c9d6adf6a4a8,TCGA-BRCA,Breast Invasive Carcinoma,0.319902062
+13722.58cfa82de4b0c9d6adf6a50c,TCGA-BRCA,Breast Invasive Carcinoma,0.206706899
+13722.58cfa82de4b0c9d6adf6a50e,TCGA-BRCA,Breast Invasive Carcinoma,0.100857966
+13722.58cfa82de4b0c9d6adf6a52e,TCGA-BRCA,Breast Invasive Carcinoma,0.092982614
+13722.58cfa82de4b0c9d6adf6a526,TCGA-BRCA,Breast Invasive Carcinoma,0.351217125
+13722.58cfa82de4b0c9d6adf6a53c,TCGA-BRCA,Breast Invasive Carcinoma,0.310243365
+13722.58cfa82de4b0c9d6adf6a47e,TCGA-BRCA,Breast Invasive Carcinoma,0.153870198
+13722.58cfa82de4b0c9d6adf6a471,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.174713313
+13722.58cfa82de4b0c9d6adf6a56a,TCGA-BRCA,Breast Invasive Carcinoma,0.91697823
+13722.58cfa82de4b0c9d6adf6a58a,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.135916125
+13722.58cfa82de4b0c9d6adf6a591,TCGA-BRCA,Breast Invasive Carcinoma,0.171881789
+13722.58cfa82de4b0c9d6adf6a5b8,TCGA-BRCA,Breast Invasive Carcinoma,0.101837901
+13722.58cfa82de4b0c9d6adf6a596,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.062210423
+13722.58cfa82de4b0c9d6adf6a5c6,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.07860608
+13722.58cfa82de4b0c9d6adf6a614,TCGA-BRCA,Breast Invasive Carcinoma,0.092795263
+13722.58cfa82de4b0c9d6adf6a63e,TCGA-BRCA,Breast Invasive Carcinoma,0.056555102
+13722.58cfa82de4b0c9d6adf6a65c,TCGA-SARC,Sarcoma,0.274741466
+13722.58cfa82de4b0c9d6adf6a642,TCGA-BRCA,Breast Invasive Carcinoma,0.07651916
+13722.58cfa82de4b0c9d6adf6a69e,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.226701099
+13722.58cfa82de4b0c9d6adf6a658,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,1.515006968
+13722.58cfa82de4b0c9d6adf6a6c4,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.46427129
+13722.58cfa82de4b0c9d6adf6a6bc,TCGA-BRCA,Breast Invasive Carcinoma,0.513798637
+13722.58cfa82de4b0c9d6adf6a530,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.213671539
+13722.58cfa82de4b0c9d6adf6a708,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.406176644
+13722.58cfa82de4b0c9d6adf6a484,TCGA-SARC,Sarcoma,0.504148283
+13722.58cfa83ce4b0c9d6adf72e9c,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.925235356
+13722.58cfa83ce4b0c9d6adf72ea2,TCGA-BRCA,Breast Invasive Carcinoma,0.154956965
+13722.58cfa83ce4b0c9d6adf72eac,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.795513028
+13722.58cfa83ce4b0c9d6adf72ef8,TCGA-BRCA,Breast Invasive Carcinoma,0.093251969
+13722.58cfa83ce4b0c9d6adf72f7d,TCGA-BRCA,Breast Invasive Carcinoma,0.460309676
+13722.58cfa83ce4b0c9d6adf72f43,TCGA-BRCA,Breast Invasive Carcinoma,0.05458286
+13722.58cfa83ce4b0c9d6adf72fae,TCGA-SARC,Sarcoma,0.193398223
+13722.58cfa83ce4b0c9d6adf72fc8,TCGA-SARC,Sarcoma,0.247295429
+13722.58cfa83ce4b0c9d6adf72fec,TCGA-SARC,Sarcoma,0.216987493
+13722.58cfa83ce4b0c9d6adf72f9e,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.201206876
+13722.58cfa83ce4b0c9d6adf72f72,TCGA-BRCA,Breast Invasive Carcinoma,0.312700799
+13722.58cfa83ce4b0c9d6adf7307f,TCGA-BRCA,Breast Invasive Carcinoma,0.341986854
+13722.58cfa83ce4b0c9d6adf730cb,TCGA-BRCA,Breast Invasive Carcinoma,0.093714658
+13722.58cfa83ce4b0c9d6adf7309a,TCGA-BRCA,Breast Invasive Carcinoma,0.823317233
+13722.58cfa83ce4b0c9d6adf73184,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.098670982
+13722.58cfa83ce4b0c9d6adf73156,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.10242196
+13722.58cfa83ce4b0c9d6adf730d4,TCGA-BRCA,Breast Invasive Carcinoma,0.144931118
+13722.58cfa83ce4b0c9d6adf73060,TCGA-BRCA,Breast Invasive Carcinoma,0.358441574
+13722.58cfa83ce4b0c9d6adf731cc,TCGA-SARC,Sarcoma,0.27637975
+13722.58cfa83ce4b0c9d6adf72fea,TCGA-BRCA,Breast Invasive Carcinoma,0.601587726
+13722.58cfa83ce4b0c9d6adf72f14,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.694421261
+13722.58cfa82de4b0c9d6adf6a461,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.867171114
+13722.58cfa82de4b0c9d6adf6a48c,TCGA-BRCA,Breast Invasive Carcinoma,0.188868391
+13722.58cfa82de4b0c9d6adf6a4b4,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,1.325056967
+13722.58cfa82de4b0c9d6adf6a4ea,TCGA-BRCA,Breast Invasive Carcinoma,0.050155951
+13722.58cfa82de4b0c9d6adf6a510,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.224110234
+13722.58cfa82de4b0c9d6adf6a64a,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.140089669
+13722.58cfa82de4b0c9d6adf6a44c,TCGA-BRCA,Breast Invasive Carcinoma,0.075798969
+13722.58cfa82de4b0c9d6adf6a45b,TCGA-SARC,Sarcoma,0.32204272
+13722.58cfa82de4b0c9d6adf6a49a,TCGA-BRCA,Breast Invasive Carcinoma,0.531840911
+13722.58cfa82de4b0c9d6adf6a522,TCGA-BRCA,Breast Invasive Carcinoma,0.2865941
+13722.58cfa82de4b0c9d6adf6a53a,TCGA-SARC,Sarcoma,0.284481197
+13722.58cfa82de4b0c9d6adf6a535,TCGA-BRCA,Breast Invasive Carcinoma,0.075177468
+13722.58cfa82de4b0c9d6adf6a51c,TCGA-BRCA,Breast Invasive Carcinoma,0.481450925
+13722.58cfa82de4b0c9d6adf6a570,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.172156072
+13722.58cfa82de4b0c9d6adf6a599,TCGA-SARC,Sarcoma,0.173894695
+13722.58cfa82de4b0c9d6adf6a4e2,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.948035874
+13722.58cfa82de4b0c9d6adf6a5b2,TCGA-BRCA,Breast Invasive Carcinoma,0.573649121
+13722.58cfa82de4b0c9d6adf6a5b3,TCGA-SARC,Sarcoma,0.428052285
+13722.58cfa82de4b0c9d6adf6a5ce,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.766157698
+13722.58cfa82de4b0c9d6adf6a60c,TCGA-SARC,Sarcoma,0.20232001
+13722.58cfa82de4b0c9d6adf6a618,TCGA-BRCA,Breast Invasive Carcinoma,0.073039477
+13722.58cfa82de4b0c9d6adf6a61e,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.090555145
+13722.58cfa82de4b0c9d6adf6a640,TCGA-SARC,Sarcoma,0.150231582
+13722.58cfa82de4b0c9d6adf6a65e,TCGA-SARC,Sarcoma,0.419509581
+13722.58cfa82de4b0c9d6adf6a674,TCGA-SARC,Sarcoma,0.693870308
+13722.58cfa82de4b0c9d6adf6a68a,TCGA-BRCA,Breast Invasive Carcinoma,0.38733492
+13722.58cfa82de4b0c9d6adf6a65f,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.29484376
+13722.58cfa82de4b0c9d6adf6a6d4,TCGA-SARC,Sarcoma,0.180584117
+13722.58cfa830e4b0c9d6adf6bb98,TCGA-BRCA,Breast Invasive Carcinoma,0.232954235
+13722.58cfa83ce4b0c9d6adf72eb0,TCGA-BRCA,Breast Invasive Carcinoma,0.070445669
+13722.58cfa83ce4b0c9d6adf72edb,TCGA-BRCA,Breast Invasive Carcinoma,0.085902014
+13722.58cfa83ce4b0c9d6adf72ef4,TCGA-SARC,Sarcoma,0.249751302
+13722.58cfa83ce4b0c9d6adf72f45,TCGA-SARC,Sarcoma,0.247270839
+13722.58cfa83ce4b0c9d6adf72f0d,TCGA-SARC,Sarcoma,0.265860045
+13722.58cfa83ce4b0c9d6adf72f2c,TCGA-SARC,Sarcoma,0.124788709
+13722.58cfa83ce4b0c9d6adf72f7b,TCGA-SARC,Sarcoma,0.189993206
+13722.58cfa83ce4b0c9d6adf72fb2,TCGA-BRCA,Breast Invasive Carcinoma,0.125329534
+13722.58cfa83ce4b0c9d6adf72f73,TCGA-BRCA,Breast Invasive Carcinoma,0.254559004
+13722.58cfa83ce4b0c9d6adf73082,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.052195897
+13722.58cfa83ce4b0c9d6adf7308c,TCGA-SARC,Sarcoma,0.189093381
+13722.58cfa83ce4b0c9d6adf730ac,TCGA-BRCA,Breast Invasive Carcinoma,0.129819181
+13722.58cfa83ce4b0c9d6adf730c0,TCGA-SARC,Sarcoma,0.260316833
+13722.58cfa83ce4b0c9d6adf730e0,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.22128302
+13722.58cfa83ce4b0c9d6adf730fa,TCGA-BRCA,Breast Invasive Carcinoma,0.274065397
+13722.58cfa83ce4b0c9d6adf7313a,TCGA-SARC,Sarcoma,0.212113119
+13722.58cfa83ce4b0c9d6adf73142,TCGA-SARC,Sarcoma,0.203038413
+13722.58cfa83ce4b0c9d6adf731d0,TCGA-SARC,Sarcoma,0.379062951
+13722.58cfa83ce4b0c9d6adf731b8,TCGA-SARC,Sarcoma,0.476959562
+13722.58cfa82de4b0c9d6adf6a6fa,TCGA-BRCA,Breast Invasive Carcinoma,0.455898845
+13722.58cfa82de4b0c9d6adf6a5ee,TCGA-BRCA,Breast Invasive Carcinoma,0.499664891
+13722.58cfa82de4b0c9d6adf6a4d6,TCGA-BRCA,Breast Invasive Carcinoma,0.100612493
+13722.58cfa83ce4b0c9d6adf730b4,TCGA-BRCA,Breast Invasive Carcinoma,0.507117247
+13722.58cfa82de4b0c9d6adf6a534,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,0.214406389
+13722.58cfa82de4b0c9d6adf6a577,TCGA-CESC,Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,0.278645436
+13722.58cfa82de4b0c9d6adf6a666,TCGA-SARC,Sarcoma,0.258703826
+13722.58cfa82fe4b0c9d6adf6b8e0,TCGA-BRCA,Breast Invasive Carcinoma,0.757252821
+13722.58cfa83ce4b0c9d6adf72efc,TCGA-SARC,Sarcoma,0.379172454
+13722.58cfa83ce4b0c9d6adf73090,TCGA-UCEC,Uterine Corpus Endometrial Carcinoma,1.494389445

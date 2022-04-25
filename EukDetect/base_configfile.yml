@@ -1,0 +1,7 @@
+paired_end: true 
+fwd_suffix: ".R1.trimmed.fastq.gz" 
+rev_suffix: ".R2.trimmed.fastq.gz"
+se_suffix: ".fastq.gz" 
+database_dir: "/home/antoniog/EukDetect/eukdb"
+database_prefix: "ncbi_eukprot_met_arch_markers.fna"
+eukdetect_dir: "/home/antoniog/EukDetect/EukDetect"

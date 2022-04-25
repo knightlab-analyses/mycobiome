@@ -1,0 +1,31 @@
+,,Q-squared
+bacteria-fungi,Harvard Medical School,0.3895849837245454
+fungi-bacteria,Harvard Medical School,0.1438458498530526
+immune-bacteria,Harvard Medical School,0.038160043083686035
+immune-fungi,Harvard Medical School,0.0378160205210164
+bacteria-immune,Harvard Medical School,0.04118492626551562
+fungi-immune,Harvard Medical School,0.0025350537456250155
+bacteria-fungi,Broad Institute of MIT and Harvard,0.15221259242939855
+fungi-bacteria,Broad Institute of MIT and Harvard,0.0767941477509636
+immune-bacteria,Broad Institute of MIT and Harvard,0.04925218450737834
+immune-fungi,Broad Institute of MIT and Harvard,0.15174466955389565
+bacteria-immune,Broad Institute of MIT and Harvard,0.04294554482832191
+fungi-immune,Broad Institute of MIT and Harvard,-0.07611347579227212
+bacteria-fungi,Baylor College of Medicine,0.1983503440477663
+fungi-bacteria,Baylor College of Medicine,0.10731469785853331
+immune-bacteria,Baylor College of Medicine,0.04833720449809309
+immune-fungi,Baylor College of Medicine,0.04472993001683201
+bacteria-immune,Baylor College of Medicine,0.057128090989765234
+fungi-immune,Baylor College of Medicine,0.016996593056858633
+bacteria-fungi,MD Anderson - Institute for Applied Cancer Science,0.15930002872916726
+fungi-bacteria,MD Anderson - Institute for Applied Cancer Science,0.12478562903688117
+immune-bacteria,MD Anderson - Institute for Applied Cancer Science,0.08467776319423381
+immune-fungi,MD Anderson - Institute for Applied Cancer Science,0.14215953499030698
+bacteria-immune,MD Anderson - Institute for Applied Cancer Science,0.0824586887054114
+fungi-immune,MD Anderson - Institute for Applied Cancer Science,-0.04891477078604356
+bacteria-fungi,Washington University School of Medicine,0.06269359252242479
+fungi-bacteria,Washington University School of Medicine,0.11615801232784839
+immune-bacteria,Washington University School of Medicine,0.1016288619325455
+immune-fungi,Washington University School of Medicine,0.10417000091466844
+bacteria-immune,Washington University School of Medicine,0.09282063684654973
+fungi-immune,Washington University School of Medicine,0.01741235946034969

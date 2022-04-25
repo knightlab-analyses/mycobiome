@@ -1,0 +1,234 @@
+﻿id,investigation,disease_type,observed_otus
+13722.58cfa830e4b0c9d6adf6baba,TCGA-COAD,Colon Adenocarcinoma,11
+13722.58cfa830e4b0c9d6adf6bbb2,TCGA-COAD,Colon Adenocarcinoma,13
+13722.58cfa830e4b0c9d6adf6bf00,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,20
+13722.58cfa830e4b0c9d6adf6c294,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,22
+13722.58cfa831e4b0c9d6adf6c480,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,25
+13722.58cfa830e4b0c9d6adf6bb04,TCGA-OV,Ovarian Serous Cystadenocarcinoma,39
+13722.58cfa830e4b0c9d6adf6ba78,TCGA-COAD,Colon Adenocarcinoma,13
+13722.58cfa830e4b0c9d6adf6bb68,TCGA-COAD,Colon Adenocarcinoma,15
+13722.58cfa830e4b0c9d6adf6bc3e,TCGA-READ,Rectum Adenocarcinoma,18
+13722.58cfa830e4b0c9d6adf6bdad,TCGA-READ,Rectum Adenocarcinoma,15
+13722.58cfa830e4b0c9d6adf6bfea,TCGA-READ,Rectum Adenocarcinoma,13
+13722.58cfa830e4b0c9d6adf6bf02,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,25
+13722.58cfa830e4b0c9d6adf6bef0,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,22
+13722.58cfa831e4b0c9d6adf6c414,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,22
+13722.58cfa831e4b0c9d6adf6c442,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,18
+13722.58cfa830e4b0c9d6adf6c2d1,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,26
+13722.58cfa830e4b0c9d6adf6bcbd,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,21
+13722.58cfa830e4b0c9d6adf6bdf1,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,20
+13722.58cfa830e4b0c9d6adf6bdf8,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,22
+13722.58cfa830e4b0c9d6adf6c196,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,19
+13722.58cfa831e4b0c9d6adf6c7f4,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,21
+13722.58cfa831e4b0c9d6adf6cc42,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,20
+13722.58cfa831e4b0c9d6adf6c80b,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,24
+13722.58cfa82fe4b0c9d6adf6b952,TCGA-COAD,Colon Adenocarcinoma,110
+13722.58cfa830e4b0c9d6adf6ba5d,TCGA-COAD,Colon Adenocarcinoma,100
+13722.58cfa830e4b0c9d6adf6ba60,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,20
+13722.58cfa830e4b0c9d6adf6bb7c,TCGA-COAD,Colon Adenocarcinoma,17
+13722.58cfa830e4b0c9d6adf6bbfa,TCGA-READ,Rectum Adenocarcinoma,62
+13722.58cfa830e4b0c9d6adf6bd5c,TCGA-COAD,Colon Adenocarcinoma,16
+13722.58cfa830e4b0c9d6adf6be4c,TCGA-READ,Rectum Adenocarcinoma,11
+13722.58cfa830e4b0c9d6adf6be92,TCGA-READ,Rectum Adenocarcinoma,14
+13722.58cfa830e4b0c9d6adf6be9f,TCGA-READ,Rectum Adenocarcinoma,10
+13722.58cfa830e4b0c9d6adf6c052,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,23
+13722.58cfa830e4b0c9d6adf6c07e,TCGA-KIRP,Kidney Renal Papillary Cell Carcinoma,15
+13722.58cfa830e4b0c9d6adf6c149,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,22
+13722.58cfa831e4b0c9d6adf6c490,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,21
+13722.58cfa831e4b0c9d6adf6c6ee,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,12
+13722.58cfa831e4b0c9d6adf6c845,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,21
+13722.58cfa832e4b0c9d6adf6d2dc,TCGA-KICH,Kidney Chromophobe,11
+13722.58cfa832e4b0c9d6adf6d326,TCGA-KICH,Kidney Chromophobe,14
+13722.58cfa82fe4b0c9d6adf6b8d8,TCGA-COAD,Colon Adenocarcinoma,18
+13722.58cfa82fe4b0c9d6adf6b961,TCGA-COAD,Colon Adenocarcinoma,25
+13722.58cfa82fe4b0c9d6adf6b9e0,TCGA-COAD,Colon Adenocarcinoma,21
+13722.58cfa82fe4b0c9d6adf6b920,TCGA-KIRP,Kidney Renal Papillary Cell Carcinoma,14
+13722.58cfa830e4b0c9d6adf6ba9e,TCGA-COAD,Colon Adenocarcinoma,16
+13722.58cfa830e4b0c9d6adf6bad6,TCGA-COAD,Colon Adenocarcinoma,14
+13722.58cfa82fe4b0c9d6adf6ba26,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,19
+13722.58cfa830e4b0c9d6adf6bb79,TCGA-COAD,Colon Adenocarcinoma,21
+13722.58cfa830e4b0c9d6adf6bb82,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,17
+13722.58cfa830e4b0c9d6adf6bbc0,TCGA-READ,Rectum Adenocarcinoma,11
+13722.58cfa830e4b0c9d6adf6ba74,TCGA-COAD,Colon Adenocarcinoma,14
+13722.58cfa830e4b0c9d6adf6bcb5,TCGA-COAD,Colon Adenocarcinoma,7
+13722.58cfa830e4b0c9d6adf6bc64,TCGA-READ,Rectum Adenocarcinoma,18
+13722.58cfa830e4b0c9d6adf6bcfc,TCGA-COAD,Colon Adenocarcinoma,15
+13722.58cfa830e4b0c9d6adf6bd38,TCGA-COAD,Colon Adenocarcinoma,16
+13722.58cfa830e4b0c9d6adf6c046,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,23
+13722.58cfa830e4b0c9d6adf6c020,TCGA-KIRP,Kidney Renal Papillary Cell Carcinoma,8
+13722.58cfa830e4b0c9d6adf6c13e,TCGA-KIRP,Kidney Renal Papillary Cell Carcinoma,12
+13722.58cfa831e4b0c9d6adf6c430,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,15
+13722.58cfa831e4b0c9d6adf6c41a,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,19
+13722.58cfa831e4b0c9d6adf6c608,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,25
+13722.58cfa831e4b0c9d6adf6c682,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,9
+13722.58cfa830e4b0c9d6adf6c2a3,TCGA-KIRP,Kidney Renal Papillary Cell Carcinoma,14
+13722.58cfa831e4b0c9d6adf6c6b2,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,10
+13722.58cfa831e4b0c9d6adf6c456,TCGA-COAD,Colon Adenocarcinoma,17
+13722.58cfa831e4b0c9d6adf6c79a,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,11
+13722.58cfa831e4b0c9d6adf6c78f,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,20
+13722.58cfa831e4b0c9d6adf6c81d,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,7
+13722.58cfa831e4b0c9d6adf6c88e,TCGA-COAD,Colon Adenocarcinoma,14
+13722.58cfa831e4b0c9d6adf6c966,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,11
+13722.58cfa831e4b0c9d6adf6c83b,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,16
+13722.58cfa831e4b0c9d6adf6ccb4,TCGA-READ,Rectum Adenocarcinoma,11
+13722.58cfa831e4b0c9d6adf6cd6e,TCGA-READ,Rectum Adenocarcinoma,7
+13722.58cfa832e4b0c9d6adf6d2bd,TCGA-KICH,Kidney Chromophobe,9
+13722.58cfa832e4b0c9d6adf6d2f5,TCGA-KICH,Kidney Chromophobe,14
+13722.58cfa832e4b0c9d6adf6d300,TCGA-KICH,Kidney Chromophobe,12
+13722.58cfa832e4b0c9d6adf6d319,TCGA-KICH,Kidney Chromophobe,14
+13722.58cfa832e4b0c9d6adf6d31d,TCGA-KICH,Kidney Chromophobe,20
+13722.58cfa832e4b0c9d6adf6d36c,TCGA-KICH,Kidney Chromophobe,24
+13722.58cfa832e4b0c9d6adf6d3c2,TCGA-KICH,Kidney Chromophobe,15
+13722.58cfa832e4b0c9d6adf6d3d3,TCGA-KICH,Kidney Chromophobe,9
+13722.58cfa832e4b0c9d6adf6d394,TCGA-KICH,Kidney Chromophobe,10
+13722.58cfa832e4b0c9d6adf6d356,TCGA-KICH,Kidney Chromophobe,14
+13722.58cfa831e4b0c9d6adf6c7c6,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,19
+13722.58cfa831e4b0c9d6adf6c7e1,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,11
+13722.58cfa832e4b0c9d6adf6d33e,TCGA-KICH,Kidney Chromophobe,27
+13722.58cfa82fe4b0c9d6adf6ba06,TCGA-COAD,Colon Adenocarcinoma,19
+13722.58cfa830e4b0c9d6adf6baa2,TCGA-COAD,Colon Adenocarcinoma,17
+13722.58cfa830e4b0c9d6adf6bc11,TCGA-READ,Rectum Adenocarcinoma,20
+13722.58cfa830e4b0c9d6adf6bc84,TCGA-READ,Rectum Adenocarcinoma,17
+13722.58cfa830e4b0c9d6adf6bbdd,TCGA-READ,Rectum Adenocarcinoma,14
+13722.58cfa830e4b0c9d6adf6be46,TCGA-READ,Rectum Adenocarcinoma,9
+13722.58cfa82ee4b0c9d6adf6af7c,TCGA-OV,Ovarian Serous Cystadenocarcinoma,15
+13722.58cfa82ee4b0c9d6adf6b197,TCGA-OV,Ovarian Serous Cystadenocarcinoma,18
+13722.58cfa82fe4b0c9d6adf6b384,TCGA-OV,Ovarian Serous Cystadenocarcinoma,11
+13722.58cfa82fe4b0c9d6adf6b2be,TCGA-OV,Ovarian Serous Cystadenocarcinoma,18
+13722.58cfa82fe4b0c9d6adf6b3fa,TCGA-OV,Ovarian Serous Cystadenocarcinoma,25
+13722.58cfa82fe4b0c9d6adf6b541,TCGA-OV,Ovarian Serous Cystadenocarcinoma,19
+13722.58cfa82fe4b0c9d6adf6b3de,TCGA-OV,Ovarian Serous Cystadenocarcinoma,22
+13722.58cfa82fe4b0c9d6adf6b8ca,TCGA-KIRP,Kidney Renal Papillary Cell Carcinoma,15
+13722.58cfa82fe4b0c9d6adf6b92e,TCGA-KIRP,Kidney Renal Papillary Cell Carcinoma,7
+13722.58cfa830e4b0c9d6adf6bb02,TCGA-COAD,Colon Adenocarcinoma,12
+13722.58cfa82fe4b0c9d6adf6b80a,TCGA-OV,Ovarian Serous Cystadenocarcinoma,21
+13722.58cfa82fe4b0c9d6adf6b8e1,TCGA-COAD,Colon Adenocarcinoma,9
+13722.58cfa82fe4b0c9d6adf6ba25,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,11
+13722.58cfa830e4b0c9d6adf6bb0d,TCGA-COAD,Colon Adenocarcinoma,25
+13722.58cfa830e4b0c9d6adf6bdba,TCGA-LIHC,Liver Hepatocellular Carcinoma,14
+13722.58cfa830e4b0c9d6adf6be71,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,16
+13722.58cfa830e4b0c9d6adf6bcb3,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,16
+13722.58cfa830e4b0c9d6adf6becd,TCGA-KIRP,Kidney Renal Papillary Cell Carcinoma,19
+13722.58cfa830e4b0c9d6adf6bf19,TCGA-COAD,Colon Adenocarcinoma,16
+13722.58cfa830e4b0c9d6adf6c000,TCGA-KIRP,Kidney Renal Papillary Cell Carcinoma,15
+13722.58cfa830e4b0c9d6adf6c140,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,25
+13722.58cfa830e4b0c9d6adf6c00e,TCGA-KIRP,Kidney Renal Papillary Cell Carcinoma,16
+13722.58cfa830e4b0c9d6adf6c14b,TCGA-KIRP,Kidney Renal Papillary Cell Carcinoma,18
+13722.58cfa830e4b0c9d6adf6c14d,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,12
+13722.58cfa830e4b0c9d6adf6c048,TCGA-KIRP,Kidney Renal Papillary Cell Carcinoma,20
+13722.58cfa830e4b0c9d6adf6bc5e,TCGA-KIRP,Kidney Renal Papillary Cell Carcinoma,21
+13722.58cfa830e4b0c9d6adf6c1c8,TCGA-LIHC,Liver Hepatocellular Carcinoma,15
+13722.58cfa830e4b0c9d6adf6c178,TCGA-KIRP,Kidney Renal Papillary Cell Carcinoma,14
+13722.58cfa830e4b0c9d6adf6c1d6,TCGA-LIHC,Liver Hepatocellular Carcinoma,23
+13722.58cfa830e4b0c9d6adf6c2a2,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,18
+13722.58cfa830e4b0c9d6adf6c22e,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,15
+13722.58cfa831e4b0c9d6adf6c3b6,TCGA-LIHC,Liver Hepatocellular Carcinoma,25
+13722.58cfa831e4b0c9d6adf6c3a6,TCGA-LIHC,Liver Hepatocellular Carcinoma,27
+13722.58cfa831e4b0c9d6adf6c422,TCGA-LIHC,Liver Hepatocellular Carcinoma,9
+13722.58cfa831e4b0c9d6adf6c418,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,9
+13722.58cfa831e4b0c9d6adf6c43a,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,10
+13722.58cfa831e4b0c9d6adf6c45e,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,22
+13722.58cfa830e4b0c9d6adf6c1ae,TCGA-KIRP,Kidney Renal Papillary Cell Carcinoma,25
+13722.58cfa831e4b0c9d6adf6c612,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,9
+13722.58cfa831e4b0c9d6adf6c630,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,12
+13722.58cfa831e4b0c9d6adf6c66a,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,19
+13722.58cfa830e4b0c9d6adf6c2c4,TCGA-COAD,Colon Adenocarcinoma,20
+13722.58cfa831e4b0c9d6adf6c6c6,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,23
+13722.58cfa831e4b0c9d6adf6c7be,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,20
+13722.58cfa831e4b0c9d6adf6c89e,TCGA-LIHC,Liver Hepatocellular Carcinoma,14
+13722.58cfa831e4b0c9d6adf6c8a8,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,9
+13722.58cfa831e4b0c9d6adf6c89a,TCGA-LIHC,Liver Hepatocellular Carcinoma,29
+13722.58cfa831e4b0c9d6adf6c8e4,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,18
+13722.58cfa831e4b0c9d6adf6c8b8,TCGA-LIHC,Liver Hepatocellular Carcinoma,20
+13722.58cfa831e4b0c9d6adf6c934,TCGA-LIHC,Liver Hepatocellular Carcinoma,18
+13722.58cfa831e4b0c9d6adf6c9a2,TCGA-LIHC,Liver Hepatocellular Carcinoma,15
+13722.58cfa831e4b0c9d6adf6c903,TCGA-LIHC,Liver Hepatocellular Carcinoma,19
+13722.58cfa831e4b0c9d6adf6c8f4,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,10
+13722.58cfa831e4b0c9d6adf6c977,TCGA-LIHC,Liver Hepatocellular Carcinoma,12
+13722.58cfa831e4b0c9d6adf6c9a4,TCGA-LIHC,Liver Hepatocellular Carcinoma,17
+13722.58cfa831e4b0c9d6adf6c9bf,TCGA-LIHC,Liver Hepatocellular Carcinoma,13
+13722.58cfa831e4b0c9d6adf6ca2b,TCGA-LIHC,Liver Hepatocellular Carcinoma,10
+13722.58cfa831e4b0c9d6adf6c9f6,TCGA-LIHC,Liver Hepatocellular Carcinoma,14
+13722.58cfa831e4b0c9d6adf6ca23,TCGA-LIHC,Liver Hepatocellular Carcinoma,26
+13722.58cfa831e4b0c9d6adf6ca58,TCGA-LIHC,Liver Hepatocellular Carcinoma,22
+13722.58cfa831e4b0c9d6adf6ca63,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,25
+13722.58cfa831e4b0c9d6adf6cc3c,TCGA-LIHC,Liver Hepatocellular Carcinoma,12
+13722.58cfa831e4b0c9d6adf6cbe9,TCGA-LIHC,Liver Hepatocellular Carcinoma,22
+13722.58cfa831e4b0c9d6adf6cb2c,TCGA-LIHC,Liver Hepatocellular Carcinoma,12
+13722.58cfa831e4b0c9d6adf6cc1c,TCGA-LIHC,Liver Hepatocellular Carcinoma,14
+13722.58cfa832e4b0c9d6adf6ce00,TCGA-LIHC,Liver Hepatocellular Carcinoma,22
+13722.58cfa832e4b0c9d6adf6ce3a,TCGA-LIHC,Liver Hepatocellular Carcinoma,10
+13722.58cfa831e4b0c9d6adf6cd8d,TCGA-DLBC,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,18
+13722.58cfa832e4b0c9d6adf6ce68,TCGA-LIHC,Liver Hepatocellular Carcinoma,10
+13722.58cfa832e4b0c9d6adf6ce70,TCGA-LIHC,Liver Hepatocellular Carcinoma,13
+13722.58cfa832e4b0c9d6adf6ce7e,TCGA-LIHC,Liver Hepatocellular Carcinoma,13
+13722.58cfa832e4b0c9d6adf6ce6c,TCGA-LIHC,Liver Hepatocellular Carcinoma,16
+13722.58cfa831e4b0c9d6adf6cc59,TCGA-LIHC,Liver Hepatocellular Carcinoma,20
+13722.58cfa832e4b0c9d6adf6ce7c,TCGA-LIHC,Liver Hepatocellular Carcinoma,19
+13722.58cfa832e4b0c9d6adf6cef0,TCGA-DLBC,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,15
+13722.58cfa832e4b0c9d6adf6cefa,TCGA-KIRP,Kidney Renal Papillary Cell Carcinoma,15
+13722.58cfa832e4b0c9d6adf6ce62,TCGA-LIHC,Liver Hepatocellular Carcinoma,19
+13722.58cfa832e4b0c9d6adf6cf76,TCGA-LIHC,Liver Hepatocellular Carcinoma,16
+13722.58cfa832e4b0c9d6adf6d011,TCGA-LIHC,Liver Hepatocellular Carcinoma,11
+13722.58cfa832e4b0c9d6adf6d027,TCGA-KIRP,Kidney Renal Papillary Cell Carcinoma,15
+13722.58cfa832e4b0c9d6adf6d04c,TCGA-KIRP,Kidney Renal Papillary Cell Carcinoma,11
+13722.58cfa832e4b0c9d6adf6cfd2,TCGA-KIRP,Kidney Renal Papillary Cell Carcinoma,22
+13722.58cfa832e4b0c9d6adf6d029,TCGA-KIRP,Kidney Renal Papillary Cell Carcinoma,9
+13722.58cfa832e4b0c9d6adf6d0a2,TCGA-KIRP,Kidney Renal Papillary Cell Carcinoma,21
+13722.58cfa832e4b0c9d6adf6d11e,TCGA-LIHC,Liver Hepatocellular Carcinoma,14
+13722.58cfa832e4b0c9d6adf6d168,TCGA-KICH,Kidney Chromophobe,11
+13722.58cfa832e4b0c9d6adf6d164,TCGA-KICH,Kidney Chromophobe,13
+13722.58cfa832e4b0c9d6adf6d1b9,TCGA-KIRP,Kidney Renal Papillary Cell Carcinoma,27
+13722.58cfa832e4b0c9d6adf6d1c1,TCGA-DLBC,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,20
+13722.58cfa832e4b0c9d6adf6d1ee,TCGA-DLBC,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,17
+13722.58cfa832e4b0c9d6adf6d1f0,TCGA-DLBC,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,11
+13722.58cfa832e4b0c9d6adf6d130,TCGA-LIHC,Liver Hepatocellular Carcinoma,18
+13722.58cfa832e4b0c9d6adf6d062,TCGA-LIHC,Liver Hepatocellular Carcinoma,21
+13722.58cfa832e4b0c9d6adf6d1f2,TCGA-DLBC,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,15
+13722.58cfa832e4b0c9d6adf6d1b2,TCGA-DLBC,Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,14
+13722.58cfa832e4b0c9d6adf6d291,TCGA-KICH,Kidney Chromophobe,14
+13722.58cfa832e4b0c9d6adf6d2a0,TCGA-KICH,Kidney Chromophobe,22
+13722.58cfa832e4b0c9d6adf6d246,TCGA-KIRP,Kidney Renal Papillary Cell Carcinoma,19
+13722.58cfa832e4b0c9d6adf6d29d,TCGA-KICH,Kidney Chromophobe,17
+13722.58cfa832e4b0c9d6adf6d2b8,TCGA-KICH,Kidney Chromophobe,15
+13722.58cfa832e4b0c9d6adf6d2c4,TCGA-KICH,Kidney Chromophobe,9
+13722.58cfa832e4b0c9d6adf6d2b6,TCGA-KICH,Kidney Chromophobe,21
+13722.58cfa832e4b0c9d6adf6d2d0,TCGA-KICH,Kidney Chromophobe,11
+13722.58cfa832e4b0c9d6adf6d2da,TCGA-KICH,Kidney Chromophobe,18
+13722.58cfa832e4b0c9d6adf6d2e0,TCGA-KICH,Kidney Chromophobe,28
+13722.58cfa832e4b0c9d6adf6d2e6,TCGA-KICH,Kidney Chromophobe,9
+13722.58cfa832e4b0c9d6adf6d2e2,TCGA-KICH,Kidney Chromophobe,16
+13722.58cfa832e4b0c9d6adf6d2fa,TCGA-KICH,Kidney Chromophobe,26
+13722.58cfa832e4b0c9d6adf6d2fc,TCGA-KICH,Kidney Chromophobe,8
+13722.58cfa832e4b0c9d6adf6d320,TCGA-KICH,Kidney Chromophobe,38
+13722.58cfa832e4b0c9d6adf6d311,TCGA-KICH,Kidney Chromophobe,9
+13722.58cfa832e4b0c9d6adf6d30e,TCGA-KICH,Kidney Chromophobe,9
+13722.58cfa832e4b0c9d6adf6d317,TCGA-KICH,Kidney Chromophobe,12
+13722.58cfa832e4b0c9d6adf6d32e,TCGA-KICH,Kidney Chromophobe,12
+13722.58cfa832e4b0c9d6adf6d334,TCGA-KICH,Kidney Chromophobe,22
+13722.58cfa832e4b0c9d6adf6d354,TCGA-KICH,Kidney Chromophobe,11
+13722.58cfa832e4b0c9d6adf6d33a,TCGA-KICH,Kidney Chromophobe,9
+13722.58cfa832e4b0c9d6adf6d17e,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,21
+13722.58cfa832e4b0c9d6adf6d3ad,TCGA-COAD,Colon Adenocarcinoma,5
+13722.58cfa832e4b0c9d6adf6d448,TCGA-COAD,Colon Adenocarcinoma,22
+13722.58cfa832e4b0c9d6adf6d437,TCGA-COAD,Colon Adenocarcinoma,27
+13722.58cfa832e4b0c9d6adf6d51c,TCGA-KICH,Kidney Chromophobe,12
+13722.58cfa832e4b0c9d6adf6d4fc,TCGA-KICH,Kidney Chromophobe,19
+13722.58cfa832e4b0c9d6adf6d517,TCGA-LIHC,Liver Hepatocellular Carcinoma,26
+13722.58cfa832e4b0c9d6adf6d523,TCGA-KICH,Kidney Chromophobe,34
+13722.58cfa832e4b0c9d6adf6d59a,TCGA-KIRP,Kidney Renal Papillary Cell Carcinoma,12
+13722.58cfa832e4b0c9d6adf6d59c,TCGA-KIRP,Kidney Renal Papillary Cell Carcinoma,22
+13722.58cfa832e4b0c9d6adf6d470,TCGA-COAD,Colon Adenocarcinoma,18
+13722.58cfa832e4b0c9d6adf6d5a2,TCGA-KIRP,Kidney Renal Papillary Cell Carcinoma,16
+13722.58cfa832e4b0c9d6adf6d58e,TCGA-LIHC,Liver Hepatocellular Carcinoma,23
+13722.58cfa832e4b0c9d6adf6d5b8,TCGA-KICH,Kidney Chromophobe,26
+13722.58cfa832e4b0c9d6adf6d5af,TCGA-KIRP,Kidney Renal Papillary Cell Carcinoma,24
+13722.58cfa832e4b0c9d6adf6d2aa,TCGA-KICH,Kidney Chromophobe,20
+13722.58cfa832e4b0c9d6adf6d5ad,TCGA-KIRP,Kidney Renal Papillary Cell Carcinoma,13
+13722.58cfa82fe4b0c9d6adf6b58d,TCGA-OV,Ovarian Serous Cystadenocarcinoma,130
+13722.58cfa82fe4b0c9d6adf6b958,TCGA-COAD,Colon Adenocarcinoma,108
+13722.58cfa82ee4b0c9d6adf6b0e3,TCGA-OV,Ovarian Serous Cystadenocarcinoma,118
+13722.58cfa82fe4b0c9d6adf6b524,TCGA-OV,Ovarian Serous Cystadenocarcinoma,104
+13722.58cfa82fe4b0c9d6adf6b637,TCGA-OV,Ovarian Serous Cystadenocarcinoma,96
+13722.58cfa830e4b0c9d6adf6bb32,TCGA-COAD,Colon Adenocarcinoma,115
+13722.58cfa830e4b0c9d6adf6bc70,TCGA-READ,Rectum Adenocarcinoma,107

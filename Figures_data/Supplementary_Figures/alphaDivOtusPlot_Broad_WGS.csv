@@ -1,266 +1,257 @@
 "","id","investigation","disease_type","observed_otus"
-"1","13722.58cfa82de4b0c9d6adf6a710","LUSC","Lung Squamous Cell Carcinoma",10
-"2","13722.58cfa82de4b0c9d6adf6a71a","LUAD","Lung Adenocarcinoma",7
+"1","13722.58cfa82de4b0c9d6adf6a710","LUSC","Lung Squamous Cell Carcinoma",6
+"2","13722.58cfa82de4b0c9d6adf6a71a","LUAD","Lung Adenocarcinoma",4
 "3","13722.58cfa82de4b0c9d6adf6a73a","LUAD","Lung Adenocarcinoma",8
-"4","13722.58cfa82de4b0c9d6adf6a740","LUAD","Lung Adenocarcinoma",7
-"5","13722.58cfa82de4b0c9d6adf6a784","KIRC","Kidney Renal Clear Cell Carcinoma",9
-"6","13722.58cfa82ee4b0c9d6adf6a7e1","LUAD","Lung Adenocarcinoma",8
-"7","13722.58cfa82ee4b0c9d6adf6a7ec","GBM","Glioblastoma Multiforme",13
-"8","13722.58cfa82ee4b0c9d6adf6a7e6","LUAD","Lung Adenocarcinoma",10
-"9","13722.58cfa82ee4b0c9d6adf6a894","GBM","Glioblastoma Multiforme",8
-"10","13722.58cfa82ee4b0c9d6adf6a7ea","HNSC","Head and Neck Squamous Cell Carcinoma",12
-"11","13722.58cfa82ee4b0c9d6adf6a8c2","LGG","Brain Lower Grade Glioma",7
-"12","13722.58cfa82ee4b0c9d6adf6a95a","HNSC","Head and Neck Squamous Cell Carcinoma",10
-"13","13722.58cfa82ee4b0c9d6adf6aa58","THCA","Thyroid Carcinoma",7
-"14","13722.58cfa82ee4b0c9d6adf6aa12","GBM","Glioblastoma Multiforme",7
+"4","13722.58cfa82de4b0c9d6adf6a740","LUAD","Lung Adenocarcinoma",4
+"5","13722.58cfa82de4b0c9d6adf6a784","KIRC","Kidney Renal Clear Cell Carcinoma",7
+"6","13722.58cfa82ee4b0c9d6adf6a7e1","LUAD","Lung Adenocarcinoma",6
+"7","13722.58cfa82ee4b0c9d6adf6a7ec","GBM","Glioblastoma Multiforme",11
+"8","13722.58cfa82ee4b0c9d6adf6a7e6","LUAD","Lung Adenocarcinoma",9
+"9","13722.58cfa82ee4b0c9d6adf6a894","GBM","Glioblastoma Multiforme",4
+"10","13722.58cfa82ee4b0c9d6adf6a7ea","HNSC","Head and Neck Squamous Cell Carcinoma",8
+"11","13722.58cfa82ee4b0c9d6adf6a8c2","LGG","Brain Lower Grade Glioma",4
+"12","13722.58cfa82ee4b0c9d6adf6a95a","HNSC","Head and Neck Squamous Cell Carcinoma",5
+"13","13722.58cfa82ee4b0c9d6adf6aa58","THCA","Thyroid Carcinoma",8
+"14","13722.58cfa82ee4b0c9d6adf6aa12","GBM","Glioblastoma Multiforme",6
 "15","13722.58cfa82ee4b0c9d6adf6aa18","GBM","Glioblastoma Multiforme",4
-"16","13722.58cfa82ee4b0c9d6adf6aab6","BLCA","Bladder Urothelial Carcinoma",6
-"17","13722.58cfa82ee4b0c9d6adf6aade","BLCA","Bladder Urothelial Carcinoma",6
-"18","13722.58cfa82ee4b0c9d6adf6aa8c","THCA","Thyroid Carcinoma",5
-"19","13722.58cfa82ee4b0c9d6adf6ab28","GBM","Glioblastoma Multiforme",8
-"20","13722.58cfa82ee4b0c9d6adf6ab42","THCA","Thyroid Carcinoma",5
-"21","13722.58cfa82ee4b0c9d6adf6ab00","GBM","Glioblastoma Multiforme",8
+"16","13722.58cfa82ee4b0c9d6adf6aab6","BLCA","Bladder Urothelial Carcinoma",7
+"17","13722.58cfa82ee4b0c9d6adf6aade","BLCA","Bladder Urothelial Carcinoma",7
+"18","13722.58cfa82ee4b0c9d6adf6aa8c","THCA","Thyroid Carcinoma",6
+"19","13722.58cfa82ee4b0c9d6adf6ab28","GBM","Glioblastoma Multiforme",4
+"20","13722.58cfa82ee4b0c9d6adf6ab42","THCA","Thyroid Carcinoma",4
+"21","13722.58cfa82ee4b0c9d6adf6ab00","GBM","Glioblastoma Multiforme",5
 "22","13722.58cfa82ee4b0c9d6adf6ac76","LUAD","Lung Adenocarcinoma",4
 "23","13722.58cfa82ee4b0c9d6adf6ac34","STAD","Stomach Adenocarcinoma",9
-"24","13722.58cfa82ee4b0c9d6adf6ace9","STAD","Stomach Adenocarcinoma",5
-"25","13722.58cfa82ee4b0c9d6adf6aee0","STAD","Stomach Adenocarcinoma",9
+"24","13722.58cfa82ee4b0c9d6adf6ace9","STAD","Stomach Adenocarcinoma",4
+"25","13722.58cfa82ee4b0c9d6adf6aee0","STAD","Stomach Adenocarcinoma",7
 "26","13722.58cfa82ee4b0c9d6adf6af48","LUAD","Lung Adenocarcinoma",3
-"27","13722.58cfa82ee4b0c9d6adf6b056","LUAD","Lung Adenocarcinoma",5
-"28","13722.58cfa82ee4b0c9d6adf6a8aa","LGG","Brain Lower Grade Glioma",5
-"29","13722.58cfa82ee4b0c9d6adf6a8f4","BLCA","Bladder Urothelial Carcinoma",5
-"30","13722.58cfa82ee4b0c9d6adf6a91a","THCA","Thyroid Carcinoma",4
-"31","13722.58cfa82ee4b0c9d6adf6a94c","LGG","Brain Lower Grade Glioma",3
-"32","13722.58cfa82ee4b0c9d6adf6a95c","LGG","Brain Lower Grade Glioma",8
-"33","13722.58cfa82ee4b0c9d6adf6a966","LGG","Brain Lower Grade Glioma",4
-"34","13722.58cfa82ee4b0c9d6adf6a974","BLCA","Bladder Urothelial Carcinoma",6
-"35","13722.58cfa82ee4b0c9d6adf6a986","LGG","Brain Lower Grade Glioma",5
-"36","13722.58cfa82ee4b0c9d6adf6aa80","THCA","Thyroid Carcinoma",6
-"37","13722.58cfa82ee4b0c9d6adf6aa88","BLCA","Bladder Urothelial Carcinoma",7
-"38","13722.58cfa82ee4b0c9d6adf6aaba","BLCA","Bladder Urothelial Carcinoma",5
-"39","13722.58cfa82ee4b0c9d6adf6aac4","BLCA","Bladder Urothelial Carcinoma",6
-"40","13722.58cfa82ee4b0c9d6adf6aad4","THCA","Thyroid Carcinoma",7
-"41","13722.58cfa82ee4b0c9d6adf6ab22","BLCA","Bladder Urothelial Carcinoma",4
-"42","13722.58cfa82ee4b0c9d6adf6ab2e","BLCA","Bladder Urothelial Carcinoma",4
-"43","13722.58cfa82ee4b0c9d6adf6ab6c","BLCA","Bladder Urothelial Carcinoma",6
-"44","13722.58cfa82ee4b0c9d6adf6ab86","HNSC","Head and Neck Squamous Cell Carcinoma",6
-"45","13722.58cfa82ee4b0c9d6adf6aba3","THCA","Thyroid Carcinoma",4
-"46","13722.58cfa82ee4b0c9d6adf6abaa","BLCA","Bladder Urothelial Carcinoma",6
-"47","13722.58cfa82ee4b0c9d6adf6abb8","BLCA","Bladder Urothelial Carcinoma",4
-"48","13722.58cfa82ee4b0c9d6adf6abd6","THCA","Thyroid Carcinoma",6
-"49","13722.58cfa82ee4b0c9d6adf6ac56","STAD","Stomach Adenocarcinoma",6
-"50","13722.58cfa82ee4b0c9d6adf6ad73","THCA","Thyroid Carcinoma",6
-"51","13722.58cfa82ee4b0c9d6adf6adb2","STAD","Stomach Adenocarcinoma",6
-"52","13722.58cfa82de4b0c9d6adf6a76e","LUAD","Lung Adenocarcinoma",10
-"53","13722.58cfa82ee4b0c9d6adf6a8d7","BLCA","Bladder Urothelial Carcinoma",7
-"54","13722.58cfa82ee4b0c9d6adf6a8ec","LGG","Brain Lower Grade Glioma",4
-"55","13722.58cfa82ee4b0c9d6adf6a8e0","LGG","Brain Lower Grade Glioma",5
-"56","13722.58cfa82ee4b0c9d6adf6a94d","LGG","Brain Lower Grade Glioma",5
-"57","13722.58cfa82ee4b0c9d6adf6a967","BLCA","Bladder Urothelial Carcinoma",7
-"58","13722.58cfa82ee4b0c9d6adf6a9e5","GBM","Glioblastoma Multiforme",9
-"59","13722.58cfa82ee4b0c9d6adf6aa9e","BLCA","Bladder Urothelial Carcinoma",10
-"60","13722.58cfa82ee4b0c9d6adf6aaee","BLCA","Bladder Urothelial Carcinoma",8
-"61","13722.58cfa82ee4b0c9d6adf6aaa4","GBM","Glioblastoma Multiforme",9
-"62","13722.58cfa82ee4b0c9d6adf6ab34","BLCA","Bladder Urothelial Carcinoma",7
-"63","13722.58cfa82ee4b0c9d6adf6ab40","SKCM","Skin Cutaneous Melanoma",7
-"64","13722.58cfa82ee4b0c9d6adf6abae","THCA","Thyroid Carcinoma",5
-"65","13722.58cfa82ee4b0c9d6adf6abeb","LGG","Brain Lower Grade Glioma",4
-"66","13722.58cfa82ee4b0c9d6adf6ac86","LUAD","Lung Adenocarcinoma",6
-"67","13722.58cfa82ee4b0c9d6adf6acc0","LUAD","Lung Adenocarcinoma",3
-"68","13722.58cfa82ee4b0c9d6adf6af24","STAD","Stomach Adenocarcinoma",9
-"69","13722.58cfa82ee4b0c9d6adf6adf6","STAD","Stomach Adenocarcinoma",13
-"70","13722.58cfa82de4b0c9d6adf6a762","LUAD","Lung Adenocarcinoma",10
-"71","13722.58cfa82ee4b0c9d6adf6a8a4","LGG","Brain Lower Grade Glioma",5
-"72","13722.58cfa82ee4b0c9d6adf6a85a","LGG","Brain Lower Grade Glioma",6
-"73","13722.58cfa82ee4b0c9d6adf6a956","LGG","Brain Lower Grade Glioma",6
-"74","13722.58cfa82ee4b0c9d6adf6a99c","LGG","Brain Lower Grade Glioma",8
-"75","13722.58cfa82ee4b0c9d6adf6ab0e","LGG","Brain Lower Grade Glioma",4
-"76","13722.58cfa82ee4b0c9d6adf6ab5f","PRAD","Prostate Adenocarcinoma",6
-"77","13722.58cfa82ee4b0c9d6adf6a9fd","THCA","Thyroid Carcinoma",7
-"78","13722.58cfa82ee4b0c9d6adf6ab54","PRAD","Prostate Adenocarcinoma",5
-"79","13722.58cfa82ee4b0c9d6adf6ab7c","PRAD","Prostate Adenocarcinoma",3
-"80","13722.58cfa82ee4b0c9d6adf6ab66","LUAD","Lung Adenocarcinoma",9
-"81","13722.58cfa82ee4b0c9d6adf6ab6e","PRAD","Prostate Adenocarcinoma",5
-"82","13722.58cfa82ee4b0c9d6adf6aba0","PRAD","Prostate Adenocarcinoma",4
-"83","13722.58cfa82ee4b0c9d6adf6abf6","LGG","Brain Lower Grade Glioma",9
-"84","13722.58cfa82ee4b0c9d6adf6abd2","PRAD","Prostate Adenocarcinoma",5
-"85","13722.58cfa82ee4b0c9d6adf6ac26","PRAD","Prostate Adenocarcinoma",6
-"86","13722.58cfa82ee4b0c9d6adf6ac30","PRAD","Prostate Adenocarcinoma",8
-"87","13722.58cfa82ee4b0c9d6adf6ac40","STAD","Stomach Adenocarcinoma",7
-"88","13722.58cfa82ee4b0c9d6adf6ac22","PRAD","Prostate Adenocarcinoma",3
-"89","13722.58cfa82ee4b0c9d6adf6ac91","LUSC","Lung Squamous Cell Carcinoma",3
-"90","13722.58cfa82ee4b0c9d6adf6acae","BLCA","Bladder Urothelial Carcinoma",11
-"91","13722.58cfa82ee4b0c9d6adf6acbe","PRAD","Prostate Adenocarcinoma",2
-"92","13722.58cfa82ee4b0c9d6adf6acb4","LUSC","Lung Squamous Cell Carcinoma",6
-"93","13722.58cfa82ee4b0c9d6adf6acc2","OV","Ovarian Serous Cystadenocarcinoma",5
-"94","13722.58cfa82ee4b0c9d6adf6acee","STAD","Stomach Adenocarcinoma",8
-"95","13722.58cfa82ee4b0c9d6adf6ad30","LUSC","Lung Squamous Cell Carcinoma",5
-"96","13722.58cfa82ee4b0c9d6adf6ad57","LUSC","Lung Squamous Cell Carcinoma",6
-"97","13722.58cfa82ee4b0c9d6adf6ad61","LUSC","Lung Squamous Cell Carcinoma",3
-"98","13722.58cfa82ee4b0c9d6adf6adb4","LUSC","Lung Squamous Cell Carcinoma",4
-"99","13722.58cfa82ee4b0c9d6adf6ace0","STAD","Stomach Adenocarcinoma",5
-"100","13722.58cfa82ee4b0c9d6adf6add4","STAD","Stomach Adenocarcinoma",6
-"101","13722.58cfa82ee4b0c9d6adf6adca","STAD","Stomach Adenocarcinoma",9
-"102","13722.58cfa82ee4b0c9d6adf6ae5d","LUSC","Lung Squamous Cell Carcinoma",8
-"103","13722.58cfa82ee4b0c9d6adf6aecd","PRAD","Prostate Adenocarcinoma",4
-"104","13722.58cfa82ee4b0c9d6adf6af06","STAD","Stomach Adenocarcinoma",4
-"105","13722.58cfa82de4b0c9d6adf6a73e","LUAD","Lung Adenocarcinoma",7
-"106","13722.58cfa82de4b0c9d6adf6a746","LUAD","Lung Adenocarcinoma",6
-"107","13722.58cfa82ee4b0c9d6adf6af08","STAD","Stomach Adenocarcinoma",7
-"108","13722.58cfa82ee4b0c9d6adf6af46","OV","Ovarian Serous Cystadenocarcinoma",8
-"109","13722.58cfa82ee4b0c9d6adf6af5b","OV","Ovarian Serous Cystadenocarcinoma",6
-"110","13722.58cfa82ee4b0c9d6adf6af82","STAD","Stomach Adenocarcinoma",9
-"111","13722.58cfa82ee4b0c9d6adf6afd8","OV","Ovarian Serous Cystadenocarcinoma",12
-"112","13722.58cfa82ee4b0c9d6adf6b070","LUSC","Lung Squamous Cell Carcinoma",6
-"113","13722.58cfa82de4b0c9d6adf6a73c","LUSC","Lung Squamous Cell Carcinoma",8
-"114","13722.58cfa82de4b0c9d6adf6a738","LUSC","Lung Squamous Cell Carcinoma",6
-"115","13722.58cfa82de4b0c9d6adf6a763","LUSC","Lung Squamous Cell Carcinoma",5
-"116","13722.58cfa82de4b0c9d6adf6a794","LUSC","Lung Squamous Cell Carcinoma",6
-"117","13722.58cfa82ee4b0c9d6adf6a918","LUAD","Lung Adenocarcinoma",11
-"118","13722.58cfa82ee4b0c9d6adf6aa01","HNSC","Head and Neck Squamous Cell Carcinoma",6
-"119","13722.58cfa82ee4b0c9d6adf6aa8a","THCA","Thyroid Carcinoma",6
-"120","13722.58cfa82ee4b0c9d6adf6ab5e","LUAD","Lung Adenocarcinoma",14
-"121","13722.58cfa82ee4b0c9d6adf6ab20","SKCM","Skin Cutaneous Melanoma",9
-"122","13722.58cfa82ee4b0c9d6adf6ac51","STAD","Stomach Adenocarcinoma",6
-"123","13722.58cfa82ee4b0c9d6adf6ac75","LUSC","Lung Squamous Cell Carcinoma",8
-"124","13722.58cfa82ee4b0c9d6adf6abc6","THCA","Thyroid Carcinoma",9
-"125","13722.58cfa82ee4b0c9d6adf6ac8b","LUSC","Lung Squamous Cell Carcinoma",10
-"126","13722.58cfa82ee4b0c9d6adf6ac8f","OV","Ovarian Serous Cystadenocarcinoma",6
-"127","13722.58cfa82ee4b0c9d6adf6ac73","LUSC","Lung Squamous Cell Carcinoma",6
-"128","13722.58cfa82ee4b0c9d6adf6ac9e","OV","Ovarian Serous Cystadenocarcinoma",5
-"129","13722.58cfa82ee4b0c9d6adf6ac97","OV","Ovarian Serous Cystadenocarcinoma",3
-"130","13722.58cfa82ee4b0c9d6adf6aca8","STAD","Stomach Adenocarcinoma",6
-"131","13722.58cfa82ee4b0c9d6adf6acbc","PRAD","Prostate Adenocarcinoma",5
-"132","13722.58cfa82ee4b0c9d6adf6acaa","LUSC","Lung Squamous Cell Carcinoma",4
-"133","13722.58cfa82ee4b0c9d6adf6acb6","OV","Ovarian Serous Cystadenocarcinoma",4
-"134","13722.58cfa82ee4b0c9d6adf6accf","OV","Ovarian Serous Cystadenocarcinoma",6
-"135","13722.58cfa82ee4b0c9d6adf6acc8","STAD","Stomach Adenocarcinoma",4
-"136","13722.58cfa82ee4b0c9d6adf6aaec","THCA","Thyroid Carcinoma",6
-"137","13722.58cfa82ee4b0c9d6adf6ace6","STAD","Stomach Adenocarcinoma",8
-"138","13722.58cfa82ee4b0c9d6adf6ad1a","OV","Ovarian Serous Cystadenocarcinoma",9
-"139","13722.58cfa82ee4b0c9d6adf6ad04","THCA","Thyroid Carcinoma",9
-"140","13722.58cfa82ee4b0c9d6adf6ad22","THCA","Thyroid Carcinoma",6
-"141","13722.58cfa82ee4b0c9d6adf6ad24","LUSC","Lung Squamous Cell Carcinoma",8
-"142","13722.58cfa82ee4b0c9d6adf6ad2e","LUSC","Lung Squamous Cell Carcinoma",3
-"143","13722.58cfa82ee4b0c9d6adf6ad1b","GBM","Glioblastoma Multiforme",6
-"144","13722.58cfa82ee4b0c9d6adf6ad33","LUSC","Lung Squamous Cell Carcinoma",6
-"145","13722.58cfa82ee4b0c9d6adf6ad38","THCA","Thyroid Carcinoma",6
-"146","13722.58cfa82ee4b0c9d6adf6ad51","OV","Ovarian Serous Cystadenocarcinoma",3
-"147","13722.58cfa82ee4b0c9d6adf6ad63","THCA","Thyroid Carcinoma",9
-"148","13722.58cfa82ee4b0c9d6adf6ad47","LUSC","Lung Squamous Cell Carcinoma",7
-"149","13722.58cfa82ee4b0c9d6adf6ad3e","STAD","Stomach Adenocarcinoma",9
-"150","13722.58cfa82ee4b0c9d6adf6ad69","OV","Ovarian Serous Cystadenocarcinoma",8
-"151","13722.58cfa82ee4b0c9d6adf6ad3a","THCA","Thyroid Carcinoma",6
-"152","13722.58cfa82ee4b0c9d6adf6ad8a","STAD","Stomach Adenocarcinoma",10
-"153","13722.58cfa82ee4b0c9d6adf6ad43","LUSC","Lung Squamous Cell Carcinoma",5
-"154","13722.58cfa82ee4b0c9d6adf6ad7a","STAD","Stomach Adenocarcinoma",7
-"155","13722.58cfa82ee4b0c9d6adf6ad9a","LUSC","Lung Squamous Cell Carcinoma",13
-"156","13722.58cfa82ee4b0c9d6adf6ada0","STAD","Stomach Adenocarcinoma",5
-"157","13722.58cfa82ee4b0c9d6adf6adda","LUSC","Lung Squamous Cell Carcinoma",6
-"158","13722.58cfa82ee4b0c9d6adf6add8","OV","Ovarian Serous Cystadenocarcinoma",7
-"159","13722.58cfa82ee4b0c9d6adf6adfc","GBM","Glioblastoma Multiforme",9
-"160","13722.58cfa82ee4b0c9d6adf6ae46","LUSC","Lung Squamous Cell Carcinoma",4
-"161","13722.58cfa82ee4b0c9d6adf6ae1a","LUSC","Lung Squamous Cell Carcinoma",5
-"162","13722.58cfa82ee4b0c9d6adf6ae76","THCA","Thyroid Carcinoma",5
-"163","13722.58cfa82ee4b0c9d6adf6ae79","GBM","Glioblastoma Multiforme",10
-"164","13722.58cfa82ee4b0c9d6adf6ae86","GBM","Glioblastoma Multiforme",9
-"165","13722.58cfa82ee4b0c9d6adf6ae81","GBM","Glioblastoma Multiforme",9
-"166","13722.58cfa82ee4b0c9d6adf6ae8a","THCA","Thyroid Carcinoma",6
-"167","13722.58cfa82ee4b0c9d6adf6ae91","GBM","Glioblastoma Multiforme",10
-"168","13722.58cfa82ee4b0c9d6adf6ae8b","THCA","Thyroid Carcinoma",5
-"169","13722.58cfa82ee4b0c9d6adf6ae9a","THCA","Thyroid Carcinoma",9
-"170","13722.58cfa82ee4b0c9d6adf6aebe","GBM","Glioblastoma Multiforme",12
-"171","13722.58cfa82ee4b0c9d6adf6aea8","STAD","Stomach Adenocarcinoma",5
-"172","13722.58cfa82ee4b0c9d6adf6aab8","HNSC","Head and Neck Squamous Cell Carcinoma",7
-"173","13722.58cfa82ee4b0c9d6adf6aea6","THCA","Thyroid Carcinoma",10
-"174","13722.58cfa82ee4b0c9d6adf6aed0","OV","Ovarian Serous Cystadenocarcinoma",8
-"175","13722.58cfa82ee4b0c9d6adf6aebf","THCA","Thyroid Carcinoma",10
-"176","13722.58cfa82ee4b0c9d6adf6aeea","THCA","Thyroid Carcinoma",6
-"177","13722.58cfa82ee4b0c9d6adf6aee2","THCA","Thyroid Carcinoma",6
-"178","13722.58cfa82ee4b0c9d6adf6af26","OV","Ovarian Serous Cystadenocarcinoma",7
-"179","13722.58cfa82ee4b0c9d6adf6af2a","STAD","Stomach Adenocarcinoma",4
-"180","13722.58cfa82ee4b0c9d6adf6af4a","LUSC","Lung Squamous Cell Carcinoma",7
-"181","13722.58cfa82ee4b0c9d6adf6af3a","OV","Ovarian Serous Cystadenocarcinoma",3
-"182","13722.58cfa82ee4b0c9d6adf6af1c","STAD","Stomach Adenocarcinoma",7
-"183","13722.58cfa82ee4b0c9d6adf6af4c","LUSC","Lung Squamous Cell Carcinoma",7
-"184","13722.58cfa82ee4b0c9d6adf6af7e","OV","Ovarian Serous Cystadenocarcinoma",4
-"185","13722.58cfa82ee4b0c9d6adf6af78","STAD","Stomach Adenocarcinoma",5
-"186","13722.58cfa82ee4b0c9d6adf6af6c","OV","Ovarian Serous Cystadenocarcinoma",5
-"187","13722.58cfa82ee4b0c9d6adf6af68","LUSC","Lung Squamous Cell Carcinoma",6
-"188","13722.58cfa82ee4b0c9d6adf6af04","STAD","Stomach Adenocarcinoma",5
-"189","13722.58cfa82ee4b0c9d6adf6afb0","OV","Ovarian Serous Cystadenocarcinoma",5
-"190","13722.58cfa82ee4b0c9d6adf6affa","OV","Ovarian Serous Cystadenocarcinoma",3
-"191","13722.58cfa82ee4b0c9d6adf6aeee","THCA","Thyroid Carcinoma",8
-"192","13722.58cfa82ee4b0c9d6adf6aed4","THCA","Thyroid Carcinoma",3
-"193","13722.58cfa82de4b0c9d6adf6a72e","LUSC","Lung Squamous Cell Carcinoma",11
-"194","13722.58cfa82de4b0c9d6adf6a742","LUAD","Lung Adenocarcinoma",4
-"195","13722.58cfa82de4b0c9d6adf6a74e","LUSC","Lung Squamous Cell Carcinoma",5
-"196","13722.58cfa82de4b0c9d6adf6a776","LUAD","Lung Adenocarcinoma",8
-"197","13722.58cfa82de4b0c9d6adf6a77c","LUAD","Lung Adenocarcinoma",9
-"198","13722.58cfa82de4b0c9d6adf6a77a","LUSC","Lung Squamous Cell Carcinoma",4
-"199","13722.58cfa82ee4b0c9d6adf6a7cf","HNSC","Head and Neck Squamous Cell Carcinoma",11
-"200","13722.58cfa82ee4b0c9d6adf6a81a","HNSC","Head and Neck Squamous Cell Carcinoma",15
-"201","13722.58cfa82ee4b0c9d6adf6a8da","LUAD","Lung Adenocarcinoma",7
-"202","13722.58cfa82ee4b0c9d6adf6a89c","LUAD","Lung Adenocarcinoma",7
-"203","13722.58cfa82ee4b0c9d6adf6a90a","BLCA","Bladder Urothelial Carcinoma",10
-"204","13722.58cfa82ee4b0c9d6adf6a911","KIRC","Kidney Renal Clear Cell Carcinoma",7
-"205","13722.58cfa82ee4b0c9d6adf6a922","GBM","Glioblastoma Multiforme",7
-"206","13722.58cfa82ee4b0c9d6adf6a9d5","LUAD","Lung Adenocarcinoma",5
-"207","13722.58cfa82ee4b0c9d6adf6a9e7","LUAD","Lung Adenocarcinoma",8
-"208","13722.58cfa82ee4b0c9d6adf6aa44","HNSC","Head and Neck Squamous Cell Carcinoma",10
-"209","13722.58cfa82ee4b0c9d6adf6aa4d","GBM","Glioblastoma Multiforme",7
-"210","13722.58cfa82ee4b0c9d6adf6aac9","LUAD","Lung Adenocarcinoma",8
-"211","13722.58cfa82ee4b0c9d6adf6ab02","HNSC","Head and Neck Squamous Cell Carcinoma",11
-"212","13722.58cfa82ee4b0c9d6adf6ab88","PRAD","Prostate Adenocarcinoma",3
-"213","13722.58cfa82ee4b0c9d6adf6ab9c","LUAD","Lung Adenocarcinoma",7
-"214","13722.58cfa82ee4b0c9d6adf6ab8a","GBM","Glioblastoma Multiforme",10
-"215","13722.58cfa82ee4b0c9d6adf6abb0","GBM","Glioblastoma Multiforme",7
-"216","13722.58cfa82ee4b0c9d6adf6abc4","PRAD","Prostate Adenocarcinoma",3
-"217","13722.58cfa82ee4b0c9d6adf6ac1c","PRAD","Prostate Adenocarcinoma",4
-"218","13722.58cfa82ee4b0c9d6adf6ac1e","PRAD","Prostate Adenocarcinoma",5
-"219","13722.58cfa82ee4b0c9d6adf6ac27","PRAD","Prostate Adenocarcinoma",4
-"220","13722.58cfa82ee4b0c9d6adf6ac9a","LUAD","Lung Adenocarcinoma",5
-"221","13722.58cfa82ee4b0c9d6adf6acac","PRAD","Prostate Adenocarcinoma",5
-"222","13722.58cfa82ee4b0c9d6adf6accb","STAD","Stomach Adenocarcinoma",6
-"223","13722.58cfa82ee4b0c9d6adf6acd3","STAD","Stomach Adenocarcinoma",9
-"224","13722.58cfa82ee4b0c9d6adf6acdb","STAD","Stomach Adenocarcinoma",7
-"225","13722.58cfa82ee4b0c9d6adf6ad0e","BLCA","Bladder Urothelial Carcinoma",6
-"226","13722.58cfa82ee4b0c9d6adf6ac7c","LUAD","Lung Adenocarcinoma",10
-"227","13722.58cfa82ee4b0c9d6adf6af6a","LUAD","Lung Adenocarcinoma",3
-"228","13722.58cfa82ee4b0c9d6adf6b0c4","LUSC","Lung Squamous Cell Carcinoma",4
-"229","13722.58cfa82ee4b0c9d6adf6af76","LUAD","Lung Adenocarcinoma",3
-"230","13722.58cfa82de4b0c9d6adf6a720","LUSC","Lung Squamous Cell Carcinoma",10
-"231","13722.58cfa82ee4b0c9d6adf6abe7","THCA","Thyroid Carcinoma",8
-"232","13722.58cfa82ee4b0c9d6adf6ac7e","LUSC","Lung Squamous Cell Carcinoma",3
-"233","13722.58cfa82ee4b0c9d6adf6ac7a","STAD","Stomach Adenocarcinoma",12
-"234","13722.58cfa82ee4b0c9d6adf6ac9c","LUSC","Lung Squamous Cell Carcinoma",5
-"235","13722.58cfa82ee4b0c9d6adf6acec","THCA","Thyroid Carcinoma",7
-"236","13722.58cfa82ee4b0c9d6adf6acef","THCA","Thyroid Carcinoma",7
-"237","13722.58cfa82ee4b0c9d6adf6acf8","THCA","Thyroid Carcinoma",11
-"238","13722.58cfa82ee4b0c9d6adf6ad00","THCA","Thyroid Carcinoma",6
-"239","13722.58cfa82ee4b0c9d6adf6ad02","THCA","Thyroid Carcinoma",7
-"240","13722.58cfa82ee4b0c9d6adf6ad1c","THCA","Thyroid Carcinoma",7
-"241","13722.58cfa82ee4b0c9d6adf6ad12","THCA","Thyroid Carcinoma",6
-"242","13722.58cfa82ee4b0c9d6adf6ad18","THCA","Thyroid Carcinoma",6
-"243","13722.58cfa82ee4b0c9d6adf6ad1f","STAD","Stomach Adenocarcinoma",7
-"244","13722.58cfa82ee4b0c9d6adf6adac","STAD","Stomach Adenocarcinoma",6
-"245","13722.58cfa82ee4b0c9d6adf6add6","STAD","Stomach Adenocarcinoma",7
-"246","13722.58cfa82ee4b0c9d6adf6ad25","GBM","Glioblastoma Multiforme",6
-"247","13722.58cfa82ee4b0c9d6adf6ae16","LUSC","Lung Squamous Cell Carcinoma",7
-"248","13722.58cfa82ee4b0c9d6adf6ade4","LUSC","Lung Squamous Cell Carcinoma",6
-"249","13722.58cfa82ee4b0c9d6adf6ad92","STAD","Stomach Adenocarcinoma",4
-"250","13722.58cfa82ee4b0c9d6adf6ae7c","GBM","Glioblastoma Multiforme",6
-"251","13722.58cfa82ee4b0c9d6adf6aeaa","THCA","Thyroid Carcinoma",6
-"252","13722.58cfa82ee4b0c9d6adf6aea0","THCA","Thyroid Carcinoma",7
-"253","13722.58cfa82ee4b0c9d6adf6aedb","THCA","Thyroid Carcinoma",5
-"254","13722.58cfa82ee4b0c9d6adf6aeb6","THCA","Thyroid Carcinoma",8
-"255","13722.58cfa82ee4b0c9d6adf6af3e","LUSC","Lung Squamous Cell Carcinoma",5
-"256","13722.58cfa82ee4b0c9d6adf6af4e","THCA","Thyroid Carcinoma",4
-"257","13722.58cfa82ee4b0c9d6adf6aec4","THCA","Thyroid Carcinoma",3
-"258","13722.58cfa82ee4b0c9d6adf6af6e","STAD","Stomach Adenocarcinoma",11
-"259","13722.58cfa82ee4b0c9d6adf6b004","THCA","Thyroid Carcinoma",7
-"260","13722.58cfa82ee4b0c9d6adf6afc7","THCA","Thyroid Carcinoma",5
-"261","13722.58cfa82ee4b0c9d6adf6ade1","STAD","Stomach Adenocarcinoma",8
-"262","13722.58cfa82ee4b0c9d6adf6aaa8","BLCA","Bladder Urothelial Carcinoma",7
-"263","13722.58cfa82ee4b0c9d6adf6ab36","SKCM","Skin Cutaneous Melanoma",5
-"264","13722.58cfa82ee4b0c9d6adf6ab7e","HNSC","Head and Neck Squamous Cell Carcinoma",5
-"265","13722.58cfa82ee4b0c9d6adf6abf5","HNSC","Head and Neck Squamous Cell Carcinoma",4
+"27","13722.58cfa82ee4b0c9d6adf6b056","LUAD","Lung Adenocarcinoma",3
+"28","13722.58cfa82de4b0c9d6adf6a76e","LUAD","Lung Adenocarcinoma",8
+"29","13722.58cfa82ee4b0c9d6adf6a8d7","BLCA","Bladder Urothelial Carcinoma",8
+"30","13722.58cfa82ee4b0c9d6adf6a8ec","LGG","Brain Lower Grade Glioma",4
+"31","13722.58cfa82ee4b0c9d6adf6a8e0","LGG","Brain Lower Grade Glioma",4
+"32","13722.58cfa82ee4b0c9d6adf6a94d","LGG","Brain Lower Grade Glioma",4
+"33","13722.58cfa82ee4b0c9d6adf6a967","BLCA","Bladder Urothelial Carcinoma",6
+"34","13722.58cfa82ee4b0c9d6adf6a9e5","GBM","Glioblastoma Multiforme",7
+"35","13722.58cfa82ee4b0c9d6adf6aa9e","BLCA","Bladder Urothelial Carcinoma",6
+"36","13722.58cfa82ee4b0c9d6adf6aaee","BLCA","Bladder Urothelial Carcinoma",7
+"37","13722.58cfa82ee4b0c9d6adf6aaa4","GBM","Glioblastoma Multiforme",6
+"38","13722.58cfa82ee4b0c9d6adf6ab34","BLCA","Bladder Urothelial Carcinoma",6
+"39","13722.58cfa82ee4b0c9d6adf6ab40","SKCM","Skin Cutaneous Melanoma",2
+"40","13722.58cfa82ee4b0c9d6adf6abae","THCA","Thyroid Carcinoma",6
+"41","13722.58cfa82ee4b0c9d6adf6abeb","LGG","Brain Lower Grade Glioma",7
+"42","13722.58cfa82ee4b0c9d6adf6ac86","LUAD","Lung Adenocarcinoma",6
+"43","13722.58cfa82ee4b0c9d6adf6acc0","LUAD","Lung Adenocarcinoma",2
+"44","13722.58cfa82ee4b0c9d6adf6af24","STAD","Stomach Adenocarcinoma",7
+"45","13722.58cfa82ee4b0c9d6adf6adf6","STAD","Stomach Adenocarcinoma",12
+"46","13722.58cfa82ee4b0c9d6adf6a8aa","LGG","Brain Lower Grade Glioma",8
+"47","13722.58cfa82ee4b0c9d6adf6a95c","LGG","Brain Lower Grade Glioma",3
+"48","13722.58cfa82ee4b0c9d6adf6a966","LGG","Brain Lower Grade Glioma",6
+"49","13722.58cfa82ee4b0c9d6adf6a974","BLCA","Bladder Urothelial Carcinoma",7
+"50","13722.58cfa82ee4b0c9d6adf6a986","LGG","Brain Lower Grade Glioma",6
+"51","13722.58cfa82ee4b0c9d6adf6aa80","THCA","Thyroid Carcinoma",6
+"52","13722.58cfa82ee4b0c9d6adf6aa88","BLCA","Bladder Urothelial Carcinoma",6
+"53","13722.58cfa82ee4b0c9d6adf6aaba","BLCA","Bladder Urothelial Carcinoma",7
+"54","13722.58cfa82ee4b0c9d6adf6aac4","BLCA","Bladder Urothelial Carcinoma",6
+"55","13722.58cfa82ee4b0c9d6adf6aad4","THCA","Thyroid Carcinoma",9
+"56","13722.58cfa82ee4b0c9d6adf6ab6c","BLCA","Bladder Urothelial Carcinoma",4
+"57","13722.58cfa82ee4b0c9d6adf6aba3","THCA","Thyroid Carcinoma",4
+"58","13722.58cfa82ee4b0c9d6adf6abd6","THCA","Thyroid Carcinoma",4
+"59","13722.58cfa82ee4b0c9d6adf6ac56","STAD","Stomach Adenocarcinoma",4
+"60","13722.58cfa82ee4b0c9d6adf6ad73","THCA","Thyroid Carcinoma",4
+"61","13722.58cfa82de4b0c9d6adf6a762","LUAD","Lung Adenocarcinoma",7
+"62","13722.58cfa82ee4b0c9d6adf6a8a4","LGG","Brain Lower Grade Glioma",4
+"63","13722.58cfa82ee4b0c9d6adf6a85a","LGG","Brain Lower Grade Glioma",4
+"64","13722.58cfa82ee4b0c9d6adf6a956","LGG","Brain Lower Grade Glioma",3
+"65","13722.58cfa82ee4b0c9d6adf6a99c","LGG","Brain Lower Grade Glioma",8
+"66","13722.58cfa82ee4b0c9d6adf6ab0e","LGG","Brain Lower Grade Glioma",3
+"67","13722.58cfa82ee4b0c9d6adf6ab5f","PRAD","Prostate Adenocarcinoma",4
+"68","13722.58cfa82ee4b0c9d6adf6a9fd","THCA","Thyroid Carcinoma",3
+"69","13722.58cfa82ee4b0c9d6adf6ab54","PRAD","Prostate Adenocarcinoma",4
+"70","13722.58cfa82ee4b0c9d6adf6ab7c","PRAD","Prostate Adenocarcinoma",2
+"71","13722.58cfa82ee4b0c9d6adf6ab66","LUAD","Lung Adenocarcinoma",6
+"72","13722.58cfa82ee4b0c9d6adf6ab6e","PRAD","Prostate Adenocarcinoma",6
+"73","13722.58cfa82ee4b0c9d6adf6aba0","PRAD","Prostate Adenocarcinoma",4
+"74","13722.58cfa82ee4b0c9d6adf6abf6","LGG","Brain Lower Grade Glioma",6
+"75","13722.58cfa82ee4b0c9d6adf6abd2","PRAD","Prostate Adenocarcinoma",2
+"76","13722.58cfa82ee4b0c9d6adf6ac26","PRAD","Prostate Adenocarcinoma",6
+"77","13722.58cfa82ee4b0c9d6adf6ac30","PRAD","Prostate Adenocarcinoma",3
+"78","13722.58cfa82ee4b0c9d6adf6ac40","STAD","Stomach Adenocarcinoma",5
+"79","13722.58cfa82ee4b0c9d6adf6ac22","PRAD","Prostate Adenocarcinoma",4
+"80","13722.58cfa82ee4b0c9d6adf6ac91","LUSC","Lung Squamous Cell Carcinoma",3
+"81","13722.58cfa82ee4b0c9d6adf6acae","BLCA","Bladder Urothelial Carcinoma",5
+"82","13722.58cfa82ee4b0c9d6adf6acbe","PRAD","Prostate Adenocarcinoma",1
+"83","13722.58cfa82ee4b0c9d6adf6acb4","LUSC","Lung Squamous Cell Carcinoma",4
+"84","13722.58cfa82ee4b0c9d6adf6acc2","OV","Ovarian Serous Cystadenocarcinoma",5
+"85","13722.58cfa82ee4b0c9d6adf6acee","STAD","Stomach Adenocarcinoma",4
+"86","13722.58cfa82ee4b0c9d6adf6ad30","LUSC","Lung Squamous Cell Carcinoma",5
+"87","13722.58cfa82ee4b0c9d6adf6ad57","LUSC","Lung Squamous Cell Carcinoma",5
+"88","13722.58cfa82ee4b0c9d6adf6ad61","LUSC","Lung Squamous Cell Carcinoma",2
+"89","13722.58cfa82ee4b0c9d6adf6adb4","LUSC","Lung Squamous Cell Carcinoma",3
+"90","13722.58cfa82ee4b0c9d6adf6ace0","STAD","Stomach Adenocarcinoma",3
+"91","13722.58cfa82ee4b0c9d6adf6add4","STAD","Stomach Adenocarcinoma",3
+"92","13722.58cfa82ee4b0c9d6adf6adca","STAD","Stomach Adenocarcinoma",7
+"93","13722.58cfa82ee4b0c9d6adf6ae5d","LUSC","Lung Squamous Cell Carcinoma",4
+"94","13722.58cfa82ee4b0c9d6adf6aecd","PRAD","Prostate Adenocarcinoma",2
+"95","13722.58cfa82ee4b0c9d6adf6af06","STAD","Stomach Adenocarcinoma",2
+"96","13722.58cfa82de4b0c9d6adf6a73e","LUAD","Lung Adenocarcinoma",6
+"97","13722.58cfa82de4b0c9d6adf6a746","LUAD","Lung Adenocarcinoma",5
+"98","13722.58cfa82ee4b0c9d6adf6af08","STAD","Stomach Adenocarcinoma",5
+"99","13722.58cfa82ee4b0c9d6adf6af46","OV","Ovarian Serous Cystadenocarcinoma",8
+"100","13722.58cfa82ee4b0c9d6adf6af5b","OV","Ovarian Serous Cystadenocarcinoma",4
+"101","13722.58cfa82ee4b0c9d6adf6af82","STAD","Stomach Adenocarcinoma",8
+"102","13722.58cfa82ee4b0c9d6adf6afd8","OV","Ovarian Serous Cystadenocarcinoma",9
+"103","13722.58cfa82ee4b0c9d6adf6b070","LUSC","Lung Squamous Cell Carcinoma",5
+"104","13722.58cfa82de4b0c9d6adf6a73c","LUSC","Lung Squamous Cell Carcinoma",4
+"105","13722.58cfa82de4b0c9d6adf6a738","LUSC","Lung Squamous Cell Carcinoma",5
+"106","13722.58cfa82de4b0c9d6adf6a763","LUSC","Lung Squamous Cell Carcinoma",4
+"107","13722.58cfa82de4b0c9d6adf6a794","LUSC","Lung Squamous Cell Carcinoma",4
+"108","13722.58cfa82ee4b0c9d6adf6a918","LUAD","Lung Adenocarcinoma",7
+"109","13722.58cfa82ee4b0c9d6adf6aa01","HNSC","Head and Neck Squamous Cell Carcinoma",5
+"110","13722.58cfa82ee4b0c9d6adf6aa8a","THCA","Thyroid Carcinoma",7
+"111","13722.58cfa82ee4b0c9d6adf6ab5e","LUAD","Lung Adenocarcinoma",13
+"112","13722.58cfa82ee4b0c9d6adf6ab20","SKCM","Skin Cutaneous Melanoma",8
+"113","13722.58cfa82ee4b0c9d6adf6ac51","STAD","Stomach Adenocarcinoma",7
+"114","13722.58cfa82ee4b0c9d6adf6ac75","LUSC","Lung Squamous Cell Carcinoma",10
+"115","13722.58cfa82ee4b0c9d6adf6abc6","THCA","Thyroid Carcinoma",8
+"116","13722.58cfa82ee4b0c9d6adf6ac8b","LUSC","Lung Squamous Cell Carcinoma",4
+"117","13722.58cfa82ee4b0c9d6adf6ac8f","OV","Ovarian Serous Cystadenocarcinoma",5
+"118","13722.58cfa82ee4b0c9d6adf6ac73","LUSC","Lung Squamous Cell Carcinoma",5
+"119","13722.58cfa82ee4b0c9d6adf6ac9e","OV","Ovarian Serous Cystadenocarcinoma",5
+"120","13722.58cfa82ee4b0c9d6adf6ac97","OV","Ovarian Serous Cystadenocarcinoma",2
+"121","13722.58cfa82ee4b0c9d6adf6aca8","STAD","Stomach Adenocarcinoma",3
+"122","13722.58cfa82ee4b0c9d6adf6acbc","PRAD","Prostate Adenocarcinoma",4
+"123","13722.58cfa82ee4b0c9d6adf6acaa","LUSC","Lung Squamous Cell Carcinoma",3
+"124","13722.58cfa82ee4b0c9d6adf6acb6","OV","Ovarian Serous Cystadenocarcinoma",5
+"125","13722.58cfa82ee4b0c9d6adf6accf","OV","Ovarian Serous Cystadenocarcinoma",8
+"126","13722.58cfa82ee4b0c9d6adf6acc8","STAD","Stomach Adenocarcinoma",2
+"127","13722.58cfa82ee4b0c9d6adf6aaec","THCA","Thyroid Carcinoma",10
+"128","13722.58cfa82ee4b0c9d6adf6ace6","STAD","Stomach Adenocarcinoma",6
+"129","13722.58cfa82ee4b0c9d6adf6ad1a","OV","Ovarian Serous Cystadenocarcinoma",7
+"130","13722.58cfa82ee4b0c9d6adf6ad04","THCA","Thyroid Carcinoma",6
+"131","13722.58cfa82ee4b0c9d6adf6ad22","THCA","Thyroid Carcinoma",4
+"132","13722.58cfa82ee4b0c9d6adf6ad24","LUSC","Lung Squamous Cell Carcinoma",8
+"133","13722.58cfa82ee4b0c9d6adf6ad2e","LUSC","Lung Squamous Cell Carcinoma",3
+"134","13722.58cfa82ee4b0c9d6adf6ad1b","GBM","Glioblastoma Multiforme",7
+"135","13722.58cfa82ee4b0c9d6adf6ad33","LUSC","Lung Squamous Cell Carcinoma",6
+"136","13722.58cfa82ee4b0c9d6adf6ad38","THCA","Thyroid Carcinoma",5
+"137","13722.58cfa82ee4b0c9d6adf6ad51","OV","Ovarian Serous Cystadenocarcinoma",5
+"138","13722.58cfa82ee4b0c9d6adf6ad63","THCA","Thyroid Carcinoma",4
+"139","13722.58cfa82ee4b0c9d6adf6ad47","LUSC","Lung Squamous Cell Carcinoma",5
+"140","13722.58cfa82ee4b0c9d6adf6ad3e","STAD","Stomach Adenocarcinoma",13
+"141","13722.58cfa82ee4b0c9d6adf6ad69","OV","Ovarian Serous Cystadenocarcinoma",13
+"142","13722.58cfa82ee4b0c9d6adf6ad3a","THCA","Thyroid Carcinoma",5
+"143","13722.58cfa82ee4b0c9d6adf6ad8a","STAD","Stomach Adenocarcinoma",9
+"144","13722.58cfa82ee4b0c9d6adf6ad43","LUSC","Lung Squamous Cell Carcinoma",3
+"145","13722.58cfa82ee4b0c9d6adf6ad7a","STAD","Stomach Adenocarcinoma",3
+"146","13722.58cfa82ee4b0c9d6adf6ad9a","LUSC","Lung Squamous Cell Carcinoma",8
+"147","13722.58cfa82ee4b0c9d6adf6ada0","STAD","Stomach Adenocarcinoma",6
+"148","13722.58cfa82ee4b0c9d6adf6adda","LUSC","Lung Squamous Cell Carcinoma",4
+"149","13722.58cfa82ee4b0c9d6adf6add8","OV","Ovarian Serous Cystadenocarcinoma",8
+"150","13722.58cfa82ee4b0c9d6adf6adfc","GBM","Glioblastoma Multiforme",5
+"151","13722.58cfa82ee4b0c9d6adf6ae46","LUSC","Lung Squamous Cell Carcinoma",4
+"152","13722.58cfa82ee4b0c9d6adf6ae1a","LUSC","Lung Squamous Cell Carcinoma",6
+"153","13722.58cfa82ee4b0c9d6adf6ae76","THCA","Thyroid Carcinoma",4
+"154","13722.58cfa82ee4b0c9d6adf6ae79","GBM","Glioblastoma Multiforme",6
+"155","13722.58cfa82ee4b0c9d6adf6ae86","GBM","Glioblastoma Multiforme",7
+"156","13722.58cfa82ee4b0c9d6adf6ae81","GBM","Glioblastoma Multiforme",10
+"157","13722.58cfa82ee4b0c9d6adf6ae8a","THCA","Thyroid Carcinoma",5
+"158","13722.58cfa82ee4b0c9d6adf6ae91","GBM","Glioblastoma Multiforme",11
+"159","13722.58cfa82ee4b0c9d6adf6ae8b","THCA","Thyroid Carcinoma",7
+"160","13722.58cfa82ee4b0c9d6adf6ae9a","THCA","Thyroid Carcinoma",7
+"161","13722.58cfa82ee4b0c9d6adf6aebe","GBM","Glioblastoma Multiforme",12
+"162","13722.58cfa82ee4b0c9d6adf6aea8","STAD","Stomach Adenocarcinoma",6
+"163","13722.58cfa82ee4b0c9d6adf6aab8","HNSC","Head and Neck Squamous Cell Carcinoma",8
+"164","13722.58cfa82ee4b0c9d6adf6aea6","THCA","Thyroid Carcinoma",9
+"165","13722.58cfa82ee4b0c9d6adf6aed0","OV","Ovarian Serous Cystadenocarcinoma",5
+"166","13722.58cfa82ee4b0c9d6adf6aebf","THCA","Thyroid Carcinoma",7
+"167","13722.58cfa82ee4b0c9d6adf6aeea","THCA","Thyroid Carcinoma",4
+"168","13722.58cfa82ee4b0c9d6adf6aee2","THCA","Thyroid Carcinoma",6
+"169","13722.58cfa82ee4b0c9d6adf6af26","OV","Ovarian Serous Cystadenocarcinoma",5
+"170","13722.58cfa82ee4b0c9d6adf6af2a","STAD","Stomach Adenocarcinoma",5
+"171","13722.58cfa82ee4b0c9d6adf6af4a","LUSC","Lung Squamous Cell Carcinoma",4
+"172","13722.58cfa82ee4b0c9d6adf6af3a","OV","Ovarian Serous Cystadenocarcinoma",5
+"173","13722.58cfa82ee4b0c9d6adf6af1c","STAD","Stomach Adenocarcinoma",8
+"174","13722.58cfa82ee4b0c9d6adf6af4c","LUSC","Lung Squamous Cell Carcinoma",4
+"175","13722.58cfa82ee4b0c9d6adf6af7e","OV","Ovarian Serous Cystadenocarcinoma",4
+"176","13722.58cfa82ee4b0c9d6adf6af78","STAD","Stomach Adenocarcinoma",4
+"177","13722.58cfa82ee4b0c9d6adf6af6c","OV","Ovarian Serous Cystadenocarcinoma",7
+"178","13722.58cfa82ee4b0c9d6adf6af68","LUSC","Lung Squamous Cell Carcinoma",8
+"179","13722.58cfa82ee4b0c9d6adf6af04","STAD","Stomach Adenocarcinoma",3
+"180","13722.58cfa82ee4b0c9d6adf6afb0","OV","Ovarian Serous Cystadenocarcinoma",3
+"181","13722.58cfa82ee4b0c9d6adf6affa","OV","Ovarian Serous Cystadenocarcinoma",2
+"182","13722.58cfa82ee4b0c9d6adf6aeee","THCA","Thyroid Carcinoma",5
+"183","13722.58cfa82ee4b0c9d6adf6aed4","THCA","Thyroid Carcinoma",3
+"184","13722.58cfa82de4b0c9d6adf6a72e","LUSC","Lung Squamous Cell Carcinoma",7
+"185","13722.58cfa82de4b0c9d6adf6a742","LUAD","Lung Adenocarcinoma",3
+"186","13722.58cfa82de4b0c9d6adf6a74e","LUSC","Lung Squamous Cell Carcinoma",3
+"187","13722.58cfa82de4b0c9d6adf6a776","LUAD","Lung Adenocarcinoma",5
+"188","13722.58cfa82de4b0c9d6adf6a77c","LUAD","Lung Adenocarcinoma",7
+"189","13722.58cfa82de4b0c9d6adf6a77a","LUSC","Lung Squamous Cell Carcinoma",6
+"190","13722.58cfa82ee4b0c9d6adf6a7cf","HNSC","Head and Neck Squamous Cell Carcinoma",9
+"191","13722.58cfa82ee4b0c9d6adf6a81a","HNSC","Head and Neck Squamous Cell Carcinoma",9
+"192","13722.58cfa82ee4b0c9d6adf6a8da","LUAD","Lung Adenocarcinoma",4
+"193","13722.58cfa82ee4b0c9d6adf6a89c","LUAD","Lung Adenocarcinoma",4
+"194","13722.58cfa82ee4b0c9d6adf6a90a","BLCA","Bladder Urothelial Carcinoma",10
+"195","13722.58cfa82ee4b0c9d6adf6a911","KIRC","Kidney Renal Clear Cell Carcinoma",3
+"196","13722.58cfa82ee4b0c9d6adf6a922","GBM","Glioblastoma Multiforme",9
+"197","13722.58cfa82ee4b0c9d6adf6a9d5","LUAD","Lung Adenocarcinoma",4
+"198","13722.58cfa82ee4b0c9d6adf6a9e7","LUAD","Lung Adenocarcinoma",5
+"199","13722.58cfa82ee4b0c9d6adf6aa44","HNSC","Head and Neck Squamous Cell Carcinoma",9
+"200","13722.58cfa82ee4b0c9d6adf6aa4d","GBM","Glioblastoma Multiforme",6
+"201","13722.58cfa82ee4b0c9d6adf6aac9","LUAD","Lung Adenocarcinoma",3
+"202","13722.58cfa82ee4b0c9d6adf6ab02","HNSC","Head and Neck Squamous Cell Carcinoma",8
+"203","13722.58cfa82ee4b0c9d6adf6ab88","PRAD","Prostate Adenocarcinoma",3
+"204","13722.58cfa82ee4b0c9d6adf6ab9c","LUAD","Lung Adenocarcinoma",7
+"205","13722.58cfa82ee4b0c9d6adf6ab8a","GBM","Glioblastoma Multiforme",6
+"206","13722.58cfa82ee4b0c9d6adf6abb0","GBM","Glioblastoma Multiforme",4
+"207","13722.58cfa82ee4b0c9d6adf6abc4","PRAD","Prostate Adenocarcinoma",2
+"208","13722.58cfa82ee4b0c9d6adf6ac1c","PRAD","Prostate Adenocarcinoma",3
+"209","13722.58cfa82ee4b0c9d6adf6ac1e","PRAD","Prostate Adenocarcinoma",5
+"210","13722.58cfa82ee4b0c9d6adf6ac27","PRAD","Prostate Adenocarcinoma",4
+"211","13722.58cfa82ee4b0c9d6adf6ac9a","LUAD","Lung Adenocarcinoma",4
+"212","13722.58cfa82ee4b0c9d6adf6acac","PRAD","Prostate Adenocarcinoma",3
+"213","13722.58cfa82ee4b0c9d6adf6accb","STAD","Stomach Adenocarcinoma",5
+"214","13722.58cfa82ee4b0c9d6adf6acd3","STAD","Stomach Adenocarcinoma",8
+"215","13722.58cfa82ee4b0c9d6adf6acdb","STAD","Stomach Adenocarcinoma",4
+"216","13722.58cfa82ee4b0c9d6adf6ad0e","BLCA","Bladder Urothelial Carcinoma",5
+"217","13722.58cfa82ee4b0c9d6adf6ac7c","LUAD","Lung Adenocarcinoma",5
+"218","13722.58cfa82ee4b0c9d6adf6af6a","LUAD","Lung Adenocarcinoma",4
+"219","13722.58cfa82ee4b0c9d6adf6b0c4","LUSC","Lung Squamous Cell Carcinoma",2
+"220","13722.58cfa82ee4b0c9d6adf6af76","LUAD","Lung Adenocarcinoma",3
+"221","13722.58cfa82de4b0c9d6adf6a720","LUSC","Lung Squamous Cell Carcinoma",7
+"222","13722.58cfa82ee4b0c9d6adf6abe7","THCA","Thyroid Carcinoma",5
+"223","13722.58cfa82ee4b0c9d6adf6ac7e","LUSC","Lung Squamous Cell Carcinoma",2
+"224","13722.58cfa82ee4b0c9d6adf6ac7a","STAD","Stomach Adenocarcinoma",9
+"225","13722.58cfa82ee4b0c9d6adf6ac9c","LUSC","Lung Squamous Cell Carcinoma",5
+"226","13722.58cfa82ee4b0c9d6adf6acec","THCA","Thyroid Carcinoma",7
+"227","13722.58cfa82ee4b0c9d6adf6acef","THCA","Thyroid Carcinoma",7
+"228","13722.58cfa82ee4b0c9d6adf6acf8","THCA","Thyroid Carcinoma",4
+"229","13722.58cfa82ee4b0c9d6adf6ad00","THCA","Thyroid Carcinoma",5
+"230","13722.58cfa82ee4b0c9d6adf6ad02","THCA","Thyroid Carcinoma",3
+"231","13722.58cfa82ee4b0c9d6adf6ad1c","THCA","Thyroid Carcinoma",6
+"232","13722.58cfa82ee4b0c9d6adf6ad12","THCA","Thyroid Carcinoma",6
+"233","13722.58cfa82ee4b0c9d6adf6ad18","THCA","Thyroid Carcinoma",4
+"234","13722.58cfa82ee4b0c9d6adf6ad1f","STAD","Stomach Adenocarcinoma",6
+"235","13722.58cfa82ee4b0c9d6adf6adac","STAD","Stomach Adenocarcinoma",4
+"236","13722.58cfa82ee4b0c9d6adf6add6","STAD","Stomach Adenocarcinoma",9
+"237","13722.58cfa82ee4b0c9d6adf6ad25","GBM","Glioblastoma Multiforme",5
+"238","13722.58cfa82ee4b0c9d6adf6ae16","LUSC","Lung Squamous Cell Carcinoma",6
+"239","13722.58cfa82ee4b0c9d6adf6ade4","LUSC","Lung Squamous Cell Carcinoma",7
+"240","13722.58cfa82ee4b0c9d6adf6ad92","STAD","Stomach Adenocarcinoma",4
+"241","13722.58cfa82ee4b0c9d6adf6ae7c","GBM","Glioblastoma Multiforme",7
+"242","13722.58cfa82ee4b0c9d6adf6aeaa","THCA","Thyroid Carcinoma",4
+"243","13722.58cfa82ee4b0c9d6adf6aea0","THCA","Thyroid Carcinoma",7
+"244","13722.58cfa82ee4b0c9d6adf6aedb","THCA","Thyroid Carcinoma",4
+"245","13722.58cfa82ee4b0c9d6adf6aeb6","THCA","Thyroid Carcinoma",8
+"246","13722.58cfa82ee4b0c9d6adf6af3e","LUSC","Lung Squamous Cell Carcinoma",4
+"247","13722.58cfa82ee4b0c9d6adf6af4e","THCA","Thyroid Carcinoma",2
+"248","13722.58cfa82ee4b0c9d6adf6aec4","THCA","Thyroid Carcinoma",2
+"249","13722.58cfa82ee4b0c9d6adf6af6e","STAD","Stomach Adenocarcinoma",9
+"250","13722.58cfa82ee4b0c9d6adf6b004","THCA","Thyroid Carcinoma",7
+"251","13722.58cfa82ee4b0c9d6adf6afc7","THCA","Thyroid Carcinoma",4
+"252","13722.58cfa82ee4b0c9d6adf6ade1","STAD","Stomach Adenocarcinoma",4
+"253","13722.58cfa82ee4b0c9d6adf6aaa8","BLCA","Bladder Urothelial Carcinoma",7
+"254","13722.58cfa82ee4b0c9d6adf6ab36","SKCM","Skin Cutaneous Melanoma",6
+"255","13722.58cfa82ee4b0c9d6adf6ab7e","HNSC","Head and Neck Squamous Cell Carcinoma",5
+"256","13722.58cfa82ee4b0c9d6adf6abf5","HNSC","Head and Neck Squamous Cell Carcinoma",3

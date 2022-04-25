@@ -241,15 +241,17 @@ compareTvsNATbrayCurtis <- function(featureData, metaData = metaQiitaCombined_No
   metaDataFilt$disease_and_sample_type <- paste(metaDataFilt$disease_type,metaDataFilt$sample_type)
   print(table(metaDataFilt$disease_and_sample_type))
   
+  # Rescaling VSNM data
   if(snmFlag){
     countData <- floor(((2^featureData)/rowSums(2^featureData))*scalar)
   } else{
     countData <- featureData
   }
+  # Calculating relative abundances on rescaled data
   countDataRA <- countData/rowSums(countData)
   countDataRAfilt <- countDataRA[rownames(metaDataFilt),]
   
-  # Calculate mean 
+  # Calculate mean across groups
   groupedCountDataRA <- aggregate(countDataRAfilt,
                                   by = list(metaDataFilt$disease_and_sample_type),
                                   FUN = mean)
@@ -397,7 +399,7 @@ calcCorrAlpha <- function(psAll, seqCenter="Harvard Medical School", sampleType=
                     gsub('([[:punct:]])|\\s+','',sampleType),
                     gsub('([[:punct:]])|\\s+','',dataType), 
                     statCorMethod, sep = "_")
-  richnessCorrPlotPerCT + ggsave(filename = paste0("alpha_div_per_CT_",baseName,".png"), path = filePath,
+  ggsave(plot=richnessCorrPlotPerCT, filename = paste0("alpha_div_per_CT_",baseName,".png"), path = filePath,
                                  dpi = "retina", units = "in", width = figWidthPerCT)
   
   fungi_and_bacteria_alpha_with_meta %>%
@@ -414,7 +416,7 @@ calcCorrAlpha <- function(psAll, seqCenter="Harvard Medical School", sampleType=
     stat_cor(method = tolower(statCorMethod), cor.coef.name = corCoefName) -> richnessCorrPlotAggregated
   
   print(richnessCorrPlotAggregated)
-  richnessCorrPlotAggregated + ggsave(filename = paste0("alpha_div_All_CT_",baseName,".png"), path = filePath,
+  ggsave(plot=richnessCorrPlotAggregated, filename = paste0("alpha_div_All_CT_",baseName,".png"), path = filePath,
                                       dpi = "retina", units = "in", width = 12)
   
   res <- list(fungi_and_bacteria_alpha_with_meta=fungi_and_bacteria_alpha_with_meta,
@@ -572,6 +574,7 @@ mlCristiano <- function(metaData=metaCristianoTxNaiveFilt,
   trainX <- mlDataX
   trainY <- mlDataY[,"condition"]
   refactoredTrainY <- factor(gsub('([[:punct:]])|\\s+','',trainY))
+  # print(refactoredTrainY)
   
   set.seed(seedNum)
   ctrl <- trainControl(method = "repeatedcv",
@@ -1650,7 +1653,7 @@ loocvIOR <- function(metaData,
   plot(prroc_roc)
   print(combinedPlotsAnnotated)
   if(savePlotFlag){
-    fileName <- paste0("Figures/Figure_5/ucsd_roc_pr_IOR_",
+    fileName <- paste0("Figures/Supplementary_Figures/ucsd_roc_pr_IOR_",
                        dzType,"_",dataStringForPlotFilename,".svg")
     ggsave(filename = fileName, units = "in", width = 8, height = 5)
   }
@@ -1733,7 +1736,7 @@ runAncomBC_TvsNAT <- function(psSeqCenter, ancombcLibCut = 1000, showTopX = 3, q
     text_low_xpos <- ifelse(min(ancom_res_df_Fungi_X_sorted$beta)>=-0.2, yes = -0.2, no = min(ancom_res_df_Fungi_X_sorted$beta))
     text_ypos <- ifelse(1.1*max(-log10(ancom_res_df_Fungi_X_sorted$p_val))<=-log10(0.05), yes = 1.1*-log10(0.05), no = 1.1*max(-log10(ancom_res_df_Fungi_X_sorted$p_val)))
     
-    plotFilePath <- "Figures/Supplementary_Figures/"
+    plotFilePath <- "Figures/Other_Figures/"
     ancom_res_df_Fungi_X_sorted %>%
       ggplot(aes(x = beta, y = -log10(p_val), color = diff_abn, label = diff_label, shape=origin)) + geom_point(size = 2) +
       theme_bw() + geom_hline(yintercept=-log10(0.05), col="black", linetype='dashed') +
@@ -1747,11 +1750,11 @@ runAncomBC_TvsNAT <- function(psSeqCenter, ancombcLibCut = 1000, showTopX = 3, q
       geom_label_repel(force = 20, size = 2, box.padding = 2, point.padding = 1e-06, label.size = 0.2, show.legend = FALSE, color = "black", max.overlaps = 10) +
       theme(plot.margin = unit(c(1,1,2,1), "lines")) +
       annotation_custom(text_high,xmin=text_high_xpos,xmax=text_high_xpos,ymin=text_ypos, ymax=text_ypos) + 
-      annotation_custom(text_low,xmin=text_low_xpos,xmax=text_low_xpos,ymin=text_ypos, ymax=text_ypos) +
-      ggsave(filename = paste0(plotFilePath, "ancombc_TvsNAT_", SeqCenterFormatted,"_",DzFormatted,".pdf"), dpi = "retina",
+      annotation_custom(text_low,xmin=text_low_xpos,xmax=text_low_xpos,ymin=text_ypos, ymax=text_ypos) -> p
+      ggsave(plot=p, filename = paste0(plotFilePath, "ancombc_TvsNAT_", SeqCenterFormatted,"_",DzFormatted,".pdf"), dpi = "retina",
              width = 8, height = 6, units = "in")
     # Write data to file
-    dataFilePath <- "Figures_data/Supplementary_Figures/"
+    dataFilePath <- "Figures_data/Other_Figures/"
     ancom_res_df_Fungi_X_sorted %>% write.csv(file = paste0(dataFilePath, "ancombc_TvsNAT_", SeqCenterFormatted,"_",DzFormatted,".csv"))
   }
 }
@@ -1875,8 +1878,8 @@ runAncomBC_1VsAll_Fungi <- function(countData=rep200Data_WGS_RNA_HiSeq_Fungi_Dec
           geom_label_repel(force = 50, size = 2, box.padding = 2, point.padding = 1e-06, label.size = 0.2, show.legend = FALSE, color = "black", max.overlaps = 10) +
           theme(plot.margin = unit(c(1,1,2,1), "lines")) +
           annotation_custom(text_high,xmin=text_high_xpos,xmax=text_high_xpos,ymin=text_ypos, ymax=text_ypos) + 
-          annotation_custom(text_low,xmin=text_low_xpos,xmax=text_low_xpos,ymin=text_ypos, ymax=text_ypos) +
-          ggsave(filename = paste0(plotFilePath, fileString, SeqCenterFormatted,"_",DzFormatted,".pdf"), dpi = "retina",
+          annotation_custom(text_low,xmin=text_low_xpos,xmax=text_low_xpos,ymin=text_ypos, ymax=text_ypos) -> p
+          ggsave(plot=p, filename = paste0(plotFilePath, fileString, SeqCenterFormatted,"_",DzFormatted,".pdf"), dpi = "retina",
                  width = 8, height = 6, units = "in")
         # Write data to file
         dataFilePath <- "Figures_data/Supplementary_Figures/"
@@ -2002,8 +2005,8 @@ runAncomBC_1VsAll_Bacteria <- function(countData=rep200Data_Matched2ImmunePT_Bac
           geom_label_repel(force = 20, size = 2, box.padding = 2, point.padding = 1e-06, label.size = 0.2, show.legend = FALSE, color = "black", max.overlaps = 10) +
           theme(plot.margin = unit(c(1,1,2,1), "lines")) +
           annotation_custom(text_high,xmin=text_high_xpos,xmax=text_high_xpos,ymin=text_ypos, ymax=text_ypos) + 
-          annotation_custom(text_low,xmin=text_low_xpos,xmax=text_low_xpos,ymin=text_ypos, ymax=text_ypos) +
-          ggsave(filename = paste0(plotFilePath, fileString, SeqCenterFormatted,"_",DzFormatted,".pdf"), dpi = "retina",
+          annotation_custom(text_low,xmin=text_low_xpos,xmax=text_low_xpos,ymin=text_ypos, ymax=text_ypos) -> p
+          ggsave(plot=p, filename = paste0(plotFilePath, fileString, SeqCenterFormatted,"_",DzFormatted,".pdf"), dpi = "retina",
                  width = 8, height = 6, units = "in")
         # Write data to file
         dataFilePath <- "Figures_data/Supplementary_Figures/"
@@ -2145,8 +2148,8 @@ runAncomBC_Stage_Fungi <- function(countData=rep200Data_WGS_RNA_HiSeq_Fungi_Deco
           geom_label_repel(force = 50, size = 2, box.padding = 2, point.padding = 1e-06, label.size = 0.2, show.legend = FALSE, color = "black", max.overlaps = 10) +
           theme(plot.margin = unit(c(1,1,2,1), "lines")) +
           annotation_custom(text_high,xmin=text_high_xpos,xmax=text_high_xpos,ymin=text_ypos, ymax=text_ypos) + 
-          annotation_custom(text_low,xmin=text_low_xpos,xmax=text_low_xpos,ymin=text_ypos, ymax=text_ypos) +
-          ggsave(filename = paste0(plotFilePath, fileString, SeqCenterFormatted,"_",DzFormatted,".pdf"), dpi = "retina",
+          annotation_custom(text_low,xmin=text_low_xpos,xmax=text_low_xpos,ymin=text_ypos, ymax=text_ypos) -> p
+          ggsave(plot=p, filename = paste0(plotFilePath, fileString, SeqCenterFormatted,"_",DzFormatted,".pdf"), dpi = "retina",
                  width = 8, height = 6, units = "in")
         # Write data to file
         dataFilePath <- "Figures_data/Supplementary_Figures/"
@@ -2510,4 +2513,504 @@ wzML1VsAll10k <- function(metaData,
   
   return(res)
   
+}
+
+plotSplitPerfs <- function(perfDf, baseName){
+  require(ggrepel)
+  # Plot comparisons between split 1 and 2
+  plot_auroc_split12_vs_split21 <- perfDf %>% distinct() %>%
+    ggplot(aes(x = auroc_split21, y = auroc_split12, label = abbrev)) +
+    geom_point(alpha = 0.4) + geom_smooth(method='lm', fullrange = TRUE) + 
+    stat_cor(method = "pearson", cor.coef.name = "R", show.legend = FALSE, color="red") + 
+    theme_bw() + theme(aspect.ratio=1, plot.title = element_text(hjust=0.5)) + coord_fixed() +
+    geom_text_repel() + geom_abline(linetype = 2) + xlim(c(0,1)) + ylim(c(0,1)) +
+    facet_wrap(~sample_type) + 
+    labs(x = "AUROC split 2 on split 1", y = "AUROC split 1 on split 2", title = "Comparing AUROC on splits") 
+    ggsave(plot=plot_auroc_split12_vs_split21,
+           filename = paste0("Figures/Supplementary_Figures/auroc_",baseName,"_split12_vs_split21.pdf"), 
+           dpi = "retina", units = "in", width = 8, height = 5)
+  plot_aupr_split12_vs_split21 <- perfDf %>% distinct() %>%
+    ggplot(aes(x = aupr_split21, y = aupr_split12, label = abbrev)) +
+    geom_point(alpha = 0.4) + geom_smooth(method='lm', fullrange = TRUE) + 
+    stat_cor(method = "pearson", cor.coef.name = "R", show.legend = FALSE, color="red") + 
+    theme_bw() + theme(aspect.ratio=1, plot.title = element_text(hjust=0.5)) + coord_fixed() +
+    geom_text_repel() + geom_abline(linetype = 2) + xlim(c(0,1)) + ylim(c(0,1)) +
+    facet_wrap(~sample_type) + 
+    labs(x = "AUPR split 2 on split 1", y = "AUPR split 1 on split 2", title = "Comparing AUPR on splits") 
+    ggsave(plot=plot_aupr_split12_vs_split21,
+           filename = paste0("Figures/Supplementary_Figures/aupr_",baseName,"_split12_vs_split21.pdf"), 
+           dpi = "retina", units = "in", width = 8, height = 5)
+  # Plot comparisons between split 1 and half of full
+  plot_auroc_split12_vs_halffull <- perfDf %>% distinct() %>%
+    ggplot(aes(x = auroc_halffull, y = auroc_split12, label = abbrev)) +
+    geom_point(alpha = 0.4) + geom_smooth(method='lm', fullrange = TRUE) + 
+    stat_cor(method = "pearson", cor.coef.name = "R", show.legend = FALSE, color="red") + 
+    theme_bw() + theme(aspect.ratio=1, plot.title = element_text(hjust=0.5)) + coord_fixed() +
+    geom_text_repel() + geom_abline(linetype = 2) + xlim(c(0,1)) + ylim(c(0,1)) +
+    facet_wrap(~sample_type) + 
+    labs(x = "AUROC half of full", y = "AUROC split 1", title = "Comparing AUROC on split 1 vs half of full") 
+    ggsave(plot=plot_auroc_split12_vs_halffull,
+           filename = paste0("Figures/Supplementary_Figures/auroc_",baseName,"_split12_vs_halffull.pdf"), 
+           dpi = "retina", units = "in", width = 8, height = 5)
+  plot_aupr_split12_vs_halffull <- perfDf %>% distinct() %>%
+    ggplot(aes(x = aupr_halffull, y = aupr_split12, label = abbrev)) +
+    geom_point(alpha = 0.4) + geom_smooth(method='lm', fullrange = TRUE) + 
+    stat_cor(method = "pearson", cor.coef.name = "R", show.legend = FALSE, color="red") + 
+    theme_bw() + theme(aspect.ratio=1, plot.title = element_text(hjust=0.5)) + coord_fixed() +
+    geom_text_repel() + geom_abline(linetype = 2) + xlim(c(0,1)) + ylim(c(0,1)) +
+    facet_wrap(~sample_type) + 
+    labs(x = "AUPR half of full", y = "AUPR split 1", title = "Comparing AUPR on split 1 vs half of full") 
+    ggsave(plot=plot_aupr_split12_vs_halffull,
+           filename = paste0("Figures/Supplementary_Figures/aupr_",baseName,"_split12_vs_halffull.pdf"), 
+           dpi = "retina", units = "in", width = 8, height = 5)
+  # Plot comparisons between split 2 and half of full
+  plot_auroc_split21_vs_halffull <- perfDf %>% distinct() %>%
+    ggplot(aes(x = auroc_halffull, y = auroc_split21, label = abbrev)) +
+    geom_point(alpha = 0.4) + geom_smooth(method='lm', fullrange = TRUE) + 
+    stat_cor(method = "pearson", cor.coef.name = "R", show.legend = FALSE, color="red") + 
+    theme_bw() + theme(aspect.ratio=1, plot.title = element_text(hjust=0.5)) + coord_fixed() +
+    geom_text_repel() + geom_abline(linetype = 2) + xlim(c(0,1)) + ylim(c(0,1)) +
+    facet_wrap(~sample_type) + 
+    labs(x = "AUROC half of full", y = "AUROC split 2", title = "Comparing AUROC on split 2 vs half of full") 
+    ggsave(plot=plot_auroc_split21_vs_halffull,
+           filename = paste0("Figures/Supplementary_Figures/auroc_",baseName,"_split21_vs_halffull.pdf"), 
+           dpi = "retina", units = "in", width = 8, height = 5)
+  plot_aupr_split21_vs_halffull <- perfDf %>% distinct() %>%
+    ggplot(aes(x = aupr_halffull, y = aupr_split21, label = abbrev)) +
+    geom_point(alpha = 0.4) + geom_smooth(method='lm', fullrange = TRUE) + 
+    stat_cor(method = "pearson", cor.coef.name = "R", show.legend = FALSE, color="red") + 
+    theme_bw() + theme(aspect.ratio=1, plot.title = element_text(hjust=0.5)) + coord_fixed() +
+    geom_text_repel() + geom_abline(linetype = 2) + xlim(c(0,1)) + ylim(c(0,1)) +
+    facet_wrap(~sample_type) + 
+    labs(x = "AUPR half of full", y = "AUPR split 2", title = "Comparing AUPR on split 2 vs half of full") 
+    ggsave(plot=plot_aupr_split21_vs_halffull,
+           filename = paste0("Figures/Supplementary_Figures/aupr_",baseName,"_split21_vs_halffull.pdf"), 
+           dpi = "retina", units = "in", width = 8, height = 5)
+  
+  res <- list(plot_auroc_split12_vs_split21=plot_auroc_split12_vs_split21,
+              plot_aupr_split12_vs_split21=plot_aupr_split12_vs_split21,
+              plot_auroc_split12_vs_halffull=plot_auroc_split12_vs_halffull,
+              plot_aupr_split12_vs_halffull=plot_aupr_split12_vs_halffull,
+              plot_auroc_split21_vs_halffull=plot_auroc_split21_vs_halffull,
+              plot_aupr_split21_vs_halffull=plot_aupr_split21_vs_halffull)
+  return(res)
+}
+
+plotControlsRaw <- function(seqCenter="HMS", 
+                            inputSampleType="Primary Tumor",
+                            qvalSize = 2.5,
+                            statSpacingROC=0.5,
+                            statSpacingPR=0.25,
+                            alphaVal=0.2,
+                            tipLength=0.01,
+                            qvalAsterisks=FALSE){
+  require(rstatix)
+  if(inputSampleType=="Primary Tumor"){st = "PT"}
+  if(inputSampleType=="Primary Tumor vs Solid Tissue Normal"){st = "PT_vs_NAT"}
+  if(inputSampleType=="Blood Derived Normal"){st = "BDN"}
+  ## AUROC
+  mlPerfAll10k_Allcancer_Raw_Control_Overlay_Short %>%
+    filter(sampleType == inputSampleType) %>%
+    filter(grepl(seqCenter,datasetNameShort)) %>%
+    distinct() %>% droplevels() %>%
+    wilcox_test(AUROC ~ datasetNameShort, exact = TRUE) %>%
+    adjust_pvalue(method = "BH") %>%
+    add_significance("p.adj") %>%
+    mutate(p.adj = signif(p.adj, digits=3)) %>%
+    add_xy_position(x = "datasetNameShort", step.increase = statSpacingROC) -> roc.stat.test
+    
+  if(all(roc.stat.test$y.position == 1)){
+    roc.stat.test$y.position <- seq(from=1.05, by=0.2, length.out = length(roc.stat.test$y.position))
+  }
+  # print(data.frame(roc.stat.test))
+  
+  mlPerfAll10k_Allcancer_Raw_Control_Overlay_Short %>%
+    filter(sampleType == inputSampleType) %>%
+    filter(grepl(seqCenter,datasetNameShort)) %>%
+    distinct() %>% droplevels() %>%
+    ggboxplot(x = "datasetNameShort",
+             y = "AUROC", fill = "datasetNameShort",
+             legend = "none",
+             notch = TRUE,
+             xlab = "",
+             add = "jitter",
+             add.params = list(alpha=alphaVal),
+             palette = "nejm") +
+    rotate_x_text(90) + 
+    stat_pvalue_manual(roc.stat.test, 
+                       # label = "q = {p.adj}", 
+                       label = ifelse(qvalAsterisks, 
+                                      yes = "{p.adj.signif}", 
+                                      no = "q = {p.adj}"),
+                       tip.length = tipLength,
+                       size = qvalSize) +
+    geom_hline(yintercept = 0.5, linetype="dotted") + 
+    labs(fill = "datasetNameShort") + 
+    theme(plot.title = element_text(hjust=0.5)) +
+    scale_y_continuous(breaks = seq(0, 1, by = 0.1), 
+                       limits = c(0,1.01*max(roc.stat.test$y.position))) -> plotROC
+  
+  ## AUPR
+  mlPerfAll10k_Allcancer_Raw_Control_Overlay_Short %>%
+    filter(sampleType == inputSampleType) %>%
+    filter(grepl(seqCenter,datasetNameShort)) %>%
+    distinct() %>% droplevels() %>%
+    wilcox_test(AUPR ~ datasetNameShort, exact = TRUE) %>%
+    adjust_pvalue(method = "BH") %>%
+    add_significance("p.adj") %>%
+    mutate(p.adj = signif(p.adj, digits=3)) %>%
+    add_xy_position(x = "datasetNameShort", step.increase = statSpacingPR) -> pr.stat.test
+  
+  if(all(pr.stat.test$y.position == 1)){
+    pr.stat.test$y.position <- seq(from=1.05, by=0.2, length.out = length(pr.stat.test$y.position))
+  }
+  # print(data.frame(pr.stat.test))
+  
+  mlPerfAll10k_Allcancer_Raw_Control_Overlay_Short %>%
+    filter(sampleType == inputSampleType) %>%
+    filter(grepl(seqCenter,datasetNameShort)) %>%
+    distinct() %>% droplevels() %>%
+    ggboxplot(x = "datasetNameShort",
+             y = "AUPR", fill = "datasetNameShort",
+             legend = "none",
+             notch = TRUE,
+             add = "jitter",
+             add.params = list(alpha=alphaVal),
+             xlab = "",
+             palette = "nejm") +
+    rotate_x_text(90) + 
+    stat_pvalue_manual(pr.stat.test, 
+                       # label = "q = {p.adj}", 
+                       label = "{p.adj.signif}", 
+                       tip.length = tipLength,
+                       size = qvalSize) +
+    labs(fill = "datasetNameShort") + 
+    theme(plot.title = element_text(hjust=0.5)) +
+    scale_y_continuous(breaks = seq(0, 1, by = 0.1), 
+                       limits = c(0,1.01*max(pr.stat.test$y.position))) -> plotPR
+  
+  combinedPlot <- ggarrange(plotROC, plotPR, ncol = 2) 
+  combinedPlotAnnotated <- annotate_figure(combinedPlot, top = text_grob(paste0(seqCenter," | ",inputSampleType,"\nActual vs. Controls"), 
+                                        color = "black", face = "bold", size = 14))
+  print(combinedPlotAnnotated)
+  baseName <- ifelse(qvalAsterisks, yes = "control_v2_signif_scrambled_overlay_raw_data",
+                     no = "control_v2_scrambled_overlay_raw_data_")
+  ggsave(filename = paste0("Figures/Supplementary_Figures/",baseName,"_",seqCenter,"_",st,".svg"),
+           plot = combinedPlotAnnotated,
+           dpi = "retina", units = "in", width = 6, height = 7)
+}
+
+plotControlsVSNM <- function(inputSampleType="Primary Tumor"){
+  if(inputSampleType=="Primary Tumor"){st = "PT"}
+  if(inputSampleType=="Primary Tumor vs Solid Tissue Normal"){st = "PT_vs_NAT"}
+  if(inputSampleType=="Blood Derived Normal"){st = "BDN"}
+  mlPerfAll10k_Allcancer_Overlay_VSNM %>%
+    filter(sampleType == inputSampleType) %>%
+    distinct() %>% droplevels() %>%
+    ggboxplot(x = "abbrev",
+              y = "AUROC",
+              fill = "datasetName",
+              xlab = "Cancer type",
+              palette = "nejm") +
+    rotate_x_text(90) +
+    geom_hline(yintercept = 0.5, linetype="dotted") + 
+    labs(fill = "Dataset") + theme(plot.title = element_text(hjust=0.5)) +
+    scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+    stat_compare_means(aes(group = statGroups), label = "p.signif") -> plotROC
+  # NOTE: Default for grouped variables of stat_compare_means() is Wilcoxon
+  
+  mlPerfAll10k_Allcancer_Overlay_VSNM %>%
+    filter(sampleType == inputSampleType) %>%
+    distinct() %>% droplevels() %>%
+    ggboxplot(x = "abbrev",
+              y = "AUPR",
+              fill = "datasetName",
+              xlab = "Cancer type",
+              legend = "none",
+              palette = "nejm") +
+    rotate_x_text(90) +
+    labs(fill = "Dataset") + theme(plot.title = element_text(hjust=0.5)) +
+    scale_y_continuous(breaks = seq(0, 1, by = 0.1), limits = c(0,1)) +
+    stat_compare_means(aes(group = statGroups), label = "p.signif") -> plotPR
+  # NOTE: Default for grouped variables of stat_compare_means() is Wilcoxon
+  
+  combinedPlotTitle <- paste0("TCGA ML Performance: Actual vs. Control (scrambled metadata or shuffled samples)\n",
+                              inputSampleType,"\n(per-cancer p-values derived from grouped actual vs. control performances)")
+  combinedPlot <- ggarrange(plotROC, plotPR, nrow = 2) 
+  combinedPlotAnnotated <- annotate_figure(combinedPlot, 
+                                           top = text_grob(combinedPlotTitle, 
+                                                           color = "black", face = "bold", size = 14))
+  print(combinedPlotAnnotated)
+  ggsave(filename = paste0("Figures/Supplementary_Figures/control_v2_scrambled_overlay_raw_data_TCGA_VSNM_",st,".svg"),
+         plot = combinedPlotAnnotated,
+         dpi = "retina", units = "in", width = 14, height = 10)
+}
+
+plotSynergyPerf <- function(rDataFilePath, 
+                             inputSampleType="Primary Tumor",
+                             numIter = 100,
+                             modelType = "xgbTree"){
+  require(rstatix)
+  
+  if(inputSampleType=="Primary Tumor"){st = "PT"}
+  if(inputSampleType=="Primary Tumor vs Solid Tissue Normal"){st = "PT_vs_NAT"}
+  if(inputSampleType=="Blood Derived Normal"){st = "BDN"}
+  if(modelType=="rf"){modelTypeFormatted = "Random Forest"}
+  if(modelType %in% c("gbm","xgbTree")){modelTypeFormatted = "Gradient Boosting"}
+  seqCenterFormatted <- "AllSeqCenters"
+  seqCenterPlotTitle <- "All WGS Sequencing Centers"
+  
+  load(rDataFilePath) # loads perfCombinedAll object
+  keepCols <- c("AUC","prAUC")
+  perfCombinedAllFormatted <- reshape2::melt(perfCombinedAll, id.vars = c("iter")) %>%
+    mutate(Dataset = factor(case_when(grepl("^f_",variable) ~ "Fungi",
+                                      grepl("^b_",variable) ~ "Bacteria",
+                                      grepl("^all_",variable) ~ "Fungi+Bacteria"),
+                            levels = c("Fungi","Bacteria","Fungi+Bacteria"))) %>%
+    mutate(variable = gsub("^f_|^b_|all_","",variable)) %>% filter(variable %in% keepCols)
+  
+  perfCombinedAllFormatted %>%
+    filter(variable == "AUC") %>%
+    wilcox_test(value ~ Dataset, exact = FALSE) %>%
+    adjust_pvalue(method = "BH") %>%
+    add_significance() %>%
+    add_xy_position() -> roc.stat
+
+  perfCombinedAllFormatted %>%
+    filter(variable == "AUC") %>%
+    ggboxplot(x = "Dataset",
+              y = "value",
+              palette = "nejm",
+              fill = "Dataset",
+              legend = "none",
+              add = "jitter",
+              add.params = list(alpha=0.3),
+              notch = TRUE,
+              xlab = "Feature set ∩ WIS",
+              ylab = "Average pan-cancer AUROC") +
+    stat_pvalue_manual(roc.stat,
+                       label = "q = {p.adj}") -> plotROC
+  
+  perfCombinedAllFormatted %>%
+    filter(variable == "prAUC") %>%
+    wilcox_test(value ~ Dataset, exact = FALSE) %>%
+    adjust_pvalue(method = "BH") %>%
+    add_significance() %>%
+    add_xy_position() -> pr.stat
+  
+  perfCombinedAllFormatted %>%
+    filter(variable == "prAUC") %>%
+    ggboxplot(x = "Dataset",
+              y = "value",
+              palette = "nejm",
+              fill = "Dataset",
+              legend = "none",
+              add = "jitter",
+              add.params = list(alpha=0.3),
+              notch = TRUE,
+              xlab = "Feature set ∩ WIS",
+              ylab = "Average pan-cancer AUPR") +
+    stat_pvalue_manual(pr.stat,
+                       label = "q = {p.adj}") -> plotPR
+  
+  combinedPlotTitle <- paste0("TCGA ML: WIS-intersecting fungi vs. bacteria vs. fungi+bacteria\n",
+                              inputSampleType," | ",seqCenterPlotTitle," | ",modelTypeFormatted,
+                              "\n",numIter," iterations of 10-fold CV (500 independent models total)")
+  combinedPlot <- ggarrange(plotROC, plotPR, ncol = 2)
+  combinedPlotAnnotated <- annotate_figure(combinedPlot,
+                                           top = text_grob(combinedPlotTitle,
+                                                           color = "black", face = "bold", size = 14))
+  print(combinedPlotAnnotated)
+  ggsave(filename = paste0("Figures/Main_Figures/synergy_tcga_fungi_bacteria_",
+                           seqCenterFormatted,"_",st,"_numIter",numIter,"_",modelType,".svg"),
+         plot = combinedPlotAnnotated,
+         dpi = "retina", units = "in", width = 8, height = 5)
+  rm(perfCombinedAll)
+}
+
+plotWISVsNonWISFungiPerf <- function(rDataFilePath, 
+                                       seqCenter = "Harvard Medical School",
+                                       allSeqCenterFlag = FALSE,
+                                       inputSampleType="Primary Tumor",
+                                       numIter = 100,
+                                       modelType = "xgbTree",
+                                       statSize = 2.5){
+  require(rstatix)
+  
+  if(inputSampleType=="Primary Tumor"){st = "PT"}
+  if(inputSampleType=="Primary Tumor vs Solid Tissue Normal"){st = "PT_vs_NAT"}
+  if(inputSampleType=="Blood Derived Normal"){st = "BDN"}
+  if(modelType=="rf"){modelTypeFormatted = "Random Forest"}
+  if(modelType %in% c("gbm","xgbTree")){modelTypeFormatted = "Gradient Boosting"}
+  if(allSeqCenterFlag){
+    seqCenterFormatted <- "AllSeqCenters"
+    seqCenterPlotTitle <- "All WGS Sequencing Centers"
+  } else{
+    seqCenterFormatted <- gsub('([[:punct:]])|\\s+','',seqCenter)
+    seqCenterPlotTitle <- seqCenter
+  }
+  
+  load(rDataFilePath) # loads perfCombinedAll object
+  keepCols <- c("AUC","prAUC")
+  perfCombinedAllFormatted <- reshape2::melt(perfCombinedAll, id.vars = c("iter","numFeat")) %>%
+    mutate(Domain = factor(ifelse(grepl("^wis_",variable),yes = "Intersected",no = "Nonintersected"), levels = c("Intersected","Nonintersected"))) %>%
+    mutate(variable = gsub("^wis_|^nonwis_","",variable)) %>% filter(variable %in% keepCols)
+  
+  minAUROC <- perfCombinedAllFormatted %>% filter(variable == "AUC") %>% select(value) %>% min()
+  minAUROCround <- floor(minAUROC*10)/10
+  maxAUROC <- perfCombinedAllFormatted %>% filter(variable == "AUC") %>% select(value) %>% max()
+  maxAUROCround <- ceiling(maxAUROC*10)/10
+  
+  minAUPR <- perfCombinedAllFormatted %>% filter(variable == "prAUC") %>% select(value) %>% min()
+  minAUPRround <- floor(minAUPR*10)/10
+  maxAUPR <- perfCombinedAllFormatted %>% filter(variable == "prAUC") %>% select(value) %>% max()
+  maxAUPRround <- ceiling(maxAUPR*10)/10
+  
+  perfCombinedAllFormatted %>%
+    filter(variable == "AUC") %>%
+    wilcox_test(value ~ Domain) %>%
+    adjust_pvalue() %>%
+    add_significance() %>%
+    add_xy_position(group = "Domain") -> roc.stat
+  
+  perfCombinedAllFormatted %>%
+    filter(variable == "AUC") %>%
+    ggboxplot(x = "Domain",
+           y = "value",
+           palette = "nejm",
+           fill = "Domain",
+           legend = "none",
+           add = "jitter",
+           add.params = list(alpha=0.4),
+           notch = TRUE,
+           xlab = "TCGA fungi did or did not intersect with WIS data",
+           ylab = "Average pan-cancer AUROC",
+           numeric.x.axis = TRUE) +
+    scale_y_continuous(breaks = seq(minAUROCround, maxAUROCround, by = 0.05),
+                       limits = c(minAUROCround,maxAUROCround)) +
+    stat_pvalue_manual(data = roc.stat,
+                       label = "Wilcoxon, p = {p}") -> plotROC
+
+  perfCombinedAllFormatted %>%
+    filter(variable == "prAUC") %>%
+    wilcox_test(value ~ Domain) %>%
+    adjust_pvalue() %>%
+    add_significance() %>%
+    add_xy_position(group = "Domain") -> pr.stat
+  
+  perfCombinedAllFormatted %>%
+    filter(variable == "prAUC") %>%
+    ggboxplot(x = "Domain",
+           y = "value",
+           palette = "nejm",
+           fill = "Domain",
+           legend = "none",
+           add = "jitter",
+           add.params = list(alpha=0.4),
+           notch = TRUE,
+           xlab = "TCGA fungi did or did not intersect with WIS data",
+           ylab = "Average pan-cancer AUPR",
+           numeric.x.axis = TRUE) +
+    scale_y_continuous(breaks = seq(minAUPRround, maxAUPRround, by = 0.05), 
+                       limits = c(minAUPRround,maxAUPRround)) +
+    stat_pvalue_manual(data = pr.stat,
+                       label = "Wilcoxon, p = {p}") -> plotPR
+
+  combinedPlotTitle <- paste0("TCGA Simulations: WIS-intersecting fungi vs. non-WIS-intersecting fungi species (equally fixed at 34 taxa)\n",
+                              inputSampleType," | ",seqCenterPlotTitle," | ",modelTypeFormatted,
+                              "\n",numIter," iterations of 10-fold CV (500 independent models total)")
+  combinedPlot <- ggarrange(plotROC, plotPR, ncol = 2, common.legend = TRUE)
+  combinedPlotAnnotated <- annotate_figure(combinedPlot,
+                                           top = text_grob(combinedPlotTitle,
+                                                           color = "black", face = "bold", size = 14))
+  print(combinedPlotAnnotated)
+  ggsave(filename = paste0("Figures/Supplementary_Figures/wis_vs_nonwis_fungi",seqCenterFormatted,"_",st,"_numIter",numIter,"_",modelType,".pdf"),
+         plot = combinedPlotAnnotated,
+         dpi = "retina", units = "in", width = 12, height = 5)
+  rm(perfCombinedAll)
+}
+
+plotSynergyPerfCluster <- function(rDataFilePath, 
+                             inputSampleType="Primary Tumor",
+                             numIter = 100,
+                             modelType = "xgbTree"){
+
+  # This version of the function was run on the cluster since it calculates exact p-values,
+  # which can take considerable computation and memory for the very large datasets
+  require(rstatix)
+  
+  if(inputSampleType=="Primary Tumor"){st = "PT"}
+  if(inputSampleType=="Primary Tumor vs Solid Tissue Normal"){st = "PT_vs_NAT"}
+  if(inputSampleType=="Blood Derived Normal"){st = "BDN"}
+  if(modelType=="rf"){modelTypeFormatted = "Random Forest"}
+  if(modelType %in% c("gbm","xgbTree")){modelTypeFormatted = "Gradient Boosting"}
+  seqCenterFormatted <- "AllSeqCenters"
+  seqCenterPlotTitle <- "All WGS Sequencing Centers"
+  
+  load(rDataFilePath) # loads perfCombinedAll object
+  keepCols <- c("AUC","prAUC")
+  perfCombinedAllFormatted <- reshape2::melt(perfCombinedAll, id.vars = c("iter")) %>%
+    mutate(Dataset = factor(case_when(grepl("^f_",variable) ~ "Fungi",
+                                      grepl("^b_",variable) ~ "Bacteria",
+                                      grepl("^all_",variable) ~ "Fungi+Bacteria"),
+                            levels = c("Fungi","Bacteria","Fungi+Bacteria"))) %>%
+    mutate(variable = gsub("^f_|^b_|all_","",variable)) %>% filter(variable %in% keepCols)
+  
+  perfCombinedAllFormatted %>%
+    filter(variable == "AUC") %>%
+    wilcox_test(value ~ Dataset, exact = TRUE) %>%
+    adjust_pvalue(method = "BH") %>%
+    add_significance() %>%
+    add_xy_position() -> roc.stat
+
+  perfCombinedAllFormatted %>%
+    filter(variable == "AUC") %>%
+    ggboxplot(x = "Dataset",
+              y = "value",
+              palette = "nejm",
+              fill = "Dataset",
+              legend = "none",
+              add = "jitter",
+              add.params = list(alpha=0.3),
+              notch = TRUE,
+              xlab = "Feature set ∩ WIS",
+              ylab = "Average pan-cancer AUROC") +
+    stat_pvalue_manual(roc.stat,
+                       label = "q = {p.adj}") -> plotROC
+  
+  perfCombinedAllFormatted %>%
+    filter(variable == "prAUC") %>%
+    wilcox_test(value ~ Dataset, exact = TRUE) %>%
+    adjust_pvalue(method = "BH") %>%
+    add_significance() %>%
+    add_xy_position() -> pr.stat
+  
+  perfCombinedAllFormatted %>%
+    filter(variable == "prAUC") %>%
+    ggboxplot(x = "Dataset",
+              y = "value",
+              palette = "nejm",
+              fill = "Dataset",
+              legend = "none",
+              add = "jitter",
+              add.params = list(alpha=0.3),
+              notch = TRUE,
+              xlab = "Feature set ∩ WIS",
+              ylab = "Average pan-cancer AUPR") +
+    stat_pvalue_manual(pr.stat,
+                       label = "q = {p.adj}") -> plotPR
+  
+  combinedPlotTitle <- paste0("TCGA ML: WIS-intersecting fungi vs. bacteria vs. fungi+bacteria\n",
+                              inputSampleType," | ",seqCenterPlotTitle," | ",modelTypeFormatted,
+                              "\n",numIter," iterations of 10-fold CV (500 independent models total)")
+  combinedPlot <- ggarrange(plotROC, plotPR, ncol = 2)
+  combinedPlotAnnotated <- annotate_figure(combinedPlot,
+                                           top = text_grob(combinedPlotTitle,
+                                                           color = "black", face = "bold", size = 14))
+  print(combinedPlotAnnotated)
+  ggsave(filename = paste0("synergy_tcga_fungi_bacteria_",
+                           seqCenterFormatted,"_",st,"_numIter",numIter,"_",modelType,".svg"),
+         plot = combinedPlotAnnotated,
+         dpi = "retina", units = "in", width = 8, height = 5)
+  rm(perfCombinedAll)
 }
