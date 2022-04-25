@@ -12,9 +12,9 @@ This is the GitHub repository for all TCGA, Hopkins, and UCSD analyses of the pa
 
 There are several other repositories related to this paper, including the following:
 
+- The ITS2 pipeline for amplicon-based analyses: https://github.com/microbiofunc/ITS2-pipeline
 - Fungal phylogenomics of reconstructed bins: https://github.com/stajichlab/Tumor_mycobiome_2022
 - Aggregated and per-sample genome coverage calculations: https://github.com/ucsd-cmi/zebra_filter
-- The ITS2 pipeline for amplicon-based analyses: https://github.com/microbiofunc/ITS2-pipeline
 
 ## Installation
 
@@ -110,7 +110,7 @@ After the host depletion is complete: You should have paired R1 and R2 fastq fil
 
 ## Citation
 
-If you use data or software from this repository, please cite the following two papers:
+If you use data or software from this repository, please cite the following <ins>two</ins> papers:
 
 - Narunsky-Haziza, Sepich-Poore, Livyatan _et al._
 ```
