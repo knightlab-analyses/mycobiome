@@ -2,6 +2,8 @@
 
 This is the GitHub repository for all TCGA, Hopkins, and UCSD analyses of the pan-cancer mycobiome atlas paper by Narunsky-Haziza, Sepich-Poore, Livyatan _et al.,_ 2022. Data and code provided herein cover the fungal and bacterial analysis of 17,401 patient tissue, blood, and plasma samples across 35 cancer types in four independent cohorts.
 
+![image](https://drive.google.com/uc?export=view&id=15XguO6iDPfkkB-mqt1lw90z9sENI1TDR)
+
 **Please note** that this repository is divided into multiple subdirectories. They are detailed below in the `Organization of files` section.
 
 ## Related repositories
