@@ -53,7 +53,7 @@ The Qiime-based analyses, including input data and script, are found under the `
 
 ### MMvec fungal-bacterial-immune co-occurrence analyses:
 
-The MMvec-based analyses, including input data and scripts, are found under the `/MMvec-cooccurrence-analyses-resubmission` subfolder. A separate `Readme.md` file is listed within that subdirectory explaining its contents.
+The MMvec-based analyses, including input data and scripts, are found under the `/MMvec-cooccurrence-analyses-resubmission` subfolder. A separate `README.md` file is listed within that subdirectory explaining its contents.
 
 ## Docker host depletion pipeline (`/Docker_host_depletion_pipeline`)
 
