@@ -1,10 +1,24 @@
 # Pan-cancer mycobiome atlas
 
-This is the GitHub repository for all TCGA-centric analyses of the pan-cancer mycobiome atlas paper by Narunsky-Haziza, Sepich-Poore, Livyatan _et al.,_ 2022. Data and code provided herein cover the fungal and bacterial analysis of 17,401 patient tissue, blood, and plasma samples across 35 cancer types in four independent cohorts. 
+This is the GitHub repository for all TCGA-centric analyses of the pan-cancer mycobiome atlas paper by Narunsky-Haziza, Sepich-Poore, Livyatan _et al.,_ 2022. Data and code provided herein cover the fungal and bacterial analysis of 17,401 patient tissue, blood, and plasma samples across 35 cancer types in four independent cohorts.
 
 **Please note** that this repository is divided into multiple subdirectories, each with their respective files and/or instructions, as shown below.
 
-## 1. Dockerized host depletion pipeline (Under `/Docker_host_depletion_pipeline`)
+## Installation
+
+On the top right of this page, click the `Code ▼` button followed by the `Download ZIP` button to download the entire repository.
+
+If using `R`, you can also download the repository using:
+```
+library(devtools)
+install_github("gregpoore/mycobiome")
+```
+
+## Organization of files
+
+
+
+## Docker host depletion pipeline (Under `/Docker_host_depletion_pipeline`)
 
 The following files are listed in this subdirectory:
 1. `Dockerfile` —> This text file is used to build the Docker container on your computer (instructions are below)
@@ -63,6 +77,7 @@ As well as Poore, Kopylova _et al._:
 
 ## License
 **Please carefully note the license terms surrounding commercial-use**
+
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 This work is licensed under a
