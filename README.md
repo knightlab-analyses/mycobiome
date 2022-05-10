@@ -81,6 +81,8 @@ The following files are listed in this subdirectory:
 2. `ebi_sra_importer.yml` —> This yml file contains the conda environment and its dependences that are run in the Docker container
 3. `host_deplete_script.sh` —> This bash script is used to run the host depletion within the Docker container on any new file. It accepts 3 arguments (in this order): (a) Original bam file to host deplete, (b) Minimap2 human database in .mmi format, (c) Integer number of cpus you would like to use on your server or machine.
 
+**Note:** The minimap2 database (.mmi file) is located on figshare here: https://doi.org/10.6084/m9.figshare.19719418.v1
+
 ### Building the Docker container:
 
 You can build the Docker container with the following command (please substitute the `<…>` text with your own text; note the `.` at the end of the command as well): `docker build --no-cache -t <MY_CONTAINER_NAME> .`
