@@ -23,7 +23,7 @@ On the top right of the main repository page, click the `Code ▼` button follow
 Alternatively, or if using `R`, you can download the repository using:
 ```
 library(devtools)
-install_github("gregpoore/mycobiome")
+install_github("knightlab-analyses/mycobiome")
 ```
 
 ## Organization of files
