@@ -48,7 +48,7 @@ Since the release of the paper, we have received requests to release the bacteri
 
 **Note #3:** If using any of these files, please cite *both* `Nejman et al. 2020. Science` and `Narunsky-Haziza et al. 2022. Cell` (this paper).
 
-**Note #4:** As noted in the manuscript's methods, completely raw data, including the host-depleted fastq files, can be accessed at the respective Qiita project study IDs: 13722 (TCGA WGS), 13767 (TCGA RNA-Seq). 
+**Note #4:** As noted in the manuscript's methods, completely raw TCGA data, including the host-depleted fastq files, can be accessed at the respective Qiita project study IDs: 13722 (TCGA WGS), 13767 (TCGA RNA-Seq). 
 
 ## Organization of files
 
