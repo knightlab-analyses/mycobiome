@@ -33,6 +33,23 @@ The final raw and batch-corrected TCGA files that were used for machine learning
 - A raw count table for 224 decontaminated fungi (`count_data_fungi_decontaminated_raw.tsv`).
 - A batch-corrected (using Voom-SNM) table for 224 decontaminated fungi (`count_data_fungi_decontaminated_voom_snm_corrected.tsv`).
 
+### Download TCGA fungi+bacterial data
+Since the release of the paper, we have received requests to release the bacterial data alongside the fungi information. For now, we are conservatively posting abundances, in the `Final_files` subfolder, of Weizmann-overlapping bacteria (cf. `Nejman et al. 2020. Science`) and fungi (this paper, `Narunsky-Haziza et al. 2022. Cell`) at the genus and species levels, since these microbes have multiple layers of evidence in independent cohorts. These count files incorporate the updated host-depletion and read QC methods described in this paper. The following files contain Weizmann-overlapping bacteria and fungi in TCGA:
+
+- TCGA raw genus-level abundances for WIS-overlapping bacteria and fungi (14,494 non-zero samples) (`count_data_genus_raw_WIS_overlapping_fungi_bacteria_14494samples.tsv`).
+- Matching TCGA metadata for genus-level data (14,494 non-zero samples) (`metadata_genus_WIS_overlapping_fungi_bacteria_14494samples.tsv`). *Note* that the TCGA case IDs are under the `tcga_case_id` column.
+- TCGA raw species-level abundances for WIS-overlapping bacteria and fungi (12,773 non-zero samples) (`count_data_species_raw_WIS_overlapping_fungi_bacteria_12773samples.tsv`).
+- Matching TCGA metadata for species-level data (12,773 non-zero samples) (`metadata_species_WIS_overlapping_fungi_bacteria_12773samples.tsv`). *Note* that the TCGA case IDs are under the `tcga_case_id` column.
+- Matching taxonomy table at species-level for WIS-overlapping bacteria and fungi (`taxonomy_table_WIS_overlapping_fungi_bacteria.tsv`)
+
+**Note #1:** Subsetting TCGA samples to WIS-overlapping microbes leads to some sample dropout, which is why the sample counts in these files are slightly lower than the 14,495 number. 
+
+**Note #2:** The raw counts/abundances posted above do _not_ correct for batch effects in TCGA. One should either mitigate the batch effects using batch correction (e.g., Voom-SNM, ComBat-Seq, etc.) or subset the samples to groups not affected by individual batches (i.e., a single sequencing center, experimental strategy [WGS or RNA-Seq], and sequencing platform).
+
+**Note #3:** If using any of these files, please cite *both* `Nejman et al. 2020. Science` and `Narunsky-Haziza et al. 2022. Cell` (this paper).
+
+**Note #4:** As noted in the manuscript's methods, completely raw data, including the host-depleted fastq files, can be accessed at the respective Qiita project study IDs: 13722 (TCGA WGS), 13767 (TCGA RNA-Seq). 
+
 ## Organization of files
 
 ### `R` files, scripts, and subfolders:
@@ -123,7 +140,16 @@ If you use data or software from this repository, please cite the following <ins
 
 - Narunsky-Haziza, Sepich-Poore, Livyatan _et al._
 ```
-{Citation for this paper forthcoming}
+@article{narunsky2022pan,
+  title={Pan-cancer analyses reveal cancer-type-specific fungal ecologies and bacteriome interactions},
+  author={Narunsky-Haziza, Lian and Sepich-Poore, Gregory D and Livyatan, Ilana and Asraf, Omer and Martino, Cameron and Nejman, Deborah and Gavert, Nancy and Stajich, Jason E and Amit, Guy and Gonz{\'a}lez, Antonio and others},
+  journal={Cell},
+  volume={185},
+  number={20},
+  pages={3789--3806},
+  year={2022},
+  publisher={Elsevier}
+}
 ```
 - [Poore, Kopylova _et al._ 2020. _Nature_](https://www.nature.com/articles/s41586-020-2095-1):
 ```
