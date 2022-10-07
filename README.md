@@ -136,9 +136,9 @@ After the host depletion is complete: You should have paired R1 and R2 fastq fil
 
 ## Citation
 
-If you use data or software from this repository, please cite the following <ins>two</ins> papers:
+If you use data or software from this repository, please cite the following <ins>three</ins> papers:
 
-- Narunsky-Haziza, Sepich-Poore, Livyatan _et al._
+- [Narunsky-Haziza, Sepich-Poore, Livyatan et al. 2022. Cell](https://www.cell.com/cell/fulltext/S0092-8674(22)01127-8)
 ```
 @article{narunsky2022pan,
   title={Pan-cancer analyses reveal cancer-type-specific fungal ecologies and bacteriome interactions},
@@ -164,7 +164,19 @@ If you use data or software from this repository, please cite the following <ins
   publisher={Nature Publishing Group}
 }
 ```
-
+- [Nejman _et al_. 2020. _Science_](https://www.science.org/doi/10.1126/science.aay9189)
+```
+@article{nejman2020human,
+  title={The human tumor microbiome is composed of tumor type--specific intracellular bacteria},
+  author={Nejman, Deborah and Livyatan, Ilana and Fuks, Garold and Gavert, Nancy and Zwang, Yaara and Geller, Leore T and Rotter-Maskowitz, Aviva and Weiser, Roi and Mallel, Giuseppe and Gigi, Elinor and others},
+  journal={Science},
+  volume={368},
+  number={6494},
+  pages={973--980},
+  year={2020},
+  publisher={American Association for the Advancement of Science}
+}
+```
 
 ## License
 **Please carefully note the license terms surrounding commercial-use**
