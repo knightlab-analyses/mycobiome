@@ -10,10 +10,10 @@ The final raw and batch-corrected TCGA files that were used for machine learning
 ## Download TCGA fungi+bacterial data
 Since the release of the paper, we have received requests to release the bacterial data alongside the fungi information. For now, we are conservatively posting abundances of Weizmann-overlapping bacteria (cf. `Nejman et al. 2020. Science`) and fungi (this paper, `Narunsky-Haziza et al. 2022. Cell`) at the genus and species levels, since these microbes have multiple layers of evidence in independent cohorts. These count files incorporate the updated host-depletion and read QC methods described in this paper. The following files contain Weizmann-overlapping bacteria and fungi in TCGA:
 
-- TCGA raw genus-level abundances for WIS-overlapping bacteria and fungi (14,494 non-zero samples) (`count_data_genus_raw_WIS_overlapping_fungi_bacteria_14494samples.tsv`)
-- Matching TCGA metadata for genus-level data (14,494 non-zero samples) (`metadata_genus_WIS_overlapping_fungi_bacteria_14494samples.tsv`)
-- TCGA raw species-level abundances for WIS-overlapping bacteria and fungi (12,773 non-zero samples) (`count_data_species_raw_WIS_overlapping_fungi_bacteria_12773samples.tsv`)
-- Matching TCGA metadata for species-level data (12,773 non-zero samples) (`metadata_species_WIS_overlapping_fungi_bacteria_12773samples.tsv`)
+- TCGA raw genus-level abundances for WIS-overlapping bacteria and fungi (14,494 non-zero samples) (`count_data_genus_raw_WIS_overlapping_fungi_bacteria_14494samples.tsv`).
+- Matching TCGA metadata for genus-level data (14,494 non-zero samples) (`metadata_genus_WIS_overlapping_fungi_bacteria_14494samples.tsv`). *Note* that the TCGA case IDs are under the `tcga_case_id` column.
+- TCGA raw species-level abundances for WIS-overlapping bacteria and fungi (12,773 non-zero samples) (`count_data_species_raw_WIS_overlapping_fungi_bacteria_12773samples.tsv`).
+- Matching TCGA metadata for species-level data (12,773 non-zero samples) (`metadata_species_WIS_overlapping_fungi_bacteria_12773samples.tsv`). *Note* that the TCGA case IDs are under the `tcga_case_id` column.
 - Matching taxonomy table at species-level for WIS-overlapping bacteria and fungi (`taxonomy_table_WIS_overlapping_fungi_bacteria.tsv`)
 
 **Note #1:** Subsetting TCGA samples to WIS-overlapping microbes leads to some sample dropout, which is why the sample counts in these files are slightly lower than the 14,495 number posted at the top. 
